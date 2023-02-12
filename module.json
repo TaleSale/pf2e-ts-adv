@@ -1,0 +1,46 @@
+{
+	"id": "pf2e-ts-adv",
+	"title": "PF2E-TS-ADV",
+	"description": "Сборник распаковывающихся приключений от Торговца Сказками",
+	"version": "2.1.0",
+	"relationships": {
+		"systems": [
+		  {
+			"id": "pf2e",
+			"type": "system",
+			"compatibility": {
+			"minimum": "4.7.0"
+			}
+		  }
+		]
+	},
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10",
+		"maximum": "10"
+	},
+	"authors": [
+		{
+		  "name": "TaleSale",
+		  "url": "https://discord.gg/jYvjzn5",
+		  "flags": {}
+		}
+	  ],
+   	"type": "module",
+ 	"styles": ["styles.css"],
+	"dependencies": [],	
+	"languages": [],
+	"packs": [
+		{
+		"label": "Приключения от TS",
+		"type": "Adventure",
+		"name": "priklyucheniya-ot-ts",
+		"path": "packs/priklyucheniya-ot-ts.db",
+		"module": "pf2e-ts-adv",
+		"entity": "Adventure"
+		}
+	],
+	"url": "",
+	"manifest": "",
+	"download": ""
+}

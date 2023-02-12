@@ -1,0 +1,176 @@
+.А
+{
+  text-indent: 3px;
+}
+
+.Зачитка
+{
+  background: #f8f8eb;
+  border-top: 1px solid #C5A924;
+  border-bottom: 1px solid #C5A924;
+  border-left: 1px solid #C5A924;
+  border-right: 1px solid #C5A924;
+  box-shadow: 5px 3px 3px grey;
+  padding: 1em;
+  color: brown
+}
+
+.БлокУлик
+{
+  /*Общее*/
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  /*Улики*/
+  border: 4px solid rgb(0, 88, 151);;
+  background: #f8f8eb
+}
+
+.ШапкаУлик
+{
+  /*Общее*/
+  display: flex;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  /*Улики*/
+  border-bottom: 4px solid rgb(0, 88, 151);;
+  background: linear-gradient( #1c7ec5,black);
+}
+
+.БлокНавиг
+{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px; /*Общее*/
+  /*Навиг*/
+  border: 4px solid #22180f;
+  background: #f8f8eb 
+}
+
+.ШапкаНавиг
+{
+  /*Общее*/
+  display: flex;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  /*Навиг*/
+  border-bottom: 4px solid #22180f;
+  background: linear-gradient( #b2845d,#352517);
+}
+
+.БлокСущ
+{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px; /*Общее*/
+  /*Сущ*/
+  border: 4px solid #5d0000;
+  background: #f8f8eb 
+}
+
+.ШапкаСущ
+{
+  /*Общее*/
+  display: flex;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  /*Сущ*/
+  border-bottom: 4px solid #5d0000;
+  background: linear-gradient( red,black);
+}
+
+.БлокСокр
+{
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px; /*Общее*/
+  /*Сокр*/
+  border: 4px solid #026939;
+  background: #f8f8eb 
+}
+
+.ШапкаСокр
+{
+  /*Общее*/
+  display: flex;
+  margin-bottom: 10px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  /*Сокр*/
+  border-bottom: 4px solid #026939;
+  background: linear-gradient(green,black);
+}
+
+.БлокСтат
+{
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px; /*Общее*/
+  /*Стат*/
+  border: 3px solid black;
+  background: #f8f8eb
+}
+
+.ШапкаСтат
+{
+  /*Общее*/
+  display: flex;
+  margin-bottom: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /*Стат*/
+  border-bottom: 3px solid black;
+  background: #5d0000;
+}
+
+.Окно
+{
+  padding-bottom: 10px;
+  display: block;
+  height: 50px;
+}
+
+.Иконка
+{
+  border-radius: 50%;
+  width: 70px;
+  position: relative;
+  left: -14px;
+  top: -10px;
+}
+
+.Имя
+{
+  color: black;
+  position: relative;
+  top: -5px;
+  font-family: cursive;
+  font-size: large;
+}
+
+.Загол
+{
+  color: whitesmoke;
+  position: relative;
+  top: -5px;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.ТекстБлока
+{
+  margin: 15px;
+}
