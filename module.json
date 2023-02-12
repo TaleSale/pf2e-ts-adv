@@ -40,7 +40,7 @@
 		"entity": "Adventure"
 		}
 	],
-	"url": "",
-	"manifest": "",
-	"download": ""
+	"url": "https://github.com/TaleSale/pf2e-ts-adv",
+	"manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-adv/master/module.json",
+	"download": "https://github.com/TaleSale/pf2e-ts-adv/archive/refs/heads/main.zip"
 }
