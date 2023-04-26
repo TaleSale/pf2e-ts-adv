@@ -1,6 +1,9 @@
 .А
 {
   text-indent: 3px;
+  font: Arial;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .Зачитка
@@ -115,6 +118,10 @@
 .БлокСтат
 {
   border-radius: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -128,7 +135,6 @@
 {
   /*Общее*/
   display: flex;
-  margin-bottom: 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   /*Стат*/
@@ -180,7 +186,7 @@
 {
   color: black;
   position: relative;
-  top: 16px;
+  top: 10px;
   font-family: cursive;
   font-size: large;
 }
