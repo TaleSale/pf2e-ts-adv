@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "2.1.5.2",
+  "version": "2.2.0.0",
   "relationships": {
     "systems": [
       {
@@ -40,6 +40,11 @@
       "flags": {}
     }
   ],
+  "flags": {
+    "pf2e-ts-adv": {
+      "pf2e-art": "modules/pf2e-ts-adv/map.json"
+    }
+  },
   "url": "https://github.com/TaleSale/pf2e-ts-adv",
   "manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-adv/main/module.json",
   "download": "https://github.com/TaleSale/pf2e-ts-adv/archive/refs/heads/main.zip"
