@@ -6451,6 +6451,88 @@
       "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Yniesse_Zenderholm_t.webp"
     }
   },
+  "malevolence-bestiary":{
+    "VgBE6ow0CvsQxFkq": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/Algea_t.svg" 
+		},
+		"Wkn2wZbsNSifAnBh": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Anitoli_Nostraema.webp",
+      "token": "systems/pf2e/icons/default-icons/Anitoli_Nostraema_t.svg" 
+		},
+		"Architect_and_Hunter": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/ _t.svg" 
+		},
+		"Carrion_Vortex": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Corrupted_Nosoi": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"bEFdPjTLtNboaTg2": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Esobok_Ghoul.webp",
+      "token": "systems/pf2e/icons/default-icons/Esobok_Ghoul_t.svg" 
+		},
+		"Haunted_Nosoi": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Ioseff_Xarwin": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"1wb9Vi3V4GDeOBCt": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Ixirizmid.webp",
+      "token": "systems/pf2e/icons/default-icons/Ixirizmid_t.svg" 
+		},
+		"fQClrtmAe3AER0w2": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Lured_to_Ashes.webp",
+      "token": "systems/pf2e/icons/default-icons/Lured_to_Ashes_t.svg" 
+		},
+		"Mouth_of_Tchekuth": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"YSL27Oq2xFIzrq9u": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Nils_Kelveken.webp",
+      "token": "systems/pf2e/icons/default-icons/Nils_Kelveken_t.svg" 
+		},
+		"1XrwqxEW8rUr8238": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Tanglebones.webp",
+      "token": "systems/pf2e/icons/default-icons/Tanglebones_t.svg" 
+		},
+		"JMXNSC7M2SRGZbhy": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Undead_Brain_Collector.webp",
+      "token": "systems/pf2e/icons/default-icons/Undead_Brain_Collector_t.svg" 
+		},
+		"Wrathful_Hatchet": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Xarwin_Caul": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Xarwin_Manor_Phantasm": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Xarwin_Portraits": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"Xarwin_Manifestation": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Algea.webp",
+      "token": "systems/pf2e/icons/default-icons/_t.svg" 
+		},
+		"sdpB7n2LbzVRqrnv": {
+			"actor": "modules/pf2e-ts-adv/art_token/Malevolence/Yianyin.webp",
+      "token": "systems/pf2e/icons/default-icons/Yianyin_t.svg" 
+		}
+  },
   "age-of-ashes-bestiary":{
 		"Accursed Forge-Spurned": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
