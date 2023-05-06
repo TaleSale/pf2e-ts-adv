@@ -6533,6 +6533,262 @@
       "token": "systems/pf2e/icons/default-icons/Yianyin_t.svg" 
 		}
   },
+  "fall-of-plaguestone-bestiary":{
+		"Alchemical_Drudge": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Alchemical_Drudge.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Alchemical_Drudge_t.webp"  
+		},
+		"Bee_Swarm": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bee_Swarm.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bee_Swarm_t.webp"  
+		},
+		"b2PXIdbqdzlkGkeX": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Blood_Ooze.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Blood_Ooze_t.webp"  
+		},
+		"C7Wb70xpG2PvTslg": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bloodlash_Bush.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bloodlash_Bush_t.webp"  
+		},
+		"Caustic_Wolf": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Caustic_Wolf.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Caustic_Wolf_t.webp"  
+		},
+		"Drunken_Farmer": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Drunken_Farmer.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Drunken_Farmer_t.webp"  
+		},
+		"9dUSCjehW90dZalE": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Fiery_Leopard.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Fiery_Leopard_t.webp"  
+		},
+		"1Nr9cgWHMn8KtiXe": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Giant_Lightning_Serpent.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Giant_Lightning_Serpent_t.webp"  
+		},
+		"mTVzzdrinwHbsvqu": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Graytusk.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Graytusk_t.webp"  
+		},
+		"H4yGpC6VuQpszlUl": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Hallod.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Hallod_t.webp"  
+		},
+		"Icy_Rat": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Icy_Rat.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Icy_Rat_t.webp"  
+		},
+		"3h9BvfzrIU6fNxch": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Lord_Nar.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Lord_Nar_t.webp"  
+		},
+		"Mangy_Wolf": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mangy_Wolf.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mangy_Wolf_t.webp"  
+		},
+		"Mutant_Wolf": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mutant_Wolf.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mutant_Wolf_t.webp"  
+		},
+		"Orc_Alchemist": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Orc_Alchemist.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Orc_Alchemist_t.webp"  
+		},
+		"23kCcF391RtapbfJ": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Stone_Horse.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Stone_Horse_t.webp"  
+		},
+		"lPHwAyFAeAhHLNnU": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Amalgam.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Amalgam_t.webp"  
+		},
+		"IU4Gx9vHKMT2KYDq": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Behemoth.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Behemoth_t.webp"  
+		},
+		"h9b23NJBKSACAkWa": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Sculptor.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/The_Sculptor_t.webp"  
+		},
+		"Er9kW7JtUX4zf15Q": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vilree_Eldara.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vilree_Eldara_t.webp"  
+		},
+		"Vine_Lasher": {
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vine_Lasher.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vine_Lasher_t.webp"  
+		}
+  },
+  "crown-of-the-kobold-king-bestiary":{
+    "Albino_Giant_Bat": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Ashen_Guardian": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Avalanche_Doors": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Charge_of_the_Spear_Legion": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"QkoVg6ETUr2XMueM": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Cilios.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Cilios_t.webp"  
+		},
+		"Dark_Talon_Kobold": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"T4ZhpGRLsNT1bKoS": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Darkmantle.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Darkmantle_t.webp"  
+		},
+		"4kAU6bQdEZYCqEh7": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Dismemberment_Table.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Dismemberment_Table_t.webp"  
+		},
+		"BWOdyTjHnV153RDK": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Drazmorg_The_Damned.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Drazmorg_The_Damned_t.webp"  
+		},
+		"Edgrin_Galesong": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Explosive_Crystal_Spheres": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Falling_Debris": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Foolish_Hunter": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"LAButypiGYfsrGis": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Grick.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Grick_t.webp"  
+		},
+		"XH1Wqnxy8Cq9Z5Cn": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Grimbal.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Grimbal_t.webp"  
+		},
+		"bwJ79rNvV7Elia5Q": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Gurtlekep.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Gurtlekep_t.webp"  
+		},
+		"gGtA1Dhiai4jOTte": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Hymmir_Urath.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Hymmir_Urath_t.webp"  
+		},
+		"C5t3ypLIiJGSUMg6": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Id_Ooze.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Id_Ooze_t.webp"  
+		},
+		"dcuPAoJUTKSSFx93": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Jekkajak.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Jekkajak_t.webp"  
+		},
+		"Kapmek": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"s2XZc2b1FaZQDnhN": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Kerrdremak.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Kerrdremak_t.webp"  
+		},
+		"qIOi43L0KcLoqCu6": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Kieragan_Skross.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Kieragan_Skross_t.webp"  
+		},
+		"xDF9jeMsYjrRvuE5": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/King_Merlokrep.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/King_Merlokrep_t.webp"  
+		},
+		"Lekmek": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"GXJ3EeN5MH9muvCh": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Lodestone_Trap.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Lodestone_Trap_t.webp"  
+		},
+		"Loose_Slab": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"LYSdv8QlMgV0U5Zq": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Narlynark.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Narlynark_t.webp"  
+		},
+		"Obscured_Pitfalls": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Pendulum_Blades": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Phantom_Mold": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Pit_of_Toil": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Spike_Thrower": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"2D2sECCnlFT8X8OQ": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Tallow_Guardian.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Tallow_Guardian_t.webp"  
+		},
+		"IYrz3P4rsRr0TnmK": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/The_Disciples.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/The_Disciples_t.webp"  
+		},
+		"The_Last_Crucible": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"rWweGgOu9uJVlnra": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Thoqqua.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Thoqqua_t.webp"  
+		},
+		"AnNKQvx9HlUXN4bD": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Toxic_Furnace.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Toxic_Furnace_t.webp"  
+		},
+		"Trapped_Elevator": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Ulizmilas_Cauldron": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Unsafe_Stairs": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/_t.webp"  
+		},
+		"Erw2pHatcQgUmqop": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Vargouille.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Vargouille_t.webp"  
+		},
+		"IZ34VEavH7xRaaeI": {
+			"actor": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Ygrik.webp",
+      "token": "modules/pf2e-ts-adv/art_token/crown-of-the-kobold-king-bestiary/Ygrik_t.webp"  
+		}
+  },  
   "age-of-ashes-bestiary":{
 		"Accursed Forge-Spurned": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
