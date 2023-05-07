@@ -7210,9 +7210,9 @@
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin_t.webp"  
 		},
-		"Spiked Doorframe": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"SUQJPKt8N7rxx7Q1": {
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Spiked_Doorframe.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Spiked_Doorframe.webp"  
 		},
 		"Spiritbound Aluum": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
