@@ -2,22 +2,22 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "2.2.0.9",
+  "version": "3.0.0.0",
   "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "4.7.0"
-        }
-      }
-    ]
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "5.0.0-beta1"
+				}
+			}
+		]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10",
-    "maximum": "10"
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
   },
   "authors": [
     {
