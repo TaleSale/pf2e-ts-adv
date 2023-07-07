@@ -2,14 +2,14 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "3.0.0.0",
+  "version": "3.0.1",
   "relationships": {
 		"systems": [
 			{
 				"id": "pf2e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "5.0.0-beta1"
+					"minimum": "5.1.0"
 				}
 			}
 		]

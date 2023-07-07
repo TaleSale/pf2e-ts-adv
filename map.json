@@ -6287,6 +6287,216 @@
       }
     }
   },
+  "quest-for-the-frozen-flame-bestiary":{
+    "ovrQ2R9HJJhC1Yij": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Roru.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Roru_t.webp"  
+		},
+    "xDZMFbTuDu4OFgj8": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ardissa_Prendergant.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ardissa_Prendergant_t.webp"  
+		},
+    "TbVMaYNvcXUI5aY8": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ashen_Swale.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ashen_Swale_t.webp"  
+		},
+    "pQMgLVlFeGjScENC": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Azi.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Azi_t.webp"  
+		},
+    "LL3XklJHogUKWDfh": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Bargott.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Bargott_t.webp"  
+		},
+    "PsRObxHMe71zJi8d": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Bone_Warrior.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Bone_Warrior_t.webp"  
+		},
+    "F4bNgQx2NLOwSlBR": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burnbearer.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burnbearer_t.webp"  
+		},
+    "vEfQXwx3qetnYcSI": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Commando.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Commando_t.webp"  
+		},
+    "koxcnymhEMtf0Uye": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Hunter.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Hunter_t.webp"  
+		},
+    "JGvGPeoie5k1fGkv": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Longshield.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Longshield_t.webp"  
+		},
+    "O87CB2RiM0WCDz8P": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Reaver.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Burning_Mammoth_Reaver_t.webp"  
+		},
+    "kxO7gXbpcmY1pi7p": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Calcifda.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Calcifda_t.webp"  
+		},
+    "9LKXjZrmeSjeGseL": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Castoroides.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Castoroides_t.webp"  
+		},
+    "BPZryWdi6LB9N9KC": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Crawling_Hand_Swarm.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Crawling_Hand_Swarm_t.webp"  
+		},
+    "dPJxDpVcDFDQqwWO": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Desiak.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Desiak_t.webp"  
+		},
+    "QdDoqb0RSy1Mer5Q": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Everburning_Mammoth.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Everburning_Mammoth_t.webp"  
+		},
+    "VyXYqiIWYpyx9QJm": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Fiendish_Arboreal.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Fiendish_Arboreal_t.webp"  
+		},
+    "kNMrvb2zDm7tKjVP": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Gathganara.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Gathganara_t.webp"  
+		},
+    "tgUdk3pTQ6yHHLTH": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Giant_Tapir.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Giant_Tapir_t.webp"  
+		},
+    "iEOeCyL10neiaShj": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Giant_Tapir.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Giant_Tapir_t.webp"  
+		},
+    "OeJlR7ZSSc0azABd": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Glyptodon.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Glyptodon_t.webp"  
+		},
+    "EyyCB9QBJKpsap5b": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker_t.webp"  
+		},
+    "T0AapaQCmo5pBSQq": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Groplit.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Groplit_t.webp"  
+		},
+    "7yanFrY21w21ZNFP": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Hegremon.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Hegremon_t.webp"  
+		},
+    "xp9lr0RN2TYqgP5M": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Hobji.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Hobji_t.webp"  
+		},
+    "UGB689LLMK5Vi0Nc": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ivarsa.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ivarsa_t.webp"  
+		},
+    "hNHljzF0xpUBKiA9": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Jesseri_the_Hailstorm.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Jesseri_the_Hailstorm_t.webp"  
+		},
+    "8kGAwppxApSa6vyl": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Kadlaka.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Kadlaka_t.webp"  
+		},
+    "jNv046Jhoq4yEMey": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Lagofir.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Lagofir_t.webp"  
+		},
+    "hh9uR1teglhRRhY8": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Loblobi.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Loblobi_t.webp"  
+		},
+    "QC2noL9T0y8Ny5eU": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Lomok.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Lomok_t.webp"  
+		},
+    "XxKWVyq21NGiDCaR": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Long_Horned_Bison.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Long_Horned_Bison_t.webp"  
+		},
+    "o5apaaqJlL7A48N8": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Long_horned_Bison_Beheaded.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Long_horned_Bison_Beheaded_t.webp"  
+		},
+    "ZZkuo6mOh0SQWC3T": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Megaloceros.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Megaloceros_t.webp"  
+		},
+    "nBoysLyDYIZaaAHP": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Metuak.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Metuak_t.webp"  
+		},
+    "9znaKK6OeZnQ03Wc": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Necrohusk.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Necrohusk_t.webp"  
+		},
+    "r9RTeZGlX8Asicku": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Pakano.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Pakano_t.webp"  
+		},
+    "ZKxZgklb78PULu10": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Pakano_12.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Pakano_12_t.webp"  
+		},
+    "EWT9OXxBuKQLQMHj": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Rime_Sludge.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Rime_Sludge_t.webp"  
+		},
+    "B7O9nFwhHMmCWbQg": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Summer_Hora.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Summer_Hora_t.webp"  
+		},
+    "vQXmk2oNlfVsYK0P": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/SUMMER_HORA_QUEEN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/SUMMER_HORA_QUEEN_t.webp"  
+		},
+    "OpPfAFkJ1ctWAWdq": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Syarstik_Painted_Tiger.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Syarstik_Painted_Tiger_t.webp"  
+		},
+    "RuVQUpUOLAE2x2tY": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Ooze.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Ooze_t.webp"  
+		},
+    "HCtfUGao82L0sVBo": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Mammoth.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Mammoth_t.webp"  
+		},
+    "Z637TaszmZsJTmBZ": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Snatcher.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Snatcher_t.webp"  
+		},
+    "kOLKFJ4Llso96HiD": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Turkek.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Turkek_t.webp"  
+		},
+    "KeOKPlxxBw5m2wly": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Varilyn_Vare_Eridge.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Varilyn_Vare_Eridge_t.webp"  
+		},
+    "zXTacktEPpjUlYr3": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Venexus.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Venexus_t.webp"  
+		},
+    "ZxKGQpbkXVLI7lab": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Venexus_Chosen.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Venexus_Chosen_t.webp"  
+		},
+    "wuV8k7N1cEJBYNbK": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Weykoward.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Weykoward_t.webp"  
+		},
+    "8qtTf1FvvBrcEypA": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Yana_No_Trail.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Yana_No_Trail_t.webp"  
+		},
+    "lJJ81JBAIuI72Fq2": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_Megaloceros.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_Megaloceros_t.webp"  
+		}
+  },
   "lost-omens-mwangi-expanse-bestiary":{
     "N5pG7rsbN1lL1ysb": {
 			"actor": "modules/pf2e-ts-adv/art_token/lost-omens-mwangi-expanse-bestiary/Aigamuxa.webp",
