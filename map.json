@@ -6288,6 +6288,10 @@
     }
   },
   "quest-for-the-frozen-flame-bestiary":{
+    "fnpv7Dg7QJWSdz6z": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Animated_Blade.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Animated_Blade_t.webp"  
+		},
     "ovrQ2R9HJJhC1Yij": {
 			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Roru.webp",
       "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Roru_t.webp"  
@@ -6495,6 +6499,30 @@
     "lJJ81JBAIuI72Fq2": {
 			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_Megaloceros.webp",
       "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_Megaloceros_t.webp"  
+		},
+    "0GArHVfN0VxejVZp": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/bestial/mythological/blindheim.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/bestial/mythological/blindheim.webp"
+		},
+    "UFKiRCIj9ETec46r": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Castoroides.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Castoroides_t.webp"  
+		},
+    "IP3fGAEz3Nw1TzDD": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/bestial/mammalian/moose.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/bestial/mammalian/moose.webp"
+		},
+    "0KrkQLsLX2PPUus7": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_ZombieMammoth.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Zombie_ZombieMammoth_t.webp"  
+		},
+    "3uWNAMSPf0y2Bx0g": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Skeletal_Woolly_Rhinoceros.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Skeletal_Woolly_Rhinoceros_t.webp"  
+		},
+    "2nnCyf8LBxLAWKRE": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ardissa_Porter.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Ardissa_Porter_t.webp"  
 		}
   },
   "lost-omens-mwangi-expanse-bestiary":{
@@ -7515,6 +7543,16 @@
 		"Zuferian": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"
+		}
+  },
+  "npc-gallery":{
+		"QZmckb7O3PNgY7D6": {
+			"actor": "modules/pf2e-ts-adv/art_token/npc-gallery/Laborer_Dockhand.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/Laborer_Dockhand_t.webp"  
+		},
+    "KPUDfkVpemug2gKj": {
+			"actor": "modules/pf2e-ts-adv/art_token/npc-gallery/Criminal_Bandit.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/Criminal_Bandit_t.webp"  
 		}
   }
 }
