@@ -886,32 +886,32 @@
   text-align-last: center;
 }
 
-  .СИЛ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+  .СИЛ {  /* Сила */ /* <span class="СИЛ">Сила</span> */
     color: var(--color-str);
     font-weight: bold;
   }
 
-  .ЛВК {  /* <span class=\"ЛВК\">ЛВК</span> */ /* <span class="ЛВК">ЛВК</span> */
+  .ЛВК {  /* ЛВК */ /* <span class="ЛВК">ЛВК</span> */
     color: var(--color-dex);
     font-weight: bold;
   }
 
-  .ТЕЛ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+  .ТЕЛ {  /* Сила */ /* <span class="СИЛ">Сила</span> */
     color: var(--color-con);
     font-weight: bold;
   }
 
-  .ИНТ {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+  .ИНТ {  /* Сила */ /* <span class="СИЛ">Сила</span> */
     color: var(--color-int);
     font-weight: bold;
   }
 
-  .МУД {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+  .МУД {  /* Сила */ /* <span class="СИЛ">Сила</span> */
     color: var(--color-wis);
     font-weight: bold;
   }
 
-  .ХАР {  /* <span class=\"СИЛ\">Сила</span> */ /* <span class="СИЛ">Сила</span> */
+  .ХАР {  /* Сила */ /* <span class="СИЛ">Сила</span> */
     color: var(--color-cha);
     font-weight: bold;
   }
@@ -921,12 +921,12 @@
     font-weight: bold;
   }
 
-  .СТК {  /* <span class=\"СТК\">Спас.СТК</span> */ /* <span class="СТК">Спас.СТК</span> */
+  .СТК {  /* Спас.СТК */ /* <span class="СТК">Спас.СТК</span> */
     color: #236fa1;
     font-weight: bold;
   }
 
-  .РФЛ {  /* <span class=\"РФЛ\">Спас.РФЛ</span> */ /* <span class="РФЛ">Спас.РФЛ</span> */
+  .РФЛ {  /* Спас.РФЛ */ /* <span class="РФЛ">Спас.РФЛ</span> */
     color: #808000;
     font-weight: bold;
   }
@@ -985,7 +985,7 @@
     padding: 0 0.25em;
   }
 
-  .Признак2 { /* <span class=\"Признак2\">...</span> */
+  .Признак2 { /* `...` */
     background-color: #d9c484;
     display: inline-block;
     margin: 0.1em -0.05em !important;
