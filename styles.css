@@ -1,302 +1,4 @@
-#result .pf-trait-edge{
-    background-color: #d8c384!important;
-    width: 3px!important;
-    display: inline-block!important;
-}
-
-#result .pf-traits{
-    background: #d8c384!important;
-}
-
-#result .pf-trait-size{
-    background: #3a7a58!important;
-}
-
-#result .pf-trait-align{
-    background: #566193!important;
-}
-
-#result .pf-trait-rare{
-    background: #002564!important;
-}
-
-#result .pf-trait-uncommon{
-    background: #98503c!important;
-}
-
-#result .pf-trait-unique{
-    background: #54166d!important;
-}
-
-#result .pf-trait-type{
-    background: #004316!important;
-}
-
-#result .content h1,
-#result .title h1,
-#result .head h1,
-#result .head h2,
-#result .head h3,
-#result .head h4,
-#result .head h5,
-#result .head h6,
-#result .info h1,
-#result .info h3{
-    font-family: 'Taroca'!important;
-    margin-bottom: -0.5rem!important;
-}
-
-#result .content h1{
-    color: #002564!important;
-}
-
-#result .title h1{
-    font-family: 'Taroca'!important;
-}
-
-#result .title h1{
-    color: #D8C384!important;
-    background: #5D0000!important;
-    border-color: #d8c384!important;
-}
-
-#result .head h3,
-#result .head h4{
-    color: #002564!important;
-}
-
-#result .content h2,
-#result .content h3,
-#result .content h4,
-#result .left h1,
-#result .right h1{
-    font-family: 'gin'!important;
-}
-
-#result .content h4{
-    background: #002564!important;
-    color: #EDE3C7!important;
-    position: relative!important;
-    font-size: 1.1rem!important;
-    padding: 0.3rem 0 0.25rem 0.5rem!important;
-    border-radius: 0.75rem 0.75rem 0 0!important;
-    letter-spacing: 0.75px!important;
-}
-#result .content h4::after{
-    position: absolute!important;
-    content: ""!important;
-    left: 0!important;
-    top: 0!important;
-    height: 1.9rem!important;
-    background: transparent!important;
-    width: 100%!important;
-    display: block!important;
-    border-bottom: 1px solid #002564!important;
-}
-#result .content p,
-#result .content li{
-    font-family: 'linotype-sabon'!important;
-}
-
-#result .right p,
-#result .right ul,
-#result .right li,
-#result .right ol,
-#result .right h2{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .content h2{
-    color: #5D0000!important;
-}
-
-#result .content h3{
-    color: #A76652!important;
-}
-
-#result .item h1,
-#result .item h2,
-#result .item h3,
-#result .right h3,
-#result .left h3,
-#result .content h5{
-    font-family: 'ff-good-web-pro-condensed'!important;
-}
-
-#result .item,
-#result .note,
-#result .info{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .note{
-    background: #D1C7B1!important;
-}
-
-#result .note h1,
-#result .note h2,
-#result .note h3,
-#result .note h4,
-#result .note h5,
-#result .note h6{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .head{
-    color: #5D0000!important;
-}
-
-#result .head p{
-    font-family: 'linotype-sabon'!important;
-}
-
-#result .info{
-    background: #5D0000!important;
-    color: #fff!important;
-}
-
-#result .info h3{
-    color: #D8C384!important;
-    font-variant-ligatures: no-common-ligatures!important;
-}
-
-#result .info h4,
-#result .info h6{
-    font-family: 'gin'!important;
-}
-
-#result .info h2,
-#result .info h5,
-#result .item h4,
-#result .item h5,
-#result .item h6{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .info em{
-    font-family: 'linotype-sabon'!important;
-}
-
-#result .info hr{
-    background: #980000!important;
-    border-top-color: #980000!important;
-    border-bottom-color: #980000!important;
-}
-
-#result .head hr{
-    background: #5D0000!important;
-    border-top-color: #5D0000!important;
-    border-bottom-color: #5D0000!important;
-}
-
-#result .column+.column{
-    border-left: 1px solid #F1F0EB!important;
-}
-
-#result .page thead tr th{
-    background: #5D0000!important;
-    color: #fff!important;
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .page tbody tr td{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .page tbody tr:nth-child(odd){
-    background: #EDE3C7!important;
-}
-
-#result .page tbody tr:nth-child(even){
-    background: #F4EEE0!important;
-}
-
-#result .tfoot{
-    font-family: 'ff-good-web-pro'!important;
-    background: #E6D8B0!important;
-}
-
-#result .math{
-    background: #EAE3D8!important;
-    border-top: 2px solid #E0C9C0!important;
-    border-bottom: 2px solid #E0C9C0!important;
-}
-
-#result .math p,
-#result .math h1,
-#result .math h2,
-#result .math h3,
-#result .math h4,
-#result .math h5,
-#result .math h6{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .rules{
-    background: #F0E8D3!important;
-}
-
-#result .sample{
-    background: #EAE3D8!important;
-}
-
-#result .sample h1{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .left,
-#result .right{
-    color: #5D0000!important;
-}
-
-#result .left{
-    border-right: 1px solid #5D0000!important;
-}
-
-#result .left p,
-#result .left ol,
-#result .left ul,
-#result .left li,
-#result .left h2{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-#result .right{
-    border-left: 1px solid #5D0000!important;
-}
-
-#result a{
-    color: rgb(172, 13, 74)!important;
-}
-
-#result a:hover{
-    color: rgb(211, 126, 14)!important;
-}
-
-#result .rules p,
-#result .sample p,
-#result .rules li,
-#result .sample li,
-#result .rules h1,
-#result .rules h2,
-#result .rules h3,
-#result .rules h4,
-#result .rules h5,
-#result .rules h6,
-#result .sample h1,
-#result .sample h2,
-#result .sample h3,
-#result .sample h4,
-#result .sample h5,
-#result .sample h6{
-    font-family: 'ff-good-web-pro'!important;
-}
-
-
-
-
-
-
+/*ЖУРНАЛЫ*/
 .А
 {
   text-indent: 3px;
@@ -514,4 +216,180 @@
 .ТекстБлока
 {
   margin: 15px;
+}
+
+/*АВТО_ОФОРМЛЕНИЕ*/
+
+.ts-sostoyaniya { /* состояния */ /* <span class="Состояния">Состояния</span> */
+    background: rgb(209, 152, 152); /* Цвет фона */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 1px; /* Поле слева */
+    padding-right: 1px; /* Поле справа */
+    border-radius: 1px; /* Уголки */
+}
+  
+.ts-obstoyatelstva {   /* Обстоятельства */
+    background: #c7c789; /* Цвет фона */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 1px; /* Поле слева */
+    padding-right: 1px; /* Поле справа */
+    border-radius: 1px; /* Уголки */
+}
+  
+.ts-predmeta {   /* <span class=\"ts-predmeta\">Предмета</span> */
+    background: #a2dddd; /* Цвет фона */
+    padding: 1px; /* Поля вокруг текста */
+    padding-left: 1px; /* Поле слева */
+    padding-right: 1px; /* Поле справа */
+    border-radius: 1px; /* Уголки */
+}
+
+.ts-effect {
+    background: #20fa20; /* green background */
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.ts-krituspeh {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: green;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+.ts-uspeh {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: blue;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+.ts-proval {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: #ff4500;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+.ts-kritproval {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: red;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+.ts-priznak {
+  align-items: center;
+  background-color: #5e0000;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
+  color: #fff;
+  display: inline-block;
+  font-family: Roboto,sans-serif;
+  font-size: 0.625rem;
+  font-weight: 500;
+  letter-spacing: .05em;
+  min-height: 1.5em;
+  padding: 1px;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+.ts-uron {
+  background: pink;
+  white-space: nowrap;
+}
+
+.ts-kb {
+  background: hsla(0,0%,100%,.75);
+  color: #5e0000;
+}
+
+.ts-oz {
+  background: hsla(0,0%,100%,.75);
+  color: rgb(56, 117, 56);
+}
+
+.ts-shma {
+  background: rgb(145, 145, 224);
+  font-family: Roboto,sans-serif;;
+}
+
+.ts-mhk { /* Мод.Харак.Колд. */
+  background: #b186c5; /* Цвет фона */
+  font-family: Roboto,sans-serif;;
+}
+
+.ts-narrativ { /* <p class="Нарратив"> */
+  background-color: #f0ad72;
+}
+
+.ts-utochnit { /* <blockquote> <p class="Уточнить"> */
+  background-color: #fbeeb8;
+}
+
+.ts-razv { /* <p class="Развеять"> */
+  background-color: #e4a3e4;
+}
+
+.ts-immun { /* <p class="Иммун"> */
+  background-color: #bfedd2;
+}
+
+.ts-spisok { /* _ <span class="Список"> */
+  color: darkblue;
+  font-weight: bold;
 }
