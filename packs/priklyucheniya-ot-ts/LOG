@@ -1,14 +1,14 @@
-2023/07/24-15:56:46.690 3670 Recovering log #372
-2023/07/24-15:56:46.815 3670 Delete type=0 #372
-2023/07/24-15:56:46.815 3670 Delete type=3 #370
-2023/07/24-16:41:17.539 3510 Level-0 table #377: started
-2023/07/24-16:41:17.688 3510 Level-0 table #377: 91780 bytes OK
-2023/07/24-16:41:17.712 3510 Delete type=0 #375
-2023/07/24-16:41:17.713 3510 Manual compaction at level-0 from '!adventures!Mu5wAvBUN7iu8qJB' @ 72057594037927935 : 1 .. '!adventures!zC8IbxmS06M76mCN' @ 0 : 0; will stop at '!adventures!Ste5glOGc2pxk0EY' @ 15 : 1
-2023/07/24-16:41:17.713 3510 Compacting 1@0 + 1@1 files
-2023/07/24-16:41:17.913 3510 Generated table #378@0: 9 keys, 2124832 bytes
-2023/07/24-16:41:17.913 3510 Compacted 1@0 + 1@1 files => 2124832 bytes
-2023/07/24-16:41:17.937 3510 compacted to: files[ 0 2 0 0 0 0 0 ]
-2023/07/24-16:41:17.937 3510 Delete type=2 #365
-2023/07/24-16:41:17.937 3510 Delete type=2 #377
-2023/07/24-16:41:17.937 3510 Manual compaction at level-0 from '!adventures!Ste5glOGc2pxk0EY' @ 15 : 1 .. '!adventures!zC8IbxmS06M76mCN' @ 0 : 0; will stop at (end)
+2023/07/25-10:27:55.577 ad0 Recovering log #381
+2023/07/25-10:27:55.748 ad0 Delete type=0 #381
+2023/07/25-10:27:55.749 ad0 Delete type=3 #379
+2023/07/25-17:44:44.060 3a88 Level-0 table #386: started
+2023/07/25-17:44:44.252 3a88 Level-0 table #386: 160188 bytes OK
+2023/07/25-17:44:44.418 3a88 Delete type=0 #384
+2023/07/25-17:44:44.726 3a88 Manual compaction at level-0 from '!adventures!8pdmWVIKqlpLEhZg' @ 72057594037927935 : 1 .. '!adventures!zC8IbxmS06M76mCN' @ 0 : 0; will stop at '!adventures!XSTJUB2JoQa7Ypnr' @ 17 : 1
+2023/07/25-17:44:44.726 3a88 Compacting 1@0 + 1@1 files
+2023/07/25-17:44:45.136 3a88 Generated table #387@0: 10 keys, 2164304 bytes
+2023/07/25-17:44:45.136 3a88 Compacted 1@0 + 1@1 files => 2164304 bytes
+2023/07/25-17:44:45.296 3a88 compacted to: files[ 0 2 0 0 0 0 0 ]
+2023/07/25-17:44:45.310 3a88 Delete type=2 #378
+2023/07/25-17:44:45.310 3a88 Delete type=2 #386
+2023/07/25-17:44:45.312 3a88 Manual compaction at level-0 from '!adventures!XSTJUB2JoQa7Ypnr' @ 17 : 1 .. '!adventures!zC8IbxmS06M76mCN' @ 0 : 0; will stop at (end)
