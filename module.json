@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "relationships": {
 		"systems": [
 			{
@@ -27,9 +27,17 @@
     }
   ],
   "type": "module",
-	"scripts": ["main.js","settings.js","formatting.js","replace-phrases.js","formattingArray.js","replacePhrasesArray.js"],
+	"scripts": ["main.js","babele.js","variantArray.js","settings.js","formatting.js","replace-phrases.js","formattingArray.js","replacePhrasesArray.js"],
  	"styles": ["styles.css"],
   "packs": [
+    {
+      "label": "Техническая Папка",
+      "type": "Item",
+      "name": "tehnicheskaya-papka",
+      "path": "packs/tehnicheskaya-papka",
+      "system": "pf2e",
+      "flags": {}
+    },
     {
       "label": "Приключения от TS",
       "type": "Adventure",
