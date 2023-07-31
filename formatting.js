@@ -61,10 +61,6 @@ function applyTextStyling(element) {
   element.find("a i.fa-solid.fa-person-rays").addClass("ts-effect");
   element.find("a i.fas.fa-code").addClass("ts-macros");
 
-  // Скрытие элементов с классом ts-narrativ, если элемент содержит класс "message-content"
-  if (element.hasClass("message-content")) {
-    element.find(".ts-narrativ").css("display", "none");
-  }
 }
 
 $(document).ready(function () {
