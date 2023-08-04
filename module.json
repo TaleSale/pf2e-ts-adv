@@ -9,7 +9,7 @@
 				"id": "pf2e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "5.1.0"
+					"minimum": "5.1.1"
 				}
 			}
 		]
