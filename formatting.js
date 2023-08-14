@@ -31,21 +31,6 @@ function applyTextStyling(element) {
       }
     }
   });
-
-  // Преобразование span с классом ts-narrativ в абзац
-  element.find("p span.ts-narrativ").each(function () {
-    const span = $(this);
-    const paragraph = $("<p>").addClass("ts-narrativ").html(span.html());
-    span.replaceWith(paragraph);
-  });
-
-  // Применение стиля ts-utochnit к абзацам
-  element.find("blockquote").addClass("ts-utochnit");
-  
-  // Применение стиля ts-razv к абзацам с text-align: left;
-  element.find("p").filter(function () {
-    return $(this).css("text-align") === "left";
-  }).addClass("ts-razv");
   
   // Удаление префикса "ts-" из классов стилей внутри абзацев заголовков
   element.find("h1, h2, h3, h4, h5, h6").each(function () {
