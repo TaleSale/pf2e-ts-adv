@@ -16,7 +16,7 @@ function applyTextStyling(element) {
           let replacedMatch = match;
 
           // Если стиль требует обрамления в спан и текст содержит обрамляющие символы
-          if ((style === "ts-priznak" || style === "ts-razmer" || style === "ts-obich" || style === "ts-neobich" || style === "ts-redk" || style === "ts-unik" || style === "ts-obuchen" || style === "ts-ekspert" || style === "ts-master" || style === "ts-legenda") && (replacedMatch.startsWith("`") || replacedMatch.startsWith("'") || replacedMatch.endsWith("\"")) && (replacedMatch.endsWith("`") || replacedMatch.endsWith("'") || replacedMatch.endsWith("\""))) {
+          if ((style === "ts-priznak" || style === "ts-mirovoz" || style === "ts-razmer" || style === "ts-obich" || style === "ts-neobich" || style === "ts-redk" || style === "ts-unik" || style === "ts-obuchen" || style === "ts-ekspert" || style === "ts-master" || style === "ts-legenda") && (replacedMatch.startsWith("`") || replacedMatch.startsWith("'") || replacedMatch.endsWith("\"")) && (replacedMatch.endsWith("`") || replacedMatch.endsWith("'") || replacedMatch.endsWith("\""))) {
             const word = replacedMatch.slice(1, -1);
             return `<span class="${style}">${word}</span>`;
           }
