@@ -36,49 +36,52 @@ function __PF2E_TS_hasTranslation(_this, wrapped, data) {
     return wrapped(data);
 };
 
+function __PF2E_TS_hasTranslation(_this, wrapped, data) {
+    if (!!_this.translations[data._id]) return wrapped(data);
+
+    if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
+        const match = /(.+)\s\((At Will|Constant)\)$/.exec(data.name);
+        if (match) {
+            const name = match[1].trim();
+            if (!!_this.translations[name]) return true;
+        }
+    }
+    
+    return wrapped(data);
+};
+
 function __PF2E_TS_translationsFor(_this, wrapped, data) {
     if (!!_this.translations[data._id]) return wrapped(data);
 
     if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
-        // Проверим, что скобки заканчиваются на ")"
-        if (data.name[data.name.length - 1] !== ')') {
-            return wrapped(data); // Вернуть исходные данные без применения вариантов
-        }
-        const match = /([A-Za-z0-9\s^(]+)\(([A-Za-z0-9\s,\(\)]+)\)/.exec(data.name);
-        let [name, variant] = match ? [match[1], match[2]] : [];
-        if (name && variant && name?.length > 0 && variant?.length > 0) {
-            name = name.trim();
+        const match = /(.+)\s\((At Will|Constant)\)$/.exec(data.name);
+        if (match) {
+            const name = match[1].trim();
             if (!!_this.translations[name]) {
-                variant = variant.trim();
+                const variant = match[2].trim();
                 let data = Object.assign({}, _this.translations[name]);
                 const translatedName = data.name;
-                let translatedVariant = '';
-
-                const variants = variant.replaceAll('  ', ' ').replaceAll(', ', ',')
-                                        .replaceAll(',', ')(').replaceAll(') (', ')(').split(')(');
-
+                const translatedVariant = `(${variant})`;
+                
                 if (data['variants'] || _this.variants) {
-                    for (let variant of variants) {
-                        let variantData = data['variants'] ? data['variants'].filter(v => v.id === variant)[0] || false : false;
-                        if (!variantData) variantData = _this.variants?.filter(v => v.id === variant)[0] || false;
-                        if (variantData) {
-                            if (data.id) delete data.id;
-                            if (variantData?.name) translatedVariant = translatedVariant === '' 
-                                                                         ? variantData.name
-                                                                         : `${translatedVariant}) (${variantData.name}`;
-                            
-                            data = Object.assign(data, variantData);
+                    for (let v of data['variants'] || _this.variants || []) {
+                        if (v.id === variant) {
+                            data = Object.assign(data, v);
+                            break;
                         }
                     }
                 }
-                data.name = `${translatedName} (${(translatedVariant !== '' ? translatedVariant : variant)})`;
-                
+
+                data.name = `${translatedName} ${translatedVariant}`;
                 return data;
-            } else return wrapped(data);
-        } else return wrapped(data);
+            }
+        }
     }
+
     return wrapped(data);
 }
+
+
 
 Hooks.on('init', () => {
     if (typeof libWrapper === 'function') {

@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "4.1.7",
+  "version": "4.2.0",
   "relationships": {
 		"systems": [
 			{
@@ -27,7 +27,7 @@
     }
   ],
   "type": "module",
-	"scripts": ["main.js","babele.js","variantArray.js","settings.js","formatting.js","replace-phrases.js","formattingArray.js","replacePhrasesArray.js"],
+	"scripts": ["priznakinfo.js","priznakinfoArray.js","babele.js","variantArray.js","settings.js","formatting.js","replace-phrases.js","formattingArray.js","replacePhrasesArray.js"],
  	"styles": ["styles.css"],
   "packs": [
     {

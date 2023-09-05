@@ -148,6 +148,8 @@ const replacePhrasesArray = [
   { pattern: /Эффект:/gi, replacement: "Эф.:" },
 
 
+
+
 ];
 
 // Верните массив formattingArray

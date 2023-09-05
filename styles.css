@@ -1,3 +1,35 @@
+/*кнопки*/
+.ai-button-wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+  margin-top: -20px; /* Измените это значение для настройки вертикального положения */
+}
+
+.ai-button {
+  font-size: 12px;
+  padding: 2px 2px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+}
+
+.ai-button.active {
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
 /*ЖУРНАЛЫ*/
 .А
 {
