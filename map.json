@@ -7785,5 +7785,55 @@
       "actor": "modules/pf2e-ts-adv/beginner-box/portraits-bestiary/zombie-shambler.webp",
       "token": "modules/pf2e-ts-adv/beginner-box/tokens-bestiary/zombie-shambler.webp"
     }
+  },
+  "the-enmity-cycle-bestiary":{
+		"uo8oScVY4NLRCuo2": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Amar.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Amar_t.webp"  
+		},
+    "xfc7t2z45drvafdK": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Jimbilin.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Jimbilin_t.webp"  
+		},
+    "CriBWDFr8l2SPDVO": {
+			"actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/gnoll-cultist.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/humanoid/gnoll-cultist.webp"  
+		},
+    "5d0K1rXEMZkILjxu": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Mechanical_Assistant.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Mechanical_Assistant_t.webp"  
+		},
+    "Ziy3L849K2Fayesa": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Noolik.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Noolik_t.webp"  
+		},
+    "gBjrp5li1LCbIO8X": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Sand_Wolf.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Sand_Wolf_t.webp"  
+		},
+    "257nqvaDItlttlG2": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Scorching_Sun_Cultist.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Scorching_Sun_Cultist_t.webp"  
+		},
+    "hKXwujYX7CDtsZ5P": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Scrapborn.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Scrapborn_t.webp"  
+		},
+    "TLA7lez6eCf2Qp8v": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Seddek.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Seddek_t.webp"  
+		},
+    "rCbzflYQbsqxlmiG": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Usij_Cultist.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Usij_Cultist_t.webp"  
+		},
+    "qsgUxFmUK9rohj0M": {
+			"actor": "modules/pf2e-ts-adv/art_token/portraits/divine/agathion/vulpinal.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/divine/agathion/vulpinal.webp"  
+		},
+    "xwEcqgkn9Fvrhpv7": {
+			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Zridi.webp",
+      "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Zridi_t.webp"  
+		}
   }
 }

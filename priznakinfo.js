@@ -1,13 +1,9 @@
 Hooks.on('renderChatMessage', (app, html, data) => {
-  replaceWordsInText(html);
-});
-
-function replaceWordsInText(element) {
-  // Определите слова, которые вы хотите заменить и соответствующие им описания
+  // Определите слова, которые вы хотите заменить и соответствующие им описания с регулярными выражениями
   const wordMappings = {
     'аазимар': 'PF2E.TraitDescriptionAasimar',
     'преграждение': 'PF2E.TraitDescriptionAbjuration',
-    'кислота': 'PF2E.TraitDescriptionAcid',
+    'кислот[а-я]*': 'PF2E.TraitDescriptionAcid',
     'примесь': 'PF2E.TraitDescriptionAdditive',
     'примесь 0': 'PF2E.TraitDescriptionAdditive',
     'примесь 1': 'PF2E.TraitDescriptionAdditive',
@@ -27,7 +23,7 @@ function replaceWordsInText(element) {
     'асы': 'PF2E.TraitDescriptionAesir',
     'последствие': 'PF2E.TraitDescriptionAftermath',
     'агатион': 'PF2E.TraitDescriptionAgathion',
-    'быстрое': 'PF2E.TraitDescriptionAgile',
+    'быстр[а-я]*': 'PF2E.TraitDescriptionAgile',
     'воздух': 'PF2E.TraitDescriptionAir',
     'алхимический': 'PF2E.TraitDescriptionAlchemical',
     'алхимик': 'PF2E.TraitDescriptionAlchemist',
@@ -44,7 +40,7 @@ function replaceWordsInText(element) {
     'артефакт': 'PF2E.TraitDescriptionArtifact',
     'прикрепляемый': 'PF2E.TraitDescriptionAttached',
     'атака': 'PF2E.TraitDescriptionAttack',
-    'слуховой': 'PF2E.TraitDescriptionAuditory',
+    'слухов[а-я]*': 'PF2E.TraitDescriptionAuditory',
     'аура': 'PF2E.TraitDescriptionAura',
     'автоматон': 'PF2E.TraitDescriptionAutomaton',
     'азаркети': 'PF2E.TraitDescriptionAzarketi',
@@ -96,7 +92,7 @@ function replaceWordsInText(element) {
     'оковы проклятия': 'PF2E.TraitDescriptionCursebound',
     'проклятый': 'PF2E.TraitDescriptionCursed',
     'дэймон': 'PF2E.TraitDescriptionDaemon',
-    'тьма': 'PF2E.TraitDescriptionDarkness',
+    'тьм[а-я]*': 'PF2E.TraitDescriptionDarkness',
     'смертельное': 'PF2E.TraitDescriptionDeadly',
     'смертельное 2d10': 'PF2E.TraitDescriptionDeadly',
     'смертельное 2d12': 'PF2E.TraitDescriptionDeadly',
@@ -159,7 +155,7 @@ function replaceWordsInText(element) {
     'исчадие': 'PF2E.TraitDescriptionFiend',
     'воин': 'PF2E.TraitDescriptionFighter',
     'figurehead': 'PF2E.TraitDescriptionFigurehead',
-    'точное': 'PF2E.TraitDescriptionFinesse',
+    'точн[а-я]*': 'PF2E.TraitDescriptionFinesse',
     'финишер': 'PF2E.TraitDescriptionFinisher',
     'конечный': 'PF2E.TraitDescriptionFinite',
     'огонь': 'PF2E.TraitDescriptionFire',
@@ -215,7 +211,7 @@ function replaceWordsInText(element) {
     'ифрит': 'PF2E.TraitDescriptionIfrit',
     'иллюзия': 'PF2E.TraitDescriptionIllusion',
     'импульс': 'PF2E.TraitDescriptionImpulse',
-    'недееспособность': 'PF2E.TraitDescriptionIncapacitation',
+    'недееспособн[а-я]*': 'PF2E.TraitDescriptionIncapacitation',
     'инкарнация': 'PF2E.TraitDescriptionIncarnate',
     'бестелесный': 'PF2E.TraitDescriptionIncorporeal',
     'неминуемый': 'PF2E.TraitDescriptionInevitable',
@@ -248,11 +244,11 @@ function replaceWordsInText(element) {
     'принципиальный': 'PF2E.TraitDescriptionLawful',
     'леший': 'PF2E.TraitDescriptionLeshy',
     'свет': 'PF2E.TraitDescriptionLight',
-    'языковой': 'PF2E.TraitDescriptionLinguistic',
+    'языков[а-я]*': 'PF2E.TraitDescriptionLinguistic',
     'литания': 'PF2E.TraitDescriptionLitany',
     'людоящер': 'PF2E.TraitDescriptionLizardfolk',
     'lozenge': 'PF2E.TraitDescriptionLozenge',
-    'магический': 'PF2E.TraitDescriptionMagical',
+    'магическ[а-я]*': 'PF2E.TraitDescriptionMagical',
     'магус': 'PF2E.TraitDescriptionMagus',
     'воздействие': 'PF2E.TraitDescriptionManipulate',
     'механический': 'PF2E.TraitDescriptionMechanical',
@@ -383,28 +379,34 @@ function replaceWordsInText(element) {
     'волшебник': 'PF2E.TraitDescriptionWizard',
     'дерево': 'PF2E.TraitDescriptionWood',
       // Добавьте другие слова и их описания здесь
-  };
+    };
 
-  // Общий класс для всех слов
-  const commonClass = 'paizo-style tag tooltipstered';
+    // Общий класс для всех слов
+    const commonClass = 'paizo-style tag tooltipstered';
 
-  // Перебираем текстовые элементы и заменяем слова
-  element.each((index, el) => {
-      const text = $(el).html();
+    // Поиск всех текстовых элементов в сообщении
+    const textElements = html.find('.message-content');
 
-      // Заменяем слова внутри `` и оставляем `` внутри оформления
-      const replacedText = text.replace(/`([^`]+)`/g, (match, content) => {
-          const description = wordMappings[content.toLowerCase()];
-          if (description) {
-              // Если слово найдено в mapping, заменяем его на соответствующий HTML код
-              return `<span class="${commonClass}" data-trait="" data-description="${description}">\`${content}\`</span>`;
-          } else {
-              // Возвращаем исходное слово внутри ``, если оно не найдено в mapping
-              return `\`${content}\``;
-          }
-      });
+    // Перебираем текстовые элементы и заменяем слова
+    textElements.each((index, element) => {
+        const text = $(element).html();
 
-      // Заменяем исходный текст на измененный
-      $(el).html(replacedText);
-  });
-}
+        // Заменяем слова внутри `` и оставляем `` внутри оформления
+        const replacedText = text.replace(/`([^`]+)`/g, (match, content) => {
+            // Проверяем каждое слово на соответствие регулярным выражениям
+            for (const wordPattern in wordMappings) {
+                const description = wordMappings[wordPattern];
+                const regex = new RegExp(wordPattern, 'i'); // 'i' флаг игнорирует регистр
+                if (content.match(regex)) {
+                    // Если слово соответствует регулярному выражению, заменяем его на соответствующий HTML код
+                    return `<span class="${commonClass}" data-trait="" data-description="${description}">\`${content}\`</span>`;
+                }
+            }
+            // Возвращаем исходное слово внутри ``, если оно не найдено в mapping
+            return `\`${content}\``;
+        });
+
+        // Заменяем исходный текст на измененный
+        $(element).html(replacedText);
+    });
+});
