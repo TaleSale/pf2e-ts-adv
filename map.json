@@ -7555,7 +7555,7 @@
       "token": "modules/pf2e-ts-adv/art_token/npc-gallery/Criminal_Bandit_t.webp"  
 		}
   },
-    "menace-under-otari-bestiary": {
+  "menace-under-otari-bestiary": {
     "cZDiyluplFqRxmGy": {
       "actor": "modules/pf2e-ts-adv/beginner-box/portraits-bestiary/animated-armor.webp",
       "token": "modules/pf2e-ts-adv/beginner-box/tokens-bestiary/animated-armor.webp"
@@ -7834,6 +7834,56 @@
     "xwEcqgkn9Fvrhpv7": {
 			"actor": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Zridi.webp",
       "token": "modules/pf2e-ts-adv/art_token/the-enmity-cycle-bestiary/Zridi_t.webp"  
+		}
+  },
+  "night-of-the-gray-death-bestiary":{
+		"OVpZhrhP87gQiLGO": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Chakanaj.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Chakanaj_t.webp"  
+		},
+		"vgWT4zQJkohRkuSI": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Conqueror_Worm.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Conqueror_Worm_t.webp"  
+		},
+    "H2yR0dc1ztkwvOQl": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Death.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Death_t.webp"  
+		},
+    "7jALXqInrmh428DW": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Assassin.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Assassin_t.webp"  
+		},
+    "aufhOvDz7EBjbxaQ": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Director_General.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Director_General_t.webp"  
+		},
+    "s7lkV69f0RRHwFEU": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Enforcer.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Gray_Gardener_Enforcer_t.webp"  
+		},
+    "dwOxqAJibYABcbW0": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Guillotine_Golem.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Guillotine_Golem_t.webp"  
+		},
+    "BWkN2cJBi6LtQJs3": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Keznin_Nevarmo.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Keznin_Nevarmo_t.webp"  
+		},
+    "M2X9UUVefBA8x9gk": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Mateena_Lumlin.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Mateena_Lumlin_t.webp"  
+		},
+    "w7Y6zn3wRabuOdNv": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Miss_Whisper.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Miss_Whisper_t.webp"  
+		},
+    "rxfr3POtEtwqg5F4": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Riekanoy.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Riekanoy_t.webp"  
+		},
+    "sBA27jit7zaH14tK": {
+			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Zintaya_Calbieste.webp",
+      "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Zintaya_Calbieste_t.webp"  
 		}
   }
 }
