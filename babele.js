@@ -1,3 +1,18 @@
+// Функция для проверки наличия перевода
+function checkTranslation(_this, data) {
+    if (!!_this.translations[data._id]) return true;
+
+    if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
+        const match = /(.+)\s\((At Will|Constant)\)$/.exec(data.name);
+        if (match) {
+            const name = match[1].trim();
+            if (!!_this.translations[name]) return true;
+        }
+    }
+
+    return false;
+}
+
 async function __PF2E_TS_init(_this, wrapped, ...args) {
     await wrapped();
 
@@ -18,70 +33,35 @@ async function __PF2E_TS_init(_this, wrapped, ...args) {
 };
 
 function __PF2E_TS_hasTranslation(_this, wrapped, data) {
-    if (!!_this.translations[data._id]) return wrapped(data);
-
-    // Добавим дополнительную проверку на скобки, чтобы они заканчивались на ")"
-    if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
-        // Проверим, что скобки заканчиваются на ")"
-        if (data.name[data.name.length - 1] !== ')') {
-            return true; // Вернуть true, чтобы не применять варианты к имени без закрывающей скобки
-        }
-        const match = /([A-Za-z0-9\s^(]+)\(([A-Za-z0-9\s,\(\)]+)\)/.exec(data.name);
-        let [name, variant] = match ? [match[1], match[2]] : [];
-        if (name && variant && name?.length > 0 && variant?.length > 0) {
-            name = name.trim();
-            if (!!_this.translations[name]) return true;
-        } else return wrapped(data);
-    }
-    return wrapped(data);
-};
-
-function __PF2E_TS_hasTranslation(_this, wrapped, data) {
-    if (!!_this.translations[data._id]) return wrapped(data);
-
-    if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
-        const match = /(.+)\s\((At Will|Constant)\)$/.exec(data.name);
-        if (match) {
-            const name = match[1].trim();
-            if (!!_this.translations[name]) return true;
-        }
-    }
-    
-    return wrapped(data);
+    return checkTranslation(_this, data) ? true : wrapped(data);
 };
 
 function __PF2E_TS_translationsFor(_this, wrapped, data) {
-    if (!!_this.translations[data._id]) return wrapped(data);
-
-    if (data.name?.length > 1 && data.name.indexOf('(') > -1 && data.name.indexOf(')') > -1) {
+    if (checkTranslation(_this, data)) {
         const match = /(.+)\s\((At Will|Constant)\)$/.exec(data.name);
         if (match) {
             const name = match[1].trim();
-            if (!!_this.translations[name]) {
-                const variant = match[2].trim();
-                let data = Object.assign({}, _this.translations[name]);
-                const translatedName = data.name;
-                const translatedVariant = `(${variant})`;
-                
-                if (data['variants'] || _this.variants) {
-                    for (let v of data['variants'] || _this.variants || []) {
-                        if (v.id === variant) {
-                            data = Object.assign(data, v);
-                            break;
-                        }
+            const variant = match[2].trim();
+            let data = Object.assign({}, _this.translations[name]);
+            const translatedName = data.name;
+            const translatedVariant = `(${variant})`;
+            
+            if (data['variants'] || _this.variants) {
+                for (let v of data['variants'] || _this.variants || []) {
+                    if (v.id === variant) {
+                        data = Object.assign(data, v);
+                        break;
                     }
                 }
-
-                data.name = `${translatedName} ${translatedVariant}`;
-                return data;
             }
+
+            data.name = `${translatedName} ${translatedVariant}`;
+            return data;
         }
     }
 
     return wrapped(data);
 }
-
-
 
 Hooks.on('init', () => {
     if (typeof libWrapper === 'function') {
