@@ -109,7 +109,8 @@
   margin-bottom: 5px; /*Общее*/
   /*Сущ*/
   border: 4px solid #5d0000;
-  background: #f8f8eb 
+  background: #f8f8eb;
+  clear: both; 
 }
 
 .ШапкаСущ
@@ -122,6 +123,7 @@
   /*Сущ*/
   border-bottom: 4px solid #5d0000;
   background: linear-gradient( red,black);
+  clear: both; 
 }
 
 .БлокСокр
@@ -161,7 +163,8 @@
   margin-bottom: 5px; /*Общее*/
   /*Стат*/
   border: 3px solid black;
-  background: #f8f8eb
+  background: #f8f8eb;
+  clear: both;
 }
 
 .ШапкаСтат
@@ -173,6 +176,7 @@
   /*Стат*/
   border-bottom: 3px solid black;
   background: #5d0000;
+  clear: both; 
 }
 
 .БлокОпыт
@@ -242,8 +246,26 @@
 /********** картинка справа **********/
 .ПРАВ {
   float: right;
-  margin: 0 0 1em 1em;
+  margin: 0 0 1em 0em;
+  width: 20%;
+  margin-top: 2px; /* Вертикальный отступ от предыдущего объекта */
+
 }
+
+.ПРАВ img {
+  height: auto !important;
+  border: none; /* Убираем рамку у изображения */
+}
+
+.ПРАВ figcaption {
+  white-space: nowrap; /* Запрет переноса текста на следующую строку */
+  text-overflow: ellipsis; /* Отображение многоточия, если текст не помещается */
+  font-size: 10px;
+  padding: 5px;
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+}
+
 
 .ТекстБлока
 {
