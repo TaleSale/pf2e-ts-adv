@@ -85,7 +85,8 @@
   margin-bottom: 5px; /*Общее*/
   /*Навиг*/
   border: 4px solid #22180f;
-  background: #f8f8eb 
+  background: #f8f8eb;
+  clear: both;  
 }
 
 .ШапкаНавиг
@@ -98,6 +99,7 @@
   /*Навиг*/
   border-bottom: 4px solid #22180f;
   background: linear-gradient( #b2845d,#352517);
+  clear: both; 
 }
 
 .БлокСущ
@@ -249,7 +251,7 @@
   margin: 0 0 1em 0em;
   width: 20%;
   margin-top: 2px; /* Вертикальный отступ от предыдущего объекта */
-
+  margin-left: 2px
 }
 
 .ПРАВ img {

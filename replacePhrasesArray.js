@@ -147,8 +147,14 @@ const replacePhrasesArray = [
   { pattern: /(?<=(^))Эффект Заклинан[а-яё]*:/gi, replacement: "Эф.Закл.:" },
   { pattern: /Эффект:/gi, replacement: "Эф.:" },
 
+//Опечатки Имён
 
-
+  { pattern: /(Лирейн|Лирайн)/gi, replacement: "Лирэйн" },
+  { pattern: /(Кальмонт)/gi, replacement: "Калмонт" },
+  { pattern: /(Аудар|Айудар)/gi, replacement: "Айдар" },
+  { pattern: /(Альтарейн|Альтэрейн)/gi, replacement: "Альтерейн" },
+  { pattern: /(Барзилай)/gi, replacement: "Барзиллай" },
+  { pattern: /Мванги/gi, replacement: "Муанги" },
 
 ];
 

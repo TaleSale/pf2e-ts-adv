@@ -350,31 +350,31 @@
 
 		"Pack Attack": {
 			"name": "Нападение Стаей",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительный урона существам, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (1d4)": {
 			"name": "Нападение Стаей (1d4)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 1d4 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (1d6)": {
 			"name": "Нападение Стаей (1d6)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 1d6 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (1d8)": {
 			"name": "Нападение Стаей (1d8)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 1d8 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (2d4)": {
 			"name": "Нападение Стаей (2d4)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 2d4 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (2d6)": {
 			"name": "Нападение Стаей (2d6)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 2d6 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		"Pack Attack (2d8)": {
 			"name": "Нападение Стаей (2d8)",
-			"description": "@Localize[PF2E.NPC.Abilities.Glossary2.PackAttack]"
+			"description": "Существо наносит Ударами дополнительные 2d8 урона, которые находятся в досягаемости хотя бы 2 союзников"
 		},
 		
 		
@@ -1122,7 +1122,7 @@
 		},
 		"Draconic Momentum": {
 			"name": "Импульс Дракона",
-			"description": "<p>Дракон *перезаряжает* свою Атаку Дыханием всякий раз, когда наносит Крит.Успех @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}.</p>"
+			"description": "<p>Дракон перезаряжает свою Атаку Дыханием всякий раз, когда наносит Крит.Успех @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}</p>"
 		},
 		"Tighten Coils": {
 			"name": "Сжать Кольца",
@@ -1243,6 +1243,13 @@
 		"Wing Deflection": {
 			"name": "Отражение Крылом",
 			"description": "<div>Триггер: Существо является целью атаки</span></div>\n<hr />\n<p>Существо поднимает крылья, получая против спровоцир. атаки бонус Обстоятельства +2 к КБ. Если существо в момент атаки в @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Полете}, то оно снижается на 10ФТ после завершения <span class=\"Атак\">атаки.</p>"
+		},
+
+
+
+		"Spurred by Death": {
+			"name": "Раззадоренный Смертью",
+			"description": "<div>Триггер: Союзник существа в 30ФТ от него опускается в 0 ОЗ</div><hr><p>Существо совершает @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} или @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}</p>"
 		}
 	}
 }

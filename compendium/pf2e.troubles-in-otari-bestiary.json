@@ -1,0 +1,610 @@
+{
+	"label": "Неприятности в Отари",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"prependAdjective": "prototypeToken.prependAdjective",
+		"appendNumber": "prototypeToken.appendNumber",
+		"actorLink": "prototypeToken.actorLink"
+		},
+	"variants": [
+		{
+			"id": "Imprecise",
+			"name": "Неточный"
+		}
+	],
+	"entries": {
+		"Brimstone Rat": {
+			"name": "Серная Крыса",
+			"tokenName": "Серная Крыса",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Bugbear Marauder": {
+			"name": "Багбер-Разбойник",
+			"tokenName": "Багбер-Разбойник",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Hargrit Leadbuster": {
+			"name": "Харгрит Забоец",
+			"tokenName": "Харгрит Забоец",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Kobold Trapmaster": {
+			"name": "Кобольд-Ловчий",
+			"tokenName": "Кобольд-Ловчий",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Kotgar Leadbuster": {
+			"name": "Котгар Забоец",
+			"tokenName": "Котгар Забоец",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Kurnugian Jackal": {
+			"name": "Курнугийский Шакал",
+			"tokenName": "Курнугийский Шакал",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Morgrym Leadbuster": {
+			"name": "Моргрим Забоец",
+			"tokenName": "Моргрим Забоец",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Nightmare Terrain": {
+			"name": "Кошмарная Местность",
+			"tokenName": "Кошмарная Местность",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Omblin Leadbuster": {
+			"name": "Омблин Забоец",
+			"tokenName": "Омблин Забоец",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Orc Commander": {
+			"name": "Орк-Командир",
+			"tokenName": "Орк-Командир",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Orc Scrapper": {
+			"name": "Орк-Солдат",
+			"tokenName": "Орк-Солдат",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Scalliwing": {
+			"name": "Змеекрыл",
+			"tokenName": "Змеекрыл",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Stinkweed Shambler": {
+			"name": "Смердотравный Ходок",
+			"tokenName": "Смердотравный Ходок",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Collapsing Porch": {
+			"name": "Прогнивший Помост",
+			"tokenName": "Прогнивший Помост",
+			"img": "systems/pf2e/icons/spells/shatter.webp",
+			"tokenImg": "systems/pf2e/icons/spells/shatter.webp",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<p>или КС_0 после срабатывания</p>",
+			"hdescription": "<p>Наступившее на прогнивший участок существо провалится и упадёт с высоты 6ФТ на острые щепки и камни внизу</p>",
+			"hdisable": "<p>@Check[type:crafting|dc:12] (Обучен) для замены или перекрытия прогнивших досок</p><p>@Check[type:survival|dc:15] (Обучен) для обрушения досок с безопасного расстояния</p>",
+			"hroutine": "",
+			"hreset": "<p>Если участок помоста обвалился, существа по-прежнему могут упасть в образовавшуюся дыру, если помост не будет починен</p>",
+			"items": {
+				"71j8rIykcKntxLJQ": {
+					"name": "Обрушение",
+					"description": "<p>Вошедшее в выделенную область существо проваливается сквозь прогнившие доски и падает на острые щепки и твёрдые камни, получая @Damage[(1d4)[piercing],(1d6)[bludgeoning]]</p><p>Существо может совершить реакцию @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, чтобы избежать падения и урона.</p>"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Magic Starknives Trap": {
+			"name": "Магические Ножи-Звезды",
+			"tokenName": "Магические Ножи-Звезды",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Tongues of Flame": {
+			"name": "Языки Пламени",
+			"tokenName": "Языки Пламени",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Viper Urn": {
+			"name": "Горшок с Гадюкой",
+			"tokenName": "Горшок с Гадюкой",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Web Lurker Noose": {
+			"name": "Петля Паутинника",
+			"tokenName": "Петля Паутинника",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		}
+	}
+}
