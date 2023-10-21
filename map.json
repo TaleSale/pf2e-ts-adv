@@ -7948,5 +7948,61 @@
 			"actor": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Zintaya_Calbieste.webp",
       "token": "modules/pf2e-ts-adv/art_token/night-of-the-gray-death-bestiary/Zintaya_Calbieste_t.webp"  
 		}
+  },
+  "troubles-in-otari-bestiary": {
+    "rRSIqZ5g3QRfaAQ0": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/orc-warchief.webp",
+      "token": {
+        "img": "modules/pf2e-ts-adv/art_token/tokens/humanoid/orc-warchief.webp",
+        "scale": 1.5
+      }
+    },
+    "MTI298bhLGYktyZX": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/orc-brute.webp",
+      "token": {
+        "img": "modules/pf2e-ts-adv/art_token/tokens/humanoid/orc-brute.webp",
+        "scale": 1.5
+      }
+    },
+    "5iOgKbhW9zVnV1cr": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Bugbear_Marauder.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Bugbear_Marauder_t.webp"
+    },
+    "l7wng1EXY7np8Hcu": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Olli.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Olli_t.webp"
+    },
+    "fhItdltCmcAZkvcI": {
+      "actor": "modules/pf2e-ts-adv/in-otari/kobold.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/kobold_t.webp"
+    },
+    "PhLxqnAIhCovfcXy": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Kotgar_Leadbuster.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Kotgar_Leadbuster_t.webp"
+    },
+    "4GZsTkvuYADpcdmV": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Kurnugian_Jackal.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Kurnugian_Jackal_t.webp"
+    },
+    "lTVgdXuSv2B0yVVW": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Morgrym_Leadbuster.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Morgrym_Leadbuster_t.webp"
+    },
+    "m4jitI3J1QkjJq3H": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Omblin_Leadbuster.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Omblin_Leadbuster_t.webp"
+    },
+    "3Pa5JoY9PYdV5x1e": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Brimstone_Rat.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Brimstone_Rat_t.webp"
+    },
+    "6Ut7YjjLZADMU7NY": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Hargrit_Leadbuster.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Hargrit_Leadbuster_t.webp"
+    },
+    "TIX9yDasefwJ4PxI": {
+      "actor": "modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler.webp",
+      "token": "modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler_t.webp"
+    }
   }
 }
