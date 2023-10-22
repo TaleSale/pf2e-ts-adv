@@ -33,8 +33,7 @@
 /*ЖУРНАЛЫ*/
 .А
 {
-  text-indent: 3px;
-  font: Arial;
+  text-indent: 5px;
   text-align: justify;
   text-align-last: left;
 }
@@ -556,4 +555,9 @@
 .ts-spisok { /* _ <span class="Список"> */
   color: darkblue;
   font-weight: bold;
+}
+
+.highlighted-text {
+  color: rgb(153, 102, 7);
+  text-decoration: underline;
 }

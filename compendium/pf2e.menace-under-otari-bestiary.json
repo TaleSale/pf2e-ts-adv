@@ -121,7 +121,7 @@
 			"items": {
 				"jmPDVPebOQ3XVOwA": {
 					"name": "Рывок Кабана",
-					"description": "<p>Кабан дважды совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, а затем совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Бивнем. Если он совершил `движение` не менее чем на 20ФТ, он получает бонус обстоятельства +2 к броску атаки</p>"
+					"description": "<p>Кабан дважды совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, а затем совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Бивнем. Если он совершил `<u>движение</u>` не менее чем на 20ФТ, он получает бонус обстоятельства +2 к броску атаки</p>"
 				},
 				"113": {
 					"name": "111",
@@ -219,7 +219,7 @@
 			"items": {
 				"LJKNy957UOv4LqE5": {
 					"name": "Изменение Формы",
-					"description": "<p>Доппельгангер принимает специфический облик любого `маленького` или `среднего` гуманоида, которого он видел. Это не меняет скорости передвижения Доппельгангера, бонусов к атаке и урону от его ударов, но может изменить тип наносимого им урона (обычно на Дробящий).</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+					"description": "<p>Доппельгангер принимает специфический облик любого `<u>маленького</u>` или `<u>среднего</u>` гуманоида, которого он видел. Это не меняет скорости передвижения Доппельгангера, бонусов к атаке и урону от его ударов, но может изменить тип наносимого им урона (обычно на Дробящий).</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
 				},
 				"fIAhNhYo8hJML5xU": {
 					"name": "Чтение Разума",
@@ -227,7 +227,7 @@
 				},
 				"0lvwb1cNAaOUc6Be": {
 					"name": "Конец Притворства",
-					"description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `движение` рядом с ним или использует против него @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>"
+					"description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `<u>движение</u>` рядом с ним или использует против него @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>"
 				},
 				"111": {
 					"name": "111",
@@ -320,7 +320,7 @@
 			"items": {
 				"DsvyLX53TeuZHMQ3": {
 					"name": "Когтистые Лапы",
-					"description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `движение`, Горгулья может использовать свою реакцию, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>"
+					"description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `<u>движение</u>`, Горгулья может использовать свою реакцию, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>"
 				},
 				"9bomxaBEHSLvRrkq": {
 					"name": "Статуя",
@@ -379,7 +379,7 @@
 				},
 				"rvraBop9oOSwcjkq": {
 					"name": "Резкий Прыжок",
-					"description": "<p>Гуль прыгает вплоть до половины своей Скорости. Это `движение` не провоцирует реакции.</p>"
+					"description": "<p>Гуль прыгает вплоть до половины своей Скорости. Это `<u>движение</u>` не провоцирует реакции.</p>"
 				},
 				"9TCF9GcaMoTKkPSj": {
 					"name": "Паралич",
@@ -443,7 +443,7 @@
 			"items": {
 				"Odl9UZ1OKOYG044E": {
 					"name": "Спуск на Паутине",
-					"description": "<p>Гиг.Паук совершает `движение` строго вниз на расстояние до 40ФТ, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он Спуск на Паутине, не считается уроном от падения.</p><div data-visibility=\"gm\"><p>Существо может @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} рассечь паутину (КБ 20, 8 ОЗ), из-за чего Гиг.Паук падает</p></div>"
+					"description": "<p>Гиг.Паук совершает `<u>движение</u>` строго вниз на расстояние до 40ФТ, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он Спуск на Паутине, не считается уроном от падения.</p><div data-visibility=\"gm\"><p>Существо может @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} рассечь паутину (КБ 20, 8 ОЗ), из-за чего Гиг.Паук падает</p></div>"
 				},
 				"vnaySgTDfC0slaHW": {
 					"name": "Яд Паука-Охотника",
@@ -566,7 +566,7 @@
 			"items": {
 				"94P2S8OyxiovGujz": {
 					"name": "Хвост-Хлыст",
-					"description": "<p>Триггер: Враг в пределах досягаемости Жала/Хвоста использует действие `движения` или покидает квадрат в пределах досягаемости Жала/Хвоста во время действия `движения`, которое оно использует</p><hr><p>Вы совершаете @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцир. врагу своим Жалом/Хвостом со штрафом -2. Если @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, существо прерывает спровоцировавшее действие `движения`</p>"
+					"description": "<p>Триггер: Враг в пределах досягаемости Жала/Хвоста использует действие `<u>движения</u>` или покидает квадрат в пределах досягаемости Жала/Хвоста во время действия `<u>движения</u>`, которое оно использует</p><hr><p>Вы совершаете @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцир. врагу своим Жалом/Хвостом со штрафом -2. Если @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, существо прерывает спровоцировавшее действие `<u>движения</u>`</p>"
 				},
 				"d5UuF56WuHzskPO4": {
 					"name": "Драконье неистовство",
@@ -634,7 +634,7 @@
 			"items": {
 				"GsQeeSV97T6FPvoY": {
 					"name": "Атака Дыханием",
-					"description": "<p>Адская Гончая выдыхает пламя, наносящее всем существам в @Template[type:cone|distance:15] @Damage[4d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:19|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}. Если гончая получила бы урон огнем или будет целью `огненного` эффекта, то ее <strong>Атака Дыханием</strong> перезаряжается</p><section class=\"secret\"><p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p></section>"
+					"description": "<p>Адская Гончая выдыхает пламя, наносящее всем существам в @Template[type:cone|distance:15] @Damage[4d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:19|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}. Если гончая получила бы урон огнем или будет целью `<u>огненного</u>` эффекта, то ее <strong>Атака Дыханием</strong> перезаряжается</p><section class=\"secret\"><p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p></section>"
 				},
 				"rj9VxT0ANFzZgmXI": {
 					"name": "Урон Злом",
@@ -709,7 +709,7 @@
 			"items": {
 				"0qvSsLdTulsncbsi": {
 					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `движением`. Он должен закончить это `движение` в пространстве находящемся не рядом с врагом.</p>"
+					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
 				},
 				"vTjkwNzpCJmsbg6R": {
 					"name": "Короткий меч"
@@ -731,7 +731,7 @@
 			"items": {
 				"B1zHLf1i3W3pgrBz": {
 					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `движением`. Он должен закончить это `движение` в пространстве находящемся не рядом с врагом.</p>"
+					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
 				},
 				"Mcbgf9KdTTBPuio6": {
 					"name": "Быстрая Ловушка",
@@ -765,7 +765,7 @@
 			"items": {
 				"dF7ibA1On3Nvjxqk": {
 					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд-воин рядом с хотя бы 1 врагом</p><hr><p>Кобольд-воин совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `движением`. Он должен закончить это `движение` в пространстве находящемся не рядом с врагом.</p>"
+					"description": "<p>Требование: Кобольд-воин рядом с хотя бы 1 врагом</p><hr><p>Кобольд-воин совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
 				},
 				"yDIuApGqKF4695Oq": {
 					"name": "Копье"
@@ -815,7 +815,7 @@
 				},
 				"M3QwWIU2rzRHWndo": {
 					"name": "Имитировать Объект",
-					"description": "<p>Мимик принимает форму любого объекта `среднего` размера. Это не изменяет его текстуру или общий размер, но может изменить его расцветку и внешний вид. Чтобы определить, что объект является существом, требуется проверка @Check[type:perception|dc:28]</p>"
+					"description": "<p>Мимик принимает форму любого объекта `<u>среднего</u>` размера. Это не изменяет его текстуру или общий размер, но может изменить его расцветку и внешний вид. Чтобы определить, что объект является существом, требуется проверка @Check[type:perception|dc:28]</p>"
 				},
 				"91iOrkVbzeP7cK2M": {
 					"name": "Клейкость",
@@ -864,7 +864,7 @@
 			"items": {
 				"yeHohyJSYfiTwghO": {
 					"name": "Боевой клич",
-					"description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `оркам` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>"
+					"description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `<u>оркам</u>` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>"
 				},
 				"fI8bsqTQlNTlSpdF": {
 					"name": "Кувалда"
@@ -929,7 +929,7 @@
 			"items": {
 				"qCmKPruRObzVL1Dr": {
 					"name": "Визжащее Нападение",
-					"description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `движения`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>"
+					"description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `<u>движения</u>`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>"
 				},
 				"vTXaShzYmcNbRjzk": {
 					"name": "Леденящий Кровь Визг",
@@ -957,7 +957,7 @@
 				},
 				"AGjtcz0cAWzBXlEx": {
 					"name": "Аура Неудачи",
-					"description": "<p>Существа, кроме `животных`, `гремлинов` и `гноллов`, находящиеся в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:20]{20}, становятся крайне невезучими. Они должны совершить @Check[type:will|dc:16] с эффектом `неудачи`</p><p>Успех: Существо получает временный иммунитет к Ауре Неудачи на 24 часа</p><p>Провал: Существо совершает все проверки с `неудачей`, когда он находится в Ауре Неудачи</p><hr><p>Несколько пагвампи не создают никакого усиленного эффекта</p>"
+					"description": "<p>Существа, кроме `<u>животных</u>`, `<u>гремлинов</u>` и `<u>гноллов</u>`, находящиеся в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:20]{20}, становятся крайне невезучими. Они должны совершить @Check[type:will|dc:16] с эффектом `<u>неудачи</u>`</p><p>Успех: Существо получает временный иммунитет к Ауре Неудачи на 24 часа</p><p>Провал: Существо совершает все проверки с `<u>неудачей</u>`, когда он находится в Ауре Неудачи</p><hr><p>Несколько пагвампи не создают никакого усиленного эффекта</p>"
 				},
 				"kFgfAbXaJbI8otfZ": {
 					"name": "kFgfAbXaJbI8otfZ"
@@ -997,7 +997,7 @@
 			"items": {
 				"mdqK7RuSjtezVyS8": {
 					"name": "Волна Грязи",
-					"description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `движения` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>"
+					"description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `<u>движения</u>` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>"
 				},
 				"112": {
 					"name": "111",
@@ -1028,7 +1028,7 @@
 				},
 				"ACHlnYzXVxizzqPw": {
 					"name": "Уязвимость к Свету",
-					"description": "<p>Объект, отбрасывающий `магический` `свет` (как например, от заклинания @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Свет}) считается `магическим` при использовании для атаки Тени</p>"
+					"description": "<p>Объект, отбрасывающий `<u>магический</u>` `<u>свет</u>` (как например, от заклинания @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Свет}) считается `<u>магическим</u>` при использовании для атаки Тени</p>"
 				},
 				"0Qt9ULbGzJV8ZG3W": {
 					"name": "Порождение Тени",
@@ -1036,7 +1036,7 @@
 				},
 				"Kjifw1jgDvfmrEGU": {
 					"name": "Кража Тени",
-					"description": "<p>Требования: <strong>Тень</strong> своим предыдущим действием попала по `живому` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} теневой руки</p><hr><p><strong>Тень</strong> тянет тень существа, делая его @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}. Оно накапливается вместе с другими состояниями ослаблен от <strong>Теней</strong>, до максимального ослаблен 4.</p><p>Если это увеличивает у существа значение состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 3} или более, то тень цели отделяется от ее тела (см. @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.0Qt9ULbGzJV8ZG3W])</p><hr><p>Состояние ослабления от Кражи Тени снижается каждый час на 1</p>"
+					"description": "<p>Требования: <strong>Тень</strong> своим предыдущим действием попала по `<u>живому</u>` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} теневой руки</p><hr><p><strong>Тень</strong> тянет тень существа, делая его @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}. Оно накапливается вместе с другими состояниями ослаблен от <strong>Теней</strong>, до максимального ослаблен 4.</p><p>Если это увеличивает у существа значение состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 3} или более, то тень цели отделяется от ее тела (см. @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.0Qt9ULbGzJV8ZG3W])</p><hr><p>Состояние ослабления от Кражи Тени снижается каждый час на 1</p>"
 				},
 				"0QWVJ7Of8cQNKp0N": {
 					"name": "Скольжение в Тенях",
@@ -1153,7 +1153,7 @@
 			"items": {
 				"YIHoSZN2nTp139Dg": {
 					"name": "Проскользнуть",
-					"description": "<p>Триггер: Существо завершает свое `движение` рядом с гадюкой или внутри ее пространства</p><hr><p>Гадюка совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} или @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} вплоть до 10ФТ. Она должна завершить это `движение` в месте, которое не в пределах 5ФТ от врага. Это `движение` не провоцирует реакции.</p>"
+					"description": "<p>Триггер: Существо завершает свое `<u>движение</u>` рядом с гадюкой или внутри ее пространства</p><hr><p>Гадюка совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} или @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} вплоть до 10ФТ. Она должна завершить это `<u>движение</u>` в месте, которое не в пределах 5ФТ от врага. Это `<u>движение</u>` не провоцирует реакции.</p>"
 				},
 				"TnaXi3v3iBDjotwd": {
 					"name": "Яд Гадюки",
@@ -1327,7 +1327,7 @@
 			"items": {
 				"x8uwJOVGskq8pjOH": {
 					"name": "Круговая Атака",
-					"description": "<p>Воздушный Ястреб совершает @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} на половину своей скорости, затем совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Крыльями, затем снова пролетает на половину своей скорости и возвращается в исходное положение. Вторая половина этого `движения` не провоцирует реакций.</p><div>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</div>"
+					"description": "<p>Воздушный Ястреб совершает @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} на половину своей скорости, затем совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Крыльями, затем снова пролетает на половину своей скорости и возвращается в исходное положение. Вторая половина этого `<u>движения</u>` не провоцирует реакций.</p><div>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</div>"
 				},
 				"112": {
 					"name": "111",
