@@ -36,24 +36,11 @@ $(document).ready(function () {
     });
   }
 
-  // Применить стили к контенту журнала при загрузке страницы
-  const journalContent = $(".journal-entry-page .journal-page-content");
-  applyTextStyling(journalContent);
+  applyTextStyling($(".journal-entry-page .journal-page-content"));
 
-  // Добавление хука для динамического содержания журнала
-  const observer = new MutationObserver(function (mutations, observer) {
-    mutations.forEach(function (mutation) {
-      if (
-        $(mutation.target).hasClass("journal-entry-page") &&
-        !$(mutation.target).hasClass("ts-styled") // Проверка, чтобы избежать повторного применения стилей
-      ) {
-        const pageContent = $(mutation.target).find(".journal-page-content");
-        applyTextStyling(pageContent);
-        $(mutation.target).addClass("ts-styled"); // Добавление класса для пометки, что стили уже применены
-      }
-    });
+  $(document).on('DOMNodeInserted', '.journal-entry-page:not(.ts-styled)', function () {
+    const $this = $(this);
+    applyTextStyling($this.find(".journal-page-content"));
+    $this.addClass("ts-styled");
   });
-
-  const config = { childList: true, subtree: true };
-  observer.observe(document.body, config);
 });

@@ -6788,7 +6788,7 @@
 		}
   },
   "fall-of-plaguestone-bestiary":{
-		"Alchemical_Drudge": {
+		"yFfT9yPbUzldlhxN": {
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Alchemical_Drudge.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Alchemical_Drudge_t.webp"  
 		},
@@ -6828,7 +6828,7 @@
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Hallod.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Hallod_t.webp"  
 		},
-		"Icy_Rat": {
+		"EhtODTbFdElXSyXX": {
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Icy_Rat.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Icy_Rat_t.webp"  
 		},
@@ -6840,11 +6840,11 @@
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mangy_Wolf.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mangy_Wolf_t.webp"  
 		},
-		"Mutant_Wolf": {
+		"WV8sdgARGVUb39WM": {
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mutant_Wolf.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Mutant_Wolf_t.webp"  
 		},
-		"Orc_Alchemist": {
+		"X0AJV2Zfj2d6rab5": {
 			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Orc_Alchemist.webp",
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Orc_Alchemist_t.webp"  
 		},
@@ -6869,8 +6869,8 @@
       "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vilree_Eldara_t.webp"  
 		},
 		"wBCpq9pX4NZFXE0T": {
-			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bloodlash_Bush.webp",
-      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Bloodlash_Bush_t.webp"  
+			"actor": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vine_Lasher.webp",
+      "token": "modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Vine_Lasher_t.webp"  
 		}
   },
   "crown-of-the-kobold-king-bestiary":{
