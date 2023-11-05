@@ -882,20 +882,32 @@
 			}
 		},
 		"Fiendish Arboreal": {
-			"name": "Fiendish Arboreal",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
-			"prependAdjective": true,
+			"name": "Демонический Древень",
+			"tokenName": "Демонический Древень",
+			"UUID": "VyXYqiIWYpyx9QJm",
 			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"svh3YWWgNYDh2wu5": {
+					"name": "Каменный Длинный Меч"
+				},
+				"dD0COaIGpOldIcFD": {
+					"name": "Удар щитом"
+				},
+				"cZc6wNhJDpipF2uK": {
+					"name": "Блок щитом",
+					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+				},
+				"ZWzIyAxYv8ApHu3K": {
+					"name": "Толкание щитом",
+					"description": "<p>Древень совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, а затем наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Щитом. Если атака попадает, цель отталкивается на 10ФТ</p>"
+				},
+				"uRZywk7870Tfgxnp": {
+					"name": "Уязвимость к Топорам",
+					"description": "<p>Древень получает дополнительно 5 урона от топоров.</p>"
 				},
 				"112": {
 					"name": "111",
@@ -932,46 +944,52 @@
 			}
 		},
 		"Varilyn \"Vare\" Eridge": {
-			"name": "Varilyn \"Vare\" Eridge",
-			"tokenName": "",
-			"UUID": "",
+			"name": "Вайрилин \"Вари\" Эридж",
+			"tokenName": "Вари",
+			"UUID": "KeOKPlxxBw5m2wly",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"xva8z2crc3wufebd": {
+					"name": "Короткий меч"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"lni5q2o480bbdedu": {
+					"name": "Арбалет"
 				},
-				"113": {
-					"name": "111",
-					"description": "111"
+				"mcipuwao7ju2gyi0": {
+					"name": "Направляющие Слова",
+					"description": "<p>Вари указывает на слабость существа в радиусе 30ФТ. Варе и все союзники, которые могут слышать или видеть ее, получают +1 бонус состояния к броскам атаки и урона против этого существа до начала следующего хода Вари. Варе добавляет дополнительные 1d6 точного урона к своим атакам (безоружным и с оружием), которые попадают&nbsp;по этому существу, в течение этого времени.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.uqjx1bwYduHwwC7d]</p>"
+				},
+				"vzvxgptv07mr7nxf": {
+					"name": "vzvxgptv07mr7nxf",
+					"description": "<p>Когда Вари собирается бросать инициативу через Восприятие или Выживание, он может предупредить своих союзников с помощью свободного действия. Вари визуально или звуком предупреждает союзников, давая им +1 бонус обстоятельства к их броскам инициативы. В зависимости от того, как он предупреждает союзников, данное действие получает признак `слуховой` или `визуальный`.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.UiISDbCjK6AUDsll]</p>"
+				},
+				"rmn49yp285q8zsoa": {
+					"name": "Создание силков",
+					"description": "<p>Вари может использовать навык Ремесла, чтобы создавать следующие ловушки:</p><ul><li>@UUID[Compendium.pf2e.equipment-srd.Item.AFX1V0Go9DqPWBlN]{Силок-тревога}</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.Km4lSOsyrip5q6iD]{Мешающий силок}</li><li>@UUID[Item.KU2JO7IMcC5smgSQ]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.oplQpQSTyTvHDDtq]{Метящий силок}</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.XcD8p1o71tPohZWT]{Сигнальный силок}</li><li>@UUID[Item.AeCQ9LTrhlwhenxQ] и @UUID[Item.m2QlxJWfKBuwCpX4]</li></ul><p>Вари может создавать до четырех ловушек игнорирую требования материальных компонентов для их создания ежедневно, использовав 3 действия @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы установить каждую из них</p>"
 				}
 			}
 		},
 		"Zombie Megaloceros": {
-			"name": "Zombie Megaloceros",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
-			"prependAdjective": true,
+			"name": "Зомби Большерогого",
+			"tokenName": "Зомби Большерогого",
+			"UUID": "lJJ81JBAIuI72Fq2",
 			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"385vxush4j2p4hh2": {
+					"name": "Яростный Рывок",
+					"description": "<p>Большерогий совершает дважды @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} и наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} копытом в конце `движения`. Если удар попадает, Большерогий Лось наносит дополнительно @Damage[2d4[bludgeoning]]</p>"
+				},
+				"xQwUVlH4hSbZ8gXZ": {
+					"name": "Медленный",
+					"description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
 				},
 				"112": {
 					"name": "111",
@@ -984,24 +1002,22 @@
 			}
 		},
 		"Crawling Hand Swarm": {
-			"name": "Crawling Hand Swarm",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
+			"name": "Рой Рук",
+			"tokenName": "Рой Рук",
+			"UUID": "BPZryWdi6LB9N9KC",
 			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"9o47ekgkdc945ugj": {
+					"name": "Заткнуть",
+					"description": "<p><strong>Триггер</strong>: Существо в пространстве роя совершает @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} с `вербальным` компонентом или совершаете действие с `языковыми` или `слуховым`</p><hr><p>Рой Рук зажимают рот спровоцир. существа, не давая ему произнести ни слова. Спровоцир. существо должно пройти @Check[type:reflex|dc:22], иначе спровоцир. действие будет прервано</p>"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"ywlwy311xye2c52k": {
+					"name": "Удары Роя",
+					"description": "<p>Каждый враг в пространстве Роя Рук получают @Damage[3d6[slashing]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:20|basic:true]</p><p>Провал: Вы падаете @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]</p>"
 				},
 				"113": {
 					"name": "111",
@@ -1010,16 +1026,14 @@
 			}
 		},
 		"Necrohusk": {
-			"name": "Necrohusk",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
+			"name": "Некрохус",
+			"tokenName": "Некрохус",
+			"UUID": "9znaKK6OeZnQ03Wc",
 			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
-			"description": "",
+			"description": "<div class=\"А\"><p>`редкий` `нейтрал_зло` `средний` `нежить`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Necrohusk.webp\"></figure><p>Некрохус - это копошащиеся неживые чудовища, создаваемые, когда гуманоида целенаправленно превращают в новое существо в ходе некромантических экспериментов. В отличие от флэшворпов, потенциальные некрохусы никогда не выживают после этой процедуры. После оживления они становятся, звероподобными существами, беспрекословно выполняющими приказы своего создателя.</p><p>Создание некрохуса - невероятно сложное занятие, чреватое ошибками. В результате большинства попыток получаются комки бесполезной, гнилой жижи или неправильно сформированная нежить, не более опасная, чем обычный зомби. Расходы на время, подопытных и дорогостоящие компоненты заклинаний приводят некоторых начинающих некромантов к выводу, что результаты не стоят риска. Иногда заклинателям удается задействовать в процессе силу Негативного Плана, что снижает денежные затраты, но значительно повышает опасность, часто вызывая смертельную обратную реакцию, приводящую к гибели создателя и появлению некрохуса без хозяина.</p><p>Среди сутаки только Ашен Свейл и его лейтенанты Турке и Ази обладают достаточными навыками и знаниями для регулярного создания некрохусов, хотя интересы Турке часто уводят его в сторону от столь жутких занятий. Некрохусы создаются из добровольцев культа Ашен Свейла или из предателей-сутаки, которых Ашен Свейл хочет наказать страшной участью.</p><div class=\"БлокНавиг\"><div class=\"ШапкаНавиг\"><h2 class=\"Загол\">Дальнейшие Эксперименты</h2></div><div class=\"ТекстБлока\"><p>Некрохусы бывают от маленьких до больших и часто обладают альтернативными способами передвижения и дополнительными способностями. Подходящие способности включают @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.KOnVQPlRY1CqcJXy]{Кровоточащий} и @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.1gsgecz7rhvHeiCX]{Бесовской}, @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.P5YTG6I8ci4lwhZ1]{Кровавый} и @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.W77QhVNE46WDyMXi]{Взрывная смерть}, @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.ipGBYIXk4u47Mp1D]{Поедание} и @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.CxiEpXt7Gw3tSIOh]{Аура гниения}. Некрохус с дополнительными способностями должен быть выше уровнем, чем без них.</p></div></div></div>",
 			"items": {
 				"111": {
 					"name": "111",
@@ -1030,6 +1044,14 @@
 					"description": "111"
 				},
 				"113": {
+					"name": "111",
+					"description": "111"
+				},
+				"114": {
+					"name": "111",
+					"description": "111"
+				},
+				"115": {
 					"name": "111",
 					"description": "111"
 				}
@@ -1598,7 +1620,7 @@
 			"name": "Tar Zombie Predator"
 		},
 		"Yana No-trail": {
-			"name": "Yana No-trail"
+			"name": "Ян Безхвостый"
 		},
 		"Everburning Mammoth": {
 			"name": "Everburning Mammoth"
