@@ -1,3 +1,8 @@
-2023/11/04-20:50:32.063 26f0 Recovering log #1472
-2023/11/04-20:50:32.191 26f0 Delete type=0 #1472
-2023/11/04-20:50:32.192 26f0 Delete type=3 #1471
+2023/11/08-07:54:03.058 34b4 Recovering log #1498
+2023/11/08-07:54:03.114 34b4 Delete type=0 #1498
+2023/11/08-07:54:03.116 34b4 Delete type=3 #1496
+2023/11/08-09:18:54.891 2d90 Level-0 table #1503: started
+2023/11/08-09:18:54.891 2d90 Level-0 table #1503: 0 bytes OK
+2023/11/08-09:18:54.941 2d90 Delete type=0 #1501
+2023/11/08-09:18:54.941 2d90 Manual compaction at level-0 from '!adventures!8pdmWVIKqlpLEhZg' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
+2023/11/08-09:18:54.941 2d90 Manual compaction at level-1 from '!adventures!8pdmWVIKqlpLEhZg' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
