@@ -1,0 +1,435 @@
+{
+	"label": "Ползучая Смерть",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"prependAdjective": "prototypeToken.prependAdjective",
+		"appendNumber": "prototypeToken.appendNumber",
+		"actorLink": "prototypeToken.actorLink"
+		},
+	"variants": [
+		{
+			"id": "Imprecise",
+			"name": "Неточный"
+		}
+	],
+	"entries": {
+		"Ahvothian": {
+			"name": "Ахвотианин",
+			"tokenName": "Ахвотианин",
+			"UUID": "wgeuaYe2fbGNg42z",
+			"prependAdjective": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<section class=\"А\"><p>`Необычный` `Хаот_Зло` `Средний` `Исчадье`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/Slithering/Ahvothian.webp\"></figure><p>Эти злобные и коварные бестии населяют Ахвот-Кор — царство джунглей, динозавров и беспощадной жестокости. Они похожи на гуманоидных динозавров с узкой головой и доинными зубами, как у тероподов, и тяжёлыми мощными задними ногами, как у завроподов. Они мастера выслеживания добычи и выживания, отлично ориентируются в джунглях, и чаще всего их можно встретить на охоте или в укреплённых руинах. Ахвотиане удивительно легко находят взаимопонимание с рептилиями и часто держат динозавров (особенно плотоядных, таких как аллозавры и дейнонихи) в качестве сторожевых или охотничьих животных. Хотя в больших количествах ахвотиане весьма опасны, они настолько стремятся к власти над себе подобными, что их армии распадаются за считаные дни, а то и часы из-за кровавых междоусобиц. Наиболее могущественным ахвотианам может подчиняться пара десятков сородичей и стадо хищных динозавров.</p><section class=\"БлокНавиг\"><header class=\"ШапкаНавиг\"><h3 class=\"Загол\">Охотники Ахвот-Кора</h3></header><article class=\"ТекстБлока\"><p>Необозримы просторы Бездны, и почти в каждой области имеется сложная экосистема, порой более древняя, чем обитающие в ней демоны. Поросший джунглями Ахвот-Кор — владения демонического владыки силы и тирании Ангажана. Однако Ахвот-Кор был населён ещё до прихода Ангажана, и умнейшими из его обитателей были коварные охотники — ахвотиане. В наши дни ахвотиане окончательно подчинились Ненасытному Королю и верно служат ему в Ахвот-Коре и за его пределами.</p></article></section></section>",
+			"items": {
+				"Xk4mAJsQXmo4Abnd": {
+					"name": "Метательное копье"
+				},
+				"aXVkoRdPUFm0chi2": {
+					"name": "Длинное копье"
+				},
+				"E7RPGCghR7RuRFmy": {
+					"name": "Повелитель рептилий",
+					"description": "<p>Когда Ахвотианин @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл} на рептилию врождённое заклинание, его КС_ЗАКЛ составляет КС_27, а не КС_23.</p>"
+				},
+				"ObmsLNn679xvM3dS": {
+					"name": "Ужасные трофеи",
+					"description": "<p>Ахвотианин выбирает тип существа (например, `животное`, `небожитель` или `гуманоид`), трофей с трупа которого он сейчас носит.</p><p>Его @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} оружием по существам этого типа наносят дополнительно [[/r 1d10]] урона, и он получает бонус состояния +2 к проверкам Запугивания против существ этого типа. Эти преимущества сохранятся, даже если Ахвотианин потеряет трофеи.</p><p>Раз в день Ахвотианин может изменить выбранный тип существа с помощью ритуала, занимающего 1 час. На Материальном плане почти все ахвотиане выбирают целью этой способности `гуманоидов`.</p>"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Alchemical Golem (Slithering)": {
+			"name": "Алхимический Голем (ПС)",
+			"tokenName": "Алхимический Голем",
+			"UUID": "idj4GBmsLUNUbk9r",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<p>Этот голем - ходячий алхимический кошмар, способный причинять всевозможные болезненные раны. Его способность выполнять приказы обеспечивается бездумным гуманоидным мозгом, который плавает в его куполообразной голове. В исключительно редких случаях мозг, использованный при его создании, может сохранять фрагменты воспоминаний или даже настоящий интеллект, в результате чего получается алхимический голем со своей индивидуальностью и целями.</p><hr><p>Созданный из базовых материалов и магически оживленный в мощного стража, легендарный голем это живой конструкт, который безвольно подчиняется приказам своего создателя и часто продолжает выполнять их в течение многих лет или даже столетий после смерти своего создателя. Существует 2 известных метода оживления голема. Традиционный метод включает в себя заполучение и имплантацию стихийной души или сущности в только что созданную статую-носитель, и теми кто ценит святость души, эта процедура считается омерзительной и кощунственной; как правило, этот метод предпочитают злые или аморальные создатели големов. Другая, менее постыдная техника предполагает вливание в статую чистой позитивной энергии, чтобы искусственно имитировать создание души. Этот результат не дает голему настоящей души и, как правило, является более дорогостоящим и времязатратным методом создания. Независимо от используемого метода, полученный голем функционирует одинаково. Уникальная оживляющая сила голема делает его восприимчивым к некоторым видам магии, но, за исключением этих нескольких слабостей, он непроницаем для магии и его трудно повредить оружием.</p>",
+			"items": {
+				"Syringe": {
+					"name": "Шприц"
+				},
+				"Bomb": {
+					"name": "Бомба"
+				},
+				"Generate Bomb": {
+					"name": "Создание бомбы",
+					"description": "<p>Голем наполняет пустой бутылек содержимым одной из своих камер, создавая бомбу и затем совершая <em>\"Удар\"</em> бомбой.</p><p>Определите тип созданной бомбы броском 1d6 по списку алхимических камер выше.</p><p>При броске от 1 до 4 он создает соответствующую большую алхимическую бомбу: 1 - @UUID[Compendium.pf2e.equipment-srd.jC8GmH0Un6vDxdMj]{Кислотная склянка}, 2 - @UUID[Compendium.pf2e.equipment-srd.intVPcEzbE9o4NQd]{Морозная склянка}, 3 - @UUID[Compendium.pf2e.equipment-srd.r2iTRbt1zpkAqHj2]{Молния в бутылке} или 4 - @UUID[Compendium.pf2e.equipment-srd.n5yTlTs63o53n3k6]{Алхимический огонь}.</p><p>При 5, он создает ядовитую бомбу, которая наносит 3d10 урона ядом и 3 урона брызгами, без каких-либо других эффектов.</p><p>При 6, он создает болезнетворную бомбу, которая подвергает цель и всех существ в радиусе брызг эффекту заболевания; существа подвергшиеся попаданию только брызгами, получают к своему спасброску Стойкости бонус обстоятельства +2.</p><table class=\"pf2-table\"><thead><tr><th>[[/br {1d6}[Alchemical Effect] #Generate Bomb]]{1d6}</th><th>Алхимический эффект</th></tr></thead><tbody><tr><td>1</td><td><p>Кислотная склянка: @Damage[1[acid],3d6[persistent,acid],(3[splash])[acid]]</p></td></tr><tr><td>2</td><td>Морозная склянка: @Damage[3d6[cold],(3[splash])[cold]] и штраф состояния -10 футов к Скоростям до конца следующего хода цели @UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Эффект: Морозная склянка (Большая)}</td></tr><tr><td>3</td><td>Молния в бутылке: @Damage[3d6[electricity],(3[splash])[electricity]] и @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута врасплох} до начала вашего следующего хода</td></tr><tr><td>4</td><td>Алхимический огонь: @Damage[3d8[fire],3[persistent,fire],(3[splash])[fire]]</td></tr><tr><td>5</td><td>Ядовитая бомба: @Damage[3d10[poison],(3[splash])[poison]]</td></tr><tr><td>6</td><td>Заболевание: спасбросок @Check[type:fortitude|dc:26|name:Alchemical Sickness|traits:disease]{Стойкости}, иначе @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале)</td></tr></tbody></table>"
+				},
+				"Alchemical Chambers": {
+					"name": "Алхимические камеры",
+					"description": "<p>Тело алхимического голема содержит 6 алхимических камер, заполненных различными веществами. Когда умение алхимического голема вызывает случайно определяемый алхимический эффект, бросьте 1d6 и сверьтесь со следующим:</p><table class=\"pf2-table\"><thead><tr><th>[[/br {1d6}[Alchemical Effect] #Alchemical Chambers]]{1d6}</th><th>Алхимический эффект</th></tr></thead><tbody><tr><td>1</td><td><p>Урон кислотой</p></td></tr><tr><td>2</td><td>Урон холодом</td></tr><tr><td>3</td><td>Урон электричеством</td></tr><tr><td>4</td><td>Урон огнем</td></tr><tr><td>5</td><td>Урон ядом</td></tr><tr><td>6</td><td>Заболевание: спасбросок @Check[type:fortitude|dc:26|name:Alchemical Sickness|traits:disease]{Стойкости}, иначе @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале).</td></tr></tbody></table>"
+				},
+				"Alchemical Rupture": {
+					"name": "Алхимический разрыв",
+					"description": "<p>Когда алхимический голем получает физический урон от критического попадания или на него воздействует заклинание <em>@UUID[Compendium.pf2e.spells-srd.1xbFBQDRs0hT5xZ9]{Разбивающий звук}</em>, то 1 стеклянная камера в его теле разбивается, выплескивая алхимическую жидкость в @Template[type:emanation|distance:5]{5-футовой эманации}.</p><p>Сделайте бросок по списку алхимических камер (см. выше), чтобы определить, какая из них разбилась - при результате от 1 до 5 существа в области получают 10d6 урона соответствующего типа (простой спасбросок Рефлекса). Если выпало 6, то вместо этого существа должны совершить спасбросок от эффекта заболевания.</p><table class=\"pf2-table\"><thead><tr><th>[[/br {1d6}[Alchemical Effect] #Alchemical Rupture]]{1d6}</th><th>Алхимический эффект</th></tr></thead><tbody><tr><td>1</td><td><p>[[/r 10d6[acid]]]{10d6 урона кислотой}, простой спасбросок @Check[type:reflex|dc:28|basic:true|traits:acid]{Рефлекса}</p></td></tr><tr><td>2</td><td>[[/r 10d6[cold]]]{10d6 урона холодом}, простой спасбросок @Check[type:reflex|dc:28|basic:true|traits:cold]{Рефлекса}</td></tr><tr><td>3</td><td>[[/r 10d6[electricity]]]{10d6 урона электричеством}, простой спасбросок @Check[type:reflex|dc:28|basic:true|traits:electricity]{Рефлекса}</td></tr><tr><td>4</td><td>[[/r 10d6[fire]]]{10d6 урона огнем}, простой спасбросок @Check[type:reflex|dc:28|basic:true|traits:fire]{Рефлекса}</td></tr><tr><td>5</td><td>[[/r 10d6[poison]]]{10d6 урона ядом}, простой спасбросок @Check[type:reflex|dc:28|basic:true|traits:poison]{Рефлекса}</td></tr><tr><td>6</td><td>Заболевание: спасбросок @Check[type:fortitude|dc:26|name:Alchemical Sickness|traits:disease]{Стойкости}, иначе @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале)</td></tr></tbody></table>"
+				},
+				"Golem Antimagic": {
+					"name": "Антимагия голема",
+					"description": "<p>повреждается от <em>`звука`</em> ([[/r 5d8]]{5d8 Урон}, [[/r 2d6]]{2d6 Урон} от областей или продолжительного урона); исцеляется от <em>`кислоты`</em> (область [[/r 2d4[healing]]]{2d4 ОЗ}); замедляется от <em>`холода`</em></p><p>Голем иммунен к заклинаниям и магическим умения, помимо своих собственных, но каждый вид голема особым образом подвержен нескольким типам магии. Эти исключения перечислены в блоке характеристик голема в сокращенной форме, а полные правила объяснены здесь. Если в записи указано несколько типов (например, \"холод и вода\"), то на голема может подействовать любой из этих типов заклинания.</p><ul><li><strong>Повреждается от:</strong> Любая магия этого типа, нацеленная на голема, вместо обычного эффекта наносит ему указанное количество урона (этот урон не имеет типа). Если голем начинает свой ход в области действия магии этого типа или на него воздействует продолжительный эффект соответствующего типа, то он получает урон, указанный в скобках.</li><li><strong>Исцеляется от:</strong> Любая магия этого типа, нацеленная на голема, лишает голема состояния замедлен и дает ОЗ, равное половине урона, который нанесло бы заклинание. Если голем начинает свой ход в области действия магии этого типа, он получает ОЗ, указанные в скобках.</li><li><strong>Замедляется от:</strong> Любая магия этого типа нацеленная на голема, вместо обычного эффекта, делает его @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедленным 1} на [[/br 2d6 #rounds]]{2d6 раундов}. Если голем начинает свой ход в области действия магии этого типа, то он @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на этот раунд.</li><li><strong>Уязвим к:</strong> Каждый голем уязвим к одному или нескольким определенным заклинаниям, с эффектам описанными в его блоке характеристик.</li></ul>"
+				},
+				"Vulnerable to Shatter": {
+					"name": "Уязвим к разбивающему звуку",
+					"description": "<p>Сотворение <em>@UUID[Compendium.pf2e.spells-srd.1xbFBQDRs0hT5xZ9]{Разбивающему звуку}</em> на алхимического голема действует нормально, но еще вызывает алхимический разрыв (см. далее).</p>"
+				},
+				"Alchemical Injection": {
+					"name": "Алхимическая инъекция",
+					"description": "<p>Когда алхимический голем попадает по существу <em>\"Ударом\"</em> шприца, бросьте [[/br 1d6]]{1d6} по списку алхимических камер, чтобы определить дополнительный эффект атаки. Шприц наносит дополнительные [[/r 2d6]]{2d6 урона} соответствующего типа (или подвергает цель эффекту заболевания, в зависимости от результата).</p><table class=\"pf2-table\"><thead><tr><th>[[/br {1d6}[Alchemical Effect] #Alchemical Injection]]{1d6}</th><th>Алхимический эффект</th></tr></thead><tbody><tr><td>1</td><td><p>[[/r 2d6[acid]]]{2d6 урона кислотой}</p></td></tr><tr><td>2</td><td>[[/r 2d6[cold]]]{2d6 урона холодом}</td></tr><tr><td>3</td><td>[[/r 2d6[electricity]]]{2d6 урона электричеством}</td></tr><tr><td>4</td><td>[[/r 2d6[fire]]]{2d6 урона огнем}</td></tr><tr><td>5</td><td>[[/r 2d6[poison]]]{2d6 урона ядом}</td></tr><tr><td>6</td><td>Тошнота: спасбросок @Check[type:fortitude|dc:26|name:Alchemical Sickness|traits:disease]{Стойкости}, иначе @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале).</td></tr></tbody></table>"
+				},
+				"pATLYmJ9TiraDyyy": {
+					"name": "Взрыв",
+					"description": "<p>Когда у алхимического голема остаётся 0 ОЗ, он взрывается, нанося всем в @Template[type:emanation|distance:10]&nbsp; урон как от @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.idj4GBmsLUNUbk9r.Item.N0g5xdIF3LC3JDxP]. Если критический удар снижает голема до 0 ОЗ, то для всех существ в области результат испытания против эффектов разлива считается на одну ступень хуже.</p>"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Angazhan's Rake Trap": {
+			"name": "Angazhan's Rake Trap",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Angazhani Cultist": {
+			"name": "Angazhani Cultist",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Aspis Guard": {
+			"name": "Aspis Guard",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Aspis Technician": {
+			"name": "Aspis Technician",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Croakchief Globblit Skink-eater": {
+			"name": "Croakchief Globblit Skink-eater",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Cursebreaker": {
+			"name": "Cursebreaker",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Fiendripping Blast Trap": {
+			"name": "Fiendripping Blast Trap",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Fuming Sludge": {
+			"name": "Дымящийся Студень",
+			"tokenName": "Дымящийся Студень",
+			"UUID": "ZXpX1TWooxGkIOuu",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<section class=\"А\"><p>`Необычный` `Нейтрал` `Средний` `Слизь` `Неразумный`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/Slithering/fuming_sludge.webp\"></figure><p>Отходы алхимических экспериментов часто бывают не только токсичными, но и горючими. В самых запущенных случаях из горящих луж нестабильных алхимических отходов может образоваться дымящийся студень. Он выглядит как угольно-чёрная жидкая масса, испещрённая горящими угольками, и постоянно испускает дымок, усиливающий разжигаемое им пламя.</p><p>Дымящемуся студню для выживания нужны базовые вещества из живых существ. Он инстинктивно узнаёт сложные молекулы, встречающиеся в организме большинства живых созданий. Зачастую первым обедом дымящегося студня становится его невольный создатель, а дальше тварь отправляется на охоту в густые леса или поселения. Дымящийся студень способен выпускать крепкие ложноножки, а также выплёвывать частицы своего тела при помощи внутренних сокращений. Выплюнутые куски жижи быстро застывают, мешая двигаться убегающей добыче. По засохшим остаткам таких плевков можно узнать о присутствии студня.</p><section class=\"БлокНавиг\"><header class=\"ШапкаНавиг\"><h3 class=\"Загол\">Пламя Злобы</h3></header><article class=\"ТекстБлока\"><p>Дымящиеся студни рождаются не только в алхимических лабораториях, но и когда умирает кто-то особенно злобный и его хоронят в болоте. Остатки ярости озлобленной души, сохранившиеся в разлагающемся трупе, в какой-то момент вспыхивают, образуя дымящийся студень. Появившийся таким образом студень не имеет признака `неразумный` и невосприимчивости к ментальному урону, зато его Удары наносят дополнительно @Damage[(1d6)[mental]] существам, ранившим его за последнюю минуту.</p></article></section></section>",
+			"items": {
+				"Du91OUMOM9tEFeHW": {
+					"name": "Ложноножка"
+				},
+				"kCyXMIBiD1pCe8OY": {
+					"name": "Комок Плоти"
+				},
+				"13trzJnUCoLSgNW2": {
+					"name": "Сжимать",
+					"description": "<p>Урон: [[/r (1d8+6)[bludgeoning],1d8[persistent,fire]]]</p><p>Спас.: @Check[type:fortitude|dc:24|basic:true]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+				},
+				"Chemical Sense 60 feet": {
+					"name": "Химическое Чутьё 60",
+					"description": "<p>Дымящийся Студень обнаруживает находящихся рядом `живых` существ и `нежить` по содержащимся в них сложным химическим веществам, однако не замечает `элементалей` и других существ, состоящих из одного элемента</p>"
+				},
+				"Smoldering Haze": {
+					"name": "Курящаяся Дымка",
+					"description": "<p>Дымящийся Студень постоянно испускает едкую дымку, создающую вокруг него @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Ауру}@Template[type:emanation|distance:15]{15} делающую существ @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрытыми}. На химическое чутьё дымящегося студня эта дымка не влияет.</p><p>Существо, входящее в область или начинающее в ней свой ход, получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@Check[type:fortitude|dc:25] для снятия} и в течение 1 раунда не может избавиться от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Огнен.Урон}. После этого оно 1 минуту временно невосприимчиво к эффекту тошноты от этой способности.</p><p>Существо, задержавшее дыхание, недышащее или невосприимчивое к яду, невосприимчиво и к эффекту тошноты от этой способности, но не к Скрыт или неспособности избавиться от Продолж.Огнен.Урон</p>"
+				},
+				"Cooling Glob": {
+					"name": "Остывающий Комок",
+					"description": "<p>Комки Плоти, выбрасываемые дымящимся студнем, прилипают к цели. Существо, по которому попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.ZXpX1TWooxGkIOuu.Item.kCyXMIBiD1pCe8OY], получает @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Перегружен} на 1 раунд. При крит.ударе существо вместо этого получает @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд (@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС_24})</p>"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Nyamat Mshwe": {
+			"name": "Nyamat Mshwe",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Paga Nikohian": {
+			"name": "Paga Nikohian",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Scroll Shock Trap": {
+			"name": "Scroll Shock Trap",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Stalker Summoning Rune": {
+			"name": "Stalker Summoning Rune",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		}
+	}
+}

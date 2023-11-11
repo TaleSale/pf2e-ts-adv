@@ -8004,5 +8004,50 @@
       "actor": "modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler.webp",
       "token": "modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler_t.webp"
     }
+  },
+  "the-slithering-bestiary": {
+    "ZXpX1TWooxGkIOuu": {
+      "actor": "modules/pf2e-ts-adv/Slithering/fuming_sludge.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/fuming_sludge_t.webp"
+    },
+    "wgeuaYe2fbGNg42z": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Ahvothian.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Ahvothian_t.webp"
+    },
+    "idj4GBmsLUNUbk9r": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/constructed/golem/alchemical-golem.webp",
+      "token": {
+        "img": "modules/pf2e-ts-adv/art_token/tokens/constructed/golem/alchemical-golem.webp",
+        "scale": 1.5
+      }
+    },
+    "TFrOAM5u8Jk8hB69": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Angazhan_Cultist.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Angazhan_Cultist_t.webp"
+    },
+    "GyBkJWmMHfNQtAFw": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Aspis_Guard.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Aspis_Guard_t.webp"
+    },
+    "Fd9l3UtiMLIRAjhO": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Aspis_Technician.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Aspis_Technician_t.webp"
+    },
+    "6U8P0ITf4gkJfeKD": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Croakchief_Globblit_Skink_Eater.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Croakchief_Globblit_Skink_Eater_t.webp"
+    },
+    "PugTH4pasVxBB7Pn": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Cursebreaker.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Cursebreaker_t.webp"
+    },
+    "nz6ldwPZm0WWCCYV": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Nyamat.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Nyamat_t.webp"
+    },
+    "MQI0uQKurpprJQtT": {
+      "actor": "modules/pf2e-ts-adv/Slithering/Paga_Nikohian.webp",
+      "token": "modules/pf2e-ts-adv/Slithering/Paga_Nikohian_t.webp"
+    }
   }
 }
