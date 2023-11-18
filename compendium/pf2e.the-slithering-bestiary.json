@@ -104,47 +104,32 @@
 				}
 			}
 		},
-		"Angazhan's Rake Trap": {
-			"name": "Angazhan's Rake Trap",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
 		"Angazhani Cultist": {
-			"name": "Angazhani Cultist",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
+			"name": "Культист Ангажана",
+			"tokenName": "Культист",
+			"UUID": "TFrOAM5u8Jk8hB69",
 			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"PLRq9zcxBdNsG42H": {
+					"name": "Копье"
+				},
+				"A5u30htgkNCqE7Pl": {
+					"name": "Копье"
+				},
+				"fPpIcm2oqCp5ZV1O": {
+					"name": "Демоническая Сила",
+					"description": "<p>@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} Копьём культистов Ангажана наносят дополнительно 1d6 урона, и любое копьё получает дескриптор `фатальное_d10`, пока культист его использует (и то и другое уже учтено в параметрах культиста)</p>"
+				},
+				"pTekS4C4K3Du058G": {
+					"name": "Кровавый Фанатизм ",
+					"description": "<p><strong>Триггер</strong>: культист получает провал (но не крит.провал) в Спас.Воля против эффекта с признаком `ментальный` или `страх`</p><hr><p>Культист получает @Damage[2d8[mental]], а Спас. считается<br>успехом</p>"
+				},
+				"BDbjwAWPn5MSgmbF": {
+					"name": "Серебряный символ Ангажана"
 				},
 				"112": {
 					"name": "111",
@@ -157,20 +142,38 @@
 			}
 		},
 		"Aspis Guard": {
-			"name": "Aspis Guard",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
+			"name": "Стражник Аспидов",
+			"tokenName": "Стражник",
+			"UUID": "GyBkJWmMHfNQtAFw",
 			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"PjrxNxvYYwSeE4mc": {
+					"name": "Боевой топор"
+				},
+				"zTcg1Ycv5amzrasg": {
+					"name": "Кинжал"
+				},
+				"gJAVtOubM33rYN5I": {
+					"name": "Арбалет"
+				},
+				"pyAEAdB7VBq7RSb5": {
+					"name": "Кинжал"
+				},
+				"eyIsTZFeRLHCjdCl": {
+					"name": "Храбрость",
+					"description": "<p>Когда стражник получает успех в Спас.Воля против эффекта с признаком `страх`, это считается крит.успехом</p><p>Кроме того, когда стражник получает состояние @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}, значение этого состояния снижается на 1.</p>"
+				},
+				"koz2XaLl9upQ6tP4": {
+					"name": "Мощный замах",
+					"description": "<p>Если стражник успешно нанёс @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} боевым топором, он может выбрать любое существо на соседней с целью клетке и в своей зоне досягаемости. Это существо получает Рубящ.Урон, равный результату на костях урона боевого топора.</p>"
+				},
+				"KD228pTR8seugdVW": {
+					"name": "Необременяющее железо",
+					"description": "<p>Стражник игнорирует снижение скорости из-за носимой брони. Кроме того, всякий раз, когда стражник получает штраф к скорости, этот штраф уменьшается на 5ФТ</p>"
 				},
 				"112": {
 					"name": "111",
@@ -183,50 +186,76 @@
 			}
 		},
 		"Aspis Technician": {
-			"name": "Aspis Technician",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
+			"name": "Техник Аспидов",
+			"tokenName": "Техник",
+			"UUID": "Fd9l3UtiMLIRAjhO",
 			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"djr3DCK9SyrtAEMu": {
+					"name": "Рапира"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"AnEOzRaYxcafZL1X": {
+					"name": "Кислотная склянка"
 				},
-				"113": {
-					"name": "111",
-					"description": "111"
+				"DmC596bzLG6sbySE": {
+					"name": "Алхимический огонь"
+				},
+				"KX4M0Z52AqjzYfNK": {
+					"name": "Отравленное оружие",
+					"description": "<p><strong>Требования</strong>: Техник Аспидов использует колющее или рубящее оружие, и у него есть свободная рука</p><hr><p>Техник Аспидов наносит на это оружие `яд`</p>"
+				},
+				"54RP2fDqmOErvH6M": {
+					"name": "Внезапная атака 2d6",
+					"description": "<p>Техник Аспидов дополнительно наносит 2d6 точного урона @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} существам</p>"
+				},
+				"q130PaxstauzJP9k": {
+					"name": "Насыщенное Снаряжение",
+					"description": "<p>Каждый техник Аспидов несёт с собой следующие насыщенные предметы:</p><ul><li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]</li><li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]</li><li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]</li><li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]</li></ul><p>Эти предметы сохраняют свойства 24 часа или до следующих ежедневных приготовлений</p>"
+				},
+				"QnwXqlOiDGH5rjrr": {
+					"name": "Бронзовый Значок Консорциума Аспидов"
+				},
+				"hEwt2cH6RV33OJny": {
+					"name": "Набор алхимика (Расширенный)",
+					"description": "<p>Эта мобильная коллекция склянок и химикатов может быть использована для выполнения простых алхимических задач. Если вы носите инструменты алхимика, вы можете достать и заменить их в рамках действия, которое их использует.</p>"
 				}
 			}
 		},
 		"Croakchief Globblit Skink-eater": {
-			"name": "Croakchief Globblit Skink-eater",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
-			"prependAdjective": true,
+			"name": "Квакомандир Глобблит Ящероед",
+			"tokenName": "Глобблит Ящероед",
+			"UUID": "6U8P0ITf4gkJfeKD",
 			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"20s5xwmmUrVZXQGk": {
+					"name": "Двуручная дубина"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"JArJm7Gb1nXV88dp": {
+					"name": "Метательное копье"
+				},
+				"S3GpERUDI1eSnKFX": {
+					"name": "Захват языком",
+					"description": "<p>Если боггард болотный мудрец попадает по существу своим языком, то это существо становится @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} боггардом. В отличие от обычного захвата, существо не @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено}, но оно не может двигаться за пределы досягаемости языка боггарда.</p><p>Существо может отсечь язык, если попадет по КБ 18 и нанесет не менее 6 рубящего урона. Хотя это не наносит боггарду никакого урона, однако лишает его возможности использовать свой \"Удар\" языком, пока он не отрастит язык, что занимает неделю.</p>"
+				},
+				"9KFtQW1EMEigUmiV": {
+					"name": "Пружинящий Прыжок",
+					"description": "<p>Глобблит дважды совершает @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Прыжок}. Это `движение` не провоцирует реакции.</p><p>Если по завершении `движения` в пределах его зоны досягаемости в ближнем бою есть хотя бы один противник, Глобблит может совершить по нему @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в ближнем бою.</p>"
+				},
+				"4maY1JQ0qP66nbU1": {
+					"name": "Властное кваканье",
+					"description": "<p>Глобблит издаёт громкий утробный квак, побуждая союзников действовать. Каждый `боггард` в пределах 30 футов от него может совершить @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} или @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Шаг} в качестве реакции</p>"
+				},
+				"bcF9DM7Yspy5QfF5": {
+					"name": "Шмяк и Чавк",
+					"description": "<p><strong>Частота</strong>: 1 за ход</p><hr><p>Глобблит наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Двуруч.Дубиной и @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Языком по одной и той же цели. Если Удар двуручной дубиной попадает по цели, та считается @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} для Удара языком</p><hr><p>Применение этой способности считается двумя атаками при определении Штраф.Множест.Атаки, но значение штрафа не увеличивается, пока Глобблит не совершит обе атаки.</p>"
 				},
 				"113": {
 					"name": "111",
@@ -235,46 +264,42 @@
 			}
 		},
 		"Cursebreaker": {
-			"name": "Cursebreaker",
-			"tokenName": "",
-			"UUID": "",
+			"name": "Разрушитель Проклятий",
+			"tokenName": "Разрушитель Проклятий",
+			"UUID": "PugTH4pasVxBB7Pn",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"vxR33jABpWbixKMb": {
+					"name": "Наложить паралич",
+					"description": "<p><strong>Триггер:</strong> Разрушитель попадает по @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедленному} существу.</p><hr><p><strong>Эффект:</strong> Существо должно совершить успешный спасбросок @Check[type:fortitude|dc:27], иначе будет @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализовано} на 1 раунд.</p>"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"xoigCRlVfwponLe7": {
+					"name": "Неумолимое шествие",
+					"description": "<p>Разрушитель @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до своей Скорости, отталкивая каждое существо через чье пространство он двигается и нанося им урон, если они пытаются остановить его передвижение. Существо может попытаться преградить путь, совершив успешный @Check[type:fortitude|dc:32|traits:damaging-effect]</p><p>При критическом успехе, сопротивляющееся существо не получает урона; в противном случае, оно получает урон как от удара кулака голема.</p>"
 				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Fiendripping Blast Trap": {
-			"name": "Fiendripping Blast Trap",
-			"tokenName": "",
-			"UUID": "",
-			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"6yEfEcRS7ayfG7nE": {
+					"name": "Замедление пульса",
+					"description": "<p>Каждое существо в @Template[type:emanation|distance:10] должно совершить успешный спасбросок @Check[type:fortitude|dc:27], иначе будет @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлено 1} на 1 минуту.</p><p>Голем не может снова использовать <em>\"Замедление пульса\"</em> [[/br 1d4 #Slowing Pulse Recharge]]{1d4 раунда}.</p>"
+				},
+				"OzGRy5Q3gxjky0Q9": {
+					"name": "Снятие Проклятия (по Желанию)",
+					"description": "<p>Ваше прикосновение отводит проклятие от существа. Вы пытаетесь @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo#protivodejstvie$1]{Противодействовать} одному <a href=\"https://clck.ru/jtgXP\"><em>`проклятию`</em></a> поражающему цель. Если проклятие исходит от проклятого предмета или другого внешнего источника, успех означает, что целевое существо может избавить себя от проклятого предмета, но оно не снимает проклятие с предмета.</p>"
+				},
+				"BIFXG8tlrggVbQZ0": {
+					"name": "Антимагия голема",
+					"description": "<p>повреждается от <em>`холода`</em> и <em>`воды`</em> ([[/r 5d10[untyped]]]{5d10 урона}, [[/r 2d8[untyped]]]{2d8 урона} от областей и продолжительного урона); исцеляется от <em>`кислоты`</em> (область [[/r 2d8[healing]]]{2d8 ОЗ}); замедляется от <em>`земли`</em></p><hr><p>Голем иммунен к заклинаниям и магическим умения, помимо своих собственных, но каждый вид голема особым образом подвержен нескольким типам магии. Эти исключения перечислены в блоке характеристик голема в сокращенной форме, а полные правила объяснены здесь. Если в записи указано несколько типов (например, \"холод и вода\"), то на голема может подействовать любой из этих типов заклинания.</p><ul><li><strong>Повреждается от:</strong> Любая магия этого типа, нацеленная на голема, вместо обычного эффекта наносит ему указанное количество урона (этот урон не имеет типа). Если голем начинает свой ход в области действия магии этого типа или на него воздействует продолжительный эффект соответствующего типа, то он получает урон, указанный в скобках.</li><li><strong>Исцеляется от:</strong> Любая магия этого типа, нацеленная на голема, лишает голема состояния замедлен и дает ОЗ, равное половине урона, который нанесло бы заклинание. Если голем начинает свой ход в области действия магии этого типа, он получает ОЗ, указанные в скобках.</li><li><strong>Замедляется от:</strong> Любая магия этого типа нацеленная на голема, вместо обычного эффекта, делает его @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедленным 1} на [[/br 2d6 #rounds]]{2d6 раундов}. Если голем начинает свой ход в области действия магии этого типа, то он @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на этот раунд.</li><li><strong>Уязвим к:</strong> Каждый голем уязвим к одному или нескольким определенным заклинаниям, с эффектам описанными в его блоке характеристик.</li></ul>"
+				},
+				"qxmme69IDeE8LxLa": {
+					"name": "Уязвим к камню в плоть",
+					"description": "<p><em>@UUID[Compendium.pf2e.spells-srd.Pr1ruNTbzGn3H9w5]{Превращение камня в плоть}</em> отменяет антимагию голема и его сопротивление физическому урону на 1 раунд. Заклинание <em>@UUID[Compendium.pf2e.spells-srd.znv4ECL7ZtuiagtA]{Плоть в камень}</em> мгновенно обращает этот эффект.</p>"
+				},
+				"Undo Curse": {
+					"name": "Отмена Проклятия",
+					"description": "<p>Разрушитель Проклятий может неограниченно @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.} Ранг 10 @UUID[Compendium.pf2e.spells-srd.Item.OyFCwQuw8XRazsNr], пока не избавит от ползучей чумы всех жителей Кибве.</p><p>Для применения этой способности Разрушитель должен находиться на втором этаже Архива Солнца, а символы солнца на полу должны быть активированы.</p>"
 				},
 				"112": {
 					"name": "111",
@@ -328,20 +353,75 @@
 			}
 		},
 		"Nyamat Mshwe": {
-			"name": "Nyamat Mshwe",
-			"tokenName": "",
-			"UUID": "",
+			"name": "Ньямат Мшве",
+			"tokenName": "Ньямат Мшве",
+			"UUID": "nz6ldwPZm0WWCCYV",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
 			"description": "",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"xQs97Biy7wEySTCs": {
+					"name": "Копье"
+				},
+				"LpHRMLwL7HQwhQTy": {
+					"name": "Копье"
+				},
+				"x7G940ofhgAfmRHX": {
+					"name": "Демоническая Сила",
+					"description": "<p>@UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} Копьём Ньямата наносят дополнительно 1d6 урона, и любое копьё получает дескриптор `фатальное_d10`, пока Ньямат его использует (и то и другое уже учтено в параметрах культиста)</p>"
+				},
+				"QuRmNgkHRsoPGlzC": {
+					"name": "Защищай Повелителя ",
+					"description": "<p>Триггер: Ньямат становится целью атаки, рядом сним есть подчинённый культист</p><hr><p>Ньямат приказывает культисту заслонить его от атаки, Культист меняется местами с Ньяматом и сам становится целью атаки.</p>"
+				},
+				"ipoQqK0eePPXZiqQ": {
+					"name": "Ключ от замка Разрушителя Проклятий"
+				},
+				"Jg6oUyCqiSICzhfk": {
+					"name": "Символ Ангажана"
+				},
+				"gTHluhdynYkvFqBc": {
+					"name": "Ненасытное Копьё",
+					"description": "<p>Наконечник этого @UUID[Compendium.pf2e.equipment-srd.Item.DKWuJb2rSgiotOG7]{+1} @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Разящего} @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Возвращающегося} @UUID[Compendium.pf2e.equipment-srd.Item.tOhoGvmCMw4JpWcS]{Копье} обёрнут маслянистой кожей и напоминает толстый палец с когтем.</p><p>При критическом ударе цель получает @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} на 1 минуту, а вы получаете 1d8 Врем.ОЗ на 1 минуту</p>"
+				}
+			}
+		},
+		"Paga Nikohian": {
+			"name": "Пага Никоян",
+			"tokenName": "Пага Никоян",
+			"UUID": "MQI0uQKurpprJQtT",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"zHavbkduoubAaOfs": {
+					"name": "Клепаный кожаный доспех +1",
+					"description": "<p>Этот кожаный доспех усилен металлическими заклепками и иногда небольшими металлическими пластинами, обеспечивая большую часть гибкости кожаного доспеха с более надежной защитой.</p>"
+				},
+				"zMQb3EqHwNJRUpcg": {
+					"name": "Слизневый Хлыст",
+					"description": "<p>Этот толстый, жирный на ощупь @UUID[Compendium.pf2e.equipment-srd.Item.DKWuJb2rSgiotOG7]{+1} @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Разящий} @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Изменяющий} @UUID[Compendium.pf2e.equipment-srd.Item.f1gwoTkf3Nn0v3PN]{Хлыст} сделан из слизневой ложноножки. Совершая им смертельную атаку, вы не получаете обычный штраф обстоятельства -2 к проверке атаки. Как и любое оружие с изменяющейся руной, Слизневый Хлыст может менять форму, но, когда его перестают использовать, принимает свою обычную форму.</p><p>Пока он в форме хлыста, вы можете активировать его, как описано ниже:</p><p><strong>Активация:</strong> <span class=\"pf2-icon\">1</span> команда, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодейст.}</p><p><strong>Частота:</strong> 1/Час</p><p><strong>Эффект:</strong> На 1 раунда Слизневый Хлыст наносит урон кислотой вместо рубящего. Если атака наносит продолжительный урон, это тоже урон кислотой вместо обычного типа.</p>"
+				},
+				"WKIFBo0eRmZ1W3ZQ": {
+					"name": "Слизневый Хлыст"
+				},
+				"IlWKl19AMjb0wKSS": {
+					"name": "Кинжал"
+				},
+				"VXibStVptgeqYJHW": {
+					"name": "Кинжал"
+				},
+				"i8YSE30xTgZRMBV9": {
+					"name": "Несокрушимая концентрация",
+					"description": "<p>Заклинания Паги можно прервать реакцией только при критическом ударе</p>"
+				},
+				"decwwZMuI2AIpvW4": {
+					"name": "Притворная Невинность",
+					"description": "<p>Пага съёживается и приседает перед существом в пределах 10 футов, которое её видит. Цель совершает @Check[type:will|dc:28], после чего временно невосприимчива к данной способности на 1 час</p><hr><p>Крит.Успех: Нет эффекта</p><p>Успех: Существо @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Заворожен} Пагой до конца своего следующего хода</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Заворожен} Пагой и не может совершать враждебные действия против неё до конца своего следующего хода</p><p>Крит.Провал: Как Провал, но существо не получает временной невосприимчивости к этой способности</p>"
 				},
 				"112": {
 					"name": "111",
@@ -353,21 +433,51 @@
 				}
 			}
 		},
-		"Paga Nikohian": {
-			"name": "Paga Nikohian",
-			"tokenName": "",
-			"UUID": "",
+		"Angazhan's Rake Trap": {
+			"name": "Когти Ангажана",
+			"tokenName": "Когти Ангажана",
+			"img": "systems/pf2e/icons/spells/acid-storm.webp",
+			"tokenImg": "systems/pf2e/icons/spells/acid-storm.webp",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
-			"description": "",
+			"hstealth": "<p>(Эксперт)</p>",
+			"hdescription": "<p>Из стен вылетают шесть металлических когтей и беспорядочно машут в воздухе.</p>",
+			"hdisable": "<p>@Check[type:thievery|dc:25|name:Disable a Talon|traits:action:disable-a-device] (Эксперт) для обезвреживания каждого когтя.</p>",
+			"hroutine": "",
+			"hreset": "<p>Ловушка перезаряжается через 1 минуту.</p>",
 			"items": {
-				"111": {
+				"gojRpM3TkqCZ6AP8": {
+					"name": "Когти",
+					"description": "<p>Без ШМА</p>"
+				},
+				"ekyAVhOS1kB49Mgy": {
+					"name": "Скребущий Удар",
+					"description": "<p>Триггер: нажата одна из нажимных плит</p><hr><p>Из стен вылетают шесть когтей, и каждый поражает случайно выбранное существо в помещении. Существо не может быть атаковано более чем одним когтем, пока все существа в комнате не атакованы хотя бы одним когтем.</p>"
+				},
+				"113": {
 					"name": "111",
 					"description": "111"
+				}
+			}
+		},
+		"Fiendripping Blast Trap": {
+			"name": "Взрыв Против Исчадий",
+			"tokenName": "Взрыв Против Исчадий",
+			"img": "systems/pf2e/icons/spells/abyssal-wrath.webp",
+			"tokenImg": "systems/pf2e/icons/spells/abyssal-wrath.webp",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "<p>(Эксперт)</p>",
+			"hdescription": "<p>Выброс энергии наносит урон всем существам в пределах 20ФТ, особенно `исчадьям`</p>",
+			"hdisable": "<p>@Check[type:thievery|dc:27|name:Identify Button Sequence|traits:action:disable-a-device] (Эксперт) чтобы понять, в каком порядке нажимать кнопки, или @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Противодействовать КС_25 Ур.4), чтобы подавить действие магии на 1 час.</p>",
+			"hroutine": "",
+			"hreset": "<p>Ловушка перезаряжается через 1 час</p>",
+			"items": {
+				"qnGVlOvfyHP5LeK0": {
+					"name": "Разрушительный Выброс",
+					"description": "<p>Триггер: Коснуться двери, не нажав перед этим кнопки в правильном порядке</p><hr><p>Из двери вырывается поток энергии, наносящий @Damage[4d10[force]] всем существам в @Template[type:emanation|distance:20],<br>и они проходят испытание @Check[type:fortitude|dc:25]. Для `исчадий` результат испытания становится хуже на одну ступень</p><hr><p>Крит.Успех: Существо избегает эффекта</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон и @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}</p><p>Крит.Провал: Существо получает двойной урон и @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}; пока длится тошнота, существо также получает @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}</p>"
 				},
 				"112": {
 					"name": "111",
@@ -380,46 +490,56 @@
 			}
 		},
 		"Scroll Shock Trap": {
-			"name": "Scroll Shock Trap",
-			"tokenName": "",
-			"UUID": "",
+			"name": "Ловушка Электросвитков",
+			"tokenName": "Ловушка Электросвитков",
+			"img": "systems/pf2e/icons/spells/dancing-lights.webp",
+			"tokenImg": "systems/pf2e/icons/spells/dancing-lights.webp",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
-			"description": "",
+			"hstealth": "<p>(Эксперт) или @Check[type:perception|dc:29|traits:action:seek] (Эксперт), чтобы заметить потайную панель управления</p>",
+			"hdescription": "<p>Пять изображений свитков испускают электрические разряды по всему помещению.</p>",
+			"hdisable": "<p>@Check[type:thievery|dc:25|name:Counteract Magic|traits:action:disable-a-device] (Эксперт) или <em>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]</em> (Противодействие Ур.3 КС_24)</p><p>@Check[type:thievery|dc:29|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (Мастер), чтобы полностью обезвредить ловушку с потайной панели под центральным столом.</p>",
+			"hroutine": "<p>(5 Действие) Каждый обезвреженный символ снижает число действий ловушки на 1.</p><hr><p>За одно действие ловушки очередной символ выпускает один разряд в случайное существо в пределах комнаты. Штраф за последовательные атаки к ловушке не применяется.</p>",
+			"hreset": "<p>Ловушка отключается через 1 раунд после того, как в комнате не остаётся больше целей, и перезаряжается через 1 минуту</p>",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"GKCraZhfHY73oosv": {
+					"name": "Электрический Разряд"
 				},
-				"112": {
-					"name": "111",
-					"description": "111"
+				"r4GLtMTPNISHccTL": {
+					"name": "Без Штраф Множ.Атаки"
 				},
-				"113": {
-					"name": "111",
-					"description": "111"
+				"Reactive Charge": {
+					"name": "Автоматический Разряд",
+					"description": "<p>Триггер: Существо без значка Консорциума Аспидов оказывается ближе чем в 5ФТ от стола</p><hr><p>Обе двустворчатые двери в этой комнате закрываются и запираются на замок. Пока ловушка активна, двери можно только выбить (Твёрдость_18, 72 ОЗ, ПП_36; @Check[type:athletics|dc:29] для @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть силой}). Символ свитка, ближайший к вызвавшему срабатывание существу, выпускает в него разряд тока. Затем ловушка совершает проверку инициативы</p>"
+				},
+				"YKm4JByteFxgMLrc": {
+					"name": "Символ Свитка (Каждый)",
+					"description": "<p>Твердость: 16</p><p>ОЗ 64 (ПП 32)</p><p>Сопротивление: Электричество 15</p><p>Иммунитеты: Критические Удары, Точный Урон, Иммунитеты Объекта</p>"
+				},
+				"y1EDMIPZrSGC7wRz": {
+					"name": "Панель Управления",
+					"description": "<p>Твердость: 18</p><p>ОЗ 72 (ПП 36)</p><p>Сопротивление: Электричество 15</p><p>Иммунитеты: Критические Удары, Точный Урон, Иммунитеты Объекта</p>"
 				}
 			}
 		},
 		"Stalker Summoning Rune": {
-			"name": "Stalker Summoning Rune",
-			"tokenName": "",
-			"UUID": "",
+			"name": "Руна Призыва Охотника",
+			"tokenName": "Руна Призыва Охотника",
+			"img": "systems/pf2e/icons/spells/adapt-self.webp",
+			"tokenImg": "systems/pf2e/icons/spells/adapt-self.webp",
 			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
-			"description": "",
+			"hstealth": "<p>Эксперт</p>",
+			"hdescription": "<p>Скрытая под песком руна призывает во двор @UUID[Actor.VOJVq0KYe45RTBw4]{Невидимый Охотник}</p>",
+			"hdisable": "<p>@Check[type:acrobatics|dc:25|name:Approach Rune], чтобы подойти, не вызвав срабатывания ловушки, затем @Check[type:arcana|dc:25|name:Erase Rune] (эксперт) или @Check[type:thievery|dc:27|name:Erase Rune|traits:action:disable-a-device] (экспер), чтобы стереть руну, либо @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (@UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]{Противодействие} КС_25 Ур.4), чтобы нейтрализовать руну.</p>",
+			"hroutine": "",
+			"hreset": "<p>Ловушка перезаряжается через 24 часа</p>",
 			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
+				"BpGTOxzPDky6DhhE": {
+					"name": "Призыв Чудовища",
+					"description": "<p>Триггер: существо, не носящее на видном месте значка Консорциума Аспидов, пересекает середину двора</p><hr><p>Ловушка призывает @UUID[Actor.VOJVq0KYe45RTBw4]{Невидимый Охотник}. Тот выполняет проверку инициативы и проводит во дворе [[/br 2d6]] раундов, после чего действие заклинания кончается и невидимый охотник исчезает. Он также исчезает, если кто-нибудь обезвредил ловушку до окончания длительности.</p><p>Невидимый охотник может совершать три действия за раунд и ответные действия, в отличие от большинства призванных существ.</p>"
 				},
 				"112": {
 					"name": "111",

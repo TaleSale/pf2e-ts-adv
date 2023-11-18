@@ -299,6 +299,30 @@
     border-radius: 1px; /* Уголки */
 }
 
+tss { /* состояния */ /* <span class="Состояния">Состояния</span> */
+  background: rgb(209, 152, 152); /* Цвет фона */
+  padding: 1px; /* Поля вокруг текста */
+  padding-left: 1px; /* Поле слева */
+  padding-right: 1px; /* Поле справа */
+  border-radius: 1px; /* Уголки */
+}
+
+tso {   /* Обстоятельства */
+  background: #c7c789; /* Цвет фона */
+  padding: 1px; /* Поля вокруг текста */
+  padding-left: 1px; /* Поле слева */
+  padding-right: 1px; /* Поле справа */
+  border-radius: 1px; /* Уголки */
+}
+
+tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
+  background: #a2dddd; /* Цвет фона */
+  padding: 1px; /* Поля вокруг текста */
+  padding-left: 1px; /* Поле слева */
+  padding-right: 1px; /* Поле справа */
+  border-radius: 1px; /* Уголки */
+}
+
 .ts-effect {
     background: #20fa20; /* green background */
     padding-left: 2px;
