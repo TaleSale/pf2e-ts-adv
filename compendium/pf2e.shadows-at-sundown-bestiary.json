@@ -1,0 +1,530 @@
+{
+	"label": "Тени на Закате",
+	"mapping": {
+		"description": "system.details.publicNotes",
+		"img": "img",
+		"tokenName": "prototypeToken.name",
+		"tokenImg": "prototypeToken.texture.src",
+		"tokenvision": "prototypeToken.vision",
+		"tokendisplayBars": "prototypeToken.displayBars",
+		"tokendisplayName": "prototypeToken.displayName",
+		"randomImg": "prototypeToken.randomImg",
+		"hstealth": "system.attributes.stealth.details",
+		"hdisable": "system.details.disable",
+		"hdescription": "system.details.description",
+		"hreset": "system.details.reset",
+		"hroutine": "system.details.routine",
+		"prependAdjective": "prototypeToken.prependAdjective",
+		"appendNumber": "prototypeToken.appendNumber",
+		"actorLink": "prototypeToken.actorLink"
+		},
+	"variants": [
+		{
+			"id": "Imprecise",
+			"name": "Неточный"
+		}
+	],
+	"entries": {
+		"Strigoi Progenitor": {
+			"name": "Стригой-прародитель",
+			"tokenName": "Стригой",
+			"UUID": "wCztuDEePLs9ZsEl",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<p>Самые могущественные стригои - те, кто был намеренно призван в тело жаждущего носителя в давно минувшие времена. Поскольку обряды, позволяющие сделать это, утеряны во времени, сегодня существует очень мало стригоев-прародителей. Живущие более 10.000 лет прослеживают свое прошлое до Тассилона, Ацланта или подобных древних империй. Может показаться, что стригой-прародитель обладает жизненной силой живых, но при ближайшем рассмотрении обнаруживаются острые клыки, слабый запах разложения, а также странное и тревожное смещение его тени. При жизни этот пример стригоя-прародителя был могущественным оракулом и советником в стране Эвритнии, принадлежащей Рунной Владычице Соршен.</p>\n<hr />\n<p>Стригои - древнейшие из всех вампиров. Они появились раньше древних <a href=https://clck.ru/sbabv>носферату</a> и считают <a href=https://clck.ru/sVArj>мороев</a> инфантильными детьми, однако их собственное происхождение настолько затерялось во времени, что сегодня мало кто слышал о них, и еще меньше тех, кто знает их истинную суть. Многие из старейших преданий о вампирах восходят к стригоям, и почти каждый другой вампир несет в себе черты, которые в конечном итоге уходят корнями к этим могущественным, древним существам.</p>\n<p>Стригои в своей истинной форме - существа без тел, родом с <a href=https://clck.ru/rem3s>Теневого плана</a>, не способные взаимодействовать с физическим миром, существующие лишь как чистые силы злобы. Однако когда это зло приглашается в физическое тело с помощью древних ритуалов, стригой становится гораздо опаснее. Данное требование, чтобы живое существо по собственной воле совершило обряд, чтобы привлечь стригоя в свою душу, вполне может быть источником навязчивой идеи мороев, что они не могут войти в дом без приглашения.</p>\n<p>Некоторые мифы указывают на @UUID[Compendium.pf2e.deities.22n3N47sqbqbDxbp]{Ургатоа} как на источник ритуала, позволявшего заклинателям становиться стригоями, в то время как другие предполагают, что этот метод был распространен культом @UUID[Compendium.pf2e.deities.8ZSywyo8YQPduo92]{Зуры}. Каким бы ни был источник, этот давно забытый ритуал не был вратами к могуществу, а скорее ловушкой, позволявшей стригоям вселяться в тени и души некогда живых носителей. Таким образом, они обретали возможность существовать в мире воплоти. Присутствие стригоя в тени живого хозяина вызывает болезнь и скорую смерть, после чего стригой соединяется с душой хозяина и становится единым целым с его телом. Так первые из их рода вторглись в мир живых и первые вампиры стали ходить по ночам.</p>",
+			"items": {
+				"Shadow Form": {
+					"name": "Теневая Форма",
+					"description": "<p>Стригой превращается в чистую тень и втягивает свое тело со снаряжением в эту тьму, либо возвращается в свою физическую форму.</p><p>В теневой форме стригой получает Скорость карабканья, равную наземной Скорости, и может перемещаться через любые негерметичные зазоры. Однако он может перемещаться только по твердым поверхностям, не обладающим высокой отражательной способностью, но никак не по жидким или зеркальным поверхностям. Если поверхность, на которой он находится, разрушена, стригой возвращается в физическую форму и @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}. Находясь в теневой форме, стригой теряет быстрое исцеление, но может оставаться в теневой форме неограниченное время.</p><p>Находящийся в теневой форме стригой, подвергшийся `солнечному свету`, становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2}, и в конце своих ходов должен совершать @Check[type:flat|dc:16]. Если он провалит эту чистую проверку, то будет уничтожен, а тень исчезнет с леденящим кровь воплем.</p>"
+				},
+				"Drink Essence": {
+					"name": "Выпить сущность",
+					"description": "<p>Требования: В досягаемости стригоя находится которое @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаем}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} или готовое существо</p><hr><p>Стригой вонзает свои клыки в целевое существо, чтобы выпить его кровь и вытянуть жизненную сущность. Если жертва @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}, то для этого требуется @Check[type:athletics|defense:fortitude] против КС_СТК жертвы, а в остальных случаях происходит автоматически. Жертва @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2}, а стригой восстанавливает [[/r 18[healing]]]{18 ОЗ}, получая излишки ОЗ в качестве временных Очков Здоровья.</p><p>Выпивание Сущности у существа, которое уже `истощено` или `одурманено`, не восстанавливает стригою ОЗ, но увеличивает значение `истощен` или `одурманен` жертвы на 1 (увеличивается состояние с меньшим значением; если они равны, то стригой выбирает значение какого из состояний увеличить).</p><hr><p>Состояние `истощен` жертвы уменьшается на 1 в неделю. Переливание крови, с проверкой @Check[type:medicine|dc:20] и достаточным количеством крови или донором крови, через 10 минут уменьшает `истощен` на 1. Значение состояния `одурманен` жертвы снижается на 1 в день после ежедневных приготовлений. Если ежедневные приготовления завершены в солнечном свете, это состояние `одурманен` полностью убирается.</p>"
+				},
+				"tddsy5Ng0iM3EqZx": {
+					"name": "Подчинение",
+					"description": "<p>Стригой может @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Подчинение} @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.2YRDYVnC1eljaXKK]{По желанию}, как врожденное сакральное заклинание. Для его сотворения нужно пристально смотреть в глаза цели, что придает заклинанию `визуальный` признак. Для @Check[type:will|dc:31|immutable:true] используется КС_уровня стригоя, и преуспевшее существо временно иммунно к Подчинению этого стригоя на 24 часа.</p><p>Полное уничтожение стригоя прекращает подчинение, но простого снижения стригоя до 0 ОЗ недостаточно для снятия заклинания.</p>"
+				},
+				"S3UbnqRRcnn1Jbmp": {
+					"name": "+1 Стойкий Клепанный Кожаный Доспех",
+					"description": "<p>Этот кожаный доспех усилен металлическими заклепками и иногда небольшими металлическими пластинами, обеспечивая большую часть гибкости кожаного доспеха с более надежной защитой.</p>"
+				},
+				"Domain of Dusk": {
+					"name": "Владение Сумрака",
+					"description": "<p>Взмахом руки стригой призывает отвратительную порчу из окружающих теней, вызывая клубы тьмы и теневых летучих мышей, крыс и волков, набрасывающихся на `живые` цели в @Template[type:emanation|distance:30]. `Живые` существа в этой области получают @Damage[7d6[void]]</p><p>Стригой-прародитель не может снова использовать Владение сумрака 1 минуту</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:31|basic:true]</p><hr><p>Провал: Существо так же @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен} тьмой на 1 раунд</p><p>Крит.провал: Существо так же получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} на 1 раунд и потом @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен} на 1 раунд</p>"
+				},
+				"Shadow Escape": {
+					"name": "Теневой Побег",
+					"description": "<p>Триггер: Стригой снижены до 0 ОЗ</p><hr><p>Стригой использует @UUID[Compendium.pf2e.shadows-at-sundown-bestiary.Actor.wCztuDEePLs9ZsEl.Item.xYMEN3kfGAaLgbsU]{Теневая Форма}. Он может выполнять действия `движения`, чтобы передвигаться к своему гробу даже при 0 ОЗ. Пока он находится в этой форме с 0 ОЗ, стригой не подвержен дальнейшему урону. Он автоматически возвращается в свою телесную форму, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания}, если достигает своего гроба или через 2 часа, в зависимости от того, что произойдет раньше.</p>"
+				},
+				"Coffin Restoration": {
+					"name": "Восстановление в Гробу",
+					"description": "<p>В отличие от другой `нежити`, стригой не уничтожается при 0 ОЗ. Вместо этого, он становится @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} и теряет `быстрое исцеление`. Если его тело отдыхает 1 час в своем гробу, стригой получает 1 ОЗ, после чего его `быстрое исцеление` начинает работать как обычно.</p>"
+				},
+				"Strigoi Weaknesses": {
+					"name": "Слабости Стригоя",
+					"description": "<p>Все стригои обладают следующими слабостями:</p><details class=\"А\"><summary><strong>Отвращение</strong></summary><p>Стригою некомфортно находиться рядом с зеркалами или источниками яркого света. В зеркале отражается только тень стригоя, и это часто заставляет их закрывать или разрушать зеркала поблизости, и не рисковать тем, что будет показана их истинная сущность. Стригой не может добровольно приблизиться на расстояние 10ФТ к размахиваемому зеркалу или источнику яркого света. Чтобы махать зеркалом или источником яркого света, существо должно @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодейст.}, чтобы делать это в течение 1 раунда (аналогично @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Поднять Щит}). Если стригой непроизвольно приближается к объекту своего отвращения на расстояние 10ФТ, он получает состояние @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство}, убегая от объекта своего отвращения, пока не закончит действие на расстоянии более 10ФТ от него.</p><p>После 1 раунда нахождения под воздействием субъекта своего отвращения, стригой может одиночным действием с признаком `концентрация` совершить @Check[type:will|dc:25]. При успехе он преодолевает свое отвращение на [[/r 1d6 #Overcome Revulsions Duration]]{1d6 Раундов} (или 1 час при крит.успехе).</p><p>Стригой может нормально двигаться возле зеркал и источников яркого света которыми не размахивают, но это вызывает у них дискомфорт, который можно заметить успешной проверкой @UUID[Compendium.pf2e.action-macros.Macro.PmHt7Gb5fCrlWWTr]{Восприятие} для @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p></details><details class=\"А\"><summary><strong>Солнечный Свет</strong></summary><p>Если стригой попадает под прямой солнечный свет, он немедленно падает на землю @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]. Он выглядит мертвым: не дышит, температура тела равняется окружающей, и он не реагирует на боль и другие раздражители. Успешная проверка @Check[type:perception|dc:resolve(10+@actor.system.saves.reflex.value)] против КС_РФЛ стригоя покажет одну аномалию: тень отбрасываемая его \"мертвым\" телом слегка меняется и двигается, ее границы подвижны и извиваются. Заклинания как @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv], чувства как Жизнечувствительность и \"труп\" получающий урон жизненостью все еще действуют как обычно и могут раскрыть истину без успешной проверки Восприятия. Лицезрение \"трупа\" в отражении зеркала тоже покажет истину, отражая только тень от тела. Находясь без сознания на солнечном свете, стригой теряет свое сопротивление физическому урону. Если стригой получает достаточно урона и ОЗ снизятся до 0, то его тело разлагается и стригой уничтожен.</p></details><details class=\"А\"><summary><strong>Отвращение к Воде</strong></summary><p>Стригой не может пересечь значительный источник текущей воды (например, ручей, реку или волны на берегу моря). Стригой, способный летать, может пересечь текущую воду при условии, что он приблизится к поверхности жидкости не ближе чем на 10ФТ. Если стригой против своей воли попадает в текущую воду, он становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2} и получает @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} пока остается в воде. В конце любого хода, в котором стригой остается в текущей воде, он должен совершить успешную @Check[type:flat|dc:5], иначе будет уничтожен.</p></details>"
+				},
+				"Oracle Mystery": {
+					"name": "Таинство Оракула: Знание",
+					"description": "<p>@UUID[Compendium.pf2e.classfeatures.Item.tZBb3Kh4nJcNoUFI]</p>"
+				},
+				"Create Spawn": {
+					"name": "Создание Порождения",
+					"description": "<p>Если существо умирает после того, как его ОЗ было снижено до 0 с помощью @UUID[Compendium.pf2e.shadows-at-sundown-bestiary.Actor.wCztuDEePLs9ZsEl.Item.oUowrBkgg74TlRMs]{Выпить сущность} или @UUID[Compendium.pf2e.shadows-at-sundown-bestiary.Actor.wCztuDEePLs9ZsEl.Item.jTPiUcXPtiMhrrcE]{Владение Сумрака}, стригой может превратить эту жертву в стригоя, пожертвовав ей часть своей крови и закопав жертву в землю на 3 ночи.</p><p>Жертва 8-го уровня или выше, становится @UUID[Compendium.pf2e.shadows-at-sundown-bestiary.Actor.OsRWaQVTonZBmZo1]{Стригой-слуга}, а жертва более низкого уровня вместо этого становится <a class=\"reference internal\" href=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/creatures/bestiary/Vampire/Creating-a-Vampire.html\"><span class=\"doc\">вампиром мороем</span></a>. Если уровень нового вампира ниже уровня его создателя, то он находится под контролем создателя. Если стригой одновременно контролирует слишком много порождений (по решению Мастера), порождения с сильной волей могут освободиться, совершив успешный @Check[type:will|dc:resolve(10+@actor.system.saves.will.value)|name:Escape Thralldom] против КС Воли вампира.</p>"
+				}
+			}
+		},
+		"Strigoi Servant": {
+			"name": "Стригой-слуга",
+			"tokenName": "Стригой",
+			"UUID": "OsRWaQVTonZBmZo1",
+			"prependAdjective": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<p>Стригои - древнейшие из всех вампиров. Они появились раньше древних <a href=https://clck.ru/sbabv>носферату</a> и считают <a href=https://clck.ru/sVArj>мороев</a> инфантильными детьми, однако их собственное происхождение настолько затерялось во времени, что сегодня мало кто слышал о них, и еще меньше тех, кто знает их истинную суть. Многие из старейших преданий о вампирах восходят к стригоям, и почти каждый другой вампир несет в себе черты, которые в конечном итоге уходят корнями к этим могущественным, древним существам.</p>\n<p>Стригои в своей истинной форме - существа без тел, родом с <a href=https://clck.ru/rem3s>Теневого плана</a>, не способные взаимодействовать с физическим миром, существующие лишь как чистые силы злобы. Однако когда это зло приглашается в физическое тело с помощью древних ритуалов, стригой становится гораздо опаснее. Данное требование, чтобы живое существо по собственной воле совершило обряд, чтобы привлечь стригоя в свою душу, вполне может быть источником навязчивой идеи мороев, что они не могут войти в дом без приглашения.</p>\n<p>Некоторые мифы указывают на @UUID[Compendium.pf2e.deities.22n3N47sqbqbDxbp]{Ургатоа} как на источник ритуала, позволявшего заклинателям становиться стригоями, в то время как другие предполагают, что этот метод был распространен культом @UUID[Compendium.pf2e.deities.8ZSywyo8YQPduo92]{Зуры}. Каким бы ни был источник, этот давно забытый ритуал не был вратами к могуществу, а скорее ловушкой, позволявшей стригоям вселяться в тени и души некогда живых носителей. Таким образом, они обретали возможность существовать в мире воплоти. Присутствие стригоя в тени живого хозяина вызывает болезнь и скорую смерть, после чего стригой соединяется с душой хозяина и становится единым целым с его телом. Так первые из их рода вторглись в мир живых и первые вампиры стали ходить по ночам.</p>",
+			"items": {
+				"YHhE1sZpAqrBtqtN": {
+					"name": "Длинный меч"
+				},
+				"EjquQFT6YBdthKn3": {
+					"name": "Короткий лук"
+				},
+				"9LfYONbwgry5MvlK": {
+					"name": "+1 Кожаный доспех",
+					"description": "<p>Этот комплект доспеха сочетает гибкую и формованную вареную кожу, обеспечивая некоторую защиту и максимальной гибкость.</p>"
+				},
+				"Shadow Form": {
+					"name": "Теневая Форма",
+					"description": "<p>Стригой превращается в чистую тень и втягивает свое тело со снаряжением в эту тьму, либо возвращается в свою физическую форму.</p><p>В теневой форме стригой получает Скорость карабканья, равную наземной Скорости, и может перемещаться через любые негерметичные зазоры. Однако он может перемещаться только по твердым поверхностям, не обладающим высокой отражательной способностью, но никак не по жидким или зеркальным поверхностям. Если поверхность, на которой он находится, разрушена, стригой возвращается в физическую форму и @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}. Находясь в теневой форме, стригой теряет быстрое исцеление, но может оставаться в теневой форме неограниченное время.</p><p>Находящийся в теневой форме стригой, подвергшийся `солнечному свету`, становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2}, и в конце своих ходов должен совершать @Check[type:flat|dc:16]. Если он провалит эту чистую проверку, то будет уничтожен, а тень исчезнет с леденящим кровь воплем.</p>"
+				},
+				"36hXkmZEaZmCPhYx": {
+					"name": "Выпить сущность",
+					"description": "<p>Требования: В досягаемости стригоя находится которое @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаем}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} или готовое существо</p><hr><p>Стригой вонзает свои клыки в целевое существо, чтобы выпить его кровь и вытянуть жизненную сущность. Если жертва @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}, то для этого требуется @Check[type:athletics|defense:fortitude] против КС_СТК жертвы, а в остальных случаях происходит автоматически. Жертва @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1}, а стригой восстанавливает [[/r 13[healing]]]{13 ОЗ}, получая излишки ОЗ в качестве временных Очков Здоровья.</p><p>Выпивание Сущности у существа, которое уже `истощено` или `одурманено`, не восстанавливает стригою ОЗ, но увеличивает значение `истощен` или `одурманен` жертвы на 1 (увеличивается состояние с меньшим значением; если они равны, то стригой выбирает значение какого из состояний увеличить).</p><hr><p>Состояние `истощен` жертвы уменьшается на 1 в неделю. Переливание крови, с проверкой @Check[type:medicine|dc:20] и достаточным количеством крови или донором крови, через 10 минут уменьшает `истощен` на 1. Значение состояния `одурманен` жертвы снижается на 1 в день после ежедневных приготовлений. Если ежедневные приготовления завершены в солнечном свете, это состояние `одурманен` полностью убирается.</p>"
+				},
+				"Coffin Restoration": {
+					"name": "Восстановление в Гробу",
+					"description": "<p>В отличие от другой `нежити`, стригой не уничтожается при 0 ОЗ. Вместо этого, он становится @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} и теряет `быстрое исцеление`. Если его тело отдыхает 1 час в своем гробу, стригой получает 1 ОЗ, после чего его `быстрое исцеление` начинает работать как обычно.</p>"
+				},
+				"Strigoi Weaknesses": {
+					"name": "Слабости Стригоя",
+					"description": "<p>Все стригои обладают следующими слабостями:</p><details class=\"А\"><summary><strong>Отвращение</strong></summary><p>Стригою некомфортно находиться рядом с зеркалами или источниками яркого света. В зеркале отражается только тень стригоя, и это часто заставляет их закрывать или разрушать зеркала поблизости, и не рисковать тем, что будет показана их истинная сущность. Стригой не может добровольно приблизиться на расстояние 10ФТ к размахиваемому зеркалу или источнику яркого света. Чтобы махать зеркалом или источником яркого света, существо должно @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодейст.}, чтобы делать это в течение 1 раунда (аналогично @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Поднять Щит}). Если стригой непроизвольно приближается к объекту своего отвращения на расстояние 10ФТ, он получает состояние @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство}, убегая от объекта своего отвращения, пока не закончит действие на расстоянии более 10ФТ от него.</p><p>После 1 раунда нахождения под воздействием субъекта своего отвращения, стригой может одиночным действием с признаком `концентрация` совершить @Check[type:will|dc:25]. При успехе он преодолевает свое отвращение на [[/r 1d6 #Overcome Revulsions Duration]]{1d6 Раундов} (или 1 час при крит.успехе).</p><p>Стригой может нормально двигаться возле зеркал и источников яркого света которыми не размахивают, но это вызывает у них дискомфорт, который можно заметить успешной проверкой @UUID[Compendium.pf2e.action-macros.Macro.PmHt7Gb5fCrlWWTr]{Восприятие} для @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Понять Намерение}</p></details><details class=\"А\"><summary><strong>Солнечный Свет</strong></summary><p>Если стригой попадает под прямой солнечный свет, он немедленно падает на землю @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]. Он выглядит мертвым: не дышит, температура тела равняется окружающей, и он не реагирует на боль и другие раздражители. Успешная проверка @Check[type:perception|dc:resolve(10+@actor.system.saves.reflex.value)] против КС_РФЛ стригоя покажет одну аномалию: тень отбрасываемая его \"мертвым\" телом слегка меняется и двигается, ее границы подвижны и извиваются. Заклинания как @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv], чувства как Жизнечувствительность и \"труп\" получающий урон жизненостью все еще действуют как обычно и могут раскрыть истину без успешной проверки Восприятия. Лицезрение \"трупа\" в отражении зеркала тоже покажет истину, отражая только тень от тела. Находясь без сознания на солнечном свете, стригой теряет свое сопротивление физическому урону. Если стригой получает достаточно урона и ОЗ снизятся до 0, то его тело разлагается и стригой уничтожен.</p></details><details class=\"А\"><summary><strong>Отвращение к Воде</strong></summary><p>Стригой не может пересечь значительный источник текущей воды (например, ручей, реку или волны на берегу моря). Стригой, способный летать, может пересечь текущую воду при условии, что он приблизится к поверхности жидкости не ближе чем на 10ФТ. Если стригой против своей воли попадает в текущую воду, он становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2} и получает @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} пока остается в воде. В конце любого хода, в котором стригой остается в текущей воде, он должен совершить успешную @Check[type:flat|dc:5], иначе будет уничтожен.</p></details>"
+				},
+				"119": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Abridan Ashau": {
+			"name": "Abridan Ashau",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Acolyte of Pharasma": {
+			"name": "Аколит Фаразмы",
+			"tokenName": "Аколит",
+			"UUID": "Ry6Sih9K9iyhAN5C",
+			"prependAdjective": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"i6Z2NZCCjhgnt9OV": {
+					"name": "Кинжал"
+				},
+				"hZjTYV9dSeZSbdrp": {
+					"name": "Кинжал"
+				},
+				"Religious Symbol of Pharasma": {
+					"name": "Символ Фаразмы",
+					"description": "<p>Этот кусок дерева гравирован изображением представляющим божество. Некоторые сакральные заклинатели, такие как жрецы, могут использовать религиозный символ своего божества как сакральный фокус при использовании некоторых умений и сотворении некоторых заклинаний. Чтобы использовать религиозный символ, его надо держать в одной руке.</p>"
+				}
+			}
+		},
+		"Aliriel": {
+			"name": "Aliriel",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Bishop Keppira D'Bear": {
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ibrique": {
+			"name": "Ibrique",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ileosa's Shell": {
+			"name": "Оболочка Илеосы",
+			"tokenName": "Оболочка Илеосы",
+			"UUID": "sawfqpGNObMA41at",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"vhfIj6vLRTmu7IjN": {
+					"name": "Клыки"
+				},
+				"cse9qAgtS3C67Qxb": {
+					"name": "Кровавый Пир",
+					"description": "<p>Когда существо получает урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками, оно должно совершить @Check[type:fortitude|dc:33] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} при провал (при крит.провале - @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1})</p><p>Оболочка становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 1 раунд и может использовать дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками по существу, получающему @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}.</p><p>Дальнейший урон, наносимый Оболочкой, увеличивает состояние `Ослаблен` на 1 при провал спасброске, до максимального @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 4}.</p>"
+				},
+				"wgMOFOmkU54gtQeG": {
+					"name": "Вырваться из Ада",
+					"description": "<p>Когда Оболочка Илеосы уменьшается до 0 ОЗ, полый труп немедленно превращается в лужу крови, в центре которой лежит ее все еще бьющееся сердце. Мгновение спустя из сердца поднимается багровая призрачная фигура - душа Королевы Илеосы. После того как душа с криком облегчения вырвалась из ада, она поднимается под потолок и исчезает, а сердце умирает и разлагается.</p><p>Все Существа в @Template[type:emanation|distance:30] от Оболочки, когда это происходит, должны совершить @Check[type:will|dc:30]</p><hr><p>Крит.Успех: `Живое` существо оживляется и приходит в восторг от ощущения свободы от ада и становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 1 минуту. Существо может использовать дополнительное действие каждый раунд только для @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} и @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}. `Нежить`, не получает никакого преимущества.</p><p>Успех: Как Крит.Успех, но существо может использовать дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Крит.Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2}</p>"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Loreavor": {
+			"name": "Loreavor",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Lorthact": {
+			"name": "Lorthact",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Paradox Engine": {
+			"name": "Paradox Engine",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Profane Ghoul": {
+			"name": "Profane Ghoul",
+			"tokenName": "",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Scarlet Walker": {
+			"name": "Алый Ходок",
+			"tokenName": "Алый Ходок",
+			"UUID": "8oeuD5h4OzXsxZS5",
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"Qcndzb3b9hqNw8vb": {
+					"name": "Телепатия 300ФТ"
+				},
+				"DR4XXjdU3F3aGIqr": {
+					"name": "Чувство Крови 60ФТ",
+					"description": "<p>Алый Ходок может чувствовать `живых` существ, в жилах которых течет кровь, а также `нежить`, питающуюся кровью (например, `вампиров`)</p>"
+				},
+				"7VuW8PEfZQ0uwxSl": {
+					"name": "Кровососущий Взгляд",
+					"description": "<p>Когда `живое` существо, не относящееся к Алым Ходокам, которое заканчивает свой ход в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура} @Template[type:emanation|distance:20]{20}, оно должно совершить @Check[type:fortitude|dc:29], чтобы предотвратить тонкие струйки крови, вытекающие из его глаз в безглазые ямы на лице Алого Ходока. Если спасбросок провален, жертва будет @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (при крит.провале @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2}) и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} от боли</p>"
+				},
+				"vSbNW7TU1TuCnuu1": {
+					"name": "Не Дышит",
+					"description": "<p>Алый Ходок не дышит и иммунен к эффектам, требующим дыхания (например, к `вдыхаемому` `яду`)</p>"
+				},
+				"3SOMti9yaqYiwe2u": {
+					"name": "Жуткая Гибкость",
+					"description": "<p>Алый Ходок может пролезать через узкие пространства, как если бы он был `средним` существом. Совершая @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Протиснуться}, он может двигаться со всей своей скоростью.</p>"
+				},
+				"9xrniBrJCHoikOK9": {
+					"name": "Паралич",
+					"description": "<p>Любое `живое` существо, не являющееся Алым Ходоком, пораженное @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} @UUID[Compendium.pf2e.shadows-at-sundown-bestiary.Actor.8oeuD5h4OzXsxZS5.Item.AQ1jVghVszfla9Yi] Алого Ходока, должно совершить @Check[type:fortitude|dc:29]</p><hr><p>Крит.Успех: Существо не поражено.</p><p>Успех: Существо @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} на 1 раунд, а после выздровления @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p><p>Крит.Провал: Как провал, но паралич не прекращается автоматически через 1 раунд. Существо может попытаться сделать новое спасбросок в конце каждого своего хода, причем КС каждого такого спасброска суммарно уменьшается на 1</p>"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Yniesse Zenderholm": {
+			"name": "Инисс Зендерхольм",
+			"tokenName": "Инисс Зендерхольм",
+			"UUID": "km4jIE3xBRZoY9o7",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"qp3gjohOH7kebRKs": {
+					"name": "Длинный меч"
+				},
+				"RXG8JwrS8vJ0ZgWv": {
+					"name": "Короткий лук"
+				},
+				"Gray Maiden Plate": {
+					"name": "Латы Серых Дев",
+					"description": "<p>Впервые эти безликие доспехи были разработаны и распространены во времена правления Королевы Илеосы, но сегодня каждый новый костюм этого печально известного стиля доспехов изготавливается самой Серой Девой или спонсором нового члена.</p>"
+				},
+				"sbwj8Nd4OYLCLjqg": {
+					"name": "Блок Щитом",
+					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+				},
+				"99PrThFKZPcXAq2j": {
+					"name": "Ярость Эриний",
+					"description": "<p><strong>Требования</strong>: Агент Эриний срадает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}</p><hr><p>Агент совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}. Если он попадает, то наносит дополнительно 1d6 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}; тип этого урона соответствует типу продолж.урона, от которого он страдает. Агент может выбрать, чтобы это был @Damage[(1d6)[spirit,persistent]]</p><hr><p>При расчете Штрафа Множ.Атаки это считается как две атаки</p>"
+				}
+			}
+		},
+		"Brooding Fvalthahalia": {
+			"name": "Brooding Fvalthahalia",
+			"tokenName": "",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ileosa's Fifth Manifestation": {
+			"name": "Ileosa's Fifth Manifestation",
+			"tokenName": "",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ileosa's Sixth Manifestation": {
+			"name": "Ileosa's Sixth Manifestation",
+			"tokenName": "",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Life Draining Thunder": {
+			"name": "Life Draining Thunder",
+			"tokenName": "",
+			"img": "",
+			"tokenImg": "",
+			"actorLink": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"hstealth": "",
+			"hdescription": "",
+			"hdisable": "",
+			"hroutine": "",
+			"hreset": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		}
+	}
+}
