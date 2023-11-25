@@ -8049,5 +8049,83 @@
       "actor": "modules/pf2e-ts-adv/Slithering/Paga_Nikohian.webp",
       "token": "modules/pf2e-ts-adv/Slithering/Paga_Nikohian_t.webp"
     }
+  },
+  "rusthenge-bestiary": {
+    "H3Ma71C2ZEku2RdG": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Vanda.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Vanda_t.webp"
+    },
+    "fRiOPTsfqJBiwUwh": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Vloriak.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Vloriak_t.webp"
+    },
+    "heYhZGnVa9XSFuUN": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/fiendish/cythnigot.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/fiendish/cythnigot.webp"
+    },
+    "GtI25Mqe9uQxandy": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/boggard-swampseer.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/humanoid/boggard-swampseer.webp"
+    },
+    "yscVNbJvyotk9NLG": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Dretch.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Dretch_t.webp"
+    },
+    "DetuCfGXs1UGdVdz": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Clockwork_Serpent_Spy.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Clockwork_Serpent_Spy_t.webp"
+    },
+    "romVSuOVkSVFwsN4": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Clockwork_Belimarius.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Clockwork_Belimarius_t.webp"
+    },
+    "vQeUoEfY80yBs0Bb": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Zaiox.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Zaiox_t.webp"
+    },
+    "5WblkuUbhqpFk7iu": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Knurr_Ragnulf.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Knurr_Ragnulf_t.webp"
+    },
+    "FPIjWBVNisjWRXHp": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Meitremar.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Meitremar_t.webp"
+    },
+    "ye8Niis34NfY30TS": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Ordwi.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Ordwi_t.webp"
+    },
+    "BXS36BprDgzSnXuZ": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/undead/severed-head.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/undead/severed-head.webp"
+    },
+    "LeN4l03TAmPiAjdK": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Rustsworn_Cultist.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Rustsworn_Cultist_t.webp"
+    },
+    "FUxaVKVEV8eOuTVB": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Primordial_envy.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Primordial_envy_t.webp"
+    },
+    "UMDbYqoMhnLZQ2gf": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/undead/zombie-plague.webp",
+      "token": "modules/pf2e-ts-adv/art_token/tokens/undead/zombie-plague.webp"
+    },
+    "ARjMJb6LCtwdNDM6": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Rustsworn_Initiate.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Rustsworn_Initiate_t.webp"
+    },
+    "RnqXo9fN1ST0kOZ5": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Theiltemar.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Theiltemar_t.webp"
+    },
+    "1oVJFDY5BJQxO3k9": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/Trygve.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/Trygve_t.webp"
+    },
+    "111": {
+      "actor": "modules/pf2e-ts-adv/Rusthenge/.webp",
+      "token": "modules/pf2e-ts-adv/Rusthenge/_t.webp"
+    }
   }
 }
