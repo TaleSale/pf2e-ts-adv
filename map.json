@@ -7044,9 +7044,9 @@
 		}
   },  
   "age-of-ashes-bestiary":{
-		"Accursed Forge-Spurned": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"  
+		"xrxjjjRMKzwsYbGm": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Accursed_Forge_Spurned.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Accursed_Forge_Spurned_t.webp"
 		},
 		"Acidic Needle Launcher": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
@@ -7113,8 +7113,8 @@
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
 		"WouSA1UsIzvBTOix": {
-      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Carnivorous_Crystal.webp",
-      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Carnivorous_Crystal_t.webp"
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Carnivorous_Crystal.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Carnivorous_Crystal_t.webp"
 		},
 		"Caustic Vapor": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
@@ -7128,9 +7128,9 @@
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Charau-ka_Dragon_Priest.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Charau-ka_Dragon_Priest_t.webp"  
 		},
-		"Corrupt Guard": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"  
+		"w1Pqv0YmG4MevpQc": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Corrupt_Guard.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Corrupt_Guard_t.webp"
 		},
 		"ZRGRAqkDEZbRn8x3": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Crucidaemon.webp",
@@ -7145,16 +7145,16 @@
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
 		"NrMgYvnIHFxeFEhX": {
-      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dalos.webp",
-      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dalos_t.webp"  
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Dalos.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Dalos_t.webp"  
 		},
 		"Damurdiel's Vengeance": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
 		"5jFR05QRixpOChRy": {
-      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Deculi.webp",
-      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Deculi_t.webp"  
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Deculi.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Deculi_t.webp"  
 		},
 		"L4K4V09tQVXj7ZiI": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/1/Dmiri_Yoltosha.webp",
@@ -7169,8 +7169,8 @@
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
 		"scPhFbBqlmD2fQHa": {
-      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonscarred_Dead.webp",
-      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonscarred_Dead_t.webp"  
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Dragonscarred_Dead.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Dragonscarred_Dead_t.webp"  
 		},
 		"X6TTBlHIfJZ43OqR": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonshard_Guardian.webp",
@@ -7184,9 +7184,9 @@
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
-		"Duergar Slave Lord": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"  
+		"2FbG5nLE91b6BNiB": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Duergar_Slave_Lord.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Duergar_Slave_Lord_t.webp"
 		},
 		"Echoes of Betrayal": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
@@ -7208,13 +7208,13 @@
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"  
 		},
-		"Falrok": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"  
+		"dG5DBgrxlaimsWOS": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Falrok.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Falrok_t.webp"
 		},
-		"Forge-Spurned": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"  
+		"tr3qlFJVHqloE9zI": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Forge_Spurned.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Forge_Spurned_t.webp"
 		},
 		"UQDxkvqXKg03ESTQ": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Gerhard_Pendergrast.webp",
@@ -7264,9 +7264,9 @@
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"
 		},
-		"Ilssrah Embermead": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"XHJC4G6bfPiVXGKE": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Ilssrah_Embermead.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Ilssrah_Embermead_t.webp"
 		},
 		"AtiN3EsRpHn5qbuv": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Immortal_Ichor.webp",
@@ -7300,25 +7300,25 @@
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Kalavakus.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Kalavakus_t.webp"  
 		},
-		"Kelda Halrig": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"qemmmfu7exswGMGZ": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Kelda_Halrig.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Kelda_Halrig_t.webp"
 		},
-		"King Harral": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"C4PD4p4I9byZ8yp6": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/King_Harral.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/King_Harral_t.webp"
 		},
-		"Kralgurn": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"MFTMMXiwvW1aqOzs": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Kralgurn.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Kralgurn_t.webp"
 		},
 		"9oNwQuwKGUuG9G9g": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Laslunn.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Laslunn_t.webp"  
 		},
-		"Lazurite-Infused Stone Golem": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"L7IJO5z82nEN9IjM": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Lazurite_Infused_Stone_Golem.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Lazurite_Infused_Stone_Golem_t.webp"
 		},
 		"Lesser Dragonstorm": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
@@ -7412,9 +7412,9 @@
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Rusty_Mae.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/3/Rusty_Mae_t.webp"  
 		},
-		"Saggorak Poltergeist": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"U2QGjhcg5QFFkHwv": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Saggorak_Poltergeist.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Saggorak_Poltergeist_t.webp"
 		},
 		"mYJ6NNthl702Pz2s": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Scarlet_Triad_Agent.webp",
@@ -7461,16 +7461,16 @@
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/1/Skeletal_Hellknight_t.webp"  
 		},
 		"595MAHwB4JWtzLAA": {
-      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin.webp",
-      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin_t.webp"  
+      "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Soulbound_Ruin.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Soulbound_Ruin_t.webp"  
 		},
 		"Spiritbound Aluum": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"
 		},
-		"Talamira": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"Fe1lYhCUY4UO4Plw": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Talamira.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Talamira_t.webp"
 		},
 		"5r2S6FeE6D1Oh66T": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Tarrasque.webp",
@@ -7504,9 +7504,9 @@
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Vazgorlu.webp",
       "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/Vazgorlu_t.webp"  
 		},
-		"Veshumirix": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"dTikLHqGfiSYemuZ": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Veshumirix.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Veshumirix_t.webp"
 		},
 		"Vision of Dahak": {
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
@@ -7532,9 +7532,9 @@
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"
 		},
-		"Xevalorg": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"CJVRPFTKuJroiD5C": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Xevalorg.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Xevalorg_t.webp"
 		},
 		"X4oeJnv1KcpHFO6i": {
       "actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/Xotani.webp",
@@ -7548,9 +7548,9 @@
 			"actor": "systems/pf2e/icons/default-icons/npc.svg",
       "token": "systems/pf2e/icons/default-icons/npc.svg"
 		},
-		"Zuferian": {
-			"actor": "systems/pf2e/icons/default-icons/npc.svg",
-      "token": "systems/pf2e/icons/default-icons/npc.svg"
+		"XNso2IMnhnfHcMCn": {
+			"actor": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Zuferian.webp",
+      "token": "modules/pf2e-ts-adv/art_token/AgeofAshes/4/Zuferian_t.webp"
 		}
   },
   "npc-gallery":{

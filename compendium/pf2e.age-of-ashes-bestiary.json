@@ -1644,24 +1644,708 @@
 		"04": {
 			"name": "Книга 04"
 		},
-
-
-
-
-
-		"Scarlet Triad Agent": {
-			"name": "Алый Агент",
-			"tokenName": "Алый Агент",
+		"Forge-Spurned": {
+			"name": "Отвергнутый Кузнец",
+			"tokenName": "Отверг.Кузнец",
+			"UUID": "tr3qlFJVHqloE9zI",
+			"appendNumber": true,
 			"tokenvision": true,
 			"tokendisplayBars": 40,
 			"tokendisplayName": 20,
+			"description": "<p>Злые дварфы, которые умирают, так и не сумев соответствовать строгим стандартам бога дуэргаров @UUID[Compendium.pf2e.deities.Item.39z55kowQFOUH2v0]{Дроскара}, иногда вынуждены возвращаться в материальный мир в виде нежити, известной как Отвергнутые Кузнецы.</p>",
 			"items": {
-				"111": {
+				"BdxoNSpPKQa1FYSZ": {
+					"name": "Цепь Души"
+				},
+				"x15lr82vvdm9m35m": {
+					"name": "Боевой Молот"
+				},
+				"h7xMfnmPBbeB5lZh": {
+					"name": "Цепь Души",
+					"description": "<p>Цепь Души - это @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Разящая} @UUID[Compendium.pf2e.equipment-srd.Item.zi9ovfoRp2fMhfpO]{Шипастая цепь} @UUID[Compendium.pf2e.equipment-srd.Item.DKWuJb2rSgiotOG7]{+1}, которая стала `проклятой` после того, как Отвергнутый Кузнец использовал ее, чтобы убить Существо и поймать его душу в ловушку. В руках отвергнутого кузнеца цепь души наносит дополнительный @Damage[1d6[fire]] при попадании.&nbsp;Другие существа могут использовать цепь души как стандартную Разящую Шипастую Цепь +1.</p><p>Цепь Души сливается со своим владельцем, когда тот в первый раз наносит урон `живому` существу этим оружием. ПИ, который умирает, нося цепь души, должен совершить @Check[type:will|dc:20]; при провале он немедленно превращается в Отвергнутого кузнеца. Ношение нескольких цепей души не увеличивает КС, но носитель должен попытаться сделать спасение один раз за каждую цепь.</p>"
+				},
+				"Forge Breath": {
+					"name": "Дыхание Кузницы",
+					"description": "<p>Отвергнутый кузнец выдыхает облако жгучей сажи, пепла и раскаленных углей. Оно может воздействовать либо на @Template[type:cone|distance:30], либо на @Template[type:burst|distance:20] с центром на Отвергнутом кузнеце, и держится в течение [[/r 1d4 #rounds]]{1d4 Раундов}.</p><p>Существа, находящиеся в облаке @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыты}, но не от Отвергнутого Кузнеца. Каждое существо, которое входит в эту область или начинает свой ход в ней, получает @Damage[6d6[fire]] (@Check[type:reflex|dc:21|basic:true]{Спас.Пр.РФЛ}). Существо, провалившее спасбросок, также получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] на 1 минуту.</p><p>Отвергнутый Кузнец не может совершать \"Дыхание Кузницы\" до тех пор, пока не применит \"Раздувание Кузницы\".</p>"
+				},
+				"Inflate Bellows": {
+					"name": "Раздувание Кузницы",
+					"description": "<p>Требования: Отвергнутый кузнец совершил Дыхание Кузницы</p><hr><p>Отвергнутый кузнец вновь надувает свои вялые легкие, что позволяет ему снова совершить Дыхание Кузницы</p>"
+				},
+				"Enternal Damnation": {
+					"name": "Проклятие Вечности",
+					"description": "<p>Пока Цепь Души остается не разрушена, Отвергнутый кузнец не может быть по-настоящему уничтожен. На следующем закате он восстает полностью исцеленным, даже если его физическое тело было уничтожено.</p>"
+				},
+				"Searing Heat": {
+					"name": "Жгучий Жар",
+					"description": "<p>Существо, прикоснувшееся к Отвергнутому Кузнецу (в том числе во время @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватив} или попав @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} безоружной атаки), получает @Damage[2d6[fire]] (@Check[type:reflex|dc:21|basic:true]{Спас.Пр.РФЛ})</p>"
+				},
+				"t00h5GlGA9LELf56": {
+					"name": "Цепь Души",
+					"description": "<p>Если существо убито атакой Цепью Души и отвергнутый кузнец сохранил труп существа, он может связать душу существа в Цепь Души (как @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]), проработав день в кузнице и успешно выполнив проверку на @Check[type:crafting|dc:20]. Человек, чья душа связана таким образом, не может быть воскрешен, пока Цепь Души не будет уничтожена (Твердость_5, ОЗ 20, ПП_10).</p>"
+				},
+				"113": {
 					"name": "111",
 					"description": "111"
 				}
 			}
 		},
+		"Kelda Halrig": {
+			"name": "Хельда Халриг",
+			"tokenName": "Хельда Халриг",
+			"UUID": "qemmmfu7exswGMGZ",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"MMtAAek31GnnT3PK": {
+					"name": "Боевой Молот"
+				},
+				"OHnvdksMNZmChe4c": {
+					"name": "Легкий Молот"
+				},
+				"Master Smith": {
+					"name": "Мастер-Кузнец",
+					"description": "<p>Хельда самый искусный кузнец в Ковларе, намного превосходят возможности обычных кузнецов. Она может создавать предметы, как если бы была 16-го уровня. Кроме того, она умеет создавать обширный каталог предметов, включая множество `необычных` и несколько `редких` формул. Формулы, которые она знает, могут быть подобраны в соответствии с потребностями каждой конкретной группы ПИ, но большинство из них предназначены для оружия, доспехов и других предметов, которые можно изготовить в кузнице.</p>"
+				}
+			}
+		},
+		"Scarlet Triad Agent": {
+			"name": "Алый Агент",
+			"tokenName": "Алый Агент",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Carnivorous Crystal": {
+			"name": "Плотоядный Кристалл",
+			"tokenName": "Пл.Кристалл",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Corrupt Guard": {
+			"name": "Коррумпированный Страж",
+			"tokenName": "Дварф-Страж",
+			"UUID": "w1Pqv0YmG4MevpQc",
+			"prependAdjective": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"0fMOfuFCNYpqOsRI": {
+					"name": "Кувалда"
+				},
+				"mkKQLOSUvNml05qi": {
+					"name": "Композитный короткий лук"
+				},
+				"Improved Knockdown": {
+					"name": "Улучшенный нокдаун",
+					"description": "<p>Страж может повергнуть противника на землю одним ударом. Он совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} ближнего боя. Если этот Удар попадает, он также применяет эффект критического успеха от @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Опрокинуть}.</p><p>Если для нанесения удара использовалось двуручное оружие ближнего боя (например, кувалда), то для получения урона от крит.успеха \"Опрокинуть\" можно использовать размер кости урона оружия вместо обычного размера кости крит.успеха, а также игнорируется требование \"Опрокинуть\" иметь свободную руку.</p>"
+				},
+				"PPVreyhaPRMpOiLh": {
+					"name": "Тюремный Ключ"
+				}
+			}
+		},
+		"Lazurite-Infused Stone Golem": {
+			"name": "Лазуритовый Голем",
+			"tokenName": "Лазур.Голем",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Saggorak Poltergeist": {
+			"name": "Полтергейс Саггорака",
+			"tokenName": "Полтергейс Саггорака",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Deculi": {
+			"name": "Deculi",
+			"tokenName": "Deculi",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Dalos": {
+			"name": "Дало",
+			"tokenName": "Дало",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Duergar Slave Lord": {
+			"name": "Дуэргар Повелитель Рабов",
+			"tokenName": "Рабовладелец",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Xevalorg": {
+			"name": "Ксевалорг",
+			"tokenName": "Ксевалорг",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Dragonscarred Dead": {
+			"name": "Обожженный Драконом Мертвец",
+			"tokenName": "Мертвец Дракона",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Talamira": {
+			"name": "Таламира",
+			"tokenName": "Таламира",
+			"UUID": "",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"King Harral": {
+			"name": "Король Харрал",
+			"tokenName": "Король Харрал",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Kralgurn": {
+			"name": "Кралгурн",
+			"tokenName": "Кралгурн",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Falrok": {
+			"name": "Фалрок",
+			"tokenName": "Фалрок",
+			"UUID": "",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Zuferian": {
+			"name": "Зуферия",
+			"tokenName": "Зуферия",
+			"UUID": "",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ilssrah Embermead": {
+			"name": "Ильссра Эмбермид",
+			"tokenName": "Ильссра Эмбермид",
+			"UUID": "",
+			"actorLink": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Soulbound Ruin": {
+			"name": "Одушевленные Руины",
+			"tokenName": "Одушевленные Руины",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Accursed Forge-Spurned": {
+			"name": "Проклятый Кузнец",
+			"tokenName": "Прок.Кузнец",
+			"UUID": "xrxjjjRMKzwsYbGm",
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "<p>Злые дварфы, которые умирают, так и не сумев соответствовать строгим стандартам бога дуэргаров @UUID[Compendium.pf2e.deities.Item.39z55kowQFOUH2v0]{Дроскара}, иногда вынуждены возвращаться в материальный мир в виде нежити, известной как Отвергнутые Кузнецы.</p>",
+			"items": {
+				"YT5Tkw6exXuHF2ph": {
+					"name": "Цепь Души"
+				},
+				"vPx7Kv8CDnL5rd3e": {
+					"name": "Боевой Молот"
+				},
+				"g9GO4tLTHh7ZeC4L": {
+					"name": "Цепь Души",
+					"description": "<p>Цепь Души - это @UUID[Compendium.pf2e.equipment-srd.8WH6ub3FVFYtcXCT]{Адамантивая (Стандарт)} @UUID[Compendium.pf2e.equipment-srd.Item.KCQRFvUgbyclvOGi]{Отлично Разящая} @UUID[Compendium.pf2e.equipment-srd.Item.XszNvxnymWYRaoTp]{Огненная} @UUID[Compendium.pf2e.equipment-srd.Item.zi9ovfoRp2fMhfpO]{Шипастая цепь} @UUID[Compendium.pf2e.equipment-srd.Item.pOoEiuEuITm4I2Il]{+2}, которая стала `проклятой` после того, как Проклятый Кузнец использовал ее, чтобы убить Существо и поймать его душу в ловушку. В руках проклятого кузнеца цепь души наносит дополнительный @Damage[1d6[fire]] при попадании.</p><p>Цепь Души сливается со своим владельцем, когда тот в первый раз наносит урон `живому` существу этим оружием. ПИ, который умирает, нося цепь души, должен совершить @Check[type:will|dc:20]; при провале он немедленно превращается в Проклятого Кузнеца. Ношение нескольких цепей души не увеличивает КС, но носитель должен попытаться сделать спасение один раз за каждую цепь.</p>"
+				},
+				"Forge Breath": {
+					"name": "Дыхание Кузницы",
+					"description": "<p>Проклятый кузнец выдыхает облако жгучей сажи, пепла и раскаленных углей. Оно может воздействовать либо на @Template[type:cone|distance:30], либо на @Template[type:burst|distance:20] с центром на Проклятом кузнеце, и держится в течение [[/r 1d4 #rounds]]{1d4 Раундов}.</p><p>Существа, находящиеся в облаке @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыты}, но не от Проклятого Кузнеца. Каждое существо, которое входит в эту область или начинает свой ход в ней, получает @Damage[12d6[fire]] (@Check[type:reflex|dc:36|basic:true]{Спас.Пр.РФЛ}). Существо, провалившее спасбросок, также получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] на 1 минуту.</p><p>Проклятый Кузнец не может совершать \"Дыхание Кузницы\" до тех пор, пока не совершит \"Раздувание Кузницы\".</p>"
+				},
+				"Inflate Bellows": {
+					"name": "Раздувание Кузницы",
+					"description": "<p>Требования: Проклятый кузнец совершил Дыхание Кузницы</p><hr><p>Проклятый кузнец вновь надувает свои вялые легкие, что позволяет ему снова совершить Дыхание Кузницы</p>"
+				},
+				"Eternal Damnation": {
+					"name": "Проклятие Вечности",
+					"description": "<p>Пока Цепь Души остается не разрушена, Проклятый кузнец не может быть по-настоящему уничтожен. На следующем закате он восстает полностью исцеленным, даже если его физическое тело было уничтожено.</p>"
+				},
+				"Searing Heat": {
+					"name": "Жгучий Жар",
+					"description": "<p>Существо, прикоснувшееся к Проклятому Кузнецу (в том числе во время @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватив} или попав @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} безоружной атаки), получает @Damage[4d6[fire]] (@Check[type:reflex|dc:33|basic:true]{Спас.Пр.РФЛ})</p>"
+				},
+				"Py6UVHQQNzpI6Lww": {
+					"name": "Цепь Души",
+					"description": "<p>Если существо убито атакой Цепью Души и Проклятый кузнец сохранил труп существа, он может связать душу существа в Цепь Души (как @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]), проработав день в кузнице и успешно выполнив проверку на @Check[type:crafting|dc:20]. Человек, чья душа связана таким образом, не может быть воскрешен, пока Цепь Души не будет уничтожена (Твердость_10, ОЗ 40, ПП_20).</p>"
+				},
+				"oeNy6QRmjjdgIkfT": {
+					"name": "Стойкий Латный Доспех +2",
+					"description": "<p>Пластинчатая доспех состоит из сцепленных пластин, которые заключают почти все тело в стальной панцирь. Он дорогостоящий и тяжелый, и владельцу часто требуется помощь, чтобы надеть его правильно, но он предоставляет одну из лучших защит, что может дать доспех. Комплект этого доспеха поставляется вместе с надеваемым под низ @UUID[Compendium.pf2e.equipment-srd.zBYEU9E7034ENCmh]{Стеганым доспехом} и парой @UUID[Compendium.pf2e.equipment-srd.Ix2vicchE79d6Cl3]{Латных рукавиц}.</p>"
+				},
+				"Soul Siphon": {
+					"name": "Откачивание Души",
+					"description": "<p>Когда Проклятый Кузнец крит.попадает по цели своей цепью души, цепь высасывает часть души цели</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:36]</p><hr><p>Крит.Успех: Цель невредима</p><p>Успех: Цель @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощена 1}</p><p>Провал: Цель @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 2}</p><p>Крит.Провал: Цель @Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощена 2} и @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлена 2} от боли</p>"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Veshumirix": {
+			"name": "Вешумирикс",
+			"tokenName": "Вешумирикс",
+			"UUID": "",
+			"actorLink": true,
+			"prependAdjective": true,
+			"appendNumber": true,
+			"tokenvision": true,
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"description": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Ash Web": {
+			"name": "Пепельная Паутина",
+			"tokenName": "Пепел.Паутина",
+			"img": "systems/pf2e/icons/default-icons/hazard.svg",
+			"tokenImg": "icons/svg/mystery-man.svg",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"randomImg": true,
+			"hstealth": "\"ЭКСПЕРТ\"",
+			"hdisable": "\"ЭКСПЕРТ\"@Check[type:survival|dc:27|name:Remove Patch|traits:environmental,fungus|showDC:gm], чтобы удалить участок Пепельной Паутины площадью 10 квадратных футов, не вызывая споры.",
+			"hdescription": "<p>Эта опасная закопченная черная плесень легко выделяет свои токсичные споры, если ее потревожить. Вся полоса грибка в области <strong>B2</strong> представляет собой единый организм.</p>\n<p>Нужно удалить девять участков площадью 10 квадратных футов, но весь организм умирает, как только получает достаточно повреждений.</p>",
+			"hreset": "Большой участок Пепельной Паутины автоматически перезапускается в начале раунда.",
+			"hroutine": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Lifeleech Crystal Patches": {
+			"name": "Кристаллы Поглощения Жизни",
+			"tokenName": "Кристаллы Пог.Жизни",
+			"img": "systems/pf2e/icons/default-icons/hazard.svg",
+			"tokenImg": "icons/svg/mystery-man.svg",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"randomImg": true,
+			"hstealth": "\"ЭКСПЕРТ\" или @UUID[Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl], чтобы заметить присутствие некромантической энергии, пронизывающую кристаллы.</p>",
+			"hdisable": "\"ЭКСПЕРТ\" @Check[type:religion|dc:30|name:Lifeleech Crystal Patch Disable|traits:environmental,magical|showDC:gm] для произношения молитвы, подавляющие некромантическое влечение кристаллов пить кровь",
+			"hdescription": "Острые, кровожадные кристаллы делают прогулку по этой комнате опасной.",
+			"hreset": "",
+			"hroutine": "",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Wailing Crystals": {
+			"name": "Плачущие Кристаллы",
+			"tokenName": "Плач.Кристаллы",
+			"img": "systems/pf2e/icons/default-icons/hazard.svg",
+			"tokenImg": "icons/svg/mystery-man.svg",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"randomImg": true,
+			"hstealth": "\"МАСТЕР\" или \"МАСТЕР\"<span class=\"МУД\">@Check[type:perception|dc:37|name:Notice Ghostly Faces|traits:hazard,complex,environmental,magical|showDC:gm]</strong></span> чтобы заметить кричащие призрачные лица в кристаллах.",
+			"hdisable": "<p>&diams; \"МАСТЕР\"@Check[type:thievery|dc:29|name:Fracture the Crystals|traits:hazard,complex,environmental,magical|showDC:gm] осторожно разбить кристаллы.</p>\n<p>&diams; \"ЭКСПЕРТ\"@Check[type:crafting|dc:27|name:Stop the Resonance|traits:hazard,complex,environmental,magical|showDC:gm] разместить в кристаллах объект, чтобы остановить резонанс, что отключает один 5-футовый участок кристаллов.</p>",
+			"hdescription": "Три скопления блестящих разноцветных кристаллов испорчены некромантической энергией, которая заставляет их проецировать негативные `<u>эмоции</u>`. Все три скопления должны быть отключены или уничтожены, чтобы свести на нет `<u>Опасность</u>`",
+			"hreset": "Плачущие кристаллы отключаются и сбрасываются, как только в радиусе 20ФТ не остается живых существ",
+			"hroutine": "<p class=\"Заг2\">3 Действия</p>\n<hr />\n<p>`<u>Опасность</u>` использует каждое действие для Мучительного Крика. Плачущие кристаллы теряют 1 действие за каждый 5-футовый участок кристаллов, который отключен или уничтожен.</p>",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"Echoes of Betrayal": {
+			"name": "Эхо Предательства",
+			"tokenName": "Эхо Предательства",
+			"img": "systems/pf2e/icons/default-icons/hazard.svg",
+			"tokenImg": "icons/svg/mystery-man.svg",
+			"tokendisplayBars": 40,
+			"tokendisplayName": 20,
+			"randomImg": true,
+			"hstealth": "<p>\"МАСТЕР\" - услышать тихий ропот злых духов</p>",
+			"hdisable": "<p>&diams; \"МАСТЕР\" @Check[type:religion|dc:35|name:Экзорцизм|traits:haunt,complex|showDC:owner] трижды, чтобы изгнать духов</p>\n<p>&diams; \"ЭКСПЕРТ\" @Check[type:diplomacy|dc:39|name:Talk Down|traits:haunt,complex|showDC:owner] трижды, чтобы уговорить духов.</p>",
+			"hdescription": "<p>Злые духи во главе с призрачным образом Лудики восстают и начинают смертельную драку. Эти духи пытаются сокрушить живых существ, заставляя их вступать в бой.</p>",
+			"hreset": "<p>Через 24 часа `<u>Призраки</u>` возвращается. Духи навсегда упокоены только в том случае, если законно назначенный судья из Саггорака (или Ковлара) приходит в тюрьму, получает урон от призрака и переживает нападение.</p>",
+			"hroutine": "<p class=\"Заг2\">1 действие</p>\n<hr />\n<p>В качестве 1действия `<u>Призраки</u>` вызывает шквал призрачных кулаков, хлещущих по стенам, полу и потолку. Призрак пытается нанести призрачный удар кулаком по каждому существу в области <strong>H10</strong>.</p>",
+			"items": {
+				"111": {
+					"name": "111",
+					"description": "111"
+				},
+				"112": {
+					"name": "111",
+					"description": "111"
+				},
+				"113": {
+					"name": "111",
+					"description": "111"
+				}
+			}
+		},
+		"+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++": {
+			"name": "======================================================================================="
+		},
+		"05": {
+			"name": "Книга 05"
+		},
+
+
+
+
 		"Scarlet Triad Boss": {
 			"name": "Алый Босс",
 			"tokenName": "Алый Босс",
@@ -1701,141 +2385,6 @@
 				}
 			}
 		},
-		"Veshumirix": {
-			"name": "Вешумирикс",
-			"tokenName": "Вешумирикс",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Dalos": {
-			"name": "Дало",
-			"tokenName": "Дало",
-			"img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dalos.webp",
-			"tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dalos_t.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 33
-			}
-		},
-		"Duergar Slave Lord": {
-			"name": "Дуэргар Повелитель Рабов",
-			"tokenName": "Рабовладелец",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 36
-			}
-		},
-		"Zuferian": {
-			"name": "Зуферия",
-			"tokenName": "Зуферия",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 44
-			}
-		},
-		"Ilssrah Embermead": {
-			"name": "Ильссра Эмбер-Мид",
-			"tokenName": "Ильссра Эмбер-Мид",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 44
-			}
-		},
-		"King Harral": {
-			"name": "Король Харрал",
-			"tokenName": "Король Харрал",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 42
-			}
-		},
-		"Corrupt Guard": {
-			"name": "Коррумпированный Страж",
-			"tokenName": "Дварф-Страж",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 35
-			}
-		},
-		"Kralgurn": {
-			"name": "Кралгурн",
-			"tokenName": "Кралгурн",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 42
-			}
-		},
-		"Lifeleech Crystal Patches": {
-			"name": "Кристаллы Поглощения Жизни",
-			"tokenName": "Кристаллы Пог.Жизни",
-			"img": "systems/pf2e/icons/default-icons/hazard.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"hstealth": "\"ЭКСПЕРТ\" или @UUID[Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl], чтобы заметить присутствие некромантической энергии, пронизывающую кристаллы.</p>",
-			"hdisable": "\"ЭКСПЕРТ\" @Check[type:religion|dc:30|name:Lifeleech Crystal Patch Disable|traits:environmental,magical|showDC:gm] для произношения молитвы, подавляющие некромантическое влечение кристаллов пить кровь",
-			"hdescription": "Острые, кровожадные кристаллы делают прогулку по этой комнате опасной.",
-			"hreset": "",
-			"hroutine": ""
-		},
-		"Xevalorg": {
-			"name": "Ксевалорг",
-			"tokenName": "Ксевалорг",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 41
-			}
-		},
-		"Lazurite-Infused Stone Golem": {
-			"name": "Лазуритовый Голем",
-			"tokenName": "Лазур.Голем",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 35
-			}
-		},
 		"Mengkare": {
 			"name": "Менкарэ",
 			"tokenName": "Менкарэ",
@@ -1849,106 +2398,6 @@
 				}
 			}
 		},
-		"Dragonscarred Dead": {
-			"name": "Обожженный Драконом Мертвец",
-			"tokenName": "Мертвец Дракона",
-			"img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonscarred_Dead.webp",
-			"tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonscarred_Dead_t.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 33
-			}
-		},
-		"Soulbound Ruin": {
-			"name": "Одушевленные Руины",
-			"tokenName": "Одушевленные Руины",
-			"img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin.webp",
-			"tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Soulbound_Ruin_t.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 34
-			}
-		},
-		"Forge-Spurned": {
-			"name": "Отвергнутый Кузнец",
-			"tokenName": "Отвер.Кузнец",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 22
-			}
-		},
-		"Ash Web": {
-			"name": "Пепельная Паутина",
-			"tokenName": "Пепел.Паутина",
-			"img": "systems/pf2e/icons/default-icons/hazard.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"hstealth": "\"ЭКСПЕРТ\"",
-			"hdisable": "\"ЭКСПЕРТ\"@Check[type:survival|dc:27|name:Remove Patch|traits:environmental,fungus|showDC:gm], чтобы удалить участок Пепельной Паутины площадью 10 квадратных футов, не вызывая споры.",
-			"hdescription": "<p>Эта опасная закопченная черная плесень легко выделяет свои токсичные споры, если ее потревожить. Вся полоса грибка в области <strong>B2</strong> представляет собой единый организм.</p>\n<p>Нужно удалить девять участков площадью 10 квадратных футов, но весь организм умирает, как только получает достаточно повреждений.</p>",
-			"hreset": "Большой участок Пепельной Паутины автоматически перезапускается в начале раунда.",
-			"hroutine": ""
-		},
-		"Wailing Crystals": {
-			"name": "Плачущие Кристаллы",
-			"tokenName": "Плач.Кристаллы",
-			"img": "systems/pf2e/icons/default-icons/hazard.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"hstealth": "\"МАСТЕР\" или \"МАСТЕР\"<span class=\"МУД\">@Check[type:perception|dc:37|name:Notice Ghostly Faces|traits:hazard,complex,environmental,magical|showDC:gm]</strong></span> чтобы заметить кричащие призрачные лица в кристаллах.",
-			"hdisable": "<p>&diams; \"МАСТЕР\"@Check[type:thievery|dc:29|name:Fracture the Crystals|traits:hazard,complex,environmental,magical|showDC:gm] осторожно разбить кристаллы.</p>\n<p>&diams; \"ЭКСПЕРТ\"@Check[type:crafting|dc:27|name:Stop the Resonance|traits:hazard,complex,environmental,magical|showDC:gm] разместить в кристаллах объект, чтобы остановить резонанс, что отключает один 5-футовый участок кристаллов.</p>",
-			"hdescription": "Три скопления блестящих разноцветных кристаллов испорчены некромантической энергией, которая заставляет их проецировать негативные `<u>эмоции</u>`. Все три скопления должны быть отключены или уничтожены, чтобы свести на нет `<u>Опасность</u>`",
-			"hreset": "Плачущие кристаллы отключаются и сбрасываются, как только в радиусе 20ФТ не остается живых существ",
-			"hroutine": "<p class=\"Заг2\">3 Действия</p>\n<hr />\n<p>`<u>Опасность</u>` использует каждое действие для Мучительного Крика. Плачущие кристаллы теряют 1 действие за каждый 5-футовый участок кристаллов, который отключен или уничтожен.</p>"
-		},
-		"Carnivorous Crystal": {
-			"name": "Плотоядный Кристалл",
-			"tokenName": "Пл.Кристалл",
-			"img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Carnivorous_Crystal.webp",
-			"tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Carnivorous_Crystal_t.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 28
-			}
-		},
-		"Saggorak Poltergeist": {
-			"name": "Полтергейс Саггорака",
-			"tokenName": "Полтергейс Саггорака",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 35
-			}
-		},
-		"Accursed Forge-Spurned": {
-			"name": "Проклятый Кузнец",
-			"tokenName": "Прок.Кузнец",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 39
-			}
-		},
 		"Manifestation Of Dahak": {
 			"name": "Проявление Дахака",
 			"tokenName": "Дахак",
@@ -1960,56 +2409,6 @@
 			"classDC": {
 				"value": 58
 			}
-		},
-		"Talamira": {
-			"name": "Таламира",
-			"tokenName": "Таламира",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 41
-			}
-		},
-		"Falrok": {
-			"name": "Фальрок",
-			"tokenName": "Фальрок",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 42
-			}
-		},
-		"Kelda Halrig": {
-			"name": "Хельда Хариг",
-			"tokenName": "Хельда Хариг",
-			"img": "systems/pf2e/icons/default-icons/npc.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"classDC": {
-				"value": 34
-			}
-		},
-		"Echoes of Betrayal": {
-			"name": "Эхо Предательства",
-			"tokenName": "Эхо Предательства",
-			"img": "systems/pf2e/icons/default-icons/hazard.svg",
-			"tokenImg": "icons/svg/mystery-man.svg",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"randomImg": true,
-			"hstealth": "<p>\"МАСТЕР\" - услышать тихий ропот злых духов</p>",
-			"hdisable": "<p>&diams; \"МАСТЕР\" @Check[type:religion|dc:35|name:Экзорцизм|traits:haunt,complex|showDC:owner] трижды, чтобы изгнать духов</p>\n<p>&diams; \"ЭКСПЕРТ\" @Check[type:diplomacy|dc:39|name:Talk Down|traits:haunt,complex|showDC:owner] трижды, чтобы уговорить духов.</p>",
-			"hdescription": "<p>Злые духи во главе с призрачным образом Лудики восстают и начинают смертельную драку. Эти духи пытаются сокрушить живых существ, заставляя их вступать в бой.</p>",
-			"hreset": "<p>Через 24 часа `<u>Призраки</u>` возвращается. Духи навсегда упокоены только в том случае, если законно назначенный судья из Саггорака (или Ковлара) приходит в тюрьму, получает урон от призрака и переживает нападение.</p>",
-			"hroutine": "<p class=\"Заг2\">1 действие</p>\n<hr />\n<p>В качестве 1действия `<u>Призраки</u>` вызывает шквал призрачных кулаков, хлещущих по стенам, полу и потолку. Призрак пытается нанести призрачный удар кулаком по каждому существу в области <strong>H10</strong>.</p>"
 		},
 		"Acidic Needle Launcher": {
 			"name": "Acidic Needle Launcher",
@@ -2124,18 +2523,6 @@
 			"hdescription": "<p>An elven woman wearing a robe stands in the water. She beckons anyone who enters the room to join her in the pool.</p>",
 			"hreset": "<p>Damurdiel's spirit subsides once she is destroyed or if she manages to reduce a creature to 0 Hit Points. She returns after 1 minute.</p>",
 			"hroutine": "<p>(3 actions) The haunt attempts to Strike with the dagger.</p>"
-		},
-		"Deculi": {
-			"name": "Deculi",
-			"tokenName": "Deculi",
-			"img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Deculi.webp",
-			"tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Deculi_t.webp",
-			"tokendisplayBars": 0,
-			"tokendisplayName": 0,
-			"randomImg": false,
-			"classDC": {
-				"value": 30
-			}
 		},
 		"Dragonshard Guardian": {
 			"name": "Dragonshard Guardian",
