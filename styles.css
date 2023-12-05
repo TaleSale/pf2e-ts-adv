@@ -267,6 +267,19 @@
   align-items: center; /* Выравнивание текста по центру вертикально */
 }
 
+/********** картинка центр **********/
+
+.ЦЕНТР {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.ЦЕНТР img {
+  border: 5px solid lightblue; /* Более светлый оттенок синего для рамки */
+  border-radius: 10px; /* Закругление углов картинки */
+  height: auto !important;
+}
 
 .ТекстБлока
 {
