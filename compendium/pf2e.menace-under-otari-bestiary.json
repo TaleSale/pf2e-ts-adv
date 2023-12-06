@@ -1,1581 +1,1790 @@
 {
-	"label": "Неприятности под Отари",
-	"mapping": {
-		"description": "system.details.publicNotes",
-		"img": "img",
-		"tokenName": "prototypeToken.name",
-		"tokenImg": "prototypeToken.texture.src",
-		"tokenvision": "prototypeToken.vision",
-		"tokendisplayBars": "prototypeToken.displayBars",
-		"tokendisplayName": "prototypeToken.displayName",
-		"randomImg": "prototypeToken.randomImg",
-		"hstealth": "system.attributes.stealth.details",
-		"hdisable": "system.details.disable",
-		"hdescription": "system.details.description",
-		"hreset": "system.details.reset",
-		"hroutine": "system.details.routine",
-		"prependAdjective": "prototypeToken.prependAdjective",
-		"appendNumber": "prototypeToken.appendNumber",
-		"actorLink": "prototypeToken.actorLink"
-		},
-	"variants": [
-		{
-			"id": "Imprecise",
-			"name": "Неточный"
-		}
-	],
-	"entries": {
-		"Animated Armor (BB)": {
-			"name": "Оживленный Доспех (BB)",
-			"tokenName": "Оживленный Доспех",
-			"UUID": "cZDiyluplFqRxmGy",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<div class=\"А\"><p>Получив подобие жизни с помощью ритуалов или другой странной магии, одушевленные объекты имеют разные формы и служат для самых разных целей. Ниже приведены несколько примеров типичных оживленных объектов. Многие из этих существ служат стражами, удивляя ничего не подозревающих авантюристов, своим внезапным нападением. Другие служат праздным развлечением для чересчур богатых, простыми слугами, созданными для выполнения всякой работы, и тому подобного.</p><hr><p>Комплекты оживших доспехов используются как в виде стражей, так и в качестве спарринг-партнеров в высококлассных военных академиях, способных позволить себе такую расточительность. Чаще всего их можно найти в лабораториях волшебников и древних подземельях.</p></div>",
-			"items": {
-				"jAZY8WC1BtImPyEF": {
-					"name": "Латная Рукавица"
-				},
-				"GhnXpFtWM1vyvu8V": {
-					"name": "Броня конструкта (9)",
-					"description": "<p>Как обычные объекты, <strong>Оживленный Доспех</strong> имеет Твердость_9. Эта Твердость снижает любой получаемый урон на величину этой Твердости. Как только ОЗ <strong>Оживленного Доспеха</strong> снижаются ниже половины его ОЗ, или сразу после получения урона от крит.попадания, его броня конструкта ломается и КБ снижается до КБ 13.</p>"
-				},
-				"MCgl5uKpwtTh48E4": {
-					"name": "Длинный меч"
-				}
-			}
-		},
-		"Basilisk (BB)": {
-			"name": "Василиск (BB)",
-			"tokenName": "Василиск",
-			"UUID": "rPHxXClTnoPYHYuZ",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Nl15bkRTLq869IPi": {
-					"name": "Замедляющий Взор",
-					"description": "<p>Триггер: Существо в 30ФТ от <strong>Василиска</strong>, которое он может видеть, начинает свой ход</p><hr><p>Цель должна совершить @Check[type:fortitude|dc:20]. При провале, она на 1 минуту @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}, так как ее тело медленно коченеет</p>"
-				},
-				"tOCS9mkYR5K1LuOZ": {
-					"name": "Окаменяющий Взгляд",
-					"description": "<p>Василиск пристально смотрит на существо в пределах 30ФТ, которое он может видеть. Это существо должно совершить @Check[type:fortitude|dc:22]</p><p>Если оно проваливает и не было замедлено @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.rPHxXClTnoPYHYuZ.Item.Nl15bkRTLq869IPi] или этим умением, то оно становится @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}. Если существо уже было замедлено этим умение или Замедляющим Взором, то при провале спасброска оно получает @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Окаменение} навсегда.</p><p>Окаменевшее таким образом существо, покрытое (а не просто обрызганное) свежей кровью василиска (добытой из василиска, который был мертв не более 1 часа), мгновенно возвращается в плотское состояние. В 1 василиске содержится достаточно крови, чтобы покрыть таким образом 2 существ.</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Black Kobold Dragon Mage (BB)": {
-			"name": "Кобольд-Дракомант (Черный) (BB)",
-			"tokenName": "Кобольд-Дракомант",
-			"UUID": "R9eoGwQ2tudxUKxS",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1GBTPnqIIGld3Wu1": {
-					"name": "Драконья Чешуя",
-					"description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Черная - 5 Кислота</p>"
-				},
-				"90eQFUneXcsHeKSK": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Blue Kobold Dragon Mage (BB)": {
-			"name": "Кобольд-Дракомант (Синий) (BB)",
-			"tokenName": "Кобольд-Дракомант",
-			"UUID": "93hZtLl9pRRfqI05",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1GBTPnqIIGld3Wu1": {
-					"name": "Драконья Чешуя",
-					"description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Синяя - 5 Электричество</p>"
-				},
-				"90eQFUneXcsHeKSK": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Boar (BB)": {
-			"name": "Кабан (BB)",
-			"tokenName": "Кабан",
-			"UUID": "4MwjCsa5O9aAjxSm",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"jmPDVPebOQ3XVOwA": {
-					"name": "Рывок Кабана",
-					"description": "<p>Кабан дважды совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, а затем совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Бивнем. Если он совершил `<u>движение</u>` не менее чем на 20ФТ, он получает бонус обстоятельства +2 к броску атаки</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Brine Shark (BB)": {
-			"name": "Водная Акула (BB)",
-			"tokenName": "Водная Акула",
-			"UUID": "9sa2KE4Fbh3OPH7M",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Fc10tuSKXi4OAWw6": {
-					"name": "Глубокое Погружение",
-					"description": "<p>Водная Акула ныряет в воду, проплывая до 100ФТ по прямой вертикальной линии. Она может совершать эту способность имея @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Bugbear Marauder (BB)": {
-			"name": "Багбер-Бандит (BB)",
-			"tokenName": "Багбер-Бандит",
-			"UUID": "UjREHs2JQoO85Glt",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"e8BUlHLevzRJnHEc": {
-					"name": "Нападение из Чащи",
-					"description": "<p>Багбер-Бандит совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до 10ФТ и совершает @UUID[Compendium.pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить} @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо для которого он @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаружен}. При успехе, он еще наносит этому существу урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} <strong>Кулака</strong></p>"
-				},
-				"naotn6A029XPnJc1": {
-					"name": "Терзатель (+3)",
-					"description": "<p>Багбер-Бандит получает бонус обстоятельства +3 к броскам урона против существ, которых он @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил}</p>"
-				},
-				"zyYihJ8eYGtYRh9u": {
-					"name": "Длинный меч"
-				},
-				"KlVVVsJad72RahoI": {
-					"name": "Метательное копье"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Cinder Rat (BB)": {
-			"name": "Дымная Крыса (BB)",
-			"tokenName": "Дымная Крыса",
-			"UUID": "hiGwRWdxAsoCII4f",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"vhcrEIRKkfTwrwDs": {
-					"name": "Облако Дыма",
-					"description": "<p>Дымная Крыса окружена облаком дыма. Все существа в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:5]{5}, включая Дымную Крысу, получают от этого дыма состояние @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт}.</p><p>Существо, попадающее в Ауру или начинающее свой ход в ней, должно совершить @Check[type:fortitude|dc:22] или получить при провале штраф состояния -1 к проверкам и КС на 1 раунд (используйте @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1})</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Doppelganger (BB)": {
-			"name": "Доппельгангер (BB)",
-			"tokenName": "Доппельгангер",
-			"UUID": "AdQVjlOWB6rmBRVp",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"LJKNy957UOv4LqE5": {
-					"name": "Изменение Формы",
-					"description": "<p>Доппельгангер принимает специфический облик любого `<u>маленького</u>` или `<u>среднего</u>` гуманоида, которого он видел. Это не меняет скорости передвижения Доппельгангера, бонусов к атаке и урону от его ударов, но может изменить тип наносимого им урона (обычно на Дробящий).</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
-				},
-				"fIAhNhYo8hJML5xU": {
-					"name": "Чтение Разума",
-					"description": "<p>Доппельгангер пытается прочитать мысли одного существа в радиусе 30ФТ. Цель сопротивляется, если она получает успех @Check[type:will|dc:21]</p>"
-				},
-				"0lvwb1cNAaOUc6Be": {
-					"name": "Конец Притворства",
-					"description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `<u>движение</u>` рядом с ним или использует против него @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>"
-				},
-				"111": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Drow Priestess (BB)": {
-			"name": "Дроу-Жрица (BB)",
-			"tokenName": "Дроу-Жрица",
-			"UUID": "FaBHkmFGuEIqIYM1",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Eejxi0k01WzbvUUh": {
-					"name": "Блок щитом",
-					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
-				},
-				"6ii2IeWpDJ46u3xM": {
-					"name": "Рапира"
-				},
-				"XPgz4pQn9aYVvddX": {
-					"name": "Ручной арбалет"
-				}
-			}
-		},
-		"Drow Sneak (BB)": {
-			"name": "Дроу-Подлец (BB)",
-			"tokenName": "Дроу-Подлец",
-			"UUID": "xKYIN88ULPFgSZmw",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"jvZUoPLS8OA1SQTw": {
-					"name": "Короткий меч"
-				},
-				"EajnVKV3NKyICaQ8": {
-					"name": "Ручной арбалет"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Drow Warrior (BB)": {
-			"name": "Дроу-Воин (BB)",
-			"tokenName": "Дроу-Воин",
-			"UUID": "sW8koPLrSgHalAnq",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"ix1KQX8Ji2g1e9ID": {
-					"name": "Прокалывание",
-					"description": "<p>Дроу-Воин наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <strong>Рапирой</strong> и получает к броску атаки бонус обстоятельства +1. Существо, получившее урон от этой атаки, получает @Damage[1d6[bleed]]</p>"
-				},
-				"iTaObjgnXpF66Sz5": {
-					"name": "Рапира"
-				},
-				"RZBxog3E2iCbQY5r": {
-					"name": "Кинжал"
-				},
-				"XDq62TH6LQA4rgny": {
-					"name": "Ручной арбалет"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Gargoyle (BB)": {
-			"name": "Гаргулья (BB)",
-			"tokenName": "Гаргулья",
-			"UUID": "aeCoh4u6c5kt1iCs",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"DsvyLX53TeuZHMQ3": {
-					"name": "Когтистые Лапы",
-					"description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `<u>движение</u>`, Горгулья может использовать свою реакцию, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>"
-				},
-				"9bomxaBEHSLvRrkq": {
-					"name": "Статуя",
-					"description": "<p>До следующего использования действия Горгулья выглядит как статуя. Существо должно поулчить успех в @Check[type:perception|dc:32], чтобы понять, что статуя на самом деле является существом.</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Ghost Commoner (BB)": {
-			"name": "Привидение Простолюдина (BB)",
-			"tokenName": "Привидение",
-			"UUID": "2H2AEwQnfKJC0nrd",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"soQbbQbVd6xMuJl6": {
-					"name": "Бестелесный",
-					"description": "<p>Тень не имеет тела и может проходить сквозь физические объекты, хотя и не может завершить свой ход внутри них. Большинство проверок, использующих силу и требующих наличия тела, такие как @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD] и @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731], не работают против Тени, и Тень не может их использовать.</p>"
-				},
-				"uYQrEbjjw3XIQ1cO": {
-					"name": "Пугающий Стон",
-					"description": "<p>Привидение оплакивает свою судьбу, заставляя каждое живое существо в @Template[type:emanation|distance:30] совершить @Check[type:will|dc:21]</p><p><strong>Успех:</strong> Существо невредимо и временно иммунно к&nbsp;Пугающему Стону&nbsp;этого привидения на 1 минуту</p><p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 2}</p><p><strong>Критический провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 3}</p>"
-				},
-				"CfzB5r8CSHETuXfA": {
-					"name": "Связь с Местом",
-					"description": "<p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120ФТ. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>"
-				},
-				"HvOzFzF3j47WTzIv": {
-					"name": "Восстановление",
-					"description": "<p>Когда привидение уничтожено оно формируется заново через [[/r 2d4 #Days]]{2d4 Дня}, полностью исцеленным, в том месте к которому оно привязано. Привидение может быть окончательно уничтожено только в том случае, если кто-то определит причину его существования и исправит все, что мешает духу упокоиться</p>"
-				},
-				"nWtiD4ASp2FFsobD": {
-					"name": "Рука Привидения"
-				}
-			}
-		},
-		"Ghoul (BB)": {
-			"name": "Гуль (BB)",
-			"tokenName": "Гуль",
-			"UUID": "LHHgGSs0ELCR4CYK",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"7RTjFlVzsxhjtwX4": {
-					"name": "Поглощение Плоти",
-					"description": "<p>Требования: Гуль рядом с трупом существа, которое умерло за прошедший час</p><hr><p>Гуль пожирает кусок трупа и восстанавливает @Damage[(1d6)[healing]]{1d6 ОЗ}. Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>"
-				},
-				"rvraBop9oOSwcjkq": {
-					"name": "Резкий Прыжок",
-					"description": "<p>Гуль прыгает вплоть до половины своей Скорости. Это `<u>движение</u>` не провоцирует реакции.</p>"
-				},
-				"9TCF9GcaMoTKkPSj": {
-					"name": "Паралич",
-					"description": "<p>Любое живое существо (кроме эльфа), по которому попала атака гуля, должно совершить успешный @Check[type:fortitude|dc:15], иначе станет @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] на 1 раунд.</p><p>Если существо Ур.3 или выше, это происходит только при крит.провале</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Giant Centipede (BB)": {
-			"name": "Гигантская Многоножка (BB)",
-			"tokenName": "Гиг.Многоножка",
-			"UUID": "BKPRkJgq7ehsW7uX",
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"PIjZTZsbQlriq5X3": {
-					"name": "Яд Гигантской Многоножки",
-					"description": "<p>Цель, получившая колющий урон от @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} мандибул, должна совершить @Check[type:fortitude|dc:14] или получить @Damage[1d10[poison]] при провал</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Giant Rat (BB)": {
-			"name": "Гигантская Крыса (BB)",
-			"tokenName": "Гиг.Крыса",
-			"UUID": "AYwdybUfm4meGUTJ",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Giant Spider (BB)": {
-			"name": "Гигантский Паук (BB)",
-			"tokenName": "Гиг.Паук",
-			"UUID": "6NdqvKIlxo4cGhf8",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Odl9UZ1OKOYG044E": {
-					"name": "Спуск на Паутине",
-					"description": "<p>Гиг.Паук совершает `<u>движение</u>` строго вниз на расстояние до 40ФТ, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он Спуск на Паутине, не считается уроном от падения.</p><div data-visibility=\"gm\"><p>Существо может @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} рассечь паутину (КБ 20, 8 ОЗ), из-за чего Гиг.Паук падает</p></div>"
-				},
-				"vnaySgTDfC0slaHW": {
-					"name": "Яд Паука-Охотника",
-					"description": "<p style=\"text-align: center;\">@Check[type:fortitude|showDC:owner|dc:16|traits:poison]</p><p>Стадия 1: @Damage[(1d12)[poison]] и @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg] (1 Раунд)</p>"
-				},
-				"KlwGH9hdWl3XpMYw": {
-					"name": "Паутина-Ловушка",
-					"description": "<p>Существо по которому попали атакой Паутины становится @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженным} и прилипает к ближайшей поверхности, пока не @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС17</span>.</p>"
-				},
-				"C4dwFfQQc0M5gZBd": {
-					"name": "Клыки"
-				},
-				"ELWu5zIODys6k1lo": {
-					"name": "Паутина"
-				}
-			}
-		},
-		"Giant Viper (BB)": {
-			"name": "Гигантская Гадюка (BB)",
-			"tokenName": "Гиг.Гадюка",
-			"UUID": "KsWAIXTTh3mfNWOY",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1fzwu2J1jldVzBPc": {
-					"name": "Свернуться",
-					"description": "<p>Гиг.Гадюка совершает это действие, чтобы свернуться, увеличивая досягаемость своей атаки Клыками с 5 до 10ФТ. После того, как она @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударит} своими клыками, она перестает быть свернутой.</p>"
-				},
-				"MEjtnkYdPhtWGyzF": {
-					"name": "Возможность Наброситься",
-					"description": "<p>Как @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Возможность для атаки}, но змея может использовать эту реакцию только если @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.KsWAIXTTh3mfNWOY.Item.1fzwu2J1jldVzBPc]{Свернута}</p>"
-				},
-				"lqMgsu5wZAOsEwK2": {
-					"name": "Яд Гигантской Гадюки",
-					"description": "<p>Цель, получившая урон Клыками змеи, должна совершить @Check[type:fortitude|dc:17] или получить @Damage[1d12[poison]] при провале</p>"
-				},
-				"3g9yO52wil4VC4Dz": {
-					"name": "Клыки"
-				}
-			}
-		},
-		"Goblin Commando (BB)": {
-			"name": "Гоблин-Диверсант (BB)",
-			"tokenName": "Гоблин-Диверсант",
-			"UUID": "jGzVwekcRX5aQpbT",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"7swXlOjSl2oHLuDv": {
-					"name": "Двуручный Меч"
-				},
-				"wBppFKxjdSadJQj2": {
-					"name": "Короткий Лук"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Goblin Igniter (BB)": {
-			"name": "Гоблин-Пироман (BB)",
-			"tokenName": "Гоблин-Пироман",
-			"UUID": "shT19KaQjWRVrHLI",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"jzku4qcmz6H3dk9C": {
-					"name": "Факел"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Goblin Warrior (BB)": {
-			"name": "Гоблин-Воин (BB)",
-			"tokenName": "Гоблин-Воин",
-			"UUID": "jVZRROs0GzDjVrgi",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"CnmgzGmi2Avq67QA": {
-					"name": "Короткий Меч"
-				},
-				"4EXgRMqNIRLXxB1c": {
-					"name": "Короткий Лук"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Green Dragon Wyrmling (BB)": {
-			"name": "Зеленый Дракон (Вирмлин) (BB)",
-			"tokenName": "Зеленый Дракон (Вирмлин)",
-			"UUID": "WPsgrCUSFCqgDvJi",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"94P2S8OyxiovGujz": {
-					"name": "Хвост-Хлыст",
-					"description": "<p>Триггер: Враг в пределах досягаемости Жала/Хвоста использует действие `<u>движения</u>` или покидает квадрат в пределах досягаемости Жала/Хвоста во время действия `<u>движения</u>`, которое оно использует</p><hr><p>Вы совершаете @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцир. врагу своим Жалом/Хвостом со штрафом -2. Если @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, существо прерывает спровоцировавшее действие `<u>движения</u>`</p>"
-				},
-				"d5UuF56WuHzskPO4": {
-					"name": "Драконье неистовство",
-					"description": "<p>Дракон наносит два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Когтями и один @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Хвостом в любом порядке</p>"
-				},
-				"j90G6J5zvaIVNb1q": {
-					"name": "Атака Дыханием",
-					"description": "<p>Дракон выдыхает @Template[type:cone|distance:30], который наносит [[/r 5d6[poison]]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:24|basic:true]</p><p>Перезарядка: [[/br 1d4[recharge]]]{1d4 Раунда}</p><section class=\"secret\"><p>The dragon can't use their Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Green Kobold Dragon Mage (BB)": {
-			"name": "Кобольд-Дракомант (Зеленый) (BB)",
-			"tokenName": "Кобольд-Дракомант",
-			"UUID": "QaldZV2p9RpMXzzn",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1GBTPnqIIGld3Wu1": {
-					"name": "Драконья Чешуя",
-					"description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Зеленая - 5 Яд</p>"
-				},
-				"90eQFUneXcsHeKSK": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Harpy (BB)": {
-			"name": "Гарпия (BB)",
-			"tokenName": "Гарпия",
-			"UUID": "AuCC04X2AO8oFN75",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"NQF0fD75864Ytav1": {
-					"name": "Пленительная Песня",
-					"description": "<p>Гарпия выкрикивает жуткую, но притягательную мелодию. Каждое существо, не являющееся гарпией и находящееся в @Template[type:emanation|distance:300], которое слышит песню, должно совершить @Check[type:will|dc:21]</p><p>В случае провала существо попадает в плен и должно тратить каждое свое действие на то, чтобы как можно быстрее приблизиться к гарпии, избегая при этом очевидных опасностей. Если плененное существо находится рядом с гарпией, оно остается неподвижным и не предпринимает никаких действий. Если существо атаковано гарпией, оно освобождается от плена в конце хода гарпии.</p><p>Эффект длится 1 раунд, но если гарпия использует эту способность в последующие раунды, то продлевает ее действие на 1 раунд для всех плененных существ.</p><p>Если существо успешно справляется с любым спасброском против Пленительной Песни, оно временно становится невосприимчивым к Пленительным Песням на 24 часа.</p>"
-				},
-				"8akVcjr4Y8JZR5Ht": {
-					"name": "Дубинка"
-				},
-				"KYq91Bu5HDnQoSkG": {
-					"name": "Дубинка"
-				}
-			}
-		},
-		"Hell Hound (BB)": {
-			"name": "Адская Гончая (BB)",
-			"tokenName": "Адская Гончая",
-			"UUID": "BEoRtkFBaDQU2szN",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"GsQeeSV97T6FPvoY": {
-					"name": "Атака Дыханием",
-					"description": "<p>Адская Гончая выдыхает пламя, наносящее всем существам в @Template[type:cone|distance:15] @Damage[4d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:19|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}. Если гончая получила бы урон огнем или будет целью `<u>огненного</u>` эффекта, то ее <strong>Атака Дыханием</strong> перезаряжается</p><section class=\"secret\"><p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p></section>"
-				},
-				"rj9VxT0ANFzZgmXI": {
-					"name": "Урон Злом",
-					"description": "<p>Урон Злом, наносимый Адской Гончей, вредит только персонажам с Добрым Мировоззрением</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Hobgoblin Warrior (BB)": {
-			"name": "Хобгоблин-Воин (BB)",
-			"tokenName": "Хобгоблин-Воин",
-			"UUID": "M8oJOKJ4AgrLZcJQ",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"xolLzAgsgpzS6Nvn": {
-					"name": "Блок Щитом",
-					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
-				},
-				"OgkLVLhW0uOMdbGj": {
-					"name": "Строй",
-					"description": "<p>Когда он рядом с хотя бы 2 другими союзниками, хобгоблин-солдат получает бонус обстоятельства +1 к КБ и спасброскам. Этот бонус увеличивается до +2 для спасбросков Рефлекса от эффектов по области.</p>"
-				},
-				"PzpzmSnCSWrwxzDO": {
-					"name": "Длинный меч"
-				},
-				"CHS0DAe3ekrw8ve1": {
-					"name": "Короткий лук"
-				}
-			}
-		},
-		"Kobold Boss Zolgran (BB)": {
-			"name": "Кобольд-Босс Золгран (BB)",
-			"tokenName": "Золгран",
-			"UUID": "AleeS0IRqT4tUphB",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"SKxww784aC4E2gzW": {
-					"name": "Внезапная Атака (1d6)",
-					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>"
-				},
-				"eh06w4tCybKWTx8g": {
-					"name": "Амулет из Скорлупы"
-				},
-				"FRce1Q7000LFf9Gs": {
-					"name": "Железный Ключ"
-				},
-				"QpOsIDOXtvTTXsS8": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Kobold Scout (BB)": {
-			"name": "Кобольд-Разведчик (BB)",
-			"tokenName": "Кобольд-Разведчик",
-			"UUID": "rrzetIWD0cKWwwAS",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"0qvSsLdTulsncbsi": {
-					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
-				},
-				"vTjkwNzpCJmsbg6R": {
-					"name": "Короткий меч"
-				},
-				"38uEEYKxUvG8TDFw": {
-					"name": "Арбалет"
-				}
-			}
-		},
-		"Kobold Trapmaster (BB)": {
-			"name": "Кобольд-Ловец (BB)",
-			"tokenName": "Кобольд-Ловец",
-			"UUID": "4Axci50gPQArPg7d",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"B1zHLf1i3W3pgrBz": {
-					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
-				},
-				"Mcbgf9KdTTBPuio6": {
-					"name": "Быстрая Ловушка",
-					"description": "<p>Кобольд-Ловчий устанавливает один @UUID[Compendium.pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>"
-				},
-				"sXZ80MEcWSNN1Ct0": {
-					"name": "Силок с Шипами",
-					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>"
-				},
-				"fx6MEhp40JvDajQh": {
-					"name": "Силок с Шипами",
-					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>"
-				},
-				"OmVVuah2jgqtqVVo": {
-					"name": "Короткий меч"
-				},
-				"SL9owkerqt7KHiAD": {
-					"name": "Копье"
-				}
-			}
-		},
-		"Kobold Warrior (BB)": {
-			"name": "Кобольд-Воин (BB)",
-			"tokenName": "Кобольд-Воин",
-			"UUID": "r9w1n85mp9Ip4QiS",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"dF7ibA1On3Nvjxqk": {
-					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд-воин рядом с хотя бы 1 врагом</p><hr><p>Кобольд-воин совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
-				},
-				"yDIuApGqKF4695Oq": {
-					"name": "Копье"
-				},
-				"DyABhSgZNJ3ICo85": {
-					"name": "Копье"
-				}
-			}
-		},
-		"Leopard (BB)": {
-			"name": "Леопард (BB)",
-			"tokenName": "Леопард",
-			"UUID": "wqPYzMNgYvrO6oEP",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"uEjliLhQWBsVYCsE": {
-					"name": "Терзать",
-					"description": "<p>Леопард совершает 2 @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Когтями по @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу</p><hr><p>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Mimic (BB)": {
-			"name": "Мимик (BB)",
-			"tokenName": "Мимик",
-			"UUID": "Br1AtKUHe3nbzjnY",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Ns2pok7e6UtuKUd6": {
-					"name": "Наглядный Пример",
-					"description": "<p>Триггер: Существо касается или физически взаимодействует с мимиком, когда он превращен с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.M3QwWIU2rzRHWndo]</p><hr><p>Спровоцировавшее существо автоматически прилипает к @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.91iOrkVbzeP7cK2M]{Клею} мимика (без совершения спасброска). Потом мимик совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Ложноножкой по любому существу рядом с собой</p><hr><p>Наглядный Пример нельзя использовать снова, пока мимик не сбежит и не примет новую форму</p>"
-				},
-				"M3QwWIU2rzRHWndo": {
-					"name": "Имитировать Объект",
-					"description": "<p>Мимик принимает форму любого объекта `<u>среднего</u>` размера. Это не изменяет его текстуру или общий размер, но может изменить его расцветку и внешний вид. Чтобы определить, что объект является существом, требуется проверка @Check[type:perception|dc:28]</p>"
-				},
-				"91iOrkVbzeP7cK2M": {
-					"name": "Клейкость",
-					"description": "<p>Мимик покрыт клейкой слизью. Любое существо попавшее по мимику, по которому попал мимик, или как-то иначе коснувшееся его (к примеру при @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть} или @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватить}), должно совершить @Check[type:reflex|dc:23], иначе будет @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]<span data-visibility=\"gm\"> КС 23</span>)</p><p>Оружие, попавшее по мимику прилипает к нему и может быть отцеплено успешной проверкой @Check[type:athletics|dc:23] (одиночное действие). К мимику может приклеиться любое количество объектов или существ. Мимик может отпустить застрявшее существо или объект использовав одиночное действие, а клейковина растворяется через 1 минуту после смерти мимика, освобождая все прилипшие объекты и существ.</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Ogre Warrior (BB)": {
-			"name": "Огр-Воин (BB)",
-			"tokenName": "Огр-Воин ",
-			"UUID": "gdXok08bITkhowDJ",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"qjYI8SCJrXWZopn6": {
-					"name": "Секира"
-				},
-				"kN3B1jnfTS7LsbUS": {
-					"name": "Метательное копье"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Orc Commander (BB)": {
-			"name": "Орк-Военачальник (BB)",
-			"tokenName": "Орк-Военачальник",
-			"UUID": "5xjmJoJvBhASkEKS",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"yeHohyJSYfiTwghO": {
-					"name": "Боевой клич",
-					"description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `<u>оркам</u>` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>"
-				},
-				"fI8bsqTQlNTlSpdF": {
-					"name": "Кувалда"
-				},
-				"v9Xt73Wj9wclc3ef": {
-					"name": "Метательное копье"
-				}
-			}
-		},
-		"Orc Scrapper (BB)": {
-			"name": "Орк-Громила (BB)",
-			"tokenName": "Орк-Громила",
-			"UUID": "0oWKApY5FR8IO7GG",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"DmNGJHLmXcMGdmUS": {
-					"name": "Боевой топор"
-				},
-				"TS7iVUZNmP0Szdfh": {
-					"name": "Метательное копье"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Orc Trooper (BB)": {
-			"name": "Орк-Воин (BB)",
-			"tokenName": "Орк-Воин",
-			"UUID": "EtRqBsWh1Hv1toqh",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"mHS7Uj0GKGKhQiNo": {
-					"name": "Боевой топор"
-				},
-				"54j0gybWlIAueFkZ": {
-					"name": "Короткий меч"
-				},
-				"freYXZtmDhD5zIrA": {
-					"name": "Метательное копье"
-				}
-			}
-		},
-		"Owlbear (BB)": {
-			"name": "Совомедведь (BB)",
-			"tokenName": "Совомедведь",
-			"UUID": "X03vq2RWi2jiA6Ri",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<p>С телом мощного бурого медведя и острыми чувствами совы, совомедведь является опасным территориальным хищником, бесстрашно нападающим на любое существо, забредшее в его владения. Те, кто столкнулся с совомедведем, слышат его ужасающий визг лишь за несколько секунд до того, как массивное существо настигает их, разрывая на части смертоносными когтями и мощным клювом.</p><p>Хотя история их происхождения утеряна во времени, считается, что совомедведи появились в результате магического эксперимента по созданию более хитрого хищника. Согласно легенде, тот волшебник был настолько удачлив, что в итоге стал первой жертвой чудовища. Сегодня совомедведей можно встретить по всему миру с самыми разными чертами. Если наиболее распространенный подвид выглядит как бурый медведь с чертами виргинского филина (great horned owl), то совомедведи морозного севера могут напоминать смесь полярных медведей с белыми совами, а в тропических лесах умеренного климата они могут быть похожи на черных медведей с головами сипух обыкновенных.</p><p>Большинство совомедведей являются одиночками, собираясь вместе только для спаривания и воспитания детенышей, которые выводятся из яиц. Территория совомедведя обычно простирается примерно на 5 миль (~8 км) от его логова, а явные признаки его обитания появляются на расстоянии 1 мили (оцарапанные когтями деревья, гигантские перья и растерзанные туши). В логове совомедведя редко можно найти что-то ценное, но некоторые искатели приключений находили безделушки, монеты и даже украшения в огромных кучках непереваренных костей, которые оставляют после себя эти чудовища.</p><p>Это существо также известно как совиный медведь, совомед, медвесыч и т.п.</p>",
-			"items": {
-				"qCmKPruRObzVL1Dr": {
-					"name": "Визжащее Нападение",
-					"description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `<u>движения</u>`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>"
-				},
-				"vTXaShzYmcNbRjzk": {
-					"name": "Леденящий Кровь Визг",
-					"description": "<p>Совомедведь издает громкий визг, ужасающий его добычу. Каждое существо в @Template[type:emanation|distance:80] должно совершить @Check[type:will|dc:20]</p><p>Независимо от результата, существа временно иммунны на 1 минуту</p><hr><p>Крит.Успех: Существо невредимо.</p><p>Успех: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Провал: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p><p>Крит.Провал: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Pugwampi (BB)": {
-			"name": "Пагвамп (BB)",
-			"tokenName": "Пагвамп",
-			"UUID": "jnmUcTs4hn1c5bz9",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"IgVFPfZjnGqYSVAI": {
-					"name": "Разговор с Животными",
-					"description": "<p>Пагвамп могут разговаривать с животными и понимать их.</p>"
-				},
-				"AGjtcz0cAWzBXlEx": {
-					"name": "Аура Неудачи",
-					"description": "<p>Существа, кроме `<u>животных</u>`, `<u>гремлинов</u>` и `<u>гноллов</u>`, находящиеся в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:20]{20}, становятся крайне невезучими. Они должны совершить @Check[type:will|dc:16] с эффектом `<u>неудачи</u>`</p><p>Успех: Существо получает временный иммунитет к Ауре Неудачи на 24 часа</p><p>Провал: Существо совершает все проверки с `<u>неудачей</u>`, когда он находится в Ауре Неудачи</p><hr><p>Несколько пагвампи не создают никакого усиленного эффекта</p>"
-				},
-				"kFgfAbXaJbI8otfZ": {
-					"name": "kFgfAbXaJbI8otfZ"
-				},
-				"a4I77q6CzdLCZCG6": {
-					"name": "Короткий лук"
-				}
-			}
-		},
-		"Red Kobold Dragon Mage (BB)": {
-			"name": "Кобольд-Дракомант (Красный) (BB)",
-			"tokenName": "Кобольд-Дракомант",
-			"UUID": "CJuHwIRCAgTB1SEl",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1GBTPnqIIGld3Wu1": {
-					"name": "Драконья Чешуя",
-					"description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Красная - 5 Огонь</p>"
-				},
-				"90eQFUneXcsHeKSK": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Sewer Ooze (BB)": {
-			"name": "Сточная Жижа (BB)",
-			"tokenName": "Сточная Жижа",
-			"UUID": "Hkq9ZS2J2iKnT7vT",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"mdqK7RuSjtezVyS8": {
-					"name": "Волна Грязи",
-					"description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `<u>движения</u>` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Shadow (BB)": {
-			"name": "Тень (BB)",
-			"tokenName": "Тень",
-			"UUID": "XrmHgbKgcHDi4OnK",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"x47iDfIE9albveGl": {
-					"name": "Теневая Рука"
-				},
-				"tS9Kv6K4kwYFjHCT": {
-					"name": "Бестелесный",
-					"description": "<p>Тень не имеет тела и может проходить сквозь физические объекты, хотя и не может завершить свой ход внутри них. Большинство проверок, использующих силу и требующих наличия тела, такие как @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD] и @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731], не работают против Тени, и Тень не может их использовать.</p>"
-				},
-				"ACHlnYzXVxizzqPw": {
-					"name": "Уязвимость к Свету",
-					"description": "<p>Объект, отбрасывающий `<u>магический</u>` `<u>свет</u>` (как например, от заклинания @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Свет}) считается `<u>магическим</u>` при использовании для атаки Тени</p>"
-				},
-				"0Qt9ULbGzJV8ZG3W": {
-					"name": "Порождение Тени",
-					"description": "<p>Когда тень существа вытянута на свободу с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.Kjifw1jgDvfmrEGU], она становится @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Порождение Тени} под управлением создавшей его Тени. У него нет способности @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.Kjifw1jgDvfmrEGU] и оно всегда неизлечимо @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2}.</p><p>Если существо, у которого было взято это Порождение Тени умирает, то Порождение Тени становится полноценной самостоятельной Тенью. Если существо восстанавливается от своего состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен}, его тень возвращается к нему и Порождение Тени пропадает.</p>"
-				},
-				"Kjifw1jgDvfmrEGU": {
-					"name": "Кража Тени",
-					"description": "<p>Требования: <strong>Тень</strong> своим предыдущим действием попала по `<u>живому</u>` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} теневой руки</p><hr><p><strong>Тень</strong> тянет тень существа, делая его @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}. Оно накапливается вместе с другими состояниями ослаблен от <strong>Теней</strong>, до максимального ослаблен 4.</p><p>Если это увеличивает у существа значение состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 3} или более, то тень цели отделяется от ее тела (см. @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.0Qt9ULbGzJV8ZG3W])</p><hr><p>Состояние ослабления от Кражи Тени снижается каждый час на 1</p>"
-				},
-				"0QWVJ7Of8cQNKp0N": {
-					"name": "Скольжение в Тенях",
-					"description": "<p>Тень может @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться} или заканчивать @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться} в тени существа или объекта</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Skeletal Giant (BB)": {
-			"name": "Скелет-Гигант (BB)",
-			"tokenName": "Скелет-Гигант",
-			"UUID": "5MVBU86ZRw2ANMQn",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"4gkC6A8D27Jzv7nH": {
-					"name": "Широкий Замах",
-					"description": "<p>Гигант совершает 2 @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <strong>Двуручным Мечом</strong> по 2 находящимся рядом врагам, оба из которых находятся в пределах его досягаемости</p><hr><p>Штраф множественной атаки не увеличивается до тех пор, пока не будут совершены обе атаки</p>"
-				},
-				"emPcqeSFXdyr6CgV": {
-					"name": "Ужасающий Разбег",
-					"description": "<p>Гигант совершает @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} и наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <strong>Рогами</strong> с бонусом обстоятельства +4 к урону. Если этот @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, гигант пытается @UUID[Compendium.pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать}@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{*} цель</p>"
-				},
-				"4uWQE7ermpG8oEr3": {
-					"name": "Двуручный меч"
-				}
-			}
-		},
-		"Skeleton Guard (BB)": {
-			"name": "Скелет-Страж (BB)",
-			"tokenName": "Скелет-Страж",
-			"UUID": "5H8ZX7y5IkUBhvhF",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"jL9PDQ27Dz6UAMOH": {
-					"name": "Скимитар"
-				},
-				"7ODNVUAaNraSivsT": {
-					"name": "Короткий лук"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Sod Hound (BB)": {
-			"name": "Земляная Гончая (BB)",
-			"tokenName": "Земляная Гончая",
-			"UUID": "0soUz9DZpyqOxcw7",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"hDYxH5VuENin7Q0I": {
-					"name": "Чувство Кристаллоы 60ФТ",
-					"description": "<p>Земляная Гончая может чувствовать кристаллы или драгоценные камни в радиусе 60ФТ</p>"
-				},
-				"59wy5xK7MEQmYRxg": {
-					"name": "Проход через Землю",
-					"description": "<p>Земляная Гончая прогрызает ходы в любом земляном материале, включая камни. Она перемещается на расстояние до 20ФТ, не оставляя ни туннелей, ни следов своего пребывания</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Troll (BB)": {
-			"name": "Тролль (BB)",
-			"tokenName": "Тролль",
-			"UUID": "gvCCATlH9mPGWbsp",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"scw9HnbCVwAyFzok": {
-					"name": "Раздирать (Когти)",
-					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
-				},
-				"50Meu5uWTOPYtMu6": {
-					"name": "Регенерация 20 (Отключение Кислота/Огонь)",
-					"description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Viper (BB)": {
-			"name": "Гадюка (BB)",
-			"tokenName": "Гадюка",
-			"UUID": "lFlXmieuHTBIonhj",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"YIHoSZN2nTp139Dg": {
-					"name": "Проскользнуть",
-					"description": "<p>Триггер: Существо завершает свое `<u>движение</u>` рядом с гадюкой или внутри ее пространства</p><hr><p>Гадюка совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} или @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} вплоть до 10ФТ. Она должна завершить это `<u>движение</u>` в месте, которое не в пределах 5ФТ от врага. Это `<u>движение</u>` не провоцирует реакции.</p>"
-				},
-				"TnaXi3v3iBDjotwd": {
-					"name": "Яд Гадюки",
-					"description": "<p>Цель, получившая урон Клыками змеи, должна совершить @Check[type:fortitude|dc:16] или получить @Damage[1d10[poison]] при провале</p>"
-				},
-				"iHa81hIBKMF5eXxi": {
-					"name": "Клыки"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Web Lurker (BB)": {
-			"name": "Паутинник (BB)",
-			"tokenName": "Паутинник",
-			"UUID": "ZMr28tFTA5NUcBTi",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Kj1uqisygxPxuaC9": {
-					"name": "Паучья Речь",
-					"description": "<p>Паутинник может разговаривать с пауками и понимать их</p>"
-				},
-				"P7JMDrm2HB1QPV3N": {
-					"name": "Яд Паутинника",
-					"description": "<p>Цель, получившая урон от Клыков Паутинника, должна получить успех в @Check[type:fortitude|dc:19] или получить @Damage[1d12[poison]] и состояние @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] на 1 раунд</p>"
-				},
-				"Re5HgCWQJTyzGewL": {
-					"name": "Паутина-Ловушка",
-					"description": "<p>Существо, в которое Паутинник попадает Паутиной прилипает к ближайшей поверхности. Оно не может совершать движение до тех пор, пока успешно не совершит @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] <span data-visibility=\"gm\">КС_20</span></p>"
-				},
-				"pChhLSd048EpUiL0": {
-					"name": "Клыки"
-				},
-				"5HpQse2MIBQbs10B": {
-					"name": "Паутина"
-				}
-			}
-		},
-		"White Kobold Dragon Mage (BB)": {
-			"name": "Кобольд-Дракомант (Белый) (BB)",
-			"tokenName": "Кобольд-Дракомант",
-			"UUID": "kCRfBZqCugMQmdpd",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"1GBTPnqIIGld3Wu1": {
-					"name": "Драконья Чешуя",
-					"description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Белая - 5 Холод</p>"
-				},
-				"90eQFUneXcsHeKSK": {
-					"name": "Посох"
-				}
-			}
-		},
-		"Wight (BB)": {
-			"name": "Умертвие (BB)",
-			"tokenName": "Умертвие",
-			"UUID": "ZPjQkKVMi3xoPcU0",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Kpl3lLjfHM0hWhT5": {
-					"name": "Финальная Злость",
-					"description": "<p>Когда Умертвие опускается до 0 ОЗ, он может использовать свою реакцию для нанесения @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара}, прежде чем будет уничтожен. При этом ударе он не получает ОЗ за счет @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.ZPjQkKVMi3xoPcU0.Item.v2Ifd6tb1IDRFqFO]</p>"
-				},
-				"v2Ifd6tb1IDRFqFO": {
-					"name": "Истощение Жизни",
-					"description": "<p>Когда Умертвие наносит урон` живому` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Когтей, он восстанавливает @Damage[(2)[healing]]{2 ОЗ}, и цель должна успешно совершить @Check[type:fortitude|dc:17] или получить @Damage[(2)[damage]]{2 Урона}, которые нельзя исцелить. Умертвие может совершать Истощение Жизни несколько раз, но одно существо не может получить более 8 неизлечимого урона.</p><p>Каждая полная ночь отдыха восстанавливает 2 неизлечимого урона, а полный день постельного режима увеличивает восстановление до 4 неизлечимого урона.</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Wolf (BB)": {
-			"name": "Волк (BB)",
-			"tokenName": "Волк",
-			"UUID": "Oilfs8Atv2LjAsUS",
-			"actorLink": true,
-			"prependAdjective": true,
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"GhRRqxvK6T21zheo": {
-					"name": "Нападение Стаей (1d4)",
-					"description": "<p>Существо наносит Ударами дополнительные 1d4 урона, которые находятся в досягаемости хотя бы 2 союзников</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Xulgath Boss (BB)": {
-			"name": "Зулгат-Босс (BB)",
-			"tokenName": "Зулгат-Босс",
-			"UUID": "YdBCG0vzOA5BgoIi",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"gV8plzH46OeVvlNG": {
-					"name": "Вонь",
-					"description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:19]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>"
-				},
-				"RX6HAClLi39MgLLI": {
-					"name": "Взмах",
-					"description": "<p>Зулгат-Босс совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Секирой по двум соседним врагам, находящимся в пределах его досягаемости, с бонусом обстоятельства +1</p><p>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак.</p>"
-				},
-				"JWlYLXxlI4IRYbeF": {
-					"name": "Секира"
-				},
-				"VcMwjaxqor5ucwyE": {
-					"name": "Метательное копье"
-				}
-			}
-		},
-		"Xulgath Warrior (BB)": {
-			"name": "Зулгат-Воин (BB)",
-			"tokenName": "Зулгат-Воин",
-			"UUID": "RTzFvmdSCf5yhguy",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"4NqTHQqAkLmiUovi": {
-					"name": "Вонь",
-					"description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:19]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>"
-				},
-				"puh52kwYDM4gZi1Z": {
-					"name": "Дубинка"
-				},
-				"MfBsuZaAMldux4Xb": {
-					"name": "Метательное копье"
-				}
-			}
-		},
-		"Zephyr Hawk (BB)": {
-			"name": "Воздушный Ястреб (BB)",
-			"tokenName": "Воздушный Ястреб",
-			"UUID": "cBHpMcVaLRPZu9po",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"x8uwJOVGskq8pjOH": {
-					"name": "Круговая Атака",
-					"description": "<p>Воздушный Ястреб совершает @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} на половину своей скорости, затем совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Крыльями, затем снова пролетает на половину своей скорости и возвращается в исходное положение. Вторая половина этого `<u>движения</u>` не провоцирует реакций.</p><div>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</div>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Zombie Shambler (BB)": {
-			"name": "Зомби Волочащийся (BB)",
-			"tokenName": "Зомби",
-			"UUID": "0plBflWwrCWQO2RO",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"v90WRjELLiKF57vr": {
-					"name": "Челюсти",
-					"description": "<p>Требование: У зомби есть существо, которое @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} или @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаем} им</p>",
-					"slug" : "jaws"
-				},
-				"eulyI60JHNUYs39w": {
-					"name": "Медлительный",
-					"description": "<p>Зомби навсегда @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакцию</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Hidden Pit (BB)": {
-			"name": "Скрытая Яма (BB)",
-			"tokenName": "Скрытая Яма",
-			"img": "systems/pf2e/icons/spells/oneiric-mire.webp",
-			"tokenImg": "systems/pf2e/icons/spells/oneiric-mire.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>или @Check[type:perception|dc:0|traits:hazard], если люк удален или сломан</p>",
-			"hdescription": "<p>Деревянный люк закрывает яму площадью 10ФТ и глубиной 20ФТ</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:12|traits:hazard|name:Remove the Trapdoor] для удаления люка</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"ZY8Teu6y1ruEGOAn": {
-					"name": "Падение",
-					"description": "<p>Если существо наступает на люк, оно падает в него, если только ему не удастся @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за уступ} с помощью @Check[type:reflex|dc:16]. Яма глубиной 20ФТ наносит @Damage[10[bludgeoning]] любому, кто упадет на дно</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Central Spears (BB)": {
-			"name": "Центральные Копья (BB)",
-			"tokenName": "Центральные Копья",
-			"img": "systems/pf2e/icons/equipment/weapons/injection-spear.webp",
-			"tokenImg": "systems/pf2e/icons/equipment/weapons/injection-spear.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "",
-			"hdisable": "<p>Существо должно успешно выполнить совершить @Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism] на провоцирующих напольных плитках или на отверстиях в западной стене</p>",
-			"hroutine": "",
-			"hreset": "Центральные копья перезаряжаются через 1 минуту",
-			"items": {
-				"Ae0gibnuQy3PwVCV": {
-					"name": "Копье",
-					"description": ""
-				},
-				"9yktjCbx8rbvpSZe": {
-					"name": "Копьемёт",
-					"description": "<p>Когда существо перемещается на любой из провоцирующих кважратов, ловушка выпускает три копья с западной стены. Она наносит один дальний @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Envenomed Lock (BB)": {
-			"name": "Отравленный Замок (BB)",
-			"tokenName": "Отравленный Замок",
-			"img": "systems/pf2e/icons/spells/extract-poison.webp",
-			"tokenImg": "systems/pf2e/icons/spells/extract-poison.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Возле замочной скважины замка спрятан пружинный отравленный шип. @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Отключение} или поломки ловушки не приводит к отключению или поломке замка.</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:17|traits:hazard|name:Disable the Spring Mechanism] на пружинном механизме</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"VDL4WflLI1gxDylZ": {
-					"name": "Шип"
-				},
-				"3w5kvSRp3MF3snpw": {
-					"name": "Пружина",
-					"description": "<p>Когда существо пытается открыть или @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Вскрыть Замок}, пружина вытягивается, чтобы атаковать это существо @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Шипа</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Falling Ceiling (BB)": {
-			"name": "Падающий Потолок (BB)",
-			"tokenName": "Падающий Потолок",
-			"img": "systems/pf2e/icons/spells/phantom-prison.webp",
-			"tokenImg": "systems/pf2e/icons/spells/phantom-prison.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "",
-			"hdisable": "<p>Чтобы предотвратить падение каменных блоков, существо должно успешно выполнить проверку @Check[type:thievery|dc:18|traits:hazard|name:Prevent Blocks from Falling] на площади срабатывания или на потолке</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"qG3VBB7HAWZksxvT": {
-					"name": "Каменный Блок"
-				},
-				"0c1Yjs4t9BKCpjmr": {
-					"name": "Падающий Блок",
-					"description": "<p>Когда существо ступает на площадку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Она наносит по одному @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} каждому существу, находящемуся между двумя дверями</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Slamming Door (BB)": {
-			"name": "Хлопающая Плита (BB)",
-			"tokenName": "Хлопающая Плита",
-			"img": "systems/pf2e/icons/spells/wall-of-stone.webp",
-			"tokenImg": "systems/pf2e/icons/spells/wall-of-stone.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Чувствительные к давлению панели в полу соединены с каменной плитой, спрятанной в потолке коридора</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:15|traits:hazard|name:Disable Floor Panels], на напольных панелях, до того как упадет плита</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"WpW23oqzbYlPDDuP": {
-					"name": "Захлопывание",
-					"description": "<p>Триггер: На любую из напольных плиток оказывается давление</p><hr><p>Плита падает, закрывая коридор. При падении каменная плита наносит @Damage[3d8[bludgeoning]] всем, кто находится под ней или рядом, и толкает их из своего пространства в случайном направлении. Существо, которое успешно проходит @Check[type:reflex|dc:17|traits:damaging-effect,hazard] не получает урон, и откатывается в случайном направлении. При крит.успехе, они могут выбрать направление.</p><p>Поднятие упавшей плиты требует успешной проверки @Check[type:athletics|dc:25|traits:hazard]. Попадание по напольной панели активирует ловушку. Потолочная плита использует такой же КБ и спасброски, что и ловушка, но обладает Твердостью_12, 48 ОЗ (ПП_24)</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Spear Launcher (BB)": {
-			"name": "Копьемёт (BB)",
-			"tokenName": "Копьемёт",
-			"img": "systems/pf2e/icons/equipment/weapons/spear.webp",
-			"tokenImg": "systems/pf2e/icons/equipment/weapons/spear.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Отверстие в стене, заряженное копьем, соединяется с одной напольной 5ФТ квадратной плитой</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism], на напольной плите или стенном отверстие</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"p27dLxTbXpewe8ZR": {
-					"name": "Копье"
-				},
-				"dKlUXGzoOpojAKGv": {
-					"name": "Копьемёт",
-					"description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Mermaid Fountain (BB)": {
-			"name": "Фонтан-Русалка (BB)",
-			"tokenName": "Фонтан-Русалка",
-			"img": "systems/pf2e/icons/spells/artistic-flourish.webp",
-			"tokenImg": "systems/pf2e/icons/spells/artistic-flourish.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>@Check[type:perception|dc:20|traits:complex,hazard]</p>",
-			"hdescription": "<p>Каждый ход Фонтан-Русалка использует только 1 действие. Совершите бросок [[/r 1d10]]{1d10} и посмотрите результат в следующем списке, чтобы определить, какое действие Фонтан-Русалка использует в этот раунд.</p><p><strong>1-4 Одна цель.</strong> Статуя вращается и распыляет воду на одну случайную цель в комнате. Совершите бросок [[/r 1d4]]{1d4} и считайте до того числа, которое вы бросили, начиная с игрока слева от вас, чтобы определить, кто из героев будет атакован. Водный Поток является дистацнионным Ударом</p><p><strong>5-7 Углы.</strong> Статуя вращается и выпускает струю воды в каждый угол комнаты, где еще есть функционирующий угловой механизм. Она поражает любое существо, находящееся рядом с угловым механизмом, нанося @Damage[2d6[bludgeoning]]. Каждый герой должен совершить @Check[type:reflex|dc:15|basic:true|traits:hazard]</p><p><strong>8-9 Половина комнаты.</strong> Статуя вращается, орошая водой половину комнаты. Бросьте любой кубик. Если результат четный, она опрыскивает западную половину, в противном случае - восточную. Это наносит @Damage[2d6[bludgeoning]] каждому существу, находящемуся в этой половине комнаты, и каждое существо должно совершить @Check[type:reflex|dc:15|basic:true|traits:hazard]</p><p><strong>10 Полная комната.</strong> Действует так же, как и Половины Комнаты, но атака направлена на всех находящихся в комнате.</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:20|traits:complex,hazard|name:Disable Mechanism] на каждом угловом механизме (для отключения ловушки необходимо отключить все три рабочих угловых механизма)</p><p>Каждый угловой механизм имеет Твердость_8 и 15 ОЗ</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"YfiKyZzHH0XtfjFx": {
-					"name": "Водный Поток"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Scythe Blades (BB)": {
-			"name": "Косящие Лезвия (BB)",
-			"tokenName": "Косящие Лезвия",
-			"img": "systems/pf2e/icons/equipment/weapons/scythe.webp",
-			"tokenImg": "systems/pf2e/icons/equipment/weapons/scythe.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Два лезвия, каждое из которых спрятано в прорези потолка длиной 15ФТ, соединены с растяжкой</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:21|traits:hazard|name:Disable Blade] для отключения каждого лезвия</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"haWc7Vo7IDgvIPU9": {
-					"name": "Без ШМА",
-					"description": "<p>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Косами не используют ШМА</p>"
-				},
-				"LPBpvhfnfUxz7nWz": {
-					"name": "Коса",
-					"description": "Без ШМА"
-				},
-				"MrC7xvsyL1EpWyqb": {
-					"name": "Падающие Лезвия",
-					"description": "<p>Триггер: Растяжка натянута или перерезана</p><hr><p>Оба лезвия опускаются вниз, каждое @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} всех существ под потолочными прорезями</p>"
-				}
-			}
-		}
-	}
+    "label": "Неприятности под Отари",
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.vision",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+    "variants": [
+        {
+            "id": "Imprecise",
+            "name": "Неточный"
+        }
+    ],
+    "entries": {
+        "Animated Armor (BB)": {
+            "name": "Оживленный Доспех (BB)",
+            "tokenName": "Оживленный Доспех",
+            "UUID": "cZDiyluplFqRxmGy",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<div class=\"А\"><p>Получив подобие жизни с помощью ритуалов или другой странной магии, одушевленные объекты имеют разные формы и служат для самых разных целей. Ниже приведены несколько примеров типичных оживленных объектов. Многие из этих существ служат стражами, удивляя ничего не подозревающих авантюристов, своим внезапным нападением. Другие служат праздным развлечением для чересчур богатых, простыми слугами, созданными для выполнения всякой работы, и тому подобного.</p><hr><p>Комплекты оживших доспехов используются как в виде стражей, так и в качестве спарринг-партнеров в высококлассных военных академиях, способных позволить себе такую расточительность. Чаще всего их можно найти в лабораториях волшебников и древних подземельях.</p></div>",
+            "items": [
+                {
+                    "name": "Латная Рукавица",
+                    "id": "jAZY8WC1BtImPyEF"
+                },
+                {
+                    "name": "Броня конструкта (9)",
+                    "description": "<p>Как обычные объекты, <strong>Оживленный Доспех</strong> имеет Твердость_9. Эта Твердость снижает любой получаемый урон на величину этой Твердости. Как только ОЗ <strong>Оживленного Доспеха</strong> снижаются ниже половины его ОЗ, или сразу после получения урона от крит.попадания, его броня конструкта ломается и КБ снижается до КБ 13.</p>",
+                    "id": "GhnXpFtWM1vyvu8V"
+                },
+                {
+                    "name": "Длинный меч",
+                    "id": "MCgl5uKpwtTh48E4"
+                }
+            ]
+        },
+        "Basilisk (BB)": {
+            "name": "Василиск (BB)",
+            "tokenName": "Василиск",
+            "UUID": "rPHxXClTnoPYHYuZ",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Замедляющий Взор",
+                    "description": "<p>Триггер: Существо в 30ФТ от <strong>Василиска</strong>, которое он может видеть, начинает свой ход</p><hr><p>Цель должна совершить @Check[type:fortitude|dc:20]. При провале, она на 1 минуту @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}, так как ее тело медленно коченеет</p>",
+                    "id": "Nl15bkRTLq869IPi"
+                },
+                {
+                    "name": "Окаменяющий Взгляд",
+                    "description": "<p>Василиск пристально смотрит на существо в пределах 30ФТ, которое он может видеть. Это существо должно совершить @Check[type:fortitude|dc:22]</p><p>Если оно проваливает и не было замедлено @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.rPHxXClTnoPYHYuZ.Item.Nl15bkRTLq869IPi] или этим умением, то оно становится @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}. Если существо уже было замедлено этим умение или Замедляющим Взором, то при провале спасброска оно получает @UUID[Compendium.pf2e.conditionitems.dTwPJuKgBQCMxixg]{Окаменение} навсегда.</p><p>Окаменевшее таким образом существо, покрытое (а не просто обрызганное) свежей кровью василиска (добытой из василиска, который был мертв не более 1 часа), мгновенно возвращается в плотское состояние. В 1 василиске содержится достаточно крови, чтобы покрыть таким образом 2 существ.</p>",
+                    "id": "tOCS9mkYR5K1LuOZ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Black Kobold Dragon Mage (BB)": {
+            "name": "Кобольд-Дракомант (Черный) (BB)",
+            "tokenName": "Кобольд-Дракомант",
+            "UUID": "R9eoGwQ2tudxUKxS",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Драконья Чешуя",
+                    "description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Черная - 5 Кислота</p>",
+                    "id": "1GBTPnqIIGld3Wu1"
+                },
+                {
+                    "name": "Посох",
+                    "id": "90eQFUneXcsHeKSK"
+                }
+            ]
+        },
+        "Blue Kobold Dragon Mage (BB)": {
+            "name": "Кобольд-Дракомант (Синий) (BB)",
+            "tokenName": "Кобольд-Дракомант",
+            "UUID": "93hZtLl9pRRfqI05",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Драконья Чешуя",
+                    "description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Синяя - 5 Электричество</p>",
+                    "id": "1GBTPnqIIGld3Wu1"
+                },
+                {
+                    "name": "Посох",
+                    "id": "90eQFUneXcsHeKSK"
+                }
+            ]
+        },
+        "Boar (BB)": {
+            "name": "Кабан (BB)",
+            "tokenName": "Кабан",
+            "UUID": "4MwjCsa5O9aAjxSm",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Рывок Кабана",
+                    "description": "<p>Кабан дважды совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, а затем совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Бивнем. Если он совершил `<u>движение</u>` не менее чем на 20ФТ, он получает бонус обстоятельства +2 к броску атаки</p>",
+                    "id": "jmPDVPebOQ3XVOwA"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Brine Shark (BB)": {
+            "name": "Водная Акула (BB)",
+            "tokenName": "Водная Акула",
+            "UUID": "9sa2KE4Fbh3OPH7M",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Глубокое Погружение",
+                    "description": "<p>Водная Акула ныряет в воду, проплывая до 100ФТ по прямой вертикальной линии. Она может совершать эту способность имея @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} существо</p>",
+                    "id": "Fc10tuSKXi4OAWw6"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Bugbear Marauder (BB)": {
+            "name": "Багбер-Бандит (BB)",
+            "tokenName": "Багбер-Бандит",
+            "UUID": "UjREHs2JQoO85Glt",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Нападение из Чащи",
+                    "description": "<p>Багбер-Бандит совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до 10ФТ и совершает @UUID[Compendium.pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить} @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо для которого он @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаружен}. При успехе, он еще наносит этому существу урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} <strong>Кулака</strong></p>",
+                    "id": "e8BUlHLevzRJnHEc"
+                },
+                {
+                    "name": "Терзатель (+3)",
+                    "description": "<p>Багбер-Бандит получает бонус обстоятельства +3 к броскам урона против существ, которых он @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил}</p>",
+                    "id": "naotn6A029XPnJc1"
+                },
+                {
+                    "name": "Длинный меч",
+                    "id": "zyYihJ8eYGtYRh9u"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "KlVVVsJad72RahoI"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Cinder Rat (BB)": {
+            "name": "Дымная Крыса (BB)",
+            "tokenName": "Дымная Крыса",
+            "UUID": "hiGwRWdxAsoCII4f",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Облако Дыма",
+                    "description": "<p>Дымная Крыса окружена облаком дыма. Все существа в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:5]{5}, включая Дымную Крысу, получают от этого дыма состояние @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт}.</p><p>Существо, попадающее в Ауру или начинающее свой ход в ней, должно совершить @Check[type:fortitude|dc:22] или получить при провале штраф состояния -1 к проверкам и КС на 1 раунд (используйте @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1})</p>",
+                    "id": "vhcrEIRKkfTwrwDs"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Doppelganger (BB)": {
+            "name": "Доппельгангер (BB)",
+            "tokenName": "Доппельгангер",
+            "UUID": "AdQVjlOWB6rmBRVp",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Изменение Формы",
+                    "description": "<p>Доппельгангер принимает специфический облик любого `<u>маленького</u>` или `<u>среднего</u>` гуманоида, которого он видел. Это не меняет скорости передвижения Доппельгангера, бонусов к атаке и урону от его ударов, но может изменить тип наносимого им урона (обычно на Дробящий).</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>",
+                    "id": "LJKNy957UOv4LqE5"
+                },
+                {
+                    "name": "Чтение Разума",
+                    "description": "<p>Доппельгангер пытается прочитать мысли одного существа в радиусе 30ФТ. Цель сопротивляется, если она получает успех @Check[type:will|dc:21]</p>",
+                    "id": "fIAhNhYo8hJML5xU"
+                },
+                {
+                    "name": "Конец Притворства",
+                    "description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `<u>движение</u>` рядом с ним или использует против него @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>",
+                    "id": "0lvwb1cNAaOUc6Be"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "111"
+                }
+            ]
+        },
+        "Drow Priestess (BB)": {
+            "name": "Дроу-Жрица (BB)",
+            "tokenName": "Дроу-Жрица",
+            "UUID": "FaBHkmFGuEIqIYM1",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Блок щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>",
+                    "id": "Eejxi0k01WzbvUUh"
+                },
+                {
+                    "name": "Рапира",
+                    "id": "6ii2IeWpDJ46u3xM"
+                },
+                {
+                    "name": "Ручной арбалет",
+                    "id": "XPgz4pQn9aYVvddX"
+                }
+            ]
+        },
+        "Drow Sneak (BB)": {
+            "name": "Дроу-Подлец (BB)",
+            "tokenName": "Дроу-Подлец",
+            "UUID": "xKYIN88ULPFgSZmw",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Короткий меч",
+                    "id": "jvZUoPLS8OA1SQTw"
+                },
+                {
+                    "name": "Ручной арбалет",
+                    "id": "EajnVKV3NKyICaQ8"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Drow Warrior (BB)": {
+            "name": "Дроу-Воин (BB)",
+            "tokenName": "Дроу-Воин",
+            "UUID": "sW8koPLrSgHalAnq",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Прокалывание",
+                    "description": "<p>Дроу-Воин наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <strong>Рапирой</strong> и получает к броску атаки бонус обстоятельства +1. Существо, получившее урон от этой атаки, получает @Damage[1d6[bleed]]</p>",
+                    "id": "ix1KQX8Ji2g1e9ID"
+                },
+                {
+                    "name": "Рапира",
+                    "id": "iTaObjgnXpF66Sz5"
+                },
+                {
+                    "name": "Кинжал",
+                    "id": "RZBxog3E2iCbQY5r"
+                },
+                {
+                    "name": "Ручной арбалет",
+                    "id": "XDq62TH6LQA4rgny"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Gargoyle (BB)": {
+            "name": "Гаргулья (BB)",
+            "tokenName": "Гаргулья",
+            "UUID": "aeCoh4u6c5kt1iCs",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Когтистые Лапы",
+                    "description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `<u>движение</u>`, Горгулья может использовать свою реакцию, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>",
+                    "id": "DsvyLX53TeuZHMQ3"
+                },
+                {
+                    "name": "Статуя",
+                    "description": "<p>До следующего использования действия Горгулья выглядит как статуя. Существо должно поулчить успех в @Check[type:perception|dc:32], чтобы понять, что статуя на самом деле является существом.</p>",
+                    "id": "9bomxaBEHSLvRrkq"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Ghost Commoner (BB)": {
+            "name": "Привидение Простолюдина (BB)",
+            "tokenName": "Привидение",
+            "UUID": "2H2AEwQnfKJC0nrd",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Бестелесный",
+                    "description": "<p>Тень не имеет тела и может проходить сквозь физические объекты, хотя и не может завершить свой ход внутри них. Большинство проверок, использующих силу и требующих наличия тела, такие как @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD] и @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731], не работают против Тени, и Тень не может их использовать.</p>",
+                    "id": "soQbbQbVd6xMuJl6"
+                },
+                {
+                    "name": "Пугающий Стон",
+                    "description": "<p>Привидение оплакивает свою судьбу, заставляя каждое живое существо в @Template[type:emanation|distance:30] совершить @Check[type:will|dc:21]</p><p><strong>Успех:</strong> Существо невредимо и временно иммунно к&nbsp;Пугающему Стону&nbsp;этого привидения на 1 минуту</p><p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 2}</p><p><strong>Критический провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 3}</p>",
+                    "id": "uYQrEbjjw3XIQ1cO"
+                },
+                {
+                    "name": "Связь с Местом",
+                    "description": "<p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120ФТ. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>",
+                    "id": "CfzB5r8CSHETuXfA"
+                },
+                {
+                    "name": "Восстановление",
+                    "description": "<p>Когда привидение уничтожено оно формируется заново через [[/r 2d4 #Days]]{2d4 Дня}, полностью исцеленным, в том месте к которому оно привязано. Привидение может быть окончательно уничтожено только в том случае, если кто-то определит причину его существования и исправит все, что мешает духу упокоиться</p>",
+                    "id": "HvOzFzF3j47WTzIv"
+                },
+                {
+                    "name": "Рука Привидения",
+                    "id": "nWtiD4ASp2FFsobD"
+                }
+            ]
+        },
+        "Ghoul (BB)": {
+            "name": "Гуль (BB)",
+            "tokenName": "Гуль",
+            "UUID": "LHHgGSs0ELCR4CYK",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Поглощение Плоти",
+                    "description": "<p>Требования: Гуль рядом с трупом существа, которое умерло за прошедший час</p><hr><p>Гуль пожирает кусок трупа и восстанавливает @Damage[(1d6)[healing]]{1d6 ОЗ}. Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>",
+                    "id": "7RTjFlVzsxhjtwX4"
+                },
+                {
+                    "name": "Резкий Прыжок",
+                    "description": "<p>Гуль прыгает вплоть до половины своей Скорости. Это `<u>движение</u>` не провоцирует реакции.</p>",
+                    "id": "rvraBop9oOSwcjkq"
+                },
+                {
+                    "name": "Паралич",
+                    "description": "<p>Любое живое существо (кроме эльфа), по которому попала атака гуля, должно совершить успешный @Check[type:fortitude|dc:15], иначе станет @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] на 1 раунд.</p><p>Если существо Ур.3 или выше, это происходит только при крит.провале</p>",
+                    "id": "9TCF9GcaMoTKkPSj"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                }
+            ]
+        },
+        "Giant Centipede (BB)": {
+            "name": "Гигантская Многоножка (BB)",
+            "tokenName": "Гиг.Многоножка",
+            "UUID": "BKPRkJgq7ehsW7uX",
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Яд Гигантской Многоножки",
+                    "description": "<p>Цель, получившая колющий урон от @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} мандибул, должна совершить @Check[type:fortitude|dc:14] или получить @Damage[1d10[poison]] при провал</p>",
+                    "id": "PIjZTZsbQlriq5X3"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Giant Rat (BB)": {
+            "name": "Гигантская Крыса (BB)",
+            "tokenName": "Гиг.Крыса",
+            "UUID": "AYwdybUfm4meGUTJ",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "111"
+                }
+            ]
+        },
+        "Giant Spider (BB)": {
+            "name": "Гигантский Паук (BB)",
+            "tokenName": "Гиг.Паук",
+            "UUID": "6NdqvKIlxo4cGhf8",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Спуск на Паутине",
+                    "description": "<p>Гиг.Паук совершает `<u>движение</u>` строго вниз на расстояние до 40ФТ, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от неё. Расстояние, на которое он Спуск на Паутине, не считается уроном от падения.</p><div data-visibility=\"gm\"><p>Существо может @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} рассечь паутину (КБ 20, 8 ОЗ), из-за чего Гиг.Паук падает</p></div>",
+                    "id": "Odl9UZ1OKOYG044E"
+                },
+                {
+                    "name": "Яд Паука-Охотника",
+                    "description": "<p style=\"text-align: center;\">@Check[type:fortitude|showDC:owner|dc:16|traits:poison]</p><p>Стадия 1: @Damage[(1d12)[poison]] и @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg] (1 Раунд)</p>",
+                    "id": "vnaySgTDfC0slaHW"
+                },
+                {
+                    "name": "Паутина-Ловушка",
+                    "description": "<p>Существо по которому попали атакой Паутины становится @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвиженным} и прилипает к ближайшей поверхности, пока не @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырвется}<span data-visibility=\"gm\">КС17</span>.</p>",
+                    "id": "KlwGH9hdWl3XpMYw"
+                },
+                {
+                    "name": "Клыки",
+                    "id": "C4dwFfQQc0M5gZBd"
+                },
+                {
+                    "name": "Паутина",
+                    "id": "ELWu5zIODys6k1lo"
+                }
+            ]
+        },
+        "Giant Viper (BB)": {
+            "name": "Гигантская Гадюка (BB)",
+            "tokenName": "Гиг.Гадюка",
+            "UUID": "KsWAIXTTh3mfNWOY",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Свернуться",
+                    "description": "<p>Гиг.Гадюка совершает это действие, чтобы свернуться, увеличивая досягаемость своей атаки Клыками с 5 до 10ФТ. После того, как она @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударит} своими клыками, она перестает быть свернутой.</p>",
+                    "id": "1fzwu2J1jldVzBPc"
+                },
+                {
+                    "name": "Возможность Наброситься",
+                    "description": "<p>Как @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Возможность для атаки}, но змея может использовать эту реакцию только если @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.KsWAIXTTh3mfNWOY.Item.1fzwu2J1jldVzBPc]{Свернута}</p>",
+                    "id": "MEjtnkYdPhtWGyzF"
+                },
+                {
+                    "name": "Яд Гигантской Гадюки",
+                    "description": "<p>Цель, получившая урон Клыками змеи, должна совершить @Check[type:fortitude|dc:17] или получить @Damage[1d12[poison]] при провале</p>",
+                    "id": "lqMgsu5wZAOsEwK2"
+                },
+                {
+                    "name": "Клыки",
+                    "id": "3g9yO52wil4VC4Dz"
+                }
+            ]
+        },
+        "Goblin Commando (BB)": {
+            "name": "Гоблин-Диверсант (BB)",
+            "tokenName": "Гоблин-Диверсант",
+            "UUID": "jGzVwekcRX5aQpbT",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Двуручный Меч",
+                    "id": "7swXlOjSl2oHLuDv"
+                },
+                {
+                    "name": "Короткий Лук",
+                    "id": "wBppFKxjdSadJQj2"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Goblin Igniter (BB)": {
+            "name": "Гоблин-Пироман (BB)",
+            "tokenName": "Гоблин-Пироман",
+            "UUID": "shT19KaQjWRVrHLI",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Факел",
+                    "id": "jzku4qcmz6H3dk9C"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Goblin Warrior (BB)": {
+            "name": "Гоблин-Воин (BB)",
+            "tokenName": "Гоблин-Воин",
+            "UUID": "jVZRROs0GzDjVrgi",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Короткий Меч",
+                    "id": "CnmgzGmi2Avq67QA"
+                },
+                {
+                    "name": "Короткий Лук",
+                    "id": "4EXgRMqNIRLXxB1c"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Green Dragon Wyrmling (BB)": {
+            "name": "Зеленый Дракон (Вирмлин) (BB)",
+            "tokenName": "Зеленый Дракон (Вирмлин)",
+            "UUID": "WPsgrCUSFCqgDvJi",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Хвост-Хлыст",
+                    "description": "<p>Триггер: Враг в пределах досягаемости Жала/Хвоста использует действие `<u>движения</u>` или покидает квадрат в пределах досягаемости Жала/Хвоста во время действия `<u>движения</u>`, которое оно использует</p><hr><p>Вы совершаете @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцир. врагу своим Жалом/Хвостом со штрафом -2. Если @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, существо прерывает спровоцировавшее действие `<u>движения</u>`</p>",
+                    "id": "94P2S8OyxiovGujz"
+                },
+                {
+                    "name": "Драконье неистовство",
+                    "description": "<p>Дракон наносит два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Когтями и один @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Хвостом в любом порядке</p>",
+                    "id": "d5UuF56WuHzskPO4"
+                },
+                {
+                    "name": "Атака Дыханием",
+                    "description": "<p>Дракон выдыхает @Template[type:cone|distance:30], который наносит [[/r 5d6[poison]]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:24|basic:true]</p><p>Перезарядка: [[/br 1d4[recharge]]]{1d4 Раунда}</p><section class=\"secret\"><p>The dragon can't use their Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>",
+                    "id": "j90G6J5zvaIVNb1q"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Green Kobold Dragon Mage (BB)": {
+            "name": "Кобольд-Дракомант (Зеленый) (BB)",
+            "tokenName": "Кобольд-Дракомант",
+            "UUID": "QaldZV2p9RpMXzzn",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Драконья Чешуя",
+                    "description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Зеленая - 5 Яд</p>",
+                    "id": "1GBTPnqIIGld3Wu1"
+                },
+                {
+                    "name": "Посох",
+                    "id": "90eQFUneXcsHeKSK"
+                }
+            ]
+        },
+        "Harpy (BB)": {
+            "name": "Гарпия (BB)",
+            "tokenName": "Гарпия",
+            "UUID": "AuCC04X2AO8oFN75",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Пленительная Песня",
+                    "description": "<p>Гарпия выкрикивает жуткую, но притягательную мелодию. Каждое существо, не являющееся гарпией и находящееся в @Template[type:emanation|distance:300], которое слышит песню, должно совершить @Check[type:will|dc:21]</p><p>В случае провала существо попадает в плен и должно тратить каждое свое действие на то, чтобы как можно быстрее приблизиться к гарпии, избегая при этом очевидных опасностей. Если плененное существо находится рядом с гарпией, оно остается неподвижным и не предпринимает никаких действий. Если существо атаковано гарпией, оно освобождается от плена в конце хода гарпии.</p><p>Эффект длится 1 раунд, но если гарпия использует эту способность в последующие раунды, то продлевает ее действие на 1 раунд для всех плененных существ.</p><p>Если существо успешно справляется с любым спасброском против Пленительной Песни, оно временно становится невосприимчивым к Пленительным Песням на 24 часа.</p>",
+                    "id": "NQF0fD75864Ytav1"
+                },
+                {
+                    "name": "Дубинка",
+                    "id": "8akVcjr4Y8JZR5Ht"
+                },
+                {
+                    "name": "Дубинка",
+                    "id": "KYq91Bu5HDnQoSkG"
+                }
+            ]
+        },
+        "Hell Hound (BB)": {
+            "name": "Адская Гончая (BB)",
+            "tokenName": "Адская Гончая",
+            "UUID": "BEoRtkFBaDQU2szN",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Атака Дыханием",
+                    "description": "<p>Адская Гончая выдыхает пламя, наносящее всем существам в @Template[type:cone|distance:15] @Damage[4d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:19|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}. Если гончая получила бы урон огнем или будет целью `<u>огненного</u>` эффекта, то ее <strong>Атака Дыханием</strong> перезаряжается</p><section class=\"secret\"><p>The hell hound can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p></section>",
+                    "id": "GsQeeSV97T6FPvoY"
+                },
+                {
+                    "name": "Урон Злом",
+                    "description": "<p>Урон Злом, наносимый Адской Гончей, вредит только персонажам с Добрым Мировоззрением</p>",
+                    "id": "rj9VxT0ANFzZgmXI"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Hobgoblin Warrior (BB)": {
+            "name": "Хобгоблин-Воин (BB)",
+            "tokenName": "Хобгоблин-Воин",
+            "UUID": "M8oJOKJ4AgrLZcJQ",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Блок Щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>",
+                    "id": "xolLzAgsgpzS6Nvn"
+                },
+                {
+                    "name": "Строй",
+                    "description": "<p>Когда он рядом с хотя бы 2 другими союзниками, хобгоблин-солдат получает бонус обстоятельства +1 к КБ и спасброскам. Этот бонус увеличивается до +2 для спасбросков Рефлекса от эффектов по области.</p>",
+                    "id": "OgkLVLhW0uOMdbGj"
+                },
+                {
+                    "name": "Длинный меч",
+                    "id": "PzpzmSnCSWrwxzDO"
+                },
+                {
+                    "name": "Короткий лук",
+                    "id": "CHS0DAe3ekrw8ve1"
+                }
+            ]
+        },
+        "Kobold Boss Zolgran (BB)": {
+            "name": "Кобольд-Босс Золгран (BB)",
+            "tokenName": "Золгран",
+            "UUID": "AleeS0IRqT4tUphB",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Внезапная Атака (1d6)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SneakAttack]</p>",
+                    "id": "SKxww784aC4E2gzW"
+                },
+                {
+                    "name": "Амулет из Скорлупы",
+                    "id": "eh06w4tCybKWTx8g"
+                },
+                {
+                    "name": "Железный Ключ",
+                    "id": "FRce1Q7000LFf9Gs"
+                },
+                {
+                    "name": "Посох",
+                    "id": "QpOsIDOXtvTTXsS8"
+                }
+            ]
+        },
+        "Kobold Scout (BB)": {
+            "name": "Кобольд-Разведчик (BB)",
+            "tokenName": "Кобольд-Разведчик",
+            "UUID": "rrzetIWD0cKWwwAS",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Поспешное Отступление",
+                    "description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>",
+                    "id": "0qvSsLdTulsncbsi"
+                },
+                {
+                    "name": "Короткий меч",
+                    "id": "vTjkwNzpCJmsbg6R"
+                },
+                {
+                    "name": "Арбалет",
+                    "id": "38uEEYKxUvG8TDFw"
+                }
+            ]
+        },
+        "Kobold Trapmaster (BB)": {
+            "name": "Кобольд-Ловец (BB)",
+            "tokenName": "Кобольд-Ловец",
+            "UUID": "4Axci50gPQArPg7d",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Поспешное Отступление",
+                    "description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>",
+                    "id": "B1zHLf1i3W3pgrBz"
+                },
+                {
+                    "name": "Быстрая Ловушка",
+                    "description": "<p>Кобольд-Ловчий устанавливает один @UUID[Compendium.pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>",
+                    "id": "Mcbgf9KdTTBPuio6"
+                },
+                {
+                    "name": "Силок с Шипами",
+                    "description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>",
+                    "id": "sXZ80MEcWSNN1Ct0"
+                },
+                {
+                    "name": "Силок с Шипами",
+                    "description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>",
+                    "id": "fx6MEhp40JvDajQh"
+                },
+                {
+                    "name": "Короткий меч",
+                    "id": "OmVVuah2jgqtqVVo"
+                },
+                {
+                    "name": "Копье",
+                    "id": "SL9owkerqt7KHiAD"
+                }
+            ]
+        },
+        "Kobold Warrior (BB)": {
+            "name": "Кобольд-Воин (BB)",
+            "tokenName": "Кобольд-Воин",
+            "UUID": "r9w1n85mp9Ip4QiS",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Поспешное Отступление",
+                    "description": "<p>Требование: Кобольд-воин рядом с хотя бы 1 врагом</p><hr><p>Кобольд-воин совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>",
+                    "id": "dF7ibA1On3Nvjxqk"
+                },
+                {
+                    "name": "Копье",
+                    "id": "yDIuApGqKF4695Oq"
+                },
+                {
+                    "name": "Копье",
+                    "id": "DyABhSgZNJ3ICo85"
+                }
+            ]
+        },
+        "Leopard (BB)": {
+            "name": "Леопард (BB)",
+            "tokenName": "Леопард",
+            "UUID": "wqPYzMNgYvrO6oEP",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Терзать",
+                    "description": "<p>Леопард совершает 2 @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Когтями по @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченному} им существу</p><hr><p>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</p>",
+                    "id": "uEjliLhQWBsVYCsE"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Mimic (BB)": {
+            "name": "Мимик (BB)",
+            "tokenName": "Мимик",
+            "UUID": "Br1AtKUHe3nbzjnY",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Наглядный Пример",
+                    "description": "<p>Триггер: Существо касается или физически взаимодействует с мимиком, когда он превращен с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.M3QwWIU2rzRHWndo]</p><hr><p>Спровоцировавшее существо автоматически прилипает к @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.91iOrkVbzeP7cK2M]{Клею} мимика (без совершения спасброска). Потом мимик совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Ложноножкой по любому существу рядом с собой</p><hr><p>Наглядный Пример нельзя использовать снова, пока мимик не сбежит и не примет новую форму</p>",
+                    "id": "Ns2pok7e6UtuKUd6"
+                },
+                {
+                    "name": "Имитировать Объект",
+                    "description": "<p>Мимик принимает форму любого объекта `<u>среднего</u>` размера. Это не изменяет его текстуру или общий размер, но может изменить его расцветку и внешний вид. Чтобы определить, что объект является существом, требуется проверка @Check[type:perception|dc:28]</p>",
+                    "id": "M3QwWIU2rzRHWndo"
+                },
+                {
+                    "name": "Клейкость",
+                    "description": "<p>Мимик покрыт клейкой слизью. Любое существо попавшее по мимику, по которому попал мимик, или как-то иначе коснувшееся его (к примеру при @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть} или @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватить}), должно совершить @Check[type:reflex|dc:23], иначе будет @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]<span data-visibility=\"gm\"> КС 23</span>)</p><p>Оружие, попавшее по мимику прилипает к нему и может быть отцеплено успешной проверкой @Check[type:athletics|dc:23] (одиночное действие). К мимику может приклеиться любое количество объектов или существ. Мимик может отпустить застрявшее существо или объект использовав одиночное действие, а клейковина растворяется через 1 минуту после смерти мимика, освобождая все прилипшие объекты и существ.</p>",
+                    "id": "91iOrkVbzeP7cK2M"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Ogre Warrior (BB)": {
+            "name": "Огр-Воин (BB)",
+            "tokenName": "Огр-Воин ",
+            "UUID": "gdXok08bITkhowDJ",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Секира",
+                    "id": "qjYI8SCJrXWZopn6"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "kN3B1jnfTS7LsbUS"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Orc Commander (BB)": {
+            "name": "Орк-Военачальник (BB)",
+            "tokenName": "Орк-Военачальник",
+            "UUID": "5xjmJoJvBhASkEKS",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Боевой клич",
+                    "description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `<u>оркам</u>` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>",
+                    "id": "yeHohyJSYfiTwghO"
+                },
+                {
+                    "name": "Кувалда",
+                    "id": "fI8bsqTQlNTlSpdF"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "v9Xt73Wj9wclc3ef"
+                }
+            ]
+        },
+        "Orc Scrapper (BB)": {
+            "name": "Орк-Громила (BB)",
+            "tokenName": "Орк-Громила",
+            "UUID": "0oWKApY5FR8IO7GG",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Боевой топор",
+                    "id": "DmNGJHLmXcMGdmUS"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "TS7iVUZNmP0Szdfh"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Orc Trooper (BB)": {
+            "name": "Орк-Воин (BB)",
+            "tokenName": "Орк-Воин",
+            "UUID": "EtRqBsWh1Hv1toqh",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Боевой топор",
+                    "id": "mHS7Uj0GKGKhQiNo"
+                },
+                {
+                    "name": "Короткий меч",
+                    "id": "54j0gybWlIAueFkZ"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "freYXZtmDhD5zIrA"
+                }
+            ]
+        },
+        "Owlbear (BB)": {
+            "name": "Совомедведь (BB)",
+            "tokenName": "Совомедведь",
+            "UUID": "X03vq2RWi2jiA6Ri",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<p>С телом мощного бурого медведя и острыми чувствами совы, совомедведь является опасным территориальным хищником, бесстрашно нападающим на любое существо, забредшее в его владения. Те, кто столкнулся с совомедведем, слышат его ужасающий визг лишь за несколько секунд до того, как массивное существо настигает их, разрывая на части смертоносными когтями и мощным клювом.</p><p>Хотя история их происхождения утеряна во времени, считается, что совомедведи появились в результате магического эксперимента по созданию более хитрого хищника. Согласно легенде, тот волшебник был настолько удачлив, что в итоге стал первой жертвой чудовища. Сегодня совомедведей можно встретить по всему миру с самыми разными чертами. Если наиболее распространенный подвид выглядит как бурый медведь с чертами виргинского филина (great horned owl), то совомедведи морозного севера могут напоминать смесь полярных медведей с белыми совами, а в тропических лесах умеренного климата они могут быть похожи на черных медведей с головами сипух обыкновенных.</p><p>Большинство совомедведей являются одиночками, собираясь вместе только для спаривания и воспитания детенышей, которые выводятся из яиц. Территория совомедведя обычно простирается примерно на 5 миль (~8 км) от его логова, а явные признаки его обитания появляются на расстоянии 1 мили (оцарапанные когтями деревья, гигантские перья и растерзанные туши). В логове совомедведя редко можно найти что-то ценное, но некоторые искатели приключений находили безделушки, монеты и даже украшения в огромных кучках непереваренных костей, которые оставляют после себя эти чудовища.</p><p>Это существо также известно как совиный медведь, совомед, медвесыч и т.п.</p>",
+            "items": [
+                {
+                    "name": "Визжащее Нападение",
+                    "description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `<u>движения</u>`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>",
+                    "id": "qCmKPruRObzVL1Dr"
+                },
+                {
+                    "name": "Леденящий Кровь Визг",
+                    "description": "<p>Совомедведь издает громкий визг, ужасающий его добычу. Каждое существо в @Template[type:emanation|distance:80] должно совершить @Check[type:will|dc:20]</p><p>Независимо от результата, существа временно иммунны на 1 минуту</p><hr><p>Крит.Успех: Существо невредимо.</p><p>Успех: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Провал: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p><p>Крит.Провал: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>",
+                    "id": "vTXaShzYmcNbRjzk"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Pugwampi (BB)": {
+            "name": "Пагвамп (BB)",
+            "tokenName": "Пагвамп",
+            "UUID": "jnmUcTs4hn1c5bz9",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Разговор с Животными",
+                    "description": "<p>Пагвамп могут разговаривать с животными и понимать их.</p>",
+                    "id": "IgVFPfZjnGqYSVAI"
+                },
+                {
+                    "name": "Аура Неудачи",
+                    "description": "<p>Существа, кроме `<u>животных</u>`, `<u>гремлинов</u>` и `<u>гноллов</u>`, находящиеся в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:20]{20}, становятся крайне невезучими. Они должны совершить @Check[type:will|dc:16] с эффектом `<u>неудачи</u>`</p><p>Успех: Существо получает временный иммунитет к Ауре Неудачи на 24 часа</p><p>Провал: Существо совершает все проверки с `<u>неудачей</u>`, когда он находится в Ауре Неудачи</p><hr><p>Несколько пагвампи не создают никакого усиленного эффекта</p>",
+                    "id": "AGjtcz0cAWzBXlEx"
+                },
+                {
+                    "name": "kFgfAbXaJbI8otfZ",
+                    "id": "kFgfAbXaJbI8otfZ"
+                },
+                {
+                    "name": "Короткий лук",
+                    "id": "a4I77q6CzdLCZCG6"
+                }
+            ]
+        },
+        "Red Kobold Dragon Mage (BB)": {
+            "name": "Кобольд-Дракомант (Красный) (BB)",
+            "tokenName": "Кобольд-Дракомант",
+            "UUID": "CJuHwIRCAgTB1SEl",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Драконья Чешуя",
+                    "description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Красная - 5 Огонь</p>",
+                    "id": "1GBTPnqIIGld3Wu1"
+                },
+                {
+                    "name": "Посох",
+                    "id": "90eQFUneXcsHeKSK"
+                }
+            ]
+        },
+        "Sewer Ooze (BB)": {
+            "name": "Сточная Жижа (BB)",
+            "tokenName": "Сточная Жижа",
+            "UUID": "Hkq9ZS2J2iKnT7vT",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Волна Грязи",
+                    "description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `<u>движения</u>` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>",
+                    "id": "mdqK7RuSjtezVyS8"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Shadow (BB)": {
+            "name": "Тень (BB)",
+            "tokenName": "Тень",
+            "UUID": "XrmHgbKgcHDi4OnK",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Теневая Рука",
+                    "id": "x47iDfIE9albveGl"
+                },
+                {
+                    "name": "Бестелесный",
+                    "description": "<p>Тень не имеет тела и может проходить сквозь физические объекты, хотя и не может завершить свой ход внутри них. Большинство проверок, использующих силу и требующих наличия тела, такие как @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD] и @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731], не работают против Тени, и Тень не может их использовать.</p>",
+                    "id": "tS9Kv6K4kwYFjHCT"
+                },
+                {
+                    "name": "Уязвимость к Свету",
+                    "description": "<p>Объект, отбрасывающий `<u>магический</u>` `<u>свет</u>` (как например, от заклинания @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Свет}) считается `<u>магическим</u>` при использовании для атаки Тени</p>",
+                    "id": "ACHlnYzXVxizzqPw"
+                },
+                {
+                    "name": "Порождение Тени",
+                    "description": "<p>Когда тень существа вытянута на свободу с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.Kjifw1jgDvfmrEGU], она становится @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK]{Порождение Тени} под управлением создавшей его Тени. У него нет способности @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.Kjifw1jgDvfmrEGU] и оно всегда неизлечимо @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2}.</p><p>Если существо, у которого было взято это Порождение Тени умирает, то Порождение Тени становится полноценной самостоятельной Тенью. Если существо восстанавливается от своего состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен}, его тень возвращается к нему и Порождение Тени пропадает.</p>",
+                    "id": "0Qt9ULbGzJV8ZG3W"
+                },
+                {
+                    "name": "Кража Тени",
+                    "description": "<p>Требования: <strong>Тень</strong> своим предыдущим действием попала по `<u>живому</u>` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} теневой руки</p><hr><p><strong>Тень</strong> тянет тень существа, делая его @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1}. Оно накапливается вместе с другими состояниями ослаблен от <strong>Теней</strong>, до максимального ослаблен 4.</p><p>Если это увеличивает у существа значение состояния @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 3} или более, то тень цели отделяется от ее тела (см. @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK.Item.0Qt9ULbGzJV8ZG3W])</p><hr><p>Состояние ослабления от Кражи Тени снижается каждый час на 1</p>",
+                    "id": "Kjifw1jgDvfmrEGU"
+                },
+                {
+                    "name": "Скольжение в Тенях",
+                    "description": "<p>Тень может @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться} или заканчивать @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться} в тени существа или объекта</p>",
+                    "id": "0QWVJ7Of8cQNKp0N"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Skeletal Giant (BB)": {
+            "name": "Скелет-Гигант (BB)",
+            "tokenName": "Скелет-Гигант",
+            "UUID": "5MVBU86ZRw2ANMQn",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Широкий Замах",
+                    "description": "<p>Гигант совершает 2 @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} <strong>Двуручным Мечом</strong> по 2 находящимся рядом врагам, оба из которых находятся в пределах его досягаемости</p><hr><p>Штраф множественной атаки не увеличивается до тех пор, пока не будут совершены обе атаки</p>",
+                    "id": "4gkC6A8D27Jzv7nH"
+                },
+                {
+                    "name": "Ужасающий Разбег",
+                    "description": "<p>Гигант совершает @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} и наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} <strong>Рогами</strong> с бонусом обстоятельства +4 к урону. Если этот @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, гигант пытается @UUID[Compendium.pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать}@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{*} цель</p>",
+                    "id": "emPcqeSFXdyr6CgV"
+                },
+                {
+                    "name": "Двуручный меч",
+                    "id": "4uWQE7ermpG8oEr3"
+                }
+            ]
+        },
+        "Skeleton Guard (BB)": {
+            "name": "Скелет-Страж (BB)",
+            "tokenName": "Скелет-Страж",
+            "UUID": "5H8ZX7y5IkUBhvhF",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Скимитар",
+                    "id": "jL9PDQ27Dz6UAMOH"
+                },
+                {
+                    "name": "Короткий лук",
+                    "id": "7ODNVUAaNraSivsT"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Sod Hound (BB)": {
+            "name": "Земляная Гончая (BB)",
+            "tokenName": "Земляная Гончая",
+            "UUID": "0soUz9DZpyqOxcw7",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Чувство Кристаллоы 60ФТ",
+                    "description": "<p>Земляная Гончая может чувствовать кристаллы или драгоценные камни в радиусе 60ФТ</p>",
+                    "id": "hDYxH5VuENin7Q0I"
+                },
+                {
+                    "name": "Проход через Землю",
+                    "description": "<p>Земляная Гончая прогрызает ходы в любом земляном материале, включая камни. Она перемещается на расстояние до 20ФТ, не оставляя ни туннелей, ни следов своего пребывания</p>",
+                    "id": "59wy5xK7MEQmYRxg"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Troll (BB)": {
+            "name": "Тролль (BB)",
+            "tokenName": "Тролль",
+            "UUID": "gvCCATlH9mPGWbsp",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Раздирать (Когти)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>",
+                    "id": "scw9HnbCVwAyFzok"
+                },
+                {
+                    "name": "Регенерация 20 (Отключение Кислота/Огонь)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>",
+                    "id": "50Meu5uWTOPYtMu6"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Viper (BB)": {
+            "name": "Гадюка (BB)",
+            "tokenName": "Гадюка",
+            "UUID": "lFlXmieuHTBIonhj",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Проскользнуть",
+                    "description": "<p>Триггер: Существо завершает свое `<u>движение</u>` рядом с гадюкой или внутри ее пространства</p><hr><p>Гадюка совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} или @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} вплоть до 10ФТ. Она должна завершить это `<u>движение</u>` в месте, которое не в пределах 5ФТ от врага. Это `<u>движение</u>` не провоцирует реакции.</p>",
+                    "id": "YIHoSZN2nTp139Dg"
+                },
+                {
+                    "name": "Яд Гадюки",
+                    "description": "<p>Цель, получившая урон Клыками змеи, должна совершить @Check[type:fortitude|dc:16] или получить @Damage[1d10[poison]] при провале</p>",
+                    "id": "TnaXi3v3iBDjotwd"
+                },
+                {
+                    "name": "Клыки",
+                    "id": "iHa81hIBKMF5eXxi"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Web Lurker (BB)": {
+            "name": "Паутинник (BB)",
+            "tokenName": "Паутинник",
+            "UUID": "ZMr28tFTA5NUcBTi",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Паучья Речь",
+                    "description": "<p>Паутинник может разговаривать с пауками и понимать их</p>",
+                    "id": "Kj1uqisygxPxuaC9"
+                },
+                {
+                    "name": "Яд Паутинника",
+                    "description": "<p>Цель, получившая урон от Клыков Паутинника, должна получить успех в @Check[type:fortitude|dc:19] или получить @Damage[1d12[poison]] и состояние @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] на 1 раунд</p>",
+                    "id": "P7JMDrm2HB1QPV3N"
+                },
+                {
+                    "name": "Паутина-Ловушка",
+                    "description": "<p>Существо, в которое Паутинник попадает Паутиной прилипает к ближайшей поверхности. Оно не может совершать движение до тех пор, пока успешно не совершит @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] <span data-visibility=\"gm\">КС_20</span></p>",
+                    "id": "Re5HgCWQJTyzGewL"
+                },
+                {
+                    "name": "Клыки",
+                    "id": "pChhLSd048EpUiL0"
+                },
+                {
+                    "name": "Паутина",
+                    "id": "5HpQse2MIBQbs10B"
+                }
+            ]
+        },
+        "White Kobold Dragon Mage (BB)": {
+            "name": "Кобольд-Дракомант (Белый) (BB)",
+            "tokenName": "Кобольд-Дракомант",
+            "UUID": "kCRfBZqCugMQmdpd",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Драконья Чешуя",
+                    "description": "<p>Сопротивление Кобольд-Дракоманта зависит от цвета чешуи. Белая - 5 Холод</p>",
+                    "id": "1GBTPnqIIGld3Wu1"
+                },
+                {
+                    "name": "Посох",
+                    "id": "90eQFUneXcsHeKSK"
+                }
+            ]
+        },
+        "Wight (BB)": {
+            "name": "Умертвие (BB)",
+            "tokenName": "Умертвие",
+            "UUID": "ZPjQkKVMi3xoPcU0",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Финальная Злость",
+                    "description": "<p>Когда Умертвие опускается до 0 ОЗ, он может использовать свою реакцию для нанесения @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара}, прежде чем будет уничтожен. При этом ударе он не получает ОЗ за счет @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.ZPjQkKVMi3xoPcU0.Item.v2Ifd6tb1IDRFqFO]</p>",
+                    "id": "Kpl3lLjfHM0hWhT5"
+                },
+                {
+                    "name": "Истощение Жизни",
+                    "description": "<p>Когда Умертвие наносит урон` живому` существу @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Когтей, он восстанавливает @Damage[(2)[healing]]{2 ОЗ}, и цель должна успешно совершить @Check[type:fortitude|dc:17] или получить @Damage[(2)[damage]]{2 Урона}, которые нельзя исцелить. Умертвие может совершать Истощение Жизни несколько раз, но одно существо не может получить более 8 неизлечимого урона.</p><p>Каждая полная ночь отдыха восстанавливает 2 неизлечимого урона, а полный день постельного режима увеличивает восстановление до 4 неизлечимого урона.</p>",
+                    "id": "v2Ifd6tb1IDRFqFO"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Wolf (BB)": {
+            "name": "Волк (BB)",
+            "tokenName": "Волк",
+            "UUID": "Oilfs8Atv2LjAsUS",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Нападение Стаей (1d4)",
+                    "description": "<p>Существо наносит Ударами дополнительные 1d4 урона, которые находятся в досягаемости хотя бы 2 союзников</p>",
+                    "id": "GhRRqxvK6T21zheo"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Xulgath Boss (BB)": {
+            "name": "Зулгат-Босс (BB)",
+            "tokenName": "Зулгат-Босс",
+            "UUID": "YdBCG0vzOA5BgoIi",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Вонь",
+                    "description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:19]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>",
+                    "id": "gV8plzH46OeVvlNG"
+                },
+                {
+                    "name": "Взмах",
+                    "description": "<p>Зулгат-Босс совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Секирой по двум соседним врагам, находящимся в пределах его досягаемости, с бонусом обстоятельства +1</p><p>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак.</p>",
+                    "id": "RX6HAClLi39MgLLI"
+                },
+                {
+                    "name": "Секира",
+                    "id": "JWlYLXxlI4IRYbeF"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "VcMwjaxqor5ucwyE"
+                }
+            ]
+        },
+        "Xulgath Warrior (BB)": {
+            "name": "Зулгат-Воин (BB)",
+            "tokenName": "Зулгат-Воин",
+            "UUID": "RTzFvmdSCf5yhguy",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Вонь",
+                    "description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:19]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>",
+                    "id": "4NqTHQqAkLmiUovi"
+                },
+                {
+                    "name": "Дубинка",
+                    "id": "puh52kwYDM4gZi1Z"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "MfBsuZaAMldux4Xb"
+                }
+            ]
+        },
+        "Zephyr Hawk (BB)": {
+            "name": "Воздушный Ястреб (BB)",
+            "tokenName": "Воздушный Ястреб",
+            "UUID": "cBHpMcVaLRPZu9po",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Круговая Атака",
+                    "description": "<p>Воздушный Ястреб совершает @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} на половину своей скорости, затем совершает два @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удара} Крыльями, затем снова пролетает на половину своей скорости и возвращается в исходное положение. Вторая половина этого `<u>движения</u>` не провоцирует реакций.</p><div>Оба удара считаются к его штрафу множественной атаки, но штраф увеличивается только после завершения обоих атак</div>",
+                    "id": "x8uwJOVGskq8pjOH"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Zombie Shambler (BB)": {
+            "name": "Зомби Волочащийся (BB)",
+            "tokenName": "Зомби",
+            "UUID": "0plBflWwrCWQO2RO",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Челюсти",
+                    "description": "<p>Требование: У зомби есть существо, которое @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} или @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаем} им</p>",
+                    "slug": "jaws",
+                    "id": "v90WRjELLiKF57vr"
+                },
+                {
+                    "name": "Медлительный",
+                    "description": "<p>Зомби навсегда @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакцию</p>",
+                    "id": "eulyI60JHNUYs39w"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Hidden Pit (BB)": {
+            "name": "Скрытая Яма (BB)",
+            "tokenName": "Скрытая Яма",
+            "img": "systems/pf2e/icons/spells/oneiric-mire.webp",
+            "tokenImg": "systems/pf2e/icons/spells/oneiric-mire.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>или @Check[type:perception|dc:0|traits:hazard], если люк удален или сломан</p>",
+            "hdescription": "<p>Деревянный люк закрывает яму площадью 10ФТ и глубиной 20ФТ</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:12|traits:hazard|name:Remove the Trapdoor] для удаления люка</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Падение",
+                    "description": "<p>Если существо наступает на люк, оно падает в него, если только ему не удастся @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за уступ} с помощью @Check[type:reflex|dc:16]. Яма глубиной 20ФТ наносит @Damage[10[bludgeoning]] любому, кто упадет на дно</p>",
+                    "id": "ZY8Teu6y1ruEGOAn"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Central Spears (BB)": {
+            "name": "Центральные Копья (BB)",
+            "tokenName": "Центральные Копья",
+            "img": "systems/pf2e/icons/equipment/weapons/injection-spear.webp",
+            "tokenImg": "systems/pf2e/icons/equipment/weapons/injection-spear.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "<p>Существо должно успешно выполнить совершить @Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism] на провоцирующих напольных плитках или на отверстиях в западной стене</p>",
+            "hroutine": "",
+            "hreset": "Центральные копья перезаряжаются через 1 минуту",
+            "items": [
+                {
+                    "name": "Копье",
+                    "description": "",
+                    "id": "Ae0gibnuQy3PwVCV"
+                },
+                {
+                    "name": "Копьемёт",
+                    "description": "<p>Когда существо перемещается на любой из провоцирующих кважратов, ловушка выпускает три копья с западной стены. Она наносит один дальний @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду</p>",
+                    "id": "9yktjCbx8rbvpSZe"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Envenomed Lock (BB)": {
+            "name": "Отравленный Замок (BB)",
+            "tokenName": "Отравленный Замок",
+            "img": "systems/pf2e/icons/spells/extract-poison.webp",
+            "tokenImg": "systems/pf2e/icons/spells/extract-poison.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Возле замочной скважины замка спрятан пружинный отравленный шип. @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Отключение} или поломки ловушки не приводит к отключению или поломке замка.</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:17|traits:hazard|name:Disable the Spring Mechanism] на пружинном механизме</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Шип",
+                    "id": "VDL4WflLI1gxDylZ"
+                },
+                {
+                    "name": "Пружина",
+                    "description": "<p>Когда существо пытается открыть или @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Вскрыть Замок}, пружина вытягивается, чтобы атаковать это существо @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Шипа</p>",
+                    "id": "3w5kvSRp3MF3snpw"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Falling Ceiling (BB)": {
+            "name": "Падающий Потолок (BB)",
+            "tokenName": "Падающий Потолок",
+            "img": "systems/pf2e/icons/spells/phantom-prison.webp",
+            "tokenImg": "systems/pf2e/icons/spells/phantom-prison.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "<p>Чтобы предотвратить падение каменных блоков, существо должно успешно выполнить проверку @Check[type:thievery|dc:18|traits:hazard|name:Prevent Blocks from Falling] на площади срабатывания или на потолке</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Каменный Блок",
+                    "id": "qG3VBB7HAWZksxvT"
+                },
+                {
+                    "name": "Падающий Блок",
+                    "description": "<p>Когда существо ступает на площадку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Она наносит по одному @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} каждому существу, находящемуся между двумя дверями</p>",
+                    "id": "0c1Yjs4t9BKCpjmr"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Slamming Door (BB)": {
+            "name": "Хлопающая Плита (BB)",
+            "tokenName": "Хлопающая Плита",
+            "img": "systems/pf2e/icons/spells/wall-of-stone.webp",
+            "tokenImg": "systems/pf2e/icons/spells/wall-of-stone.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Чувствительные к давлению панели в полу соединены с каменной плитой, спрятанной в потолке коридора</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:15|traits:hazard|name:Disable Floor Panels], на напольных панелях, до того как упадет плита</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Захлопывание",
+                    "description": "<p>Триггер: На любую из напольных плиток оказывается давление</p><hr><p>Плита падает, закрывая коридор. При падении каменная плита наносит @Damage[3d8[bludgeoning]] всем, кто находится под ней или рядом, и толкает их из своего пространства в случайном направлении. Существо, которое успешно проходит @Check[type:reflex|dc:17|traits:damaging-effect,hazard] не получает урон, и откатывается в случайном направлении. При крит.успехе, они могут выбрать направление.</p><p>Поднятие упавшей плиты требует успешной проверки @Check[type:athletics|dc:25|traits:hazard]. Попадание по напольной панели активирует ловушку. Потолочная плита использует такой же КБ и спасброски, что и ловушка, но обладает Твердостью_12, 48 ОЗ (ПП_24)</p>",
+                    "id": "WpW23oqzbYlPDDuP"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Spear Launcher (BB)": {
+            "name": "Копьемёт (BB)",
+            "tokenName": "Копьемёт",
+            "img": "systems/pf2e/icons/equipment/weapons/spear.webp",
+            "tokenImg": "systems/pf2e/icons/equipment/weapons/spear.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Отверстие в стене, заряженное копьем, соединяется с одной напольной 5ФТ квадратной плитой</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:18|traits:hazard|name:Disable Mechanism], на напольной плите или стенном отверстие</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Копье",
+                    "id": "p27dLxTbXpewe8ZR"
+                },
+                {
+                    "name": "Копьемёт",
+                    "description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>",
+                    "id": "dKlUXGzoOpojAKGv"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Mermaid Fountain (BB)": {
+            "name": "Фонтан-Русалка (BB)",
+            "tokenName": "Фонтан-Русалка",
+            "img": "systems/pf2e/icons/spells/artistic-flourish.webp",
+            "tokenImg": "systems/pf2e/icons/spells/artistic-flourish.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>@Check[type:perception|dc:20|traits:complex,hazard]</p>",
+            "hdescription": "<p>Каждый ход Фонтан-Русалка использует только 1 действие. Совершите бросок [[/r 1d10]]{1d10} и посмотрите результат в следующем списке, чтобы определить, какое действие Фонтан-Русалка использует в этот раунд.</p><p><strong>1-4 Одна цель.</strong> Статуя вращается и распыляет воду на одну случайную цель в комнате. Совершите бросок [[/r 1d4]]{1d4} и считайте до того числа, которое вы бросили, начиная с игрока слева от вас, чтобы определить, кто из героев будет атакован. Водный Поток является дистацнионным Ударом</p><p><strong>5-7 Углы.</strong> Статуя вращается и выпускает струю воды в каждый угол комнаты, где еще есть функционирующий угловой механизм. Она поражает любое существо, находящееся рядом с угловым механизмом, нанося @Damage[2d6[bludgeoning]]. Каждый герой должен совершить @Check[type:reflex|dc:15|basic:true|traits:hazard]</p><p><strong>8-9 Половина комнаты.</strong> Статуя вращается, орошая водой половину комнаты. Бросьте любой кубик. Если результат четный, она опрыскивает западную половину, в противном случае - восточную. Это наносит @Damage[2d6[bludgeoning]] каждому существу, находящемуся в этой половине комнаты, и каждое существо должно совершить @Check[type:reflex|dc:15|basic:true|traits:hazard]</p><p><strong>10 Полная комната.</strong> Действует так же, как и Половины Комнаты, но атака направлена на всех находящихся в комнате.</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:20|traits:complex,hazard|name:Disable Mechanism] на каждом угловом механизме (для отключения ловушки необходимо отключить все три рабочих угловых механизма)</p><p>Каждый угловой механизм имеет Твердость_8 и 15 ОЗ</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Водный Поток",
+                    "id": "YfiKyZzHH0XtfjFx"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Scythe Blades (BB)": {
+            "name": "Косящие Лезвия (BB)",
+            "tokenName": "Косящие Лезвия",
+            "img": "systems/pf2e/icons/equipment/weapons/scythe.webp",
+            "tokenImg": "systems/pf2e/icons/equipment/weapons/scythe.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Два лезвия, каждое из которых спрятано в прорези потолка длиной 15ФТ, соединены с растяжкой</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:21|traits:hazard|name:Disable Blade] для отключения каждого лезвия</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Без ШМА",
+                    "description": "<p>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Косами не используют ШМА</p>",
+                    "id": "haWc7Vo7IDgvIPU9"
+                },
+                {
+                    "name": "Коса",
+                    "description": "Без ШМА",
+                    "id": "LPBpvhfnfUxz7nWz"
+                },
+                {
+                    "name": "Падающие Лезвия",
+                    "description": "<p>Триггер: Растяжка натянута или перерезана</p><hr><p>Оба лезвия опускаются вниз, каждое @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} всех существ под потолочными прорезями</p>",
+                    "id": "MrC7xvsyL1EpWyqb"
+                }
+            ]
+        }
+    }
 }

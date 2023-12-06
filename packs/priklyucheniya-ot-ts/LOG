@@ -1,3 +1,8 @@
-2023/12/05-18:01:26.115 3228 Recovering log #1817
-2023/12/05-18:01:26.217 3228 Delete type=0 #1817
-2023/12/05-18:01:26.217 3228 Delete type=3 #1815
+2023/12/06-12:07:28.230 2630 Recovering log #1827
+2023/12/06-12:07:28.271 2630 Delete type=0 #1827
+2023/12/06-12:07:28.271 2630 Delete type=3 #1826
+2023/12/06-12:14:58.273 2f60 Level-0 table #1831: started
+2023/12/06-12:14:58.273 2f60 Level-0 table #1831: 0 bytes OK
+2023/12/06-12:14:58.289 2f60 Delete type=0 #1829
+2023/12/06-12:14:58.482 2f60 Manual compaction at level-0 from '!adventures!8pdmWVIKqlpLEhZg' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
+2023/12/06-12:14:58.482 2f60 Manual compaction at level-1 from '!adventures!8pdmWVIKqlpLEhZg' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)

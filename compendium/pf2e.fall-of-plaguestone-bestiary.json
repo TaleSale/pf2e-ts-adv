@@ -1,741 +1,853 @@
 {
-	"label": "Падение Чумного Камня",
-	"mapping": {
-		"description": "system.details.publicNotes",
-		"img": "img",
-		"tokenName": "prototypeToken.name",
-		"tokenImg": "prototypeToken.texture.src",
-		"tokenvision": "prototypeToken.vision",
-		"tokendisplayBars": "prototypeToken.displayBars",
-		"tokendisplayName": "prototypeToken.displayName",
-		"randomImg": "prototypeToken.randomImg",
-		"hstealth": "system.attributes.stealth.details",
-		"hdisable": "system.details.disable",
-		"hdescription": "system.details.description",
-		"hreset": "system.details.reset",
-		"hroutine": "system.details.routine",
-		"prependAdjective": "prototypeToken.prependAdjective",
-		"appendNumber": "prototypeToken.appendNumber",
-		"actorLink": "prototypeToken.actorLink"
-		},
-	"variants": [
-		{
-			"id": "Imprecise",
-			"name": "Неточный"
-		}
-	],
-	"entries": {
-		"Alchemical Drudge": {
-			"name": "Алхимический Слуга",
-			"tokenName": "Алхимический Слуга",
-			"UUID": "yFfT9yPbUzldlhxN",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"xiU6BoUEXG3kg8X3": {
-					"name": "Эмпатическая Связь",
-					"description": "<p>Алхимический Слуга не может говорить, но обладает телепатической связью с создателем. Он может делиться с создателем основными эмоциями, такими как ужас, счастье или гнев. Если слуга уничтожен, создатель автоматически узнаёт об этом.</p><p>Дистанция связи - 1 500ФТ</p>"
-				},
-				"ee8576IBzNlZf0VH": {
-					"name": "Алхимическая Рвота",
-					"description": "<p>Алхимический Слуга может изрыгнуть смесь алхимических реагентов, которая заполнит поверхность в одной клетке рядом с ним. При этом существа, находящиеся там, получают @Damage[2d6[acid]] (@Check[type:reflex|dc:17|basic:true])</p><p>Каждое существо, оканчивающее свой ход в клетке с рвотой, получает @Damage[2d6[acid]]. Рвота существует 1 минуту, после чего становится безвредной</p>"
-				},
-				"lXxapm5M7WrzteiN": {
-					"name": "Алхимический Удар",
-					"description": "<p>В Алхимического Слугу встроен специальный резервуар, в который можно загрузить одну алхимическую бомбу, наносящую урон кислотой, огнём, холодом или электричеством, что позволяет слуге усилить атаки. Каждый успешный Удар кулаком дополнительно наносит 1d6 урона, тип которого соответствует загруженной бомбе. Каждой бомбы хватает на 10 успешных Ударов.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.yrenENpzVgBKsnNi]{Effect: Alchemical Strike}</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Bee Swarm": {
-			"name": "Рой Пчёл",
-			"tokenName": "Рой Пчёл",
-			"UUID": "DusthLKqQ6E96uKL",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"iiDAJrnwPIwjETpY": {
-					"name": "Жалы Роя",
-					"description": "<p>Каждый враг в пространстве Роя Пчёл получают @Damage[1d4[piercing]] с @Check[type:reflex|dc:16|basic:true]. Когда существо впервые за раунд проваливает спасбросок и получает Колющ.Урон, оно подвергается действию Пчелиных Укусов.</p><p>Когда Рой Пчёл совершает это действие он получает @Damage[1[piercing]]</p>"
-				},
-				"c7Nqataf1AM755gt": {
-					"name": "Пчелиные Укусы",
-					"description": "<p>Существо совершает @Check[type:fortitude|dc:16|traits:damaging-effect]. При провале существо получает @Damage[1d4[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} на 1 минуту</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Blood Ooze": {
-			"name": "Кровавая Слизь",
-			"tokenName": "Кровавая Слизь",
-			"UUID": "b2PXIdbqdzlkGkeX",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<section class=\"А\"><p>`Обычный` `Нейтрал` `Большой` `Слизь` `Неразумный`</p><p>Эта слизь, будто целиком сотканная из крови, выглядит как пузырь, готовый вот-вот взорваться. На его гладкой алой поверхности выделяются лишь кровяные сгустки.</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Blood_Ooze.webp\"></figure><p>@UUID[Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.b2PXIdbqdzlkGkeX]{Кровавая Слизь} - результат самых ужасных алхимических ритуалов - жаждет лишь одного: радости, поглощая кровь живых существ. Слизь прячется в телах жертв, вырываясь лишь тогда, чтобы атаковать следующего потенциального носителя. Оставленное ею тело становится лишь пустой оболочкой.</p><p>Процесс создания кровавой слизи включает в себя осушение как минимум четырех существ `среднего` размера и последующее извлечение всей их крови, смешанной с смертоносными антикоагулянтами в пятое существо. Пока слизь формируется, ее носитель медленно умирает. Процесс длится от двух до шести часов. Кровавая Слизь неверна своему создателю, но некоторые алхимики замечали, что свежесозданная слизь будто бы не желает вредить сородичам своего носителя.</p><p>Существующая Кровавая слизь может размножаться делением пополам, хотя об этом мало кто знает. Слищь разделяется лишь в тех случаях, когда она разрослась настолько, что при делении получаются две слизи `большого` размера.</p><section class=\"БлокНавиг\"><header class=\"ШапкаНавиг\"><h2 class=\"Загол\">Разновидности</h2></header><article class=\"ТекстБлока\"><p>Иногда Кровавую Слизь создают из существ с разными типами крови, из-за чего порой сила и способности жертв передаются самой слизи. Таким образом, слизь из крови дракона часто получает сопротивление в зависимости от вида дракона (например, сопротивление 5 Огнен.Урон для слизи из крови красного дракона). Слизь из крови троллей обретает ограниченную регенерацию. Слизь из крови бестий может обрести жестокий и злобный разум. Такая слизь может даже обмануть менее умных существ, чтобы они приняли ее за божество или пойти на любые другие уловки, чтобы обеспечить себе постоянный источник свежей крови.</p></article></section></section>",
-			"items": {
-				"ZF9meCOzk6LPuLoK": {
-					"name": "Наполнение тела",
-					"description": "<p>Кровавая Слизь может затечь в раны трупа, заменяя собой оставшуюся в нём кровь. Она может вырваться из трупа в качестве свободного действия.</p>"
-				},
-				"SFYGEt1kIUwWpB3A": {
-					"name": "Сгусток Крови",
-					"description": "<p>Триггер: Кровавая Слизь получает Рубящ.Урон или Колющ.Урон от атаки</p><hr><p>Кровавая Слизь тут же формирует сгусток крови в ране, что снижает полученный урон на 5 (вплоть до 0)</p>"
-				},
-				"ir0EYaT4v6yUUAnh": {
-					"name": "Растёкшаяся Кровь",
-					"description": "<p>Когда существо рядом с Кровавой Слизью получает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}, слизь восстанавливает ОЗ в кол-ве, равному этому урону</p>"
-				},
-				"63gZ6gnBQpFdDSNz": {
-					"name": "Поглощение Жизни",
-					"description": "<p>Кровавая Слизь алчет вобрать жизнь из существ - разорвав плоть, их кровь выплескивается наружу и слизь жадно поглощает её.&nbsp;Каждое живое существо в @Template[type:emanation|distance:15] получает @Damage[3d6[slashing]]</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:21|basic:true]</p><p>Кровавая Слизь восстанавливает ОЗ равное половине максимального урона, нанесённого одной из целей</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Bloodlash Bush": {
-			"name": "Кровохлёст",
-			"tokenName": "Кровохлёст",
-			"UUID": "C7Wb70xpG2PvTslg",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"Lg8lgJjsoVFNbIn9": {
-					"name": "Лиана"
-				},
-				"NpPubKpYdINZXyln": {
-					"name": "Поглощение Крови",
-					"description": "<p>Отростки Кровохлёста тянутся к жертве в пределах 20ФТ, которая получает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}. Цель немедленно получает урон от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Кровотеч.} (@Check[type:reflex|dc:17|basic:true])</p><p>Кровохлёст восстанавливает ОЗ в количестве, равном удвоенному нанесённому урону</p>"
-				},
-				"Q7mhjwk9bupmhykG": {
-					"name": "Удар во Вращение",
-					"description": "<p>Кровохлёст резко вращается, совершая @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Лианой по всем в зоне досягаемости. Он совершает одну проверку атаки и сравнивает результат с КБ каждого существа в зоне досягаемости, а затем совершает один бросок урона и наносит этот урон всем, по кому попал.</p>"
-				},
-				"lkgQ9hctSS8DlLr1": {
-					"name": "Сочащиеся Раны",
-					"description": "<p>Лианы Кровохлёста разрывают плоть, оставляя ужасные кровоточащие раны. Существо, получившее Удар лианой, также получает @Damage[1[bleed]] (@Damage[2[bleed]] при крит.попадание)</p><p>В отличие от иного @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}, этот урон суммируется вплоть до @Damage[5[bleed]].</p><p>Это кровотечение можно прекратить по обычным правилам.</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Caustic Wolf": {
-			"name": "Кислотный Волк",
-			"tokenName": "Кислотный Волк",
-			"UUID": "PFBclNHc78MqYjBB",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"4qqgHXd5u2hOYOxU": {
-					"name": "Вой",
-					"description": "<p>Волк издаёт ужасающий вой, совершая @UUID[Compendium.pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать} @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{*} всех врагов в @Template[type:emanation|distance:30]{30ФТ}. Волки в пределах @Template[type:emanation|distance:100]{100ФТ} могут потратить реакцию, чтобы присоединиться к Вою, и тогда этот эффект будет исходить также и от них, влияя на врагов в @Template[type:emanation|distance:30]{30ФТ} от этих волков и совершая проверку Запугивания с модом Кислотного Волка со штрафом обстоятельства -4.</p><p>Враги не могут попасть под эффект одного Воя дважды, даже если они рядом с двумя и более волками. Все существа, ставшие целью эффекта, получают временный иммунитет к Вою на 24 часа.</p>"
-				},
-				"ibMVoNbGTJRctcSf": {
-					"name": "Кислотное Дыхание",
-					"description": "<p>Волк выплёвывает струю ярко-зелёной кислоты. Все существа в @Template[type:line|distance:30] получают @Damage[3d6[acid]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:16|basic:true]</p><p><strong>Перезарядка</strong>: 1 минута</p><section class=\"secret\"><p>The caustic wolf cannot use this ability again for 1 minute.</p></section>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Drunken Farmer": {
-			"name": "Пьяный Фермер",
-			"tokenName": "Фермер",
-			"UUID": "BgBTntoz1qQ3h1X5",
-			"appendNumber": true,
-			"tokenvision": true,
-			"randomImg": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"q93sqksg2eIzBk9b": {
-					"name": "Стул"
-				},
-				"yovNj4k8Vk5iGwAZ": {
-					"name": "Кружка"
-				},
-				"o3dSxVbe4AA2OziW": {
-					"name": "Прочная Рабочая Одежда"
-				}
-			}
-		},
-		"Fiery Leopard": {
-			"name": "Огненный Леопард",
-			"tokenName": "Огненный Леопард",
-			"UUID": "9dUSCjehW90dZalE",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"GuqpbUegPq8TqK1N": {
-					"name": "Пламенная Шкура",
-					"description": "<p>Существа, которые начинают свой ход в Захвате Леопарда, получают @Damage[1d4[fire]]</p><p>Тот, кто пытается взять огненного леопарда в Захват, так же получает @Damage[1d4[fire]] за каждую попытку</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Giant Lightning Serpent": {
-			"name": "Гигантский Электрический Змей",
-			"tokenName": "Гигант.Электр.Змей",
-			"UUID": "1Nr9cgWHMn8KtiXe",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"9EZ1of6AEqFfdcOl": {
-					"name": "Клыки"
-				},
-				"zCmr3mFXGNUKM3R8": {
-					"name": "Свернуться",
-					"description": "<p>Гадюка совершает это действие, чтобы свернуться, увеличивая досягаемость своей атаки Клыками с 5 до 10ФТ. После того, как она @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударит} своими клыками, она перестает быть свернутой.</p>"
-				},
-				"YFTdFcS9k9nel5jX": {
-					"name": "Возможность Наброситься",
-					"description": "<p>Как @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Возможность для атаки}, но змея может использовать эту реакцию только если @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.KsWAIXTTh3mfNWOY.Item.1fzwu2J1jldVzBPc]{Свернута}</p>"
-				},
-				"lsjcV8DgDyoEiHoK": {
-					"name": "Электрическая Трещётка",
-					"description": "<p>Щадюка трясёт странным металлическим хвостом и выпускает @Template[type:line|distance:60], которая наносит @Damage[2d10[electricity]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:17|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Lightning Rattle]]{1d4 Раунда}</p><section class=\"secret\"><p>Once the giant lightning serpent uses this ability, it must wait [[/br 1d4 #Recharge Lightning Rattle]]{1d4 rounds} before doing so again.</p></section>"
-				}
-			}
-		},
-		"Graytusk": {
-			"name": "Сероклык",
-			"tokenName": "Сероклык",
-			"UUID": "mTVzzdrinwHbsvqu",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"9jSIXhTxiUMqX2pP": {
-					"name": "Клепаный Кожаный Доспех +1"
-				},
-				"CoerEJBile8XaZEr": {
-					"name": "Короткий меч"
-				},
-				"o5S6ArjIn6h6ZhYc": {
-					"name": "Композитный длинный лук"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Hallod": {
-			"name": "Халлод",
-			"tokenName": "Халлод",
-			"UUID": "H4yGpC6VuQpszlUl",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"BxmH1fhCQ3U0b1Nz": {
-					"name": "Кукри"
-				},
-				"bdzjSnMLtILLG0C0": {
-					"name": "Тяжелый арбалет"
-				},
-				"pwteaSOJloInqNGa": {
-					"name": "Внезапная Атака (1d6)"
-				},
-				"xMemEoOgOymquil3": {
-					"name": "Грязный Приём",
-					"description": "<p>Триггер: Халлод ноносит крит.удар атакой в билжнем бою</p><hr><p>Халлод может совершить проверку Атлетики для @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{Толкнуть} @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{*} или @UUID[Compendium.pf2e.action-macros.Macro.gRj7xUfcpUZQLrOC]{Опрокинуть} @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{*} на цель этой атаки. Для этой проверки используется тот же ШМА, что и к спровоцировавшей атаки, но проверка не увеличивает ШМА.</p>"
-				},
-				"9oxmm9BZ3rs5s1o5": {
-					"name": "Раз-Два",
-					"description": "<p>Халлод совершает дважды @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}, по одному каждой рукой. При попадание первой атакой (обычно Кукри) её цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} для второй атаки (обычно Кулак)</p><p>ШМА применяется как обычно</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Icy Rat": {
-			"name": "Обледенелая Крыса",
-			"tokenName": "Обледенелая Крыса",
-			"UUID": "EhtODTbFdElXSyXX",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"gUXTztO5KPImLwMr": {
-					"name": "Ледяная Смерть",
-					"description": "<p>Когда крыса убита, её тело взрывается нанося @Damage[2d4[cold]] все существас рядом с ней</p><p style=\"text-align: center;\">@Check[type:reflex|dc:14|basic:true]</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Lord Nar": {
-			"name": "Лорд Нар",
-			"tokenName": "Лорд Нар",
-			"UUID": "Hs3cTNtVSUpDl0cg",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"09b0IlFnSJXdgoC2": {
-					"name": "Двуручная Дубина +1"
-				},
-				"118sQ4tVvJdGHz7X": {
-					"name": "Бронзовый Ключ"
-				},
-				"AwlVudq6AfPfI2GF": {
-					"name": "Топорик"
-				},
-				"3QorQFU1nCUU8HJK": {
-					"name": "Ярость",
-					"description": "<p>Лорд Нар впадает в ярость, длящуюся 1 минуту. Он получает [[/r (8)]]{8 Врем.ОЗ}, штраф -1 к КБ, а также дополнительно 4 урона атаками.</p><p>Лорд Нар не может совершать действия с признаком `концентрация`, если у них нет признака `ярость`. Как только ярость Нара завершается, он не может впасть в ярость снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Эффект: Ярость}</p>"
-				},
-				"Jx2oL3c8t1JB3fOK": {
-					"name": "Не Сбежать",
-					"description": "<p><strong>Триггер:</strong> Враг в пределах досягаемости пытается уйти от вас</p><hr><p>Вы идете в ногу с отступающим противником. Сделайте @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} вплоть до вашей Скорости, следуя за врагом и держа его в досягаемости во время его движения, пока он не прекратит передвижение или пока вы не пройдете свою полную Скорость.</p>"
-				}
-			}
-		},
-		"Mangy Wolf": {
-			"name": "Облезлый Волк",
-			"tokenName": "Облезлый Волк",
-			"UUID": "kZI5UjgXcJjrOIR8",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"NImIftzNflSehe9o": {
-					"name": "Блохи",
-					"description": "<p>Укушенный облезлым волком должен совершить @Check[type:fortitude|dc:14] и при провал получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} на 1 минуту.</p><p>Он может совершить @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодейст.}, чтобы собрать блох и избиваться от тощноты (без рвоты).</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Mutant Wolf": {
-			"name": "Мутировавший Волк",
-			"tokenName": "Мутировавший Волк",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"AAfX9iCUSEremClg": {
-					"name": "Рваная Рана",
-					"description": "<p>Триггер: Предыдущем действием Волк нанёс существу урон Челюстями</p><hr><p>Волк разрывает плоть этого существа, нанося ему @Damage[(1d6+2)[slashing],1[persistent,acid]]</p>"
-				},
-				"LRUdI4Dxl52iFGfD": {
-					"name": "Брызги Крови",
-					"description": "<p>Триггер: Существо рядом с Волком наносит ему критический удар</p><hr><p>Лопается один из волдырей, и его содержимок окатывает спровоцировавшее существо. Это существо получает&nbsp;@Damage[3d6[acid]] (@Check[type:reflex|dc:19|basic:true]). Это происходит, даже если атака убила волка</p>"
-				},
-				"DjVPq3PeaxxihodC": {
-					"name": "Чувство Движения (Точное, 30)",
-					"description": "<p>Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Orc Alchemist": {
-			"name": "Орк Алхимик",
-			"tokenName": "Алхимик",
-			"UUID": "X0AJV2Zfj2d6rab5",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"uIhA0oi2q9kLAXL6": {
-					"name": "Орочий кинжал-кастет"
-				},
-				"EMOqcPy4SH9Nlfjf": {
-					"name": "Кислотная склянка"
-				},
-				"fViR8itFaogs7nbf": {
-					"name": "Алхимический огонь"
-				},
-				"hPj1DlCJj8213dpU": {
-					"name": "Молния в бутылке"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Stone Horse": {
-			"name": "Каменная Лошадь",
-			"tokenName": "Каменная Лошадь",
-			"UUID": "D2dxazT15W9Une1cD2dxazT15W9Une1c",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"3Ope7LQxbCtQSi9I": {
-					"name": "Сокрушительный Копыта",
-					"description": "<p>Копыта Каменной Лошади прочны, словно железо; если она наносит критический удар копытом, то такеже повреждает броню цели. Атака наносит броне столько же урона, сколько и цели (Твёрдость применяется как обычно). Если цель использует Блок Щитом против критического удара копытом, считайте, что Твердость щита на 5 ниже (минимум 0)</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"The Amalgam": {
-			"name": "Амальгама",
-			"tokenName": "Амальгама",
-			"UUID": "lPHwAyFAeAhHLNnU",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"fr8P60Chpggm4lht": {
-					"name": "Многоликий Разум",
-					"description": "<p>В разуме Амальгамы объединены сознания разных существ, и не все они одинаково восприимчивы к `ментальной` магии. Её результат испытания против `ментальных` эффектов всегда считается на одну ступень лучше.</p>"
-				},
-				"T9q5kmziWsJFwQ0c": {
-					"name": "Много Конечностей",
-					"description": "<p>Амальгама может совершить до 4 ударов, но не более одного удара каждого типа и не более двух ударов по каждой цели. Амальгама получает штраф -2 к каждой атаке, но штраф множественных атак не увеличивается, пока она не совершит все атаки.</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"The Behemoth": {
-			"name": "Чудище",
-			"tokenName": "Чудище",
-			"UUID": "IU4Gx9vHKMT2KYDq",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"hFW1o4do0v4GBG9f": {
-					"name": "Эмпатическая Связь",
-					"description": "<p>Чудище не может говорить, но обладает телепатической связью с создателем. Он может делиться с создателем основными эмоциями, такими как ужас, счастье или гнев. Если Чудище уничтожен, создатель автоматически узнаёт об этом.</p><p>Дистанция связи - 1 500ФТ</p>"
-				},
-				"NRhJd4TWmu6ZArpW": {
-					"name": "Тяжёлый Удар",
-					"description": "<p>Чудище совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в ближнем бою. При попадании оно может оттолкнуть существо на 10ФТ (20ФТ при крит.ударе). Так же цель совершает @Check[type:fortitude|dc:19] и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} в случае провал</p>"
-				},
-				"A1XwGa6RjEXJGJQJ": {
-					"name": "Топот",
-					"description": "<p>Чудище тяжело топает, заставляя всех существ в @Template[type:emanation|distance:10] получивших провал в @Check[type:reflex|dc:19] упасть @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"The Sculptor": {
-			"name": "Скульптор",
-			"tokenName": "Скульптор",
-			"UUID": "",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"AJWjRyrAAIHiYhoC": {
-					"name": "Орочий кинжал-кастет"
-				},
-				"ybVy82D41OJgh19C": {
-					"name": "Кислотная склянка"
-				},
-				"TAU5ivcNMiNlO22I": {
-					"name": "Алхимический огонь"
-				},
-				"XaUIXvZNj4MAeDYh": {
-					"name": "Молния в бутылке"
-				},
-				"qy0FT7Uc1pkIw9VL": {
-					"name": "Морозная склянка"
-				},
-				"DBlqCyXmWFAIQkEK": {
-					"name": "Быстрая Алхимия",
-					"description": "<p>Скульптор знает Эликсир Жизни [Малый], Морозная Склянка [Средняя], Алхимический Огонь [Средний] и Молния в бутылке [Средняя]. Предметы имеют признак `насыщенный`</p>"
-				},
-				"Qng0P7o12DtXwhza": {
-					"name": "Морозная склянка [Средняя] (Насыщенный)",
-					"description": "<p>Жидкие реагенты внутри этого бутылька быстро поглощают тепло при контакте с воздухом. Морозная склянка наносит 2d6 урона холодом и 2 урона холодом от брызг. При попадании, цель получает штраф состояния -10 футов к своим Скоростям до конца своего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p><p>@UUID[Compendium.pf2e.equipment-effects.dv0IKm5syOdP759w]{Эффект: Морозная склянка (Средняя)}</p>"
-				},
-				"nWZObmCdoI2whZKc": {
-					"name": "Алхимический огонь [Средний] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 2d8 урона огнем, 2 продолжительного урона огнем и 2 урона огненными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>"
-				},
-				"ly7mQpnwRdZLf1Hd": {
-					"name": "Эликсир жизни [Малый] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><p>Эликсиры жизни ускоряют естественный процесс исцеления и иммунной системы у живых существ. Выпив этот эликсир, вы восстанавливаете [[/r 3d6+6]] ОЗ и получаете бонус предмета +1 к спасброскам против болезней и ядов на 10 минут.</p><p>@UUID[Compendium.pf2e.equipment-effects.EpB7yJPEuG6ez4z3]{Эффект: Эликсир жизни (Малый)}</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Vilree": {
-			"name": "Вилри",
-			"tokenName": "Вилри",
-			"UUID": "Er9kW7JtUX4zf15Q",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"vACP18XqpwSKIwpu": {
-					"name": "Кинжал"
-				},
-				"tJAcVBe69z7PlOrg": {
-					"name": "Алхим.Арбалет"
-				},
-				"Tk6rmGNBuVrHBJa3": {
-					"name": "Кислотная склянка"
-				},
-				"grCtKdzXEThkkEnh": {
-					"name": "Алхимический огонь"
-				},
-				"GUPfjrn8zA2wRtby": {
-					"name": "Молния в бутылке"
-				},
-				"mS0cgJYX09iGU6Dg": {
-					"name": "Бомба-липучка"
-				},
-				"UNvS4DCLAYyLk9BV": {
-					"name": "Дальний бросок",
-					"description": "<p>Шаг дистанции бомб Вилри равен 30ФТ вместо обычных 20ФТ</p>"
-				},
-				"CfawbSTZsSlWiCtA": {
-					"name": "Алхимический Арбалет",
-					"description": "<p>Вилри может стрелять болтами с алхимическими субстанциями.</p><p>В качестве действия она может установить алхимическую бомбу в арбалет, после чего его следующие 3 атаки дополнительно наносят 1d6 урона, соответствующего бомбе. Эти атаки не наносят урон брызгами.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.ucAwSIZsGrpBLg6G]{Effect: Alchemical Crossbow}</p>"
-				},
-				"s4Mw2UHu6wej4awv": {
-					"name": "Быстрая Алхимия",
-					"description": "<p>Вилри создаёт любой предмет, формула которого есть в её @UUID[Item.YvKwwCa201ahx2AP]{Книга формул Вилри}. Предмет обладает признаком `насыщенный`</p>"
-				},
-				"XrXyd2Jutclay3SY": {
-					"name": "Кислотная склянка [Средняя] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Этот бутылек наполнен едкой кислотой, наносящей 1 кислотного урона, 2d6 продолжительного урона кислотой и 2 урона кислотными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>"
-				},
-				"8rEGphd48JD2zALZ": {
-					"name": "Алхимический огонь [Средний] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 2d8 урона огнем, 2 продолжительного урона огнем и 2 урона огненными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>"
-				},
-				"TlTLpPCOdUagvCNY": {
-					"name": "Молния в бутылке [Средняя] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Молния в бутылке наполнена летучими реагентами, которые создают взрыв электричества, когда реагируют с воздухом. Она наносит 2d6 урона электричеством и 2 урона электрическими брызгами. При попадании, цель становится @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p>"
-				},
-				"TUXQwzwuB2QRWdap": {
-					"name": "Бомба-липучка [Малая] (Насыщенный)",
-					"description": "<p>Бомба-липучка наполнена клейкой субстанцией. Когда вы попадаете липучкой по существу, оно получает штраф состояния -10 футов к своим Скоростям на 1 минуту. КС для действия <em>\"Вырваться\"</em> - 17. @UUID[Compendium.pf2e.equipment-effects.fYZIanbYu0Vc4JEL]{Эффект: Бомба-липучка (Малая)}</p><p>При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} 1 раунд. Бомба-липучка не эффективна для использования против существ в воде.</p><p>Цель может закончить любые эффекты использовав действие @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} или потратив в общей сложности 3 действия @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы аккуратно убрать клейкую субстанцию. Эти действия <em>\"Взаимодействовать\"</em> не должны быть последовательными, а другие существа могут так же помочь потратив действия.</p>"
-				},
-				"u1zA8fSPZ0RdHY47": {
-					"name": "Поясная Сумка"
-				},
-				"SiM6qBzt7lVtOzta": {
-					"name": "Энергетический мутаген (Малый) (Кислота)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><hr><p>При создании этот мутаген настраивается по вашему выбору на один из четырех типов энергии: кислота, холод, электричество или огонь. При употреблении мутаген наполняет ваше тело энергией, которая выплескивается из вас всякий раз, когда вы атакуете. На более высоких уровнях это даже может дать вам возможность высвобождать энергию контролируемыми всплесками.</p><p><strong>Преимущество:</strong> Вы получаете сопротивление 5 к настроенному типу энергии. Всякий раз, когда вы попадаете оружием ближнего боя, добавляйте 1 урона настроенного типа энергии.</p><p><strong>Недостаток:</strong> Вы получаете слабость 5 к трем другим типам энергии.</p><p><strong>Продолжительность:</strong> 1 минута.</p>"
-				},
-				"4W7aXiF7zzSQoKTr": {
-					"name": "Эликсир жизни [Малый] (Насыщенный)",
-					"description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><p>Эликсиры жизни ускоряют естественный процесс исцеления и иммунной системы у живых существ. Выпив этот эликсир, вы восстанавливаете [[/r 3d6+6]] ОЗ и получаете бонус предмета +1 к спасброскам против болезней и ядов на 10 минут.</p><p>@UUID[Compendium.pf2e.equipment-effects.EpB7yJPEuG6ez4z3]{Эффект: Эликсир жизни (Малый)}</p>"
-				}
-			}
-		},
-		"Vine Lasher": {
-			"name": "Плёточник",
-			"tokenName": "Плёточник",
-			"UUID": "wBCpq9pX4NZFXE0T",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"JWZ3MiXhWwFprWgn": {
-					"name": "Лиана"
-				},
-				"tgEiQ20X2hPkiyPM": {
-					"name": "Лёгкая Хватка",
-					"description": "<p>Существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} Плёточником не становится @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен}, но его пространство и все клетки рядом с ним считаются для него `сложной местностью`</p><p>Если существо совершает `движение`, то Плёточник перемещается вместе&nbsp; с ним, всегда удерживая сущетство @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченным} в пределах 10ФТ от себя. Если два и более Плёточника возьмут в захват одно и то же существо, то его пространство и все клетки рядом с ним для него считаются `особо сложной местностью`</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Spear Launcher": {
-			"name": "Копьемёт",
-			"tokenName": "Копьемёт",
-			"img": "systems/pf2e/icons/equipment/weapons/spear.webp",
-			"tokenImg": "systems/pf2e/icons/equipment/weapons/spear.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>Обучен</p>",
-			"hdescription": "<p>В куче хлама спрятан старый тяжелый арбалет, в который заряжено деревянное копьё. Спусковой механизм подсоединён к верёвке, удерживающей дверь</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:18|traits:action:disable-a-device] (Обучен), чтобы осторожно развязать верёвку и открыть дверь без срабатывания ловушки</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"p27dLxTbXpewe8ZR": {
-					"name": "Копье"
-				},
-				"dKlUXGzoOpojAKGv": {
-					"name": "Копьемёт",
-					"description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>"
-				},
-				"YapaAOg2pzlW9uPP": {
-					"name": "Копьемёт",
-					"description": "<p>Триггер: Верёвка обрезана или иным образом отсодинена от двери.</p><hr><p>Ловушка совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} копьём по существу, которое взаимодействует с верёвкой.</p>"
-				},
-				"ZizBeGklUEvX03AL": {
-					"name": "Копьё"
-				}
-			}
-		},
-		"Falling Debris": {
-			"name": "Падающий Потолок",
-			"tokenName": "Падающий Потолок",
-			"img": "systems/pf2e/icons/spells/phantom-prison.webp",
-			"tokenImg": "systems/pf2e/icons/spells/phantom-prison.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>Обучен</p>",
-			"hdescription": "<p>Доска в полу, чувствительная к нажатию, соединена к балкой, которая удерживает обломки от обрушения</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:15|name:Disable Trap|traits:mechanical,trap,hazard] (Обучен) применённое к доске до падения обломков</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"HY2Pfqwkwhn3BmVF": {
-					"name": "Падающий Потолок",
-					"description": "<p>Триггер: Давление на доску в полу</p><hr><p>Потолок лаза рушится в той клетке, где лаз поворачивает, а также в двух соседних клетках. Все, кто находится в этих клетках, получают @Damage[3d6[bludgeoning]] и могут пройти @Check[type:reflex|dc:14|traits:damaging-effect]. Это простой спасбрсок для существа в центральной клетке, а существа в двух соседних клетках не получают урона при успехе или крит.успехе спасброска, но получают урон при провал или двойной урон при крит.провал. ПИ, получившие урон от обломков, получают @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe] - их прижимает к полу сокрушительным весом.</p><hr><p>Можно попробовать расчистить клетку с обломками с помощью @Check[type:athletics|dc:17|name:Clear Debris]</p><p>Крит.Успех: Клетка расчищена за 1 минуту</p><p>Успех: Клетка расчищена за 5 минут</p><p>Провал: Клетка расчищена за 10 минут</p><p>Крит.Провал: Потолок продолжает рушиться, нанося @Damage[2d6[bludgeoning]] тому ПИ, который пытается расчистить клетку, а также герою с неподвижностью в этой клетке. Эти длится 1 минуту, причем клетка не расчищена</p>"
-				}
-			}
-		},
-		"Ice Fall Trap": {
-			"name": "Ледопад",
-			"tokenName": "Ледопад",
-			"img": "systems/pf2e/icons/spells/empower-ley-line.webp",
-			"tokenImg": "systems/pf2e/icons/spells/empower-ley-line.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>Обучен</p>",
-			"hdescription": "<p>Если дверь открывают без ключа, из скрытых отверстий в потолке выплёскивается ледяная алхимическая смесь, покрывающая всю комнату</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:20|name:Disable Ice Fall|traits:mechanical,trap] (Обучен) для открывания двери без срабатывания ловушки</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"ctDUZ8gUdfvuUQoM": {
-					"name": "Ледопад",
-					"description": "<p>Триггер: Дверь атакуют или открывает без ключа</p><hr><p>Ледяная алхимическая смесь выливается в комнату и наносит @Damage[4d6[cold]] всем в зоне</p><p style=\"text-align: center;\">@Check[type:reflex|dc:20|basic:true]</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		}
-	}
+    "label": "Падение Чумного Камня",
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.vision",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+    "variants": [
+        {
+            "id": "Imprecise",
+            "name": "Неточный"
+        }
+    ],
+    "entries": {
+        "Alchemical Drudge": {
+            "name": "Алхимический Слуга",
+            "tokenName": "Алхимический Слуга",
+            "UUID": "yFfT9yPbUzldlhxN",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Эмпатическая Связь",
+                    "description": "<p>Алхимический Слуга не может говорить, но обладает телепатической связью с создателем. Он может делиться с создателем основными эмоциями, такими как ужас, счастье или гнев. Если слуга уничтожен, создатель автоматически узнаёт об этом.</p><p>Дистанция связи - 1 500ФТ</p>",
+                    "id": "xiU6BoUEXG3kg8X3"
+                },
+                {
+                    "name": "Алхимическая Рвота",
+                    "description": "<p>Алхимический Слуга может изрыгнуть смесь алхимических реагентов, которая заполнит поверхность в одной клетке рядом с ним. При этом существа, находящиеся там, получают @Damage[2d6[acid]] (@Check[type:reflex|dc:17|basic:true])</p><p>Каждое существо, оканчивающее свой ход в клетке с рвотой, получает @Damage[2d6[acid]]. Рвота существует 1 минуту, после чего становится безвредной</p>",
+                    "id": "ee8576IBzNlZf0VH"
+                },
+                {
+                    "name": "Алхимический Удар",
+                    "description": "<p>В Алхимического Слугу встроен специальный резервуар, в который можно загрузить одну алхимическую бомбу, наносящую урон кислотой, огнём, холодом или электричеством, что позволяет слуге усилить атаки. Каждый успешный Удар кулаком дополнительно наносит 1d6 урона, тип которого соответствует загруженной бомбе. Каждой бомбы хватает на 10 успешных Ударов.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.yrenENpzVgBKsnNi]{Effect: Alchemical Strike}</p>",
+                    "id": "lXxapm5M7WrzteiN"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Bee Swarm": {
+            "name": "Рой Пчёл",
+            "tokenName": "Рой Пчёл",
+            "UUID": "DusthLKqQ6E96uKL",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Жалы Роя",
+                    "description": "<p>Каждый враг в пространстве Роя Пчёл получают @Damage[1d4[piercing]] с @Check[type:reflex|dc:16|basic:true]. Когда существо впервые за раунд проваливает спасбросок и получает Колющ.Урон, оно подвергается действию Пчелиных Укусов.</p><p>Когда Рой Пчёл совершает это действие он получает @Damage[1[piercing]]</p>",
+                    "id": "iiDAJrnwPIwjETpY"
+                },
+                {
+                    "name": "Пчелиные Укусы",
+                    "description": "<p>Существо совершает @Check[type:fortitude|dc:16|traits:damaging-effect]. При провале существо получает @Damage[1d4[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} на 1 минуту</p>",
+                    "id": "c7Nqataf1AM755gt"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Blood Ooze": {
+            "name": "Кровавая Слизь",
+            "tokenName": "Кровавая Слизь",
+            "UUID": "b2PXIdbqdzlkGkeX",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<section class=\"А\"><p>`Обычный` `Нейтрал` `Большой` `Слизь` `Неразумный`</p><p>Эта слизь, будто целиком сотканная из крови, выглядит как пузырь, готовый вот-вот взорваться. На его гладкой алой поверхности выделяются лишь кровяные сгустки.</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/art_token/fall-of-plaguestone-bestiary/Blood_Ooze.webp\"></figure><p>@UUID[Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.b2PXIdbqdzlkGkeX]{Кровавая Слизь} - результат самых ужасных алхимических ритуалов - жаждет лишь одного: радости, поглощая кровь живых существ. Слизь прячется в телах жертв, вырываясь лишь тогда, чтобы атаковать следующего потенциального носителя. Оставленное ею тело становится лишь пустой оболочкой.</p><p>Процесс создания кровавой слизи включает в себя осушение как минимум четырех существ `среднего` размера и последующее извлечение всей их крови, смешанной с смертоносными антикоагулянтами в пятое существо. Пока слизь формируется, ее носитель медленно умирает. Процесс длится от двух до шести часов. Кровавая Слизь неверна своему создателю, но некоторые алхимики замечали, что свежесозданная слизь будто бы не желает вредить сородичам своего носителя.</p><p>Существующая Кровавая слизь может размножаться делением пополам, хотя об этом мало кто знает. Слищь разделяется лишь в тех случаях, когда она разрослась настолько, что при делении получаются две слизи `большого` размера.</p><section class=\"БлокНавиг\"><header class=\"ШапкаНавиг\"><h2 class=\"Загол\">Разновидности</h2></header><article class=\"ТекстБлока\"><p>Иногда Кровавую Слизь создают из существ с разными типами крови, из-за чего порой сила и способности жертв передаются самой слизи. Таким образом, слизь из крови дракона часто получает сопротивление в зависимости от вида дракона (например, сопротивление 5 Огнен.Урон для слизи из крови красного дракона). Слизь из крови троллей обретает ограниченную регенерацию. Слизь из крови бестий может обрести жестокий и злобный разум. Такая слизь может даже обмануть менее умных существ, чтобы они приняли ее за божество или пойти на любые другие уловки, чтобы обеспечить себе постоянный источник свежей крови.</p></article></section></section>",
+            "items": [
+                {
+                    "name": "Наполнение тела",
+                    "description": "<p>Кровавая Слизь может затечь в раны трупа, заменяя собой оставшуюся в нём кровь. Она может вырваться из трупа в качестве свободного действия.</p>",
+                    "id": "ZF9meCOzk6LPuLoK"
+                },
+                {
+                    "name": "Сгусток Крови",
+                    "description": "<p>Триггер: Кровавая Слизь получает Рубящ.Урон или Колющ.Урон от атаки</p><hr><p>Кровавая Слизь тут же формирует сгусток крови в ране, что снижает полученный урон на 5 (вплоть до 0)</p>",
+                    "id": "SFYGEt1kIUwWpB3A"
+                },
+                {
+                    "name": "Растёкшаяся Кровь",
+                    "description": "<p>Когда существо рядом с Кровавой Слизью получает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}, слизь восстанавливает ОЗ в кол-ве, равному этому урону</p>",
+                    "id": "ir0EYaT4v6yUUAnh"
+                },
+                {
+                    "name": "Поглощение Жизни",
+                    "description": "<p>Кровавая Слизь алчет вобрать жизнь из существ - разорвав плоть, их кровь выплескивается наружу и слизь жадно поглощает её.&nbsp;Каждое живое существо в @Template[type:emanation|distance:15] получает @Damage[3d6[slashing]]</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:21|basic:true]</p><p>Кровавая Слизь восстанавливает ОЗ равное половине максимального урона, нанесённого одной из целей</p>",
+                    "id": "63gZ6gnBQpFdDSNz"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Bloodlash Bush": {
+            "name": "Кровохлёст",
+            "tokenName": "Кровохлёст",
+            "UUID": "C7Wb70xpG2PvTslg",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Лиана",
+                    "id": "Lg8lgJjsoVFNbIn9"
+                },
+                {
+                    "name": "Поглощение Крови",
+                    "description": "<p>Отростки Кровохлёста тянутся к жертве в пределах 20ФТ, которая получает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}. Цель немедленно получает урон от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Кровотеч.} (@Check[type:reflex|dc:17|basic:true])</p><p>Кровохлёст восстанавливает ОЗ в количестве, равном удвоенному нанесённому урону</p>",
+                    "id": "NpPubKpYdINZXyln"
+                },
+                {
+                    "name": "Удар во Вращение",
+                    "description": "<p>Кровохлёст резко вращается, совершая @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Лианой по всем в зоне досягаемости. Он совершает одну проверку атаки и сравнивает результат с КБ каждого существа в зоне досягаемости, а затем совершает один бросок урона и наносит этот урон всем, по кому попал.</p>",
+                    "id": "Q7mhjwk9bupmhykG"
+                },
+                {
+                    "name": "Сочащиеся Раны",
+                    "description": "<p>Лианы Кровохлёста разрывают плоть, оставляя ужасные кровоточащие раны. Существо, получившее Удар лианой, также получает @Damage[1[bleed]] (@Damage[2[bleed]] при крит.попадание)</p><p>В отличие от иного @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}, этот урон суммируется вплоть до @Damage[5[bleed]].</p><p>Это кровотечение можно прекратить по обычным правилам.</p>",
+                    "id": "lkgQ9hctSS8DlLr1"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Caustic Wolf": {
+            "name": "Кислотный Волк",
+            "tokenName": "Кислотный Волк",
+            "UUID": "PFBclNHc78MqYjBB",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Вой",
+                    "description": "<p>Волк издаёт ужасающий вой, совершая @UUID[Compendium.pf2e.action-macros.nEwqNNWX6scLt4sc]{Деморализовать} @UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{*} всех врагов в @Template[type:emanation|distance:30]{30ФТ}. Волки в пределах @Template[type:emanation|distance:100]{100ФТ} могут потратить реакцию, чтобы присоединиться к Вою, и тогда этот эффект будет исходить также и от них, влияя на врагов в @Template[type:emanation|distance:30]{30ФТ} от этих волков и совершая проверку Запугивания с модом Кислотного Волка со штрафом обстоятельства -4.</p><p>Враги не могут попасть под эффект одного Воя дважды, даже если они рядом с двумя и более волками. Все существа, ставшие целью эффекта, получают временный иммунитет к Вою на 24 часа.</p>",
+                    "id": "4qqgHXd5u2hOYOxU"
+                },
+                {
+                    "name": "Кислотное Дыхание",
+                    "description": "<p>Волк выплёвывает струю ярко-зелёной кислоты. Все существа в @Template[type:line|distance:30] получают @Damage[3d6[acid]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:16|basic:true]</p><p><strong>Перезарядка</strong>: 1 минута</p><section class=\"secret\"><p>The caustic wolf cannot use this ability again for 1 minute.</p></section>",
+                    "id": "ibMVoNbGTJRctcSf"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Drunken Farmer": {
+            "name": "Пьяный Фермер",
+            "tokenName": "Фермер",
+            "UUID": "BgBTntoz1qQ3h1X5",
+            "appendNumber": true,
+            "tokenvision": true,
+            "randomImg": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Стул",
+                    "id": "q93sqksg2eIzBk9b"
+                },
+                {
+                    "name": "Кружка",
+                    "id": "yovNj4k8Vk5iGwAZ"
+                },
+                {
+                    "name": "Прочная Рабочая Одежда",
+                    "id": "o3dSxVbe4AA2OziW"
+                }
+            ]
+        },
+        "Fiery Leopard": {
+            "name": "Огненный Леопард",
+            "tokenName": "Огненный Леопард",
+            "UUID": "9dUSCjehW90dZalE",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Пламенная Шкура",
+                    "description": "<p>Существа, которые начинают свой ход в Захвате Леопарда, получают @Damage[1d4[fire]]</p><p>Тот, кто пытается взять огненного леопарда в Захват, так же получает @Damage[1d4[fire]] за каждую попытку</p>",
+                    "id": "GuqpbUegPq8TqK1N"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Giant Lightning Serpent": {
+            "name": "Гигантский Электрический Змей",
+            "tokenName": "Гигант.Электр.Змей",
+            "UUID": "1Nr9cgWHMn8KtiXe",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Клыки",
+                    "id": "9EZ1of6AEqFfdcOl"
+                },
+                {
+                    "name": "Свернуться",
+                    "description": "<p>Гадюка совершает это действие, чтобы свернуться, увеличивая досягаемость своей атаки Клыками с 5 до 10ФТ. После того, как она @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударит} своими клыками, она перестает быть свернутой.</p>",
+                    "id": "zCmr3mFXGNUKM3R8"
+                },
+                {
+                    "name": "Возможность Наброситься",
+                    "description": "<p>Как @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Возможность для атаки}, но змея может использовать эту реакцию только если @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.KsWAIXTTh3mfNWOY.Item.1fzwu2J1jldVzBPc]{Свернута}</p>",
+                    "id": "YFTdFcS9k9nel5jX"
+                },
+                {
+                    "name": "Электрическая Трещётка",
+                    "description": "<p>Щадюка трясёт странным металлическим хвостом и выпускает @Template[type:line|distance:60], которая наносит @Damage[2d10[electricity]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:17|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Lightning Rattle]]{1d4 Раунда}</p><section class=\"secret\"><p>Once the giant lightning serpent uses this ability, it must wait [[/br 1d4 #Recharge Lightning Rattle]]{1d4 rounds} before doing so again.</p></section>",
+                    "id": "lsjcV8DgDyoEiHoK"
+                }
+            ]
+        },
+        "Graytusk": {
+            "name": "Сероклык",
+            "tokenName": "Сероклык",
+            "UUID": "mTVzzdrinwHbsvqu",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Клепаный Кожаный Доспех +1",
+                    "id": "9jSIXhTxiUMqX2pP"
+                },
+                {
+                    "name": "Короткий меч",
+                    "id": "CoerEJBile8XaZEr"
+                },
+                {
+                    "name": "Композитный длинный лук",
+                    "id": "o5S6ArjIn6h6ZhYc"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Hallod": {
+            "name": "Халлод",
+            "tokenName": "Халлод",
+            "UUID": "H4yGpC6VuQpszlUl",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Кукри",
+                    "id": "BxmH1fhCQ3U0b1Nz"
+                },
+                {
+                    "name": "Тяжелый арбалет",
+                    "id": "bdzjSnMLtILLG0C0"
+                },
+                {
+                    "name": "Внезапная Атака (1d6)",
+                    "id": "pwteaSOJloInqNGa"
+                },
+                {
+                    "name": "Грязный Приём",
+                    "description": "<p>Триггер: Халлод ноносит крит.удар атакой в билжнем бою</p><hr><p>Халлод может совершить проверку Атлетики для @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{Толкнуть} @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{*} или @UUID[Compendium.pf2e.action-macros.Macro.gRj7xUfcpUZQLrOC]{Опрокинуть} @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{*} на цель этой атаки. Для этой проверки используется тот же ШМА, что и к спровоцировавшей атаки, но проверка не увеличивает ШМА.</p>",
+                    "id": "xMemEoOgOymquil3"
+                },
+                {
+                    "name": "Раз-Два",
+                    "description": "<p>Халлод совершает дважды @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}, по одному каждой рукой. При попадание первой атакой (обычно Кукри) её цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} для второй атаки (обычно Кулак)</p><p>ШМА применяется как обычно</p>",
+                    "id": "9oxmm9BZ3rs5s1o5"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                }
+            ]
+        },
+        "Icy Rat": {
+            "name": "Обледенелая Крыса",
+            "tokenName": "Обледенелая Крыса",
+            "UUID": "EhtODTbFdElXSyXX",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Ледяная Смерть",
+                    "description": "<p>Когда крыса убита, её тело взрывается нанося @Damage[2d4[cold]] все существас рядом с ней</p><p style=\"text-align: center;\">@Check[type:reflex|dc:14|basic:true]</p>",
+                    "id": "gUXTztO5KPImLwMr"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Lord Nar": {
+            "name": "Лорд Нар",
+            "tokenName": "Лорд Нар",
+            "UUID": "Hs3cTNtVSUpDl0cg",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Двуручная Дубина +1",
+                    "id": "09b0IlFnSJXdgoC2"
+                },
+                {
+                    "name": "Бронзовый Ключ",
+                    "id": "118sQ4tVvJdGHz7X"
+                },
+                {
+                    "name": "Топорик",
+                    "id": "AwlVudq6AfPfI2GF"
+                },
+                {
+                    "name": "Ярость",
+                    "description": "<p>Лорд Нар впадает в ярость, длящуюся 1 минуту. Он получает [[/r (8)]]{8 Врем.ОЗ}, штраф -1 к КБ, а также дополнительно 4 урона атаками.</p><p>Лорд Нар не может совершать действия с признаком `концентрация`, если у них нет признака `ярость`. Как только ярость Нара завершается, он не может впасть в ярость снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{Эффект: Ярость}</p>",
+                    "id": "3QorQFU1nCUU8HJK"
+                },
+                {
+                    "name": "Не Сбежать",
+                    "description": "<p><strong>Триггер:</strong> Враг в пределах досягаемости пытается уйти от вас</p><hr><p>Вы идете в ногу с отступающим противником. Сделайте @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} вплоть до вашей Скорости, следуя за врагом и держа его в досягаемости во время его движения, пока он не прекратит передвижение или пока вы не пройдете свою полную Скорость.</p>",
+                    "id": "Jx2oL3c8t1JB3fOK"
+                }
+            ]
+        },
+        "Mangy Wolf": {
+            "name": "Облезлый Волк",
+            "tokenName": "Облезлый Волк",
+            "UUID": "kZI5UjgXcJjrOIR8",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Блохи",
+                    "description": "<p>Укушенный облезлым волком должен совершить @Check[type:fortitude|dc:14] и при провал получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} на 1 минуту.</p><p>Он может совершить @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодейст.}, чтобы собрать блох и избиваться от тощноты (без рвоты).</p>",
+                    "id": "NImIftzNflSehe9o"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Mutant Wolf": {
+            "name": "Мутировавший Волк",
+            "tokenName": "Мутировавший Волк",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Рваная Рана",
+                    "description": "<p>Триггер: Предыдущем действием Волк нанёс существу урон Челюстями</p><hr><p>Волк разрывает плоть этого существа, нанося ему @Damage[(1d6+2)[slashing],1[persistent,acid]]</p>",
+                    "id": "AAfX9iCUSEremClg"
+                },
+                {
+                    "name": "Брызги Крови",
+                    "description": "<p>Триггер: Существо рядом с Волком наносит ему критический удар</p><hr><p>Лопается один из волдырей, и его содержимок окатывает спровоцировавшее существо. Это существо получает&nbsp;@Damage[3d6[acid]] (@Check[type:reflex|dc:19|basic:true]). Это происходит, даже если атака убила волка</p>",
+                    "id": "LRUdI4Dxl52iFGfD"
+                },
+                {
+                    "name": "Чувство Движения (Точное, 30)",
+                    "description": "<p>Существо может ощущать окружение через вибрации и движение воздуха и воды.</p>",
+                    "id": "DjVPq3PeaxxihodC"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Orc Alchemist": {
+            "name": "Орк Алхимик",
+            "tokenName": "Алхимик",
+            "UUID": "X0AJV2Zfj2d6rab5",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Орочий кинжал-кастет",
+                    "id": "uIhA0oi2q9kLAXL6"
+                },
+                {
+                    "name": "Кислотная склянка",
+                    "id": "EMOqcPy4SH9Nlfjf"
+                },
+                {
+                    "name": "Алхимический огонь",
+                    "id": "fViR8itFaogs7nbf"
+                },
+                {
+                    "name": "Молния в бутылке",
+                    "id": "hPj1DlCJj8213dpU"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Stone Horse": {
+            "name": "Каменная Лошадь",
+            "tokenName": "Каменная Лошадь",
+            "UUID": "D2dxazT15W9Une1cD2dxazT15W9Une1c",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Сокрушительный Копыта",
+                    "description": "<p>Копыта Каменной Лошади прочны, словно железо; если она наносит критический удар копытом, то такеже повреждает броню цели. Атака наносит броне столько же урона, сколько и цели (Твёрдость применяется как обычно). Если цель использует Блок Щитом против критического удара копытом, считайте, что Твердость щита на 5 ниже (минимум 0)</p>",
+                    "id": "3Ope7LQxbCtQSi9I"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "The Amalgam": {
+            "name": "Амальгама",
+            "tokenName": "Амальгама",
+            "UUID": "lPHwAyFAeAhHLNnU",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Многоликий Разум",
+                    "description": "<p>В разуме Амальгамы объединены сознания разных существ, и не все они одинаково восприимчивы к `ментальной` магии. Её результат испытания против `ментальных` эффектов всегда считается на одну ступень лучше.</p>",
+                    "id": "fr8P60Chpggm4lht"
+                },
+                {
+                    "name": "Много Конечностей",
+                    "description": "<p>Амальгама может совершить до 4 ударов, но не более одного удара каждого типа и не более двух ударов по каждой цели. Амальгама получает штраф -2 к каждой атаке, но штраф множественных атак не увеличивается, пока она не совершит все атаки.</p>",
+                    "id": "T9q5kmziWsJFwQ0c"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "The Behemoth": {
+            "name": "Чудище",
+            "tokenName": "Чудище",
+            "UUID": "IU4Gx9vHKMT2KYDq",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Эмпатическая Связь",
+                    "description": "<p>Чудище не может говорить, но обладает телепатической связью с создателем. Он может делиться с создателем основными эмоциями, такими как ужас, счастье или гнев. Если Чудище уничтожен, создатель автоматически узнаёт об этом.</p><p>Дистанция связи - 1 500ФТ</p>",
+                    "id": "hFW1o4do0v4GBG9f"
+                },
+                {
+                    "name": "Тяжёлый Удар",
+                    "description": "<p>Чудище совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в ближнем бою. При попадании оно может оттолкнуть существо на 10ФТ (20ФТ при крит.ударе). Так же цель совершает @Check[type:fortitude|dc:19] и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} в случае провал</p>",
+                    "id": "NRhJd4TWmu6ZArpW"
+                },
+                {
+                    "name": "Топот",
+                    "description": "<p>Чудище тяжело топает, заставляя всех существ в @Template[type:emanation|distance:10] получивших провал в @Check[type:reflex|dc:19] упасть @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p>",
+                    "id": "A1XwGa6RjEXJGJQJ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "The Sculptor": {
+            "name": "Скульптор",
+            "tokenName": "Скульптор",
+            "UUID": "",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Орочий кинжал-кастет",
+                    "id": "AJWjRyrAAIHiYhoC"
+                },
+                {
+                    "name": "Кислотная склянка",
+                    "id": "ybVy82D41OJgh19C"
+                },
+                {
+                    "name": "Алхимический огонь",
+                    "id": "TAU5ivcNMiNlO22I"
+                },
+                {
+                    "name": "Молния в бутылке",
+                    "id": "XaUIXvZNj4MAeDYh"
+                },
+                {
+                    "name": "Морозная склянка",
+                    "id": "qy0FT7Uc1pkIw9VL"
+                },
+                {
+                    "name": "Быстрая Алхимия",
+                    "description": "<p>Скульптор знает Эликсир Жизни [Малый], Морозная Склянка [Средняя], Алхимический Огонь [Средний] и Молния в бутылке [Средняя]. Предметы имеют признак `насыщенный`</p>",
+                    "id": "DBlqCyXmWFAIQkEK"
+                },
+                {
+                    "name": "Морозная склянка [Средняя] (Насыщенный)",
+                    "description": "<p>Жидкие реагенты внутри этого бутылька быстро поглощают тепло при контакте с воздухом. Морозная склянка наносит 2d6 урона холодом и 2 урона холодом от брызг. При попадании, цель получает штраф состояния -10 футов к своим Скоростям до конца своего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p><p>@UUID[Compendium.pf2e.equipment-effects.dv0IKm5syOdP759w]{Эффект: Морозная склянка (Средняя)}</p>",
+                    "id": "Qng0P7o12DtXwhza"
+                },
+                {
+                    "name": "Алхимический огонь [Средний] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 2d8 урона огнем, 2 продолжительного урона огнем и 2 урона огненными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>",
+                    "id": "nWZObmCdoI2whZKc"
+                },
+                {
+                    "name": "Эликсир жизни [Малый] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><p>Эликсиры жизни ускоряют естественный процесс исцеления и иммунной системы у живых существ. Выпив этот эликсир, вы восстанавливаете [[/r 3d6+6]] ОЗ и получаете бонус предмета +1 к спасброскам против болезней и ядов на 10 минут.</p><p>@UUID[Compendium.pf2e.equipment-effects.EpB7yJPEuG6ez4z3]{Эффект: Эликсир жизни (Малый)}</p>",
+                    "id": "ly7mQpnwRdZLf1Hd"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Vilree": {
+            "name": "Вилри",
+            "tokenName": "Вилри",
+            "UUID": "Er9kW7JtUX4zf15Q",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Кинжал",
+                    "id": "vACP18XqpwSKIwpu"
+                },
+                {
+                    "name": "Алхим.Арбалет",
+                    "id": "tJAcVBe69z7PlOrg"
+                },
+                {
+                    "name": "Кислотная склянка",
+                    "id": "Tk6rmGNBuVrHBJa3"
+                },
+                {
+                    "name": "Алхимический огонь",
+                    "id": "grCtKdzXEThkkEnh"
+                },
+                {
+                    "name": "Молния в бутылке",
+                    "id": "GUPfjrn8zA2wRtby"
+                },
+                {
+                    "name": "Бомба-липучка",
+                    "id": "mS0cgJYX09iGU6Dg"
+                },
+                {
+                    "name": "Дальний бросок",
+                    "description": "<p>Шаг дистанции бомб Вилри равен 30ФТ вместо обычных 20ФТ</p>",
+                    "id": "UNvS4DCLAYyLk9BV"
+                },
+                {
+                    "name": "Алхимический Арбалет",
+                    "description": "<p>Вилри может стрелять болтами с алхимическими субстанциями.</p><p>В качестве действия она может установить алхимическую бомбу в арбалет, после чего его следующие 3 атаки дополнительно наносят 1d6 урона, соответствующего бомбе. Эти атаки не наносят урон брызгами.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.ucAwSIZsGrpBLg6G]{Effect: Alchemical Crossbow}</p>",
+                    "id": "CfawbSTZsSlWiCtA"
+                },
+                {
+                    "name": "Быстрая Алхимия",
+                    "description": "<p>Вилри создаёт любой предмет, формула которого есть в её @UUID[Item.YvKwwCa201ahx2AP]{Книга формул Вилри}. Предмет обладает признаком `насыщенный`</p>",
+                    "id": "s4Mw2UHu6wej4awv"
+                },
+                {
+                    "name": "Кислотная склянка [Средняя] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Этот бутылек наполнен едкой кислотой, наносящей 1 кислотного урона, 2d6 продолжительного урона кислотой и 2 урона кислотными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>",
+                    "id": "XrXyd2Jutclay3SY"
+                },
+                {
+                    "name": "Алхимический огонь [Средний] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 2d8 урона огнем, 2 продолжительного урона огнем и 2 урона огненными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>",
+                    "id": "8rEGphd48JD2zALZ"
+                },
+                {
+                    "name": "Молния в бутылке [Средняя] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Молния в бутылке наполнена летучими реагентами, которые создают взрыв электричества, когда реагируют с воздухом. Она наносит 2d6 урона электричеством и 2 урона электрическими брызгами. При попадании, цель становится @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p>",
+                    "id": "TlTLpPCOdUagvCNY"
+                },
+                {
+                    "name": "Бомба-липучка [Малая] (Насыщенный)",
+                    "description": "<p>Бомба-липучка наполнена клейкой субстанцией. Когда вы попадаете липучкой по существу, оно получает штраф состояния -10 футов к своим Скоростям на 1 минуту. КС для действия <em>\"Вырваться\"</em> - 17. @UUID[Compendium.pf2e.equipment-effects.fYZIanbYu0Vc4JEL]{Эффект: Бомба-липучка (Малая)}</p><p>При крит.попадании, существо, находящееся в контакте с твердой поверхностью приклеивается к ней и получает состояние @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд, а у существ, летающих при помощи крыльев, крылья запутываются, из-за этого они безопасно приземляются на землю и не могут снова @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь} 1 раунд. Бомба-липучка не эффективна для использования против существ в воде.</p><p>Цель может закончить любые эффекты использовав действие @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться} или потратив в общей сложности 3 действия @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы аккуратно убрать клейкую субстанцию. Эти действия <em>\"Взаимодействовать\"</em> не должны быть последовательными, а другие существа могут так же помочь потратив действия.</p>",
+                    "id": "TUXQwzwuB2QRWdap"
+                },
+                {
+                    "name": "Поясная Сумка",
+                    "id": "u1zA8fSPZ0RdHY47"
+                },
+                {
+                    "name": "Энергетический мутаген (Малый) (Кислота)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><hr><p>При создании этот мутаген настраивается по вашему выбору на один из четырех типов энергии: кислота, холод, электричество или огонь. При употреблении мутаген наполняет ваше тело энергией, которая выплескивается из вас всякий раз, когда вы атакуете. На более высоких уровнях это даже может дать вам возможность высвобождать энергию контролируемыми всплесками.</p><p><strong>Преимущество:</strong> Вы получаете сопротивление 5 к настроенному типу энергии. Всякий раз, когда вы попадаете оружием ближнего боя, добавляйте 1 урона настроенного типа энергии.</p><p><strong>Недостаток:</strong> Вы получаете слабость 5 к трем другим типам энергии.</p><p><strong>Продолжительность:</strong> 1 минута.</p>",
+                    "id": "SiM6qBzt7lVtOzta"
+                },
+                {
+                    "name": "Эликсир жизни [Малый] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}</p><p>Эликсиры жизни ускоряют естественный процесс исцеления и иммунной системы у живых существ. Выпив этот эликсир, вы восстанавливаете [[/r 3d6+6]] ОЗ и получаете бонус предмета +1 к спасброскам против болезней и ядов на 10 минут.</p><p>@UUID[Compendium.pf2e.equipment-effects.EpB7yJPEuG6ez4z3]{Эффект: Эликсир жизни (Малый)}</p>",
+                    "id": "4W7aXiF7zzSQoKTr"
+                }
+            ]
+        },
+        "Vine Lasher": {
+            "name": "Плёточник",
+            "tokenName": "Плёточник",
+            "UUID": "wBCpq9pX4NZFXE0T",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Лиана",
+                    "id": "JWZ3MiXhWwFprWgn"
+                },
+                {
+                    "name": "Лёгкая Хватка",
+                    "description": "<p>Существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} Плёточником не становится @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен}, но его пространство и все клетки рядом с ним считаются для него `сложной местностью`</p><p>Если существо совершает `движение`, то Плёточник перемещается вместе&nbsp; с ним, всегда удерживая сущетство @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченным} в пределах 10ФТ от себя. Если два и более Плёточника возьмут в захват одно и то же существо, то его пространство и все клетки рядом с ним для него считаются `особо сложной местностью`</p>",
+                    "id": "tgEiQ20X2hPkiyPM"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Spear Launcher": {
+            "name": "Копьемёт",
+            "tokenName": "Копьемёт",
+            "img": "systems/pf2e/icons/equipment/weapons/spear.webp",
+            "tokenImg": "systems/pf2e/icons/equipment/weapons/spear.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>Обучен</p>",
+            "hdescription": "<p>В куче хлама спрятан старый тяжелый арбалет, в который заряжено деревянное копьё. Спусковой механизм подсоединён к верёвке, удерживающей дверь</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:18|traits:action:disable-a-device] (Обучен), чтобы осторожно развязать верёвку и открыть дверь без срабатывания ловушки</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Копье",
+                    "id": "p27dLxTbXpewe8ZR"
+                },
+                {
+                    "name": "Копьемёт",
+                    "description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>",
+                    "id": "dKlUXGzoOpojAKGv"
+                },
+                {
+                    "name": "Копьемёт",
+                    "description": "<p>Триггер: Верёвка обрезана или иным образом отсодинена от двери.</p><hr><p>Ловушка совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} копьём по существу, которое взаимодействует с верёвкой.</p>",
+                    "id": "YapaAOg2pzlW9uPP"
+                },
+                {
+                    "name": "Копьё",
+                    "id": "ZizBeGklUEvX03AL"
+                }
+            ]
+        },
+        "Falling Debris": {
+            "name": "Падающий Потолок",
+            "tokenName": "Падающий Потолок",
+            "img": "systems/pf2e/icons/spells/phantom-prison.webp",
+            "tokenImg": "systems/pf2e/icons/spells/phantom-prison.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>Обучен</p>",
+            "hdescription": "<p>Доска в полу, чувствительная к нажатию, соединена к балкой, которая удерживает обломки от обрушения</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:15|name:Disable Trap|traits:mechanical,trap,hazard] (Обучен) применённое к доске до падения обломков</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Падающий Потолок",
+                    "description": "<p>Триггер: Давление на доску в полу</p><hr><p>Потолок лаза рушится в той клетке, где лаз поворачивает, а также в двух соседних клетках. Все, кто находится в этих клетках, получают @Damage[3d6[bludgeoning]] и могут пройти @Check[type:reflex|dc:14|traits:damaging-effect]. Это простой спасбрсок для существа в центральной клетке, а существа в двух соседних клетках не получают урона при успехе или крит.успехе спасброска, но получают урон при провал или двойной урон при крит.провал. ПИ, получившие урон от обломков, получают @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe] - их прижимает к полу сокрушительным весом.</p><hr><p>Можно попробовать расчистить клетку с обломками с помощью @Check[type:athletics|dc:17|name:Clear Debris]</p><p>Крит.Успех: Клетка расчищена за 1 минуту</p><p>Успех: Клетка расчищена за 5 минут</p><p>Провал: Клетка расчищена за 10 минут</p><p>Крит.Провал: Потолок продолжает рушиться, нанося @Damage[2d6[bludgeoning]] тому ПИ, который пытается расчистить клетку, а также герою с неподвижностью в этой клетке. Эти длится 1 минуту, причем клетка не расчищена</p>",
+                    "id": "HY2Pfqwkwhn3BmVF"
+                }
+            ]
+        },
+        "Ice Fall Trap": {
+            "name": "Ледопад",
+            "tokenName": "Ледопад",
+            "img": "systems/pf2e/icons/spells/empower-ley-line.webp",
+            "tokenImg": "systems/pf2e/icons/spells/empower-ley-line.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>Обучен</p>",
+            "hdescription": "<p>Если дверь открывают без ключа, из скрытых отверстий в потолке выплёскивается ледяная алхимическая смесь, покрывающая всю комнату</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:20|name:Disable Ice Fall|traits:mechanical,trap] (Обучен) для открывания двери без срабатывания ловушки</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Ледопад",
+                    "description": "<p>Триггер: Дверь атакуют или открывает без ключа</p><hr><p>Ледяная алхимическая смесь выливается в комнату и наносит @Damage[4d6[cold]] всем в зоне</p><p style=\"text-align: center;\">@Check[type:reflex|dc:20|basic:true]</p>",
+                    "id": "ctDUZ8gUdfvuUQoM"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        }
+    }
 }

@@ -1,579 +1,663 @@
 {
-	"label": "Неприятности в Отари",
-	"mapping": {
-		"description": "system.details.publicNotes",
-		"img": "img",
-		"tokenName": "prototypeToken.name",
-		"tokenImg": "prototypeToken.texture.src",
-		"tokenvision": "prototypeToken.vision",
-		"tokendisplayBars": "prototypeToken.displayBars",
-		"tokendisplayName": "prototypeToken.displayName",
-		"randomImg": "prototypeToken.randomImg",
-		"hstealth": "system.attributes.stealth.details",
-		"hdisable": "system.details.disable",
-		"hdescription": "system.details.description",
-		"hreset": "system.details.reset",
-		"hroutine": "system.details.routine",
-		"prependAdjective": "prototypeToken.prependAdjective",
-		"appendNumber": "prototypeToken.appendNumber",
-		"actorLink": "prototypeToken.actorLink"
-		},
-	"variants": [
-		{
-			"id": "Imprecise",
-			"name": "Неточный"
-		}
-	],
-	"entries": {
-		"Brimstone Rat": {
-			"name": "Серная Крыса",
-			"tokenName": "Серная Крыса",
-			"UUID": "3Pa5JoY9PYdV5x1e",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"111": {
-					"name": "111",
-					"description": "111"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Bugbear Marauder": {
-			"name": "Багбер-Разбойник",
-			"tokenName": "Багбер-Разбойник",
-			"UUID": "5iOgKbhW9zVnV1cr",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"iIaK3retIHJkXgrh": {
-					"name": "Нападение из Чащи",
-					"description": "<p>Багбер совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до 10ФТ и совершает @UUID[Compendium.pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить} @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо для которого он @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаружен}. При успехе, он еще наносит этому существу урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} <strong>Кулака</strong></p>"
-				},
-				"i74S7XGGuuWnr88J": {
-					"name": "Терзатель (+3)",
-					"description": "<p>Багбер получает бонус обстоятельства +3 к броскам урона против существ, которых он @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил}</p>"
-				},
-				"wBuoAb6EXYtmwPmo": {
-					"name": "Длинный меч"
-				},
-				"UMd6rwUlzKFS3lvJ": {
-					"name": "Метательное копье"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Hargrit Leadbuster": {
-			"name": "Харгрит Забоец",
-			"tokenName": "Харгрит Забоец",
-			"UUID": "6Ut7YjjLZADMU7NY",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"qEbFimPOeE5aFvE7": {
-					"name": "Кинжал"
-				},
-				"8hva3s7KDSqeUTKh": {
-					"name": "Кинжал"
-				},
-				"fq5jsjB5HkWo1JYN": {
-					"name": "Свиток Руническое оружие (Ранг 1)",
-					"description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Руническое оружие(*)}</p><hr><p>Сотворение заклинания со свитка требует держать свиток в одной руке и активировать его с помощью активности @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания} используя обычно количество действие для этого заклинания.</p><p>Чтобы \"Сотворять заклинание\" со свитка, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель атаки заклинанием и КС заклинания. Заклинание так же получает признак соответствующего обычая колдовства (`<u>аркана</u>`, `<u>сакральный</u>`, `<u>оккультный</u>` или `<u>природный</u>`).</p><p>Любые физические материальные компоненты и стоимость предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со свитка. Для этого заклинания, вы должны заменить любой требуемый материальный компонент на жестовый. Если заклинание требует фокуса, то он должен быть у вас, чтобы колдовать со свитка.</p>"
-				},
-				"jgcCZHnrNbS5iREn": {
-					"name": "Карта",
-					"description": "<p>Среди вещей Харгрита обнаруживается доказательство злодеяний - карта окрестностей, на которой детально отмечены все нападения братьев Забойцев.</p><p>Кроме того, на ней изображен и Бормочущий замок, отмеченный как временный штаб братьев. Если герои по пути к лагерю лесорубов не заметили замка, они могут вернуться обратно, чтобы исследовать его.</p>"
-				},
-				"HWwf9OfDEQH53F11": {
-					"name": "Религиозный символ Асмодея [Дерево]"
-				}
-			}
-		},
-		"Kobold Trapmaster": {
-			"name": "Кобольд-Ловец",
-			"tokenName": "Кобольд-Ловчец",
-			"UUID": "fhItdltCmcAZkvcI",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"BH97LqHtuqNlighQ": {
-					"name": "Поспешное Отступление",
-					"description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>"
-				},
-				"QfnsBk0XQ6x9wJSe": {
-					"name": "Быстрая Ловушка",
-					"description": "<p>Кобольд-Ловчий устанавливает один @UUID[Compendium.pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>"
-				},
-				"ccosYJxMalM6rfN8": {
-					"name": "Силок с Шипами",
-					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>"
-				},
-				"nDnP6GpXjTbXqbXB": {
-					"name": "Силок с Шипами",
-					"description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>"
-				},
-				"QfWg8mYxqbJly84b": {
-					"name": "Короткий меч"
-				},
-				"u4infcHTr2ku9Uxi": {
-					"name": "Копье"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Kotgar Leadbuster": {
-			"name": "Котгар Забоец",
-			"tokenName": "Котгар Забоец",
-			"UUID": "PhLxqnAIhCovfcXy",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"aADQJA0W9vAaOmXT": {
-					"name": "Кувалда"
-				},
-				"gqjrPshyFW4Y4vrS": {
-					"name": "Метательное Копье"
-				},
-				"ll1kYssjNZ4S5vnd": {
-					"name": "Жестокий Толчок",
-					"description": "<p>Если Котгар уже атаковал в этот ход и держит двуручное оружие ближнего боя, он может совершить им @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}. Если он попадает по цели и её размер не больше `<u>среднего</u>`, он может оттолкнуть ее на 5ФТ (или на 10ФТ при крит.попадание) и переместиться вслед за целью.</p><p>Вне зависимости от того, попал Удар по цели ли нет, она становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} до конца текущего хота Котгара (но если это был Крит.Провал, этого не происходит)</p>"
-				},
-				"I0AZeY12ooiFLuuW": {
-					"name": "Мощный Толчок",
-					"description": "<p>Когда существо после отталкивания Котгара прекращает `<u>движение</u>`, натолкнувшись на объект, оно получает @Damage[(4)[bludgeoning]]</p>"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Kurnugian Jackal": {
-			"name": "Курнугийский Шакал",
-			"tokenName": "Курнугийский Шакал",
-			"UUID": "4GZsTkvuYADpcdmV",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<section class=\"А\"><p>`<u>Необычный</u>` `<u>Хаот_Зло</u>` `<u>Средний</u>` `<u>Чудовище</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Kurnugian_Jackal.webp\"></figure><p>В редких случаях, когда планы выстраиваются строго определенным образом, Ламашту дарует нечестивое благословение одному из шакалов на Материальном плане. Когда у такого шакала рождаются щенки, у одного из них прямо по центру лба обнаруживается третий глаз. Если такому щенку удается выжить и достичь зрелости, у него развиваются необычайные интеллектуальные и экстрасенсорные способности, и он превращается в полноценного курнугийского шакала, названного так в честь владений Матери Чудищ в Бездне. В изрядно поумневшем шакале пробуждается и немалое желание сеять хаос во имя своей демонической госпожи.</p><p>Когда @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV]{Курнугийский Шакал} достигает расцвета сил, он становится гораздо хитрее и вдвое крупнее своих обычных сородичей. Такие твари обожают рыскать по окраинам поселений, выискивая одиночек. Приметив добычу, они открывают третий глаз и гипнотизируют жертву, приманивая её поближе. Зачастую шакал заводит жертв в дебри и отпускает, оставляя ничего не понимающих и растерянных существ на произвол судьбы. Многим не удаётся найти дорогу домой, и они умирают от холода или зубов диких зверей, а шакал радостно за всем этим наблюдает. Судя по всему, шакала подпитывают страдания его добычи, но когда она всё же погибнет, он обглодает и её труп. Если же жертве удастся ускользнуть, шакал снова выйдет на охоту на следующую ночь.</p><p>Некоторые курнугийские шакалы становятся объектами обожания и поклонения для культистов Ламашту, а другие сами собирают последователей. К ним относятся крайне почтительно из-за внешней схожести с символом религии Ламашту, но кроме того, некоторые шакалы утверждают, что говорят от имени самой Матери Чудищ. Культисты, завершившиеся поддержкой курнугийского шакала, часто действуют наглее и агрессивнее, чем обычно.</p></section>",
-			"items": {
-				"c6BnmJR85HoUuFbA": {
-					"name": "Причинение Боли",
-					"description": "<p>Когда цель под действием @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S] Шакала получает урон, Шакал может сфокусировать на ней свой третий глаз, чтобы усилить боль, увеличивая наносимый урона на [[/r 1d6]]{1d6}</p>"
-				},
-				"73fsCGNUERkE3I1S": {
-					"name": "Гипнотический Взгляд",
-					"description": "<p>Шакал открывает третий глаз, чтобы посмотреть на существо в пределах 30ФТ, способное его видеть. Цель получает штраф -2 Спас.Воля до конца следующего хода Шакала.</p><p>Шакал может таким образом смотреть только на одну цель одновременно. Применение этой способности на новую цель сраху прекращает эффект на прошлой цели. Шакал может прервать эту способность свободным действием примененяя способность @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.Nc23oEL8srJURx0P]</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.qFDiWpzk8cuwQGyH]{Эффект: Гипнотический Взгляд}</p>"
-				},
-				"Nc23oEL8srJURx0P": {
-					"name": "Удаление Воспоминаний",
-					"description": "<p>Шакал завершает @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S], но сразу перед этим цель совершает&nbsp;@Check[type:will|dc:24] и при провале забывает обо всех совершенных Шакалом враждебным действиях к ней</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Morgrym Leadbuster": {
-			"name": "Моргрим Забоец",
-			"tokenName": "Моргрим Забоец",
-			"UUID": "lTVgdXuSv2B0yVVW",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"QZb6NNceGC3aMTMO": {
-					"name": "Посох"
-				},
-				"W6XkoyVR7QH9Z8lg": {
-					"name": "Неживой Щит",
-					"description": "<p>Если Моргрим становится целью атаки, когда рядом с ним находится существо-`<u>нежить</u>` более низкого уровня, Моргрим может поменяться с ним местами, чтобы целью атаки него стала `<u>нежить</u>`</p>"
-				},
-				"7TD5aX6vNauxTw5T": {
-					"name": "Арканная Связь",
-					"description": "<p>1/День Моргрим может израсходовать заключенную в его Предмете Силы магию, чтобы выбрать одно из уже сотворенных им в этот день заклинаний и @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} его повторно.</p><p>Восстановление заклинания происходит мгновенно, но для его сотворения необходимо совершаить все необходимые действия</p>"
-				},
-				"vlVKxFijTHI7cMPh": {
-					"name": "Некромант",
-					"description": "<p>Моргрим работает со зловещими силами жизни и смерти и сфокусировался на изучении магии, способной помочь ему в этом.</p><p>Он может @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх} как Заклинание Школы</p>"
-				},
-				"xQTqtFFkEcJJWCDW": {
-					"name": "Палочка Страх (Ранг 1)",
-					"description": "<p><em>@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх}</em></p><hr><p>Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.</p><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}</p><p><strong>Частота:</strong> раз в день, плюс перегрузка;</p><p><strong>Эффект:</strong> Вы @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Заклинание} указанного уровня.</p><hr><p><strong>Требования для создания:</strong> Предоставить сотворение заклинания указанного уровня.</p>"
-				},
-				"5519SZd2Gx7R0pso": {
-					"name": "Книга Заклинаний (Углубленный курс арканной мнемоники)",
-					"description": "<p>Закл Ранг 1:</p><p>@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Приказ}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Порыв ветра}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Магический снаряд}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх}</p><p>Закл Ранг 2:</p><p>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Кислотная стрела}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{Сопротивление энергии}</p>"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Omblin Leadbuster": {
-			"name": "Омблин Забоец",
-			"tokenName": "Омблин Забоец",
-			"UUID": "m4jitI3J1QkjJq3H",
-			"actorLink": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"QVjozo4fqxCzzccc": {
-					"name": "Рапира"
-				},
-				"088hXYj7GIHJtlm7": {
-					"name": "Ручной Арбалет"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Orc Commander": {
-			"name": "Орк-Командир",
-			"tokenName": "Орк-Командир",
-			"UUID": "rRSIqZ5g3QRfaAQ0",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"d5T3nJCRgqqqQvzD": {
-					"name": "Боевой клич",
-					"description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `<u>оркам</u>` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>"
-				},
-				"uGR730eqkGcdJEfo": {
-					"name": "Метательное копье"
-				},
-				"lLR6EoZxZTWifZUj": {
-					"name": "Кувалда"
-				}
-			}
-		},
-		"Orc Scrapper": {
-			"name": "Орк-Солдат",
-			"tokenName": "Орк-Солдат",
-			"UUID": "MTI298bhLGYktyZX",
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "",
-			"items": {
-				"b200ENWSAzXNlSMf": {
-					"name": "Боевой топор"
-				},
-				"MKiOmYkknzLyP0Am": {
-					"name": "Метательное копье"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Scalliwing": {
-			"name": "Змеекрыл",
-			"tokenName": "Змеекрыл",
-			"UUID": "l7wng1EXY7np8Hcu",
-			"prependAdjective": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<section class=\"А\"><p>`<u>Необычный</u>` `<u>Хаот_Добро</u>` `<u>Маленький</u>` `<u>Чудовище</u>` `<u>Коатль</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Olli.webp\"></figure><p>Коатли - крупные крылатые змеи с разноцветным оперением и чешуей. Эти добрые существа часто помогают смертным и активно противостоят силам зла. Встреча с коатлем событие судьбоносное, но эти величественные существа ценят уединение и стараются не попадаться никому на глаза.</p><p>@UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.l7wng1EXY7np8Hcu]{Змеекрылы} - самые маленькие из коатлей. Они выглядят точь-в-точь как их более крупные сородичи, но размером не больше кошки и, несмотря на всю свою доброту, очень любят устраивать всякие шалости. В большинстве своем коатли мыслят глобально и стремятся сделать мир более добрым и справедливым или направлять смертные народы на путь общественного развития, но змеекрылы предпочитают действовать локально. Эти коатли берут на себя обязанность обучать добрых заклинателей магии и иногда становятся их фамильярами, называя себя при этом \"ассистентами\" и поправляя каждого, кто назовёт их как-то иначе.</p><p>Благодаря радужной чешуе и разноцветному оперению, многие считают змеекрылов очень красивыми существами, чем они и пользуются, чтобы располагать к себе окружающих. Из-за привлекательного внешнего вида некоторые из них слегка самовлюбленные, но для большинства небольшие размеры и отсутствие эффективных способов самозащиты становятся серьезной проблемой: более крупные существа не редко оказываются жестоки и пытаются поймать змеекрылов, чтобы превратить в питомцев или набить из них чучела. Сами змеекрылы прекрасно могут жить в одном и том же доме сколь угодно долго — при условии что находятся там добровольно. Для побега из заточения эти существа придумывают хитроумнейшие планы и часто действуют сообща с другими невольниками, чтобы в процессе ещё и причинить обидчику потрясающий ущерб, разломав всё, что плохо лежит.</p><p>Длина змеекрыла от кончика носа до кончика хвоста составляет около двух футов, размах их крыльев примерно такой же. Живут они столько же, сколько люди, и несмотря на то, что встречаются несколько чаще своих крупных сородичей, большинство смертных их никогда не видело.</p></section>",
-			"items": {
-				"Ihvi8o6Gm4pwbhph": {
-					"name": "Клыки"
-				},
-				"qunm5Cfit6Q1T4dI": {
-					"name": "Блестящие Крылья",
-					"description": "<p>Змеекрыл расправляет свои радужные крылья и завораживающе ими машет. Каждое существо в @Template[type:emanation|distance:30], которое может видеть Змеекрыла, должно совершить @Check[type:will|dc:20]</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода</p><p>Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода и должно потратить свое первое действие в следующий ход на любование змеекрылом</p><p>Крит.Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода. В течение 1 минуты существо должно тратить свое первое действие каждый ход на любование змеекрылом. Этот эффект заканчивается, если змеекрыл атакует или использует другое враждебное действие против пораженного существа</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Stinkweed Shambler": {
-			"name": "Смердотравный Ходок",
-			"tokenName": "Смердотравный Ходок",
-			"UUID": "TIX9yDasefwJ4PxI",
-			"appendNumber": true,
-			"tokenvision": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"description": "<section class=\"А\"><p>`<u>Обычный</u>` `<u>Нейтрал_Зло</u>` `<u>Маленький</u>` `<u>Растение</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler.webp\"></figure><p>@UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.TIX9yDasefwJ4PxI]{Смердотравные ходоки} - это ожившие кучи гниющей растительности, пробивающейся из мест, пропитанных некротическими энергиями, где были навеки упокоены вурдалаки, заразные зомби и другая нечистая нежить. Там, где полегло множество живых мертвецов, может зародиться сразу до дюжины смердотравных ходоков, и эти существа прекрасно действуют сообща со сверхъестественной силой.</p><p>Смердотравные ходоки растут крайне быстро: сначала они выглядят как зеленые побеги со светло-зелеными листьями, но быстро принимают гуманоидный облик и становятся способными выкапываться из земли и неспешно передвигаться по округе. Эти существа получили свое прозвище из-за источаемой их листьями вони, которая лишь усиливается, если листья мнутся или рвутся. На их теле растут несколько мелких белых цветков с бутонами в виде крошечных черепов.</p><p>Хотя эти создания мерзкие, они действуют крайне хитро. Они любят хватать и истязать существ покрупнее, будь то домашний скот или его хозяева. Ходоки понимают, что не обладают особой силой, и их смрад способен выдать их присутствие. Поэтому они часто устраивают простые ловушки, такие как ямы или падающие камни. Эти существа не прочь позабавиться с жертвой, и веселье заканчивается только тогда, когда жертва умирает от многочисленных ран. Ходоки не поедают добычу, так как у них нет рта. Необходимые питательные вещества они получают, находясь на солнечном свету, и, по всей видимости, подпитываются страданиями истязаемой жертвы.</p><p>Большая часть смердотравных ходоков не растет выше 3 футов и весит всего 30 фунтов.</p></section>",
-			"items": {
-				"56wLde8SVEfys89N": {
-					"name": "Лиана"
-				},
-				"Wigs6zeZoSmogj8P": {
-					"name": "Семенная Коробочка"
-				},
-				"0gQuuCA2OyaQRNwR": {
-					"name": "Вонь",
-					"description": "<p>Существо, вошедшее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X] @Template[type:emanation|distance:10]{10} или начавшее в ней свой ход, должно совершить @Check[type:fortitude|dc:14]</p><hr><p>Успех: Существо получает временно иммунитет к Вони Ходока</p><p>Провал: Существо @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} на 1 раунд</p><p>Крит.Провал: как Провал, но также существо получает @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p>"
-				},
-				"742oUZV30i6otpgL": {
-					"name": "Вонючие Листья",
-					"description": "<p>Вонь ходока становится сильнее, если его листья смять или поджечь. Когда Ходок получает Дробящ.Урон или Огнен.Урон, Вонь усиливается до @Check[type:fortitude|dc:18], а Скрытность снижается до +4</p><p>Оба эффекта длятся 1 минуту</p>"
-				},
-				"H8wipabcGbcu7thF": {
-					"name": "Ползучий Сорняк",
-					"description": "<p>Ходок совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} до полвины своей скорости. Это `<u>движение</u>` не провоцирует реакции</p>"
-				},
-				"zNOKH6cGU4FaspAX": {
-					"name": "Лесная Поступь",
-					"description": "<p>Ходок игнорирует сложную местность и особо сложную местность, созданную немагической растительностью</p>"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Collapsing Porch": {
-			"name": "Прогнивший Помост",
-			"tokenName": "Прогнивший Помост",
-			"img": "systems/pf2e/icons/spells/shatter.webp",
-			"tokenImg": "systems/pf2e/icons/spells/shatter.webp",
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>или КС_0 после срабатывания</p>",
-			"hdescription": "<p>Наступившее на прогнивший участок существо провалится и упадёт с высоты 6ФТ на острые щепки и камни внизу</p>",
-			"hdisable": "<p>@Check[type:crafting|dc:12] (Обучен) для замены или перекрытия прогнивших досок</p><p>@Check[type:survival|dc:15] (Обучен) для обрушения досок с безопасного расстояния</p>",
-			"hroutine": "",
-			"hreset": "<p>Если участок помоста обвалился, существа по-прежнему могут упасть в образовавшуюся дыру, если помост не будет починен</p>",
-			"items": {
-				"71j8rIykcKntxLJQ": {
-					"name": "Обрушение",
-					"description": "<p>Вошедшее в выделенную область существо проваливается сквозь прогнившие доски и падает на острые щепки и твёрдые камни, получая @Damage[(1d4)[piercing],(1d6)[bludgeoning]]</p><p>Существо может совершить реакцию @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, чтобы избежать падения и урона.</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Magic Starknives Trap": {
-			"name": "Магические Ножи-Звезды",
-			"tokenName": "Магические Ножи-Звезды",
-			"img": "systems/pf2e/icons/spells/glyph-of-warding.webp",
-			"tokenImg": "systems/pf2e/icons/spells/glyph-of-warding.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>@Check[type:perception|dc:22], чтобы заметить пульсирующую в колоннах магическую энергию</p>",
-			"hdescription": "<p>Выгравированные на колоннах изображения ножей-звезд светятся и выпускают магические лезвия</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:21|traits:action:disable-a-device] (Эксперт) или @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG], чтобы отключить 1 колонну. Обезвреживание 4 из 6 колон отключит всю ловушку (Закл.Ранг 2 КС_21)</p>",
-			"hroutine": "<p>3 Действия</p><hr><p>В качестве каждого из действий ловушки в её ход изображение на одной из колонн начинается светиться, после чего совершает магический дистанционный @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} ножом-звездой по случайно выбранному существу в пределах дистанции. Существа могут получить @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Укрытие} от этого Удара, в том числе и от других колонн</p>",
-			"hreset": "<p>При отсутствие целей-существ ловушка отключается через 1 раунд и перезаряжается каждый день на закате</p>",
-			"items": {
-				"dwvQyKJ9gUWC4S3f": {
-					"name": "Атака Ножом-Звездой",
-					"description": "<p>Если существо пройдет между двух средних колонн, двери обоих выходов из помещения захлопнутся и закроются на замок; пока ловушка активна, двери можно выбить, совершив @Check[type:athletics|dc:23|name:Batter Open Door|traits:action:force-open] или нанеся им достаточный урон (Твердость_12, 48 ОЗ, ПП_24).</p><p>Одно из изображения ножа-звезды начинает светиться, отделяется от колонны и летит в случайно выбранное существо в пределах дистанции, совершая по нему магический дистанционный Удар. После этого ловушка совершает проверку инициативы, используя Мод.Скрытности +12</p>"
-				},
-				"O9himtaJvrfCALhE": {
-					"name": "Магический Нож-Звезда"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Tongues of Flame": {
-			"name": "Языки Пламени",
-			"tokenName": "Языки Пламени",
-			"img": "systems/pf2e/icons/spells/draconic-barrage.webp",
-			"tokenImg": "systems/pf2e/icons/spells/draconic-barrage.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>В потолке ведущих к перекрёстку коридоров спрятаны сопла, которые при срабатывании ловушки выпускают вдоль коридопа струю огня</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:22|traits:action:disable-a-device], чтобы отключить одно сопло</p><p>Две проверки @Check[type:thievery|dc:21|traits:action:pick-a-lock], чтобы отпереть дверь</p><p>@Check[type:thievery|dc:25|traits:action:disable-a-device], чтобы отключить ловушку с контрольной панели</p><p>Если навык Воровство героем менее Обучен, проверки автоматически проваливаются</p>",
-			"hroutine": "<p>4 Действия. Ловушка теряет по 1 действию в каждом ходу за каждое отключенное сопло.</p><hr><p>При каждом действии ловушки новое сопло выпускает поток пламени по своему коридору, нанося @Damage[3d6[fire]] всем существам, находящимся в коридоре на расстоянии 10 и менее ФТ от перекрёстка (@Check[type:reflex|dc:22|basic:true])</p><p>Существа на пересечении коридоров может получить урон от струи огня только один раз за раунд, даже если находится в области нескольких струй. Существо проходит только один спас, но при этом получает к нему штраф обстоятельства -2</p>",
-			"hreset": "<p>Ловушка деактивируется и перезаряжается через 10 минут. После этого как ловушка активируется в четвертый раз, в ней заканчивается горючая смесь и её необходимо перезарядить вручную</p>",
-			"items": {
-				"Fk4R8F6Vr2Lr7mZZ": {
-					"name": "Закрывающиеся Двери",
-					"description": "<p>Когда существо входит на перекрёсток, все четыре ведущие с перекрёстка двери закрываются и запираются, а ловушка совершает проверку инициативы Скрытность +13</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Nightmare Terrain": {
-			"name": "Кошмарная Местность",
-			"tokenName": "Кошмарная Местность",
-			"img": "systems/pf2e/icons/deity/Lamashtu.webp",
-			"tokenImg": "systems/pf2e/icons/deity/Lamashtu.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "<p>@Check[type:perception|dc:22|traits:action:seek], чтобы заметить слабую магическую ауру местности</p>",
-			"hdescription": "<p>Невинный на первый взгляд участок местности является взору нарушителей ужасные иллюзорные образы</p>",
-			"hdisable": "<p>Три успешные проверки в @Check[type:arcana|dc:22], @Check[type:nature|dc:22], @Check[type:occultism|dc:22] или @Check[type:religion|dc:22] (эксперт в одном из навыков), чтобы временно нарушить течение магической энергии</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Закл Ранг 3 КС_25)</p>",
-			"hroutine": "<p>1 Действие</p><hr><p>Всех существ в области ловушки, которые могут видеть, одолевают кошмарные образы. Каждое существо должно совершить @Check[type:will|dc:24]</p><hr><p><strong>Крит.Успех</strong>: Существо невредимо</p><p><strong>Успех</strong>: Существо @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2}</p><p><strong>Провал</strong>: Существо получает @Damage[(2d8+9)[mental]] и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3}</p><p><strong>Крит.Провал</strong>: Существо получает @Damage[(4d8+18)[mental]] и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 4}</p>",
-			"hreset": "<p>Кошмарные видения прекращаются сразу после того, как все существа выйдут из области, но ловушка немедленно перезаряжаются и насылает иллюзии на следующее вошедшее в неё существо</p>",
-			"items": {
-				"Fk4R8F6Vr2Lr7mZZ": {
-					"name": "Путь среди Кошмаров",
-					"description": "<p>Если существо, которое может видеть, входит в область на 10ФТ, опасность совершает проверку инициативы Скрытность +16</p>"
-				},
-				"112": {
-					"name": "111",
-					"description": "111"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				},
-				"114": {
-					"name": "111",
-					"description": "111"
-				},
-				"115": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Viper Urn": {
-			"name": "Горшок с Гадюкой",
-			"tokenName": "Горшок с Гадюкой",
-			"img": "systems/pf2e/icons/equipment/held-items/flask-of-fellowship.webp",
-			"tokenImg": "systems/pf2e/icons/equipment/held-items/flask-of-fellowship.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Когда кто-то тянет за растяжку, глиняный горшок со свернувшейся внутри гадюкой падает на пол и разбивается в дребезги</p>",
-			"hdisable": "<p>@Check[type:thievery|dc:15|traits:action:disable-a-device] (Обучен) позволяет уровновесить горшок</p><p>@Check[type:athletics|dc:15] позволяет осторожно опустить тяжелый горшок на пол, не разбив</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"dwvQyKJ9gUWC4S3f": {
-					"name": "Опрокидывание",
-					"description": "<p>Когда кто-то тянет за растяжку, горшок падает на существо в дверном проёме, совершая по нему Удар в ближнем бою, и разбивается, выпуская @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.lFlXmieuHTBIonhj] на клетку, где находилась ловушка. Шадюка атакует любое обнаруженное существо (за исключением `<u>растения</u>`)</p>"
-				},
-				"0SzWuQBdiVOEj4WC": {
-					"name": "Падающий Горшок"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		},
-		"Web Lurker Noose": {
-			"name": "Петля Паутинника",
-			"tokenName": "Петля Паутинника",
-			"img": "systems/pf2e/icons/spells/rope-trick.webp",
-			"tokenImg": "systems/pf2e/icons/spells/rope-trick.webp",
-			"actorLink": true,
-			"tokendisplayBars": 40,
-			"tokendisplayName": 20,
-			"hstealth": "",
-			"hdescription": "<p>Незаметная паутина на уровне горла цепляется за существо, которое в нее попадет.</p>",
-			"hdisable": "<p>@Check[type:survival|dc:18] (Обучен) или @Check[type:thievery|dc:18|traits:action:disable-a-device] (Эксперт), чтобы переставить паутину</p>",
-			"hroutine": "",
-			"hreset": "",
-			"items": {
-				"l8f0B8czvLKLsc06": {
-					"name": "Сжатие",
-					"description": "<p>Триггер: Существо наступает в квадрат с петлёй</p><hr><p>Петля паутинника наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Петлёй по спровоцировавшему существу</p>"
-				},
-				"NoYQle3HJatFQcgH": {
-					"name": "Петля",
-					"description": "<p>При попадание цель становится @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] и поднята от земли (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] КС_22)</p>"
-				},
-				"113": {
-					"name": "111",
-					"description": "111"
-				}
-			}
-		}
-	}
+    "label": "Неприятности в Отари",
+    "mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.vision",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+    "variants": [
+        {
+            "id": "Imprecise",
+            "name": "Неточный"
+        }
+    ],
+    "entries": {
+        "Brimstone Rat": {
+            "name": "Серная Крыса",
+            "tokenName": "Серная Крыса",
+            "UUID": "3Pa5JoY9PYdV5x1e",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "111"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Bugbear Marauder": {
+            "name": "Багбер-Разбойник",
+            "tokenName": "Багбер-Разбойник",
+            "UUID": "5iOgKbhW9zVnV1cr",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Нападение из Чащи",
+                    "description": "<p>Багбер совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до 10ФТ и совершает @UUID[Compendium.pf2e.action-macros.i95kcGLIQKOTsnv6]{Захватить} @UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{*} существо для которого он @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаружен}. При успехе, он еще наносит этому существу урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} <strong>Кулака</strong></p>",
+                    "id": "iIaK3retIHJkXgrh"
+                },
+                {
+                    "name": "Терзатель (+3)",
+                    "description": "<p>Багбер получает бонус обстоятельства +3 к броскам урона против существ, которых он @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схватил}</p>",
+                    "id": "i74S7XGGuuWnr88J"
+                },
+                {
+                    "name": "Длинный меч",
+                    "id": "wBuoAb6EXYtmwPmo"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "UMd6rwUlzKFS3lvJ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Hargrit Leadbuster": {
+            "name": "Харгрит Забоец",
+            "tokenName": "Харгрит Забоец",
+            "UUID": "6Ut7YjjLZADMU7NY",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Кинжал",
+                    "id": "qEbFimPOeE5aFvE7"
+                },
+                {
+                    "name": "Кинжал",
+                    "id": "8hva3s7KDSqeUTKh"
+                },
+                {
+                    "name": "Свиток Руническое оружие (Ранг 1)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.TFitdEOpQC4SzKQQ]{Руническое оружие(*)}</p><hr><p>Сотворение заклинания со свитка требует держать свиток в одной руке и активировать его с помощью активности @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания} используя обычно количество действие для этого заклинания.</p><p>Чтобы \"Сотворять заклинание\" со свитка, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель атаки заклинанием и КС заклинания. Заклинание так же получает признак соответствующего обычая колдовства (`<u>аркана</u>`, `<u>сакральный</u>`, `<u>оккультный</u>` или `<u>природный</u>`).</p><p>Любые физические материальные компоненты и стоимость предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со свитка. Для этого заклинания, вы должны заменить любой требуемый материальный компонент на жестовый. Если заклинание требует фокуса, то он должен быть у вас, чтобы колдовать со свитка.</p>",
+                    "id": "fq5jsjB5HkWo1JYN"
+                },
+                {
+                    "name": "Карта",
+                    "description": "<p>Среди вещей Харгрита обнаруживается доказательство злодеяний - карта окрестностей, на которой детально отмечены все нападения братьев Забойцев.</p><p>Кроме того, на ней изображен и Бормочущий замок, отмеченный как временный штаб братьев. Если герои по пути к лагерю лесорубов не заметили замка, они могут вернуться обратно, чтобы исследовать его.</p>",
+                    "id": "jgcCZHnrNbS5iREn"
+                },
+                {
+                    "name": "Религиозный символ Асмодея [Дерево]",
+                    "id": "HWwf9OfDEQH53F11"
+                }
+            ]
+        },
+        "Kobold Trapmaster": {
+            "name": "Кобольд-Ловец",
+            "tokenName": "Кобольд-Ловчец",
+            "UUID": "fhItdltCmcAZkvcI",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Поспешное Отступление",
+                    "description": "<p>Требование: Кобольд рядом с хотя бы 1 врагом</p><hr><p>Кобольд совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до своей Скорости + 5ФТ и получает бонус обстоятельства +2 к КБ против реакций провоцируемых этим `<u>движением</u>`. Он должен закончить это `<u>движение</u>` в пространстве находящемся не рядом с врагом.</p>",
+                    "id": "BH97LqHtuqNlighQ"
+                },
+                {
+                    "name": "Быстрая Ловушка",
+                    "description": "<p>Кобольд-Ловчий устанавливает один @UUID[Compendium.pf2e.equipment-srd.3V2U720YhW2nyGVx] в соседней клетке.</p>",
+                    "id": "QfnsBk0XQ6x9wJSe"
+                },
+                {
+                    "name": "Силок с Шипами",
+                    "description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>",
+                    "id": "ccosYJxMalM6rfN8"
+                },
+                {
+                    "name": "Силок с Шипами",
+                    "description": "<p>Эта простая ловушка состоит из скрытых шипов, которые полагаются на импульс существа, благодаря которому оно поранится или наколется на них во время вхождения в квадрат, получая @Damage[(2d8)[piercing]]</p><p style=\"text-align: center;\">@Check[type:reflex|showDC:all|dc:17|basic:true|traits:consumable,mechanical,snare,trap]</p>",
+                    "id": "nDnP6GpXjTbXqbXB"
+                },
+                {
+                    "name": "Короткий меч",
+                    "id": "QfWg8mYxqbJly84b"
+                },
+                {
+                    "name": "Копье",
+                    "id": "u4infcHTr2ku9Uxi"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Kotgar Leadbuster": {
+            "name": "Котгар Забоец",
+            "tokenName": "Котгар Забоец",
+            "UUID": "PhLxqnAIhCovfcXy",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Кувалда",
+                    "id": "aADQJA0W9vAaOmXT"
+                },
+                {
+                    "name": "Метательное Копье",
+                    "id": "gqjrPshyFW4Y4vrS"
+                },
+                {
+                    "name": "Жестокий Толчок",
+                    "description": "<p>Если Котгар уже атаковал в этот ход и держит двуручное оружие ближнего боя, он может совершить им @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}. Если он попадает по цели и её размер не больше `<u>среднего</u>`, он может оттолкнуть ее на 5ФТ (или на 10ФТ при крит.попадание) и переместиться вслед за целью.</p><p>Вне зависимости от того, попал Удар по цели ли нет, она становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} до конца текущего хота Котгара (но если это был Крит.Провал, этого не происходит)</p>",
+                    "id": "ll1kYssjNZ4S5vnd"
+                },
+                {
+                    "name": "Мощный Толчок",
+                    "description": "<p>Когда существо после отталкивания Котгара прекращает `<u>движение</u>`, натолкнувшись на объект, оно получает @Damage[(4)[bludgeoning]]</p>",
+                    "id": "I0AZeY12ooiFLuuW"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Kurnugian Jackal": {
+            "name": "Курнугийский Шакал",
+            "tokenName": "Курнугийский Шакал",
+            "UUID": "4GZsTkvuYADpcdmV",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<section class=\"А\"><p>`<u>Необычный</u>` `<u>Хаот_Зло</u>` `<u>Средний</u>` `<u>Чудовище</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Kurnugian_Jackal.webp\"></figure><p>В редких случаях, когда планы выстраиваются строго определенным образом, Ламашту дарует нечестивое благословение одному из шакалов на Материальном плане. Когда у такого шакала рождаются щенки, у одного из них прямо по центру лба обнаруживается третий глаз. Если такому щенку удается выжить и достичь зрелости, у него развиваются необычайные интеллектуальные и экстрасенсорные способности, и он превращается в полноценного курнугийского шакала, названного так в честь владений Матери Чудищ в Бездне. В изрядно поумневшем шакале пробуждается и немалое желание сеять хаос во имя своей демонической госпожи.</p><p>Когда @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV]{Курнугийский Шакал} достигает расцвета сил, он становится гораздо хитрее и вдвое крупнее своих обычных сородичей. Такие твари обожают рыскать по окраинам поселений, выискивая одиночек. Приметив добычу, они открывают третий глаз и гипнотизируют жертву, приманивая её поближе. Зачастую шакал заводит жертв в дебри и отпускает, оставляя ничего не понимающих и растерянных существ на произвол судьбы. Многим не удаётся найти дорогу домой, и они умирают от холода или зубов диких зверей, а шакал радостно за всем этим наблюдает. Судя по всему, шакала подпитывают страдания его добычи, но когда она всё же погибнет, он обглодает и её труп. Если же жертве удастся ускользнуть, шакал снова выйдет на охоту на следующую ночь.</p><p>Некоторые курнугийские шакалы становятся объектами обожания и поклонения для культистов Ламашту, а другие сами собирают последователей. К ним относятся крайне почтительно из-за внешней схожести с символом религии Ламашту, но кроме того, некоторые шакалы утверждают, что говорят от имени самой Матери Чудищ. Культисты, завершившиеся поддержкой курнугийского шакала, часто действуют наглее и агрессивнее, чем обычно.</p></section>",
+            "items": [
+                {
+                    "name": "Причинение Боли",
+                    "description": "<p>Когда цель под действием @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S] Шакала получает урон, Шакал может сфокусировать на ней свой третий глаз, чтобы усилить боль, увеличивая наносимый урона на [[/r 1d6]]{1d6}</p>",
+                    "id": "c6BnmJR85HoUuFbA"
+                },
+                {
+                    "name": "Гипнотический Взгляд",
+                    "description": "<p>Шакал открывает третий глаз, чтобы посмотреть на существо в пределах 30ФТ, способное его видеть. Цель получает штраф -2 Спас.Воля до конца следующего хода Шакала.</p><p>Шакал может таким образом смотреть только на одну цель одновременно. Применение этой способности на новую цель сраху прекращает эффект на прошлой цели. Шакал может прервать эту способность свободным действием примененяя способность @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.Nc23oEL8srJURx0P]</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.qFDiWpzk8cuwQGyH]{Эффект: Гипнотический Взгляд}</p>",
+                    "id": "73fsCGNUERkE3I1S"
+                },
+                {
+                    "name": "Удаление Воспоминаний",
+                    "description": "<p>Шакал завершает @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S], но сразу перед этим цель совершает&nbsp;@Check[type:will|dc:24] и при провале забывает обо всех совершенных Шакалом враждебным действиях к ней</p>",
+                    "id": "Nc23oEL8srJURx0P"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Morgrym Leadbuster": {
+            "name": "Моргрим Забоец",
+            "tokenName": "Моргрим Забоец",
+            "UUID": "lTVgdXuSv2B0yVVW",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Посох",
+                    "id": "QZb6NNceGC3aMTMO"
+                },
+                {
+                    "name": "Неживой Щит",
+                    "description": "<p>Если Моргрим становится целью атаки, когда рядом с ним находится существо-`<u>нежить</u>` более низкого уровня, Моргрим может поменяться с ним местами, чтобы целью атаки него стала `<u>нежить</u>`</p>",
+                    "id": "W6XkoyVR7QH9Z8lg"
+                },
+                {
+                    "name": "Арканная Связь",
+                    "description": "<p>1/День Моргрим может израсходовать заключенную в его Предмете Силы магию, чтобы выбрать одно из уже сотворенных им в этот день заклинаний и @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} его повторно.</p><p>Восстановление заклинания происходит мгновенно, но для его сотворения необходимо совершаить все необходимые действия</p>",
+                    "id": "7TD5aX6vNauxTw5T"
+                },
+                {
+                    "name": "Некромант",
+                    "description": "<p>Моргрим работает со зловещими силами жизни и смерти и сфокусировался на изучении магии, способной помочь ему в этом.</p><p>Он может @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх} как Заклинание Школы</p>",
+                    "id": "vlVKxFijTHI7cMPh"
+                },
+                {
+                    "name": "Палочка Страх (Ранг 1)",
+                    "description": "<p><em>@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх}</em></p><hr><p>Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.</p><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}</p><p><strong>Частота:</strong> раз в день, плюс перегрузка;</p><p><strong>Эффект:</strong> Вы @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Заклинание} указанного уровня.</p><hr><p><strong>Требования для создания:</strong> Предоставить сотворение заклинания указанного уровня.</p>",
+                    "id": "xQTqtFFkEcJJWCDW"
+                },
+                {
+                    "name": "Книга Заклинаний (Углубленный курс арканной мнемоники)",
+                    "description": "<p>Закл Ранг 1:</p><p>@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Приказ}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Порыв ветра}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{Магический снаряд}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Страх}</p><p>Закл Ранг 2:</p><p>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Кислотная стрела}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{Сопротивление энергии}</p>",
+                    "id": "5519SZd2Gx7R0pso"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Omblin Leadbuster": {
+            "name": "Омблин Забоец",
+            "tokenName": "Омблин Забоец",
+            "UUID": "m4jitI3J1QkjJq3H",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Рапира",
+                    "id": "QVjozo4fqxCzzccc"
+                },
+                {
+                    "name": "Ручной Арбалет",
+                    "id": "088hXYj7GIHJtlm7"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Orc Commander": {
+            "name": "Орк-Командир",
+            "tokenName": "Орк-Командир",
+            "UUID": "rRSIqZ5g3QRfaAQ0",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Боевой клич",
+                    "description": "<p>Издавая мощный рев, военачальник дает себе и всем союзным `<u>оркам</u>` в @Template[type:emanation|distance:60], бонус состояния +1 к броскам атак и урона, до начала следующего хода военачальника.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.Yqq4AkZ9lrm4CcID]{Эффект: Боевой клич}</p>",
+                    "id": "d5T3nJCRgqqqQvzD"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "uGR730eqkGcdJEfo"
+                },
+                {
+                    "name": "Кувалда",
+                    "id": "lLR6EoZxZTWifZUj"
+                }
+            ]
+        },
+        "Orc Scrapper": {
+            "name": "Орк-Солдат",
+            "tokenName": "Орк-Солдат",
+            "UUID": "MTI298bhLGYktyZX",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "",
+            "items": [
+                {
+                    "name": "Боевой топор",
+                    "id": "b200ENWSAzXNlSMf"
+                },
+                {
+                    "name": "Метательное копье",
+                    "id": "MKiOmYkknzLyP0Am"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Scalliwing": {
+            "name": "Змеекрыл",
+            "tokenName": "Змеекрыл",
+            "UUID": "l7wng1EXY7np8Hcu",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<section class=\"А\"><p>`<u>Необычный</u>` `<u>Хаот_Добро</u>` `<u>Маленький</u>` `<u>Чудовище</u>` `<u>Коатль</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Olli.webp\"></figure><p>Коатли - крупные крылатые змеи с разноцветным оперением и чешуей. Эти добрые существа часто помогают смертным и активно противостоят силам зла. Встреча с коатлем событие судьбоносное, но эти величественные существа ценят уединение и стараются не попадаться никому на глаза.</p><p>@UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.l7wng1EXY7np8Hcu]{Змеекрылы} - самые маленькие из коатлей. Они выглядят точь-в-точь как их более крупные сородичи, но размером не больше кошки и, несмотря на всю свою доброту, очень любят устраивать всякие шалости. В большинстве своем коатли мыслят глобально и стремятся сделать мир более добрым и справедливым или направлять смертные народы на путь общественного развития, но змеекрылы предпочитают действовать локально. Эти коатли берут на себя обязанность обучать добрых заклинателей магии и иногда становятся их фамильярами, называя себя при этом \"ассистентами\" и поправляя каждого, кто назовёт их как-то иначе.</p><p>Благодаря радужной чешуе и разноцветному оперению, многие считают змеекрылов очень красивыми существами, чем они и пользуются, чтобы располагать к себе окружающих. Из-за привлекательного внешнего вида некоторые из них слегка самовлюбленные, но для большинства небольшие размеры и отсутствие эффективных способов самозащиты становятся серьезной проблемой: более крупные существа не редко оказываются жестоки и пытаются поймать змеекрылов, чтобы превратить в питомцев или набить из них чучела. Сами змеекрылы прекрасно могут жить в одном и том же доме сколь угодно долго — при условии что находятся там добровольно. Для побега из заточения эти существа придумывают хитроумнейшие планы и часто действуют сообща с другими невольниками, чтобы в процессе ещё и причинить обидчику потрясающий ущерб, разломав всё, что плохо лежит.</p><p>Длина змеекрыла от кончика носа до кончика хвоста составляет около двух футов, размах их крыльев примерно такой же. Живут они столько же, сколько люди, и несмотря на то, что встречаются несколько чаще своих крупных сородичей, большинство смертных их никогда не видело.</p></section>",
+            "items": [
+                {
+                    "name": "Клыки",
+                    "id": "Ihvi8o6Gm4pwbhph"
+                },
+                {
+                    "name": "Блестящие Крылья",
+                    "description": "<p>Змеекрыл расправляет свои радужные крылья и завораживающе ими машет. Каждое существо в @Template[type:emanation|distance:30], которое может видеть Змеекрыла, должно совершить @Check[type:will|dc:20]</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода</p><p>Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода и должно потратить свое первое действие в следующий ход на любование змеекрылом</p><p>Крит.Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала своего следующего хода. В течение 1 минуты существо должно тратить свое первое действие каждый ход на любование змеекрылом. Этот эффект заканчивается, если змеекрыл атакует или использует другое враждебное действие против пораженного существа</p>",
+                    "id": "qunm5Cfit6Q1T4dI"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Stinkweed Shambler": {
+            "name": "Смердотравный Ходок",
+            "tokenName": "Смердотравный Ходок",
+            "UUID": "TIX9yDasefwJ4PxI",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "description": "<section class=\"А\"><p>`<u>Обычный</u>` `<u>Нейтрал_Зло</u>` `<u>Маленький</u>` `<u>Растение</u>`</p><figure class=\"ПРАВ\"><img src=\"modules/pf2e-ts-adv/in-otari/Stinkweed_Shambler.webp\"></figure><p>@UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.TIX9yDasefwJ4PxI]{Смердотравные ходоки} - это ожившие кучи гниющей растительности, пробивающейся из мест, пропитанных некротическими энергиями, где были навеки упокоены вурдалаки, заразные зомби и другая нечистая нежить. Там, где полегло множество живых мертвецов, может зародиться сразу до дюжины смердотравных ходоков, и эти существа прекрасно действуют сообща со сверхъестественной силой.</p><p>Смердотравные ходоки растут крайне быстро: сначала они выглядят как зеленые побеги со светло-зелеными листьями, но быстро принимают гуманоидный облик и становятся способными выкапываться из земли и неспешно передвигаться по округе. Эти существа получили свое прозвище из-за источаемой их листьями вони, которая лишь усиливается, если листья мнутся или рвутся. На их теле растут несколько мелких белых цветков с бутонами в виде крошечных черепов.</p><p>Хотя эти создания мерзкие, они действуют крайне хитро. Они любят хватать и истязать существ покрупнее, будь то домашний скот или его хозяева. Ходоки понимают, что не обладают особой силой, и их смрад способен выдать их присутствие. Поэтому они часто устраивают простые ловушки, такие как ямы или падающие камни. Эти существа не прочь позабавиться с жертвой, и веселье заканчивается только тогда, когда жертва умирает от многочисленных ран. Ходоки не поедают добычу, так как у них нет рта. Необходимые питательные вещества они получают, находясь на солнечном свету, и, по всей видимости, подпитываются страданиями истязаемой жертвы.</p><p>Большая часть смердотравных ходоков не растет выше 3 футов и весит всего 30 фунтов.</p></section>",
+            "items": [
+                {
+                    "name": "Лиана",
+                    "id": "56wLde8SVEfys89N"
+                },
+                {
+                    "name": "Семенная Коробочка",
+                    "id": "Wigs6zeZoSmogj8P"
+                },
+                {
+                    "name": "Вонь",
+                    "description": "<p>Существо, вошедшее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X] @Template[type:emanation|distance:10]{10} или начавшее в ней свой ход, должно совершить @Check[type:fortitude|dc:14]</p><hr><p>Успех: Существо получает временно иммунитет к Вони Ходока</p><p>Провал: Существо @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} на 1 раунд</p><p>Крит.Провал: как Провал, но также существо получает @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p>",
+                    "id": "0gQuuCA2OyaQRNwR"
+                },
+                {
+                    "name": "Вонючие Листья",
+                    "description": "<p>Вонь ходока становится сильнее, если его листья смять или поджечь. Когда Ходок получает Дробящ.Урон или Огнен.Урон, Вонь усиливается до @Check[type:fortitude|dc:18], а Скрытность снижается до +4</p><p>Оба эффекта длятся 1 минуту</p>",
+                    "id": "742oUZV30i6otpgL"
+                },
+                {
+                    "name": "Ползучий Сорняк",
+                    "description": "<p>Ходок совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} до полвины своей скорости. Это `<u>движение</u>` не провоцирует реакции</p>",
+                    "id": "H8wipabcGbcu7thF"
+                },
+                {
+                    "name": "Лесная Поступь",
+                    "description": "<p>Ходок игнорирует сложную местность и особо сложную местность, созданную немагической растительностью</p>",
+                    "id": "zNOKH6cGU4FaspAX"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Collapsing Porch": {
+            "name": "Прогнивший Помост",
+            "tokenName": "Прогнивший Помост",
+            "img": "systems/pf2e/icons/spells/shatter.webp",
+            "tokenImg": "systems/pf2e/icons/spells/shatter.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>или КС_0 после срабатывания</p>",
+            "hdescription": "<p>Наступившее на прогнивший участок существо провалится и упадёт с высоты 6ФТ на острые щепки и камни внизу</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:12] (Обучен) для замены или перекрытия прогнивших досок</p><p>@Check[type:survival|dc:15] (Обучен) для обрушения досок с безопасного расстояния</p>",
+            "hroutine": "",
+            "hreset": "<p>Если участок помоста обвалился, существа по-прежнему могут упасть в образовавшуюся дыру, если помост не будет починен</p>",
+            "items": [
+                {
+                    "name": "Обрушение",
+                    "description": "<p>Вошедшее в выделенную область существо проваливается сквозь прогнившие доски и падает на острые щепки и твёрдые камни, получая @Damage[(1d4)[piercing],(1d6)[bludgeoning]]</p><p>Существо может совершить реакцию @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, чтобы избежать падения и урона.</p>",
+                    "id": "71j8rIykcKntxLJQ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Magic Starknives Trap": {
+            "name": "Магические Ножи-Звезды",
+            "tokenName": "Магические Ножи-Звезды",
+            "img": "systems/pf2e/icons/spells/glyph-of-warding.webp",
+            "tokenImg": "systems/pf2e/icons/spells/glyph-of-warding.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>@Check[type:perception|dc:22], чтобы заметить пульсирующую в колоннах магическую энергию</p>",
+            "hdescription": "<p>Выгравированные на колоннах изображения ножей-звезд светятся и выпускают магические лезвия</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:21|traits:action:disable-a-device] (Эксперт) или @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG], чтобы отключить 1 колонну. Обезвреживание 4 из 6 колон отключит всю ловушку (Закл.Ранг 2 КС_21)</p>",
+            "hroutine": "<p>3 Действия</p><hr><p>В качестве каждого из действий ловушки в её ход изображение на одной из колонн начинается светиться, после чего совершает магический дистанционный @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} ножом-звездой по случайно выбранному существу в пределах дистанции. Существа могут получить @UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Укрытие} от этого Удара, в том числе и от других колонн</p>",
+            "hreset": "<p>При отсутствие целей-существ ловушка отключается через 1 раунд и перезаряжается каждый день на закате</p>",
+            "items": [
+                {
+                    "name": "Атака Ножом-Звездой",
+                    "description": "<p>Если существо пройдет между двух средних колонн, двери обоих выходов из помещения захлопнутся и закроются на замок; пока ловушка активна, двери можно выбить, совершив @Check[type:athletics|dc:23|name:Batter Open Door|traits:action:force-open] или нанеся им достаточный урон (Твердость_12, 48 ОЗ, ПП_24).</p><p>Одно из изображения ножа-звезды начинает светиться, отделяется от колонны и летит в случайно выбранное существо в пределах дистанции, совершая по нему магический дистанционный Удар. После этого ловушка совершает проверку инициативы, используя Мод.Скрытности +12</p>",
+                    "id": "dwvQyKJ9gUWC4S3f"
+                },
+                {
+                    "name": "Магический Нож-Звезда",
+                    "id": "O9himtaJvrfCALhE"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Tongues of Flame": {
+            "name": "Языки Пламени",
+            "tokenName": "Языки Пламени",
+            "img": "systems/pf2e/icons/spells/draconic-barrage.webp",
+            "tokenImg": "systems/pf2e/icons/spells/draconic-barrage.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>В потолке ведущих к перекрёстку коридоров спрятаны сопла, которые при срабатывании ловушки выпускают вдоль коридопа струю огня</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:22|traits:action:disable-a-device], чтобы отключить одно сопло</p><p>Две проверки @Check[type:thievery|dc:21|traits:action:pick-a-lock], чтобы отпереть дверь</p><p>@Check[type:thievery|dc:25|traits:action:disable-a-device], чтобы отключить ловушку с контрольной панели</p><p>Если навык Воровство героем менее Обучен, проверки автоматически проваливаются</p>",
+            "hroutine": "<p>4 Действия. Ловушка теряет по 1 действию в каждом ходу за каждое отключенное сопло.</p><hr><p>При каждом действии ловушки новое сопло выпускает поток пламени по своему коридору, нанося @Damage[3d6[fire]] всем существам, находящимся в коридоре на расстоянии 10 и менее ФТ от перекрёстка (@Check[type:reflex|dc:22|basic:true])</p><p>Существа на пересечении коридоров может получить урон от струи огня только один раз за раунд, даже если находится в области нескольких струй. Существо проходит только один спас, но при этом получает к нему штраф обстоятельства -2</p>",
+            "hreset": "<p>Ловушка деактивируется и перезаряжается через 10 минут. После этого как ловушка активируется в четвертый раз, в ней заканчивается горючая смесь и её необходимо перезарядить вручную</p>",
+            "items": [
+                {
+                    "name": "Закрывающиеся Двери",
+                    "description": "<p>Когда существо входит на перекрёсток, все четыре ведущие с перекрёстка двери закрываются и запираются, а ловушка совершает проверку инициативы Скрытность +13</p>",
+                    "id": "Fk4R8F6Vr2Lr7mZZ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Nightmare Terrain": {
+            "name": "Кошмарная Местность",
+            "tokenName": "Кошмарная Местность",
+            "img": "systems/pf2e/icons/deity/Lamashtu.webp",
+            "tokenImg": "systems/pf2e/icons/deity/Lamashtu.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>@Check[type:perception|dc:22|traits:action:seek], чтобы заметить слабую магическую ауру местности</p>",
+            "hdescription": "<p>Невинный на первый взгляд участок местности является взору нарушителей ужасные иллюзорные образы</p>",
+            "hdisable": "<p>Три успешные проверки в @Check[type:arcana|dc:22], @Check[type:nature|dc:22], @Check[type:occultism|dc:22] или @Check[type:religion|dc:22] (эксперт в одном из навыков), чтобы временно нарушить течение магической энергии</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Закл Ранг 3 КС_25)</p>",
+            "hroutine": "<p>1 Действие</p><hr><p>Всех существ в области ловушки, которые могут видеть, одолевают кошмарные образы. Каждое существо должно совершить @Check[type:will|dc:24]</p><hr><p><strong>Крит.Успех</strong>: Существо невредимо</p><p><strong>Успех</strong>: Существо @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2}</p><p><strong>Провал</strong>: Существо получает @Damage[(2d8+9)[mental]] и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3}</p><p><strong>Крит.Провал</strong>: Существо получает @Damage[(4d8+18)[mental]] и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 4}</p>",
+            "hreset": "<p>Кошмарные видения прекращаются сразу после того, как все существа выйдут из области, но ловушка немедленно перезаряжаются и насылает иллюзии на следующее вошедшее в неё существо</p>",
+            "items": [
+                {
+                    "name": "Путь среди Кошмаров",
+                    "description": "<p>Если существо, которое может видеть, входит в область на 10ФТ, опасность совершает проверку инициативы Скрытность +16</p>",
+                    "id": "Fk4R8F6Vr2Lr7mZZ"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "112"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "114"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "115"
+                }
+            ]
+        },
+        "Viper Urn": {
+            "name": "Горшок с Гадюкой",
+            "tokenName": "Горшок с Гадюкой",
+            "img": "systems/pf2e/icons/equipment/held-items/flask-of-fellowship.webp",
+            "tokenImg": "systems/pf2e/icons/equipment/held-items/flask-of-fellowship.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Когда кто-то тянет за растяжку, глиняный горшок со свернувшейся внутри гадюкой падает на пол и разбивается в дребезги</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:15|traits:action:disable-a-device] (Обучен) позволяет уровновесить горшок</p><p>@Check[type:athletics|dc:15] позволяет осторожно опустить тяжелый горшок на пол, не разбив</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Опрокидывание",
+                    "description": "<p>Когда кто-то тянет за растяжку, горшок падает на существо в дверном проёме, совершая по нему Удар в ближнем бою, и разбивается, выпуская @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.lFlXmieuHTBIonhj] на клетку, где находилась ловушка. Шадюка атакует любое обнаруженное существо (за исключением `<u>растения</u>`)</p>",
+                    "id": "dwvQyKJ9gUWC4S3f"
+                },
+                {
+                    "name": "Падающий Горшок",
+                    "id": "0SzWuQBdiVOEj4WC"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        },
+        "Web Lurker Noose": {
+            "name": "Петля Паутинника",
+            "tokenName": "Петля Паутинника",
+            "img": "systems/pf2e/icons/spells/rope-trick.webp",
+            "tokenImg": "systems/pf2e/icons/spells/rope-trick.webp",
+            "actorLink": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Незаметная паутина на уровне горла цепляется за существо, которое в нее попадет.</p>",
+            "hdisable": "<p>@Check[type:survival|dc:18] (Обучен) или @Check[type:thievery|dc:18|traits:action:disable-a-device] (Эксперт), чтобы переставить паутину</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "name": "Сжатие",
+                    "description": "<p>Триггер: Существо наступает в квадрат с петлёй</p><hr><p>Петля паутинника наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Петлёй по спровоцировавшему существу</p>",
+                    "id": "l8f0B8czvLKLsc06"
+                },
+                {
+                    "name": "Петля",
+                    "description": "<p>При попадание цель становится @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei] и поднята от земли (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] КС_22)</p>",
+                    "id": "NoYQle3HJatFQcgH"
+                },
+                {
+                    "name": "111",
+                    "description": "111",
+                    "id": "113"
+                }
+            ]
+        }
+    }
 }
