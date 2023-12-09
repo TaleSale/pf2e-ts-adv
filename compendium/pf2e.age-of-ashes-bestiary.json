@@ -19,6 +19,9 @@
         "actorLink": "prototypeToken.actorLink"
     },
     "entries": {
+        "Книга 1================================================================================================": {
+            "name": "==========================================================================================="
+        },
         "Hellcrown": {
             "name": "Адский Шлем",
             "tokenName": "Адский Шлем",
@@ -580,81 +583,135 @@
                 }
             ]
         },
+        "Книга 2================================================================================================": {
+            "name": "==========================================================================================="
+        },
         "Ekujae Guardian": {
             "name": "Экуджа",
             "tokenName": "Экуджа",
-            "randomImg": true,
+            "UUID": "NwNu2yvMnbvPvpY8",
+            "prependAdjective": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "49agY84bFYE0480h",
+                    "name": "Кинжал (Холодное Железо)"
+                },
+                {
+                    "id": "H4swqBH4RI4TQYpt",
+                    "name": "Кинжал (Холодное Железо)"
+                },
+                {
+                    "id": "gTfs4nOLCXGSkmgU",
+                    "name": "Кинжал (Серебро)"
+                },
+                {
+                    "id": "21SVgDPf6zOVZqq8",
+                    "name": "Кинжал (Серебро)"
+                },
+                {
+                    "id": "dI9RG9Y1v3nG3JkI",
+                    "name": "Длинный Лук"
+                },
+                {
+                    "id": "mXRRlIf5fS8NO5I1",
+                    "name": "Лесная Поступь",
+                    "description": "<p>Экуджа игнорирует любую Сложная Местность связанную с растениями</p>"
+                },
+                {
+                    "id": "YeFEaw3Ja6zgrf9o",
+                    "name": "Двойной разрез",
+                    "description": "<p>Экуджа совершает два @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} по одной и той же цели, по одному каждым из своих кинжалов. Страж объединяет урон от любых попадающих атак и применяет точный урон, сопротивление и слабости только один раз.</p><hr><p>Обе атаки засчитываются в Штраф Множественной Атаки, но штраф увеличивается только после обеих атак</p>"
+                },
+                {
+                    "id": "115",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 }
             ]
         },
         "Grippli Archer": {
             "name": "Гриппли-Лучник",
-            "tokenName": "Гриппли-Лучник",
-            "randomImg": true,
+            "tokenName": "Лучник",
+            "UUID": "5DwiLZJf6KxpIjDq",
+            "prependAdjective": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "pfkbWfIp6yg9hS9F",
+                    "name": "Короткий меч"
+                },
+                {
+                    "id": "LM8A2eiEIyuB9hk2",
+                    "name": "Короткий лук"
+                },
+                {
+                    "id": "Qbd7q1jTcWs61OsF",
+                    "name": "Град Стрел",
+                    "description": "<p>Гриппли-Лучник наносит три дистанционных удара из короткого лука по одной цели. Объедините урон, чтобы рассчитать сопротивления и слабости</p>"
+                },
+                {
+                    "id": "114",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Grippli Greenspeaker": {
             "name": "Гриппли - Говорящий с Травой",
             "tokenName": "Говорящий с Травой",
-            "randomImg": true,
+            "UUID": "X2edjYEqAHsdQc6L",
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
-                }
-            ]
-        },
-        "Charau-ka Dragon Priest": {
-            "name": "Чарау-Ка Жрец Дракона",
-            "tokenName": "Жрец Дракона",
-            "randomImg": true,
-            "tokenvision": true,
-            "tokendisplayBars": 40,
-            "tokendisplayName": 20,
-            "items": [
-                {
-                    "name": "Метание Чего-то",
-                    "id": "Thrown Rock"
+                    "id": "Kp4oqpyn0RuzJfDQ",
+                    "name": "Посох"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
-                }
-            ]
-        },
-        "Living Sap": {
-            "name": "Живая Смола",
-            "tokenName": "Живая Смола",
-            "randomImg": true,
-            "tokenvision": true,
-            "tokendisplayBars": 40,
-            "tokendisplayName": 20,
-            "items": [
+                    "id": "0ew9olScumzeKG3i",
+                    "name": "Дротик"
+                },
                 {
+                    "id": "LLzxyBASOUnyUmZk",
+                    "name": "Эмпатия растений",
+                    "description": "<p>Говорящий с Травой может использовать Дипломатию, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Произвести впечатление} и сделать очень простые @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Просьбы} к растениям и грибам.</p>"
+                },
+                {
+                    "id": "114",
                     "name": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
@@ -662,26 +719,107 @@
             "name": "Грязевой Тарантул",
             "tokenName": "Гряз.Тарантул",
             "description": "<h2 style=\"text-align: center;\">Грязевой Тарантул</h2>\n<p>Тарантулы - хищник засады, но нападают они на добычу на открытом воздухе.</p>\n<hr />\n<h2 style=\"text-align: center;\">Паук (Общее)</h2>\n<p>Пауки сильно различаются по размеру, но все они в той или иной степени ядовиты.</p>\n<hr />\n<h2 style=\"text-align: center;\">Ассоциированные Монстры</h2>\n<p><img class=\"thumbnail\" style=\"float: left; border: none;\" src=\"https://pf2e-ru-translation.readthedocs.io/ru/latest/_images/shadow-grasp.svg\" width=\"50\" height=\"50\" /> Хотя они являются паразитами, неспособными формировать настоящие союзы, пауки появляются рядом со многими типами существ, включая @UUID[Compendium.pf2e.pathfinder-bestiary.ZMr28tFTA5NUcBTi]{Эттеркапов}.Заклинатели иногда призывают пауков, используя @UUID[Compendium.pf2e.spells-srd.4YnON9JHYqtLzccu], и паучьи стаи имеют свойство появляться где угодно в самое неподходящее время.</p>",
-            "randomImg": true,
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "MxiNEcQrKuXmCuWD",
+                    "name": "Клыки"
+                },
+                {
+                    "id": "Hair Barrage",
+                    "name": "Колючие Волоски",
+                    "description": "<p>Тарантул взмахивает ногами, выбрасывая колючие волоски в @Template[type:cone|distance:15]. Это наносит @Damage[4d6[piercing]] с @Check[type:reflex|dc:25|basic:true]</p>"
+                },
+                {
+                    "id": "Giant Tarantula Venom",
+                    "name": "Яд Тарантула",
+                    "description": "<p style=\"text-align: center;\">@Check[type:fortitude|dc:23]</p><p><strong>Макс.Продолж.:</strong> 8 Раундов</p><p><strong>Стадия 1:</strong> @Damage[(1d6)[poison]] (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[(1d6)[poison]], @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} (1 Раунд)</p><p><strong>Стадия 3:</strong> @Damage[(1d6)[poison]], @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} (1 Раунд)</p><p><strong>Стадия 4:</strong> @Damage[(1d6)[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} (1 Раунд)</p>"
+                },
+                {
+                    "id": "114",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Living Sap": {
+            "name": "Живая Смола",
+            "tokenName": "Живая Смола",
+            "UUID": "YdLf7y2ZHudpjWx9",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "gEAiXMZU4XPY9yTM",
+                    "name": "Поглотить",
+                    "description": "<p>Спас.: @Check[type:reflex|dc:24]</p><p>Урон: @Damage[(2d6)[acid]]</p><div data-visibility=\"gm\"><p>@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться}: КС_24</p><p>Разрыв: 10</p></div><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+                },
+                {
+                    "id": "Adhesive Body",
+                    "name": "Клейкое Тело",
+                    "description": "<p>Существо, которое совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} по Живой Смоле оружием ближнего боя, должно получить успех в @Check[type:reflex|dc:24], иначе оно будет обезоружено от этого оружия. Если существо получает крит.провал, оружие оказывается в пространстве Живой Смолы.</p><p>Существо, которое попадает по Живой Смоле безоружной атакой, должно получить успех в @Check[type:reflex|dc:24], иначе станет @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен} Живым Смолой до конца своего следующего хода.</p>"
+                },
+                {
+                    "id": "Entangling Residue",
+                    "name": "Клейкая Ложноножка",
+                    "description": "<p>Существо по которому попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Ложноножкой Живой Смолы, должно получить успех в @Check[type:reflex|dc:24], иначе оно станет @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен} до конца следующего хода Живой Смолы</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Nketiah": {
             "name": "Нкетия",
             "tokenName": "Нкетия",
-            "randomImg": true,
+            "UUID": "NK49bh04355Lgz5r",
+            "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
+                {
+                    "id": "agUYP6p6kB6OegCM",
+                    "name": "Посох зелени"
+                },
+                {
+                    "id": "OBpAWIEWPW9DSQMx",
+                    "name": "Длинный лук"
+                },
+                {
+                    "id": "+1 Status to All Saves vs. Mental",
+                    "name": "Состояние: +1 Спас. пр. Ментальный"
+                },
+                {
+                    "id": "EorcRyybCCQIkYR8",
+                    "name": "Лесной эльф",
+                    "description": "<p>Нкетия может совершать `движение` с половиной своей скорости при успехе @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} и на полной скорости при критическом успехе.</p><p>Она всегда может укрыться в лесной местности, даже если она не находится рядом со стеной или препятствием.</p>"
+                },
+                {
+                    "id": "bc7DxJeQl2oX946w",
+                    "name": "Лесная Поступь",
+                    "description": "<p>Нкетия игнорирует любую Сложная Местность связанную с растениями</p>"
+                },
                 {
                     "name": "Рука-Лоза",
                     "id": "Vine Lash"
@@ -693,59 +831,196 @@
                 }
             ]
         },
-        "Bida": {
-            "name": "Бида",
-            "tokenName": "Бида",
-            "randomImg": true,
+        "Charau-ka Dragon Priest": {
+            "name": "Чарау-Ка Жрец Дракона",
+            "tokenName": "Жрец Дракона",
+            "UUID": "T3UVfAfcvAMe9rih",
+            "prependAdjective": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "LbVTFpHTRiZGGVE9",
+                    "name": "Длинный меч"
+                },
+                {
+                    "id": "V7VvhfarrGzmaDnf",
+                    "name": "Укус"
+                },
+                {
+                    "id": "mSAR7TLZJBzuU46P",
+                    "name": "Метание Чего-То"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Жрец выдыхает @Template[type:cone|distance:30] @Damage[7d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:23|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}</p><section class=\"secret\"><p>It can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "JZbnTWFBrM3l78qS",
+                    "name": "Удар Вулкана",
+                    "description": "<p>Требование: Жрец стоит на поверхности</p><hr><p>Жрец ударяет кулаками по поверхности, в результате чего из поверхности вырывается огонь. Каждое существо, не являющийся последователем Дахака и стоящий на поверхности в @Template[type:emanation|distance:15], должен совершить @Check[type:reflex|dc:25|traits:damaging-effect] или упасть @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60] и получить [[/r {1d6[bludgeoning],2d6[fire]}]]</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Bida": {
+            "name": "Бида",
+            "tokenName": "Бида",
+            "UUID": "jO2fGZayk4R1AzYK",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "AxvNayOm3jws9vMf",
+                    "name": "Сжимать",
+                    "description": "<p>Урон: @Damage[(1d6+6)[bludgeoning]]</p><p>Спас.: @Check[type:fortitude|dc:26|basic:true]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Eight Coils",
+                    "name": "Вместительные Кольца",
+                    "description": "<p>Бида может наносить @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Хвостом, даже имея @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченных} им существ. Бида может схватить Хвостом до восьми `средних` или меньших существ; она также может схватить `больших` существ, но для этого они считаются как четыре `средних` существа.</p>"
+                },
+                {
+                    "id": "Mask Settlement",
+                    "name": "Скрыть Поселение",
+                    "description": "<p>Сосредоточившись на 4 часа, бида скрывает небольшое поселение. Это эффект заклинания&nbsp;<em>@UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX] </em>Ранг 5, за исключением того, что область представляет собой @Template[type:burst|distance:500], и существа тоже стоновятся @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Невидимыми}, находясь внутри построек в этой области.</p><p>Бида может одновременно скрывать только одно поселение и должна концентрироваться на эффекте в течение 10 минут в начале каждого дня, чтобы поддерживать иллюзию.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Gerhard Pendergrast": {
             "name": "Герхард Пендерграст",
             "tokenName": "Герхард",
-            "tokenvision": true,
-            "tokendisplayBars": 40,
-            "tokendisplayName": 20,
-            "randomImg": false,
-            "items": [
-                {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
-                }
-            ]
-        },
-        "Hezle": {
-            "name": "Хезл",
-            "tokenName": "Хезл",
-            "randomImg": true,
+            "UUID": "UQDxkvqXKg03ESTQ",
+            "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "kVU7cb7Ts2sMfPyu",
+                    "name": "Хлыст"
+                },
+                {
+                    "id": "seHBkvEFgGTlfAtt",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "6sPaytqHJB4OlRwk",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Whiplash",
+                    "name": "Взмах Кнута",
+                    "description": "<p>Триггер: Существо в пределах 10Фт от Герхарда совершает действие с признаком `Движение`, чтобы покинуть клетку.</p><hr><p>Герхард совершает @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Опрокинуть} спровоцировавшее существо. В случае успеха существо также получает урон, как если бы Герхард совершил @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} кнута, а если существо летело, оно падает на 30ФТ</p>"
+                },
+                {
+                    "id": "29nZUXJwv5knWe9B",
+                    "name": "Дрянной Мушкет",
+                    "description": "<p>Герхард производит взрывной выстрел из своего мушкета, который наносит @Damage[4d6[bludgeoning],2d10[fire]] всем существам в @Template[type:cone|distance:30]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:26|basic:true]</p><p>При выстреле из мушкета Герхард должен получить успех в @Check[type:crafting|dc:20] или @Check[type:engineering-lore|dc:20], иначе оружие взорвется, нанеся ему столько же урона, что и существам в конусе, и уничтожив себя. Если кто-то, кроме Герхарда, использует оружие, он должен добиться крит.успеха в проверке. Успешная проверка@Check[type:crafting|dc:22] достаточна, чтобы подтвердить нестабильность оружия, если кто-то осмотрит его заранее.</p><p>Для перезарядки мушкета требуется 3 действия @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}: добавление 1 дозы пороха, добавление 1 канистры с картечью и упаковка содержимого.</p>"
+                },
+                {
+                    "id": "Ig3nqmVhvxcS8az0",
+                    "name": "Дрянной Мушкет",
+                    "description": "<p><strong>Активация</strong> <span class=\"action-glyph\">2</span></p><p>Герхард производит взрывной выстрел из своего мушкета, который наносит @Damage[4d6[bludgeoning],2d10[fire]] всем существам в @Template[type:cone|distance:30]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:26|basic:true]</p><p>При выстреле из мушкета Герхард должен получить успех в @Check[type:crafting|dc:20] или @Check[type:engineering-lore|dc:20], иначе оружие взорвется, нанеся ему столько же урона, что и существам в конусе, и уничтожив себя. Если кто-то, кроме Герхарда, использует оружие, он должен добиться крит.успеха в проверке. Успешная проверка@Check[type:crafting|dc:22] достаточна, чтобы подтвердить нестабильность оружия, если кто-то осмотрит его заранее.</p><p>Для перезарядки мушкета требуется 3 действия @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}: добавление 1 дозы пороха, добавление 1 канистры с картечью и упаковка содержимого.</p>"
+                },
+                {
+                    "id": "Whip Swing",
+                    "name": "Качаться на Кнуте",
+                    "description": "<p>Требование: Герхард находится в джунглях, густом лесу или в зоне с многочисленными потолочными балками.</p><hr><p>Герхард использует свой кнут, чтобы ударить вверх и обхватить нависающую ветку дерева; Затем он раскачивается на расстояние до 30ФТ по прямой и должен закончить `движение` на твердой земле или упасть.</p>"
+                },
+                {
+                    "id": "Manly Left Hook",
+                    "name": "Хук Слева",
+                    "description": "<p>Существо, по которому Герхард попадает Ударом Кулака, должно получить успех в @Check[type:fortitude|dc:23], иначе оно будет @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 1} (или @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 3} при крит.провал).</p>"
+                },
+                {
+                    "id": "115",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 }
             ]
         },
         "Jahsi": {
             "name": "Джахси",
             "tokenName": "Джахси",
-            "randomImg": true,
+            "UUID": "kciXaXw31gHA3gZl",
+            "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
+                {
+                    "id": "MZs5uxec71OZQSzk",
+                    "name": "Кинжал (Холодное Железо)"
+                },
+                {
+                    "id": "fRTC42KFOaC3bfxs",
+                    "name": "Кинжал (Холодное Железо)"
+                },
+                {
+                    "id": "2Xd0tA3QaFBV8Nwk",
+                    "name": "Кинжал (Серебро)"
+                },
+                {
+                    "id": "QStNE8d3elauT8lt",
+                    "name": "Кинжал (Серебро)"
+                },
+                {
+                    "id": "hRrW3wtTTKj4Kv6s",
+                    "name": "Длинный Лук"
+                },
+                {
+                    "id": "NKkENtFd0bUL6yx7",
+                    "name": "Лесная Поступь",
+                    "description": "<p>Экуджа игнорирует любую Сложная Местность связанную с растениями</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                },
                 {
                     "name": "Золотое Украшение Ке-Леди",
                     "id": "Gold Jewelry"
@@ -760,29 +1035,143 @@
         "Racharak": {
             "name": "Рачарак",
             "tokenName": "Рачарак",
-            "randomImg": true,
+            "UUID": "60aeSJvu09ZM3SPx",
+            "prependAdjective": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "Tail Swipe",
+                    "name": "Хвост-Хлыст",
+                    "description": "<p>Триггер: Враг в пределах досягаемости Жала_Хвоста использует действие `<u>движения</u>` или покидает квадрат в пределах досягаемости Жала_Хвоста во время действия `<u>движения</u>`, которое оно использует.</p><hr><p>Вы совершаете @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцир. врагу своим Жалом_Хвостом со штрафом -2. Если @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} попадает, существо прерывает спровоцир. действие `<u>движения</u>`.</p>"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Рачарак выдыхает @Template[type:cone|distance:30] который всем существам в области наносит @Damage[9d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:26|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раунда}</p><section class=\"secret\"><p>She can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}</p></section>"
+                },
+                {
+                    "id": "o9eWNluFGesUiB9v",
+                    "name": "Драконье неистовство",
+                    "description": "<p>Рачарак совершает два Удара Когтями и один Удар Укусом в любом порядке</p>"
+                },
+                {
+                    "id": "Thrown Rock",
+                    "name": "Метание Чего-То"
+                },
+                {
+                    "id": "115",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                }
+            ]
+        },
+        "Hezle": {
+            "name": "Хезл",
+            "tokenName": "Хезл",
+            "UUID": "MWQmOXxGcbaMsXDD",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "5UfaoE8p4Wo5eUod",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "yXL2GLDidWh51HPb",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "JRd0vnYlb4G88YJ6",
+                    "name": "Арбалет"
+                },
+                {
+                    "id": "k8bgECKZjROUF5gA",
+                    "name": "Помох Огня"
+                },
+                {
+                    "id": "cS1gFj0x5OkGUnhg",
+                    "name": "Яд Виверны (Болты)",
+                    "description": "<p>Правильно собранный и хранимый, яд из жала виверны является очень эффективным и точным.</p><hr><p><strong>Активация:</strong> <span class=\"pf2-icon\">D</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F] (`ранение`)</p><p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:26|traits:alchemical,consumable,injury,poison]</p><p><strong>Макс.продолжительность:</strong> 6 раундов</p><p><strong>Стадия 1:</strong> @Damage[5d6[poison]] (1 раунд)</p><p><strong>Стадия 2:</strong> @Damage[6d6[poison]] (1 раунд)</p><p><strong>Стадия 3:</strong> @Damage[8d6[poison]] (1 раунд)</p>"
+                },
+                {
+                    "id": "Kobold Explosives",
+                    "name": "Кобольдская Взрывчатка",
+                    "description": "<p>Стоимость: 1 Насыщенные Реагенты</p><hr><p>Хезл быстро собирает взрывную бомбу и швыряет ее на расстояние до 30ФТ. Все существа в @Template[type:burst|distance:5] получают @Damage[5d6[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:26|basic:true|traits:interact]</p>"
+                },
+                {
+                    "id": "Smoky Retreat",
+                    "name": "Дымное Отступление",
+                    "description": "<p>Стоимость: 1 Насыщенные Реагенты</p><p>Требования: Хезл должна находиться рядом хотя бы с одним врагом.</p><hr><p>Хезл бросает смесь специальных порошков в центр своего пространства, создавая шлейф дыма, заполняющий @Template[type:burst|distance:5] до конца своего хода, что делает ее @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Спрятан}. Затем она немедленно совершает @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Красться}, но должна закончить свое `движение` в пространстве, не прилегающем к врагам.</p><p>Все существа, кроме Хезл в облаке дыма, должны совершить @Check[type:fortitude|dc:26]</p><hr><p>Крит.Успех. Существо невредимо</p><p>Успех: Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}</p><p>Крит.Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 3} и @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}</p>"
+                },
+                {
+                    "id": "Staff Mastery",
+                    "name": "Мастерство с Посохом",
+                    "description": "<p>Хотя Хезл не может совершать @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}, ее одержимость огнем и долгие часы тренировок позволяют ей @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.} из своего посоха огня, как если бы у нее были заклинания в ее списке заклинаний и она могла их сотворять. Ей все еще приходится нормально расходовать заряды посоха; когда она каждое утро готовит посох, она способна разместить в посохе 4 заряда.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Belmazog": {
             "name": "Белмазог",
             "tokenName": "Белмазог",
+            "UUID": "oPXRJxxWrY2kz2qf",
+            "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "Breath Weapon",
+                    "name": "Атака дыханием",
+                    "description": "<p>Белмазог выдыхает @Template[type:cone|distance:30] @Damage[10d6[acid]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:28|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Breath Weapon]]{1d4 Раундов}</p><section class=\"secret\"><p>Belmazog can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "Drowning Drone",
+                    "name": "Заглушающий Квак",
+                    "description": "<p>Триггер: Боггард или один из его союзников в пределах 60ФТ совершает Спас. против `слухового` или `звукового` эффекта</p><hr><p>Боггард издает кваканье заглушающее другие звуки. Он кидает проверку @Check[type:performance]{Выступления}. Он и союзники в области могут использовать против действия `слухового` или `звукового` эффекта, наибольший из результатов, среди своего броска или этой проверки Выступления.</p>"
+                },
+                {
+                    "id": "Terrifying Croak",
+                    "name": "Ужасающий Квак",
+                    "description": "<p>Боггард издает ужасающее кваканье. Любой не-союзник, в пределах @Template[type:emanation|distance:30], должен совершить @Check[type:will|dc:28]</p><p>Крит.Успех: Существо получает временный иммунитет на 1 минуту</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p>"
+                },
+                {
+                    "id": "Nul-Acrumi Vazghul Ritual",
+                    "name": "Ритуал \"Нуль-Акруми Вазгул\"",
+                    "description": "<p>Этот редкий и высокоспециализированный ритуал, которому Белмазог обучила Алая Триада, позволил ей использовать окаменелые останки Дахака для возведения мощных защитных сооружений в регионе в виде драконьих столбов, но ресурсы и время, необходимые для повторного проведения ритуала, не доступны Белмазог в ходе данного приключения.</p><p>В связи с этим, а также с тем, что у ПИ нет возможности узнать о ритуале или извлечь из него пользу, дальнейшая информация, помимо последствий, описанных в самом приключении, здесь не представлена.</p>"
+                },
+                {
+                    "id": "Tongue Grab",
+                    "name": "Захват Языком",
+                    "description": "<p>Если Белмазог попадает по существу своим языком, то это существо становится @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} боггардом. В отличие от обычного захвата, существо не @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено}, но оно не может двигаться за пределы досягаемости языка боггарда.</p><p>Существо может отсечь язык, если попадет по КБ 25 и нанесет не менее 8 рубящего урона. Хотя это не наносит боггарду никакого урона, однако лишает его возможности использовать свой \"Удар\" языком, пока он не отрастит язык, что занимает неделю.</p>"
+                },
+                {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
@@ -911,6 +1300,9 @@
                     "id": "111"
                 }
             ]
+        },
+        "Книга 3================================================================================================": {
+            "name": "==========================================================================================="
         },
         "Mercenary Sailor": {
             "name": "Моряк-Наёмник",
@@ -1849,6 +2241,9 @@
                 }
             ]
         },
+        "Книга 4================================================================================================": {
+            "name": "==========================================================================================="
+        },
         "Forge-Spurned": {
             "name": "Отвергнутый Кузнец",
             "tokenName": "Отверг.Кузнец",
@@ -2063,8 +2458,6 @@
             "name": "Лазуритовый Голем",
             "tokenName": "Лазур.Голем",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2072,28 +2465,46 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "Inexorable March",
+                    "name": "Неумолимое Шествие",
+                    "description": "<p>Лазуритовый Голем @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} вплоть до своей Скорости, отталкивая каждое существо через чье пространство он двигается и нанося им урон, если они пытаются остановить его передвижение. Существо может попытаться преградить путь, совершив успешный спасбросок @Check[type:fortitude|dc:36]</p><p>При критическом успехе, сопротивляющееся существо не получает урона; в противном случае, оно получает урон как от удара кулака голема.</p>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Golem Antimagic",
+                    "name": "Антимагия голема",
+                    "description": "<p>повреждается от `холода` и `жизненность` (@Damage[5d10[untyped]], @Damage[2d8[untyped]] от областей и продолжительного урона); исцеляется от `пустоты` (область [[/r 2d8[healing]]]{2d8 ОЗ}); замедляется от `земли`</p><hr><p>Голем иммунен к заклинаниям и магическим умения, помимо своих собственных, но каждый вид голема особым образом подвержен нескольким типам магии. Эти исключения перечислены в блоке характеристик голема в сокращенной форме, а полные правила объяснены здесь. Если в записи указано несколько типов (например, \"холод и вода\"), то на голема может подействовать любой из этих типов заклинания.</p><ul><li>Повреждается от: Любая магия этого типа, нацеленная на голема, вместо обычного эффекта наносит ему указанное количество урона (этот урон не имеет типа). Если голем начинает свой ход в области действия магии этого типа или на него воздействует продолжительный эффект соответствующего типа, то он получает урон, указанный в скобках.</li><li>Исцеляется от: Любая магия этого типа, нацеленная на голема, лишает голема состояния замедлен и дает ОЗ, равное половине урона, который нанесло бы заклинание. Если голем начинает свой ход в области действия магии этого типа, он получает ОЗ, указанные в скобках.</li><li>Замедляется от: Любая магия этого типа нацеленная на голема, вместо обычного эффекта, делает его @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедленным 1} на [[/br 2d6 #rounds]]{2d6 раундов}. Если голем начинает свой ход в области действия магии этого типа, то он @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на этот раунд.</li><li>Уязвим к: Каждый голем уязвим к одному или нескольким определенным заклинаниям, с эффектам описанными в его блоке характеристик.</li></ul>"
                 },
                 {
+                    "id": "Vulnerable to Stone to Flesh",
+                    "name": "Уязвим к камню в плоть",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Pr1ruNTbzGn3H9w5]&nbsp;отменяет антимагию голема и его сопротивление физическому урону на 1 раунд. Заклинание @UUID[Compendium.pf2e.spells-srd.znv4ECL7ZtuiagtA]&nbsp;мгновенно обращает этот эффект</p>"
+                },
+                {
+                    "id": "Necrotic Field",
+                    "name": "Некротическое Поле",
+                    "description": "<p>Эффекты `жизненности` в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} голема наносят только половину обычного урона. Кроме того, вся `нежить` в пределах его ауры своими естественными атаками наносит дополнительно @Damage[1d6[void]]</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.kjP0J97hhoIhbF3M]</p>"
+                },
+                {
+                    "id": "Necrotic Pulse",
+                    "name": "Заражение Пульса",
+                    "description": "<p>Каждое существо в @Template[type:emanation|distance:10] должно успешно совершить @Check[type:fortitude|dc:32] или получить @Damage[1d6[persistent,void]] и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 минуту поскольку их плоть и кости временно атрофируются.</p><p>Перезарядка: [[/br 1d4 #Recharge Necrotic Pulse]]{1d4 Раунда}</p><section class=\"secret\"><p>The golem can't use Necrotic Pulse again for [[/br 1d4 #Recharge Necrotic Pulse]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "Necrotic Affliction",
+                    "name": "Наложить Истощение",
+                    "description": "<p>Триггер: Голем попадает по @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедленному} существу</p><hr><p>Существо должно успешно совершить @Check[type:fortitude|dc:34], иначе получить @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (или @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} при крит.провал) поскольку Лазур.Голема высасывает жизненную энергию и вызывает гниение ран.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
         "Saggorak Poltergeist": {
             "name": "Полтергейс Саггорака",
             "tokenName": "Полтергейс Саггорака",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "U2QGjhcg5QFFkHwv",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2101,144 +2512,237 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "x4yLU5eVHfGlI7wG",
+                    "name": "Телекинетический Объект"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Telekinetic Defense",
+                    "name": "Телекинетическая Защита",
+                    "description": "<p><strong>Триггер:</strong> Существо приближается к полтергейсту на расстояние 10 футов.</p><hr><p>Полтергейст совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR] телекинетическим объектом по спровоцировавшему существу.</p>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "id": "Frighten",
+                    "name": "Запугать",
+                    "description": "<p><strong>Требования:</strong> Полтергейст должен быть @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимым}.</p><hr><p>Полтергейст становится видимым, появляясь в виде скелетного, похожего на привидение гуманоида. Каждое существо в пределах @Template[type:emanation|distance:30] должно совершить спасбросок @Check[type:will|dc:33], при провале становясь @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганным 2}. При крит.провале оно еще впадает в @UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D] пока остается&nbsp;<em>`напуганным`</em>. При успехе существо временно иммунно на 1 минуту. В начале своего следующего хода полтергейст снова становится <em>`невидимым`</em>.</p>"
+                },
+                {
+                    "id": "Telekinetic Storm",
+                    "name": "Телекинетический Шторм",
+                    "description": "<p>Полтергейст телекинетически бросает множество мелких предметов, например, дюжину столовых приборов или книг, либо распределяя их между нескольких противников, либо направляя в одну цель.</p><ul><li>Когда этот эффект распределен между несколькими врагами, полтергейст совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} телекинетическим объектом со штрафом -2 по каждому существу в пределах @Template[type:emanation|distance:30]. Для штрафа множественной атаки они считаются как 1 атака, и штраф не увеличивается пока не завершатся все атаки.</li><li>Когда у этого эффекта только 1 цель, полтергейст совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR] телекинетическим объектом по этой цели и урон увеличивается до @Damage[6d12[untyped]]. При провале он наносит @Damage[2d12[untyped]], и не наносит урона при крит.провале.</li></ul>"
+                },
+                {
+                    "id": "Site Bound",
+                    "name": "Связь с местом",
+                    "description": "<p>Полтергейст привязан к определенному месту и не может перемещаться более чем на 120 футов от места, где он был создан или образован. (F2)</p>"
+                },
+                {
+                    "id": "Natural Invisibility",
+                    "name": "Естественная невидимость",
+                    "description": "<p>Полтергейст по своей природе @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимый}. Он становится видимым только когда использует <em>\"Запугать\"</em>.</p>"
+                },
+                {
+                    "id": "2j69CqOoQwIanSEG",
+                    "name": "Восстановление",
+                    "description": "<p>Когда полтергейст уничтожен он формируется заново через [[/br 2d4 #days]]{2d4 дня}, полностью исцеленным, в том месте где был уничтожен. Полтергейст может быть окончательно уничтожен только в том случае, если кто-то определит причину его существования и исправит все, что мешает духу упокоиться.</p>"
                 }
             ]
         },
         "Deculi": {
-            "name": "Deculi",
-            "tokenName": "Deculi",
-            "UUID": "",
-            "actorLink": true,
+            "name": "Декули",
+            "tokenName": "Декули",
+            "UUID": "5jFR05QRixpOChRy",
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "rRrTo5REtGDduBlv",
+                    "name": "Клыки"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "RF1LobyvELbvZKdf",
+                    "name": "Крылья"
                 },
                 {
+                    "id": "Walk in Shadow",
+                    "name": "Теневая Поступь",
+                    "description": "<p>Когда Декули совершает @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Красться} в темноте, он может совершать `движение` с полной скоростью, а не с половиной своей.</p>"
+                },
+                {
+                    "id": "Infrared Vision",
+                    "name": "Инфракрасное Зрение",
+                    "description": "<p>Декули может обнаруживать инфракрасное излучение как точное чувство.</p>"
+                },
+                {
+                    "id": "Shadow Strike",
+                    "name": "Теневой Удар",
+                    "description": "<p>Требования: Декули находится в своем теневом убежище.</p><hr><p>Декули покидает свое теневое убежище. Он совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}, @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Карабкаться} или @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь}, а затем совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыки, который наносит дополнительные 4d6 `точного` урона</p>"
+                },
+                {
+                    "id": "Create Shadow Sanctuary",
+                    "name": "Создать Теневое Убежище",
+                    "description": "<p>Частота: 1/День</p><hr><p>Декули создаетмежпространство рядом с собой в любой области тьмы размером 10 футов на 10 футов и входит в него. Для не-декулиса межпространство выглядит как обычная область тьмы (хотя такие эффекты, как истинное зрение, могут видеть сквозь эту иллюзию). Инфракрасное зрение декули нормально функционирует между этим межпространством и областью за его пределами, позволяя декули чувствовать, что происходит вокруг, а его врожденные чары тьмы распространяются и на область вокруг святилища теней. Атаки не могут быть совершены ни в межпространство, ни из него.</p><p>Декули может @UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{Развеять} этот эффект, чтобы выйти из своего теневого убежища, но межпространство, из которого он выходит, должно быть погружено во тьму и не должно иметь препятствий. Если пространство загорожено, декули перемещается в ближайшее доступное пространство и получает @Damage[1d6[bludgeoning]] за каждые 5 футов перемещения. Если область, накрывающая теневое убежище, освещается магическим светом, доступ в это межпространство больше невозможен, и декули оказывается в ловушке до тех пор, пока область снова не погрузится во тьму. Раз в день декули может попытаться противодействовать эффекту магического света, заслоняющего его убежище, попытавшись нейтрализовать эффект света своим врожденным заклинанием тьмы.</p><p>Если декули умирает (в том числе от голода, жажды или удушья), находясь во межпространстве, теневое убежище немедленно заканчивается, а труп декули изгоняется. Если межпространство освещено, труп не будет изгнан до тех пор, пока вход в убежище снова не окажется во тьме.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
         "Dalos": {
             "name": "Дало",
             "tokenName": "Дало",
-            "UUID": "",
-            "actorLink": true,
+            "UUID": "NrMgYvnIHFxeFEhX",
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "description": "",
+            "description": "<p>Далос - феи-отшельники, обитающие внутри или вблизи отдаленных вулканов, которые они называют своим домом. Они чаще обитают в перегретых пределах этих мест, чем в \"холодных пустошах\" за их пределами, и поэтому их редко можно встретить вне этих мест. Как и большинство фей, дало капризны и мстительны. Они ненавидят, когда их беспокоят, и часто отпугивают незваных гостей броском раскаленного камня, прежде чем напасть на них.</p><p>Рост дало составляет 25 футов, а вес - более 20 000 фунтов.</p>",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "Rock",
+                    "name": "Камень"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Volcanic Heat",
+                    "name": "Вулканическое Сердце",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}: @Template[type:emanation|distance:10]{10}</p><p>Урон: @Damage[3d6[fire]]</p><p>Спас.: @Check[type:reflex|dc:29|basic:true]</p>"
                 },
                 {
+                    "id": "Magma Splash",
+                    "name": "Брызги Магмы",
+                    "description": "<p>Когда дало получает урон от удара в ближнем бою, из его открытой раны выплескивается магма и прилипает к ближайшим существам. Каждое существо в @Template[type:emanation|distance:10] должно совершить @Check[type:reflex|dc:31|traits:damaging-effect]. При провале существо получает @Damage[3d6[persistent,fire]], так как перегретый камень прилипает к нему и остывает. КС для прекращения этого продолж.урона уменьшается на 5 каждый ход после первого по мере остывания магмы.</p>"
+                },
+                {
+                    "id": "Belch Smoke",
+                    "name": "Извержение Дыма",
+                    "description": "<p>Дало выпускает дым из головы, создавая @Template[type:burst|distance:20] облако дыма с центром в дистанции 120ФТ. Облако обладает эффектом @Compendium[pf2e.spells-srd.9XHmC2JgTUIQ1CCm]{Туман}.</p>"
+                },
+                {
+                    "id": "Heat Rock",
+                    "name": "Нагреть Камень",
+                    "description": "<p>Дало совершает действие @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы взять камень из своего тела или ближайшего окружения, а затем использует свой внутренний огонь, чтобы нагреть камень, который он держит, до красного каления. Нагретый камень, попавший в цель при дистанционном Ударе, наносит дополнительные @Damage[4d6[fire]].</p><p>После того как дало нагреет камень, тот сохраняет тепло в течение 2 раундов, прежде чем остыть.</p>"
+                },
+                {
+                    "id": "Lava Bomb",
+                    "name": "Лавовая Бомба",
+                    "description": "<p>Дало извергает из своей головы вулканический взрыв, выбрасывая массу расплавленного камня в дистанции до 100ФТ. Эта лавовая бомба наносит @Damage[6d8[fire],6d8[bludgeoning]] урона каждому существу в @Template[type:burst|distance:20]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:33|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Lava Bomb]]{1d4 Раунда}</p><section class=\"secret\"><p>The dalos can't use Lava Bomb again for [[/br 1d4 #Recharge Lava Bomb]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
         "Duergar Slave Lord": {
-            "name": "Дуэргар Повелитель Рабов",
+            "name": "Дуэргар-Рабовладелец",
             "tokenName": "Рабовладелец",
-            "UUID": "",
-            "actorLink": true,
+            "UUID": "2FbG5nLE91b6BNiB",
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "UIvPyDXGpNjhmqBZ",
+                    "name": "Топорик"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "YoSJ0Xce0DnEuH7Z",
+                    "name": "Композ.Дл.Лук"
                 },
                 {
+                    "id": "Hunt Prey",
+                    "name": "Выслеживать Добычу",
+                    "description": "<p>Рабовладелец назначает своей добычей одно существо, которое он может видеть или слышать или которое он @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Выслеживает}.</p><ul><li>Рабовладелец получаете бонус обстоятельства +2 к проверкам Восприятия, когда осуществляете @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск} добычи, и бонус обстоятельства +2 к проверкам Выживания когда @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживаете} добычу.</li><li>Рабовладелец игнорируете штраф дистанционных атак по добыче в пределах 2-го шага дистанции.</li><li>Когда Рабовладелец впервые за раунд попадает по своей добыче, он дополнительно наносит 2d8 `точного` урона.</li></ul><p>Рабовладелец может определить только 1 существо в качестве своей добычи одновременно.</p>"
+                },
+                {
+                    "id": "Hunter's Flurry",
+                    "name": "Охотничий Шквал",
+                    "description": "<p>Частота: 1/Раунд</p><hr><p>Рабовладелец совершает два удара луком или два удара ближнего боя, каждый из которых использует разное оружие. Эти удары должны быть нацелены на добычу рабовладельца. Если оба удара попали в цель, объедините их урон, для расчета сопротивления и слабости</p>"
+                },
+                {
+                    "id": "Improved Evasion",
+                    "name": "Улучшенное уклонение",
+                    "description": "<p>Когда дуэргар-рабовладелец получает успех в Спас.РФЛ, вместо этого он получает крит.успех.</p><p>Когда дуэргар-рабовладелец получает крит.провал в Спас.РФЛ, вместо этого он получает провал.</p><p>Когда дуэргар-рабовладелец получает провал в Спас.РФЛ, против эффекта наносящего урон, он получаете половину урона.</p>"
+                },
+                {
+                    "id": "zkT4pDnggpJK1FkR",
+                    "name": "Ключ от Храма"
+                },
+                {
+                    "id": "OHsCxCSp0K0AQCsz",
+                    "name": "Увеличение (Только Себя)",
+                    "description": "<p>Усиленная магической силой, цель вырастает до Большого размера. Снаряжение увеличивается вместе с целью, но возвращается к обычному размеру, если снято. Существо получает состояние @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжесть 1}. Его досягаемость увеличивается на 5 футов (или на 10 футов, если изначальный размер был Крошечным) и оно получает бонус состояния +2 к наносимому урону ближнего боя. Это заклинание не имеет эффекта на существ Большого размера и более.<br>@UUID[Compendium.pf2e.spell-effects.Item.sPCWrhUHqlbGhYSD]</p><hr><p><strong>Усиление (4-й):</strong> Существо увеличивается до Огромного размера. Бонус состояния для урона ближнего боя становится +4, а досягаемость увеличивается на 10 футов (или 15 футов, если изначальный размер был Крошечным). Заклинание не действует на существ Огромного размера и более.<br>@UUID[Compendium.pf2e.spell-effects.Item.41WThj17MZBXTO2X]</p><p><strong>Усиление (6-й):</strong> Выберите либо версию заклинания 2-го, либо 4-го уровня и примените его эффекты к вплоть до 10 готовым существам.</p>"
+                },
+                {
+                    "id": "UasVzRT5NmsYorFO",
+                    "name": "Невидимость (Только Себя)",
+                    "description": "<p>Покрытая иллюзиями, цель становится @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Невидимой}. Это делает ее @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаруженной} для всех существ, однако существа могут попытаться найти цель, сделав ее для себя @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Спрятанной} (см. @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.Edn6qQNVcEVpkhPl]{Обнаружение существ}). Если цель использует враждебное действие, заклинание заканчивается после завершения этого враждебного действия.</p><hr><p><strong>Усиление (4-й):</strong> Заклинание длится 1 минуту, но не заканчивается если цель использует враждебное действие.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
         "Xevalorg": {
             "name": "Ксевалорг",
             "tokenName": "Ксевалорг",
-            "UUID": "",
+            "UUID": "CJVRPFTKuJroiD5C",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "description": "",
+            "description": "<p>Самая ужасная черта гуга - его бочкообразная голова, которая вертикально раскрывается, открывая многочисленные ряды острых желтых зубов и раскрытое горло. Его глаза, расположенные по обе стороны головы-челюсти, маленькие, но зоркие. Костяные гребни защищают глаза от бешеного брыкания добычи, поскольку он предпочитает питаться сырым и извивающимся мясом, а не грибами и плесенью. Он хватает добычу мощными руками, разделяющимися в локте на пару предплечий, которые дают ему четыре когтистые лапы. Эти монструозные громилы покрыты лохматым черным мехом, зачастую с запекшейся кровью.</p><p>Хотя гуги могут показаться звероподобными, они обладают острым и злобным разумом. Гуги устраивают логова далеко под землей, но иногда выходят на поверхность, чтобы темной ночью поохотиться в одиночку или небольшими группами. Поскольку у них прожорливый аппетит, большинство гугов съедают пойманных ими существ, но некоторые похищают своих жертв и уходят под поверхность, оставляя после себя лишь стойкое зловоние и странные отпечатки когтистых лап. Жертв уводят в прогорклые логова, помеченные странными рунами, и приносят в жертву своим злобным богам крови, тьмы и кошмаров. Страшные слухи рассказывают о лишенных света городах гугов, созданных глубоко под землей из титанических каменных глыб, где могущественные лидеры гугов проповедуют свои мерзкие доктрины толпам воющих гугов.</p><p>У гугов странные отношения с гулями, которые, похоже, имеют общее происхождение в далеком подземном мире. Гуги живут в страхе перед гулями, несмотря на то, что выше них; однако этот странный страх не распространяется на гастов, которых гуги поглощают так же прожорливо, как и других существ.</p><p>Рост гугов составляет 16 футов (~4.87 м), а вес 2.000 фунтов (~907 кг), однако у них жуткая, грациозная походка, противоречащая их огромным размерам. Их легкая поступь и способность протискиваться в самые маленькие щели, делают гугов распространенными страшилищами в историях о странных исчезновениях или кровавых расправах.</p><p>Некоторые особо кровожадные гуги получают ужасные силы в дар от своих мистических покровителей. Эти монстры известны как саванты, они по силе никогда не бывают ниже 12-го уровня, и они получают несколько врожденных оккультных заклинаний. Хотя точный набор заклинаний каждого саванта различен, обычно эти заклинания дают невидимость, позволяют манипулировать камнями и изменять их, или насылать на живую плоть ужасные и разрушительные энергии.</p>",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "DdM0HuOCPDC9g1gC",
+                    "name": "Раздирать",
+                    "description": "<p>Когти</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Furious Claws",
+                    "name": "Яростные когти",
+                    "description": "<p>Гуг наносит вплоть до 4 \"Ударов\" когтями, каждый по разным целям. Все \"Удары\" считаются к штрафу множественной атаки, но штраф не увеличивается, пока гуг не заверит все эти атаки.</p>"
                 },
                 {
+                    "id": "Eerie Flexibility",
+                    "name": "Жуткая гибкость",
+                    "description": "<p>Несмотря на его размеры, множественные суставы гуга позволяют ему пролезать через узкие пространства как если бы он был существом Среднего размера. @UUID[Compendium.pf2e.actionspf2e.kMcV8e5EZUxa6evt]{Протискиваясь} он может двигаться со своей полной Скоростью.</p>"
+                },
+                {
+                    "id": "yJyXkag4Sgob8biM",
+                    "name": "Окаменеть",
+                    "description": "<p>Тело цели медленно превращается в каменную статую. Цель должна совершить спасбросок Стойкости.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель получает состояние @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд когда камень начинает формироваться на теле цели.</p><p><strong>Провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 1} и должна совершать спасбросок @Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation] в конце каждого своего хода; этот продолжающийся спасбросок имеет признак <em>`недееспособность`</a>. При провале, состояние <em>`замедлен`</em> увеличивается на 1 (или 2 при крит.провале), в то время как по телу цели ползут каменные наросты. Успешный спасбросок снижает состояние <em>`замедлен`</em> на 1. Когда существо не может действовать из-за состояния <em>`замедлен`</em> от <em>плоть в камень</em>, заклинание заканчивается вспышкой серого света, оставляя цель @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Окаменевшей} навсегда, поскольку цель становится статуей. Заклинание также заканчивается, если с существа убрано состояние <em>`замедлен`</em>, в результате чего камень безвредно откололся.</p><p><strong>Критический провал:</strong> Как провал, только цель получает изначальное состояние @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2}.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Dragonscarred Dead": {
             "name": "Обожженный Драконом Мертвец",
             "tokenName": "Мертвец Дракона",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "scPhFbBqlmD2fQHa",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2246,26 +2750,53 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "Broken Greatsword",
+                    "name": "Сломанный Меч"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "bD1gctOA2Ni82NSM",
+                    "name": "Обожженный Меч"
                 },
                 {
+                    "id": "3LczZ5phdTxD5h93",
+                    "name": "Регенерация 20 (Холод)"
+                },
+                {
+                    "id": "4K4yW5oQfO6cRjez",
+                    "name": "Обожженный Меч",
+                    "description": "<p>Оружие Обожженного Драконом Мертвеца магически наполнено дыханием дракона. Когда им владеет Обожженный Драконом Мертвец, который носил его при жизни, меч наносит дополнительно @Damage[2d6[void]] и @Damage[3d6[fire]]. В руках любого другого существа это всего лишь сломанный меч.</p>"
+                },
+                {
+                    "id": "7nMzSCqgZtUZbgud",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}: @Template[type:emanation|distance:60]{60}</p><p>Спас.: @Check[type:will|dc:29]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "Guardian Sense",
+                    "name": "Чувство Стража",
+                    "description": "<p>Обожженный Драконом Мертвец немедленно узнает о любом злоумышленнике, который входит в логово его дракона-создателя. Он не знает точного местоположения злоумышленника, но сохраняет информацию о его присутствии до тех пор, пока злоумышленник не уйдет или не будет уничтожен.</p>"
+                },
+                {
+                    "id": "Glare of Rage",
+                    "name": "Взгляд Ярости",
+                    "description": "<p>Обожженный Драконом Мертвец сосредотачивают свое ярост во взгляде, нацеленном на одно существо, которое они могут видеть в пределах 30ФТ. Это существо своершает @Check[type:will|dc:30]</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен} на 1 раунд.</p><p>Крит.Провал: Существо @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен} на 1d4 раунда и @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомление}</p>"
+                },
+                {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Talamira": {
             "name": "Таламира",
             "tokenName": "Таламира",
-            "UUID": "",
+            "UUID": "Fe1lYhCUY4UO4Plw",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2273,84 +2804,161 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "LwLNUmtRRcLH4yWo",
+                    "name": "Призрачная Рука"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Resonant Wail",
+                    "name": "Резонансный Вой",
+                    "description": "<p>Таламира издает полный боли крик отчаяния. Все существа в пределах 30 футов должны попытаться пройти спасбросок Воли со Сл 33, чтобы сопротивляться.</p><p>Перезарядка: [[/br 1d4 #Recharge Resonant Wail]]{1d4 Раунда}</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо воет от боли в течение 3 раундов. Визги резонируют в воющих кристаллах комнаты, давая кристаллам бонус состояния +2 к броскам атаки по этому существу в это время.</p><p>Провал: Как успех, но существо @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 минуту, поскольку оно бесконтрольно рыдает. Если существо уже замедлено на 1 из-за @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN], оно @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 2}, пока оно находится под обоими эффектами одновременно.</p><p>Крит.Провал: Как Провал, но существо также @Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{Ошеломлен 3} из-за своей непреодолимой печали</p><section class=\"secret\"><p>Talamira can't use Resonant Wail for [[/br 1d4 #Recharge Resonant Wail]]{1d4 rounds}</p></section>"
                 },
                 {
+                    "id": "Telekinetic Crystalline Assault",
+                    "name": "Телекинетическая Кристаллическая Атака",
+                    "description": "<p>Таламира наполняет воздух кружащимися кристаллами, нанося @Damage[7d6[slashing]] всем существам в @Template[type:emanation|distance:30]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:33|basic:true]</p>"
+                },
+                {
+                    "id": "Site Bound (Jewelgate Way Station)",
+                    "name": "Связь с Местом (Врата Драгоценностей)",
+                    "description": "<p>Врата Драгоценностей</p><hr><p>Типичное привидение может отойти лишь на небольшое расстояние от места, где его убили, или от места, где оно обитает. Типичный предел составляет 120 футов.</p>"
+                },
+                {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "King Harral": {
             "name": "Король Харрал",
             "tokenName": "Король Харрал",
-            "UUID": "",
+            "UUID": "C4PD4p4I9byZ8yp6",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "AHRGkmaHEHbNcnXU",
+                    "name": "Палочка тлеющих огненных шаров [Ранг 7]",
+                    "description": "<p>Эта почерневшая, сильно обожженная палка едва пахнет гуано летучих мышей.</p><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}</p><p><strong>Частота:</strong> 1/День, плюс перегрузка</p><p><strong>Эффект:</strong> Вы сотворяете <em>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]</em> Ранг 7. Каждое существо, которое проваливает свой спасбросок получает @Damage[3d6[persistent,fire]]</p>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "txRGabDLLfoByLm2",
+                    "name": "Грохочущая Кувалда"
                 },
                 {
+                    "id": "rJLMQhvHJTZBujHg",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}: @Template[type:emanation|distance:60]{60}</p><p>Спас.: @Check[type:will|dc:33]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "SH5975wJdafMupdy",
+                    "name": "Восстановление",
+                    "description": "<p>Через 24 часа после уничтожения Короля Харрала его тело восстанавливается на троне (или, если трон разрушен, на том месте, где он когда-то стоял), аналогично тому, как тело лича восстанавливается через клетку души. Если все здания Саггорака будут разрушены или если герои окажут большую услугу по спасению Саггорака, король Харрал потеряет эту способность.</p>"
+                },
+                {
+                    "id": "wOCajMqUzhODb2NB",
+                    "name": "Стойкое колдовство",
+                    "description": "<p>Если реакция другого существа может разрушить заклинание Короля Харрала, он совершает @Check[type:flat|dc:15]. Если ему это удастся, заклинание не прерывается.</p>"
+                },
+                {
+                    "id": "EPvcNjklx5lHjwSK",
+                    "name": "Контрзаклинание",
+                    "description": "<p>Триггер: Существо сотворяет заклинание, подготовленное королем Харралом</p><hr><p>Король тратит подготовленное заклинание, чтобы противодействовать сотворению спровоцировавшего заклинания.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Kralgurn": {
             "name": "Кралгурн",
             "tokenName": "Кралгурн",
-            "UUID": "",
+            "UUID": "MFTMMXiwvW1aqOzs",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "AkuMvwXObEyEbsN4",
+                    "name": "Разъядающий Кнут"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "L0ZHkQFYtz2JK3hH",
+                    "name": "Композ.Дл.Лук"
                 },
                 {
+                    "id": "Intimidating Attack of Opportunity",
+                    "name": "Устрашающий Реактивный Удар",
+                    "description": "<p>Реактивный Удар Кралгурна не только ранит существ, но и подрывает их уверенность. Еслик Кралгурн попадает Реактивным Ударом цель получает @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2}, или @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 4} при крит.попадание</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "Fearsome Brute",
+                    "name": "Страшный Громила",
+                    "description": "<p>Когда Кралгурн атакует напуганное существо, он получает бонус обстоятельств к урону, равный трехкратному значению напуган цели</p>"
+                },
+                {
+                    "id": "kD6AcE8oSOr3UKnh",
+                    "name": "Свиток Pinpoint (Ранг 8)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.CeSh8QcVnqP5OlLj]</p><hr><p>Сотворение заклинания со свитка требует держать свиток в одной руке и активировать его с помощью активности @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz] используя обычно количество действие для этого заклинания.</p><p>Чтобы \"Сотворять заклинание\" со свитка, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель атаки заклинанием и КС заклинания. Заклинание так же получает признак соответствующего обычая колдовства (`аркана`, `сакральный`, `оккультный` или `природный`).</p><p>Любые физические затраты предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со свитка. Если заклинание требует локуса, то он должен быть у вас, чтобы колдовать со свитка.</p>"
+                },
+                {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "v3tty7UlOB215KUf",
+                    "name": "Увеличение (Только Себя)",
+                    "description": "<p>Усиленная магической силой, цель вырастает до Большого размера. Снаряжение увеличивается вместе с целью, но возвращается к обычному размеру, если снято. Существо получает состояние @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюжесть 1}. Его досягаемость увеличивается на 5 футов (или на 10 футов, если изначальный размер был Крошечным) и оно получает бонус состояния +2 к наносимому урону ближнего боя. Это заклинание не имеет эффекта на существ Большого размера и более.<br>@UUID[Compendium.pf2e.spell-effects.Item.sPCWrhUHqlbGhYSD]</p><hr><p><strong>Усиление (4-й):</strong> Существо увеличивается до Огромного размера. Бонус состояния для урона ближнего боя становится +4, а досягаемость увеличивается на 10 футов (или 15 футов, если изначальный размер был Крошечным). Заклинание не действует на существ Огромного размера и более.<br>@UUID[Compendium.pf2e.spell-effects.Item.41WThj17MZBXTO2X]</p><p><strong>Усиление (6-й):</strong> Выберите либо версию заклинания 2-го, либо 4-го уровня и примените его эффекты к вплоть до 10 готовым существам.</p>"
+                },
+                {
+                    "id": "5i5r7EFzXOifPlnY",
+                    "name": "Невидимость (Только Себя)",
+                    "description": "<p>Покрытая иллюзиями, цель становится @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Невидимой}. Это делает ее @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаруженной} для всех существ, однако существа могут попытаться найти цель, сделав ее для себя @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Спрятанной} (см. @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.Edn6qQNVcEVpkhPl]{Обнаружение существ}). Если цель использует враждебное действие, заклинание заканчивается после завершения этого враждебного действия.</p><hr><p><strong>Усиление (4-й):</strong> Заклинание длится 1 минуту, но не заканчивается если цель использует враждебное действие.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Falrok": {
             "name": "Фалрок",
             "tokenName": "Фалрок",
-            "UUID": "",
+            "UUID": "dG5DBgrxlaimsWOS",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2358,26 +2966,56 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "Lazurite-Infused Flesh",
+                    "name": "Лазуритовая Плоть",
+                    "description": "<p>Плоть Фалрока пропитана лазуритом, и он всегда получает преимущества, которые `нежить` получает от этого минерала. Находясь в области, наполненной лазуритом, такой как Святилище Голодных, эти преимущества увеличиваются до бонуса обстоятельств +3 к спасброскам от эффектов `жизненности`. Этот минерал также дает Фалроку сопротивление к урону жизненности.</p>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "Stench",
+                    "name": "Вонь",
+                    "description": "<p>Существо, входящее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:10]{10} или начинающее там свой ход, должно получить успех в @Check[type:fortitude|dc:34], иначе он получит @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (при крит.провале также @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}, пока его тошнит).</p><p>Находясь внутри ауры, существо получает штраф обстоятельств -2 для спасбросков от болезни и восстановления от тошноты. Существо, которому совершило успешный спасбросок, временно получает иммунитет на 1 минуту.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.wX9L6fbqVMLP05hn]{Effect: Stench}</p>"
                 },
                 {
+                    "id": "Ghast Fever",
+                    "name": "Лихорадка Упыря",
+                    "description": "<p style=\"text-align: center;\">@Check[type:fortitude|dc:34]</p><p><strong>Стадия 1:</strong> без эффекта (1 День)</p><p><strong>Стадия 2:</strong> @Damage[4d8[void]], а так же существо восстанавливает только половину ОЗ от любого исцеления (1 День)</p><p><strong>Стадия 3:</strong> как Стадия 2 (1 День)</p><p><strong>Стадия 4:</strong> @Damage[4d8[void]], а так же существо не восстанавливает ОЗ от любого исцеления (1 День)</p><p><strong>Стадия 5:</strong> как Стадия (1 День)</p><p><strong>Стадия 6:</strong> мертв, и воскрешение в виде @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.VC7rtYR4hLxwg7WZ] в следующую полночь</p>"
+                },
+                {
+                    "id": "6hxF1odU5xuRbrDX",
+                    "name": "Паралич",
+                    "description": "<p>Любое `живое` существо по которому попадает Фалрок, должно получить успех в @Check[type:fortitude|dc:34], иначе оно станет @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]. Он может попытаться сделать новый спасбросок в конце каждого своего хода, и КС совокупно уменьшается на 1 при каждом таком спасброске.</p>"
+                },
+                {
+                    "id": "0YBsTxxadKi2UTcv",
+                    "name": "Негодяй",
+                    "description": "<p>Когда Фалрок успешно совершает @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Финт}, цель до конца следующего хода Фалрока @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} для его атак ближнего боя.&nbsp;При критическом успехе, до конца следующего хода Фалрока цель @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} для всех атак ближнего боя, а не только для Фалрока.</p>"
+                },
+                {
+                    "id": "6K2DndSSiWoNraQj",
+                    "name": "Предательская Возможность",
+                    "description": "<p><strong>Триггер:</strong> Один из союзников Фалрока попал атакой ближнего боя, по существу, в досягаемости его атаки ближнего боя</p><hr><p>Пока враг отвлечен из-за успешного попадания союзника Фалрока, он используете этот шанс. Фалрок совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по спровоцировавшему существу.</p>"
+                },
+                {
+                    "id": "sLKipq0eV2QIdP0P",
+                    "name": "Поедание Плоти",
+                    "description": "<p>Требования: Фалрок находится рядом с трупом существа, умершего в течение последнего часа.</p><hr><p>Фалрок пожирает кусок трупа и восстанавливает [[/r 8d6[healing]]]{8d6 ОЗ}. Он может восстановить ОЗ с любого трупа только один раз.</p>"
+                },
+                {
+                    "id": "pjPtT8ePki7wgMaO",
+                    "name": "Стремительный Прыжок",
+                    "description": "<p>Фалрок совершает @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Прыжок} до половины своей скорости. Это `движение` не провоцирует реакции.</p>"
+                },
+                {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
         "Zuferian": {
             "name": "Зуферия",
             "tokenName": "Зуферия",
-            "UUID": "",
+            "UUID": "XNso2IMnhnfHcMCn",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2385,26 +3023,81 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "Alchemical Formulas",
+                    "name": "Алхимические Формулы",
+                    "description": "<ul><li>@UUID[Compendium.pf2e.equipment-srd.Item.jC8GmH0Un6vDxdMj]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.r2iTRbt1zpkAqHj2]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.bz8Y8bVUe7QfBk9g]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.87AzvRja9uQOLJCC]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.mYozcVg9fQY6zO7C]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.intVPcEzbE9o4NQd]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.iRDCa4OVSTGUD3vi]</li><li>@UUID[Compendium.pf2e.equipment-srd.Item.5Qkz4RVJr2Kx3RL6]</li></ul>"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "0Eqa5Be8keCH6y7q",
+                    "name": "Легкая Булава"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "id": "Hfn2kPN8v4JuYF1l",
+                    "name": "Быстрый бомбометатель",
+                    "description": "<p>Зуферия совершает @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы достать бомбу и потом @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Бросает} ее</p>"
+                },
+                {
+                    "id": "qtiwr8Rp5Y4kIa7O",
+                    "name": "Быстрая алхимия",
+                    "description": "<p>Зуферия создает один алхимический предмет из своей книги формул (см. Алхимические Формулы). У этого предмета признак `насыщенный`, но он остается действенным только до начала ее следующего хода. С ее ежедневными приготовлениями Зуферия может использовать эту способность 7 раз в день.</p>"
+                },
+                {
+                    "id": "Infused Items",
+                    "name": "Насыщенные Предметы",
+                    "description": "<p>Предметы Зуферии, указанные как `насыщенные`, действуют в течение 24 часов или до следующих ежедневных приготовлений</p>"
+                },
+                {
+                    "id": "wBZt1NPsZgzDeD2m",
+                    "name": "Расширенные брызги",
+                    "description": "<p>Бомбы Зуферии, имеющие признак `брызги`, наносят 8 дополнительных урона брызгами и задевают брызгами на расстояние до 10ФТ</p>"
+                },
+                {
+                    "id": "kpp6uAfQZcHA99Ot",
+                    "name": "Кислотная склянка [Большая] (Насыщ.)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Этот бутылек наполнен едкой кислотой, наносящей 1 кислотного урона, 3d6 продолжительного урона кислотой и 3 урона кислотными брызгами. Вы получаете бонус предмета +2 к броскам атаки.</p>"
+                },
+                {
+                    "id": "FGLOUpHNkmleuOIx",
+                    "name": "Морозная склянка [Большая] (Насыщ.)",
+                    "description": "<p>Жидкие реагенты внутри этого бутылька быстро поглощают тепло при контакте с воздухом. Морозная склянка наносит 3d6 урона холодом и 3 урона холодом от брызг. При попадании, цель получает штраф состояния -10 футов к своим Скоростям до конца своего следующего хода. Вы получаете бонус предмета +2 к броскам атаки.</p><p>@UUID[Compendium.pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{Эффект: Морозная склянка (Большая)}</p>"
+                },
+                {
+                    "id": "bQGNTrxdCyY34M1f",
+                    "name": "Камень грома [Большой] (Насыщ.)",
+                    "description": "<p>Когда этот камень попадает по существу или твердой поверхности, он взрывается с оглушающим хлопком. Камень грома наносит 3d4 урона звуков, 3 урона звуком от брызг, и каждое существо в 10 футах от места взрыва должно успешно сделать спасбросок @Check[type:fortitude|dc:28|traits:alchemical,bomb,sonic,splash], иначе получит состояние @UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{Глухота} до конца своего следующего хода. Вы получаете бонус предмета +2 к броскам атаки.</p>"
+                },
+                {
+                    "id": "9AtNenLXqz5Zm0T4",
+                    "name": "Алхимический огонь [Большой] (Насыщ.)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 3d8 урона огнем, 3 продолжительного урона огнем и 3 урона огненными брызгами. Вы получаете бонус предмета +2 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Alchemist's Tools",
+                    "name": "Набор алхимика",
+                    "description": "<p>Этот переносной набор пробирок и химикатов можно использовать для простых алхимических задач. Если вы надели свой набор алхимика, то можете доставать и убирать его как часть действия для его использования.</p>"
+                },
+                {
+                    "id": "hCNYJ9tfRIOCl989",
+                    "name": "Кислотная склянка"
+                },
+                {
+                    "id": "2MUmPkWIDTgvArGY",
+                    "name": "Алхимический огонь"
+                },
+                {
+                    "id": "sc3daf0IgUPTb2rM",
+                    "name": "Морозная склянка"
+                },
+                {
+                    "id": "e0qpil2ll45f3L8R",
+                    "name": "Камень грома"
                 }
             ]
         },
         "Ilssrah Embermead": {
             "name": "Ильссра Эмбермид",
             "tokenName": "Ильссра Эмбермид",
-            "UUID": "",
+            "UUID": "XHJC4G6bfPiVXGKE",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2412,28 +3105,53 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "lPxb0HqwCjMCigsv",
+                    "name": "Молот"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "OwoH6FLZ94ihNvEv",
+                    "name": "Молот"
                 },
                 {
+                    "name": "Мастерство с Наручниками",
+                    "description": "<p><strong>Требование</strong>: У <strong>Ильссра</strong> есть <strong>Наручники</strong> в руке, и он находится рядом с существом</p><hr><p>Агент пытается связать наручниками запястья или лодыжки существа. Если <strong>Ильссра</strong> получает успех при броске атаки с модификатором [[/r 1d20+30 #Наручники]]{+30} против КБ цели, он надевает на нее наручники.</p>",
+                    "id": "Efficient Capture"
+                },
+                {
+                    "id": "Janx9PZwNEn44igV",
+                    "name": "Цепь \"Жаровня\""
+                },
+                {
+                    "id": "Hammer the Chained",
+                    "name": "Цепь и Молот",
+                    "description": "<p>Ильсра совершает удар в ближнем бою с помощью Цепи. Если она попадает, она также достает свой Молот, наносит им Удар ближнего боя по той же цели и немедленно возвращает его на пояс. Затем она возобновляет хват на Цепь.</p><p>Оба Удара засчитываются в счет Штрафа Множественной Атаки Ильссры, но штраф не увеличивается, пока оба Удара не будут совершены.</p><p>Если Удар Молота попадает, он наносит урон как обычно, и цель должна совершить @Check[type:fortitude|dc:35]</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} на 1 раунд.</p><p>Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} на 1 минуту</p><p>Крит.Провал: Существо становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} на 1 минуту</p>"
+                },
+                {
+                    "id": "FbmiYuEnbNstnXfj",
+                    "name": "Цепь \"Жаровня\"",
+                    "description": "<p>Эта 4-футовая цепь покрыта зазубринами и имеет шипы на одном или обоих концах. Некоторые из них имеют металлические обручи, используемые в качестве рукоятей.</p>"
+                },
+                {
+                    "id": "6gQEeIYepYV659hU",
+                    "name": "Религиозный символ Дроскара",
+                    "description": "<p>Этот кусок серебра гравирован изображением представляющим божество. Некоторые сакральные заклинатели, такие как жрецы, могут использовать религиозный символ своего божества как сакральный фокус при использовании некоторых умений и сотворении некоторых заклинаний. Чтобы использовать религиозный символ, его надо держать в одной руке.</p>"
+                },
+                {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Soulbound Ruin": {
             "name": "Одушевленные Руины",
             "tokenName": "Одушевленные Руины",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "595MAHwB4JWtzLAA",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -2441,19 +3159,53 @@
             "description": "",
             "items": [
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "id": "hJc7HGNvwjdmOdfq",
+                    "name": "Руины"
                 },
                 {
-                    "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "id": "IDbHyzOZv9b2OyKQ",
+                    "name": "Препятствия",
+                    "description": "<p>Частота: 1/Ход</p><p>Триггер: Существо в Одушевленных Руинах совершает действие с признаком `движения`</p><hr><p>Одушевленные Руины яростно реагируют, останавливая движение существа, стреляя шипами, бросая кирпичи или иным образом препятствуя цели. Цель должна получить успех в @Check[type:reflex|dc:35], иначе она упадет @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p>"
                 },
                 {
+                    "id": "Collapse Ceiling",
+                    "name": "Обрушить Потолок",
+                    "description": "<p>Руины обрушиваются в трех секциях потолка размером @Template[type:line|distance:10|width:10]{10x10}. Руины получают [[/r {10}]]{10 Урона} за каждую секцию, которую они разрушают, и они не могут разрушить ту же секцию, пока она не будет отремонтирована.</p><p>Каждое существо в одной из этих областей получает @Damage[8d10[bludgeoning]] с @Check[type:reflex|dc:35|basic:true]. В случае провала существо также становится @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаем} под обломками, пока не @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырвется} (КС_33)</p>"
+                },
+                {
+                    "id": "wHfHFuiq0qNw7Q0J",
+                    "name": "Уязвимость к Экзорцизму",
+                    "description": "<p>Когда Одушевленные Руины получают провал спасброска против заклинания, изгоняющего мучимых духов или манипулирующего душами, такого как <em>@UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]</em> или <em>@UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]</em>, вместо того, чтобы испытывать перечисленные эффекты, они получают [[/r 10]]{10 Урона} за Ранг.</p>"
+                },
+                {
+                    "id": "Pervasive Attacks",
+                    "name": "Вездесущие Атаки",
+                    "description": "<p>Одушевленные Руины Ударами могут нацеливаться на любое существо внутри руин</p>"
+                },
+                {
+                    "id": "Self-Repair",
+                    "name": "Саморемонт",
+                    "description": "<p>Руины могут потратить 10 минут на самостоятельный ремонт, чтобы восстановить до [[/r 30[healing]]]{30 ОЗ}. Если ремонт будет прерван в течение этого времени, оно прервет восстановление.</p><p>Эта способность действует, даже если у руин ОЗ упало до 0 ОЗ, если только не был проведен ритуал @UUID[Compendium.pf2e.spells-srd.Item.Dbd5W6G8U2vzWolN] для очищения здания, и в этом случае Одушевленные Руины уничтожаются. Этот ритуал должен быть посвящен доброму божеству или божеству с сильной оппозицией к нежити, такому как Фаразма.</p>"
+                },
+                {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
@@ -2590,7 +3342,6 @@
             "tokenImg": "icons/svg/mystery-man.svg",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "randomImg": true,
             "hstealth": "\"ЭКСПЕРТ\"",
             "hdisable": "\"ЭКСПЕРТ\"@Check[type:survival|dc:27|name:Remove Patch|traits:environmental,fungus|showDC:gm], чтобы удалить участок Пепельной Паутины площадью 10 квадратных футов, не вызывая споры.",
             "hdescription": "<p>Эта опасная закопченная черная плесень легко выделяет свои токсичные споры, если ее потревожить. Вся полоса грибка в области <strong>B2</strong> представляет собой единый организм.</p>\n<p>Нужно удалить девять участков площадью 10 квадратных футов, но весь организм умирает, как только получает достаточно повреждений.</p>",
@@ -2598,19 +3349,19 @@
             "hroutine": "",
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 },
                 {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "description": "111"
                 },
                 {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
@@ -2621,7 +3372,6 @@
             "tokenImg": "icons/svg/mystery-man.svg",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "randomImg": true,
             "hstealth": "\"ЭКСПЕРТ\" или @UUID[Compendium.pf2e.spells-srd.gpzpAAAJ1Lza2JVl], чтобы заметить присутствие некромантической энергии, пронизывающую кристаллы.</p>",
             "hdisable": "\"ЭКСПЕРТ\" @Check[type:religion|dc:30|name:Lifeleech Crystal Patch Disable|traits:environmental,magical|showDC:gm] для произношения молитвы, подавляющие некромантическое влечение кристаллов пить кровь",
             "hdescription": "Острые, кровожадные кристаллы делают прогулку по этой комнате опасной.",
@@ -2629,19 +3379,19 @@
             "hroutine": "",
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 },
                 {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "description": "111"
                 },
                 {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
@@ -2652,7 +3402,6 @@
             "tokenImg": "icons/svg/mystery-man.svg",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "randomImg": true,
             "hstealth": "\"МАСТЕР\" или \"МАСТЕР\"<span class=\"МУД\">@Check[type:perception|dc:37|name:Notice Ghostly Faces|traits:hazard,complex,environmental,magical|showDC:gm]</strong></span> чтобы заметить кричащие призрачные лица в кристаллах.",
             "hdisable": "<p>&diams; \"МАСТЕР\"@Check[type:thievery|dc:29|name:Fracture the Crystals|traits:hazard,complex,environmental,magical|showDC:gm] осторожно разбить кристаллы.</p>\n<p>&diams; \"ЭКСПЕРТ\"@Check[type:crafting|dc:27|name:Stop the Resonance|traits:hazard,complex,environmental,magical|showDC:gm] разместить в кристаллах объект, чтобы остановить резонанс, что отключает один 5-футовый участок кристаллов.</p>",
             "hdescription": "Три скопления блестящих разноцветных кристаллов испорчены некромантической энергией, которая заставляет их проецировать негативные `<u>эмоции</u>`. Все три скопления должны быть отключены или уничтожены, чтобы свести на нет `<u>Опасность</u>`",
@@ -2660,19 +3409,19 @@
             "hroutine": "<p class=\"Заг2\">3 Действия</p>\n<hr />\n<p>`<u>Опасность</u>` использует каждое действие для Мучительного Крика. Плачущие кристаллы теряют 1 действие за каждый 5-футовый участок кристаллов, который отключен или уничтожен.</p>",
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 },
                 {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "description": "111"
                 },
                 {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
@@ -2683,7 +3432,6 @@
             "tokenImg": "icons/svg/mystery-man.svg",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "randomImg": true,
             "hstealth": "<p>\"МАСТЕР\" - услышать тихий ропот злых духов</p>",
             "hdisable": "<p>&diams; \"МАСТЕР\" @Check[type:religion|dc:35|name:Экзорцизм|traits:haunt,complex|showDC:owner] трижды, чтобы изгнать духов</p>\n<p>&diams; \"ЭКСПЕРТ\" @Check[type:diplomacy|dc:39|name:Talk Down|traits:haunt,complex|showDC:owner] трижды, чтобы уговорить духов.</p>",
             "hdescription": "<p>Злые духи во главе с призрачным образом Лудики восстают и начинают смертельную драку. Эти духи пытаются сокрушить живых существ, заставляя их вступать в бой.</p>",
@@ -2691,75 +3439,790 @@
             "hroutine": "<p class=\"Заг2\">1 действие</p>\n<hr />\n<p>В качестве 1действия `<u>Призраки</u>` вызывает шквал призрачных кулаков, хлещущих по стенам, полу и потолку. Призрак пытается нанести призрачный удар кулаком по каждому существу в области <strong>H10</strong>.</p>",
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
                 },
                 {
+                    "id": "112",
                     "name": "111",
-                    "description": "111",
-                    "id": "112"
+                    "description": "111"
                 },
                 {
+                    "id": "113",
                     "name": "111",
-                    "description": "111",
-                    "id": "113"
+                    "description": "111"
                 }
             ]
         },
-        "Scarlet Triad Boss": {
-            "name": "Алый Босс",
-            "tokenName": "Алый Босс",
+        "Книга 5================================================================================================": {
+            "name": "==========================================================================================="
+        },
+        "Aluum Enforcer": {
+            "name": "Aluum Enforcer",
+            "tokenName": "Aluum Enforcer",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Zephyr Guard": {
+            "name": "Zephyr Guard",
+            "tokenName": "Zephyr Guard",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Scarlet Triad Mage": {
             "name": "Алый Маг",
             "tokenName": "Алый Маг",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
         "Scarlet Triad Enforcer": {
             "name": "Алый Силовик",
             "tokenName": "Алый Силовик",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
+        },
+        "Crucidaemon": {
+            "name": "Crucidaemon",
+            "tokenName": "Crucidaemon",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Immortal Ichor": {
+            "name": "Immortal Ichor",
+            "tokenName": "Immortal Ichor",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Spiritbound Aluum": {
+            "name": "Spiritbound Aluum",
+            "tokenName": "Spiritbound Aluum",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Scarlet Triad Boss": {
+            "name": "Алый Босс",
+            "tokenName": "Алый Босс",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Bshez \"Sand Claws\" Shak": {
+            "name": "Bshez \"Sand Claws\" Shak",
+            "tokenName": "Bshez \"Sand Claws\" Shak",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Weathered Wail": {
+            "name": "Weathered Wail",
+            "tokenName": "Weathered Wail",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Xotanispawn": {
+            "name": "Xotanispawn",
+            "tokenName": "Xotanispawn",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Ishti": {
+            "name": "Ishti",
+            "tokenName": "Ishti",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Uri Zandivar": {
+            "name": "Ури Зандивар",
+            "tokenName": "Ури Зандивар",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Teyam Ishtori": {
+            "name": "Teyam Ishtori",
+            "tokenName": "Teyam Ishtori",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Acidic Needle Launcher": {
+            "name": "Acidic Needle Launcher",
+            "tokenName": "Acidic Needle Launcher",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Caustic Vapor": {
+            "name": "Caustic Vapor",
+            "tokenName": "Caustic Vapor",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Endless Elven Aging": {
+            "name": "Endless Elven Aging",
+            "tokenName": "Endless Elven Aging",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Luminous Ward": {
+            "name": "Luminous Ward",
+            "tokenName": "Luminous Ward",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Mental Scream Trap": {
+            "name": "Mental Scream Trap",
+            "tokenName": "Mental Scream Trap",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Seismic Spears Trap": {
+            "name": "Seismic Spears Trap",
+            "tokenName": "Seismic Spears Trap",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Книга 6================================================================================================": {
+            "name": "==========================================================================================="
         },
         "Mengkare": {
             "name": "Менкарэ",
             "tokenName": "Менкарэ",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
+                    "id": "111",
                     "name": "111",
-                    "description": "111",
-                    "id": "111"
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
         },
@@ -2775,20 +4238,6 @@
                 "value": 58
             }
         },
-        "Acidic Needle Launcher": {
-            "name": "Acidic Needle Launcher",
-            "tokenName": "Acidic Needle Launcher",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:thievery|dc:36|name:Disable Firing Mechanism|traits:mechanical,trap,complex] to disable some firing mechanisms, making three adjacent squares in the trapped area safe to enter.</p>",
-            "hdescription": "<p>A ceiling-mounted launcher rains resinous needles onto intruders, after which the needles melt into acid.</p>",
-            "hreset": "",
-            "hroutine": "<p>(3 actions) The acidic needle launcher fires a needle at a random target in the area indicated on the map.</p>"
-        },
         "Aiudara Wraith": {
             "name": "Aiudara Wraith",
             "tokenName": "Aiudara Wraith",
@@ -2799,18 +4248,6 @@
             "randomImg": false,
             "classDC": {
                 "value": 43
-            }
-        },
-        "Aluum Enforcer": {
-            "name": "Aluum Enforcer",
-            "tokenName": "Aluum Enforcer",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Aluum.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Aluum_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 29
             }
         },
         "Animated Dragonstorm": {
@@ -2825,18 +4262,6 @@
                 "value": 43
             }
         },
-        "Bshez \"Sand Claws\" Shak": {
-            "name": "Bshez \"Sand Claws\" Shak",
-            "tokenName": "Bshez \"Sand Claws\" Shak",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 46
-            }
-        },
         "Candlaron's Echo": {
             "name": "Candlaron's Echo",
             "tokenName": "Candlaron's Echo",
@@ -2847,32 +4272,6 @@
             "randomImg": false,
             "classDC": {
                 "value": 42
-            }
-        },
-        "Caustic Vapor": {
-            "name": "Caustic Vapor",
-            "tokenName": "Caustic Vapor",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:occultism|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (master) or @Check[type:religion|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (master) to exorcise the spirits</p>",
-            "hdescription": "<p>The door slams shut, and poison gas fills the room.</p>",
-            "hreset": "<p>The trap resets after 1 day.</p>",
-            "hroutine": ""
-        },
-        "Crucidaemon": {
-            "name": "Crucidaemon",
-            "tokenName": "Crucidaemon",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Crucidaemon.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Crucidaemon_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 34
             }
         },
         "Damurdiel's Vengeance": {
@@ -2930,40 +4329,80 @@
         "Emaliza Zandivar": {
             "name": "Emaliza Zandivar",
             "tokenName": "Emaliza Zandivar",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 50
-            }
-        },
-        "Endless Elven Aging": {
-            "name": "Endless Elven Aging",
-            "tokenName": "Endless Elven Aging",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:occultism|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (master) or @Check[type:religion|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (master) to calm the restless energies and suppress the haunt for 1 hour; a critical success deactivates the haunt permanently.</p>",
-            "hdescription": "<p>A haunted mural fascinates characters and swiftly drains their vitality.</p>",
-            "hreset": "<p>The haunt continues its routine until there are no targets within 30 feet of the room. It then resets over the course of 1 minute and is able to activate again.</p>",
-            "hroutine": "<p>(2 actions) The haunt lures creatures into area A2 using Captivate. Any actions it hasn't used to Captivate are used to drain a living creature in the room with Live a Thousand Lives.</p>"
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         },
         "Hermean Mutant": {
             "name": "Hermean Mutant",
             "tokenName": "Hermean Mutant",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 44
-            }
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         },
         "Ilgreth": {
             "name": "Ilgreth",
@@ -2975,18 +4414,6 @@
             "randomImg": false,
             "classDC": {
                 "value": 50
-            }
-        },
-        "Immortal Ichor": {
-            "name": "Immortal Ichor",
-            "tokenName": "Immortal Ichor",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Immortal_Ichor.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Immortal_Ichor_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 39
             }
         },
         "Ingnovim Tluss": {
@@ -3025,18 +4452,6 @@
                 "value": 50
             }
         },
-        "Ishti": {
-            "name": "Ishti",
-            "tokenName": "Ishti",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 48
-            }
-        },
         "Lesser Dragonstorm": {
             "name": "Lesser Dragonstorm",
             "tokenName": "Lesser Dragonstorm",
@@ -3063,34 +4478,6 @@
                 "value": 54
             }
         },
-        "Luminous Ward": {
-            "name": "Luminous Ward",
-            "tokenName": "Luminous Ward",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:thievery|dc:40|name:|traits:action:disable-a-device] (master) to disable the wards or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (9th level; counteract DC 38) to counteract the ward</p>",
-            "hdescription": "<p>A burst of radiance explodes from the door.</p>",
-            "hreset": "<p>The trap resets after 1 hour.</p>",
-            "hroutine": ""
-        },
-        "Mental Scream Trap": {
-            "name": "Mental Scream Trap",
-            "tokenName": "Mental Scream Trap",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:arcana|dc:41|name:Suppress the Magic|traits:magical,trap] to suppress the magic or @Check[type:thievery|dc:41|name:Scratch Out the Ward|traits:magical,trap] to scratch out the ward</p>",
-            "hdescription": "<p>A psychic scream disorients creatures in the area.</p>",
-            "hreset": "",
-            "hroutine": ""
-        },
         "Promise Guard": {
             "name": "Promise Guard",
             "tokenName": "Promise Guard",
@@ -3115,32 +4502,6 @@
                 "value": 50
             }
         },
-        "Seismic Spears Trap": {
-            "name": "Seismic Spears Trap",
-            "tokenName": "Seismic Spears Trap",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(master)</p>",
-            "hdisable": "<p>@Check[type:thievery|dc:43|name:Disable the Wards|traits:magical,trap] (master) to disable the wards or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (9th level; counteract DC 38) to counteract the ward.</p>",
-            "hdescription": "<p>Lines of searing lava lance through the area, causing targets to shake as if caught in an earthquake and potentially become petrified.</p>",
-            "hreset": "<p>The trap resets after 1 minute.</p>",
-            "hroutine": ""
-        },
-        "Spiritbound Aluum": {
-            "name": "Spiritbound Aluum",
-            "tokenName": "Spiritbound Aluum",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 40
-            }
-        },
         "Tarrasque, The Armageddon Engine": {
             "name": "Tarrasque, The Armageddon Engine",
             "tokenName": "Tarrasque, The Armageddon Engine",
@@ -3152,32 +4513,6 @@
             "classDC": {
                 "value": 60
             }
-        },
-        "Teyam Ishtori": {
-            "name": "Teyam Ishtori",
-            "tokenName": "Teyam Ishtori",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 49
-            }
-        },
-        "Uri Zandivar": {
-            "name": "Ури Зандивар",
-            "tokenName": "Ури Зандивар",
-            "tokenvision": true,
-            "tokendisplayBars": 40,
-            "tokendisplayName": 20,
-            "items": [
-                {
-                    "name": "111",
-                    "description": "111",
-                    "id": "111"
-                }
-            ]
         },
         "Vazgorlu": {
             "name": "Vazgorlu",
@@ -3191,18 +4526,6 @@
                 "value": 43
             }
         },
-        "Weathered Wail": {
-            "name": "Weathered Wail",
-            "tokenName": "Weathered Wail",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 46
-            }
-        },
         "Xotani, The Firebleeder": {
             "name": "Xotani, The Firebleeder",
             "tokenName": "Xotani",
@@ -3213,30 +4536,6 @@
             "randomImg": false,
             "classDC": {
                 "value": 50
-            }
-        },
-        "Xotanispawn": {
-            "name": "Xotanispawn",
-            "tokenName": "Xotanispawn",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Xotanispawn.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Xotanispawn_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 41
-            }
-        },
-        "Zephyr Guard": {
-            "name": "Zephyr Guard",
-            "tokenName": "Zephyr Guard",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 34
             }
         }
     }
