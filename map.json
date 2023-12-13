@@ -6868,6 +6868,14 @@
 			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Glyptodon.webp",
       "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Glyptodon_t.webp"  
 		},
+    "VA2L044R2WXupQl4": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker_t.webp"  
+		},
+    "TlYG0Hyxh7gI7Jd8": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker_t.webp"  
+		},
     "EyyCB9QBJKpsap5b": {
 			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker.webp",
       "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Graylok_Gatebreaker_t.webp"  
@@ -7031,7 +7039,19 @@
     "RPXXt5bgFCqKibZ3": {
 			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Idovik.webp",
       "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Idovik_t.webp"  
-		}
+		},
+    "cnTAIcjKu01I7eJ0": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Fiendish_Arboreal.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Fiendish_Arboreal_t.webp"  
+    },
+    "L3PGythRjyCdM322": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Snatcher.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Tar_Zombie_Snatcher_t.webp"  
+    },
+    "yAYQeZI1W7XGeoMf": {
+			"actor": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Rhino_Warriors.webp",
+      "token": "modules/pf2e-ts-adv/art_token/quest-for-the-frozen-flame-bestiary/Rhino_Warriors_t.webp"  
+    }
   },
   "lost-omens-mwangi-expanse-bestiary":{
     "N5pG7rsbN1lL1ysb": {
@@ -8239,10 +8259,6 @@
     "RTzFvmdSCf5yhguy": {
       "actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/darklands/xulgath-warrior.webp",
       "token": "modules/pf2e-ts-adv/art_token/tokens/humanoid/darklands/xulgath-warrior.webp"
-    },
-    "0plBflWwrCWQO2RO": {
-      "actor": "modules/pf2e-ts-adv/art_token/portraits/undead/zombie-shambler.webp",
-      "token": "modules/pf2e-ts-adv/art_token/tokens/undead/zombie-shambler.webp"
     }
   },
   "the-enmity-cycle-bestiary":{

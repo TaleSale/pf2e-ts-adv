@@ -252,7 +252,7 @@
                 },
                 {
                     "name": "Конец Притворства",
-                    "description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `<u>движение</u>` рядом с ним или использует против него @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>",
+                    "description": "<p>Когда Доппельгангер находится под @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.AdQVjlOWB6rmBRVp.Item.LJKNy957UOv4LqE5], а другое существо совершает `<u>движение</u>` рядом с ним или использует против него @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} или другое враждебное действие, Доппельгангер может использовать свою реакцию, чтобы вернуться в свою естественную форму и нанести @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по этому существу.</p><p>Если существо не знало о том, что это был Доппельгангер, то существо @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] против этого удара</p>",
                     "id": "0lvwb1cNAaOUc6Be"
                 },
                 {
@@ -358,7 +358,7 @@
             "items": [
                 {
                     "name": "Когтистые Лапы",
-                    "description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `<u>движение</u>`, Горгулья может использовать свою реакцию, чтобы нанести @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>",
+                    "description": "<p>Если Горгулья в Полете, а в соседний квадрат под ней существо совершает `<u>движение</u>`, Горгулья может использовать свою реакцию, чтобы нанести @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Когтями по этому существу</p>",
                     "id": "DsvyLX53TeuZHMQ3"
                 },
                 {
@@ -390,7 +390,7 @@
                 },
                 {
                     "name": "Пугающий Стон",
-                    "description": "<p>Привидение оплакивает свою судьбу, заставляя каждое живое существо в @Template[type:emanation|distance:30] совершить @Check[type:will|dc:21]</p><p><strong>Успех:</strong> Существо невредимо и временно иммунно к&nbsp;Пугающему Стону&nbsp;этого привидения на 1 минуту</p><p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 2}</p><p><strong>Критический провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 3}</p>",
+                    "description": "<p>Привидение оплакивает свою судьбу, заставляя каждое живое существо в @Template[type:emanation|distance:30] совершить @Check[type:will|dc:21]</p><p><strong>Успех:</strong> Существо невредимо и временно иммунно к Пугающему Стону этого привидения на 1 минуту</p><p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 2}</p><p><strong>Критический провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 3}</p>",
                     "id": "uYQrEbjjw3XIQ1cO"
                 },
                 {
@@ -918,7 +918,7 @@
             "items": [
                 {
                     "name": "Наглядный Пример",
-                    "description": "<p>Триггер: Существо касается или физически взаимодействует с мимиком, когда он превращен с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.M3QwWIU2rzRHWndo]</p><hr><p>Спровоцировавшее существо автоматически прилипает к @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.91iOrkVbzeP7cK2M]{Клею} мимика (без совершения спасброска). Потом мимик совершает @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Ложноножкой по любому существу рядом с собой</p><hr><p>Наглядный Пример нельзя использовать снова, пока мимик не сбежит и не примет новую форму</p>",
+                    "description": "<p>Триггер: Существо касается или физически взаимодействует с мимиком, когда он превращен с помощью @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.M3QwWIU2rzRHWndo]</p><hr><p>Спровоцировавшее существо автоматически прилипает к @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.Br1AtKUHe3nbzjnY.Item.91iOrkVbzeP7cK2M]{Клею} мимика (без совершения спасброска). Потом мимик совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Ложноножкой по любому существу рядом с собой</p><hr><p>Наглядный Пример нельзя использовать снова, пока мимик не сбежит и не примет новую форму</p>",
                     "id": "Ns2pok7e6UtuKUd6"
                 },
                 {
@@ -928,7 +928,7 @@
                 },
                 {
                     "name": "Клейкость",
-                    "description": "<p>Мимик покрыт клейкой слизью. Любое существо попавшее по мимику, по которому попал мимик, или как-то иначе коснувшееся его (к примеру при @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть} или @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватить}), должно совершить @Check[type:reflex|dc:23], иначе будет @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]<span data-visibility=\"gm\"> КС 23</span>)</p><p>Оружие, попавшее по мимику прилипает к нему и может быть отцеплено успешной проверкой @Check[type:athletics|dc:23] (одиночное действие). К мимику может приклеиться любое количество объектов или существ. Мимик может отпустить застрявшее существо или объект использовав одиночное действие, а клейковина растворяется через 1 минуту после смерти мимика, освобождая все прилипшие объекты и существ.</p>",
+                    "description": "<p>Мимик покрыт клейкой слизью. Любое существо попавшее по мимику, по которому попал мимик, или как-то иначе коснувшееся его (к примеру при @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть} или @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватить}), должно совершить @Check[type:reflex|dc:23], иначе будет @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]<span data-visibility=\"gm\"> КС 23</span>)</p><p>Оружие, попавшее по мимику прилипает к нему и может быть отцеплено успешной проверкой @Check[type:athletics|dc:23] (одиночное действие). К мимику может приклеиться любое количество объектов или существ. Мимик может отпустить застрявшее существо или объект использовав одиночное действие, а клейковина растворяется через 1 минуту после смерти мимика, освобождая все прилипшие объекты и существ.</p>",
                     "id": "91iOrkVbzeP7cK2M"
                 },
                 {
@@ -1053,12 +1053,12 @@
             "items": [
                 {
                     "name": "Визжащее Нападение",
-                    "description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @Compendium[pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `<u>движения</u>`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>",
+                    "description": "<p>Совомедведь совершает @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk] и дважды @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Все существа в @Template[type:emanation|distance:80] от совомедведя, в любой момент его `<u>движения</u>`, подвергаются эффектам @UUID[Compendium.pf2e.menace-under-otari-bestiary.Actor.X03vq2RWi2jiA6Ri.Item.vTXaShzYmcNbRjzk]</p>",
                     "id": "qCmKPruRObzVL1Dr"
                 },
                 {
                     "name": "Леденящий Кровь Визг",
-                    "description": "<p>Совомедведь издает громкий визг, ужасающий его добычу. Каждое существо в @Template[type:emanation|distance:80] должно совершить @Check[type:will|dc:20]</p><p>Независимо от результата, существа временно иммунны на 1 минуту</p><hr><p>Крит.Успех: Существо невредимо.</p><p>Успех: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Провал: Существо @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p><p>Крит.Провал: Существо впадает в @Compendium[pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд и @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>",
+                    "description": "<p>Совомедведь издает громкий визг, ужасающий его добычу. Каждое существо в @Template[type:emanation|distance:80] должно совершить @Check[type:will|dc:20]</p><p>Независимо от результата, существа временно иммунны на 1 минуту</p><hr><p>Крит.Успех: Существо невредимо.</p><p>Успех: Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p><p>Крит.Провал: Существо впадает в @UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд и @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>",
                     "id": "vTXaShzYmcNbRjzk"
                 },
                 {
@@ -1130,7 +1130,7 @@
             "items": [
                 {
                     "name": "Волна Грязи",
-                    "description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `<u>движения</u>` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>",
+                    "description": "<p>Сточная Жижа выплескивает Волну Грязи, покрывая всех существ в @Template[type:emanation|distance:20]. Каждое существо в этой области должно успешно совершить @Check[type:reflex|dc:17] или получить @Damage[1d4[acid]] и штраф -10 футов к скорости `<u>движения</u>` на 1 минуту (при крит.провале существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]).</p><p>Существо может @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы очистить себя от грязи. При этом штраф к скорости уменьшается до -5ФТ за 1 действие или до снятия штрафа за 2 действия.</p><hr><p>После совершения Волная Грязи, Слизб не может использовать ее снова в течение 1 минуты.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Эффект: Волная Грязи}</p>",
                     "id": "mdqK7RuSjtezVyS8"
                 },
                 {
@@ -1564,7 +1564,7 @@
             "items": [
                 {
                     "name": "Падение",
-                    "description": "<p>Если существо наступает на люк, оно падает в него, если только ему не удастся @Compendium[pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за уступ} с помощью @Check[type:reflex|dc:16]. Яма глубиной 20ФТ наносит @Damage[10[bludgeoning]] любому, кто упадет на дно</p>",
+                    "description": "<p>Если существо наступает на люк, оно падает в него, если только ему не удастся @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за уступ} с помощью @Check[type:reflex|dc:16]. Яма глубиной 20ФТ наносит @Damage[10[bludgeoning]] любому, кто упадет на дно</p>",
                     "id": "ZY8Teu6y1ruEGOAn"
                 },
                 {
@@ -1599,7 +1599,7 @@
                 },
                 {
                     "name": "Копьемёт",
-                    "description": "<p>Когда существо перемещается на любой из провоцирующих кважратов, ловушка выпускает три копья с западной стены. Она наносит один дальний @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду</p>",
+                    "description": "<p>Когда существо перемещается на любой из провоцирующих кважратов, ловушка выпускает три копья с западной стены. Она наносит один дальний @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по самому западному существу в каждом ряду</p>",
                     "id": "9yktjCbx8rbvpSZe"
                 },
                 {
@@ -1628,7 +1628,7 @@
                 },
                 {
                     "name": "Пружина",
-                    "description": "<p>Когда существо пытается открыть или @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Вскрыть Замок}, пружина вытягивается, чтобы атаковать это существо @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Шипа</p>",
+                    "description": "<p>Когда существо пытается открыть или @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Вскрыть Замок}, пружина вытягивается, чтобы атаковать это существо @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом} Шипа</p>",
                     "id": "3w5kvSRp3MF3snpw"
                 },
                 {
@@ -1657,7 +1657,7 @@
                 },
                 {
                     "name": "Падающий Блок",
-                    "description": "<p>Когда существо ступает на площадку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Она наносит по одному @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} каждому существу, находящемуся между двумя дверями</p>",
+                    "description": "<p>Когда существо ступает на площадку, ближайшую к северной двери, ловушка сбрасывает каменные блоки по всему коридору. Она наносит по одному @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удару} каждому существу, находящемуся между двумя дверями</p>",
                     "id": "0c1Yjs4t9BKCpjmr"
                 },
                 {
@@ -1716,7 +1716,7 @@
                 },
                 {
                     "name": "Копьемёт",
-                    "description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>",
+                    "description": "<p>Триггер: На напольную плиту оказывается давление</p><hr><p>Ловушка выстреливает копье, совершая @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} по существу или объекту на этой напольной плите</p>",
                     "id": "dKlUXGzoOpojAKGv"
                 },
                 {
@@ -1771,7 +1771,7 @@
             "items": [
                 {
                     "name": "Без ШМА",
-                    "description": "<p>@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Косами не используют ШМА</p>",
+                    "description": "<p>@UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} Косами не используют ШМА</p>",
                     "id": "haWc7Vo7IDgvIPU9"
                 },
                 {
@@ -1781,7 +1781,7 @@
                 },
                 {
                     "name": "Падающие Лезвия",
-                    "description": "<p>Триггер: Растяжка натянута или перерезана</p><hr><p>Оба лезвия опускаются вниз, каждое @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} всех существ под потолочными прорезями</p>",
+                    "description": "<p>Триггер: Растяжка натянута или перерезана</p><hr><p>Оба лезвия опускаются вниз, каждое @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} всех существ под потолочными прорезями</p>",
                     "id": "MrC7xvsyL1EpWyqb"
                 }
             ]

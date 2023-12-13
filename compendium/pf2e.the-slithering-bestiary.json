@@ -109,7 +109,7 @@
                 },
                 {
                     "name": "Взрыв",
-                    "description": "<p>Когда у алхимического голема остаётся 0 ОЗ, он взрывается, нанося всем в @Template[type:emanation|distance:10]&nbsp; урон как от @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.idj4GBmsLUNUbk9r.Item.N0g5xdIF3LC3JDxP]. Если критический удар снижает голема до 0 ОЗ, то для всех существ в области результат испытания против эффектов разлива считается на одну ступень хуже.</p>",
+                    "description": "<p>Когда у алхимического голема остаётся 0 ОЗ, он взрывается, нанося всем в @Template[type:emanation|distance:10]  урон как от @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.idj4GBmsLUNUbk9r.Item.N0g5xdIF3LC3JDxP]. Если критический удар снижает голема до 0 ОЗ, то для всех существ в области результат испытания против эффектов разлива считается на одну ступень хуже.</p>",
                     "id": "pATLYmJ9TiraDyyy"
                 },
                 {
@@ -395,12 +395,12 @@
                 },
                 {
                     "name": "Курящаяся Дымка",
-                    "description": "<p>Дымящийся Студень постоянно испускает едкую дымку, создающую вокруг него @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Ауру}@Template[type:emanation|distance:15]{15} делающую существ @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрытыми}. На химическое чутьё дымящегося студня эта дымка не влияет.</p><p>Существо, входящее в область или начинающее в ней свой ход, получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@Check[type:fortitude|dc:25] для снятия} и в течение 1 раунда не может избавиться от @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Огнен.Урон}. После этого оно 1 минуту временно невосприимчиво к эффекту тошноты от этой способности.</p><p>Существо, задержавшее дыхание, недышащее или невосприимчивое к яду, невосприимчиво и к эффекту тошноты от этой способности, но не к Скрыт или неспособности избавиться от Продолж.Огнен.Урон</p>",
+                    "description": "<p>Дымящийся Студень постоянно испускает едкую дымку, создающую вокруг него @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Ауру}@Template[type:emanation|distance:15]{15} делающую существ @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрытыми}. На химическое чутьё дымящегося студня эта дымка не влияет.</p><p>Существо, входящее в область или начинающее в ней свой ход, получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@Check[type:fortitude|dc:25] для снятия} и в течение 1 раунда не может избавиться от @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Огнен.Урон}. После этого оно 1 минуту временно невосприимчиво к эффекту тошноты от этой способности.</p><p>Существо, задержавшее дыхание, недышащее или невосприимчивое к яду, невосприимчиво и к эффекту тошноты от этой способности, но не к Скрыт или неспособности избавиться от Продолж.Огнен.Урон</p>",
                     "id": "Smoldering Haze"
                 },
                 {
                     "name": "Остывающий Комок",
-                    "description": "<p>Комки Плоти, выбрасываемые дымящимся студнем, прилипают к цели. Существо, по которому попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.ZXpX1TWooxGkIOuu.Item.kCyXMIBiD1pCe8OY], получает @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Перегружен} на 1 раунд. При крит.ударе существо вместо этого получает @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд (@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС_24})</p>",
+                    "description": "<p>Комки Плоти, выбрасываемые дымящимся студнем, прилипают к цели. Существо, по которому попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} @UUID[Compendium.pf2e.the-slithering-bestiary.Actor.ZXpX1TWooxGkIOuu.Item.kCyXMIBiD1pCe8OY], получает @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Перегружен} на 1 раунд. При крит.ударе существо вместо этого получает @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} на 1 раунд (@UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Вырваться КС_24})</p>",
                     "id": "Cooling Glob"
                 },
                 {
@@ -559,7 +559,7 @@
             "items": [
                 {
                     "name": "Разрушительный Выброс",
-                    "description": "<p>Триггер: Коснуться двери, не нажав перед этим кнопки в правильном порядке</p><hr><p>Из двери вырывается поток энергии, наносящий @Damage[4d10[force]] всем существам в @Template[type:emanation|distance:20],<br>и они проходят испытание @Check[type:fortitude|dc:25]. Для `исчадий` результат испытания становится хуже на одну ступень</p><hr><p>Крит.Успех: Существо избегает эффекта</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон и @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}</p><p>Крит.Провал: Существо получает двойной урон и @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}; пока длится тошнота, существо также получает @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}</p>",
+                    "description": "<p>Триггер: Коснуться двери, не нажав перед этим кнопки в правильном порядке</p><hr><p>Из двери вырывается поток энергии, наносящий @Damage[4d10[force]] всем существам в @Template[type:emanation|distance:20],<br>и они проходят испытание @Check[type:fortitude|dc:25]. Для `исчадий` результат испытания становится хуже на одну ступень</p><hr><p>Крит.Успех: Существо избегает эффекта</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон и @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}</p><p>Крит.Провал: Существо получает двойной урон и @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}; пока длится тошнота, существо также получает @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1}</p>",
                     "id": "qnGVlOvfyHP5LeK0"
                 },
                 {
@@ -598,7 +598,7 @@
                 },
                 {
                     "name": "Автоматический Разряд",
-                    "description": "<p>Триггер: Существо без значка Консорциума Аспидов оказывается ближе чем в 5ФТ от стола</p><hr><p>Обе двустворчатые двери в этой комнате закрываются и запираются на замок. Пока ловушка активна, двери можно только выбить (Твёрдость_18, 72 ОЗ, ПП_36; @Check[type:athletics|dc:29] для @Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть силой}). Символ свитка, ближайший к вызвавшему срабатывание существу, выпускает в него разряд тока. Затем ловушка совершает проверку инициативы</p>",
+                    "description": "<p>Триггер: Существо без значка Консорциума Аспидов оказывается ближе чем в 5ФТ от стола</p><hr><p>Обе двустворчатые двери в этой комнате закрываются и запираются на замок. Пока ловушка активна, двери можно только выбить (Твёрдость_18, 72 ОЗ, ПП_36; @Check[type:athletics|dc:29] для @UUID[Compendium.pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Открыть силой}). Символ свитка, ближайший к вызвавшему срабатывание существу, выпускает в него разряд тока. Затем ловушка совершает проверку инициативы</p>",
                     "id": "Reactive Charge"
                 },
                 {

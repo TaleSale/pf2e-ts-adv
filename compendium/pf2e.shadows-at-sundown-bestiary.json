@@ -427,7 +427,7 @@
                 },
                 {
                     "name": "Кровавый Пир",
-                    "description": "<p>Когда существо получает урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками, оно должно совершить @Check[type:fortitude|dc:33] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} при провал (при крит.провале - @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1})</p><p>Оболочка становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 1 раунд и может использовать дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками по существу, получающему @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}.</p><p>Дальнейший урон, наносимый Оболочкой, увеличивает состояние `Ослаблен` на 1 при провал спасброске, до максимального @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 4}.</p>",
+                    "description": "<p>Когда существо получает урон от @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками, оно должно совершить @Check[type:fortitude|dc:33] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} при провал (при крит.провале - @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1})</p><p>Оболочка становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 1 раунд и может использовать дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Клыками по существу, получающему @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Кровотеч.Урон}.</p><p>Дальнейший урон, наносимый Оболочкой, увеличивает состояние `Ослаблен` на 1 при провал спасброске, до максимального @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 4}.</p>",
                     "id": "cse9qAgtS3C67Qxb"
                 },
                 {
@@ -579,7 +579,7 @@
                 },
                 {
                     "name": "Нечестивый Шепот",
-                    "description": "<p>Гуль шепчет нечестивые секреты смерти. Существа в @Template[type:emanation|distance:10] от гуля получают @Damage[2d8[persistent,mental]].&nbsp;Страдающие от Лихорадки Гуля также должны успешно совершить @Check[type:will|dc:29] или болезнь развивается на один шаг.</p><p>Нечестивый гуль не может снова использовать Нечестивый Шепот в течение 24 часов</p>",
+                    "description": "<p>Гуль шепчет нечестивые секреты смерти. Существа в @Template[type:emanation|distance:10] от гуля получают @Damage[2d8[persistent,mental]]. Страдающие от Лихорадки Гуля также должны успешно совершить @Check[type:will|dc:29] или болезнь развивается на один шаг.</p><p>Нечестивый гуль не может снова использовать Нечестивый Шепот в течение 24 часов</p>",
                     "id": "Profane Whispers"
                 },
                 {
@@ -675,7 +675,7 @@
                 },
                 {
                     "name": "Ярость Эриний",
-                    "description": "<p><strong>Требования</strong>: Агент Эриний срадает @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}</p><hr><p>Агент совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}. Если он попадает, то наносит дополнительно 1d6 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}; тип этого урона соответствует типу продолж.урона, от которого он страдает. Агент может выбрать, чтобы это был @Damage[(1d6)[spirit,persistent]]</p><hr><p>При расчете Штрафа Множ.Атаки это считается как две атаки</p>",
+                    "description": "<p><strong>Требования</strong>: Агент Эриний срадает @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}</p><hr><p>Агент совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}. Если он попадает, то наносит дополнительно 1d6 @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Продолж.Урон}; тип этого урона соответствует типу продолж.урона, от которого он страдает. Агент может выбрать, чтобы это был @Damage[(1d6)[spirit,persistent]]</p><hr><p>При расчете Штрафа Множ.Атаки это считается как две атаки</p>",
                     "id": "99PrThFKZPcXAq2j"
                 }
             ]
@@ -728,7 +728,7 @@
             "tokendisplayName": 20,
             "hstealth": "<p>(Мастер)</p>",
             "hdescription": "<p>Из-под земли, возможно, через канализационную решетку или из трещин в фундаменте подвала, клубится туман, быстро складываясь в призрачный образ Королевы Илеосы.</p>",
-            "hdisable": "<p>@Check[type:religion|dc:33|name:Exorcise the Manifestation] (эксперт) - изгнать проявление</p><p>@Check[type:intimidation|dc:36|name:Stand your ground]&nbsp;(обучен) - стоять на своем, не выказывая страха.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:33|name:Exorcise the Manifestation] (эксперт) - изгнать проявление</p><p>@Check[type:intimidation|dc:36|name:Stand your ground] (обучен) - стоять на своем, не выказывая страха.</p>",
             "hroutine": "",
             "hreset": "",
             "items": [

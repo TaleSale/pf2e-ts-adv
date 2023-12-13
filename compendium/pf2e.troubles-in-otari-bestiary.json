@@ -231,7 +231,7 @@
                 },
                 {
                     "name": "Удаление Воспоминаний",
-                    "description": "<p>Шакал завершает @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S], но сразу перед этим цель совершает&nbsp;@Check[type:will|dc:24] и при провале забывает обо всех совершенных Шакалом враждебным действиях к ней</p>",
+                    "description": "<p>Шакал завершает @UUID[Compendium.pf2e.troubles-in-otari-bestiary.Actor.4GZsTkvuYADpcdmV.Item.73fsCGNUERkE3I1S], но сразу перед этим цель совершает @Check[type:will|dc:24] и при провале забывает обо всех совершенных Шакалом враждебным действиях к ней</p>",
                     "id": "Nc23oEL8srJURx0P"
                 },
                 {
@@ -441,7 +441,7 @@
                 },
                 {
                     "name": "Вонь",
-                    "description": "<p>Существо, вошедшее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X] @Template[type:emanation|distance:10]{10} или начавшее в ней свой ход, должно совершить @Check[type:fortitude|dc:14]</p><hr><p>Успех: Существо получает временно иммунитет к Вони Ходока</p><p>Провал: Существо @Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} на 1 раунд</p><p>Крит.Провал: как Провал, но также существо получает @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p>",
+                    "description": "<p>Существо, вошедшее в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X] @Template[type:emanation|distance:10]{10} или начавшее в ней свой ход, должно совершить @Check[type:fortitude|dc:14]</p><hr><p>Успех: Существо получает временно иммунитет к Вони Ходока</p><p>Провал: Существо @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} на 1 раунд</p><p>Крит.Провал: как Провал, но также существо получает @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p>",
                     "id": "0gQuuCA2OyaQRNwR"
                 },
                 {

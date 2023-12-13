@@ -1,0 +1,1167 @@
+{
+	"label": "Зловещие Катакомбы",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.vision",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+	"entries": {
+		"Этаж 1================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Boss Skrawng": {
+			"name": "Босс Скронг",
+            "tokenName": "Босс Скронг",
+            "description": "<p>Митфлиты, также известные как клещи, &mdash; это ненавидящие себя и жалкие трусы, которых легко запугать и заставить служить другим существам или даже чуть более могущественным лидерам Митфлитов. Митфлиты приручают насекомых, пауков и других подобных существ, чтобы они служили им верными союзниками. Митфлиты утратили большую часть своей родовой магии Гремлинов, оставив этих незавершенных существ, полных сомнений и неуверенности. Митфлиты находят компанию среди других низменных существ мира и завязывают узы дружбы с паразитами, единственными другими существами, которые, кажется, готовы их принять. Социальная структура, даже та, в которой над ними издеваются, частично заполняет дыру в личности Митфлитов, и они редко бунтуют или ругаются, если только их ярость не достигает предела.</p><hr><p>Гремлины &mdash; жестокие феи-обманщики и саботажники, полностью приспособившиеся к жизни на Материальном Плане и нашедшие определенные ниши для своей изобретательной разрушительной деятельности. Все гремлины наслаждаются тем, что разрушают или ломают вещи, будь то что-то физическое, например, устройство или транспортное средство, или что-то нематериальное, например союз или отношения. Величайшая радость гремлина &mdash; наблюдать, как рушатся сложные творения, желательно после легчайшего и мельчайшего, тщательно направленного толчка гремлина. Гремлины имеют тенденцию очернять, запугивать или даже убивать своих меньших родственников, особенно Митфлитов, которых Гремлины (и многие другие) насмешливо называют &laquo;клещами&raquo;.</p>",
+            "UUID": "xAfkUwJYq5JLmSrW",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ZVpl1dcKnK3GldQS",
+                    "name": "Трезубец"
+                },
+                {
+                    "id": "kbtVRkQHlP5ap1MJ",
+                    "name": "Духовая трубка"
+                },
+                {
+                    "id": "s57i0xdwt99HF3Tp",
+                    "name": "Трезубец"
+                },
+                {
+                    "id": "Mud and Bug Crown",
+                    "name": "Корона из грязи и жуков"
+                },
+                {
+                    "id": "Blowgun Darts (Poisoned)",
+                    "name": "Дротики духовой трубки (Яд)",
+                    "description": "<p>Эти тонкие, легкие дротики, как правило, сделаны из твердой древесины и стабилизированы с помощью оперения из пуха или меха. Они часто полые внутри и могут использоваться для отравления.</p><hr><p>@UUID[Compendium.pf2e.equipment-srd.Item.CeKPffF0FaEyhLMp]{Spear Frog Poison}</p>"
+                },
+				{
+                    "id": "Self-Loathing",
+                    "name": "Отвращение к себе",
+                    "description": "<p>Из-за ненависти митфлита к себе, он легко поддается влиянию. Он получает штраф -4 к КС Воли против проверок @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd], @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF], @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q], and @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6].</p>"
+                },
+                {
+                    "id": "Vermin Empathy",
+                    "name": "Эмпатия от паразитов",
+                    "description": "<p>Митфлит может использовать Дипломатию, для @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q] и @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6] на членистоногих (насекомых, пауков, скорпионов, крабов и подобных беспозвоночных животных). Большинство членистоногих изначально @UUID[Compendium.pf2e.conditionitems.Item.fuG8dgthlDWfWjIA] к митфлитам.</p>"
+                },
+                {
+                    "id": "Vengeful Anger",
+                    "name": "Мстительная злость",
+                    "description": "<p>Пока @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL], митфлит получает бонус состояния +2 к броскам урона по существам, которые до этого наносили ему урон или мучили его.</p>"
+                },
+                {
+                    "id": "Spear Frog Poison",
+                    "name": "Яд Копьеносной Жабы",
+                    "description": "<div>Одна Копьеносная Жаба дает достаточно токсина, чтобы изготовить 1 дозу Яда Копьеносной Жабы.</div><p style=\"text-align: center;\">@Check[type:fortitude|showDC:owner|dc:15|traits:poison]</p><div data-visibility=\"gm\"><p>Макс.Продолж.: 6 раундов</p><p>Стадия 1: [[/r 1d4[poison]]] (1 Раунд)</p><p>Стадия 2: [[/r 1d6[poison]]] и @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблен 1} (1 Раунд)</p></div>"
+                },
+                {
+                    "id": "Speak with Animals (At Will) (Arthropods Only)",
+                    "name": "Разговор с животными (По Желанию, Членостоногие)",
+                    "description": "<p>Вы можете задавать вопросы, получать ответы и использовать навык Дипломатии с животными. Заклинание не делает их более дружелюбными чем обычно. Хитрые животные, скорее всего, будут немногословны и уклончивы, в то время как менее умные часто делают бессмысленные комментарии.</p>"
+                }
+            ]
+        },
+		"Mister Beak": {
+			"name": "Мистер Клюв",
+            "tokenName": "Мистер Клюв",
+            "description": "<p>Одушевленные Куклы - это жуткие манекены или игрушки, которые наполнены маленькой частичкой души умершего смертного. Эти маленькие конструкты созданы по разным причинам, например, чтобы служить компаньонами или слугами, но свобода их воли означает, что их послушание своим создателям вряд ли является чем-то само собой разумеющимся. Последователи @UUID[Compendium.pf2e.deities.QZD0u1jxwz0kj8uI]{Фаразмы} обычно ненавидят одушевленных кукол, считая их коверканьем естественного круговорота душ, а поклоняющиеся Владычице Могил, считают уничтожение такой куклы, независимо от ее мировоззрения, важным служением Великому Запределью.</p><hr><p>Одушевленные куклы являются самыми простейшими из целого ряда конструктов с привязанной душой, включая манекены человеческого роста, мощные одушевленные оболочки и одушевленную стражу терракотовых воинов. Их создание из нежелающих живых существ является злом, и нежелающий донор может сопротивляться этому процессу, сделав успешный Спас. против КС_Ремесла создателя, если не предотвращая смерть донора, то разрушая куклу. Незлая кукла может быть создана только из души человека, который перед смертью дал на это согласие.</p><hr><p>Одушевленные Куклы, с которыми сталкиваются искатели приключений, обычно являются своего рода стражами; несмотря на их крохотный размер, сила фрагмента души делает куклу более опасной, чем этого может ожидать случайный зевака. Кроме того, учитывая ее рост, он наделяет куклу одним заклинанием, обладающим огромной силой. Благодаря своей автономности и замечательному интеллекту, Одушевленные Куклы иногда используются своими создателями в качестве управляющих гораздо более мощными, но неразумными конструктами, такими как големы, что позволяет этим куклам руководить обороной, намного превосходящей их собственные возможности.</p><hr><p>Хотя Одушевленные Куклы содержат небольшой фрагмент души, извлеченный во время смерти или вскоре после нее, это не влияет на воскрешение умершего или его переход в загробную жизнь. Этот процесс извлечения смертелен для потенциальных живых доноров души, хотя гуляют слухи о более дорогостоящих процессах, которые позволяют кому-либо пожертвовать фрагмент живой души без последствий.</p><hr><p>Фрагмент души находится в фокусирующем Камне Души (Твердость_10), обычно встроенном в шею или грудь куклы. Фрагмент души не статичен, и кукла продолжает обучаться относительно своего первоначального состояния, то есть ее личность и умения могут меняться, возможно, становясь ближе к донорской душе или отдаляясь от нее по своему собственному индивидуальному пути. Фокусирующий камень души сохраняет воспоминания куклы даже после ее уничтожения. Неповрежденный камень души уничтоженной куклы даже может быть помещен в тело новой куклы, кем-то, кто сведущ в изготовлении одушевленных созданий, эффективно воссоздавая одушевленную куклу.</p>",
+            "UUID": "kzX588Hjb3w4QPOj",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Soul Gem",
+                    "name": "Камень Души",
+                    "description": "<p>Камень Души Мистера Клюва расположен на его спине, между его крыльями</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Flickerwisp": {
+			"name": "Мерцающий Огонёк",
+            "tokenName": "Мерцающий Огонёк",
+            "description": "<p>Танцующий, извивающийся Мерцающий Огонек - менее мощная, но не менее злобная разновидность Блуждающего Огонька. Как и их более опасные сородичи, Мерцающие Огоньки предпочитают бродить по болотам или участкам одиноких рек или ручьев, особенно вблизи береговой линии, где они могут выдать себя за небольшое скопление светлячков. Тело Мерцающего Огонька - 3 фута в длину волосоподобных волокон, которые вспыхивают и пульсируют лентами и точками жуткого желтого света, когда существо порхает в воздухе.</p><hr><p>В то время как Мерцающий Огонек может почувствовать вкус страха и находит этот вкус восхитительным, он не питается этой эмоцией. Вместо этого мерцающие огоньки питаются замешательством и сомнениями. Чувство неловкости, которое испытывает путешественник, заблудившись в лесу - любимая трапеза Мерцающих Огоньков. Они могут пить из этого чувства дезориентации, не выдавая своего присутствия и не причиняя вреда своей жертве. В конце концов, Мерцающие Огоньки становятся слишком жадными и вынуждены подлетать ближе, сбивая с толку свою добычу и перенасыщая цель эмоциями. Мерцающие Огоньки делают все возможное, чтобы улететь до того, как наступит смерть, и самые искусные из этих мучителей могут сохранить выбранную пищу, живой в течение нескольких дней, подпитываясь из путаницы в небольших дозах.</p>",
+            "UUID": "x3eOZvKUginj5Blh",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "pyBAuiHwkCVhaTe8",
+                    "name": "Шок"
+                },
+                {
+                    "id": "Consume Confusion",
+                    "name": "Подпитка Замешательством",
+                    "description": "<p>Частота: 1/Раунд</p><p>Требования: Существо в пределах 15ФТ от Мерц.Огонька в @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве}</p><hr><p>Мерцающий Огонек подпитывается замешательством существа. Огонек восстанавливает [[/r 1d4[healing]]]{1d4 ОЗ}, и если состояние @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательства} существа ограничено по длительности, оно длится еще 1 раунд.</p>"
+                },
+                {
+                    "id": "Glow",
+                    "name": "Свечение",
+                    "description": "<p>Мерцающий Огонек сам по себе, естественно невидим, но светится бледно-желтым светом, отбрасывая @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Ауру}@Template[type:emanation|distance:5]{5} яркого света и делая его видимым.</p>"
+                },
+                {
+                    "id": "1B109bqthYI0DGyC",
+                    "name": "Безобидный",
+                    "description": "<p>Появление Мерцающего Огонька странным образом фиксируются в сознании существ, которые в замешательстве. Существо с состоянием @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательства} никогда не атакует Мерцающий Огонек атаками, если только существо не было ранено Шоком Мерцающего Огонька в течение последних 24 часов.</p>"
+                },
+                {
+                    "id": "Magic Immunity",
+                    "name": "Магический Иммунитет",
+                    "description": "<p>Мерцающий Огонек невосприимчив ко всем заклинаниям, кроме @UUID[Compendium.pf2e.spells-srd.HRb2doyaLtaoCfi3], @UUID[Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1], @UUID[Compendium.pf2e.spells-srd.gKKqvLohtrSJj3BM] и @UUID[Compendium.pf2e.spells-srd.Oj1PJBMQD9vuwCv7]</p>"
+                }
+            ]
+        },
+		"Corpselight": {
+			"name": "Трупный Огонёк",
+            "tokenName": "Трупный Огонёк",
+            "description": "<p>Блуждающий Огонек, который умирает от голода, может подняться как холодная, голубая, светящаяся сфера губчатой влаги &mdash; Трупный Свет. Трупный Свет инстинктивно ищет труп-носитель, чтобы поселиться внутри, поскольку его Форма Огонька быстро портится, если не прячется в мертвом существе.</p>",
+            "UUID": "HBRz8BVLVN9u9Odp",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Claim Corpse",
+                    "name": "Захватить Труп",
+                    "description": "<p>Требования: Трупный Огонёк находясь в форме огонька и находится рядом с трупом `среднего` или `маленькего` размера, который не был захвачен Трупным Огоньком в течение последних 24 часов.</p><hr><p>Трупный Огонёк сливается с трупом, заставляет труп встать и восстанавливает [[/r 3d6[healing]]]{3d6 ОЗ}</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.auJ02rr1Jr88oD3Z]{Эф.: Мясной Труп}</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.3np7EyJ8pyrVlpie]{Эф.: Костяной Труп}</p>"
+                },
+                {
+                    "id": "Death Light",
+                    "name": "Трупный Свет",
+                    "description": "<p>Требования: Трупный Огонёк находится в трупе</p><hr><p>Трупный огонёк испускает тошнотворный синий луч света в @Template[type:cone|distance:20]. Все `живые` существа в этой области должны совершить @Check[type:fortitude|dc:18|traits:damaging-effect]. Если хотя бы 1 существо проваливает спасбросок, Трупный Огонёк восстанавливает [[/r 2d6[healing]]]{2d6 ОЗ}, получая все, что превышает его максимум, в качестве Врем.ОЗ, которые длятся 1 минуту.</p><p>Перезарядка: [[/br 1d4 #Recharge Death Light]]{1d4 Раунда}</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо получает @Damage[1d6[void]]</p><p>Провал: Существо получает @Damage[2d6[void]] и становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Крит.Провал: Существо получает @Damage[4d6[void]] и становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3}</p><section class=\"secret\"><p>The corpselight can't use again for [[/br 1d4 #Recharge Death Light]]{1d4 rounds}</p></section>"
+                },
+                {
+                    "id": "Sunlight Powerlessness",
+                    "name": "Уязвимость к Солнечному Свету",
+                    "description": "<p>Трупный Огонёк, подвергшийся воздействию солнечного света получает @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 2}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} и не совершать Захватить Труп</p>"
+                },
+                {
+                    "id": "Wisp Form",
+                    "name": "Форма Огонька",
+                    "description": "<p>Когда Трупный Огонёк уменьшаются до 0 ОЗ при Захваченном Трупе, вместо этого его он уменьшается до 1 ОЗ, труп падает на землю, и Трупный Огонёк появляется в форме огонька.</p><p>В форме огонька он является `крошечным` и не может совершать никаких действий, кроме как Захватить Труп или Лететь.</p><p>Трупный Огонёк, который начинает свой ход в форме огонька, должен в конце своего хода совершает @Check[type:flat|dc:16|immutable:true]; в случае провала он теряет 1 ОЗ. Когда Трупный Огонёк уменьшается до 0 ОЗ, пока он находится в форме огонька он уничтожается.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Stonescale Spirits": {
+			"name": "Духи Каменной Чешуи",
+            "tokenName": "Духи Каменной Чешуи",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:intimidation|dc:18|name:Напугать Духов|showDC:gm] (Обучен), чтобы напугать духов угрожающим проявлением</p><p>@Check[type:religion|dc:21|name:Изгнать Духов|showDC:gm] (Обучен), чтобы изгнать духов</p>",
+            "hdescription": "<p>Полдюжины призрачных кобольдов поднимаются из-под обломков воющим вихрем</p>",
+            "hreset": "<p>Призраки отключаются, если в начале хода опасности в Зоне 01.07 нет @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуганных} существ. Призраки возвращаются в кучу обломков. Призраки не могут появиться снова в течение 1 часа</p>",
+            "hroutine": "<p style=\"text-align: center;\">1 Действие</p><hr><p>Духи вместе устремляются к одному существу в Зоне 01.07, которое @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL], вселяя чувство предательства и смятения. Цель получает @Damage[(1d10+4)[mental]]</p><p style=\"text-align: center;\">@Check[type:will|dc:18|basic:true|showDC:gm]</p>",
+            "items": [
+                {
+                    "id": "Confusing Confrontation",
+                    "name": "Запутывающее Запугивание",
+                    "description": "<div>Триггер: существо входит в квадрат, полностью или частично заполненный щебнем в середине комнаты.</div><hr><p>Шестеро Призраков кобольдов выскакивают из-под щебня с жутким воем. Каждое существо в Зоне 01.07 должно проверить @Check[type:will|dc:18|showDC:gm]. Затем Призрак бросает Инициативу.</p><hr><p>Крит.Успех: Существо невредимо и временно имунно к Запутанной Конфронтации в течение 24 часов</p><div data-visibility=\"gm\"><p>А так же понимает, что запугивание призраков может подавить нападение призрачных кобольдов.</p></div><p>Успех: Существо @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 1}</p><p>Провал: Существо в @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве} на 1 Раунд и @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 2}</p><p>Крит.Провал: Существо в @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве} на 2 раунда и @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган 3}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Blood of Belcorra": {
+			"name": "Кровь Белькорры",
+            "tokenName": "Кровь Белькорры",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Эксперт)</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:22|name:Стереть Кровь|showDC:gm] (Обучен), чтобы стереть достаточно кровавого пятна, чтобы нарушить некротическую энергию призрака</p><p>@Check[type:religion|dc:20|name:Изгнать Призрака|showDC:gm] (Оубчен), чтобы изгнать призрака.</p>",
+            "hdescription": "<p>Кровавый образ Белкоры возникает, испускает высасывающий душу свет, а затем вдыхает кровь живых существ в комнате.</p>",
+            "hreset": "<p>Если призрак отключен или разрушен из-за урона, Кровь Белкорры подымается вверх по спирали, обливая люк, ведущий в Зону 01.25, прежде чем протиснуться вверх через замочную скважину, что уменьшает @Check[type:thievery|dc:20|name:Открыть Дверь|traits:action:pick-a-lock,skill,manipulate|showDC:gm], чтобы @UUID[Compendium.pf2e.actionspf2e.2EE4aF4SZpYf0R6H]. На следующем рассвете кровь стекает обратно в эту комнату, и призрак возвращается.</p><p>Призрак будет уничтожено навсегда, как только Ласда Венвервейл будет спасена из Зоны 04.09</p>",
+            "hroutine": "<p style=\"text-align: center;\">1 Действие</p><hr><p>Кровавое изображение открывает рот и, кажется, вдыхает, вытягивая кровь из тела одного существа в пределах 90ФТ от центра Зоны 01.11. Существо, на которое нацелена цель, должно совершить проверку @Check[type:fortitude|dc:20|traits:damaging-effect|showDC:gm]</p><hr><p>Крит.Успех: Существо невредимо.</p><p>Успех: Существо получает @Damage[(1d10)[persistent,bleed]]</p><p>Провал: Существо получает @Damage[(1d10+6)[persistent,bleed]]</p><p>Крит.Провал: Существо получает @Damage[(2d10+6)[persistent,bleed]] и @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{Ослаблено 2} до тех пор, пока истекает кровью</p>",
+            "items": [
+                {
+                    "id": "Gauntlight Beam",
+                    "name": "Луч Мрачносвета",
+                    "description": "<p>Триггер: `Живое` существо заканчивает свой ход в Зоне 01.11 ночью</p><hr><p>Жуткий образ женщины, казалось бы, состоящий из свежей крови, поднимается из пятна крови на полу и вращается на месте, как маяк. Лучи холодного голубого света льются из глаз и открытого рта призрака, заставляя волдыри и гниль расползаться по плоти.</p><p>`Живые` существа в пределах @Template[type:burst|distance:30] от центра Зоны 01.11 должны совершить @Check[type:fortitude|dc:20|traits:damaging-effect|showDC:gm]. Затем призрак бросает инициативу</p><hr><p>Крит.Успех: Существо невремидо.</p><p>Успех: Существо получает @Damage[(1d8)[void]]</p><p>Провал: Существо получает @Damage[(1d8+6)[void]] и @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh] на 1 Раунд.</p><p>Крит.Провал: Существо получает @Damage[(2d8+6)[void]] и @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2] на 1 Раунд, а затем @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh] на 1 Раунд</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Этаж 2================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Afflicted Irnakurse": {
+			"name": "Afflicted Irnakurse",
+            "tokenName": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Rusty Grate Pit": {
+			"name": "Rusty Grate Pit",
+            "tokenName": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+		"Aller Rosk": {
+			"name": "Aller Rosk",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Augrael": {
+			"name": "Augrael",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Azvalvigander": {
+			"name": "Azvalvigander",
+			"Cdescription": "<p>Zebubs serve as Hell's messengers and spies. Their ability to share what they've seen with other creatures makes them especially useful-not only to other devils, but also to mortal conjurers. Some infernal lords unleash them in enormous, horrid swarms upon unsuspecting lands to debase flesh and land alike while collecting secrets the infernal host might later put to use. Zebubs use any opportunity to manipulate weak-willed or easily tempted mortals into serving the zebubs' whims. While arrogant and deceitful, zebubs lack the cunning and confidence of most devils, and thus their schemes often focus on satisfying self-serving or self-destructive ambitions. Zebubs form from the souls of childish and craven mortals, reshaped by the archdevil Baalzebul in the frozen, filthy wastes of Hell's seventh layer, Cocytus.</p>\n<hr />\n<p>Each type of devil plays a particular role in Hell's bureaucracies and hierarchies, though some have far more specialized functions than others.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision",
+			"hp": ""
+		},
+		"Barcumbuk": {
+			"name": "Barcumbuk",
+			"Cdescription": "<p>Erinyes exact vengeance and bloody justice for a creature's crimes, torturing and punishing their victims in ironic fashion before allowing them the escape of death. While an erinys appears as a fallen angel and the first erinyes shared that origin, erinyes now originate in myriad ways, some promoted from lesser devils and others shaped from lemures themselves forged from the souls of torturers and persecutors. The erinyes' origin is entwined with Eiseth, herself a fallen angel and one of Hell's most powerful demigods. The first erinyes were all considered to be Eiseth's metaphorical daughters, but erinyes formed since that time are no longer limited to a single gender.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision, true seeing",
+			"hp": ""
+		},
+		"Befuddling Gas Trap": {
+			"name": "Befuddling Gas Trap",
+			"Hdescription": "<p>Seven nozzles hidden within holes in the 15‑foot-high ceiling release a poison gas.</p>",
+			"disable": "<p>@Check[type:thievery|dc:33|name:Disable Hidden Mechanism|traits:action:disable-a-device] (master) to disable the hidden mechanism on the north wall, immediately sucking the gas from the room, or @Check[type:thievery|dc:29|name:Plug One Nozzle|traits:action:disable-a-device] (expert) to adequately plug one of the seven nozzles. When all seven nozzles are plugged or destroyed, the trap is deactivated.</p>",
+			"reset": "<p>After an hour, the trap deactivates; the gas disperses slowly, and the doors can be opened again. After 24 hours, the gas builds up and the trap can be triggered again.</p>",
+			"routine": "<p>(1 action) The gas intensifies. Each creature in the room must make a @Check[type:fortitude|dc:30].</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected and becomes temporarily immune to the gas for 1 hour, though if the creature has already been stupefied by the trap, that condition remains for its normal duration.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature becomes @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied 1} for 24 hours. If the target is already stupefied, the condition value increases by 1 (to a maximum of stupefied 4) and the target takes @Damage[8d6[mental]].</p>\n<p><strong>Critical Effect</strong> As failure, except the target takes double the mental damage.</p>",
+			"hp": "",
+			"stealth": "<p>+21 (expert) or @Check[type:perception|dc:31|traits:action:seek] (expert) to notice the hidden override mechanism in the north wall</p>"
+		},
+		"Belcorra Haruvex": {
+			"name": "Belcorra Haruvex",
+			"Cdescription": "",
+			"CdescriptionGM": "<p>During their trek through the lowest levels of the Abomination Vaults, the heroes likely face Belcorra several times before they finally acquire the <em>fulcrum lenses</em> they need to defeat her for good. She learns about them from her wisp allies and you can thereafter use her whenever her appearance might cause the most tension. She should attack at least once on each dungeon level, as often as every couple of days. You shouldn't have Belcorra fight alongside other creatures until the adventure's finale-she's tough enough on her own!</p>\n<p>Each time Belcorra attacks, she learns more about how the heroes fight and adapts her tactics and her preparations. She might cast <em>@UUID[Compendium.pf2e.spells-srd.tgIhRUFtgDSELpJE]{Spell Immunity}</em> to protect herself from the heroes' most effective spells, <em>@UUID[Compendium.pf2e.spells-srd.uqlxMQQeSGWEVjki]{True Seeing}</em> or <em>@UUID[Compendium.pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See Invisibility}</em> to keep them in sight, or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> to counter their magical defenses. She mocks the heroes for their failures and rages at their successes-remember, she has been aware of them since her test firing of <em>Gauntlight's</em> beam in \"Ruins of Gauntlight.\"</p>\n<p><strong>First Attack</strong> As soon as Belcorra realizes the heroes' presence, she seeks them out, traveling through the <em>Gauntlight</em> footprint (areas <strong>A37</strong> and <strong>B28</strong>). She casts <em>@UUID[Compendium.pf2e.spells-srd.0XP2XOxT9VSiXFDr]{Phantasmal Calamity}</em> at a distance and retreats, moving through walls if necessary so the heroes can't follow.</p>\n<p><strong>Second Attack</strong> Belcorra wants the heroes to fear her, so she approaches them more closely the second time and uses single-target spells like <em>@UUID[Compendium.pf2e.spells-srd.5BbU1V6wGSGbrmRD]{Feeblemind}</em> and <em>@UUID[Compendium.pf2e.spells-srd.tlcrVRqW1MSKJ5IC]{Phantasmal Killer}</em> while demanding the heroes flee her Abomination Vaults. With her message delivered, she retreats after only a few rounds.</p>\n<p><strong>Later Attacks</strong> Once the heroes have recovered a <em>fulcrum lens</em> or the <em>@UUID[Compendium.pf2e.equipment-srd.JwHNSaiwwqF7VCC5]{Fulcrum Lattice}</em>, Belcorra considers the heroes an actual threat, but her anger overrides her caution. She attacks with her full might, using her Corrupting Gaze and ghostly hand along with her spells. If she defeats a hero, she retreats, confident that they'll leave her alone.</p>\n<p><strong>Leveraging Agents</strong> Belcorra has several living allies within the Abomination Vaults, including the urdefhan cult and the Children of Belcorra. She might send these groups after the heroes, insisting they let the heroes know they're acting on Belcorra's orders. Fortunately, neither group can muster large numbers, so the heroes should be able to manage an attack from them.</p>\n<p><strong>Killing Allies</strong> Belcorra learns if the heroes make alliances, such as with nearby calignis or drow. She knows better than to face powerful, entrenched leaders like Galudu or Quara, but she might murder a few guards or direct monsters where they can most damage the heroes' allies. It's important to Belcorra that she leave some evidence (usually a single, injured survivor) to let the heroes know she had orchestrated the attack.</p>\n<p><strong>In the Footprint</strong> Belcorra is most effective fighting the heroes who enter the <em>Gauntlight</em> footprint (areas <strong>A37</strong> and <strong>B28</strong>) due to her Haunted Lighthouse ability.</p>\n<p><strong>The Final Attack</strong> If the heroes defeat Belcorra shortly before they reach the Empty Vault, she uses the power of the <em>@UUID[Compendium.pf2e.equipment-srd.CTiLugp5ptSItEqN]{Ebon Fulcrum Lens}</em> to hasten her rejuvenation so she can face them in her sanctum. Belcorra doesn't ever surrender or flee in the Empty Vault. The heroes could possibly face her there without yet having the ability to permanently defeat her. In this case, they'll need to retreat to collect the <em>fulcrum lenses</em> and return to face her again. Once the heroes can focus Nhimbaloth's gaze upon Belcorra, they can defeat the sorcerer for good.</p>",
+			"language": "",
+			"senses": "darkvision, magic sense",
+			"hp": "negative healing, rejuvenation"
+		},
+		"Beluthus": {
+			"name": "Beluthus",
+			"Cdescription": "<p>When fiends and powerful evil spellcasters are lost beyond the farthest reaches of the multiverse, they sometimes return as horrific undead called devourers that consume the souls of the living to fuel their arcane machinations. Their bodies are ruined and rebuilt, hollow and twisted, even as their minds undergo a spiritual transformation. They gain the ability to bind other souls to their own and drain their essence for magical power, yet can never be sated in their pursuit of it. Seething masses of distorted ghostly shapes surge within their hollow rib cages-manifestations of the devourers' most recently consumed souls.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "(void healing)"
+		},
+		"Blast Tumbler": {
+			"name": "Blast Tumbler",
+			"Hdescription": "<p>A hard-to-reach rune is placed on the lock's tumbler. It emits a blast of force when the door is jostled.</p>",
+			"disable": "<p>@Check[type:thievery|dc:32|name:Disarm the Rune|traits:action:disable-a-device] (master) to disarm the rune, or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (5th level; counteract DC 28) to counteract the rune's magic.</p>",
+			"reset": "<p>The rune resets 1 minute after it triggers.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>@Check[type:perception|dc:32|traits:action:seek] (master)</p>"
+		},
+		"Bloodsiphon": {
+			"name": "Bloodsiphon",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "Cannot Speak Any Language",
+			"senses": "tremorsense 30 feet",
+			"hp": "void healing"
+		},
+		"Bone Gladiator": {
+			"name": "Bone Gladiator",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Bright Walker": {
+			"name": "Bright Walker",
+			"Cdescription": "<p>Those who encounter calignis quickly learn that their deaths involve burning out instead of bleeding out. At times, this dramatic immolation is denied to a caligni, so they arise as a bright walker. Tied to caligni society, these creatures don't understand that their glow damages and repels living calignis. Despite their name, these undead don't walk; they instead float a few inches above the ground.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Caliddo Haruvex": {
+			"name": "Caliddo Haruvex",
+			"Cdescription": "<p>Graveknights are undead warriors granted unlife by a cursed suit of armor.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing, rejuvenation"
+		},
+		"Caligni Defender": {
+			"name": "Caligni Defender",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "death flame"
+		},
+		"Canker Cultist": {
+			"name": "Canker Cultist",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Carman Rajani": {
+			"name": "Carman Rajani",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "",
+			"hp": ""
+		},
+		"Chafkhem": {
+			"name": "Chafkhem",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Chandriu Invisar": {
+			"name": "Chandriu Invisar",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "negative healing, rejuvenation"
+		},
+		"Child of Belcorra": {
+			"name": "Child of Belcorra",
+			"Cdescription": "<p>Практика мумификации мертвых в разных культурах - не единственный способ сохранения тела, и не единственный путь, приводящий к появлению этих распространяющих болезни неживых чудищ.</p>\n<p>Болотные мумии (также называемые торфяными мумиями или трясинными мумиями) редко покидают свои болотные владения, или вообще никогда. Менее сильные, чем их более известные искусственно сохраненные сородичи, болотные мумии сохраняются не веществами, вводимыми во время ритуалов, а природными элементами, присутствующими в безвоздушной, кислой среде торфяника или илистого болота. Хотя трупы, сохраненные таким образом, действительно могут восстать из трясины в виде болотных мумий из-за проклятия злых сил или направленного воздействия некроманта, подавляющее большинство из них оживает от бурлящей жажды отомстить или преследуя какую-то страшную цель, оставшуюся незавершенной на момент смерти - чаще всего, потому что существо было убито или предано. Природа этой эмоциональной привязки к жизни и сила эмоций умершего заставляют его существовать после смерти, а консервирующие свойства болота, в котором было тело, делают все остальное.</p>\n<p>Хотя большинство болотных мумий ведомы местью, многие из них реализуют свои темные желания с помощью общего насилия. Исполненные гнева и ненависти к живому, они безжалостно нападают на всех живых существ, которые осмеливаются забрести в их мрачные владения. Их мучительные стоны эхом разносятся над их гниющими жилищами, отгоняя большинство обитающих там живых существ и часто предупреждая путешественников о потенциальной опасности, скрывающейся под поверхностью.</p>\n<hr />\n<p>В то время как во многих культурах мумификация умерших практикуется по благим причинам, мумии-нежить создаются с помощью нечестивых ритуалов, обычно, для создания вечно бдительных стражей.</p>\n<p>Универсальность мумификации позволяет создавать мумии с помощью самых разных методов - природных, ритуальных, алхимических, а также их комбинаций.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": "void healing"
+		},
+		"Cratonys": {
+			"name": "Cratonys",
+			"Cdescription": "<p>Evangelists, the velstracs' unofficial ambassadors, roam the farthest reaches of the planes to spread the word of their kind's abhorrent belief in perfection through pain. They are therefore the most frequently encountered velstracs on the Material Plane, leading covens of hedonistic mortal flesh-sculptors or serving as wardens of horrific dungeons. In regions ruled by infernal powers, evangelists may serve as lieutenants or advisors, whispering secret paths to power in exchange for mortal's souls or choice mortal flesh. Evangelists are the same size as humans, although with the heavy chains that always drape their forms, they often weigh 350 pounds or more.</p>\n<hr />\n<p>The search for ultimate sensation through self-mutilation is the horrifying preoccupation of the shadow-dwelling fiends known as velstracs. They transcend their stoic detachment only when inflicting pain and terror upon their victims, practicing new forms of torture, or when turning their agonizing practices back on themselves. Velstracs consider themselves enlightened beings, transcending such limitations as morality or mortal taboos, but their victims know them as emotionless tormentors who inflict sadistic suffering. These fiends claim to seek perfection in thought, form, and action, although they don't recognize any refinement that doesn't require the painful excision of the flesh or spirit.</p>\n<p>Velstracs manifest from the souls of the most extreme masochistic or sadistic mortals who are judged and sent on to the Shadow Plane. They take on forms that suit their vile predilections, ranging from the low-ranking augurs to the maestros of suffering and mutilation called eremites. The process of transformation warps the soul step by step, with other velstracs conveying their new members through untold chambers of pain among the dark reaches of the Shadow Plane.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision, painsight",
+			"hp": "regeneration 10 (deactivated by good or silver)"
+		},
+		"Daemonic Fog": {
+			"name": "Daemonic Fog",
+			"Hdescription": "<p>The fog solidifies into tiny, gnawing creatures that devour everyone within before fading back into mist.</p>",
+			"disable": "<p>@Check[type:survival|dc:28|name:Disrupt the Fog] (expert) to disrupt the fog before the hazard triggers or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (5th level; counteract DC 26) to counteract the magic.</p>",
+			"reset": "<p>The hazard resets over the course of an hour as the daemonic stain reenergizes the fog.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>@Check[type:perception|dc:30|traits:action:seek] (expert)</p>"
+		},
+		"Deadtide Skeleton Guard": {
+			"name": "Deadtide Skeleton Guard",
+			"Cdescription": "<p>The most common skeletal minions are mere guardians.</p>\n<hr />\n<p>Made from bones held together by foul necromancy, skeletons are among the most common types of undead, found haunting old dungeons and forgotten cemeteries.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Deep End Sarglagon": {
+			"name": "Deep End Sarglagon",
+			"Cdescription": "<p>Sarglagons dwell in Hell's myriad waterways, lakes, and oceans. They serve as guardians of the Academy of Lies-the repository of secrets in Stygia, the fifth layer of Hell. Sarglagons breathe water and air with equal ease, and can move through water, land, and even air with uncanny swiftness. Few fiends travel the waterways of the multiverse, but where a river crosses the planes, odds are sarglagons have traveled it to further their infernal machinations. The only body of water they avoid is the River Styx, as the fiends have yet to develop any defense against that waterway's memory-sapping qualities. Mortal spellcasters sometimes bind sarglagons as guardians of precious secrets or treasures, particularly in aquatic areas. Most strangely, sarglagons sometimes act as unnerving caretakers to mortals who have no idea what they did to earn their unwanted protectors' attention. The constant uninvited vigilance of these devils is often disturbing and stifling to their wards.</p>\n<hr />\n<p>Each type of devil plays a particular role in Hell's bureaucracies and hierarchies, though some have far more specialized functions than others.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision; see invisibility",
+			"hp": ""
+		},
+		"Deepwater Dhuthorex": {
+			"name": "Deepwater Dhuthorex",
+			"Cdescription": "<p>The typical dhuthorex is a dumb and hungry beast, chasing prey through the depths and venturing onto land only to pursue easy prey.</p>\n<hr />\n<p>Strange things swim in sunless seas, but few as fierce as the shark-like dhuthorexes. These beasts chase prey fearlessly and tenaciously.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, wavesense (imprecise) 60 feet",
+			"hp": ""
+		},
+		"Dhuthorex Sage": {
+			"name": "Dhuthorex Sage",
+			"Cdescription": "<p>More intelligent than their lesser kin, dread dhuthorexes possess eerie, enchanting powers.</p>\n<hr />\n<p>Strange things swim in sunless seas, but few as fierce as the shark-like dhuthorexes. These beasts chase prey fearlessly and tenaciously.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, wavesense (imprecise) 60 feet",
+			"hp": ""
+		},
+		"Doom of Tomorrow": {
+			"name": "Doom of Tomorrow",
+			"Hdescription": "<p>The sounds of devastation rise from the diorama, and a beam of shimmering energy lances outward from the tiny model of Gauntlight.</p>",
+			"disable": "<p>@Check[type:thievery|dc:20|name:Deactivate Model of Gauntlight|traits:magical,trap] (trained) to quickly deactivate the model of Gauntlight before it triggers, or @Check[type:stealth|dc:23|name:Creep by Trap|traits:magical,trap] (trained) to creep by a trap without triggering it.</p>",
+			"reset": "<p>Each trap resets automatically after 1 hour.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Dragon's Blood Puffball": {
+			"name": "Dragon's Blood Puffball",
+			"Cdescription": "<p>This bulbous, deep red fungus looks like an enormous, decaying rose.</p>\n<hr />\n<p>Many benign puffball fungi cling to the detritus of forest floors in Darklands caverns. These fungi's giant versions are more mobile and dangerous.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "motion sense 60 feet, no vision",
+			"hp": ""
+		},
+		"Dread Dhuthorex": {
+			"name": "Dread Dhuthorex",
+			"Cdescription": "<p>More intelligent than their lesser kin, dread dhuthorexes possess eerie, enchanting powers.</p>\n<hr />\n<p>Strange things swim in sunless seas, but few as fierce as the shark-like dhuthorexes. These beasts chase prey fearlessly and tenaciously.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, wavesense (imprecise) 60 feet",
+			"hp": ""
+		},
+		"Dread Wisp": {
+			"name": "Dread Wisp",
+			"Cdescription": "<p>Will-o'-wisps native to the Darklands are more ominous and malevolent than those that bob about in the lonely marshes and surfaces of the upper world. These dread wisps instill terror with eerie shifts of light and consume the fear they create, drawing life energy from their victims in the process. While dread wisps can survive anywhere within the Darklands, they prefer moist areas like partially submerged caves, the banks of underground rivers, and towering fungus gardens.</p>\n<p>Dread wisps don't glow as brightly as surface will-o'-wisps because even the dimmest light attracts notice underground. Long-lived and hateful creatures, they remember vivid details about their lives, travels, and most delicious prey. Although dread wisps could share extensive lore and unique experiences, they don't, as they find amusement in others' ignorance.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Dreshkan": {
+			"name": "Dreshkan",
+			"Cdescription": "<p>Because morlocks are descended from distant human ancestors, clumsily or hastily fleshwarping a morlock simply produces a @UUID[Compendium.pf2e.pathfinder-bestiary.K9Hw43co8fhwmKkM]{Grothlut}. Skilled fleshwarpers, however, can tease out a morlock's genetic differences to make an entirely different creature. Creating a dreshkan involves replacing the morlock's bones with a metal skeleton. This new skeleton is often heavily augmented, such as with spiderlike limbs protruding from the spine or magazines of tiny, deadly needles. Arcane electricity courses through the dreshkan thereafter, making it jumpy and irritable.</p>\n<p>Morlocks view dreshkans as impressive fusions of flesh and technology and gladly fight alongside these creatures, whom they view as paragons of morlock potential.</p>\n<hr />\n<p>Although twisting victims into horrid shapes is a well-known pastime of evil drow, other subterranean monsters have stolen these practices or developed them independently. The worm-like seugathis sometimes warp other creatures whose territories abut their lightless lands; the fleshwarps below result from morlocks and urdefhans, respectively.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Drill Field Barbazu": {
+			"name": "Drill Field Barbazu",
+			"Cdescription": "<p>Barbazus, known also as bearded devils or infantry devils, are murderous fiends who satiate their lust for annihilation by serving as the foot soldiers of Hell's armies, often leading hordes of lesser devils such as imps and lemures into battle. Bearded devils wield serrated glaives to inflict jagged gashes that resist healing magic, resulting in tremendous blood loss. When enemies come too close, bearded devils strike with the spines of their wriggling beards to deliver a wretched contagion called Avernal fever, savoring the sight of their victim's strength being slowly devoured from within.</p>\n<p>Barbazus can be found savagely indulging the whims of evil infernal lords from all layers of Hell, rejoicing as they disseminate murder, misery, and anguish as they see fit.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision",
+			"hp": ""
+		},
+		"Drow Cavern Seer": {
+			"name": "Drow Cavern Seer",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Drow Hunter": {
+			"name": "Drow Hunter",
+			"Cdescription": "<p>Hunters seek out game to keep drow communities fed and functioning.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Drow Shootist": {
+			"name": "Drow Shootist",
+			"Cdescription": "<p>The rare few drow who specialize in the repeating hand crossbow command respect not only for their skills but for their luck and swagger.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Drow Warden": {
+			"name": "Drow Warden",
+			"Cdescription": "<p>Wardens watch over drow encampments and often work in small groups.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Dulac": {
+			"name": "Dulac",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "death shadows"
+		},
+		"Dune Candle": {
+			"name": "Dune Candle",
+			"Cdescription": "<p>Malevolent balls of colored light, will-o'-wisps haunt lonely marshes and forests where they lure unsuspecting travelers into danger. Will-o'-wisps can vary the color and illumination they shed, and delight in mimicking bobbing lanterns or distant fires to draw lost or disoriented travelers off of safe trails. They can extinguish their illumination entirely to become invisible, and they enjoy doing so once their victims are wholly lost and have realized that the bobbing light in the distance isn't, in fact, leading them to safety. Even invisible, however, a will-o'-wisp rarely ventures far from its target, as it feasts upon the panic and dread felt by its victims.</p>\n<p>Beneath its glow, a will-o'-wisp's body is a spongy ball approximately 1 foot in diameter and weighing less than 5 pounds. Although most will-o'-wisps are merely translucent, featureless orbs, gaining definition only in the shifting illumination they create, a few have dark mottling that makes them resemble a skull when viewed closely. Will-o'-wisps have no need for mundane nourishment, and in fact lack the ability to consume matter of any kind; they find all the sustenance they need in the terror of nearby creatures. For this reason, they like to work alongside undead that produce terror in their victims. Will-o'-wisps are long-lived, if not effectively immortal, and they have good memories. A cowed or defeated will-o'-wisp can be a good source of lore and information, though acquiring such cooperation from such a sinister monster is no easy feat.</p>\n<p>Will-o'-wisps inhabit desolate swamps and forests and are generally active at twilight and after dark. They are therefore reluctant to lead victims into immediately fatal areas such as deadfalls, but instead prefer hazards where their victims suffer over a long time, such as pockets of stale or poisonous air, patches of quicksand, and dens of bigger monsters. According to will-o'-wisps, different types of fear have subtle differences in flavor. The lurking dread in the pit of the stomach that gnaws at those who slowly become aware of the fact that they're lost produces a much different taste than the sudden stark terror of imminent death in the face of a towering monster. Because of this, will-o'-wisps try to vary the ways in which they induce terror in their prey, to ensure they don't tire of certain flavors of fear.</p>\n<hr />\n<p>These desert-based will-o'-wisps deal fire damage rather than electricity and delight in setting their victims aflame, relishing the resulting screams that echo across the landscape. They can quench their glow like other will-o'-wisps, but the nearer they remain to their burning victims, the more obvious their heat shimmer appears in the air.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Elder Child of Belcorra": {
+			"name": "Elder Child of Belcorra",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": "void healing"
+		},
+		"Galudu": {
+			"name": "Galudu",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "death motes"
+		},
+		"Gibtanius": {
+			"name": "Gibtanius",
+			"Cdescription": "<p>When a gibtas feeds regularly but never receives sufficient food to procreate, it grows into a mighty gibtanius. They become surly, uncontrolled predators, forsaking their bonded masters to satiate their unending hunger.</p>\n<hr />\n<p>This rubbery, spheroid scavenger is nearly all acid-dripping mouth, with five bulbous black eyes and two powerful, gangly legs. A gibtas often forms a bond with a single other creature-usually, a more powerful aberration- and serves this master loyally, if erratically. Creatures who keep a gibtas as a pet or guard soon learn to keep it away from any important possessions they don't want spattered with acid.</p>",
+			"CdescriptionGM": "",
+			"language": "(Can't Speak Any Language)",
+			"senses": "darkvision, scent (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Gibtas Bounder": {
+			"name": "Gibtas Bounder",
+			"Cdescription": "<p>A full-grown gibtas uses its powerful legs and rubbery body to bound great distances. Most gibtases remain solitary, unless bonded with a creature.</p>\n<hr />\n<p>This rubbery, spheroid scavenger is nearly all acid-dripping mouth, with five bulbous black eyes and two powerful, gangly legs. A gibtas often forms a bond with a single other creature-usually, a more powerful aberration- and serves this master loyally, if erratically. Creatures who keep a gibtas as a pet or guard soon learn to keep it away from any important possessions they don't want spattered with acid.</p>",
+			"CdescriptionGM": "",
+			"language": "(Can't Speak Any Languages)",
+			"senses": "darkvision, scent (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Gibtas Spawn Swarm": {
+			"name": "Gibtas Spawn Swarm",
+			"Cdescription": "<p>When a gibtas gorges itself on an incredible amount of flesh, it vomits up a pool of acid filled with tiny pink egg sacs that burst immediately. The new babies hunt as a pack, growing in size until they go their separate ways or consume each other.</p>\n<hr />\n<p>This rubbery, spheroid scavenger is nearly all acid-dripping mouth, with five bulbous black eyes and two powerful, gangly legs. A gibtas often forms a bond with a single other creature-usually, a more powerful aberration- and serves this master loyally, if erratically. Creatures who keep a gibtas as a pet or guard soon learn to keep it away from any important possessions they don't want spattered with acid.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, scent (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Groetan Candle": {
+			"name": "Groetan Candle",
+			"Cdescription": "<p>Malevolent balls of colored light, will-o'-wisps haunt lonely marshes and forests where they lure unsuspecting travelers into danger. Will-o'-wisps can vary the color and illumination they shed, and delight in mimicking bobbing lanterns or distant fires to draw lost or disoriented travelers off of safe trails. They can extinguish their illumination entirely to become invisible, and they enjoy doing so once their victims are wholly lost and have realized that the bobbing light in the distance isn't, in fact, leading them to safety. Even invisible, however, a will-o'-wisp rarely ventures far from its target, as it feasts upon the panic and dread felt by its victims.</p>\n<p>Beneath its glow, a will-o'-wisp's body is a spongy ball approximately 1 foot in diameter and weighing less than 5 pounds. Although most will-o'-wisps are merely translucent, featureless orbs, gaining definition only in the shifting illumination they create, a few have dark mottling that makes them resemble a skull when viewed closely. Will-o'-wisps have no need for mundane nourishment, and in fact lack the ability to consume matter of any kind; they find all the sustenance they need in the terror of nearby creatures. For this reason, they like to work alongside undead that produce terror in their victims. Will-o'-wisps are long-lived, if not effectively immortal, and they have good memories. A cowed or defeated will-o'-wisp can be a good source of lore and information, though acquiring such cooperation from such a sinister monster is no easy feat.</p>\n<p>Will-o'-wisps inhabit desolate swamps and forests and are generally active at twilight and after dark. They are therefore reluctant to lead victims into immediately fatal areas such as deadfalls, but instead prefer hazards where their victims suffer over a long time, such as pockets of stale or poisonous air, patches of quicksand, and dens of bigger monsters. According to will-o'-wisps, different types of fear have subtle differences in flavor. The lurking dread in the pit of the stomach that gnaws at those who slowly become aware of the fact that they're lost produces a much different taste than the sudden stark terror of imminent death in the face of a towering monster. Because of this, will-o'-wisps try to vary the ways in which they induce terror in their prey, to ensure they don't tire of certain flavors of fear.</p>\n<hr />\n<p>Nearly always adherents of the grim deity Groetus, these will-o'-wisps resemble the leering skull-faced moon of their namesake. They often gather in grim choruses that work together with eerie synchronicity. Groetan candles deal cold damage rather than electricity.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Gulzash": {
+			"name": "Gulzash",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Hellforge Barbazu": {
+			"name": "Hellforge Barbazu",
+			"Cdescription": "<p>Barbazus, known also as bearded devils or infantry devils, are murderous fiends who satiate their lust for annihilation by serving as the foot soldiers of Hell's armies, often leading hordes of lesser devils such as imps and lemures into battle. Bearded devils wield serrated glaives to inflict jagged gashes that resist healing magic, resulting in tremendous blood loss. When enemies come too close, bearded devils strike with the spines of their wriggling beards to deliver a wretched contagion called Avernal fever, savoring the sight of their victim's strength being slowly devoured from within.</p>\n<p>Barbazus can be found savagely indulging the whims of evil infernal lords from all layers of Hell, rejoicing as they disseminate murder, misery, and anguish as they see fit.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision",
+			"hp": ""
+		},
+		"Images of Failure": {
+			"name": "Images of Failure",
+			"Hdescription": "<p>Psychically enhanced illusions flood the minds of creatures in the 40-foot-long, 15-foot-wide hallway (the white dotted box on the map) with memories of their past failures.</p>",
+			"disable": "<p>@Check[type:occultism|dc:32|name:Weaken the images] (master) or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (5th level; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
+			"reset": "<p>The trap resets immediately and can affect the same creature multiple times on the creature's turn.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>(expert) to realize the illusory images conceal a magical trap (noticing the images has a DC of 0)</p>"
+		},
+		"Images of Powerlessness": {
+			"name": "Images of Powerlessness",
+			"Hdescription": "<p>Psychically-enhanced illusions flood the minds of creatures in the 95-foot-long, 15-foot-wide hallway (the white dotted box on the map) with visions of their failures yet to come.</p>",
+			"disable": "<p>@Check[type:occultism|dc:32|name:Weaken the images] (master) or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (5th level; counteract DC 26) to weaken the images; three successes are required to disable the trap</p>",
+			"reset": "<p>The trap resets immediately and can affect the same creature multiple times on the creature's turn.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>(expert) to realize the illusory images conceal a magical trap (noticing the images has a DC of 0)</p>"
+		},
+		"Jafaki": {
+			"name": "Jafaki",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Jarelle Kaldrian": {
+			"name": "Jarelle Kaldrian",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "negative healing, rejuvenation"
+		},
+		"Jaul Mezmin": {
+			"name": "Jaul Mezmin",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "Wolf Empathy",
+			"senses": "low-light vision, scent (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Jaul's Wolf": {
+			"name": "Jaul's Wolf",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "low-light vision, scent (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Khurfel": {
+			"name": "Khurfel",
+			"Cdescription": "<p>Khurfel leads the largest and most active group of adversaries the heroes face in the Abomination Vaults. His fated confrontation with the heroes is necessary because he holds the Emerald Fulcrum Lens and refuses to give it up as long as he lives, as it symbolizes the leadership of his cult. Khurfel's vision of falling at the heroes' hands doesn't inspire fear-it inspires fury, and he fights against his prophesized enemies as long as breath remains in his body.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Kragala": {
+			"name": "Kragala",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Lady's Whisper": {
+			"name": "Lady's Whisper",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, see invisibility, true seeing",
+			"hp": "void healing"
+		},
+		"Morlock Cultist": {
+			"name": "Morlock Cultist",
+			"Cdescription": "<p>Morlocks who serve as priests in their conclaves usually dabble in eerie occult magic.</p>\n<hr />\n<p>Morlocks originate from humans long lost to the surface world. They have an affinity for machinery, scavenging, and strange occult behaviors.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Morlock Engineer": {
+			"name": "Morlock Engineer",
+			"Cdescription": "<p>Most morlocks have little talent for crafting, but a rare few have an uncanny knack for tinkering.</p>\n<hr />\n<p>Morlocks originate from humans long lost to the surface world. They have an affinity for machinery, scavenging, and strange occult behaviors.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Morlock Scavenger": {
+			"name": "Morlock Scavenger",
+			"Cdescription": "<p>The morlock scavenger is a lankier, smaller version of a typical morlock. Their stature allows them to wriggle into areas other morlocks can't access.</p>\n<hr />\n<p>Morlocks originate from humans long lost to the surface world. They have an affinity for machinery, scavenging, and strange occult behaviors.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Mulventok": {
+			"name": "Mulventok",
+			"Cdescription": "<p>Sinister fleshwarpers reshape captive urdefhans into these juggernauts of war. Their clear skin is hardened into a thick, mirror-like carapace, creating an intimidating exoskeleton. Mulventoks don't live long; within weeks-or, at most, months-their hyperdeveloped muscles split open their toughened skin, and they erupt in a shower of gore. A mulventok's creator shapes its mind just as much as its body, directing its aggression toward a single purpose, such as to raze a fortress or murder a specific individual.</p>\n<hr />\n<p>Although twisting victims into horrid shapes is a well-known pastime of evil drow, other subterranean monsters have stolen these practices or developed them independently. The worm-like seugathis sometimes warp other creatures whose territories abut their lightless lands; the fleshwarps below result from morlocks and urdefhans, respectively.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Murmur": {
+			"name": "Murmur",
+			"Cdescription": "<p>Monstrous humanoids that resemble humans with snakes instead of hair, medusas are best known for their petrifying gazes that-if lingered upon-can permanently transform mortals to stone. Medusas are shrewd and manipulative adversaries who collect and covet secrets, and who use threats and guile to exploit the fears of weaker creatures. A medusa may seek out powerful magic items, use divination magic to discover secret knowledge and unlock forbidden power, or infiltrate a society to beguile influential politicians. Their ability to worm their way into powerful organizations makes them natural leaders of criminal outfits and thieves' guilds, and their interest in magical phenomena leads some to pursue careers as oracles who offer to help adventurers find what they seek-for a price. Of course, if wit and deception proves insufficient, a medusa can always simply turn rivals into ornate stone decorations with little more than a glare.</p>\n<p>Exceptionally agile and surprisingly hardy, a medusa rarely backs down from a conflict even when cornered. Many adventurers who thought themselves readied to resist the effects of a medusa's gaze have nevertheless fallen to a medusa, as these creatures are also often deadly archers able to riddle their foes with venom-coated arrows from a distance. Still, a medusa may barter for their life if no alternatives remain, and the secrets carried by these powerful villains often make it more than worth sparing the monster's life.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Murschen": {
+			"name": "Murschen",
+			"Cdescription": "<p>The cowardly and lazy skulks live on the fringes of organized societies and steal from others without a second thought. Even murder is merely another necessity, and they think nothing of creeping into a house, dispatching the residents, and taking what they want.</p>\n<p>Their chameleon-like ability to blend into their surroundings makes skulks difficult to detect, so their ever-present populations around the periphery of large settlements are nearly impossible to dislodge permanently. They typically travel in small groups of no more than 16 individuals, since groups larger than that tend to break into violence directed at one other. While skulks see themselves as sharing a common history of being cast out and hated, this is not a strong enough bond to hold large groups of the creatures together with a shared purpose for very long.</p>\n<p>Entrances and exits from cities, especially less-guarded access ways around sewers and the like, are skulks' favorite stomping grounds. These sites allow them to closely observe who comes and goes from the city while also affording them swift escape options, should the authorities uncover their presence. On rare occasions, a well-disciplined skulk can rise to prominence within the local thieves' guild and become sought after for difficult jobs. Their repugnant personalities and overwhelming selfishness, however, usually means they are unable to secure longlasting leadership roles.</p>\n<p>A typical skulk is 6 feet tall with similar body structure to a gangly human. Skulks mature quickly and can live up to 50 years, although most meet a violent end long before then. The rare skulk who manages to escape their society of violence and craven bitterness can be of any alignment, but those skulks who remain bound by their traditions always see these self-imposed exiles as the worst kind of traitors, and the exiles are often targeted for eradication to the exclusion of all other victims. More than one band of skulks has accidentally engineered its own doom after throwing caution to the wind and exposing its existence to the authorities in an ill-planned but violently passionate attempt to track down such an exile.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "low-light vision",
+			"hp": ""
+		},
+		"Nhakazarin": {
+			"name": "Nhakazarin",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Nhimbaloth's Cutter": {
+			"name": "Nhimbaloth's Cutter",
+			"Cdescription": "<p>Crafted of hardened glass and held together by magically treated lead, glass golems are both deadly guardians and works of exquisite art. Glass golems most often protect grand cathedrals or opulent palaces-testaments to the wealth and power of those they serve, or once served. Once spurred into action by the commands of their creators, glass golems are quicker and more agile than most other golems. Their sharp, blade-like limbs can easily sever veins and arteries, creating wounds that bleed profusely.</p>\n<p>Of all the various types of golems, the glass golem is the one most akin to a work of art. Just as powerful aristocrats might use an ice golem for temperature regulation or a wood golem as an ego-boosting statue, a glass golem's colorful glass construction can elevate the beauty of any chamber by its mere presence.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "",
+			"di": "Magic (see Golem Antimagic)"
+		},
+		"Nox": {
+			"name": "Nox",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "death flame"
+		},
+		"Nyzuros": {
+			"name": "Nyzuros",
+			"Cdescription": "<p>Hunters seek out game to keep drow communities fed and functioning.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Observation Deck Seugathi Researcher": {
+			"name": "Observation Deck Seugathi Researcher",
+			"Cdescription": "<p>The most common seugathis spawned by neothelids are seugathi servants. Their masters equip them with tools useful in their tasks (often a wand and a weapon), and they rarely value other material things beyond their usefulness in completing their imprinted mission.</p>\n<hr />\n<p>The wicked, alien @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.wxBQsGLdti2xcGVT]{Neothelids} impregnate themselves through ritualistic magic to produce wormlike servitor creatures called seugathis. These creatures spawn with a strong psychic drive to complete some task on behalf of the neothelids' far-reaching plans. These directives are diverse, strange, and usually cruel toward humanoid life.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense 30 feet",
+			"hp": ""
+		},
+		"Otari Ilvashti": {
+			"name": "Otari Ilvashti",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "negative healing, rejuvenation"
+		},
+		"Padli": {
+			"name": "Padli",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "death flame"
+		},
+		"Painful Suggestion Trap": {
+			"name": "Painful Suggestion Trap",
+			"Hdescription": "<p>A hidden rune on the floor under the filth, just past the threshold, triggers an ersatz ghost.</p>",
+			"disable": "<p>@Check[type:thievery|dc:28|name:Remove Rune|traits:magical,trap] (expert) to remove the rune without triggering it, or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (4th level; counteract DC 26) to dispel the rune</p>",
+			"reset": "<p>The trap automatically resets after 1 hour.</p>",
+			"routine": "",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Paralyzing Light Trap": {
+			"name": "Paralyzing Light Trap",
+			"Hdescription": "<p>When any creature other than a devil enters the light, the magic interwoven in the light holds the creature in place and rings an alarm.</p>",
+			"disable": "<p>@Check[type:thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap] (master) to distort or diffuse the light, keeping the light cone intact but preventing the trap from triggering, or <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (4th level; counteract DC 26) to dispel the light, leaving the room in darkness</p>",
+			"reset": "<p>The stasis magic in the light builds up over the course of an hour, after which the trap can trigger again.</p>",
+			"routine": "<p>(1 action) All @UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{Stunned} and @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Paralyzed} creatures in the room take @Damage[1d10[mental]] (@Check[type:will|dc:26|basic:true|traits:magical,trap]). Creatures who fail also become paralyzed for 1 round but can use a reaction to mentally fight off this stasis; creatures who do so take @Damage[5d10[mental]] but are no longer paralyzed.</p>",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Poisoning Room Specter": {
+			"name": "Poisoning Room Specter",
+			"Cdescription": "<p>When an evil mortal creature dies, it sometimes returns to haunt the area of its death as a specter, a hateful remnant, always seeking to slay others-particularly humanoids-in an attempt to distribute its pain among as many souls as it can. A specter maintains a strange semblance of its prior identity, but with a corrupted sense of purpose. It cannot be reasoned with.</p>\n<p>A specter denied the opportunity to harm living humanoids grows increasingly agonized and irrational, akin to the mindset of a starving person forever denied a release from agony through death.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet (with spectral thralls only)",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Quara Orshendiel": {
+			"name": "Quara Orshendiel",
+			"Cdescription": "<p>Quara will likely become an ally of the heroes, as she knows useful partners when she sees them. She's interested in avenging her father and sister, but she knows that whatever goal her father was pursuing with the Ochre Fulcrum Lens could prove critical in freeing Yldaris from Belcorra's control forever. She has learned that the ochre lens was only one of three lenses that Belcorra entrusted to allies in the region centuries ago, and she sets the heroes on the trail of recovering them and finding out more. The most important lead Quara provides to the heroes is that her father was headed toward an ancient vault at the edge of the lake, so the heroes can find out more at that location.</p>\n<p>The heroes might see drow as enemies and assault Yldaris. In this case, Quara does her best to protect her people, relying on the shootist training that still lingers in her quick fingers. She likely won't trust the heroes with any information after such aggressions, but they might find some clues in her quarters.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Reaper Skull Puffball": {
+			"name": "Reaper Skull Puffball",
+			"Cdescription": "<p>Many benign puffball fungi cling to the detritus of forest floors in Darklands caverns. These fungi's giant versions are more mobile and dangerous.</p>\n<hr />\n<p>When this fungus detects prey, its tendrils writhe and exude a paralytic toxin.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "motion sense 60 feet, no vision",
+			"hp": ""
+		},
+		"Ryta": {
+			"name": "Ryta",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Sacuishu": {
+			"name": "Sacuishu",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "",
+			"di": "Magic"
+		},
+		"Salaisa Malthulas": {
+			"name": "Salaisa Malthulas",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Scalathrax": {
+			"name": "Scalathrax",
+			"Cdescription": "<p>These slippery, scaly horrors dwell in remote cave networks in the Darklands, preferring to nest in narrow fissures. When on the hunt, they flick barbs from their long legs, or spray down their foes with a clear, toxic oil. The same oil coats the scalathrax's body, all of which is quite flammable-whether it's coating a victim or the scalathrax itself.</p>\n<p>While a scalathrax appears feral, it's more intelligent than it seems and is capable of speaking in a wet, slithery voice. The vast majority of scalathraxes are foul-tempered and quick to anger, and most of them enjoy killing. It's possible to forge an alliance with a scalathrax, but doing so requires either constant bribes of new creatures to kill or a particularly intimidating personality-scalathraxes often respect bullies, seeing in them a mirror of their own cruel values.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Seugathi Guard": {
+			"name": "Seugathi Guard",
+			"Cdescription": "<p>The most common seugathis spawned by neothelids are seugathi servants. Their masters equip them with tools useful in their tasks (often a wand and a weapon), and they rarely value other material things beyond their usefulness in completing their imprinted mission.</p>\n<hr />\n<p>The wicked, alien @UUID[Compendium.pf2e.pathfinder-bestiary-2.wxBQsGLdti2xcGVT]{Neothelids} impregnate themselves through ritualistic magic to produce wormlike servitor creatures called seugathis. These creatures spawn with a strong psychic drive to complete some task on behalf of the neothelids' far-reaching plans. These directives are diverse, strange, and usually cruel toward humanoid life.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense 30 feet",
+			"hp": ""
+		},
+		"Seugathi Reality Warper": {
+			"name": "Seugathi Reality Warper",
+			"Cdescription": "<p>Seugathi reality warpers create and destroy inhospitable environments on a small scale by manipulating the forces of raw chaos. A neothelid might spawn such a seugathi to create habitats for unique slaves or guests, or to destroy the ecosystem of a troublesome species. Darklands scholars refer to reality warpers as veterans in the seugathi ranks, but they're more accurately compared to aggressive landscape architects.</p>\n<hr />\n<p>The wicked, alien @UUID[Compendium.pf2e.pathfinder-bestiary-2.wxBQsGLdti2xcGVT]{Neothelids} impregnate themselves through ritualistic magic to produce wormlike servitor creatures called seugathis. These creatures spawn with a strong psychic drive to complete some task on behalf of the neothelids' far-reaching plans. These directives are diverse, strange, and usually cruel toward humanoid life.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense 30 feet",
+			"hp": ""
+		},
+		"Seugathi Researcher": {
+			"name": "Seugathi Researcher",
+			"Cdescription": "<p>The most common seugathis spawned by neothelids are seugathi servants. Their masters equip them with tools useful in their tasks (often a wand and a weapon), and they rarely value other material things beyond their usefulness in completing their imprinted mission.</p>\n<hr />\n<p>The wicked, alien @UUID[Compendium.pf2e.pathfinder-bestiary-2.wxBQsGLdti2xcGVT]{Neothelids} impregnate themselves through ritualistic magic to produce wormlike servitor creatures called seugathis. These creatures spawn with a strong psychic drive to complete some task on behalf of the neothelids' far-reaching plans. These directives are diverse, strange, and usually cruel toward humanoid life.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense 30 feet",
+			"hp": ""
+		},
+		"Seugathi Servant": {
+			"name": "Seugathi Servant",
+			"Cdescription": "<p>The most common seugathis spawned by neothelids are seugathi servants. Their masters equip them with tools useful in their tasks (often a wand and a weapon), and they rarely value other material things beyond their usefulness in completing their imprinted mission.</p>\n<hr />\n<p>The wicked, alien @UUID[Compendium.pf2e.pathfinder-bestiary-2.wxBQsGLdti2xcGVT]{Neothelids} impregnate themselves through ritualistic magic to produce wormlike servitor creatures called seugathis. These creatures spawn with a strong psychic drive to complete some task on behalf of the neothelids' far-reaching plans. These directives are diverse, strange, and usually cruel toward humanoid life.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "darkvision, tremorsense 30 feet",
+			"hp": ""
+		},
+		"Shanrigol Behemoth": {
+			"name": "Shanrigol Behemoth",
+			"Cdescription": "<p>Shanrigols that grow with the additions of many living victims can become truly enormous in size and pose a greater danger in their expanding hunting territories. Subterranean communities have collapsed entire tunnels to prevent the creatures from reaching their settlements.</p>\n<p>Many shanrigol behemoths absorb enough brain matter to form crude intelligences and take a serpentine or humanoid shape. They're more varied in their abilities than shanrigol heaps, as they often gain abilities from their constituent creatures. The shanrigol behemoth presented below contains flesh from driders and urdefhans, giving it a web attack and necrotic decay ability. Not all shanrigol behemoths have these two abilities, but should have other abilities to replace them.</p>\n<hr />\n<p>Fleshwarpers, regardless of their origin or training, create a shocking amount of waste. When the discarded remnants of aberrant flesh are heaped together with an accidental mixture of alchemical compounds or odious energy, the mass can quicken and regain life. Without the guidance of a fleshwarper, these aberrant body parts form into a shanrigol, a mess of bone, muscle, and sinew.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": "void healing"
+		},
+		"Shanrigol Heap": {
+			"name": "Shanrigol Heap",
+			"Cdescription": "<p>The most basic and common type of shanrigol is called, based on its general shape, a shanrigol heap. These amalgamations of warped flesh and shattered bone establish hunting grounds by accident rather than design, remaining where prey has been plentiful in the past so they can grow larger and larger as they add to their jumbled forms. Only rare fleshwarpers create these abominations willingly, as they ignore all commands and containment to seek out prey.</p>\n<hr />\n<p>Fleshwarpers, regardless of their origin or training, create a shocking amount of waste. When the discarded remnants of aberrant flesh are heaped together with an accidental mixture of alchemical compounds or odious energy, the mass can quicken and regain life. Without the guidance of a fleshwarper, these aberrant body parts form into a shanrigol, a mess of bone, muscle, and sinew.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": "void healing"
+		},
+		"Shuffling Scythe Blades": {
+			"name": "Shuffling Scythe Blades",
+			"Hdescription": "<p>Six long blades, hidden in grooves in the walls and floor, zigzag through different parts of this hallway when any pressure plate in the hallway intersection is depressed; there are so many plates it's impossible to avoid them when moving through the room. The blades retreat into the floor and move through the hidden grooves before swinging out from the wall again in a different location.</p>",
+			"disable": "<p>@Check[type:thievery|dc:26|name:Disable Each Blade] (expert) to disable each blade, or utter the magical passphrase (which only Chafkhem knows) to deactivate the trap for 10 minutes</p>",
+			"reset": "<p>The trap resets when no creatures remain in area <strong>B20</strong>. Damaged or destroyed blades aren't repaired when the trap resets.</p>",
+			"routine": "<p>(7 actions) The trap spends 1 action for each of its blades; a blade makes a scythe Strike against each creature in its region. With its final action, the trap uses Scythe Shuffle. Reduce the number of actions the trap can take by 1 for each destroyed blade.</p>",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Siora Fallowglade": {
+			"name": "Siora Fallowglade",
+			"Cdescription": "<p>Shadows that spend long amounts of time on the Shadow Plane and absorb its magic become greater shadows.</p>\n<hr />\n<p>The mysterious undead known as shadows lurk in dark places and feed on those who stray too far from the light. Those who parley with shadows, typically by keeping them at bay with a glowing weapon, may learn great secrets, for they are ideal spies.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Spellvoid": {
+			"name": "Spellvoid",
+			"Cdescription": "<p>Malevolent balls of colored light, will-o'-wisps haunt lonely marshes and forests where they lure unsuspecting travelers into danger. Will-o'-wisps can vary the color and illumination they shed, and delight in mimicking bobbing lanterns or distant fires to draw lost or disoriented travelers off of safe trails. They can extinguish their illumination entirely to become invisible, and they enjoy doing so once their victims are wholly lost and have realized that the bobbing light in the distance isn't, in fact, leading them to safety. Even invisible, however, a will-o'-wisp rarely ventures far from its target, as it feasts upon the panic and dread felt by its victims.</p>\n<p>Beneath its glow, a will-o'-wisp's body is a spongy ball approximately 1 foot in diameter and weighing less than 5 pounds. Although most will-o'-wisps are merely translucent, featureless orbs, gaining definition only in the shifting illumination they create, a few have dark mottling that makes them resemble a skull when viewed closely. Will-o'-wisps have no need for mundane nourishment, and in fact lack the ability to consume matter of any kind; they find all the sustenance they need in the terror of nearby creatures. For this reason, they like to work alongside undead that produce terror in their victims. Will-o'-wisps are long-lived, if not effectively immortal, and they have good memories. A cowed or defeated will-o'-wisp can be a good source of lore and information, though acquiring such cooperation from such a sinister monster is no easy feat.</p>\n<p>Will-o'-wisps inhabit desolate swamps and forests and are generally active at twilight and after dark. They are therefore reluctant to lead victims into immediately fatal areas such as deadfalls, but instead prefer hazards where their victims suffer over a long time, such as pockets of stale or poisonous air, patches of quicksand, and dens of bigger monsters. According to will-o'-wisps, different types of fear have subtle differences in flavor. The lurking dread in the pit of the stomach that gnaws at those who slowly become aware of the fact that they're lost produces a much different taste than the sudden stark terror of imminent death in the face of a towering monster. Because of this, will-o'-wisps try to vary the ways in which they induce terror in their prey, to ensure they don't tire of certain flavors of fear.</p>\n<hr />\n<p>Feeding not on fear but on the ephemeral potentiality of magic lodged in the minds of their victims, these will-o'-wisps are a bane to casters of all types. They usually leave non-spellcasters alone and sometimes follow adventuring groups without spellcasters on the hope of being led to creatures they find more appetizing.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Spike Launcher": {
+			"name": "Spike Launcher",
+			"Hdescription": "<p>A jagged spike of metal shoots from a hidden launcher.</p>",
+			"disable": "<p>@Check[type:thievery|dc:16|name:Disable Launcher|traits:mechanical,trap] to disable one of the four launchers or @Check[type:acrobatics|dc:12|name:Avoid Trip Line|traits:mechanical,trap] to step over a trip line (this doesn't disarm the trap, but avoids triggering it)</p>",
+			"reset": "",
+			"routine": "",
+			"hp": "",
+			"stealth": ""
+		},
+		"Summoning Chamber Erinys": {
+			"name": "Summoning Chamber Erinys",
+			"Cdescription": "<p>Erinyes exact vengeance and bloody justice for a creature's crimes, torturing and punishing their victims in ironic fashion before allowing them the escape of death. While an erinys appears as a fallen angel and the first erinyes shared that origin, erinyes now originate in myriad ways, some promoted from lesser devils and others shaped from lemures themselves forged from the souls of torturers and persecutors. The erinyes' origin is entwined with Eiseth, herself a fallen angel and one of Hell's most powerful demigods. The first erinyes were all considered to be Eiseth's metaphorical daughters, but erinyes formed since that time are no longer limited to a single gender.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision, true seeing",
+			"hp": ""
+		},
+		"Torture Chamber Barbazu": {
+			"name": "Torture Chamber Barbazu",
+			"Cdescription": "<p>Barbazus, known also as bearded devils or infantry devils, are murderous fiends who satiate their lust for annihilation by serving as the foot soldiers of Hell's armies, often leading hordes of lesser devils such as imps and lemures into battle. Bearded devils wield serrated glaives to inflict jagged gashes that resist healing magic, resulting in tremendous blood loss. When enemies come too close, bearded devils strike with the spines of their wriggling beards to deliver a wretched contagion called Avernal fever, savoring the sight of their victim's strength being slowly devoured from within.</p>\n<p>Barbazus can be found savagely indulging the whims of evil infernal lords from all layers of Hell, rejoicing as they disseminate murder, misery, and anguish as they see fit.</p>\n<hr />\n<p>Masters of corruption and architects of conquest, devils seek both to tempt mortal life to join in their pursuit of all things profane and to spread tyranny throughout all worlds. The temptations they offer mortals range from great powers granted by the signing of an infernal contract to twisted favors following a whispered pledge to a diabolic patron, or any number of even subtler exchanges. Those who succumb to these temptations find themselves consigned to an afterlife of endless torment in the pits of Hell, wherein the only hope of escape lies in the chance of being promoted to become a devil in the infernal ranks. Every devil has a specific role to play in the upkeep of the remorseless bureaucratic machine that is Hell, from soldiers and scholars to inquisitors, lawyers, judges, and executioners. Lowly lemures and imps perform subservient labor to more powerful and specialized devils, such as contract devils and erinyes, while the greatest pit fiends command entire infernal armies.</p>",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet",
+			"senses": "greater darkvision",
+			"hp": ""
+		},
+		"Urdefhan Blood Mage": {
+			"name": "Urdefhan Blood Mage",
+			"Cdescription": "<p>Hardened masters of occult power, urdefhan blood mages trade their blood for magical might. A heavily scarred blood mage is held in esteem by their fellow urdefhans, as it shows they have survived many bargains with eerie occult patrons.</p>\n<hr />\n<p>Translucent-skinned scourges of the Darklands, urdefhans are remorseless killers and foot soldiers of the world's end.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Urdefhan Death Scout": {
+			"name": "Urdefhan Death Scout",
+			"Cdescription": "<p>Death scouts train as spies and assassins for their cult. Other urdefhans scorn their stealthy methods, but none can argue with their results.</p>\n<hr />\n<p>Translucent-skinned scourges of the Darklands, urdefhans are remorseless killers and foot soldiers of the world's end.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Urdefhan Lasher": {
+			"name": "Urdefhan Lasher",
+			"Cdescription": "<p>Trained from a young age with the strange and powerful shauth lashes, urdefhan lashers would rather die than retreat from combat.</p>\n<hr />\n<p>Translucent-skinned scourges of the Darklands, urdefhans are remorseless killers and foot soldiers of the world's end.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Urevian": {
+			"name": "Urevian",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "Telepathy 100 feet, Tongues",
+			"senses": "greater darkvision",
+			"hp": "",
+			"di": "Ward Contract"
+		},
+		"Urthagul": {
+			"name": "Urthagul",
+			"Cdescription": "<p>A gug's most horrid feature is its barrel-shaped head, which splits vertically to reveal numerous rows of sharp, yellow teeth and an open throat. Its eyes on either side of its head-jaw are small but keen. Bony ridges protect its eyes from the frantic flailing of its prey, as it prefers meals of raw and writhing meat over fungi and molds. It grips said prey with powerful arms that split at the elbow into a pair of forearms, giving it four clawed paws. These monstrous brutes are covered with shaggy black fur, often crusted with blood and gore.</p>\n<p>Although gugs may seem bestial, they have keen and wicked intellects. Gugs lair far underground, but they sometimes come to the surface to hunt during dark nights, either alone or in small groups. As they possess voracious appetites, most gugs consume the creatures they catch, but some instead kidnap their victims and retreat below the surface, leaving only a lingering stench and odd, clawed paw-prints. Victims are taken to rancid lairs marked with strange runes and sacrificed to the gugs' wicked gods of blood, darkness, and nightmares. Dire rumors tell of lightless gug cities made of titanic blocks of stone far underground, where powerful gug leaders preach their vile doctrines to mobs of howling gugs.</p>\n<p>Gugs have a strange relationship with ghouls, which seems to date from their shared origin in a distant subterranean world. Gugs live in fear of ghouls, despite towering over them; however, this strange fear doesn't apply to ghasts, whom gugs consume as voraciously as they do other creatures.</p>\n<p>Gugs stand 16 feet tall and weigh 2,000 pounds, although they have an eerie, graceful gait that belies their immense size. Their light step and ability to squeeze through very small crannies makes gugs common bogeymen in tales of strange disappearances or bloody massacres.</p>\n<p>Some particularly bloodthirsty gugs gain awful powers as gifts from their eldritch patrons. These monsters are known as savants, are never less than 12th level in power, and gain several occult innate spells. Though each savant's precise mix of spells varies, normally, these spells grant invisibility, offer power to manipulate and change rock, or invoke awful and destructive energies upon living flesh.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Vengeful Furnace": {
+			"name": "Vengeful Furnace",
+			"Hdescription": "<p>The hatch atop the haunted furnace flips open and disgorges a pair of shrieking, burning ghosts.</p>",
+			"disable": "<p>@Check[type:intimidation|dc:22|name:Cow a Spirit] (trained) to cow one of the vengeful spirits or @Check[type:religion|dc:25|name:Exorcise the Spirit] (trained) to exorcise the spirit. The haunt remains active until both spirits are cowed or exorcised, or until the furnace is destroyed.</p>",
+			"reset": "<p>The haunt resets 1 hour after there are no creatures in the room.</p>",
+			"routine": "<p>(3 actions) The burning ghosts lash at a random @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Stupefied} creature in the room (or any random creature, if no creatures in the room are stupefied).</p>",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Vischari": {
+			"name": "Vischari",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "greater darkvision",
+			"hp": "void healing"
+		},
+		"Viscous Black Pudding": {
+			"name": "Viscous Black Pudding",
+			"Cdescription": "<p>Most often found below ground, these oozes scour caves for objects to dissolve with their corrosive secretions. This caustic acid is particularly dangerous to creatures that attack a pudding, as it can quickly damage and destroy gear.</p>\n<hr />\n<p>Slimes, molds, and other oozes can be found in dank dungeons and shadowed forests. While not necessarily evil, some grow to enormous sizes and have insatiable appetites.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "motion sense 60 feet, no vision",
+			"hp": ""
+		},
+		"Voidbracken Chuul": {
+			"name": "Voidbracken Chuul",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": ""
+		},
+		"Voidglutton": {
+			"name": "Voidglutton",
+			"Cdescription": "<p>A voidglutton is a powerful type of will-o'-wisp that haunts a site where misery dwells-such as a graveyard, prison camp, or recent battlefield. A voidglutton appears as a seething sphere of glowing eyes swirling around an empty black vortex 4 feet wide. From within this vortex extend long, semi-transparent tendrils that end in seven-fingered, needled hands.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Volluk Azrinae": {
+			"name": "Volluk Azrinae",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision, tremorsense (imprecise) 30 feet",
+			"hp": "fast healing 7"
+		},
+		"Warped Brew Morlock": {
+			"name": "Warped Brew Morlock",
+			"Cdescription": "<p>Originating from humans long lost from the world of light, morlocks are brutal monsters that dwell in the tangled tunnels of the upper reaches of the Darklands. Their wiry frames mask the strength of their limbs and their swift reactions, and their arms are long enough that they can drop into an uncanny, four-limbed shuffle for speed or stealth. They no longer remember the lives their ancestors led on the surface, although many morlocks still dwell in the shattered ruins of their ancient homes. Some morlocks worship the statues of humans from these bygone eras as gods, but others now worship Lamashtu, Rovagug, or other violent deities.</p>\n<p>Morlock young are insatiable and clamor for even the slightest morsel of food, even consuming their siblings if no other meal presents itself. Most morlocks encourage the practice to ensure their ancestral group as a whole grows stronger.</p>\n<p>A typical morlock stands just over 5 feet tall and weighs roughly 150 pounds.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Watching Wall": {
+			"name": "Watching Wall",
+			"Hdescription": "<p>An overwhelming feeling of being watched wells up in the minds of those in the room, an instant before an eerie red eye opens in the western wall.</p>",
+			"disable": "<p>@Check[type:deception|dc:22|name:Appear Uninteresting|traits:haunt] (trained) to appear uninteresting to the watching eye (and thus be ignored by it) or @Check[type:religion|dc:22|name:Ward Against Being Seen|traits:haunt] (trained) to ward against being seen by or affected by the eye.</p>",
+			"reset": "<p>The haunt becomes inert at the end of any round in which there are no @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} creatures it can see. It stays dormant for 1 hour, after which point it resets.</p>",
+			"routine": "<p>(1 action) The eye glances about, and those it can see (whether in area <strong>C4</strong> or outside of it) take @Damage[4d6[mental]] (@Check[type:will|dc:21|basic:true|traits:haunt]) as fears of being watched impart ripples of pain.</p>\n<p>A creature that takes mental damage from this effect doesn't reduce their @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} value at the end of their next turn.</p>",
+			"hp": "",
+			"stealth": "<p>(expert)</p>"
+		},
+		"Will-o'-the-Deep": {
+			"name": "Will-o'-the-Deep",
+			"Cdescription": "<p>Malevolent balls of colored light, will-o'-wisps haunt lonely marshes and forests where they lure unsuspecting travelers into danger. Will-o'-wisps can vary the color and illumination they shed, and delight in mimicking bobbing lanterns or distant fires to draw lost or disoriented travelers off of safe trails. They can extinguish their illumination entirely to become invisible, and they enjoy doing so once their victims are wholly lost and have realized that the bobbing light in the distance isn't, in fact, leading them to safety. Even invisible, however, a will-o'-wisp rarely ventures far from its target, as it feasts upon the panic and dread felt by its victims.</p>\n<p>Beneath its glow, a will-o'-wisp's body is a spongy ball approximately 1 foot in diameter and weighing less than 5 pounds. Although most will-o'-wisps are merely translucent, featureless orbs, gaining definition only in the shifting illumination they create, a few have dark mottling that makes them resemble a skull when viewed closely. Will-o'-wisps have no need for mundane nourishment, and in fact lack the ability to consume matter of any kind; they find all the sustenance they need in the terror of nearby creatures. For this reason, they like to work alongside undead that produce terror in their victims. Will-o'-wisps are long-lived, if not effectively immortal, and they have good memories. A cowed or defeated will-o'-wisp can be a good source of lore and information, though acquiring such cooperation from such a sinister monster is no easy feat.</p>\n<p>Will-o'-wisps inhabit desolate swamps and forests and are generally active at twilight and after dark. They are therefore reluctant to lead victims into immediately fatal areas such as deadfalls, but instead prefer hazards where their victims suffer over a long time, such as pockets of stale or poisonous air, patches of quicksand, and dens of bigger monsters. According to will-o'-wisps, different types of fear have subtle differences in flavor. The lurking dread in the pit of the stomach that gnaws at those who slowly become aware of the fact that they're lost produces a much different taste than the sudden stark terror of imminent death in the face of a towering monster. Because of this, will-o'-wisps try to vary the ways in which they induce terror in their prey, to ensure they don't tire of certain flavors of fear.</p>\n<hr />\n<p>Aquatic will-o'-wisps, will-o'-the-deeps dwell within oceans and even terrestrial lakes, and strings of them can create profoundly beautiful vistas. Their propensity to draw ships toward reefs and whirlpools or to swarm smaller vessels makes them a deadly hazard.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": ""
+		},
+		"Witchfire Warden": {
+			"name": "Witchfire Warden",
+			"Cdescription": "<p>Manifesting as a sinuous form wreathed in sickly green flames, this incorporeal undead forms when a powerful hag or witch dies in agony or rage. The body at the center of the flames usually resembles the witch's idealized self-image, regardless of their age and appearance at the time of their death.</p>\n<p>A witchfire often resides in a bog or swamp, which slowly blackens and decays around them. These regions are often plagued by will-o'-wisps, which seem to have an uncanny relationship with the resident witchfire. A witchfire might visit villages on the edge of their home terrain to lure away villagers, but always attack victims within earshot to make sure that other villagers hear the screams. A witchfire might also ally with other hags or witches and even join their covens, but a witchfire is incapable of forming covens entirely on their own.</p>",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "darkvision",
+			"hp": "void healing"
+		},
+		"Wrin Sivinxi": {
+			"name": "Wrin Sivinxi",
+			"Cdescription": "",
+			"CdescriptionGM": "",
+			"language": "",
+			"senses": "low-light vision, spirit sight (precise) 30 feet",
+			"hp": ""
+		},
+		"Ysondkhelir": {
+			"name": "Ysondkhelir",
+			"Cdescription": "<p>Slavers and raiders from the cold, windswept dimension of Leng, these malevolent humanoids range across reality in ominous black ships capable of sailing beyond the borders of dimensions and planes. Although most denizens of Leng seek slaves and plunder like any pirate, others operate as self-styled ambassadors and merchants, sowing discord with far-ranging plots. While the inscrutable denizens dress themselves in flowing robes, veils, and broad turbans to appear human, their aberrant physiology, when glimpsed, is evident from their crown of stubby horns and tentacled jaws to their furry, goat-like legs.</p>\n<p>Above the fierce captains who command the infamous black ships are an even higher caste of denizens of Leng. These cultists and musicians serve as high priests, laboring to appease the frightening gods who look down upon the Nightmare Realm with cold malice.</p>",
+			"CdescriptionGM": "",
+			"language": "Tongues",
+			"senses": "darkvision",
+			"hp": "planar fast healing 5"
+		}
+	}
+}

@@ -561,7 +561,7 @@
                 },
                 {
                     "name": "Извержение Ржавчины",
-                    "description": "<p>Влориак извергает @Template[type:cone|distance:15] кислоты и ржавого металла. Существа в этой области получают @Damage[(3d6)[piercing],(3d6)[acid]]. Существо, получившее любой урон от колющего предмета, подвержено @UUID[Compendium.pf2e.rusthenge-bestiary.Actor.fRiOPTsfqJBiwUwh.Item.Q0Sd9sqnUeL32Jw9]&nbsp;</p><p style=\"text-align: center;\">@Check[type:reflex|dc:22|basic:true]</p><p>Перезарядка: [[/br 1d4 #rounds]]{1d4 rounds}</p><section class=\"secret\"><p>The vloriak can't Spew Rusted Shards for [[/br 1d4 #rounds]]{1d4 rounds}.</p></section>",
+                    "description": "<p>Влориак извергает @Template[type:cone|distance:15] кислоты и ржавого металла. Существа в этой области получают @Damage[(3d6)[piercing],(3d6)[acid]]. Существо, получившее любой урон от колющего предмета, подвержено @UUID[Compendium.pf2e.rusthenge-bestiary.Actor.fRiOPTsfqJBiwUwh.Item.Q0Sd9sqnUeL32Jw9] </p><p style=\"text-align: center;\">@Check[type:reflex|dc:22|basic:true]</p><p>Перезарядка: [[/br 1d4 #rounds]]{1d4 rounds}</p><section class=\"secret\"><p>The vloriak can't Spew Rusted Shards for [[/br 1d4 #rounds]]{1d4 rounds}.</p></section>",
                     "id": "Spew Rusted Shards"
                 }
             ]
@@ -692,7 +692,7 @@
             "items": [
                 {
                     "name": "Ударный Поток",
-                    "description": "<p>Триггер: Существо входит в область к югу от кольца камней, отмеченного на карте</p><hr><p>Бурлящий поток воды поднимается из кольца камней, затем с силой течет по проходу и стекает в яму в Е1б. `Большие` и малые существа, оказавшиеся на пути воды, должны попытаться сделать спасбросок на @Check[type:fortitude|dc:20|traits:damaging-effect]. Бурлящие воды мгновенно исчезают, ударившись о дно ямы, но оставляют там все мокрым.</p><hr><p>Крит.Успех: Существо выдерживает воздействие бурлящих вод и остается незатронутым</p><p>Успех: Существо получает @Damage[1d10[bludgeoning]]</p><p>Провал: Существо падает &nbsp;@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}, получает @Damage[(1d10+6)[bludgeoning]], и его толкает вода к ловушке в виде Шипастой Ямы, что приводит к активации ловушки</p><p>Крит.Провал: Как и провал, но существо не может попытаться @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, если попадет в ловушку с Шипастой Ямой</p>",
+                    "description": "<p>Триггер: Существо входит в область к югу от кольца камней, отмеченного на карте</p><hr><p>Бурлящий поток воды поднимается из кольца камней, затем с силой течет по проходу и стекает в яму в Е1б. `Большие` и малые существа, оказавшиеся на пути воды, должны попытаться сделать спасбросок на @Check[type:fortitude|dc:20|traits:damaging-effect]. Бурлящие воды мгновенно исчезают, ударившись о дно ямы, но оставляют там все мокрым.</p><hr><p>Крит.Успех: Существо выдерживает воздействие бурлящих вод и остается незатронутым</p><p>Успех: Существо получает @Damage[1d10[bludgeoning]]</p><p>Провал: Существо падает  @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}, получает @Damage[(1d10+6)[bludgeoning]], и его толкает вода к ловушке в виде Шипастой Ямы, что приводит к активации ловушки</p><p>Крит.Провал: Как и провал, но существо не может попытаться @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, если попадет в ловушку с Шипастой Ямой</p>",
                     "id": "Spherical Deluge"
                 }
             ]
@@ -707,7 +707,7 @@
             "tokendisplayName": 20,
             "hstealth": "",
             "hdescription": "<p>Ржавая клетка, вмонтированная в потолок, с грохотом падает вниз, пытаясь поймать в ловушку существо, ступившее на нажимную плиту в центре комнаты.</p>",
-            "hdisable": "<p>@Check[type:thievery|dc:13], чтобы безвредно запустить ловушку, подтолкнув нажимную плиту</p><p>@Check[type:thievery|dc:20], чтобы стабилизировать нажимную плиту, чтобы она не сработала</p><p>@Check[type:athletics|dc:20], чтобы @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] из клетки или @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]&nbsp;клетку после ее падения</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:13], чтобы безвредно запустить ловушку, подтолкнув нажимную плиту</p><p>@Check[type:thievery|dc:20], чтобы стабилизировать нажимную плиту, чтобы она не сработала</p><p>@Check[type:athletics|dc:20], чтобы @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] из клетки или @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx] клетку после ее падения</p>",
             "hroutine": "",
             "hreset": "<p>Механический механизм, позволяющий вручную сбросить эту ловушку, находится в @UUID[JournalEntry.eguaKgZVgF59mJ18.JournalEntryPage.TjkYo5TkO1WOJQAS]{Г15. Мастерская / Низко 2}</p>",
             "items": [
