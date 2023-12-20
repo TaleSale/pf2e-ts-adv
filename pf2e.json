@@ -1,0 +1,15 @@
+{
+    "PF2E": {
+        "SaveDCLabel": "Спас.{type}<dc>КС_{dc}</dc>",
+        "SaveDCLabelBasic": "Спас.Пр.{type}<dc>КС_{dc}</dc>",
+        "SavesFortitude": "Стойкость",
+        "SavesFortitudeShort": "Стк",
+        "SavesHeader": "Спасброски",
+        "SavesReflex": "Рефлекс",
+        "SavesReflexShort": "Реф",
+        "SavesWill": "Воля",
+        "SavesWillShort": "Воля",
+        "SavingThrow": "Спасбросок",
+        "SavingThrowWithName": "Спас.{saveName}"
+    }
+}

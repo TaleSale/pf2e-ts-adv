@@ -183,9 +183,21 @@
 			"name": "Укус",
 			"slug": "bite"
 		},
+		"Mouth": {
+			"name": "Рот",
+			"slug": "mouth"
+		},
+		"Spittle": {
+			"name": "Плевок",
+			"slug": "spittle"
+		},
 		"Fist": {
 			"name": "Кулак",
 			"slug": "fist"
+		},
+		"Ghostly Hand": {
+			"name": "Призрачная Рука",
+			"slug": "ghostly-hand"
 		},
 		"Scent": {
 			"name": "Нюх"
@@ -769,6 +781,38 @@
 		"+4 Status to All Saves vs Disease and Poison": {
 			"name": "Состояние: +4 к Спасам от Яда/Болезни",
 			"description": "<p>Состояние: +4 к Спасам от Яда/Болезни</p>"
+		},
+		"+1 Status to All Saves vs. Disease and Poison": {
+			"name": "Состояние: +1 к Спасам от Яда/Болезни",
+			"description": "<p>Состояние: +1 к Спасам от Яда/Болезни</p>"
+		},
+		"+2 Status to All Saves vs. Disease and Poison": {
+			"name": "Состояние: +2 к Спасам от Яда/Болезни",
+			"description": "<p>Состояние: +2 к Спасам от Яда/Болезни</p>"
+		},
+		"+3 Status to All Saves vs. Disease and Poison": {
+			"name": "Состояние: +3 к Спасам от Яда/Болезни",
+			"description": "<p>Состояние: +3 к Спасам от Яда/Болезни</p>"
+		},
+		"+4 Status to All Saves vs. Disease and Poison": {
+			"name": "Состояние: +4 к Спасам от Яда/Болезни",
+			"description": "<p>Состояние: +4 к Спасам от Яда/Болезни</p>"
+		},
+		"+1 Status to All Saves vs. Poison": {
+			"name": "Состояние: +1 к Спасам от Яда",
+			"description": "<p>Состояние: +1 к Спасам от Яда</p>"
+		},
+		"+2 Status to All Saves vs. Poison": {
+			"name": "Состояние: +2 к Спасам от Яда",
+			"description": "<p>Состояние: +2 к Спасам от Яда</p>"
+		},
+		"+3 Status to All Saves vs. Poison": {
+			"name": "Состояние: +3 к Спасам от Яда",
+			"description": "<p>Состояние: +3 к Спасам от Яда</p>"
+		},
+		"+4 Status to All Saves vs. Poison": {
+			"name": "Состояние: +4 к Спасам от Яда",
+			"description": "<p>Состояние: +4 к Спасам от Яда</p>"
 		},
 		"+1 Circumstance Bonus on Saves vs Poisons": {
 			"name": "Обстоятельства: +1 Спасам от Яда",

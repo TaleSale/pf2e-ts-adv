@@ -598,3 +598,109 @@ u {
   color: rgb(153, 102, 7);
   text-decoration: underline;
 }
+
+darkblue {
+  color: darkblue;
+  font-weight: bold;
+}
+
+red {
+  color: red;
+  font-weight: bold;
+}
+
+green {
+  color: green;
+  font-weight: bold;
+}
+
+yellow {
+  color: yellow;
+  font-weight: bold;
+}
+
+purple {
+  color: purple;
+  font-weight: bold;
+}
+
+krituspeh {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: green;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+uspeh {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: blue;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+proval {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: #ff4500;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
+
+kritproval {
+  background: none;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  color: red;
+  align-items: center;
+  border: 1px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto,sans-serif;;
+  font-size: 0.625rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: .05em;
+  padding: 1px;
+  text-align-last: center;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+}
