@@ -7981,7 +7981,175 @@
     "xY2WjwebqTNXAP0q": {
 			"actor": "modules/pf2e-ts-adv/art_token/npc-gallery/commoner/commoner.webp",
       "token": "modules/pf2e-ts-adv/art_token/npc-gallery/commoner/commoner.webp"
-		}
+		},
+    "crTWewxna93vEt6B":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/ACOLYTE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/ACOLYTE.webp"
+    },
+    "Tj03FbN4SSr0o953":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/ACROBAT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/ACROBAT.webp"
+    },
+    "sKSfQmJMEsj8QN12":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/ADEPT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/ADEPT.webp"
+    },
+    "K2STan8izudm9eEn":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/ANTIPALADIN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/ANTIPALADIN.webp"
+    },
+    "aJR3f8YcAkmfx7im":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/APPRENTICE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/APPRENTICE.webp"
+    },
+    "51E3fdESgGjQxcMv":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/ASTRONOMER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/ASTRONOMER.webp"
+    },
+    "6IADTZHYowxObqAk":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BARKEEP.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BARKEEP.webp"
+    },
+    "ImdKLPgazv4MSI0F":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BARRISTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BARRISTER.webp"
+    },
+    "JsTI2SEZdg2j03gf":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BEGGAR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BEGGAR.webp"
+    },
+    "1NZ1ZAgcUlWKmQSs":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BOSUN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BOSUN.webp"
+    },
+    "GoGNtiHuYycppLPk":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BOUNTY-HUNTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BOUNTY-HUNTER.webp"
+    },
+    "B09JfuBZHjcRXztU":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BURGLAR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BURGLAR.webp"
+    },
+    "t7QwdZ2m7AbuRWqd":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/CAPTAIN-OF-THE-GUARD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/CAPTAIN-OF-THE-GUARD.webp"
+    },
+    "7GGHuOlSzcaF2AdL":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/CHARLATAN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/CHARLATAN.webp"
+    },
+    "EslFhpdvQf7KN8W3":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/CHRONICLER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/CHRONICLER.webp"
+    },
+    "Ap87yR4WOs0wKHx7":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/CULTIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/CULTIST.webp"
+    },
+    "pMKrTXmrzDOc9avN":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/CULT-LEADER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/CULT-LEADER.webp"
+    },
+    "0Ex7rBuiJVu2NwCz":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/DEMONOLOGIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/DEMONOLOGIST.webp"
+    },
+    "IaSxoVNZFYatdfjI":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/DRUNKARD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/DRUNKARD.webp"
+    },
+    "1U1URD7IyddoD5zE":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/FENCE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/FENCE.webp"
+    },
+    "vkLhqX5oR1t89puZ":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/GANG-LEADER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/GANG-LEADER.webp"
+    },
+    "X7LmMMEOFUUicQ2O":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/GUIDE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/GUIDE.webp"
+    },
+    "pZOgcQRwXrX9g0s8":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/GUILDMASTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/GUILDMASTER.webp"
+    },
+    "saUg5rtaO9kI9Vir":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/HARBORMASTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/HARBORMASTER.webp"
+    },
+    "Hle05FibgOeZr7wF":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/HUNTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/HUNTER.webp"
+    },
+    "gzirsGA07yG6CaG8":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/JAILER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/JAILER.webp"
+    },
+    "1sWw5OgmpazLVqRQ":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/MAGE-FOR-HIRE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/MAGE-FOR-HIRE.webp"
+    },
+    "Cnm5zWmuTEYy6mPx":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/MASTERMIND.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/MASTERMIND.webp"
+    },
+    "8coHofIpLa5ZnjAF":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/NAVIGATOR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/NAVIGATOR.webp"
+    },
+    "B13dyXTo1xWVyj2R":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/PALACE-GUARD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/PALACE-GUARD.webp"
+    },
+    "7RF95b3WHkvHWLrv":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/PHYSICIAN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/PHYSICIAN.webp"
+    },
+    "X1cSs1jhTtx1zTI4":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/POACHER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/POACHER.webp"
+    },
+    "XpkGaDlyMH2V5wxR":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/PRIEST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/PRIEST.webp"
+    },
+    "mblLgQ9NMR2mMI99":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/RECKLESS-SCIENTIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/RECKLESS-SCIENTIST.webp"
+    },
+    "1iz7O6DLDJqStojd":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/SERVANT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/SERVANT.webp"
+    },
+    "SwjcZsbkcq6PhiXc":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/SPY.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/SPY.webp"
+    },
+    "wfsT2QDtQhsFXQfE":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/SURGEON.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/SURGEON.webp"
+    },
+    "hK8Tpg3baKWzmPEv":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/TAX-COLLECTOR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/TAX-COLLECTOR.webp"
+    },
+    "Jg9OEmo68KC91PgC":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/TEACHER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/TEACHER.webp"
+    },
+    "lemVxzg2Pnx9Nu3d":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/TROUBADOUR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/TROUBADOUR.webp"
+    },
+    "G2ftdkyJ5WDonL0C":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/URCHIN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/URCHIN.webp"
+    },
+    "TgeUj2IiyoTeZHIO":{
+      "actor": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/WATCH-OFFICER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/npc-gallery/token/WATCH-OFFICER.webp"
+    }
   },
   "menace-under-otari-bestiary": {
     "cZDiyluplFqRxmGy": {
@@ -8538,6 +8706,128 @@
     "111": {
       "actor": "modules/pf2e-ts-adv/Rusthenge/.webp",
       "token": "modules/pf2e-ts-adv/Rusthenge/_t.webp"
+    }
+  },
+  "lost-omens-monsters-of-myth-bestiary":{
+    "VCC4nw6EXvqwgmCp":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/AINAMUUREN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/AINAMUUREN.webp"
+    },
+    "LK3SgIKJqqo4Q4NQ":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/CUETZMONQUALI.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/CUETZMONQUALI.webp"
+    },
+    "Bi6bi9Ko5x9OJfDT":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/DESERT-S-HOWL.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/DESERT-S-HOWL.webp"
+    },
+    "WdnuPiAoRFaymR8R":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/FAFNHEIR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/FAFNHEIR.webp"
+    },
+    "O4gEaG5vzkLFl7J1":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/GROGRISANT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/GROGRISANT.webp"
+    },
+    "zE2ykzHZKNS3Rnc3":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/KALLAS-DEVIL.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/KALLAS-DEVIL.webp"
+    },
+    "RqdL0YzNF1dG163i":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/KOTHOGAZ.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/KOTHOGAZ.webp"
+    },
+    "kdkmTLlqzOYVxb50":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/KRAMPUS.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/KRAMPUS.webp"
+    },
+    "K7hgO9SEBai2jwYj":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/KRAMPUS-IMITATOR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/KRAMPUS-IMITATOR.webp"
+    },
+    "OF0fZDjNapydddM1":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/KUWORSYS.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/KUWORSYS.webp"
+    },
+    "G1jYZOjA3E3BqrIM":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/MELFESH-MONSTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/MELFESH-MONSTER.webp"
+    },
+    "KdOwmclPVpcTSPjF":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/MOSQUITO-WITCH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/MOSQUITO-WITCH.webp"
+    },
+    "ns6fmJ8469hzBOtM":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/MOSQUITO-WITCH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/MOSQUITO-WITCH.webp"
+    },
+    "FhgZOBWNMa5t7pYV":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/MOSQUITO-WITCH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/MOSQUITO-WITCH.webp"
+    },
+    "mE9MQ0hnRmlR9m94":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/MOSQUITO-WITCH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/MOSQUITO-WITCH.webp"
+    },
+    "KLxdUFCvZ7HkAP1E":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/SOMNALU.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/SOMNALU.webp"
+    },
+    "10srqxC7QZy0dq2g":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/SPECTRAL-DEVIL.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/SPECTRAL-DEVIL.webp"
+    },
+    "EXyfhhX9GLOnK1uZ":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/SPRING-HEELED-JACK.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/SPRING-HEELED-JACK.webp"
+    },
+    "bhLbKN7MJofTabfK":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "a1vTm01GBVF4TI8f":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "W0oF6Dl7G4UeTBSC":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "sXZExyaijbRnKI2S":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "XLDh6o6vBRCDEKsl":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "IO7sPevkM0zvnWbi":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "j3NhCEMLVm4HSsgr":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "hfi0qJePy2cf4Fqe":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TALJJAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TALJJAE.webp"
+    },
+    "C87bRxKDTuJXGkPG":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TEHIALAI-THIEF-OF-SHIPS.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TEHIALAI-THIEF-OF-SHIPS.webp"
+    },
+    "7a57dwK5XrV78ajM":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/TEMTEKI.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/TEMTEKI.webp"
+    },
+    "jInkcz2UYdaCzsBU":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/ULGREM-AXAAN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/ULGREM-AXAAN.webp"
+    },
+    "XCW1WzJqwGUS1cGi":{
+      "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/ULISTUL.webp",
+      "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/ULISTUL.webp"
     }
   }
 }
