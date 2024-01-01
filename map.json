@@ -8829,5 +8829,343 @@
       "actor": "modules/pf2e-ts-adv/art_token/monstersofmyth/actor/ULISTUL.webp",
       "token": "modules/pf2e-ts-adv/art_token/monstersofmyth/token/ULISTUL.webp"
     }
+  },
+  "book-of-the-dead-bestiary": {
+    "7pk1DLc96LMcHBB5": {
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/vanyver.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/vanyver.webp"
+    },
+    "T9osQMcC96l4X9lk":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/BEETLE-CARAPACE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/BEETLE-CARAPACE.webp"
+    },
+    "j777BjOqZff6S1v9":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/BHUTA.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/BHUTA.webp"
+    },
+    "xyOxzfIUTrN5c8ex":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/blood-tears.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/blood-tears.webp"
+    },
+    "uE6YuCCqU715E1Ay":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/BLOODTHIRSTY-TOY.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/BLOODTHIRSTY-TOY.webp"
+    },
+    "ol2lji9lH7PXh1uw":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/BONE-CROUPIER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/BONE-CROUPIER.webp"
+    },
+    "sgeULAtaLvg0Uhyn":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/CADAVEROUS-RAKE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/CADAVEROUS-RAKE.webp"
+    },
+    "NcqruxA82SFvTnD1":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/CHILD-OF-URGATHOA.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/CHILD-OF-URGATHOA.webp"
+    },
+    "vaVIJeQnKFUeaC8K":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/COMBUSTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/COMBUSTED.webp"
+    },
+    "Y2Fiu9T1xwSBPVTV":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/CORPSEROOT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/CORPSEROOT.webp"
+    },
+    "ishwgxZAlNJxNwGE":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/DAQQANOENYENT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/DAQQANOENYENT.webp"
+    },
+    "7WqlOvjoqURmeorA":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/DEATH-COACH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/DEATH-COACH.webp"
+    },
+    "27NxweHr9rB1hDCn":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/DEATHLESS-ACOLYTE-OF-URGATHOA.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/DEATHLESS-ACOLYTE-OF-URGATHOA.webp"
+    },
+    "h0OtQsMR4OqnYatd":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/DEATHLESS-HIEROPHANT-OF-URGATHOA.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/DEATHLESS-HIEROPHANT-OF-URGATHOA.webp"
+    },
+    "S5dXAmvghYCIrQDe":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/DECREPIT-MUMMY.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/DECREPIT-MUMMY.webp"
+    },
+    "sucEX2JFrVevTNjU":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/Drake-Skeleton.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/Drake-Skeleton.webp"
+    },
+    "zqftTUpxqkdLx2IY":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ECORCHE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ECORCHE.webp"
+    },
+    "KhHVStbsPSuPElFI":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/EXCORION.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/EXCORION.webp"
+    },
+    "A5GOni2mXNhVsdRg":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/FAITHLESS-ECCLESIARCH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/FAITHLESS-ECCLESIARCH.webp"
+    },
+    "JazJz2crkoG9koQR":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/FALLEN-CHAMPION.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/FALLEN-CHAMPION.webp"
+    },
+    "EDhme1IKgO34NDrt":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/FESTERING-GNASHER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/FESTERING-GNASHER.webp"
+    },
+    "jIypNMJE7rVYpItG":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/FIDDLING-BONES.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/FIDDLING-BONES.webp"
+    },
+    "hDQmEtisrgRmufUW":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/FLUXWRAITH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/FLUXWRAITH.webp"
+    },
+    "gXo04F7O4pwOY698":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GALLOWDEAD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GALLOWDEAD.webp"
+    },
+    "XrSjNpkJkBO6ysRG":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GASHADOKURO.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GASHADOKURO.webp"
+    },
+    "iEQOUQk1wVHFsajW":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GEIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GEIST.webp"
+    },
+    "bckYmdaq03CUDdc5":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GHOLDAKO.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GHOLDAKO.webp"
+    },
+    "UMDBlaViAdaw2lnN":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GHOST-PIRATE-CAPTAIN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GHOST-PIRATE-CAPTAIN.webp"
+    },
+    "vOuiG3tRcr8yL4jh":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GHUL.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GHUL.webp"
+    },
+    "c6qRZuHQ7RHJEAtj":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GRAPPLING-SPIRIT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GRAPPLING-SPIRIT.webp"
+    },
+    "Yv9e7NSCzPuhlCnH":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/GRAVEKNIGHT-WARMASTER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/GRAVEKNIGHT-WARMASTER.webp"
+    },
+    "laYufBuih3cT95j4":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/HOLLOW-SERPENT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/HOLLOW-SERPENT.webp"
+    },
+    "wGEZUOgoJNkgXx9Z":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/HORDE-LICH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/HORDE-LICH.webp"
+    },
+    "xxFiRpQdvbKd0P12":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/HUNGRY-GHOST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/HUNGRY-GHOST.webp"
+    },
+    "DMZo6DXmScDXJpJd":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/HUNTER-WIGHT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/HUNTER-WIGHT.webp"
+    },
+    "qO20so7Mv2pmsLL1":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/HUSK-ZOMBIE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/HUSK-ZOMBIE.webp"
+    },
+    "7JWjoMGf7f7PZgSD":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ICE-MUMMY.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ICE-MUMMY.webp"
+    },
+    "zOEuwWcvD7sQA1kc":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ICHOR-SLINGER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ICHOR-SLINGER.webp"
+    },
+    "3pQvzrGhxO3bUwYT":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/IRUXI-OSSATURE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/IRUXI-OSSATURE.webp"
+    },
+    "5ukWvQqK17BQl31O":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/LACEDON.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/LACEDON.webp"
+    },
+    "abnTemoEnsqZPbKZ":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/LAST-GUARD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/LAST-GUARD.webp"
+    },
+    "vvxnRuYBU2uCBPPI":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/LITTLE-MAN-IN-THE-WOODS.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/LITTLE-MAN-IN-THE-WOODS.webp"
+    },
+    "uqY9TkQTO5n9rCLZ":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/LLORONA.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/LLORONA.webp"
+    },
+    "L0JAq1IGEsjJwTbl":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/MINISTER-OF-TUMULT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/MINISTER-OF-TUMULT.webp"
+    },
+    "tb2nr2ycARadI3Pg":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/MUMMY-PROPHET-OF-SET.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/MUMMY-PROPHET-OF-SET.webp"
+    },
+    "8jd6xVMgAeQEfect":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/NASURGETH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/NASURGETH.webp"
+    },
+    "1hdQjYLtup92Jlls":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/OBROUSIAN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/OBROUSIAN.webp"
+    },
+    "mL4l2kwPPSMKwzQo":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ONRYO.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ONRYO.webp"
+    },
+    "Ze8SKqa4T8lhSDup":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/PALE-SOVEREIGN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/PALE-SOVEREIGN.webp"
+    },
+    "GcHzyaMYK5QeKUyM":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/PALE-STRANGER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/PALE-STRANGER.webp"
+    },
+    "M59XiYnJ4Z3bSwCC":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/POLONG.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/POLONG.webp"
+    },
+    "e49MDE5dJQ1XFq3O":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/PREDATORY-RABBIT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/PREDATORY-RABBIT.webp"
+    },
+    "OsIjZpdtKmKrrBID":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/PRIEST-OF-KABRIRI.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/PRIEST-OF-KABRIRI.webp"
+    },
+    "ZSrMFLrb5CzFH5WX":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/PROVINCIAL-JIANG-SHI.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/PROVINCIAL-JIANG-SHI.webp"
+    },
+    "avBb4LvR3TsYpXma":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/QUEEN-SLUAGH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/QUEEN-SLUAGH.webp"
+    },
+    "j88xR2MqqZrmF5Wz":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/RAW-NERVE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/RAW-NERVE.webp"
+    },
+    "cEJh8SY1YDULyhI9":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/RELICTNER-ERODER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/RELICTNER-ERODER.webp"
+    },
+    "zPQZLswJISQrvPb7":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/RUNECARVED-LICH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/RUNECARVED-LICH.webp"
+    },
+    "ypOgr8kPy6KqXAAd":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SEETANGEIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SEETANGEIST.webp"
+    },
+    "pDA6tCwQ3pE6ji4U":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SHADERN-IMMOLATOR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SHADERN-IMMOLATOR.webp"
+    },
+    "eEE3lRhXCjGzlRLJ":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SHREDSKIN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SHREDSKIN.webp"
+    },
+    "hhoSyH9QthtvFptC":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SIABRAE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SIABRAE.webp"
+    },
+    "Cl1SZNiURw65rz4p":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SILENT-STALKER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SILENT-STALKER.webp"
+    },
+    "ipVQuGff2OeTVwFK":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SKELETAL-MAGE.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SKELETAL-MAGE.webp"
+    },
+    "z8WJtCyoVHlcSxYy":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SKELETAL-TITAN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SKELETAL-TITAN.webp"
+    },
+    "uURI8Netd0ytD9vc":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SLUAGH-REAPER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SLUAGH-REAPER.webp"
+    },
+    "40P14vZZXKLhBD6q":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/SYKEVER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/SYKEVER.webp"
+    },
+    "Ur3dzfmvtN7lyPNG":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/Taunting-Skull.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/Taunting-Skull.webp"
+    },
+    "VN2Vz1dxA9ti66bC":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "0PrrwvV1936eSCQy":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "hjBcN7ulP6FSK7ie":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "dcLHA7tihCF2Mraj":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "AXp5EzgP7p8FrYpN":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "f2dAjBXK55w6rnsh":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/TORMENTED.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/TORMENTED.webp"
+    },
+    "lhzNUX83TTYpJuma":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/UNRISEN.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/UNRISEN.webp"
+    },
+    "vHEJOONP1ERjuxxl":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/URVETH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/URVETH.webp"
+    },
+    "LWLUaSHl8YCZdDMH":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/VETALARANA-EMERGENT.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/VETALARANA-EMERGENT.webp"
+    },
+    "Nzf3AfA46cBiWCwN":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/VETALARANA-MANIPULATOR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/VETALARANA-MANIPULATOR.webp"
+    },
+    "VYLTAIVA9qUsbujo":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/WALDGEIST.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/WALDGEIST.webp"
+    },
+    "kY8MSttryLjbI5wN":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/WIGHT-COMMANDER.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/WIGHT-COMMANDER.webp"
+    },
+    "ToGAEKKOplpXzaQQ":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/WOLF-SKELETON.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/WOLF-SKELETON.webp"
+    },
+    "8o27tdIZFp0eTs5N":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ZOMBIE-LORD.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ZOMBIE-LORD.webp"
+    },
+    "TipfHGlT5ctn1JV0":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ZOMBIE-MAMMOTH.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ZOMBIE-MAMMOTH.webp"
+    },
+    "nbVljZhCnWgGxA18":{
+      "actor": "modules/pf2e-ts-adv/art_token/botd/actor/ZOMBIE-OWLBEAR.webp",
+      "token": "modules/pf2e-ts-adv/art_token/botd/token/ZOMBIE-OWLBEAR.webp"
+    }
   }
 }

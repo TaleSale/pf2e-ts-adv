@@ -18,8 +18,8 @@ Hooks.on("renderChatMessage", (message, html) => {
     newHtml = newHtml.replace(/(Триггер)(:)/g, '<red>$1</red>$2');
     newHtml = newHtml.replace(/(Требован[а-яё]*)(:)/g, '<darkblue>$1</darkblue>$2');
     newHtml = newHtml.replace(/(Частота)(:)/g, '<green>$1</green>$2');
-    newHtml = newHtml.replace(/(Эффект)(:)/g, '<yellow>$1</yellow>$2');
-    newHtml = newHtml.replace(/(Усиление)(\s\([1-90+а-яё]*\))(:)/g, '<purple>$1$2</purple>$3');
+    newHtml = newHtml.replace(/(Эффект)(:)/g, '<darkorange>$1</darkorange>$2');
+    newHtml = newHtml.replace(/(Усиление)(\s\([1-90+\-а-яё]*\))(:)/g, '<purple>$1$2</purple>$3');
 
 
 
