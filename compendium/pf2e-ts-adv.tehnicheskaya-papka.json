@@ -830,6 +830,22 @@
 			"name": "Обстоятельства: +4 Спасам от Яда",
 			"description": "<p>Обстоятельства: +4 Спасам от `<u>яд</u>`</p>"
 		},
+		"+1 Circumstance to All Saves vs. Disease": {
+			"name": "Обстоятельства: +1 Спасам от Болезни",
+			"description": "<p>Обстоятельства: +1 Спасам от `<u>Болезни</u>`</p>"
+		},
+		"+2 Circumstance to All Saves vs. Disease": {
+			"name": "Обстоятельства: +2 Спасам от Болезни",
+			"description": "<p>Обстоятельства: +2 Спасам от `<u>Болезни</u>`</p>"
+		},
+		"+3 Circumstance to All Saves vs. Disease": {
+			"name": "Обстоятельства: +3 Спасам от Болезни",
+			"description": "<p>Обстоятельства: +3 Спасам от `<u>Болезни</u>`</p>"
+		},
+		"+4 Circumstance to All Saves vs. Disease": {
+			"name": "Обстоятельства: +4 Спасам от Болезни",
+			"description": "<p>Обстоятельства: +4 Спасам от `<u>Болезни</u>`</p>"
+		},
 		"+1 Circumstance to Saves vs Traps": {
 			"name": "Обстоятельства: +1 Спасам от Ловушек",
 			"description": "<p>Обстоятельства: +1 Спасам от Ловушек.</p>"
