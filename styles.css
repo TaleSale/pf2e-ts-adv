@@ -561,6 +561,8 @@ tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
 .ts-oz {
   background: hsla(0,0%,100%,.75);
   color: rgb(56, 117, 56);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .ts-shma {
