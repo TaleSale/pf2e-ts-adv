@@ -1,3 +1,24 @@
-2024/01/13-10:36:03.711 24a4 Recovering log #2265
-2024/01/13-10:36:03.969 24a4 Delete type=0 #2265
-2024/01/13-10:36:03.970 24a4 Delete type=3 #2264
+2024/01/19-11:51:57.129 24b8 Recovering log #2301
+2024/01/19-11:51:57.559 24b8 Delete type=0 #2301
+2024/01/19-11:51:57.559 24b8 Delete type=3 #2300
+2024/01/19-12:37:46.994 142c Level-0 table #2305: started
+2024/01/19-12:37:47.498 142c Level-0 table #2305: 382875 bytes OK
+2024/01/19-12:37:47.745 142c Delete type=0 #2303
+2024/01/19-12:37:47.746 142c Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at '!adventures!WBNB18jGEJUC7soR' @ 190 : 1
+2024/01/19-12:37:47.746 142c Compacting 1@0 + 0@1 files
+2024/01/19-12:37:48.104 142c Generated table #2306@0: 1 keys, 152773 bytes
+2024/01/19-12:37:48.104 142c Compacted 1@0 + 0@1 files => 152773 bytes
+2024/01/19-12:37:48.453 142c compacted to: files[ 0 2 9 0 0 0 0 ]
+2024/01/19-12:37:48.453 142c Delete type=2 #2292
+2024/01/19-12:37:48.453 142c Manual compaction at level-0 from '!adventures!WBNB18jGEJUC7soR' @ 190 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
+2024/01/19-12:37:48.453 142c Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at '!adventures!haGLmomFmJw1WSdt' @ 191 : 1
+2024/01/19-12:37:48.453 142c Compacting 2@1 + 2@2 files
+2024/01/19-12:37:49.097 142c Generated table #2307@1: 6 keys, 2634658 bytes
+2024/01/19-12:37:50.213 142c Generated table #2308@1: 8 keys, 2302968 bytes
+2024/01/19-12:37:50.215 142c Compacted 2@1 + 2@2 files => 4937626 bytes
+2024/01/19-12:37:50.554 142c compacted to: files[ 0 0 9 0 0 0 0 ]
+2024/01/19-12:37:50.554 142c Delete type=2 #2160
+2024/01/19-12:37:50.555 142c Delete type=2 #2278
+2024/01/19-12:37:50.556 142c Delete type=2 #2305
+2024/01/19-12:37:50.556 142c Delete type=2 #2306
+2024/01/19-12:37:50.557 142c Manual compaction at level-1 from '!adventures!haGLmomFmJw1WSdt' @ 191 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)

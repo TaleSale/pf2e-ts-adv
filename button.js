@@ -1,18 +1,28 @@
-//Hooks.once('init', () => {
-    // Перехватываем доступ к переводам
-    const originalTranslations = game.i18n.translations;
-    game.i18n.translations = new Proxy(originalTranslations, {
-      get: function(target, prop, receiver) {
-        // Проверяем, заменяем ли мы этот ключ
-        if (prop === 'SaveDCLabel') {
-          return "Спас. <dc>КС_{dc}</dc> {type}";
-        } else if (prop === 'SaveDCLabelBasic') {
-          return "Пр.Спас. <dc>КС_{dc}</dc> {type}";
-        }
-  
-        // Для остальных ключей используем оригинальные переводы
-        return Reflect.get(target, prop, receiver);
+///Hooks.on('renderItemSheet', (app, html, data) => {
+  // Проверяем, есть ли уже переключатель, чтобы не добавлять его повторно
+  if (html.find('.toggle-switch-container').length === 0) {
+    // Создаем элемент переключателя
+    const switchHtml = `
+      <div class="toggle-switch-container">
+        <div class="toggle-switch">
+          <span class="toggle-slider round"></span>
+        </div>
+      </div>
+    `;
+
+    // Вставляем переключатель в нижний левый угол карточки предмета
+    const content = html.find('.sheet-body'); // Используйте класс, который обозначает основной контейнер карточки предмета
+    content.append(switchHtml);
+
+    // Добавляем обработчик события на клик по переключателю
+    html.find('.toggle-switch').on('click', function() {
+      $(this).toggleClass('active');
+      // Вызываем функцию для смены описания
+      if ($(this).hasClass('active')) {
+        // Отображаем оригинальное описание
+      } else {
+        // Отображаем переведенное описание
       }
     });
-  });
-  
+  }
+});

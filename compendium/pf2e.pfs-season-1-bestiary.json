@@ -349,6 +349,465 @@
                 }
             ]
 		},
+		"01-04================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Frog Swarm": {
+			"name": "Рой Лягушек",
+            "tokenName": "Рой Лягушек",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/amphibian/spear-frog.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/amphibian/spear-frog.webp",
+            "description": "",
+            "UUID": "y14EZYMrfejrAuPI",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Distraction",
+                    "name": "Отвлечение",
+                    "description": "<p>Любое `живое` существо в пределах области роя лягушек должно совершить @Check[type:will|dc:12]. `Гуманоиды` @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1} при провале&nbsp; (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 2} при крит.провале). `Животные` @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} при успехе, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при провале, и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при крит.провале.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Osprey": {
+			"name": "Оспри",
+            "tokenName": "Оспри",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/avian/eagle.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/avian/eagle.webp",
+            "description": "",
+            "UUID": "EKwisoYBBn9femPg",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Diving Attack",
+                    "name": "Пикирующая Атака",
+                    "description": "<p>Оспри совершает @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь} до двойной Скорости Полета по прямой, затем опускается по крайней мере на 10ФТ и совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Когтем</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Animal Companion (Wolf) (1-2)": {
+			"name": "Волк-Компаньон (1-2)",
+            "tokenName": "Волк-Компаньон",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/mammalian/dire-wolf.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/mammalian/dire-wolf.webp",
+            "description": "",
+            "UUID": "czYt4Yp6ZeGnzyV6",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "xfwwRUdBAyJITWRI",
+                    "name": "Поддерживать",
+                    "description": "<p>`Зверь`-`компаньон` поддерживает своего хозяина-друида, разрывая сухожилия, когда друид создаете брешь в защите врага.</p><p>До начала следующего хода @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} хозяина которые наносят урон существу, выбранному целью действия Поддержки волка, налагают штраф состояния -5ФТ Скорости на 1 минуту (-10ФТ при крит.успехе);</p><p>При использовании поддержки единственные другие действия, которые может использовать зверь-компаньон в свой ход, - это `движения`, чтобы занять позицию. Если зверь-компаньон в свой ход использовало какие-либо другие действия, оно не может поддерживать своего хозяина.</p><p>@UUID[Item.c2gUUvHBAjigNNhZ]{Эффект: Штраф Состояния -5 Скорости}</p><p>@UUID[Item.UpuLZEOQomBf4U1I]{Эффект: Штраф Состояния -10 Скорости}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Animal Companion (Wolf) (3-4)": {
+			"name": "Волк-Компаньон (3-4)",
+            "tokenName": "Волк-Компаньон",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/mammalian/dire-wolf.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/mammalian/dire-wolf.webp",
+            "description": "",
+            "UUID": "9KauvSo8zxsaBWRc",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "8k0Yr4OlRz4yhbss",
+                    "name": "Поддерживать",
+                    "description": "<p>`Зверь`-`компаньон` поддерживает своего хозяина-друида, разрывая сухожилия, когда друид создаете брешь в защите врага.</p><p>До начала следующего хода @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} хозяина которые наносят урон существу, выбранному целью действия Поддержки волка, налагают штраф состояния -5ФТ Скорости на 1 минуту (-10ФТ при крит.успехе);</p><p>При использовании поддержки единственные другие действия, которые может использовать зверь-компаньон в свой ход, - это `движения`, чтобы занять позицию. Если зверь-компаньон в свой ход использовало какие-либо другие действия, оно не может поддерживать своего хозяина.</p><p>@UUID[Item.c2gUUvHBAjigNNhZ]{Эффект: Штраф Состояния -5 Скорости}</p><p>@UUID[Item.UpuLZEOQomBf4U1I]{Эффект: Штраф Состояния -10 Скорости}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Halfling Druid (1-2)": {
+			"name": "Полурослик-Друид (1-2)",
+            "tokenName": "Полурослик-Друид",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/29.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/29_t.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "SynVS5KAjQr34Y0o",
+                    "name": "Дубинка"
+                },
+                {
+                    "id": "KCUKqgQJOxPsWasQ",
+                    "name": "Посох-праща"
+                },
+                {
+                    "id": "Command an Animal",
+                    "name": "Приказ Животному",
+                    "description": "<p>Друид направляет своего зверя-компаньое, давая ему два действия.</p>"
+                },
+                {
+                    "id": "Support",
+                    "name": "Принять Поддержку",
+                    "description": "<p>`Зверь`-`компаньон` поддерживает своего хозяина-друида, разрывая сухожилия, когда друид создаете брешь в защите врага.</p><p>До начала следующего хода @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} хозяина которые наносят урон существу, выбранному целью действия Поддержки волка, налагают штраф состояния -5ФТ Скорости на 1 минуту (-10ФТ при крит.успехе);</p><p>При использовании поддержки единственные другие действия, которые может использовать зверь-компаньон в свой ход, - это `движения`, чтобы занять позицию. Если зверь-компаньон в свой ход использовало какие-либо другие действия, оно не может поддерживать своего хозяина.</p><p>@UUID[Item.c2gUUvHBAjigNNhZ]{Эффект: Штраф Состояния -5 Скорости}</p><p>@UUID[Item.UpuLZEOQomBf4U1I]{Эффект: Штраф Состояния -10 Скорости}</p>"
+                }
+            ]
+		},
+		"Halfling Druid (3-4)": {
+			"name": "Полурослик-Друид (3-4)",
+            "tokenName": "Полурослик-Друид",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/29.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/29_t.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ZzE6aKOGWzPm0zF7",
+                    "name": "Дубинка"
+                },
+                {
+                    "id": "pcyt6yW68j6QMCd2",
+                    "name": "Посох-праща"
+                },
+                {
+                    "id": "Command an Animal",
+                    "name": "Приказ Животному",
+                    "description": "<p>Друид направляет своего зверя-компаньое, давая ему два действия.</p>"
+                },
+                {
+                    "id": "Support",
+                    "name": "Принять Поддержку",
+                    "description": "<p>`Зверь`-`компаньон` поддерживает своего хозяина-друида, разрывая сухожилия, когда друид создаете брешь в защите врага.</p><p>До начала следующего хода @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} хозяина которые наносят урон существу, выбранному целью действия Поддержки волка, налагают штраф состояния -5ФТ Скорости на 1 минуту (-10ФТ при крит.успехе);</p><p>При использовании поддержки единственные другие действия, которые может использовать зверь-компаньон в свой ход, - это `движения`, чтобы занять позицию. Если зверь-компаньон в свой ход использовало какие-либо другие действия, оно не может поддерживать своего хозяина.</p><p>@UUID[Item.c2gUUvHBAjigNNhZ]{Эффект: Штраф Состояния -5 Скорости}</p><p>@UUID[Item.UpuLZEOQomBf4U1I]{Эффект: Штраф Состояния -10 Скорости}</p>"
+                }
+            ]
+		},
+		"Reefclaw Spawn": {
+			"name": "Одержимый Рифокоготь",
+            "tokenName": "Одержимый Рифокоготь",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/aberrant/monstrous/reefclaw.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/aberrant/monstrous/reefclaw.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Death Frenzy",
+                    "name": "Смертельная Ярость",
+                    "description": "<p>Триггер: Рифокоготь уменьшается до 0 ОЗ</p><hr><p>Перед смертью рифокоготь наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Когтями</p>"
+                },
+                {
+                    "id": "Reefclaw Venom",
+                    "name": "Яд Рифокогтя",
+                    "description": "<p style=\"text-align: center;\">@Check[type:fortitude|dc:15]</p><p>Макс.Продолж.: 4 раунда</p><p>Стадия 1: @Damage[1d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} (1 раунд)</p><p>Стадия 2: @Damage[2d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} (1 раунд)</p>"
+                },
+                {
+                    "id": "Special (Note)",
+                    "name": "Одержимый Чешуёй",
+                    "description": "<p>Рифокоготь следует зову чешуи, но ее песнь действует на водных аберраций иначе, чем на обычных животных. В погоне за чешуей рифокоготь приобретает признак `земноводный`, получает бонус предмета +5ФТ к Скорости и получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} (учтено в его статблоке). Рифокоготь не может снять эти состояния, находясь в радиусе полумили от чешуи.</p>"
+                }
+            ]
+		},
+		"Rabid Squirrel Swarm": {
+			"name": "Рой Бешеных Белок",
+            "tokenName": "Рой Бешеных Белок",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/28.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/28_t.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Swarming Claws and Teeth",
+                    "name": "Укусы Роя",
+                    "description": "<p>Каждый враг в пространстве роя получает @Damage[1d4[piercing]] и должен пройти @Check[type:reflex|dc:17|traits:damaging-effect]</p><hr><p>Крит.Успех: Существо не получает урона</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2}. Так же существо должно совершить проверку протиа Бешенство.</p><p>Крит.Провал: Существо получает двойной урон, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} и @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}. Так же существо должно совершить проверку протиа Бешенство.</p><hr><p>Существо, на которое воздействует эта атака, может потратить 2 действия в свой ход, чтобы сделать еще один @Check[type:reflex|dc:17|traits:damaging-effect], чтобы снять состояние Неуклюжесть.</p>"
+                },
+                {
+                    "id": "Rabies",
+                    "name": "Бешенство",
+                    "description": "<p style=\"text-align: center;\">@Check[type:fortitude|dc:14|traits:disease]</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} (1 День)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} (1 День)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство} (1 День)</p><p><strong>Стадия 4:</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} (1 День)</p><p><strong>Стадия 5:</strong> Смерть</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Squirrel Swarm (1-04)": {
+			"name": "Рой Белок (1-04)",
+            "tokenName": "Рой Белок",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/mammalian/squirrel-swarm.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/mammalian/squirrel-swarm.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Swarming Claws and Teeth",
+                    "name": "Укусы Роя",
+                    "description": "<p>Каждый враг в пространстве роя получает @Damage[1d4[piercing]] и должен пройти @Check[type:reflex|dc:17|traits:damaging-effect]</p><hr><p>Крит.Успех: Существо не получает урона</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2}</p><p>Крит.Провал: Существо получает двойной урон, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} и @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p><hr><p>Существо, на которое воздействует эта атака, может потратить 2 действия в свой ход, чтобы сделать еще один @Check[type:reflex|dc:17|traits:damaging-effect], чтобы снять состояние Неуклюжесть.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Giant Osprey": {
+			"name": "Гигантская Оспри",
+            "tokenName": "Гиг.Оспри",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/avian/eagle-giant.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/avian/eagle-giant.webp",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Diving Attack",
+                    "name": "Пикирующая Атака",
+                    "description": "<p>Оспри совершает @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь} до двойной Скорости Полета по прямой, затем опускается по крайней мере на 10ФТ и совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Когтем</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Vengeant Thorn (1-2)": {
+			"name": "Мстительный Терновник (1-2)",
+            "tokenName": "Мстительный Терновник",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/34.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/34_t.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "TKwDBjNaQTpqtzAl",
+                    "name": "Посох"
+                },
+                {
+                    "id": "Ufgd9Y89ScN3I9Do",
+                    "name": "Бурерожденный",
+                    "description": "<p>Мстительный Терновник имеет врожденную связь со штормами. Он не получает штрафа обстоятельства к дистанционным атакам заклинаниями или проверкам Восприятия, вызванным погодой, а его, направленные на цель заклинания, не требуют чистой проверки, чтобы попасть по цели, которая имеет состояние @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт} из-за погоды (такой как туман).</p>"
+                },
+                {
+                    "id": "Scroll of Entangle (Level 2)",
+                    "name": "Свиток Запутывание флоры (Ранг 2)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]{Запутывание флоры(*)}</p><hr><p>Сотворение заклинания со свитка требует держать свиток в одной руке и активировать его с помощью активности @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz] используя обычно количество действие для этого заклинания.</p><p>Чтобы <em>\"Сотворять заклинание\"</em> со свитка, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель атаки заклинанием и КС заклинания. Заклинание так же получает признак соответствующего обычая колдовства (<em>`аркана`</em>, <em>`сакральный`</em>, <em>`оккультный`</em> или <em>`природный`</em>).</p><p>Любые физические затраты предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со свитка. Если заклинание требует локуса, то он должен быть у вас, чтобы колдовать со свитка.</p><hr><p><em>Заметка: Чтобы создать свиток или палочку для определенного заклинания, перетащите заклинание из компендиума в инвентарь игрового персонажа, персонажа мастера или лист добычи.</em></p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Vengeant Thorn (3-4)": {
+			"name": "Мстительный Терновник (3-4)",
+            "tokenName": "Мстительный Терновник",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/34.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-04/34_t.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "VuZ4rOPvbZjEiYPD",
+                    "name": "Посох"
+                },
+                {
+                    "id": "xnfoHwBp6vUVC94V",
+                    "name": "Бурерожденный",
+                    "description": "<p>Мстительный Терновник имеет врожденную связь со штормами. Он не получает штрафа обстоятельства к дистанционным атакам заклинаниями или проверкам Восприятия, вызванным погодой, а его, направленные на цель заклинания, не требуют чистой проверки, чтобы попасть по цели, которая имеет состояние @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{Скрыт} из-за погоды (такой как туман).</p>"
+                },
+                {
+                    "id": "Scroll of Entangle (Level 2)",
+                    "name": "Свиток Запутывание флоры (Ранг 2)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]{Запутывание флоры(*)}</p><hr><p>Сотворение заклинания со свитка требует держать свиток в одной руке и активировать его с помощью активности @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz] используя обычно количество действие для этого заклинания.</p><p>Чтобы <em>\"Сотворять заклинание\"</em> со свитка, оно должно присутствовать в вашем списке заклинаний. Так как вы тот, кто колдует заклинание, используется ваш показатель атаки заклинанием и КС заклинания. Заклинание так же получает признак соответствующего обычая колдовства (<em>`аркана`</em>, <em>`сакральный`</em>, <em>`оккультный`</em> или <em>`природный`</em>).</p><p>Любые физические затраты предоставляются при создании свитка, так что вам не требуется предоставлять их при сотворении заклинания со свитка. Если заклинание требует локуса, то он должен быть у вас, чтобы колдовать со свитка.</p><hr><p><em>Заметка: Чтобы создать свиток или палочку для определенного заклинания, перетащите заклинание из компендиума в инвентарь игрового персонажа, персонажа мастера или лист добычи.</em></p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Ankle Trap (1-2)": {
+			"name": "Ловушка-Подножка (1-2)",
+            "tokenName": "Ловушка-Подножка",
+            "img": "systems/pf2e/icons/spells/expeditious-excavation.webp",
+            "tokenImg": "systems/pf2e/icons/spells/expeditious-excavation.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>Если она обнаружена, падение в яму можно избежать, двигаясь со скоростью в четверть от нормальной скорости.</p>",
+            "hdescription": "<p>На дороге вырыто множество небольших ям, засыпанных листьями и землей, для того чтобы замаскировать их.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Trip Up",
+                    "name": "Подножка",
+                    "description": "<p>Триггер: Существо входит в область опасности;</p><hr><p>Любое существо, которое проходит через область опасности, должно совершить @Check[type:acrobatics|dc:14|name:Ankle Trap|traits:damaging-effect,hazard,mechanical,trap]. Существа, провалившие эту проверку, получают @Damage[1d4[bludgeoning]] и штраф &ndash;5ФТ к своей Скорости в течение 1 часа. Крит.провал увеличивает урон до @Damage[2d4[bludgeoning]] и снижает Скорость существа наполовину на 1 час.</p><p>@UUID[Item.m3ZxuUJrX5AShyuw]{Эффект: Штраф -5 Скорости на 1 Час}</p><p>@UUID[Item.pDHpG8ZAqlYjvbHb]{Эффект: Штраф Скорости на 1 Час}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Ankle Trap (3-4)": {
+			"name": "Ловушка-Подножка (3-4)",
+            "tokenName": "Ловушка-Подножка",
+            "img": "systems/pf2e/icons/spells/expeditious-excavation.webp",
+            "tokenImg": "systems/pf2e/icons/spells/expeditious-excavation.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>Если она обнаружена, падение в яму можно избежать, двигаясь со скоростью в четверть от нормальной скорости.</p>",
+            "hdescription": "<p>На дороге вырыто множество небольших ям, засыпанных листьями и землей, для того чтобы замаскировать их.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Trip Up",
+                    "name": "Подножка",
+                    "description": "<p>Триггер: Существо входит в область опасности;</p><hr><p>Любое существо, которое проходит через область опасности, должно совершить @Check[type:acrobatics|dc:14|name:Ankle Trap|traits:damaging-effect,hazard,mechanical,trap]. Существа, провалившие эту проверку, получают @Damage[1d8[bludgeoning]] и штраф &ndash;5ФТ к своей Скорости в течение 1 часа. Крит.провал увеличивает урон до @Damage[2d8[bludgeoning]] и снижает Скорость существа наполовину на 1 час.</p><p>@UUID[Item.m3ZxuUJrX5AShyuw]{Эффект: Штраф -5 Скорости на 1 Час}</p><p>@UUID[Item.pDHpG8ZAqlYjvbHb]{Эффект: Штраф Скорости на 1 Час}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Deadfall Trap (1-2)": {
+			"name": "Падающее Дерево (1-2)",
+            "tokenName": "Падающее Дерево",
+            "img": "systems/pf2e/icons/spells/timber.webp",
+            "tokenImg": "systems/pf2e/icons/spells/timber.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>Ловушку нельзя отключить заранее (если только персонажи не смогут обойти скрытного Мстительного Терновника и подкрасться к нему до того, как повозка достигнет целевой зоны).</p>",
+            "hdescription": "<p>Большое дерево срублено и держится только на веревке.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Deadfall",
+                    "name": "Падающее Дерево",
+                    "description": "<p>Триггер: Рой Белок заканчивает перегрызать веревку в начале своего хода;</p><hr><p>Дерево падает в 10ФТ перед повозкой, преграждая дорогу. Дерево наносит всем @Damage[2d8[bludgeoning]], кто находится под деревом, и отталкивает всех из своего пространства в случайном направлении. Существо, которое преуспевает в @Check[type:reflex|dc:18|traits:damaging-effect,hazard,mechanical,trap], не получает повреждений и передвигается в случайном направлении. При крит.успехе он может выбрать направление.</p><p>Существа верхом на лошадях не преуспевают в спасбросоке, если их ездовое животное провалит спасброск. Если ездовое животное проваливает спасбросок, наездник может выполнить свой собственный @Check[type:reflex|dc:18|name:Mounted Deadfall|traits:damaging-effect,hazard,mechanical,trap], чтобы спрыгнуть со своего ездового животного, получив @Damage[1d4[bludgeoning]] от падения. Этот урон существо получает вне зависимости от того, успешен ли спасбросок.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Deadfall Trap (3-4)": {
+			"name": "Падающее Дерево (3-4)",
+            "tokenName": "Падающее Дерево",
+            "img": "systems/pf2e/icons/spells/timber.webp",
+            "tokenImg": "systems/pf2e/icons/spells/timber.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>Ловушку нельзя отключить заранее (если только персонажи не смогут обойти скрытного Мстительного Терновника и подкрасться к нему до того, как повозка достигнет целевой зоны).</p>",
+            "hdescription": "<p>Большое дерево срублено и держится только на веревке.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Deadfall",
+                    "name": "Падающее Дерево",
+                    "description": "<p>Триггер: Друид отпускает веревку, когда фургон находится на расстоянии 10 футов от целевой зоны;</p><hr><p>Дерево падает в 10ФТ перед повозкой, преграждая дорогу. Дерево наносит всем @Damage[3d12[bludgeoning]], кто находится под деревом, и накладывает @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен}. Существо, которое преуспевает в @Check[type:reflex|dc:20|traits:damaging-effect,hazard,mechanical,trap], получают половину урона и вместо Обездвижен передвигается в случайном направлении. При крит.успехе он может выбрать направление.</p><p>Существа верхом на лошадях не преуспевают в спасбросоке, если их ездовое животное провалит спасброск. Если ездовое животное проваливает спасбросок, наездник может выполнить свой собственный @Check[type:reflex|dc:18|name:Mounted Deadfall|traits:damaging-effect,hazard,mechanical,trap], чтобы спрыгнуть со своего ездового животного, получив @Damage[1d4[bludgeoning]] от падения. Этот урон существо получает вне зависимости от того, успешен ли спасбросок.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
 		"01-12================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -685,7 +1144,35 @@
             ]
 		},
 		"'Zombie' Flesh Golem (5-6)": {
-			"name": "'Zombie' Flesh Golem (5-6)"
+			"name": "'Zombie' Flesh Golem (5-6)",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
 		},
 		"Acid Spray Fountain": {
 			"name": "Acid Spray Fountain"
@@ -713,18 +1200,6 @@
 		},
 		"Angry Fox": {
 			"name": "Angry Fox"
-		},
-		"Animal Companion (Wolf) (1-2)": {
-			"name": "Animal Companion (Wolf) (1-2)"
-		},
-		"Animal Companion (Wolf) (3-4)": {
-			"name": "Animal Companion (Wolf) (3-4)"
-		},
-		"Ankle Trap (1-2)": {
-			"name": "Ankle Trap (1-2)"
-		},
-		"Ankle Trap (3-4)": {
-			"name": "Ankle Trap (3-4)"
 		},
 		"Annis Hag (1-06)": {
 			"name": "Annis Hag (1-06)"
@@ -845,12 +1320,6 @@
 		},
 		"Dead Organ (7-8)": {
 			"name": "Dead Organ (7-8)"
-		},
-		"Deadfall Trap (1-2)": {
-			"name": "Deadfall Trap (1-2)"
-		},
-		"Deadfall Trap (3-4)": {
-			"name": "Deadfall Trap (3-4)"
 		},
 		"Deeply Flawed Ritual": {
 			"name": "Deeply Flawed Ritual"
@@ -984,9 +1453,6 @@
 		"Fleshforge Prototype (Shield)": {
 			"name": "Fleshforge Prototype (Shield)"
 		},
-		"Frog Swarm": {
-			"name": "Frog Swarm"
-		},
 		"Ghost Of Diggen Thrune (1-2)": {
 			"name": "Ghost Of Diggen Thrune (1-2)"
 		},
@@ -995,9 +1461,6 @@
 		},
 		"Giant Centipede (PFS 1-03)": {
 			"name": "Giant Centipede (PFS 1-03)"
-		},
-		"Giant Osprey": {
-			"name": "Giant Osprey"
 		},
 		"Giant Short-faced Bear": {
 			"name": "Giant Short-faced Bear"
@@ -1043,12 +1506,6 @@
 		},
 		"Guard Captain": {
 			"name": "Guard Captain"
-		},
-		"Halfling Druid (1-2)": {
-			"name": "Halfling Druid (1-2)"
-		},
-		"Halfling Druid (3-4)": {
-			"name": "Halfling Druid (3-4)"
 		},
 		"Harsus (1-2)": {
 			"name": "Harsus (1-2)"
@@ -1290,9 +1747,6 @@
 		"Orc Alchemist": {
 			"name": "Orc Alchemist"
 		},
-		"Osprey": {
-			"name": "Osprey"
-		},
 		"Palace Guard (PFS 1-17)": {
 			"name": "Palace Guard (PFS 1-17)"
 		},
@@ -1365,9 +1819,6 @@
 		"Quagmire": {
 			"name": "Quagmire"
 		},
-		"Rabid Squirrel Swarm": {
-			"name": "Rabid Squirrel Swarm"
-		},
 		"Raging Forest Fire": {
 			"name": "Raging Forest Fire"
 		},
@@ -1394,9 +1845,6 @@
 		},
 		"Rebel Brute": {
 			"name": "Rebel Brute"
-		},
-		"Reefclaw Spawn": {
-			"name": "Reefclaw Spawn"
 		},
 		"Rending Hands": {
 			"name": "Rending Hands"
@@ -1473,9 +1921,6 @@
 		"Spitting Acid 'Bushes' (7-8)": {
 			"name": "Spitting Acid 'Bushes' (7-8)"
 		},
-		"Squirrel Swarm (1-04)": {
-			"name": "Squirrel Swarm (1-04)"
-		},
 		"Statue Of Set": {
 			"name": "Statue Of Set"
 		},
@@ -1547,12 +1992,6 @@
 		},
 		"Unkillable Zombie Brute (PFS 1-13)": {
 			"name": "Unkillable Zombie Brute (PFS 1-13)"
-		},
-		"Vengeant Thorn (1-2)": {
-			"name": "Vengeant Thorn (1-2)"
-		},
-		"Vengeant Thorn (3-4)": {
-			"name": "Vengeant Thorn (3-4)"
 		},
 		"Vengeful Spirits": {
 			"name": "Vengeful Spirits"

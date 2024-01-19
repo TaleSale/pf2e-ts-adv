@@ -706,3 +706,49 @@ kritproval {
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
 }
+
+
+/*CSS для переключателя*/
+/* Стили для контейнера переключателя */
+/* Стили для контейнера переключателя */
+.toggle-switch-container {
+  position: absolute;
+  left: 0; /* Расположение в левом нижнем углу */
+  bottom: 0; /* Расположение в левом нижнем углу */
+  z-index: 10;
+}
+
+/* Стили для переключателя */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 20px; /* Установите нужную ширину */
+  height: 10px; /* Установите нужную высоту */
+  background: #4CAF50; /* Начальный цвет фона - зеленый */
+  border-radius: 10px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+/* Стили при активации переключателя */
+.toggle-switch.active {
+  background-color: #ff0000; /* Фон переключается на красный */
+}
+
+
+/* Стили для ползунка */
+.toggle-slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(0); /* Центрирование по вертикали и горизонтали */
+  width: 14px; /* Установите нужную ширину */
+  height: 14px; /* Установите нужную высоту */
+  background-color: #A9A9A9; /* Темно-серый цвет ползунка */
+  border-radius: 50%;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Перемещаем ползунок при активации переключателя */
+.toggle-switch.active .toggle-slider {
+  transform: translateY(-50%) translateX(10px); /* Смещение вправо, сохраняя центрирование по вертикали */
+}
