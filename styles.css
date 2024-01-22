@@ -40,14 +40,15 @@
 
 .Зачитка
 {
+  margin-top: 2px;
   background: #f8f8eb;
   border-top: 1px solid #C5A924;
   border-bottom: 1px solid #C5A924;
   border-left: 1px solid #C5A924;
   border-right: 1px solid #C5A924;
-  box-shadow: 5px 3px 3px grey;
-  padding: 1em;
-  color: brown
+  box-shadow: 3px 3px 3px grey;
+  padding: 5px;
+  color: rgb(121, 12, 12)
 }
 
 .БлокУлик
