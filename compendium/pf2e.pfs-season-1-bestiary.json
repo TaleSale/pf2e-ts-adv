@@ -22,6 +22,1215 @@
 		"01-00================================================================================================": {
             "name": "==========================================================================================="
         },
+        "Kanker": {
+			"name": "Канкер",
+            "tokenName": "Канкер",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/constructed/magical/soulbound-doll-le.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/constructed/magical/soulbound-doll-le.webp",
+            "description": "<p>Одушевленные куклы это жуткие манекены или игрушки, которые наполнены маленькой частичкой души умершего смертного. Эти маленькие конструкты созданы по разным причинам, например, чтобы служить компаньонами или слугами, но свобода их воли означает, что их послушание своим создателям вряд ли является чем-то само собой разумеющимся. Последователи Фаразмы обычно ненавидят одушевленных кукол, считая их коверканьем естественного круговорота душ, а поклоняющиеся Владычице Могил, считают уничтожение такой куклы, независимо от ее мировоззрения, важным служением Великому Запределью.</p><p>Одушевленные куклы являются самыми простейшими из целого ряда конструктов с привязанной душой, включая манекены человеческого роста, мощные одушевленные оболочки и одушевленную стражу терракотовых воинов. Их создание из нежелающих живых существ является злом, и нежелающий донор может сопротивляться этому процессу, сделав успешный спасбросок против КС Ремесла создателя, если не предотвращая смерть донора, то разрушая куклу. Незлая кукла может быть создана только из души человека, который перед смертью дал на это согласие.</p><p>Одушевленные куклы, с которыми сталкиваются искатели приключений, обычно являются своего рода стражами; несмотря на их крохотный размер, сила фрагмента души делает куклу более опасной, чем этого может ожидать случайный зевака. Кроме того, учитывая ее рост, он наделяет куклу одним заклинанием, обладающим огромной силой. Благодаря своей автономности и замечательному интеллекту, одушевленные куклы иногда используются своими создателями в качестве управляющих гораздо более мощными, но неразумными конструктами, такими как големы, что позволяет этим куклам руководить обороной, намного превосходящей их собственные возможности. Хотя одушевленные куклы содержат небольшой фрагмент души, извлеченный во время смерти или вскоре после нее, это не влияет на воскрешение умершего или его переход в загробную жизнь. Этот процесс извлечения смертелен для потенциальных живых доноров души, хотя гуляют слухи о более дорогостоящих процессах, которые позволяют кому-либо пожертвовать фрагмент живой души без последствий.</p><p>Фрагмент души находится в фокусирующем камне души (Твердость 10), обычно встроенном в шею или грудь куклы. Фрагмент души не статичен, и кукла продолжает обучаться относительно своего первоначального состояния, то есть ее личность и умения могут меняться, возможно, становясь ближе к донорской душе или отдаляясь от нее по своему собственному индивидуальному пути. Фокусирующий камень души сохраняет воспоминания куклы даже после ее уничтожения. Неповрежденный камень души уничтоженной куклы даже может быть помещен в тело новой куклы, кем-то, кто сведущ в изготовлении одушевленных созданий, эффективно воссоздавая одушевленную куклу.</p>",
+            "UUID": "kfoGOOgTkRjIzD4U",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Too Small to Wade",
+                    "name": "Слишком Мал",
+                    "description": "<p>Канкер слишком мал, чтобы легко проходить через жижу в этой комнате. Он относится к сточной жиже как к сложной местности</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Bijan And Zaynap Ohrlavi": {
+			"name": "Близнец Орлави",
+            "tokenName": "Близнец Орлави",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-00/npc4.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-00/token_1%20(1).png",
+            "description": "",
+            "UUID": "5JcVwrLq7moBA3WE",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "6M566jGqhKqFPkgG",
+                    "name": "Кукри"
+                },
+                {
+                    "id": "VvJZKtgD4H0IS10u",
+                    "name": "Кислотная склянка [Средняя]"
+                },
+                {
+                    "id": "Jg1ymQqFVf21h9et",
+                    "name": "Молния в бутылке [Средняя]"
+                },
+                {
+                    "id": "YuP7VBQyamVTiw5v",
+                    "name": "Морозная склянка [Средняя]"
+                },
+                {
+                    "id": "Infused Items",
+                    "name": "Насыщенные Предметы",
+                    "description": "<p>У каждого алхимика есть 2 средних склянки кислоты, 2 средних молнии в бутылке, и 2 средних ледяных склянки. Этих предметы активны на 24 часа или до следующего ежедневного приготовления</p>"
+                },
+                {
+                    "id": "3HqMs0ke60YwXrZw",
+                    "name": "Очки алхимика",
+                    "description": "<p>Очки алхимика позволяют носителю игнорировать малое укрытие при нанесении ударов алхимическими бомбами.</p>"
+                },
+                {
+                    "id": "Calculated Bomber",
+                    "name": "Расчетливый Бросок",
+                    "description": "<p>Алхимик наносит 5 урона по области с помощью брошенных алхимических бомб вместо обычного количества.</p>"
+                },
+                {
+                    "id": "8vzb5AScF2Y6tPZf",
+                    "name": "Набор алхимика",
+                    "description": "<p>Этот переносной набор пробирок и химикатов можно использовать для простых алхимических задач. Если вы надели свой набор алхимика, то можете доставать и убирать его как часть действия для его использования.</p>"
+                },
+                {
+                    "id": "Acid Flask (Moderate) (Infused)",
+                    "name": "Кислотная склянка [Средняя] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Этот бутылек наполнен едкой кислотой, наносящей 1 кислотного урона, 2d6 продолжительного урона кислотой и 2 урона кислотными брызгами. Вы получаете бонус предмета +1 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Bottled Lightning (Moderate) (Infused)",
+                    "name": "Молния в бутылке [Средняя] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Молния в бутылке наполнена летучими реагентами, которые создают взрыв электричества, когда реагируют с воздухом. Она наносит 2d6 урона электричеством и 2 урона электрическими брызгами. При попадании, цель становится @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Frost Vial (Moderate) (Infused)",
+                    "name": "Морозная склянка [Средняя] (Насыщенный)",
+                    "description": "<p>Жидкие реагенты внутри этого бутылька быстро поглощают тепло при контакте с воздухом. Морозная склянка наносит 2d6 урона холодом и 2 урона холодом от брызг. При попадании, цель получает штраф состояния -10 футов к своим Скоростям до конца своего следующего хода. Вы получаете бонус предмета +1 к броскам атаки.</p><p>@UUID[Compendium.pf2e.equipment-effects.dv0IKm5syOdP759w]{Эффект: Морозная склянка (Средняя)}</p>"
+                }
+            ]
+		},
+        "Protoplasmic Extruder": {
+			"name": "Протоплазматический Экструдер",
+            "tokenName": "Протоплазматический Экструдер",
+            "img": "systems/pf2e/icons/features/classes/muscular-exoskeleton.webp",
+            "tokenImg": "systems/pf2e/icons/features/classes/muscular-exoskeleton.webp",
+            "UUID": "ZX2dP4rP01qaCJh4",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>КС_, чтобы заметить протоплазматический экструдер, равен КС_0</p>",
+            "hdisable": "<p>&diams; @Check[type:occultism|dc:22|name:Disable Extruder|traits:complex,mechanical,magical,trap] (ЭКСПЕРТ) дважды или @Check[type:thievery|dc:24|name:Disable Extruder|traits:complex,mechanical,magical,trap] (ЭКСПЕРТ) заставляет его терять действие на следующем ходу. Два успеха (или один крит.успех) полностью его выводят из строя;</p><p>&diams; @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Противод Ур.3 КС_20)  заставляет<br>протоплазматический экструдер терять свое действие на<br>следующем ходу, но никогда не отключает его.</p>",
+            "hdescription": "<p>Протоплазматический экструдер, представляющий собой сферическую штуковину из металла и армированных шлангов диаметром 20 футов, втягивает загадочную суспензию из канализации Квантиума и волшебным образом превращает ее в опасную слизь.</p>",
+            "hreset": "<p>Протоплазменный экструдер должен собирать реагенты из таинственной суспензии канализации в течение 24 часов, прежде чем его можно будет реактивировать.</p>",
+            "hroutine": "<p style=\"text-align: center;\">(1 Действие)</p><p style=\"text-align: center;\"><strong>Внимательно почитайте корректировку столкновения</strong></p><hr><p>При своей инициативе ловушка создает слизь в прилегающем незанятом пространстве. Когда протоплазматический экструдер впервые использует это действие, он создает @UUID[Actor.unkcOs6fP3IASmCU], который действует немедленно, а затем действует по инициативе протоплазматического экструдера. В следующих раундах протоплазменный экструдер вместо этого создает @UUID[Actor.IDS0qLuAcB6TXQWC], которые действуют таким же образом. Слизи, создаваемые протоплазменным экструдером, имеет перламутрово-зеленый цвет; желатиновый куб теряет прозрачность. Вся слизь, создаваемая протоплазменным экструдером, лояльна к Орлави и действуют так, как они приказывают.</p><p>Протоплазменный экструдер может создать в общей сложности не более четырех единиц слизи, прежде чем он отключится и перезарядится.</p>",
+            "items": [
+                {
+                    "id": "Creator's Command",
+                    "name": "Команда Создателя",
+                    "description": "<p><strong>Триггер</strong>: Биджан или Зайнап Орлави могут говорить и делают проверку инициативу, когда находятся в пределах 60Фт от протоплазменного&nbsp;экструдера.</p><hr><p><strong>Эффект</strong>: Протоплазменный экструдер начинает&nbsp;громче пыхтеть и делает проверку инициативы.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Acid Spray Fountain": {
+			"name": "Фонтан Кислоты",
+            "tokenName": "Фонтан Кислоты",
+            "img": "icons/magic/acid/projectiles-trio-salvo.webp",
+            "tokenImg": "icons/magic/acid/projectiles-trio-salvo.webp",
+            "UUID": "mhKK0mhhI9V3OiUQ",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>ЭКСПЕРТ, чтобы заметить фонтан</p>",
+            "hdisable": "<p>&diams; ЭКСПЕРТ @Check[type:thievery|dc:26|name:Disable the Fountain|traits:complex,mechanical,trap], чтобы остановить весь Фонтан Кислоты</p><p>&diams; ЭКСПЕРТ @Check[type:thievery|dc:22|name:Disable a Fountain Nozzle|traits:complex,mechanical,trap], чтобы остановить одну из форсунок и уменьшить количество действий ловушки на 1. Когда количество действий уменьшается до 0, Фонтан Кислоты отключается.</p>",
+            "hdescription": "<p>Кислотный фонтан скрытно подключен к трем форсункам, которые подключены к восьми нажимным плитам в комнате.</p>",
+            "hreset": "<p>Ловушка деактивируется через 1 минуту, после чего резервуар для кислоты становится пустым. Он не может быть повторно активирован, пока этот резервуар не будет пополнен.</p>",
+            "hroutine": "<p style=\"text-align: center;\">3 Действия</p><hr><p>По своей инициативе ловушка наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Спрей Кислоты по случайному существу в комнате за каждое свое действие.</p>",
+            "items": [
+                {
+                    "id": "Fountain Activation",
+                    "name": "Активация Фонтана",
+                    "description": "<div>Триггер: Существо наступает на нажимную плиту.</div><hr><p>&diams; Ловушка наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Спреем Кислоты по случайному существу в комнате, хотя первый урон уменьшается на 8, поскольку кислота разъедает ящики за которым спрятаны форсунки.</p><p>&diams; Затем Ловушка делает проверку инициативы.</p>"
+                },
+                {
+                    "id": "No MAP",
+                    "name": "Нет ШМА",
+                    "description": "<p>Спрей Кислоты не получает Штраф Множест.Атак</p>"
+                },
+                {
+                    "id": "Acid Spray",
+                    "name": "Спрей Кислоты",
+                    "description": "<p>Спрей Кислоты не получает Штраф Множест.Атак</p>"
+                }
+            ]
+		},
+        "01-01================================================================================================": {
+            "name": "==========================================================================================="
+        },
+        "Fleshforge Dreg (Acid Spit)": {
+			"name": "Отродье Плоти (Кислота)",
+            "tokenName": "Отродье Плоти (Кислота)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Acid Spit",
+                    "name": "Плевок Кислотой"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Dreg (Breath Weapon)": {
+			"name": "Отродье Плоти (Дыхание)",
+            "tokenName": "Отродье Плоти (Дыхание)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "NGpcOOJuyLudCfKX",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Он выдыхает @Template[type:cone|distance:15], нанося всем существам в области @Damage[(4d6)[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:15|basic:true]</p><p><strong>Перезарядка</strong>: [[/br 1d4 #Перезарядка]]{1d4 раунда}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Dreg (Leaping Charge)": {
+			"name": "Отродье Плоти (Прыжок)",
+            "tokenName": "Отродье Плоти (Прыжок)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Leaping Charge",
+                    "name": "Рывок Прыжка",
+                    "description": "<p>Отродье Плоти совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} до 10 футов, перепрыгивая через препятствия, игнорируя сложную местность. Затем он наносит удар кулаком, получая бонус обстоятельства +1 к броску атаки.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Dreg (Reach)": {
+			"name": "Отродье Плоти (Длинный)",
+            "tokenName": "Отродье Плоти (Длинный)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Dreg (Roots)": {
+			"name": "Отродье Плоти (Корни)",
+            "tokenName": "Отродье Плоти (Корни)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Roots",
+                    "name": "Корни",
+                    "description": "<p>Отродье Плоти укореняются в поверхности, на которой стоит. Он получает быстрое исцеление 5, пока не покинет это место.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Dreg (Shield)": {
+			"name": "Отродье Плоти (Щит)",
+            "tokenName": "Отродье Плоти",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "tM0bp9fZQ8wkx5Nk",
+                    "name": "Блок щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "Fleshforge Dreg Arm",
+                    "name": "Щит Плоти",
+                    "description": "<p>Большая рука Отродья может использоваться как щит (Твердость 3, ОЗ 20, ПП 10) и оно получает реакцию \"Блок щитом\".</p><p>КБ Отродья составляет 21 при поднятом щите. Если щит уничтожен, он больше не может использовать атаку кулаком.</p><table class=\"pf2-table\"><thead><tr><th>Твердость</th><th>ОЗ</th><th>ПП</th></tr></thead><tbody><tr><td>3</td><td>20</td><td>10</td></tr></tbody></table>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Fleshforge Prototype (Acid Spit)": {
+			"name": "Прототип Плоти (Кислота)",
+            "tokenName": "Прототип Плоти (Кислота)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Acid Spit",
+                    "name": "Плевок Кислоты"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Prototype (Breath Weapon)": {
+			"name": "Прототип Плоти (Дыхание)",
+            "tokenName": "Прототип Плоти (Дыхание)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "jb8RUiIGfZeiY4LQ",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Он выдыхает @Template[type:cone|distance:15], нанося всем существам в области @Damage[(6d6)[fire]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:22|basic:true]</p><p><strong>Перезарядка</strong>: [[/br 1d4 #Перезарядка]]{1d4 раунда}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Prototype (Leaping Charge)": {
+			"name": "Прототип Плоти (Прыжок)",
+            "tokenName": "Прототип Плоти (Прыжок)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Leaping Charge",
+                    "name": "Рывок Прыжка",
+                    "description": "<p>Отродье Плоти совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} до 10 футов, перепрыгивая через препятствия, игнорируя сложную местность. Затем он наносит удар кулаком, получая бонус обстоятельства +1 к броску атаки.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Prototype (Reach)": {
+			"name": "Прототип Плоти (Длинный)",
+            "tokenName": "Прототип Плоти (Длинный)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Prototype (Roots)": {
+			"name": "Прототип Плоти (Корни)",
+            "tokenName": "Прототип Плоти (Корни)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Roots",
+                    "name": "Корни",
+                    "description": "<p>Отродье Плоти укореняются в поверхности, на которой стоит. Он получает быстрое исцеление 5, пока не покинет это место.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fleshforge Prototype (Shield)": {
+			"name": "Прототип Плоти (Щит)",
+            "tokenName": "Прототип Плоти (Щит)",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-01/%D0%A1%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%B7%20%D0%BA%D1%83%D0%B7%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%BE%D1%82%D0%B8tk.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "QAb8RPoSlh95yTmD",
+                    "name": "Блок щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "Fleshforge Dreg Arm",
+                    "name": "Щит Плоти",
+                    "description": "<p>Большая рука Отродья может использоваться как щит (Твердость 5, ОЗ 20, ПП 10) и оно получает реакцию \"Блок щитом\".</p><p>КБ Отродья составляет 24 при поднятом щите. Если щит уничтожен, он больше не может использовать атаку кулаком.</p><table class=\"pf2-table\"><thead><tr><th>Твердость</th><th>ОЗ</th><th>ПП</th></tr></thead><tbody><tr><td>5</td><td>20</td><td>10</td></tr></tbody></table>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Crowd Agitator": {
+			"name": "Crowd Agitator",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Crowd Leader": {
+			"name": "Crowd Leader",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Goblin Warrior (PFS 1-01)": {
+			"name": "Гоблин-Воин (PFS 1-01)",
+            "tokenName": "Гоблин-Воин",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/humanoid/goblinoid/goblin-warrior.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/humanoid/goblinoid/goblin-warrior.webp",
+            "description": "<p>Передовые бойцы гоблинских племен предпочитают сражаться большими группами, особенно когда они могут численно превзойти своих противников по крайней мере 3 к 1.</p><hr><p>У этих маленьких гуманоидов зеленая или серая кожа и большие головы с широкими ушами. Хотя некоторые гоблины цивилизованны и прилагают все усилия, чтобы считаться достойными представителями гуманоидных сообществ, большинство из них - импульсивные и злобные существа, которым нравится сеять хаос. Эти гоблины не задумываются о том, чтобы забивать скот, красть младенцев или сжечь здание только ради сиюминутного удовольствия. Они наслаждаются злыми розыгрышами над высокими гуманоидами, которых они называют \"длинноногими\".</p><p>Гоблины суеверны, благоговеют перед магией и очарованы огнем; гоблины, овладевшие магией или огнем, заслуживают большого уважения со стороны своих сородичей. Большинству других гуманоидов трудно понять гоблинскую точку зрения: они ненавидят собачих, но охотно содержат в своих логовах так называемых @UUID[Compendium.pf2e.pathfinder-bestiary.0rfropeocJWXC6pg]{Гоблинских псов}, бесстрашно нападают на крупных существ, но боятся лошадей, презирают овощи, но считают соленые огурчики деликатесом. Разумеется, для гоблина, это все в порядке вещей.</p>",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "CnmgzGmi2Avq67QA",
+                    "name": "Собачий тесак"
+                },
+                {
+                    "id": "4EXgRMqNIRLXxB1c",
+                    "name": "Короткий лук"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Shadow Wisp": {
+			"name": "Shadow Wisp",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Greater Shadow Wisp": {
+			"name": "Greater Shadow Wisp",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Unkillable Zombie Brute (PFS 1-01)": {
+			"name": "Unkillable Zombie Brute (PFS 1-01)",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Weak Ceustodaemon (PFS 1-01)": {
+			"name": "Weak Ceustodaemon (PFS 1-01)",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Crumbling Floor": {
+			"name": "Crumbling Floor",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Collapsing Floor": {
+			"name": "Collapsing Floor",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Crowd with Trash": {
+			"name": "Crowd with Trash",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Flawed Ritual": {
+			"name": "Flawed Ritual",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Scrabbling Hands": {
+			"name": "Scrabbling Hands",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Whispering Spirits": {
+			"name": "Whispering Spirits",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Crowd with Chamberpots": {
+			"name": "Crowd with Chamberpots",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Rending Hands": {
+			"name": "Rending Hands",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Whispering Souls": {
+			"name": "Whispering Souls",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Deeply Flawed Ritual": {
+			"name": "Deeply Flawed Ritual",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
 		"01-02================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -349,6 +1558,9 @@
                 }
             ]
 		},
+        "01-03================================================================================================": {
+            "name": "==========================================================================================="
+        },
 		"01-04================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -367,7 +1579,7 @@
                 {
                     "id": "Distraction",
                     "name": "Отвлечение",
-                    "description": "<p>Любое `живое` существо в пределах области роя лягушек должно совершить @Check[type:will|dc:12]. `Гуманоиды` @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1} при провале&nbsp; (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 2} при крит.провале). `Животные` @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} при успехе, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при провале, и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при крит.провале.</p>"
+                    "description": "<p>Любое `живое` существо в пределах области роя лягушек должно совершить @Check[type:will|dc:12]. `Гуманоиды` @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1} при провале  (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 2} при крит.провале). `Животные` @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} при успехе, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при провале, и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3} и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} при крит.провале.</p>"
                 },
                 {
                     "id": "112",
@@ -1267,7 +2479,7 @@
                 {
                     "id": "Tree Meld",
                     "name": "Слияние с Деревом",
-                    "description": "<p>Дриада прикасается к дереву достаточного объема, чтобы вместить ее, и сливается с ним на столько, на сколько пожелает. Находясь внутри дерева, она может @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотворять Заклинания}, если заклинание не требует линии действия за пределами дерева. Она может слышать, но не видеть, что происходит за пределами дерева. Она может @UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{Развеять} этот эффект.</p><p>Значительный физический урон, нанесенный дереву, изгоняет дриаду из дерева и наносит ей [[/r {3d6}]]{3d6 Урон}. @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS]&nbsp;изгоняет дриаду без нанесения урона.</p><p>Если дриада совершает эту способность на своем связанном дереве, она попадает в межпространство внутри дерева; Слияние с Деревом получает признак `межпространственный`. Дриада может взять с собой до двух других существ, когда входит в свое &nbsp;межпространство внутри связанного с ней дерева. Дриада все еще может быть изгнана из этого межпространства, как описано выше.</p>"
+                    "description": "<p>Дриада прикасается к дереву достаточного объема, чтобы вместить ее, и сливается с ним на столько, на сколько пожелает. Находясь внутри дерева, она может @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотворять Заклинания}, если заклинание не требует линии действия за пределами дерева. Она может слышать, но не видеть, что происходит за пределами дерева. Она может @UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{Развеять} этот эффект.</p><p>Значительный физический урон, нанесенный дереву, изгоняет дриаду из дерева и наносит ей [[/r {3d6}]]{3d6 Урон}. @UUID[Compendium.pf2e.spells-srd.Item.115Xp9E38CJENhNS] изгоняет дриаду без нанесения урона.</p><p>Если дриада совершает эту способность на своем связанном дереве, она попадает в межпространство внутри дерева; Слияние с Деревом получает признак `межпространственный`. Дриада может взять с собой до двух других существ, когда входит в свое  межпространство внутри связанного с ней дерева. Дриада все еще может быть изгнана из этого межпространства, как описано выше.</p>"
                 },
                 {
                     "id": "Nature Empathy",
@@ -1320,7 +2532,7 @@
                 {
                     "id": "Mirror Reversal",
                     "name": "Зеркальный Разворот",
-                    "description": "<p>Частота: 1/День</p><p>Триггер: Атака атакующего, которого он может видеть, будет иметь крит.успех по Лелзешин;</p><hr><p>Лелзешин телепортируется к одной из зеркальных стен, возникая рядом с ней.&nbsp;При этом дубликат ненадолго замирает на месте, а затем взрывается, когда по нему наносится критический удар. Каждое существо, @Template[type:emanation|distance:5]{Рядом} с первоначальном местоположением Лелзешина, получает @Damage[4d6[slashing]] (@Check[type:reflex|dc:22|basic:true]), и эти соседние квадраты становятся сложной местностью</p>"
+                    "description": "<p>Частота: 1/День</p><p>Триггер: Атака атакующего, которого он может видеть, будет иметь крит.успех по Лелзешин;</p><hr><p>Лелзешин телепортируется к одной из зеркальных стен, возникая рядом с ней. При этом дубликат ненадолго замирает на месте, а затем взрывается, когда по нему наносится критический удар. Каждое существо, @Template[type:emanation|distance:5]{Рядом} с первоначальном местоположением Лелзешина, получает @Damage[4d6[slashing]] (@Check[type:reflex|dc:22|basic:true]), и эти соседние квадраты становятся сложной местностью</p>"
                 },
                 {
                     "id": "115",
@@ -1358,7 +2570,7 @@
                 {
                     "id": "Mirror Reversal",
                     "name": "Зеркальный Разворот",
-                    "description": "<p>Частота: 1/День</p><p>Триггер: Атака атакующего, которого он может видеть, будет иметь крит.успех по Лелзешин;</p><hr><p>Лелзешин телепортируется к одной из зеркальных стен, возникая рядом с ней.&nbsp;При этом дубликат ненадолго замирает на месте, а затем взрывается, когда по нему наносится критический удар. Каждое существо, @Template[type:emanation|distance:5]{Рядом} с первоначальном местоположением Лелзешина, получает @Damage[6d6[slashing]] (@Check[type:reflex|dc:25|basic:true]), и эти соседние квадраты становятся сложной местностью</p>"
+                    "description": "<p>Частота: 1/День</p><p>Триггер: Атака атакующего, которого он может видеть, будет иметь крит.успех по Лелзешин;</p><hr><p>Лелзешин телепортируется к одной из зеркальных стен, возникая рядом с ней. При этом дубликат ненадолго замирает на месте, а затем взрывается, когда по нему наносится критический удар. Каждое существо, @Template[type:emanation|distance:5]{Рядом} с первоначальном местоположением Лелзешина, получает @Damage[6d6[slashing]] (@Check[type:reflex|dc:25|basic:true]), и эти соседние квадраты становятся сложной местностью</p>"
                 },
                 {
                     "id": "115",
@@ -2133,9 +3345,6 @@
                 }
             ]
 		},
-		"Acid Spray Fountain": {
-			"name": "Acid Spray Fountain"
-		},
 		"Adolescent Sea Serpent": {
 			"name": "Adolescent Sea Serpent"
 		},
@@ -2180,9 +3389,6 @@
 		},
 		"Bandit Scout": {
 			"name": "Bandit Scout"
-		},
-		"Bijan And Zaynap Ohrlavi": {
-			"name": "Bijan And Zaynap Ohrlavi"
 		},
 		"Blue Streak Ambushers (5-6)": {
 			"name": "Blue Streak Ambushers (5-6)"
@@ -2232,26 +3438,8 @@
 		"Collapsing Ceiling (3-4)": {
 			"name": "Collapsing Ceiling (3-4)"
 		},
-		"Collapsing Floor": {
-			"name": "Collapsing Floor"
-		},
 		"Creeping Slime": {
 			"name": "Creeping Slime"
-		},
-		"Crowd Agitator": {
-			"name": "Crowd Agitator"
-		},
-		"Crowd Leader": {
-			"name": "Crowd Leader"
-		},
-		"Crowd with Chamberpots": {
-			"name": "Crowd with Chamberpots"
-		},
-		"Crowd with Trash": {
-			"name": "Crowd with Trash"
-		},
-		"Crumbling Floor": {
-			"name": "Crumbling Floor"
 		},
 		"Damaged Alchemical Golem": {
 			"name": "Damaged Alchemical Golem"
@@ -2261,9 +3449,6 @@
 		},
 		"Dead Organ (7-8)": {
 			"name": "Dead Organ (7-8)"
-		},
-		"Deeply Flawed Ritual": {
-			"name": "Deeply Flawed Ritual"
 		},
 		"Dehydrated Krooth": {
 			"name": "Dehydrated Krooth"
@@ -2343,47 +3528,8 @@
 		"Flaming Skull Skeleton Guard": {
 			"name": "Flaming Skull Skeleton Guard"
 		},
-		"Flawed Ritual": {
-			"name": "Flawed Ritual"
-		},
 		"Flesh Golem (PFS 1-25)": {
 			"name": "Flesh Golem (PFS 1-25)"
-		},
-		"Fleshforge Dreg (Acid Spit)": {
-			"name": "Fleshforge Dreg (Acid Spit)"
-		},
-		"Fleshforge Dreg (Breath Weapon)": {
-			"name": "Fleshforge Dreg (Breath Weapon)"
-		},
-		"Fleshforge Dreg (Leaping Charge)": {
-			"name": "Fleshforge Dreg (Leaping Charge)"
-		},
-		"Fleshforge Dreg (Reach)": {
-			"name": "Fleshforge Dreg (Reach)"
-		},
-		"Fleshforge Dreg (Roots)": {
-			"name": "Fleshforge Dreg (Roots)"
-		},
-		"Fleshforge Dreg (Shield)": {
-			"name": "Fleshforge Dreg (Shield)"
-		},
-		"Fleshforge Prototype (Acid Spit)": {
-			"name": "Fleshforge Prototype (Acid Spit)"
-		},
-		"Fleshforge Prototype (Breath Weapon)": {
-			"name": "Fleshforge Prototype (Breath Weapon)"
-		},
-		"Fleshforge Prototype (Leaping Charge)": {
-			"name": "Fleshforge Prototype (Leaping Charge)"
-		},
-		"Fleshforge Prototype (Reach)": {
-			"name": "Fleshforge Prototype (Reach)"
-		},
-		"Fleshforge Prototype (Roots)": {
-			"name": "Fleshforge Prototype (Roots)"
-		},
-		"Fleshforge Prototype (Shield)": {
-			"name": "Fleshforge Prototype (Shield)"
 		},
 		"Ghost Of Diggen Thrune (1-2)": {
 			"name": "Ghost Of Diggen Thrune (1-2)"
@@ -2406,9 +3552,6 @@
 		"Goblin Skeleton": {
 			"name": "Goblin Skeleton"
 		},
-		"Goblin Warrior (PFS 1-01)": {
-			"name": "Goblin Warrior (PFS 1-01)"
-		},
 		"Grasping Limbs (3-4)": {
 			"name": "Grasping Limbs (3-4)"
 		},
@@ -2417,9 +3560,6 @@
 		},
 		"Greater Metallic Sod Hound": {
 			"name": "Greater Metallic Sod Hound"
-		},
-		"Greater Shadow Wisp": {
-			"name": "Greater Shadow Wisp"
 		},
 		"Greater Steel Mephit": {
 			"name": "Greater Steel Mephit"
@@ -2477,9 +3617,6 @@
 		},
 		"Jury-Rigged Annihilator": {
 			"name": "Jury-Rigged Annihilator"
-		},
-		"Kanker": {
-			"name": "Kanker"
 		},
 		"Keff The Lion (1-2)": {
 			"name": "Keff The Lion (1-2)"
@@ -2712,9 +3849,6 @@
 		"Prefect (Fist) (5-6)": {
 			"name": "Prefect (Fist) (5-6)"
 		},
-		"Protoplasmic Extruder": {
-			"name": "Protoplasmic Extruder"
-		},
 		"Ptiro Valner (1-2)": {
 			"name": "Ptiro Valner (1-2)"
 		},
@@ -2751,17 +3885,11 @@
 		"Rebel Brute": {
 			"name": "Rebel Brute"
 		},
-		"Rending Hands": {
-			"name": "Rending Hands"
-		},
 		"Ruffian": {
 			"name": "Ruffian"
 		},
 		"Ruffian (Q11)": {
 			"name": "Ruffian (Q11)"
-		},
-		"Scrabbling Hands": {
-			"name": "Scrabbling Hands"
 		},
 		"Sea Devil Invader": {
 			"name": "Sea Devil Invader"
@@ -2771,9 +3899,6 @@
 		},
 		"Seaborn Fisher": {
 			"name": "Seaborn Fisher"
-		},
-		"Shadow Wisp": {
-			"name": "Shadow Wisp"
 		},
 		"Skeletal Gladiator": {
 			"name": "Skeletal Gladiator"
@@ -2880,9 +4005,6 @@
 		"Treacherous Quagmire": {
 			"name": "Treacherous Quagmire"
 		},
-		"Unkillable Zombie Brute (PFS 1-01)": {
-			"name": "Unkillable Zombie Brute (PFS 1-01)"
-		},
 		"Unkillable Zombie Brute (PFS 1-13)": {
 			"name": "Unkillable Zombie Brute (PFS 1-13)"
 		},
@@ -2907,9 +4029,6 @@
 		"Weak Arboreal Warden": {
 			"name": "Weak Arboreal Warden"
 		},
-		"Weak Ceustodaemon (PFS 1-01)": {
-			"name": "Weak Ceustodaemon (PFS 1-01)"
-		},
 		"Weak Green Hag": {
 			"name": "Weak Green Hag"
 		},
@@ -2918,12 +4037,6 @@
 		},
 		"Weak Spider Swarm": {
 			"name": "Weak Spider Swarm"
-		},
-		"Whispering Souls": {
-			"name": "Whispering Souls"
-		},
-		"Whispering Spirits": {
-			"name": "Whispering Spirits"
 		},
 		"Witchwyrd (PFS 1-21)": {
 			"name": "Witchwyrd (PFS 1-21)"

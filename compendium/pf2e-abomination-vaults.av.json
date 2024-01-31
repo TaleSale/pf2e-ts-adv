@@ -804,7 +804,7 @@
 				},
 				"Wand of Quench": {
 					"name": "Палочка Тушение (Ур.2)",
-					"description": "<p><em>@UUID[Compendium.pf2e.spells-srd.02J0rDTk37KN2sjt]</em></p><hr /><p>­Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.<p>\n<div>Активация: @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}</div>\n<div>Частота: 1/День, плюс *Перегрузка*</div>\n<div>Закл.Ур.: 2</div>\n<p> Вы сотворяете указанное заклинание указанного уровня.</p>\n<hr />\n<p>*Требования* @Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Создания}:Предоставить сотворение 'Заклинания' указанного уровня.</p>"
+					"description": "<p><em>@UUID[Compendium.pf2e.spells-srd.02J0rDTk37KN2sjt]</em></p><hr /><p>­Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.<p>\n<div>Активация: @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотв.Закл.}</div>\n<div>Частота: 1/День, плюс *Перегрузка*</div>\n<div>Закл.Ур.: 2</div>\n<p> Вы сотворяете указанное заклинание указанного уровня.</p>\n<hr />\n<p>*Требования* @UUID[Compendium.pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Создания}:Предоставить сотворение 'Заклинания' указанного уровня.</p>"
 				},
 				"Valuable Bottle": {
 					"name": "Ценная Бутылка"

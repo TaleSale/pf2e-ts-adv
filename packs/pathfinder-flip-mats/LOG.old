@@ -1,0 +1,7 @@
+2024/01/31-22:19:03.964 1b24 Recovering log #4
+2024/01/31-22:19:04.268 1b24 Delete type=0 #4
+2024/01/31-22:19:04.269 1b24 Delete type=3 #2
+2024/01/31-22:37:09.410 14ac Level-0 table #9: started
+2024/01/31-22:37:09.440 14ac Level-0 table #9: 19697 bytes OK
+2024/01/31-22:37:09.476 14ac Delete type=0 #7
+2024/01/31-22:37:09.518 14ac Manual compaction at level-0 from '!scenes!PHk8FPVUApdGTLIr' @ 72057594037927935 : 1 .. '!scenes.walls!PHk8FPVUApdGTLIr.zI1RJ2JJYPszyQJn' @ 0 : 0; will stop at (end)
