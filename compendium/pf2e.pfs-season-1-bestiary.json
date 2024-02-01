@@ -1561,6 +1561,494 @@
         "01-03================================================================================================": {
             "name": "==========================================================================================="
         },
+		"Giant Centipede (PFS 1-03)": {
+			"name": "Гигантская Многоножка (PFS 1-03)",
+            "tokenName": "Гиг.Многоножка",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/bestial/invertebrate/centipede-giant.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/bestial/invertebrate/centipede-giant.webp",
+            "description": "<p>Большинство гигантских многоножек (в городах известные как канализационные многоножки) гнездятся небольшими группами, но добывая пищу охотятся по одиночке. Попытки приручать гигантских многоножек для использования в качестве охраны или домашних животных обычно заканчиваются плохо, но некоторые племена гоблинов, кобольдов и митфлитов придумали эффективные методы использования этих паразитов в качестве стражи. Другие племена и некоторые сообщества гуманоидов в качестве пикантного лакомства жарят и едят многоножек, часто с острыми перцами, однако при приготовлении блюда необходимо соблюдать осторожность, чтобы не испортить мясо ядом этого же существа.</p><hr><p>Многоножки - охотники и падальщики, живущие среди навоза и мусора, а также достаточно распространенная угроза, с которой сталкиваются и на которую ругаются искатели приключений. Снующие с удивительной скоростью на множестве ног, крепящихся к их длинным, сегментированным телам, многоножки нападают отравленными жвалами, чтобы замедлить и мучить свою жертву ядовитым токсином, прежде чем те успокоятся, чтобы многоножка приступила к своей медленной и отвратительной трапезе.</p>",
+            "UUID": "Qeu2rsI1J5nohgm7",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Giant Centipede Venom",
+                    "name": "Яд гигантской многоножки",
+                    "description": "<p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:14]</p><hr><p><strong>Макс.продолжительность:</strong> 6 раундов</p><p><strong>Стадия 1:</strong> @Damage[1d6[poison]] (1 раунд)</p><p><strong>Стадия 2:</strong> @Damage[1d8[poison]], @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} и @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут врасплох} (1 раунд)</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Zombie Shambler (PFS 1-03)": {
+			"name": "Волочащийся Зомби (PFS 1-03)",
+            "tokenName": "Волоч.Зомби",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/undead/zombie-shambler.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/undead/zombie-shambler.webp",
+            "description": "<p>Волочащийся зомби это медленно передвигающийся ужас, опасный в больших группах.</p><hr><p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают</p><p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>",
+            "UUID": "pG7P9AxqzcsCjikh",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "eulyI60JHNUYs39w",
+                    "name": "Медленный",
+                    "description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
+                },
+                {
+                    "id": "v90WRjELLiKF57vr",
+                    "name": "Челюсти",
+                    "description": "<p><strong>Требования:</strong> У зомби есть @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное} или @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Desert Wind": {
+			"name": "Ветер Пустыни",
+            "tokenName": "Ветер Пустыни",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/34.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/34_t.webp",
+            "description": "<p>Во многих обществах лошади служат в качестве ездовых и вьючных животных. Это верные и, как правило, кроткие существа, и они незаменимы для тех, кто хочет путешествовать на большие расстояния. Более мелкие народы, такие как гномы и полурослики, в качестве ездовых животных часто используют пони, в то время как лошади - излюбленные скакуны среди людей и других гуманоидов среднего размера. Большинство лошадей, с которыми сталкивается типичный гуманоид, одомашнены, хотя в природе можно встретить большие стада этих впечатляющих животных.</p>",
+            "UUID": "RS04fRQEWzk2aZOx",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "DMomALy5fNZ43Igi",
+                    "name": "Галоп",
+                    "description": "<p>Боевая лошадь @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} дважды. Во время этих <em>\"Перемещений\" он получает бонус обстоятельства +10 футов к Скорости.</em></p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Larraz Virtanne": {
+			"name": "Ларраз Виртанн",
+            "tokenName": "Ларраз Виртанн",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/35.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/35_t.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ytDkO2kbWJ0T4iKD",
+                    "name": "Посох"
+                },
+                {
+                    "id": "jpp5ScZJbQH3SsmA",
+                    "name": "Праща"
+                },
+                {
+                    "id": "ob88feRyuzlE11Mr",
+                    "name": "Блок Щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Zombie Riding Horse": {
+			"name": "Зомби-Лошадь",
+            "tokenName": "Зомби-Лошадь",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/32.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/32_t.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "MNtGpIixuqCIh39i",
+                    "name": "Галоп",
+                    "description": "<p>Существо @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} дважды. Во время этих <em>\"Перемещений\" он получает бонус обстоятельства +10 футов к Скорости.</em></p>"
+                },
+                {
+                    "id": "0E6KRaOyvHrJMtCd",
+                    "name": "Медленный",
+                    "description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
+                },
+                {
+                    "id": "DS8ZcmI4VLY7ffSY",
+                    "name": "Поедание",
+                    "description": "<p>Зомби-Лошадь совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Челюстями по соседнему `живому` существу или существу, умершему за последний час. При успехе зомби-лошадь может полакомиться плотью существа, чтобы исцелить себя. Это восстанавливает [[/r (1d6)[healing]]]</p>"
+                },
+                {
+                    "id": "Rotting Aura",
+                    "name": "Аура Гниения",
+                    "description": "<p>Зомби-Лошадь излучает @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:10]{10} гниения и болезни, из-за которой раны гноятся и становятся кислыми.</p><p>Любое `живое` существо, которое начинает свой ход в ауре и не имеет полного количества Очков Здоровья, получает [[/r 1d6]]{1d6 урона}(@Check[type:fortitude|dc:14|basic:true]), так как его раны гноятся.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Zombie Warhorse": {
+			"name": "Зомби-Конь",
+            "tokenName": "Зомби-Конь",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/32.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/32_t.webp",
+            "description": "",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ljhwvKpqZJVVOClT",
+                    "name": "Галоп",
+                    "description": "<p>Существо @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается} дважды. Во время этих <em>\"Перемещений\" он получает бонус обстоятельства +10 футов к Скорости.</em></p>"
+                },
+                {
+                    "id": "mqB9pue1K8Hsda84",
+                    "name": "Медленный",
+                    "description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
+                },
+                {
+                    "id": "Cc4ymamS7jlEqUhJ",
+                    "name": "Поедание",
+                    "description": "<p>Зомби-Конь совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Челюстями по соседнему `живому` существу или существу, умершему за последний час. При успехе зомби-конь может полакомиться плотью существа, чтобы исцелить себя. Это восстанавливает [[/r (2d6)[healing]]]</p>"
+                },
+                {
+                    "id": "Rotting Aura",
+                    "name": "Аура Гниения",
+                    "description": "<p>Зомби-Конь излучает @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:10]{10} гниения и болезни, из-за которой раны гноятся и становятся кислыми.</p><p>Любое `живое` существо, которое начинает свой ход в ауре и не имеет полного количества Очков Здоровья, получает [[/r 1d6]]{1d6 урона}(@Check[type:fortitude|dc:17|basic:true]), так как его раны гноятся.</p>"
+                },
+                {
+                    "id": "Improved Push 5 feet",
+                    "name": "Улучшенный толчок 5ФТ",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedPush]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Ralthiss (1-2)": {
+			"name": "Ральтис (1-2)",
+            "tokenName": "Ральтис",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/36.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/36_t.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "siBKUCoes7NX4lWi",
+                    "name": "Моргенштерн"
+                },
+                {
+                    "id": "jgv7vjFRnTD6MnRL",
+                    "name": "Ручной арбалет"
+                },
+                {
+                    "id": "5pc9LLxY31zYcOuQ",
+                    "name": "Истощить жизнь",
+                    "description": "<p>Когда Ральтас сотворяете заклинание&nbsp;@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz] и наносите урон хотя бы одному `живому` существу, то восстанавливаете Очки Здоровья равные рангу заклинания нанесение ран.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Ralthiss (3-4)": {
+			"name": "Ральтис (3-4)",
+            "tokenName": "Ральтис",
+			"img": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/36.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/1%20Season/PFS%2001-03/36_t.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "r9LsnjadHjYeFJMo",
+                    "name": "Моргенштерн"
+                },
+                {
+                    "id": "SAMCOzuOgRtNsnU9",
+                    "name": "Ручной арбалет"
+                },
+                {
+                    "id": "pIqOXAMnVdieo6fD",
+                    "name": "Истощить жизнь",
+                    "description": "<p>Когда Ральтас сотворяете заклинание&nbsp;@UUID[Compendium.pf2e.spells-srd.wdA52JJnsuQWeyqz] и наносите урон хотя бы одному `живому` существу, то восстанавливаете Очки Здоровья равные рангу заклинания нанесение ран.</p>"
+                },
+                {
+                    "id": "o8xqYNfkyXKyj1vz",
+                    "name": "Вливание Пустоты",
+                    "description": "<p>Если следующим действием Ральтиса - сотворение @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Нанесение ран}, восстанавливающий Очки Здоровья одному существу `нежити`, цель наносит дополнительные @Damage[1d6[void]] оружием ближнего боя и безоружными атаками до конца своего следующего хода.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.bIU1q05vzkKBtFj2]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Skeletal Gladiator": {
+			"name": "Скелет-Гладиатор",
+            "tokenName": "Скелет-Гладиатор",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/undead/skeletal/skeletal-champion.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/undead/skeletal/skeletal-champion.webp",
+            "description": "<p>Эти скелеты сохраняют хитрость, которой они обладали при жизни.</p><hr><p>Созданные из костей, скрепленных скверной некромантией, скелеты - один из самых распространенных видов <a href=\"https://clck.ru/jzAjA\"><em>`нежити`</em></a>, встречающийся в старых подземельях и на забытых кладбищах.</p><p>Почти любое существо, обладающее при жизни костями и оставляющее их после смерти, может стать бродящим скелетом-нежитью: гуманоиды, чудовища, аберрации, феи и т.п.</p>",
+            "UUID": "NmBBGhDNNEEfxCun",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "4ULLh7Zw9oPTtkPV",
+                    "name": "Длинный меч"
+                },
+                {
+                    "id": "4Miar0ENS5VBFvJa",
+                    "name": "Кавалерийская пика"
+                },
+                {
+                    "id": "pLAuZ51u7PsMudyY",
+                    "name": "Блок щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Sodden Floor": {
+			"name": "Прогнившие Половицы",
+            "tokenName": "Прогнившие Половицы",
+            "img": "systems/pf2e/icons/spells/swampcall.webp",
+            "tokenImg": "systems/pf2e/icons/spells/swampcall.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Доски пола здесь прогнили и стали мягкими, что может привести к падению всех, кто находится наверху, в дыру внизу.</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:16|name:Reinforce Compromised Floorboards] (обучен), чтобы укрепить провалившиеся половицы.</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "Crumble",
+                    "name": "Рухнуть",
+                    "description": "<p>Триггер: Существо ступает на любую клетку с прогнившими половицами</p><hr><p>Все квадраты с пронгившими половицами проваливаются. Существо, находящееся в любом из отмеченных квадратов, должно совершить @Check[type:reflex|dc:18]</p><hr><p>Успех: Существо движется к ближайшему безопасному квадрату и избегает падения</p><p>Провал: Существо падает на 10ФТ, получает @Damage[(5)[bludgeoning]] в результате падения и лежит @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} в яме</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Collapsing Ceiling (1-2)": {
+			"name": "Обваливающийся Потолок (1-2)",
+            "tokenName": "Обваливающийся Потолок",
+            "img": "systems/pf2e/icons/spells/shatter.webp",
+            "tokenImg": "systems/pf2e/icons/spells/shatter.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Поврежденный потолок - единственное, что мешает сороконожкам, затаившимся наверху, провалиться сквозь него.</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:19] (обучен), чтобы укрепить потолок досками от сломанной двери.</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "MQ3CKYIdF6zrMg0x",
+                    "name": "Обвал",
+                    "description": "<p>Триггер: Существо входит в область под логовом многоножек.</p><hr><p>Услышав потенциальную добычу, многоножки начинают копошиться наверху, в результате чего потолок обрушивается и многоножки дождем сыплются вниз, нанося @Damage[(2d6+3)[bludgeoning]] каждому существу в области; каждое существо в области должно совершить @Check[type:reflex|dc:16].</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон</p><p>Крит.Провал: Существо получает двойной урон и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Collapsing Ceiling (3-4)": {
+			"name": "Обваливающийся Потолок (3-4)",
+            "tokenName": "Обваливающийся Потолок",
+            "img": "systems/pf2e/icons/spells/shatter.webp",
+            "tokenImg": "systems/pf2e/icons/spells/shatter.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Поврежденный потолок - единственное, что мешает сороконожкам, затаившимся наверху, провалиться сквозь него.</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:22] (обучен), чтобы укрепить потолок досками от сломанной двери.</p>",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "MQ3CKYIdF6zrMg0x",
+                    "name": "Обвал",
+                    "description": "<p>Триггер: Существо входит в область под логовом многоножек.</p><hr><p>Услышав потенциальную добычу, многоножки начинают копошиться наверху, в результате чего потолок обрушивается и многоножки дождем сыплются вниз, нанося @Damage[(3d8+4)[bludgeoning]] каждому существу в области; каждое существо в области должно совершить @Check[type:reflex|dc:19].</p><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо получает половину урона</p><p>Провал: Существо получает полный урон</p><p>Крит.Провал: Существо получает двойной урон и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Moldy Foodstuffs (1-2)": {
+			"name": "Заплесневелые Продукты (1-2)",
+            "tokenName": "Заплесневелые Продукты",
+            "img": "systems/pf2e/icons/spells/putrefy-food-and-drink.webp",
+            "tokenImg": "systems/pf2e/icons/spells/putrefy-food-and-drink.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Из испорченной пищи вырывается облако плесени.</p>",
+            "hdisable": "<p>@Check[type:survival|dc:14|name:Remove Mold] (обучен), чтобы удалить плесень из еды, не запустив споры.",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "Spore Puff",
+                    "name": "Спровоцировать Споры",
+                    "description": "<p>Триггер: Существо движется в пространство плесени или наносит ей урон. Плесень не может использовать эту реакцию, если она находится под прямыми солнечными лучами или если урон был нанесен огнем.</p><hr><p>Спровоцировавшее существо и все существа в радиусе 10 футов подвергаются воздействию Споры Плесени.</p>"
+                },
+                {
+                    "id": "Foodborn Spores",
+                    "name": "Споры Плесени",
+                    "description": "<p>Состояние истощен, вызванное спорами, сохраняется после окончания действия яда;</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:14]</p><p>Макс.Продолжительность: 2 раунда</p><p>Стадия 1: @Damage[(1d6)[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд)</p><p>Стадия 2: @Damage[(1d8)[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд)</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Moldy Foodstuffs (3-4)": {
+			"name": "Заплесневелые Продукты (3-4)",
+            "tokenName": "Заплесневелые Продукты",
+            "img": "systems/pf2e/icons/spells/putrefy-food-and-drink.webp",
+            "tokenImg": "systems/pf2e/icons/spells/putrefy-food-and-drink.webp",
+			"appendNumber": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Из испорченной пищи вырывается облако плесени.</p>",
+            "hdisable": "<p>@Check[type:survival|dc:16|name:Remove Mold] (обучен), чтобы удалить плесень из еды, не запустив споры.",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "Spore Puff",
+                    "name": "Спровоцировать Споры",
+                    "description": "<p>Триггер: Существо движется в пространство плесени или наносит ей урон. Плесень не может использовать эту реакцию, если она находится под прямыми солнечными лучами или если урон был нанесен огнем.</p><hr><p>Спровоцировавшее существо и все существа в радиусе 10 футов подвергаются воздействию Споры Плесени.</p>"
+                },
+                {
+                    "id": "Foodborn Spores",
+                    "name": "Споры Плесени",
+                    "description": "<p>Состояние истощен, вызванное спорами, сохраняется после окончания действия яда;</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:16]</p><p>Макс.Продолжительность: 2 раунда</p><p>Стадия 1: @Damage[(1d8)[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд)</p><p>Стадия 2: @Damage[(1d12)[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 раунд)</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
 		"01-04================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -3432,12 +3920,6 @@
 		"Collapsing Barricade (3-4)": {
 			"name": "Collapsing Barricade (3-4)"
 		},
-		"Collapsing Ceiling (1-2)": {
-			"name": "Collapsing Ceiling (1-2)"
-		},
-		"Collapsing Ceiling (3-4)": {
-			"name": "Collapsing Ceiling (3-4)"
-		},
 		"Creeping Slime": {
 			"name": "Creeping Slime"
 		},
@@ -3452,9 +3934,6 @@
 		},
 		"Dehydrated Krooth": {
 			"name": "Dehydrated Krooth"
-		},
-		"Desert Wind": {
-			"name": "Desert Wind"
 		},
 		"Dilapidated Alchemical Golem": {
 			"name": "Dilapidated Alchemical Golem"
@@ -3536,9 +4015,6 @@
 		},
 		"Ghost Of Diggen Thrune (3-4)": {
 			"name": "Ghost Of Diggen Thrune (3-4)"
-		},
-		"Giant Centipede (PFS 1-03)": {
-			"name": "Giant Centipede (PFS 1-03)"
 		},
 		"Giant Short-faced Bear": {
 			"name": "Giant Short-faced Bear"
@@ -3654,9 +4130,6 @@
 		"Krooth Hatchlings": {
 			"name": "Krooth Hatchlings"
 		},
-		"Larraz Virtanne": {
-			"name": "Larraz Virtanne"
-		},
 		"Leopard (1-14)": {
 			"name": "Leopard (1-14)"
 		},
@@ -3719,12 +4192,6 @@
 		},
 		"Moldy Deck": {
 			"name": "Moldy Deck"
-		},
-		"Moldy Foodstuffs (1-2)": {
-			"name": "Moldy Foodstuffs (1-2)"
-		},
-		"Moldy Foodstuffs (3-4)": {
-			"name": "Moldy Foodstuffs (3-4)"
 		},
 		"Mountain Goat": {
 			"name": "Mountain Goat"
@@ -3861,12 +4328,6 @@
 		"Raging Forest Fire": {
 			"name": "Raging Forest Fire"
 		},
-		"Ralthiss (1-2)": {
-			"name": "Ralthiss (1-2)"
-		},
-		"Ralthiss (3-4)": {
-			"name": "Ralthiss (3-4)"
-		},
 		"Raven Swarm (1-05)": {
 			"name": "Raven Swarm (1-05)"
 		},
@@ -3900,9 +4361,6 @@
 		"Seaborn Fisher": {
 			"name": "Seaborn Fisher"
 		},
-		"Skeletal Gladiator": {
-			"name": "Skeletal Gladiator"
-		},
 		"Skeletal Mage": {
 			"name": "Skeletal Mage"
 		},
@@ -3920,9 +4378,6 @@
 		},
 		"Smoldering Forest Fire": {
 			"name": "Smoldering Forest Fire"
-		},
-		"Sodden Floor": {
-			"name": "Sodden Floor"
 		},
 		"Spear Launcher (Q9:1-2)": {
 			"name": "Spear Launcher (Q9:1-2)"
@@ -4061,15 +4516,6 @@
 		},
 		"Zombie Minihulk": {
 			"name": "Zombie Minihulk"
-		},
-		"Zombie Riding Horse": {
-			"name": "Zombie Riding Horse"
-		},
-		"Zombie Shambler (PFS 1-03)": {
-			"name": "Zombie Shambler (PFS 1-03)"
-		},
-		"Zombie Warhorse": {
-			"name": "Zombie Warhorse"
 		}
 	}
 }

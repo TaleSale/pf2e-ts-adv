@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "5.5.6",
+  "version": "5.5.7",
   "relationships": {
 		"systems": [
 			{
@@ -52,6 +52,18 @@
       "type": "Scene",
       "name": "pathfinder-flip-mats",
       "path": "packs/pathfinder-flip-mats",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "label": "Бестиарий TS",
+      "type": "Actor",
+      "name": "bestiarij-ts",
+      "path": "packs/bestiarij-ts",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
