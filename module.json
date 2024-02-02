@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "5.5.7",
+  "version": "5.5.8",
   "relationships": {
 		"systems": [
 			{
@@ -70,6 +70,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "99. PF2E-TS-ADV",
+      "sorting": "m",
+      "packs": [
+        "bestiarij-ts",
+        "tehnicheskaya-papka",
+        "priklyucheniya-ot-ts",
+        "pathfinder-flip-mats"
+      ]
     }
   ],
   "flags": {
