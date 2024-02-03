@@ -1,24 +1,3 @@
-2024/02/03-09:23:23.471 25e4 Recovering log #52
-2024/02/03-09:23:23.471 25e4 Level-0 table #54: started
-2024/02/03-09:23:23.602 25e4 Level-0 table #54: 1527 bytes OK
-2024/02/03-09:23:23.642 25e4 Delete type=0 #52
-2024/02/03-09:23:23.643 25e4 Delete type=3 #50
-2024/02/03-12:49:57.671 22ec Level-0 table #57: started
-2024/02/03-12:49:57.672 22ec Level-0 table #57: 0 bytes OK
-2024/02/03-12:49:57.770 22ec Delete type=0 #55
-2024/02/03-12:49:57.771 22ec Manual compaction at level-0 from '!scenes!1tRr7meMBp9GC81G' @ 72057594037927935 : 1 .. '!scenes.walls!xe3oQ8QdjCO20KSR.zzkINAcJ5eaPIown' @ 0 : 0; will stop at '!scenes.walls!3LOeh5ieWlGVOKRT.vVInUkyoJXy6Yhrr' @ 2670 : 1
-2024/02/03-12:49:57.771 22ec Compacting 2@0 + 0@1 files
-2024/02/03-12:49:57.968 22ec Generated table #58@0: 70 keys, 6929 bytes
-2024/02/03-12:49:57.968 22ec Compacted 2@0 + 0@1 files => 6929 bytes
-2024/02/03-12:49:58.078 22ec compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/02/03-12:49:58.078 22ec Delete type=2 #51
-2024/02/03-12:49:58.078 22ec Delete type=2 #54
-2024/02/03-12:49:58.229 22ec Manual compaction at level-0 from '!scenes.walls!3LOeh5ieWlGVOKRT.vVInUkyoJXy6Yhrr' @ 2670 : 1 .. '!scenes.walls!xe3oQ8QdjCO20KSR.zzkINAcJ5eaPIown' @ 0 : 0; will stop at (end)
-2024/02/03-12:49:58.671 22ec Manual compaction at level-1 from '!scenes!1tRr7meMBp9GC81G' @ 72057594037927935 : 1 .. '!scenes.walls!xe3oQ8QdjCO20KSR.zzkINAcJ5eaPIown' @ 0 : 0; will stop at '!scenes.walls!3LOeh5ieWlGVOKRT.vVInUkyoJXy6Yhrr' @ 2670 : 1
-2024/02/03-12:49:58.671 22ec Compacting 1@1 + 1@2 files
-2024/02/03-12:49:58.832 22ec Generated table #59@1: 1116 keys, 101608 bytes
-2024/02/03-12:49:58.832 22ec Compacted 1@1 + 1@2 files => 101608 bytes
-2024/02/03-12:49:58.865 22ec compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/02/03-12:49:58.892 22ec Delete type=2 #27
-2024/02/03-12:49:58.892 22ec Delete type=2 #58
-2024/02/03-12:49:58.893 22ec Manual compaction at level-1 from '!scenes.walls!3LOeh5ieWlGVOKRT.vVInUkyoJXy6Yhrr' @ 2670 : 1 .. '!scenes.walls!xe3oQ8QdjCO20KSR.zzkINAcJ5eaPIown' @ 0 : 0; will stop at (end)
+2024/02/03-13:51:30.876 63c Recovering log #56
+2024/02/03-13:51:30.916 63c Delete type=0 #56
+2024/02/03-13:51:30.916 63c Delete type=3 #53
