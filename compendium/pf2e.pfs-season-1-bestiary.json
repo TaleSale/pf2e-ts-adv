@@ -647,74 +647,56 @@
             ]
 		},
         "Crowd Agitator": {
-			"name": "Crowd Agitator",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
+			"name": "Подстрекатель Толпы",
+            "tokenName": "Подстрекатель Толпы",
+			"img": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/MASTERMIND.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/npc-gallery/token/MASTERMIND.webp",
             "description": "",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Crowd Aid",
+                    "name": "Помощь толпе",
+                    "description": "<p>Лидер толпы игнорирует сложную местность, вызванную дружественными толпами.</p><p>Существа, находящиеся в дружественной толпе или рядом с ней, не @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] от атак лидера толпы.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "USPAWEeOMYFynVHm",
+                    "name": "Кинжал"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "rjsotRgiCHo9vmk7",
+                    "name": "Кинжал"
                 }
             ]
 		},
 		"Crowd Leader": {
-			"name": "Crowd Leader",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
+			"name": "Лидер Толпы",
+            "tokenName": "Лидер Толпы",
+			"img": "modules/pf2e-ts-adv/art_token/npc-gallery/actor/BARRISTER.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/npc-gallery/token/BARRISTER.webp",
             "description": "",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Crowd Aid",
+                    "name": "Помощь толпе",
+                    "description": "<p>Лидер толпы игнорирует сложную местность, вызванную дружественными толпами.</p><p>Существа, находящиеся в дружественной толпе или рядом с ней, не @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] от атак лидера толпы.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "USPAWEeOMYFynVHm",
+                    "name": "Кинжал"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
-                },
-                {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
-                },
-                {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "rjsotRgiCHo9vmk7",
+                    "name": "Кинжал"
                 }
             ]
 		},
@@ -758,38 +740,34 @@
             ]
 		},
         "Shadow Wisp": {
-			"name": "Shadow Wisp",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
+			"name": "Теневой Огонек",
+            "tokenName": "Теневой Огонек",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/undead/ghostly/shadow.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/undead/ghostly/shadow.webp",
             "description": "",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Shadow Tendril",
+                    "name": "Теневое Усико"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Light Weakness",
+                    "name": "Уязвимость к свету",
+                    "description": "<p>Объект, отбрасывающий магический свет (как например, от заклинания <em>@UUID[Compendium.pf2e.spells-srd.WBmvzNDfpwka3qT4]{Свет}</em>) наносит дополнительный урон существу.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Shroud",
+                    "name": "Саван",
+                    "description": "<p>Требования: Предыдущим действием Тени было попадание в соседнее существо своим @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Теневого Усика</p><hr><p>Теневой Огонек совершает @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Шаг} в пространство существа и совершает @Check[type:acrobatics|defense:reflex] против КС_РФЛ цели, чтобы прикрепиться к тени цели. Пока она остается прикрепленной, она движется вместе с целью и @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} к атакам цели. Цель может потратить действие перемещения в свой ход, чтобы попытаться совершить @Check[type:reflex|defense:acrobatics] против КС_Акробатики, чтобы вырваться из савана.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Stretch Shadow",
+                    "name": "Теневое Усико",
+                    "description": "<p>Требования: Тень прикреплена к живому существу</p><hr><p>Теневой Огонек растягивает тень существа к которому прикреплено, нанося ему @Damage[1d6[void]]. Он может использовать тень прикрепленного существа, чтобы нанести @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} теневым усиком по другой цели на расстоянии до 10ФТ</p>"
                 },
                 {
                     "id": "115",
@@ -799,38 +777,34 @@
             ]
 		},
         "Greater Shadow Wisp": {
-			"name": "Greater Shadow Wisp",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
+			"name": "Великий Теневой Огонек",
+            "tokenName": "Великий Теневой Огонек",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/undead/ghostly/shadow-greater.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/undead/ghostly/shadow-greater.webp",
             "description": "",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Shadow Tendril",
+                    "name": "Теневое Усико"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Light Weakness",
+                    "name": "Уязвимость к свету",
+                    "description": "<p>Объект, отбрасывающий магический свет (как например, от заклинания <em>@UUID[Compendium.pf2e.spells-srd.WBmvzNDfpwka3qT4]{Свет}</em>) наносит дополнительный урон существу.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Shroud",
+                    "name": "Саван",
+                    "description": "<p>Требования: Предыдущим действием Тени было попадание в соседнее существо своим @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Теневого Усика</p><hr><p>Теневой Огонек совершает @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Шаг} в пространство существа и совершает @Check[type:acrobatics|defense:reflex] против КС_РФЛ цели, чтобы прикрепиться к тени цели. Пока она остается прикрепленной, она движется вместе с целью и @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} к атакам цели. Цель может потратить действие перемещения в свой ход, чтобы попытаться совершить @Check[type:reflex|defense:acrobatics] против КС_Акробатики, чтобы вырваться из савана.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Stretch Shadow",
+                    "name": "Теневое Усико",
+                    "description": "<p>Требования: Тень прикреплена к живому существу</p><hr><p>Теневой Огонек растягивает тень существа к которому прикреплено, нанося ему @Damage[1d6[void]]. Он может использовать тень прикрепленного существа, чтобы нанести @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} теневым усиком по другой цели на расстоянии до 10ФТ</p>"
                 },
                 {
                     "id": "115",
@@ -840,74 +814,65 @@
             ]
 		},
         "Unkillable Zombie Brute (PFS 1-01)": {
-			"name": "Unkillable Zombie Brute (PFS 1-01)",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
-            "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
+			"name": "Неубиваемый Зомби-Громила (PFS 1-01)",
+            "tokenName": "Неубиваемый Зомби-Громила",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/undead/zombie-brute.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/undead/zombie-brute.webp",
+            "description": "<p>Некромантические усиления придали этому зомби увеличенный размер и силу.</p><h2>Зомби (Неубиваемый)</h2><p>Этот зомби почти неубиваем. Зомби теряет свою слабость к рубящему урону и получает сопротивление всему урону, равное своему уровню (минимум 3), а также получает слабость к критическим попаданиям, равную удвоенному уровню (минимум 6).</p><p>Если вы даете зомби это умение, повысьте его уровень на 1.</p><hr><p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают</p><p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>",
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "TtcFIJZjrZ4Vaaml",
+                    "name": "Медленный",
+                    "description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Hunk of Meat",
+                    "name": "Шмат мяса"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Corpse",
+                    "name": "Труп"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Wide Swing",
+                    "name": "Широкий замах",
+                    "description": "<p>Громадный зомби наносит \"Удар\" шматом мяса и сравнивает результат броска атаки с КБ вплоть до 2 противников, каждый из которых должен находиться в пределах досягаемости этого \"Удара\". Для штрафа множественной атаки, эта атака считается как 2.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Corpse Throwing",
+                    "name": "Метание трупа",
+                    "description": "<p>Громадный зомби может бросать в противников трупы. Хотя для этого подойдет любой Средний труп, иногда они бросают @UUID[Compendium.pf2e.pathfinder-bestiary.0plBflWwrCWQO2RO], которые получают столько же урона от броска, сколько и цель, в которую они попали. Брошенный зомби падает @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}, но если он не уничтожен, то может подняться и использовать другие действия в как обычно.</p>"
                 }
             ]
 		},
         "Weak Ceustodaemon (PFS 1-01)": {
-			"name": "Weak Ceustodaemon (PFS 1-01)",
-            "tokenName": "",
-			"img": "",
-            "tokenImg": "",
-            "description": "",
+			"name": "Слабый Цеастодэймон (PFS 1-01)",
+            "tokenName": "Цеастодэймон",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/fiendish/daemon/ceustodaemon.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/fiendish/daemon/ceustodaemon.webp",
+            "description": "<section class=\"А\"><p>Цеастодэймоны формируются из душ мерзких смертных, особенно тех, кто стремился ускорить свою смерть, и их готовность формирует их них дэймонических слуг. Их потусторонние чувства делают их полезными для защиты хранилищ и подобных мест на <a href=\"https://clck.ru/pxYdf\">Материальном Плане</a>. Цеастодэймоны созданы для служения, но всегда ищут способы разрушить свои узы, чтобы разорвать плоть своих смертных призывателей. Худший тип колдунов призывает цеастодэймонов только для того, чтобы выпустить их на свободу в мир в надежде снискать благосклонность сил <a href=\"https://clck.ru/sUWAu\">Абаддона</a>.</p><hr><p>Обитатели мрачного и ужасного Плана <a href=\"https://clck.ru/sUWAu\">Абаддон</a>, дэймоны сформированы и посвящены уничтожению жизни во всех ее формах. Они добиваются смерти каждого смертного существа самыми болезненными и ужасными способами, которые только возможны, и все это во служение апокалиптическим сущностям, известным как <a href=\"https://clck.ru/epC4y\">Четыре Всадника</a>. Каждый вид дэймонов представляет разный способ смерти, и их силы почти всегда направлены на распространение этой конкретной формы смерти. С помощью этих сил, они стремятся утянуть все сущее в яму безнадежности и отчаяния, и предать все души забвению.</p><p>В то время как те, кто призывает дэймонов на <a href=\"https://clck.ru/pxYdf\">Материальный План</a>, обычно стремятся использовать разрушительные и портящие силы этих существ в своих целях, дэймоны всегда ищут способы посеять страх, сомнения и отчаяние, где бы они ни оказались. Часто дэймоны маскируют свои козни под происки других <a href=\"https://clck.ru/saoNC\"><em>`бесов`</em></a>, зная, что такая путаница усиливает страх смертных.</p><p>Хотя все <a href=\"https://clck.ru/saoNC\"><em>`бесы`</em></a> стремятся склонить смертных к жизни во зле, чтобы увеличить свою численность и силу на родных планах, дэймоны руководствуются сверхъестественной жаждой смертных душ и для их ловли используют различные методы, и не в последнюю очередь - самоцветы душ @UUID[Compendium.pf2e.pathfinder-bestiary.E0PIGtVfc5PFVT2C]{Какодэймонов}. В Абаддоне и в других запретных местах мультивселенной, души одновременно являются деликатесом, товаром и источником магической силы, а дэймоны - одни из самых больших обжор, торговцев и злоупотребляющих этим духовным \"ресурсом\".</p><h2>Дэймонические божества</h2><p>Многочисленные могущественные и уникальные дэймоны-полубоги, известные под общим названием Предвестники, правят областями Абаддона. Однако, над этими полубогами, стоят сущности еще большей силы - четыре <a href=\"https://clck.ru/epC4y\">Всадника Апокалипсиса</a>. С течением веков имена и личности конкретных всадников меняются. В настоящее время это @UUID[Compendium.pf2e.deities.oJPwMa9xG8oMnC14] (Всадник Мора), @UUID[Compendium.pf2e.deities.tcXrtRYCOr2EmgGB] (Всадник Смерти), @UUID[Compendium.pf2e.deities.rDTXcBJ8LyqA2TkL] (Всадник Войны) и @UUID[Compendium.pf2e.deities.9eltBjLngkR9x1Xm] (Всадник Голода). Из всех них, лишь Харон не является новичком. Некоторые считают, что когда-то, остальными четырьмя правил \"Пятый Всадник\", а другие утверждают, что солнце в небе над Абаддоном, вечно покрытое затмением - все, что осталось от этого давно умершего бога.</p><h2>Предвестники дэймонов</h2><p><a href=\"https://clck.ru/epC4y\">Четыре Всадника</a> - самые могущественные из дэймонических полубогов, но они всего четверо из многих. В Абаддоне обитает гораздо больше дэймонических предвестников, каждый из которых является уникальным и могущественным полубогом, пользующимся огромным влиянием среди дэймонического рода. Джакаркас Собиратель (правитель рабского города Ожидающее Поедание), Вораша Змееподобная (супруга @UUID[Compendium.pf2e.deities.9eltBjLngkR9x1Xm]{Всадника Голода}) и Зелишкар Горькое Пламя (покровитель поджигателей и агент @UUID[Compendium.pf2e.deities.rDTXcBJ8LyqA2TkL]{Всадника Войны}) - вот лишь трое из десятков предвестников, которые правят царствами в Абаддоне.</p><h2>Абаддон</h2><p>Дэймоны - выходцы из <a href=\"https://clck.ru/sUWAu\">Абаддона</a>, плана чистого зла, для самых испорченных душ. Если <a href=\"https://clck.ru/sVruX\">Ад</a> - это царство пыток и систематической порочности, то Абаддон - его искаженный кузен, место, где в огромных количествах можно найти только страдание и отчаяние, не имея ни строгостей Ада, ни хаотичной свободы <a href=\"https://clck.ru/rfEnY\">Бездны</a>. Для злодеев, стремящихся просто причинять зло другим, Абаддон - богатые охотничьи угодья, где можно упиваться низменностью, однако стоит предупредить посетителей: конкуренция здесь жестокая.</p><h2>Дьяконы дэймонов</h2><p>Каждому из четырех Всадников служит определенная категория дэймонов-слуг, известных как дьяконы. @UUID[Compendium.pf2e.pathfinder-bestiary.N62zM3aTelygWIt2]{Лейкодэймоны} служат дьяконами @UUID[Compendium.pf2e.deities.oJPwMa9xG8oMnC14]{Всаднику Мора}. @UUID[Compendium.pf2e.pathfinder-bestiary-2.ytsHNgRwLzabsrZt]{Меладэймоны} служат дьяконами @UUID[Compendium.pf2e.deities.9eltBjLngkR9x1Xm]{Всадника Голода}, а @UUID[Compendium.pf2e.pathfinder-bestiary-2.iW6WKMVV3Ug8sa2q]{Танадэймоны} служат дьяконами @UUID[Compendium.pf2e.deities.tcXrtRYCOr2EmgGB]{Всаднику Смерти}. @UUID[Compendium.pf2e.pathfinder-bestiary-2.GfJLotTcrZmn6tay]{Пурродэймоны} в настоящее время являются самыми могущественными из дьяконов и служат @UUID[Compendium.pf2e.deities.rDTXcBJ8LyqA2TkL]{Всаднику Войны}, однако со временем мощь категорий дьяконов может меняться.</p><h2>Самоцветы душ в качестве сокровищ</h2><p>Самоцветами душ торгуют на нелегальных рынках, что является традицией, которую небожители и психопомпы считают омерзительной. Стоимость самоцветов душ варьируется, но обычно она зависит от уровня заключенной в нем души.</p><h2>Самоцветы душ в качестве снаряжения</h2><p>Дэймоны часто носят с собой самоцветы души - либо в качестве трофеев, либо для усиления способностей. @UUID[Compendium.pf2e.pathfinder-bestiary.E0PIGtVfc5PFVT2C]{Какодэймоны} - самый распространенный источник самоцветов душ, но они также могут быть созданы заклинаниями, такими как @UUID[Compendium.pf2e.spells-srd.GYmXvS9NJ7QwfWGg]{Захват души}. Если дэймон уничтожает самоцвет души, чтобы усилить способность, заключенная в нем душа отправляется в загробный мир и может быть воскрешена обычным образом.</p><h2>Дэймонический парадокс</h2><p>Дэймоны воплощают собой фундаментальный парадокс: хотя они являются воплощениями смерти и стремятся поглотить все живое, сами они являются живыми существами. Некоторые говорят о славном конце времен, после которого реальность, наконец, освободится от заразы, которой является сама жизнь. Большинство дэймонов не задумываются над этим парадоксом.</p><h2>Другие дэймоны</h2><p>уществует столько же дэймонов, сколько и ужасных способов умереть. Кровавый сангудэймон (sangudaemon) олицетворяет смерть от потери крови, а скелетный @UUID[Compendium.pf2e.pathfinder-bestiary-2.iW6WKMVV3Ug8sa2q]{Танадэймон} представляет смерть от старости. Самыми могущественными дэймонами являются @UUID[Compendium.pf2e.pathfinder-bestiary-2.37FAi1y5S8snofws]{Олетродэймоны}, которые олицетворяют массовые смерти из-за апокалипсиса и конца целых миров.</p></section>",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "qf9VkXweMZaEf2DP",
+                    "name": "Атака дыханием",
+                    "description": "<p>Цеастодэймон выдыхает пламя @Template[type:cone|distance:30]. Существа в конусе получают @Damage[7d6[fire]] (@Check[type:reflex|dc:24|basic:true]).</p><p>Цеастодэймон и все существа провалившие этот спасбросок загораются, получая @Damage[2d6[persistent,fire]].</p><p>\"Атаку дыханием\" нельзя снова использовать [[/br 1d4 #rounds]]{1d4 раунда}.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Drawn to Service",
+                    "name": "Призван служить",
+                    "description": "<p>При переносе цеастодэймона на другой план с помощью таких эффектов, как ритуалы <em>@UUID[Compendium.pf2e.spells-srd.2ykmAVKrsAWcazcC]</em> или <em>@UUID[Compendium.pf2e.spells-srd.vgy00hnqxN9VoeoF]</em>. КС первичного и вторичного навыков снижаются на 5, а цеастодэймон требует за свои услуги лишь половину обычной стоимости.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Vicious Wounds",
+                    "name": "Жестокие раны",
+                    "description": "<p>При успешном \"Ударе\" челюстями или когтями цеастодэймон злобно вгрызается в свою жертву, а на его теле появляются аналогичные раны. Цель получает дополнительные @Damage[1d6[untyped]], и цеастодэймон получает такой же дополнительный урон.</p><p>Если этот дополнительный урон по цели удваивается из-за критического попадания, цеастодэймон тоже получает двойной урон.</p>"
                 },
                 {
                     "id": "114",
@@ -922,23 +887,22 @@
             ]
 		},
         "Crumbling Floor": {
-			"name": "Crumbling Floor",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Обваливающийся Пол (1-2)",
+            "tokenName": "Обваливающийся Пол",
+            "img": "systems/pf2e/icons/spells/strange-geometry.webp",
+            "tokenImg": "systems/pf2e/icons/spells/strange-geometry.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
+            "hdescription": "<p>По краям ямы еще больше гниющих досок которые вот вот готовы соскользнуть.</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:14|name:Reinforce Beams], чтобы укрепить балки.</p>",
             "hroutine": "",
-            "hreset": "",
+            "hreset": "<p>По мере того, как повреждение пола распространяется, области, прилегающие к новой яме, становятся новыми областями этой опасности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "XDVnS5YE9ffhPSeE",
+                    "name": "Обвал",
+                    "description": "<p><strong>Триггер </strong>Существо ходит рядом с ямой.</p><hr><p>Существо падает и получает урон от падения (обычно @Damage[3[bludgeoning]]) плюс @Damage[2d6[piercing]] урона от приземления на сломанные доски.</p><p>Это существо может попытаться @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY] чтобы не упасть; КС для @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy] по стенам или схватиться КС_14.</p>"
                 },
                 {
                     "id": "112",
@@ -953,23 +917,22 @@
             ]
 		},
         "Collapsing Floor": {
-			"name": "Collapsing Floor",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Обваливающийся Пол (3-4)",
+            "tokenName": "Обваливающийся Пол",
+            "img": "systems/pf2e/icons/spells/strange-geometry.webp",
+            "tokenImg": "systems/pf2e/icons/spells/strange-geometry.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
+            "hdescription": "<p>По краям ямы еще больше гниющих досок которые вот вот готовы соскользнуть.</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:16|name:Reinforce Beams], чтобы укрепить балки.</p>",
             "hroutine": "",
-            "hreset": "",
+            "hreset": "<p>По мере того, как повреждение пола распространяется, области, прилегающие к новой яме, становятся новыми областями этой опасности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "XDVnS5YE9ffhPSeE",
+                    "name": "Обвал",
+                    "description": "<p><strong>Триггер </strong>Существо ходит рядом с ямой.</p><hr><p>Существо падает и получает урон от падения (обычно @Damage[3[bludgeoning]]) плюс @Damage[4d6[piercing]] урона от приземления на сломанные доски.</p><p>Это существо может попытаться @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY] чтобы не упасть; КС для @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy] по стенам или схватиться КС_18.</p>"
                 },
                 {
                     "id": "112",
@@ -984,28 +947,26 @@
             ]
 		},
         "Crowd with Trash": {
-			"name": "Crowd with Trash",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Толпа с Мусором (1-2)",
+            "tokenName": "Толпа с Мусором",
+            "img": "systems/pf2e/icons/spells/anima-invocation.webp",
+            "tokenImg": "systems/pf2e/icons/spells/anima-invocation.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
-            "hreset": "",
+            "hdescription": "<p>Толпа возмущена настолько, что начинает бросать мусор в нарушителей, но не настолько рассержена, чтобы рисковать своей жизнью. Толпа заполняет девять смежных квадратов, но ее форма может соответствовать улицам. Персонажи могут перемещаться сквозь толпу, но места, занятые толпой, представляют собой сложную местность.</p>",
+            "hdisable": "<p>После того, как больше людей в толпе пострадали или получили повреждения, чем осталось стоящих лидеров толпы, толпа расходится. Для способностей, влияющих на область, считайте каждую затронутую клетку как одного члена толпы.</p>",
+            "hroutine": "<p style=\"text-align: center;\">3 Действия</p><hr><p>Толпа использует первое действие, чтобы отойти от любого противника, находящегося рядом с ней (или оказаться в пределах 30 футов), а затем использует каждое оставшееся действие, чтобы совершить дальнобойную атаку мусором по другой цели.</p>",
+            "hreset": "<p>После того, как больше людей в толпе пострадали или получили повреждения, чем осталось стоящих лидеров толпы, толпа расходится. Для способностей, влияющих на область, считайте каждую затронутую клетку как одного члена толпы.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Speed 25 feet",
+                    "name": "Скорость 25ФТ"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Chamber Pot",
+                    "name": "Мусор",
+                    "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@Check[type:fortitude|dc:18] отменяет эффект тошноты).</p>"
                 },
                 {
                     "id": "113",
@@ -1015,23 +976,22 @@
             ]
 		},
         "Flawed Ritual": {
-			"name": "Flawed Ritual",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Ритуал с Изъянами (1-2)",
+            "tokenName": "Ритуал с изъянами",
+            "img": "systems/pf2e/icons/spells/abundant-step.webp",
+            "tokenImg": "systems/pf2e/icons/spells/abundant-step.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
+            "hdescription": "<p>Ритуал с изъянами испускает волны теневой энергии и открывает крошечные бреши в Теневом Плане.</p>",
+            "hdisable": "<section class=\"А\"><p>В ритуальном круге появилось семь изъянов, мерцающих, как призрачное пламя. Каждый из трех помощников Таввара держит под контролем один недостаток, пока они живы, в то время как сама Таввар предотвращает схлопывание ритуала, как указано в приведенной ниже способности ритуального якоря.</p><p>Каждый недостаток может быть исправлен успешной проверкой @Check[type:occultism|dc:22] или с КС_18 (Обучен), используя навык, связанный с исходной причиной недостатка (см. Таблицу Ритуальные недостатки и решения ниже). Независимо от успеха или провала, ПИ, который пытается выполнить проверку Оккультизма, чтобы отключить опасность, узнает причину недостатков и навыки, которые можно использовать для их преодоления. Каждый успех проверки на исправление недостатка с использованием этих других навыков снижает <strong>КС</strong> проверки Оккультизма для исправления недостатка на 2. Вместо использования проверок навыков персонажи могут использовать силу для стабилизации ритуала. Персонаж, победивший теневой огонек, автоматически исправляет один недостаток.</p></section><table class=\"pf2-table\"><thead><tr><th>[[/r d4]]</th><th>Причина изъяна</th><th>Навык Преодоления</th></tr></thead><tbody><tr><td>1</td><td>Измученная (правило &laquo;Публикуй или умри&raquo; в Коллегии Тайн привела к тому, что Таввар спешила при исполнении ритуала, поэтому некоторые руны нарисованы не совсем правильно)</td><td>@Check[type:arcana|dc:18] (Обучен) или @Check[type:thievery|dc:18] (Обучен)</td></tr><tr><td>2</td><td>Неуместная привязанность (Таввар из Нидала и подсознательно надеется, что ритуал покажет, что на ее родине есть что-то хорошее; она добавила немного Теневого языка в руны, и это усиливает энергию)</td><td>@Check[type:society|dc:18] (Обучен) или @Check[type:religion|dc:18] (Обучен)</td></tr><tr><td>3</td><td>Замкнутая (Таввар мало работала в полевых условиях и допустила опасную ошибку, когда использовала грибы в чернилах для рун)</td><td>@Check[type:crafting|dc:18] (Обучен) или @Check[type:nature|dc:18] (Обучен)</td></tr><tr><td>4</td><td>Сдержанный (собственные колебания и неуверенность Таввар привели к тому, что ритуал вышел из-под ее контроля)</td><td>@Check[type:deception|dc:18] (Обучен) или @Check[type:diplomacy|dc:18] (Обучен)</td></tr></tbody></table>",
+            "hroutine": "<p style=\"text-align: center;\">1 Действие</p><hr><section class=\"А\"><p>На каждом своем ходу ритуал испускает волну теневой энергии, нанося @Damage[2d6[void]] (@Check[type:fortitude|dc:18|basic:true]) каждому ПИ, который участвовал в ритуале в прошлом раунде (включая Таввар и ее помощников, а также любого ПИ, который пытался проверка навыков, чтобы отключить опасность). Не-участник может выступить перед участником в качестве реакции. Это блокирует урон от ритуального заклинателя, но не-участник должен сделать попытку Спас.СТК</p><p>Энергетический прилив ритуала не только наносит урон, но и приносит в комнату @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.mjW1q98gMnEmZJKt]. В конце хода ритуала действуют огоньки. Если в комнате уже есть два теневых огонька, вместо создания нового огонька ритуал восстанавливает @Damage[10[healing]]{10 ОЗ} каждому огоньку.</p></section>",
             "hreset": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "qItNc16WZT4gqoaJ",
+                    "name": "Ритуальный якорь",
+                    "description": "<p>Если Таввар умирает, ритуал немедленно заканчивается катастрофой. С громким хлопком он взрывается, наполняя комнату отрицательной энергией, прежде чем рассеяться. Это наносит @Damage[2d6[void]] урона всем существам в <strong>Зоне Б5</strong> (@Check[type:fortitude|dc:18|basic:true|name:Flawed Ritual]).</p><p>Ритуалисты НПС автоматически крит.проваливают свои спасброски. Взрыв завершает ритуал, но не удаляет @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.mjW1q98gMnEmZJKt] уже находящиеся в комнате.</p>"
                 },
                 {
                     "id": "112",
@@ -1046,23 +1006,21 @@
             ]
 		},
         "Scrabbling Hands": {
-			"name": "Scrabbling Hands",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Царапающие Руки (1-2)",
+            "tokenName": "Царапающие Руки",
+            "img": "systems/pf2e/icons/spells/aberrant-form.webp",
+            "tokenImg": "systems/pf2e/icons/spells/aberrant-form.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
-            "hreset": "",
+            "hstealth": "<p>(Обучен) услышать царапанье под половицами</p>",
+            "hdescription": "<p>Иллюзорные руки поднимаются из половиц, царапают ноги своей жертвы и оставляют настоящие раны.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:16|name:Exorcize the Spirits] (Обучен), чтобы изгонять духов</p>",
+            "hreset": "<p>Духи остаются, возвращаясь в убежище каждую полночь, пока истинная история того, что здесь произошло, не станет достоянием общественности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "vGwlY8H7EONqROr1",
+                    "name": "Царапающие Руки",
+                    "description": "<p><strong>Триггер </strong>Существо проходит через <strong>Зону В2</strong> второй раз за 24 часа</p><hr><p>Призрачные гниющие руки появляются из пола под целью, царапая им ноги. Внешний вид рук варьируется в зависимости от проявления призрака (Таблица).</p><p>Руки наносят @Damage[4d6[slashing],2d6[bleed]] (@Check[type:will|dc:17|basic:true]). Если существо получает какой-либо урон от призрака, когти оставляют раздирающие раны на ногах цели, снижая их сухопутную скорость на 10ФТ (минимум 5ФТ), пока цель не восстановится до максимального ОЗ.</p><table class=\"pf2-table\"><thead><tr><th>[[/r d6]] - Владелец Рук</th><th>Проявление Призрака</th></tr></thead><tbody><tr><td>Поклоняющиеся Архидьяволу</td><td>Запах серы и звуки песнопений на инфернальном языке (ПИ, понимающий инфернальный язык или успешно прошедший проверку на @Check[type:religion|dc:10|name:Recognize Chanting], @Check[type:hell-lore|dc:10|name:Recognize Chanting] или @Check[type:mephistopheles-lore|dc:10|name:Recognize Chanting], распознает песнопения как молитву Мефистофелю)</td></tr><tr><td>Одушевленные Куклы</td><td>Плоть, отслаивающаяся от гниющих рук, открывает гладкий фарфор под ними (ПИ, преуспевший в проверке @Check[type:crafting|dc:10|name:Recognize Craftsmanship] или @Check[type:occultism|dc:10|name:Recognize Craftsmanship], распознает проявление как мастерство Одушевленных Кукол)</td></tr><tr><td>Алхимические Экспериментаторы</td><td>Химический запах перебивает гниль, а на руках видны точные хирургические разрезы (ПИ, преуспевший в проверке на @Check[type:crafting|dc:10|name:Recognize Cuts] или @Check[type:medicine|dc:10|name:Recognize Cuts], понимает, что и то, и другое - медицинское, но неэтичное)</td></tr><tr><td>Рабы</td><td>На руках по-прежнему тяжелые кандалы вокруг запястий</td></tr><tr><td>Преступники</td><td>Руки покрыты татуировками, на некоторых из них начисто отсутствуют пальцы (ПИ, успешно прошедший проверку на @Check[type:society|dc:10|name:Recognize Marks] или @Check[type:underworld-lore|dc:10|name:Recognize Marks], узнает, что это следы банд, действовавших до землетрясения)</td></tr><tr><td>Заблудшие Фаразмиты</td><td>После исчезновения призрака остается запах ладана (ПИ, успешно прошедший проверку на @Check[type:religion|dc:10|name:Recognize Rites] или @Check[type:pharasma-lore|dc:10|name:Recognize Rites], узнает в нем запах похорон фаразмитов)</td></tr></tbody></table>"
                 },
                 {
                     "id": "112",
@@ -1077,23 +1035,22 @@
             ]
 		},
         "Whispering Spirits": {
-			"name": "Whispering Spirits",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Шепчущие Духи (1-2)",
+            "tokenName": "Шепчущие Духи",
+            "img": "systems/pf2e/icons/spells/adapt-self.webp",
+            "tokenImg": "systems/pf2e/icons/spells/adapt-self.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
+            "hstealth": "<p>(Обучен) услышать шепот на расстоянии</p>",
+            "hdescription": "<p>Потерянные духи шепчут, заново переживая свои последние мгновения, готовые втянуть живых в свою иллюзию.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:16|name:Supress the Spirits] (Обучен), чтобы подавить духов</p><p>@Check[type:performance|dc:16|name:Drown Out the Spirits] (Обучен), чтобы заглушить их</p>",
             "hroutine": "",
-            "hreset": "",
+            "hreset": "<p>Духи остаются, возвращаясь в убежище каждую полночь, пока истинная история того, что здесь произошло, не станет достоянием общественности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "OB6Sk8RVPAlxupET",
+                    "name": "Заманчивый Шепот",
+                    "description": "<p><strong>Триггер </strong>Несколько существ остаются в <strong>Зоне В4</strong> более 6 секунд.</p><hr><p>Шепот становится все более настойчивым, пока каждый персонаж в комнате не попытается пройти @Check[type:will|dc:18].</p><p>При провале существо в @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] на 1 раунд (или на [[/br 1d6+1 #rounds]]{1d6+1 раундов} при крит.провале). И слышимый шепот, и бормотание смущенных связаны с происхождением призрака (см. Таблицу ниже)</p><table class=\"pf2-table\"><thead><tr><th>[[/r 1d6]] - Владелец</th><th>Шепоты</th></tr></thead><tbody><tr><td>Поклоняющиеся Архидьяволу</td><td>Отчаянная похвала Мефистофелю</td></tr><tr><td>Одушевленные Куклы</td><td>Мольба \"не заставляйте меня снова идти в куклу\"</td></tr><tr><td>Алхимические Экспериментаторы</td><td>Неистовые заявления о том, что больше не хотят жить вечно</td></tr><tr><td>Рабы</td><td>Умоляю разрешить выпустить их на нескольких языках</td></tr><tr><td>Преступники</td><td>Обещание больше не связываться с семьей</td></tr><tr><td>Заблудшие Фаразмиты</td><td>Вздыхает, желая обрести покой</td></tr></tbody></table>"
                 },
                 {
                     "id": "112",
@@ -1108,28 +1065,26 @@
             ]
 		},
         "Crowd with Chamberpots": {
-			"name": "Crowd with Chamberpots",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Толпа с Мусором (3-24)",
+            "tokenName": "Толпа с Мусором",
+            "img": "systems/pf2e/icons/spells/anima-invocation.webp",
+            "tokenImg": "systems/pf2e/icons/spells/anima-invocation.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
-            "hreset": "",
+            "hdescription": "<p>Толпа возмущена настолько, что начинает бросать мусор в нарушителей, но не настолько рассержена, чтобы рисковать своей жизнью. Толпа заполняет девять смежных квадратов, но ее форма может соответствовать улицам. Персонажи могут перемещаться сквозь толпу, но места, занятые толпой, представляют собой сложную местность.</p>",
+            "hdisable": "<p>После того, как больше людей в толпе пострадали или получили повреждения, чем осталось стоящих лидеров толпы, толпа расходится. Для способностей, влияющих на область, считайте каждую затронутую клетку как одного члена толпы.</p>",
+            "hroutine": "<p style=\"text-align: center;\">3 Действия</p><hr><p>Толпа использует первое действие, чтобы отойти от любого противника, находящегося рядом с ней (или оказаться в пределах 30 футов), а затем использует каждое оставшееся действие, чтобы совершить дальнобойную атаку мусором по другой цели.</p>",
+            "hreset": "<p>После того, как больше людей в толпе пострадали или получили повреждения, чем осталось стоящих лидеров толпы, толпа расходится. Для способностей, влияющих на область, считайте каждую затронутую клетку как одного члена толпы.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Speed 25 feet",
+                    "name": "Скорость 25ФТ"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Chamber Pot",
+                    "name": "Мусор",
+                    "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} (@Check[type:fortitude|dc:19] отменяет эффект тошноты).</p>"
                 },
                 {
                     "id": "113",
@@ -1139,23 +1094,21 @@
             ]
 		},
         "Rending Hands": {
-			"name": "Rending Hands",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Царапающие Руки (3-4)",
+            "tokenName": "Царапающие Руки",
+            "img": "systems/pf2e/icons/spells/aberrant-form.webp",
+            "tokenImg": "systems/pf2e/icons/spells/aberrant-form.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
-            "hreset": "",
+            "hstealth": "<p>(Обучен) услышать царапанье под половицами</p>",
+            "hdescription": "<p>Иллюзорные руки поднимаются из половиц, царапают ноги своей жертвы и оставляют настоящие раны.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:20|name:Exorcize the Spirits] (Обучен), чтобы изгонять духов</p>",
+            "hreset": "<p>Духи остаются, возвращаясь в убежище каждую полночь, пока истинная история того, что здесь произошло, не станет достоянием общественности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "vGwlY8H7EONqROr1",
+                    "name": "Царапающие Руки",
+                    "description": "<p><strong>Триггер </strong>Существо проходит через <strong>Зону В2</strong> второй раз за 24 часа</p><hr><p>Призрачные гниющие руки появляются из пола под целью, царапая им ноги. Внешний вид рук варьируется в зависимости от проявления призрака (Таблица).</p><p>Руки наносят @Damage[(4d6+10)[slashing],(4d6)[bleed]] (@Check[type:will|dc:21|basic:true]). Если существо получает какой-либо урон от призрака, когти оставляют раздирающие раны на ногах цели, снижая их сухопутную скорость на 10ФТ (минимум 5ФТ), пока цель не восстановится до максимального ОЗ.</p><table class=\"pf2-table\"><thead><tr><th>[[/r d6]] - Владелец Рук</th><th>Проявление Призрака</th></tr></thead><tbody><tr><td>Поклоняющиеся Архидьяволу</td><td>Запах серы и звуки песнопений на инфернальном языке (ПИ, понимающий инфернальный язык или успешно прошедший проверку на @Check[type:religion|dc:10|name:Recognize Chanting], @Check[type:hell-lore|dc:10|name:Recognize Chanting] или @Check[type:mephistopheles-lore|dc:10|name:Recognize Chanting], распознает песнопения как молитву Мефистофелю)</td></tr><tr><td>Одушевленные Куклы</td><td>Плоть, отслаивающаяся от гниющих рук, открывает гладкий фарфор под ними (ПИ, преуспевший в проверке @Check[type:crafting|dc:10|name:Recognize Craftsmanship] или @Check[type:occultism|dc:10|name:Recognize Craftsmanship], распознает проявление как мастерство Одушевленных Кукол)</td></tr><tr><td>Алхимические Экспериментаторы</td><td>Химический запах перебивает гниль, а на руках видны точные хирургические разрезы (ПИ, преуспевший в проверке на @Check[type:crafting|dc:10|name:Recognize Cuts] или @Check[type:medicine|dc:10|name:Recognize Cuts], понимает, что и то, и другое - медицинское, но неэтичное)</td></tr><tr><td>Рабы</td><td>На руках по-прежнему тяжелые кандалы вокруг запястий</td></tr><tr><td>Преступники</td><td>Руки покрыты татуировками, на некоторых из них начисто отсутствуют пальцы (ПИ, успешно прошедший проверку на @Check[type:society|dc:10|name:Recognize Marks] или @Check[type:underworld-lore|dc:10|name:Recognize Marks], узнает, что это следы банд, действовавших до землетрясения)</td></tr><tr><td>Заблудшие Фаразмиты</td><td>После исчезновения призрака остается запах ладана (ПИ, успешно прошедший проверку на @Check[type:religion|dc:10|name:Recognize Rites] или @Check[type:pharasma-lore|dc:10|name:Recognize Rites], узнает в нем запах похорон фаразмитов)</td></tr></tbody></table>"
                 },
                 {
                     "id": "112",
@@ -1170,23 +1123,22 @@
             ]
 		},
         "Whispering Souls": {
-			"name": "Whispering Souls",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Шепчущие Духи (3-4)",
+            "tokenName": "Шепчущие Духи",
+            "img": "systems/pf2e/icons/spells/adapt-self.webp",
+            "tokenImg": "systems/pf2e/icons/spells/adapt-self.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
+            "hstealth": "<p>(Обучен) услышать шепот на расстоянии</p>",
+            "hdescription": "<p>Потерянные духи шепчут, заново переживая свои последние мгновения, готовые втянуть живых в свою иллюзию.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:19|name:Supress the Spirits] (Обучен), чтобы подавить духов</p><p>@Check[type:performance|dc:19|name:Drown Out the Spirits] (Обучен), чтобы заглушить их</p>",
             "hroutine": "",
-            "hreset": "",
+            "hreset": "<p>Духи остаются, возвращаясь в убежище каждую полночь, пока истинная история того, что здесь произошло, не станет достоянием общественности.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "OB6Sk8RVPAlxupET",
+                    "name": "Заманчивый Шепот",
+                    "description": "<p><strong>Триггер </strong>Несколько существ остаются в <strong>Зоне В4</strong> более 6 секунд.</p><hr><p>Шепот становится все более настойчивым, пока каждый персонаж в комнате не попытается пройти @Check[type:will|dc:21].</p><p>При провале существо в @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] на 1 раунд (или на [[/br 1d4+2 #rounds]]{1d4+2 раундов} при крит.провале). И слышимый шепот, и бормотание смущенных связаны с происхождением призрака (см. Таблицу ниже)</p><table class=\"pf2-table\"><thead><tr><th>[[/r 1d6]] - Владелец</th><th>Шепоты</th></tr></thead><tbody><tr><td>Поклоняющиеся Архидьяволу</td><td>Отчаянная похвала Мефистофелю</td></tr><tr><td>Одушевленные Куклы</td><td>Мольба \"не заставляйте меня снова идти в куклу\"</td></tr><tr><td>Алхимические Экспериментаторы</td><td>Неистовые заявления о том, что больше не хотят жить вечно</td></tr><tr><td>Рабы</td><td>Умоляю разрешить выпустить их на нескольких языках</td></tr><tr><td>Преступники</td><td>Обещание больше не связываться с семьей</td></tr><tr><td>Заблудшие Фаразмиты</td><td>Вздыхает, желая обрести покой</td></tr></tbody></table>"
                 },
                 {
                     "id": "112",
@@ -1201,28 +1153,22 @@
             ]
 		},
         "Deeply Flawed Ritual": {
-			"name": "Deeply Flawed Ritual",
-            "tokenName": "",
-            "img": "",
-            "tokenImg": "",
-			"appendNumber": true,
+			"name": "Ритуал с Изъянами (3-4)",
+            "tokenName": "Ритуал с изъянами",
+            "img": "systems/pf2e/icons/spells/abundant-step.webp",
+            "tokenImg": "systems/pf2e/icons/spells/abundant-step.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "",
-            "hdescription": "",
-            "hdisable": "",
-            "hroutine": "",
+            "hdescription": "<p>Ритуал с изъянами испускает волны теневой энергии и открывает крошечные бреши в Теневом Плане.</p>",
+            "hdisable": "<section class=\"А\"><p>В ритуальном круге появилось семь изъянов, мерцающих, как призрачное пламя. Каждый из трех помощников Таввара держит под контролем один недостаток, пока они живы, в то время как сама Таввар предотвращает схлопывание ритуала, как указано в приведенной ниже способности ритуального якоря.</p><p>Каждый недостаток может быть исправлен успешной проверкой @Check[type:occultism|dc:24] или с КС_20 (Обучен), используя навык, связанный с исходной причиной недостатка (см. Таблицу Ритуальные недостатки ниже). Независимо от успеха или провала, ПИ, который пытается выполнить проверку Оккультизма, чтобы отключить опасность, узнает причину недостатков и навыки, которые можно использовать для их преодоления. Каждый успех проверки на исправление недостатка с использованием этих других навыков снижает <strong>КС</strong> проверки Оккультизма для исправления недостатка на 2. Вместо использования проверок навыков персонажи могут использовать силу для стабилизации ритуала. Персонаж, победивший теневой огонек, автоматически исправляет один недостаток.</p></section><table class=\"pf2-table\"><thead><tr><th>[[/r d4]]</th><th>Причина изъяна</th><th>Навык Преодоления</th></tr></thead><tbody><tr><td>1</td><td>Измученная (правило &laquo;Публикуй или умри&raquo; в Коллегии Тайн привела к тому, что Таввар спешила при исполнении ритуала, поэтому некоторые руны нарисованы не совсем правильно)</td><td>@Check[type:arcana|dc:20] (Обучен) или @Check[type:thievery|dc:20] (Обучен)</td></tr><tr><td>2</td><td>Неуместная привязанность (Таввар из Нидала и подсознательно надеется, что ритуал покажет, что на ее родине есть что-то хорошее; она добавила немного Теневого языка в руны, и это усиливает энергию)</td><td>@Check[type:society|dc:20] (Обучен) или @Check[type:religion|dc:20] (Обучен)</td></tr><tr><td>3</td><td>Замкнутая (Таввар мало работала в полевых условиях и допустила опасную ошибку, когда использовала грибы в чернилах для рун)</td><td>@Check[type:crafting|dc:20] (Обучен) или @Check[type:nature|dc:20] (Обучен)</td></tr><tr><td>4</td><td>Сдержанный (собственные колебания и неуверенность Таввар привели к тому, что ритуал вышел из-под ее контроля)</td><td>@Check[type:deception|dc:20] (Обучен) или @Check[type:diplomacy|dc:20] (Обучен)</td></tr></tbody></table>",
+            "hroutine": "<p style=\"text-align: center;\">1 Действие</p><hr><section class=\"А\"><p>На каждом своем ходу ритуал испускает волну теневой энергии, нанося @Damage[4d6[void]] (@Check[type:fortitude|dc:22|basic:true]) каждому ПИ, который участвовал в ритуале в прошлом раунде (включая Таввар и ее помощников, а также любого ПИ, который пытался проверка навыков, чтобы отключить опасность). Не-участник может выступить перед участником в качестве реакции. Это блокирует урон от ритуального заклинателя, но не-участник должен сделать попытку Спас.СТК</p><p>Энергетический прилив ритуала не только наносит урон, но и приносит в комнату @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.3fctnHmcLQM3KrZj]. В конце хода ритуала действуют огоньки. Если в комнате уже есть два теневых огонька, вместо создания нового огонька ритуал восстанавливает @Damage[10[healing]]{10 ОЗ} каждому огоньку.</p></section>",
             "hreset": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
-                },
-                {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "qItNc16WZT4gqoaJ",
+                    "name": "Ритуальный якорь",
+                    "description": "<p>Если Таввар умирает, ритуал немедленно заканчивается катастрофой. С громким хлопком он взрывается, наполняя комнату отрицательной энергией, прежде чем рассеяться. Это наносит @Damage[4d6[void]] урона всем существам в <strong>Зоне Б5</strong> (@Check[type:fortitude|dc:22|basic:true|name:Flawed Ritual]).</p><p>Ритуалисты НПС автоматически крит.проваливают свои спасброски. Взрыв завершает ритуал, но не удаляет @UUID[Compendium.pf2e.pfs-season-1-bestiary.Actor.3fctnHmcLQM3KrZj] уже находящиеся в комнате.</p>"
                 },
                 {
                     "id": "113",
