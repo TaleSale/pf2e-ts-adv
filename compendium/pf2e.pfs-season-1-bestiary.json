@@ -2454,6 +2454,42 @@
                 }
             ]
 		},
+        "01-05================================================================================================": {
+            "name": "==========================================================================================="
+        },
+        "Giant Shrew": {
+			"name": "Giant Shrew"
+		},
+        "Tough Giant Shrew": {
+			"name": "Tough Giant Shrew"
+		},
+        "Wounded Orc Brute": {
+			"name": "Wounded Orc Brute"
+		},
+        "Mountain Goat": {
+			"name": "Mountain Goat"
+		},
+        "Tough Mountain Goat": {
+			"name": "Tough Mountain Goat"
+		},
+        "Orc Alchemist": {
+			"name": "Orc Alchemist"
+		},
+        "Ogre": {
+			"name": "Ogre"
+		},
+		"Ogre Glutton (PFS 1-05)": {
+			"name": "Ogre Glutton (PFS 1-05)"
+		},
+        "Raven Swarm (1-05)": {
+			"name": "Raven Swarm (1-05)"
+		},
+        "Enraged Raven Swarm": {
+			"name": "Enraged Raven Swarm"
+		},
+        "Dire Warg": {
+			"name": "Dire Warg"
+		},
 		"01-12================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -3887,9 +3923,6 @@
 		"Dire Cinder Wolf": {
 			"name": "Dire Cinder Wolf"
 		},
-		"Dire Warg": {
-			"name": "Dire Warg"
-		},
 		"Dockhand Cultist": {
 			"name": "Dockhand Cultist"
 		},
@@ -3935,9 +3968,6 @@
 		"Elite Waterworks Rebel": {
 			"name": "Elite Waterworks Rebel"
 		},
-		"Enraged Raven Swarm": {
-			"name": "Enraged Raven Swarm"
-		},
 		"Experienced Mercenary": {
 			"name": "Experienced Mercenary"
 		},
@@ -3964,9 +3994,6 @@
 		},
 		"Giant Short-faced Bear": {
 			"name": "Giant Short-faced Bear"
-		},
-		"Giant Shrew": {
-			"name": "Giant Shrew"
 		},
 		"Glass River Midge": {
 			"name": "Glass River Midge"
@@ -4139,9 +4166,6 @@
 		"Moldy Deck": {
 			"name": "Moldy Deck"
 		},
-		"Mountain Goat": {
-			"name": "Mountain Goat"
-		},
 		"Mr. Chitters (5-6)": {
 			"name": "Mr. Chitters (5-6)"
 		},
@@ -4195,16 +4219,7 @@
 		},
 		"Offended High Roller": {
 			"name": "Offended High Roller"
-		},
-		"Ogre": {
-			"name": "Ogre"
-		},
-		"Ogre Glutton (PFS 1-05)": {
-			"name": "Ogre Glutton (PFS 1-05)"
-		},
-		"Orc Alchemist": {
-			"name": "Orc Alchemist"
-		},
+		},	
 		"Paravaax (3-4)": {
 			"name": "Paravaax (3-4)"
 		},
@@ -4273,9 +4288,6 @@
 		},
 		"Raging Forest Fire": {
 			"name": "Raging Forest Fire"
-		},
-		"Raven Swarm (1-05)": {
-			"name": "Raven Swarm (1-05)"
 		},
 		"Ravenous Giant Centipede": {
 			"name": "Ravenous Giant Centipede"
@@ -4385,12 +4397,6 @@
 		"The Ascendant (5-6)": {
 			"name": "The Ascendant (5-6)"
 		},
-		"Tough Giant Shrew": {
-			"name": "Tough Giant Shrew"
-		},
-		"Tough Mountain Goat": {
-			"name": "Tough Mountain Goat"
-		},
 		"Toxic Snapjaw (3-4)": {
 			"name": "Toxic Snapjaw (3-4)"
 		},
@@ -4441,9 +4447,6 @@
 		},
 		"Witchwyrd (PFS 1-21)": {
 			"name": "Witchwyrd (PFS 1-21)"
-		},
-		"Wounded Orc Brute": {
-			"name": "Wounded Orc Brute"
 		},
 		"Young Sea Serpent": {
 			"name": "Young Sea Serpent"

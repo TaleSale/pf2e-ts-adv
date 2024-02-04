@@ -1,24 +1,3 @@
-2024/02/03-17:12:49.556 20b4 Recovering log #2462
-2024/02/03-17:12:49.750 20b4 Level-0 table #2464: started
-2024/02/03-17:12:49.847 20b4 Level-0 table #2464: 988725 bytes OK
-2024/02/03-17:12:49.947 20b4 Delete type=0 #2462
-2024/02/03-17:12:49.949 20b4 Delete type=3 #2461
-2024/02/03-17:13:51.003 76c Level-0 table #2467: started
-2024/02/03-17:13:51.298 76c Level-0 table #2467: 499388 bytes OK
-2024/02/03-17:13:51.329 76c Delete type=0 #2465
-2024/02/03-17:13:51.330 76c Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at '!adventures!Tjz91fg7miGC99Rl' @ 209 : 1
-2024/02/03-17:13:51.330 76c Compacting 2@0 + 0@1 files
-2024/02/03-17:13:51.405 76c Generated table #2468@0: 1 keys, 499388 bytes
-2024/02/03-17:13:51.405 76c Compacted 2@0 + 0@1 files => 499388 bytes
-2024/02/03-17:13:51.484 76c compacted to: files[ 0 1 9 0 0 0 0 ]
-2024/02/03-17:13:51.484 76c Delete type=2 #2464
-2024/02/03-17:13:51.484 76c Delete type=2 #2467
-2024/02/03-17:13:51.484 76c Manual compaction at level-0 from '!adventures!Tjz91fg7miGC99Rl' @ 209 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
-2024/02/03-17:13:51.485 76c Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at '!adventures!Tjz91fg7miGC99Rl' @ 211 : 1
-2024/02/03-17:13:51.485 76c Compacting 1@1 + 1@2 files
-2024/02/03-17:13:51.664 76c Generated table #2469@1: 7 keys, 3133956 bytes
-2024/02/03-17:13:51.664 76c Compacted 1@1 + 1@2 files => 3133956 bytes
-2024/02/03-17:13:51.738 76c compacted to: files[ 0 0 9 0 0 0 0 ]
-2024/02/03-17:13:51.738 76c Delete type=2 #2307
-2024/02/03-17:13:51.742 76c Delete type=2 #2468
-2024/02/03-17:13:51.743 76c Manual compaction at level-1 from '!adventures!Tjz91fg7miGC99Rl' @ 211 : 1 .. '!folders!pxhMWvQViNdsIwLV' @ 0 : 0; will stop at (end)
+2024/02/04-19:01:37.325 1e0 Recovering log #2475
+2024/02/04-19:01:37.544 1e0 Delete type=0 #2475
+2024/02/04-19:01:37.545 1e0 Delete type=3 #2472
