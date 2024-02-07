@@ -3556,8 +3556,8 @@
 		"Thorned Cocoon (3-4)": {
 			"name": "Терновый Кокон (3-4)",
             "tokenName": "Терновый Кокон ",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/plant/yellow-musk-creeper.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/plant/yellow-musk-creeper.webp",
             "description": "",
             "UUID": "",
             "appendNumber": true,
@@ -3605,8 +3605,8 @@
 		"Thorned Cocoon (5-6)": {
 			"name": "Терновый Кокон (5-6)",
             "tokenName": "Терновый Кокон ",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv/art_token/portraits/plant/yellow-musk-creeper.webp",
+            "tokenImg": "modules/pf2e-ts-adv/art_token/tokens/plant/yellow-musk-creeper.webp",
             "description": "",
             "UUID": "",
             "appendNumber": true,
