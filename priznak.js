@@ -20,6 +20,7 @@ Hooks.on("renderChatMessage", (message, html) => {
     newHtml = newHtml.replace(/(Частота)(:)/g, '<green>$1</green>$2');
     newHtml = newHtml.replace(/(Эффект)(:)/g, '<darkorange>$1</darkorange>$2');
     newHtml = newHtml.replace(/(Усиление)(\s\([1-90+\-а-яё]*\))(:)/g, '<purple>$1$2</purple>$3');
+    newHtml = newHtml.replace(/(Спас\.РФЛ)/g, '<tso>$1</tso>');
 
 
 

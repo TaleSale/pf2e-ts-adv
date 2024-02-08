@@ -1,24 +1,3 @@
-2024/02/07-18:45:38.239 2684 Recovering log #2536
-2024/02/07-18:45:38.244 2684 Level-0 table #2538: started
-2024/02/07-18:45:38.340 2684 Level-0 table #2538: 485891 bytes OK
-2024/02/07-18:45:38.406 2684 Delete type=0 #2536
-2024/02/07-18:45:38.406 2684 Delete type=3 #2535
-2024/02/07-18:47:45.893 18d0 Level-0 table #2541: started
-2024/02/07-18:47:45.893 18d0 Level-0 table #2541: 0 bytes OK
-2024/02/07-18:47:46.010 18d0 Delete type=0 #2539
-2024/02/07-18:47:46.011 18d0 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!XA1GKn1fKyLPZTK8' @ 232 : 1
-2024/02/07-18:47:46.011 18d0 Compacting 1@0 + 0@1 files
-2024/02/07-18:47:46.284 18d0 Generated table #2542@0: 1 keys, 243099 bytes
-2024/02/07-18:47:46.360 18d0 Compacted 1@0 + 0@1 files => 243099 bytes
-2024/02/07-18:47:46.393 18d0 compacted to: files[ 0 1 9 0 0 0 0 ]
-2024/02/07-18:47:46.393 18d0 Delete type=2 #2538
-2024/02/07-18:47:46.394 18d0 Manual compaction at level-0 from '!adventures!XA1GKn1fKyLPZTK8' @ 232 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
-2024/02/07-18:47:46.394 18d0 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!XA1GKn1fKyLPZTK8' @ 233 : 1
-2024/02/07-18:47:46.394 18d0 Compacting 1@1 + 1@2 files
-2024/02/07-18:47:46.711 18d0 Generated table #2543@1: 6 keys, 2146785 bytes
-2024/02/07-18:47:46.823 18d0 Generated table #2544@1: 1 keys, 191592 bytes
-2024/02/07-18:47:46.823 18d0 Compacted 1@1 + 1@2 files => 2338377 bytes
-2024/02/07-18:47:46.874 18d0 compacted to: files[ 0 0 10 0 0 0 0 ]
-2024/02/07-18:47:46.874 18d0 Delete type=2 #2507
-2024/02/07-18:47:46.875 18d0 Delete type=2 #2542
-2024/02/07-18:47:46.875 18d0 Manual compaction at level-1 from '!adventures!XA1GKn1fKyLPZTK8' @ 233 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/02/08-10:32:40.383 30d8 Recovering log #2553
+2024/02/08-10:32:40.576 30d8 Delete type=0 #2553
+2024/02/08-10:32:40.576 30d8 Delete type=3 #2552
