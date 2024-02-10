@@ -16,18 +16,18 @@ Hooks.on("renderChatMessage", (message, html) => {
       .replace(/<span class="label"><span data-visibility="gm">DC (\d+)<\/span>\sвол[а-яё]*<\/span>/gi, 
       '<span class="label">Воля <span data-visibility="gm">КС_$1</span> </span>')
       //Кнопки снизу заклинания
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Стойкост[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Спас.СТК <span data-visibility="gm">КС_$2</span></button>')
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Рефлекс[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Спас.РФЛ <span data-visibility="gm">КС_$2</span></button>')
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Вол[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Спас.ВОЛЯ <span data-visibility="gm">КС_$2</span></button>')
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Стойкост[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Пр.Спас.СТК <span data-visibility="gm">КС_$2</span></button>')
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Рефлекс[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Пр.Спас.РФЛ <span data-visibility="gm">КС_$2</span></button>')
-      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="gm">(\d+)<\/span> Вол[а-яё]*\s*<\/button>/gi, 
-      '<button type="button" data-action="spell-save"$1>Пр.Спас.ВОЛЯ <span data-visibility="gm">КС_$2</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Стойкост[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Спас.СТК <span data-visibility="$2">КС_$3</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Рефлекс[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Спас.РФЛ <span data-visibility="$2">КС_$3</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Вол[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Спас.ВОЛЯ <span data-visibility="$2">КС_$3</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Стойкост[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Пр.Спас.СТК <span data-visibility="$2">КС_$3</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Рефлекс[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Пр.Спас.РФЛ <span data-visibility="$2">КС_$3</span></button>')
+      .replace(/<button type="button" data-action="spell-save"([^>]*)>\s*КС просто[а-яё]* спасброск[а-яё]* <span data-visibility="(gm|all)">(\d+)<\/span> Вол[а-яё]*\s*<\/button>/gi, 
+      '<button type="button" data-action="spell-save"$1>Пр.Спас.ВОЛЯ <span data-visibility="$2">КС_$3</span></button>')
       // Другие кнопки
       .replace(/(<a class="inline-roll roll"[^>]*>.*?)(продолжительный урон)(.*?<\/a>)/gi, 
       '$1продолж.урон$3')
