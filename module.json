@@ -9,7 +9,7 @@
 				"id": "pf2e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "5.11.0"
+					"minimum": "5.11.1"
 				}
 			}
 		]
@@ -27,7 +27,7 @@
     }
   ],
   "type": "module",
-	"scripts": ["babele.js","tsform.js","priznak.js","formattingArray.js","replacePhrasesArray.js","button.js"],
+	"scripts": ["babele.js","tsform.js","priznak.js","formattingArray.js","replacePhrasesArray.js","button.js","squard.js"],
  	"styles": ["styles.css"],
   "packs": [
     {
