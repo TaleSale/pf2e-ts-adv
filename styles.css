@@ -33,9 +33,13 @@
 /*ЖУРНАЛЫ*/
 .А
 {
-  text-indent: 5px;
+  text-indent: 10px;
   text-align: justify;
   text-align-last: left;
+}
+
+.Б {
+  font-family: Georgia;
 }
 
 .Зачитка
