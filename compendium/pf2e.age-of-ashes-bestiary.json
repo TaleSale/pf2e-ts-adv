@@ -3583,31 +3583,29 @@
             "name": "==========================================================================================="
         },
         "Aluum Enforcer": {
-            "name": "Aluum Enforcer",
-            "tokenName": "Aluum Enforcer",
-            "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "name": "Алюум-Силовик",
+            "tokenName": "Алюум-Силовик",
+            "description": "<p>Наиболее распространенный алюум активируется благодаря связанной душе преданного служащего города, но создание таких существ является одним из наиболее охраняемых секретов Мастеров Договора. По всему Катапешу разбросаны десятки спящих алюумов, и только носящий амулет алюума может активировать и командовать одним из этих солдат ростом в 14 футов. Мастера Договоров доверяют ношение этих амулетов лишь немногим, вне рядов Гвардии Зефира, и кража такого амулета считается одним из самых тяжелых преступлений в городе.</p><hr><p>Алюумы - мощные конструкты из металла и камня, изначально созданные Мастерами Договоров для поддержания порядка в Катапеше. Конструкция каждого алюума включает создание @UUID[Compendium.pf2e.equipment-srd.Item.bU731I8njNmSAQhQ], латунного подвеса c синим кристаллом, предназначенного для контроля над этим конкретным конструктом. Амулет, созданный одновременно с алюумом, называется связанным амулетом.</p>",
+            "UUID": "j4BCcTvIMtoUPRzw",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Aluum Antimagic",
+                    "name": "Антимагия Алюумов",
+                    "description": "<p>Алюумы-Силовики имунны к заклинаниям и магическим способностям, за двумя исключениями. `Пустотные` заклинания или магические способности дает Алюумам-Силовикам состояние @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} до конца его следующего хода вместо обычных эффектов. `Жизненные` заклинания или магические способности делает Алюумов-Силовиков @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} до конца его следующего хода вместо обычных эффектов.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Paralyzing Force",
+                    "name": "Парализующая Сила",
+                    "description": "<p>Существо, поврежденное @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Кулака Алюума-Силовика, должно совершить @Check[type:fortitude|dc:27] или стать @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] на 1 раунд. При крит.провале, существо @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] на [[/br 1d4 #minutes]]{1d4 Минуты} и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Soul Shriek",
+                    "name": "Душераздирающий Крик",
+                    "description": "<p>Алюум-Силовик издает пронзительный вой @Template[type:cone|distance:15], наносящий @Damage[9d6[sonic]] (@Check[type:fortitude|dc:27|basic:true]). Существо, провалившее спасбросок @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ощеломлен 1}, или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 3} при крит.провале.</p><p>Перезарядка: [[/br 1d4 #Recharge Soul Shriek]]{1d4 Раунда}</p><section class=\"secret\"><p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 rounds}.</p></section>"
                 },
                 {
                     "id": "114",
@@ -3622,41 +3620,37 @@
             ]
         },
         "Zephyr Guard": {
-            "name": "Zephyr Guard",
-            "tokenName": "Zephyr Guard",
+            "name": "Страж-Зефир",
+            "tokenName": "Страж",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
+            "UUID": "YIXAcvSyI1C94r9l",
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "VzUnnud6z8Zj4DTC",
+                    "name": "Скимитар"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "42HRKo2P9cQi4d4N",
+                    "name": "Тяжелый Арбалет"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Adroit Disarm",
+                    "name": "Ловкое Обезоруживание",
+                    "description": "<p>Страж совершает @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9] с бонусом обстоятельства +2. При крит.успехе Страж также может нанести урон от своего @UUID[Compendium.pf2e.equipment-srd.Item.grmaV4GdoGD7sKbn] этому существу.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Hampering Shot",
+                    "name": "Замедляющий Выстрел",
+                    "description": "<p>Страж производит выстрел из тяжелого арбалета, который наносит дополнительную кость урона оружия. Если удар попадает, цель получает штраф состояния -10 футов и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}. Эти эффекты длится 1 раунд, или 2 раунда, если удар был критическим успехом.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Subduing Strikes",
+                    "name": "Подавляющие Удары",
+                    "description": "<p>Страж не получает штраф за совершение несмертельных атак оружием без признака `несмертельное`. Несмертельные удары Стража по существу, не вооруженному оружием, наносят дополнительные 2d6 урона.</p>"
                 }
             ]
         },
@@ -3664,33 +3658,24 @@
             "name": "Алый Маг",
             "tokenName": "Алый Маг",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "gF8Qy1k8gPBEUBAd",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "nurvAKW6FmusUHRh",
+                    "name": "Кинжал"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "+2 Status to All Saves vs. Arcane Magic",
+                    "name": "Состояние: +2 Спас. пр Аркана"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
-                },
-                {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Wand of Crushing Despair (Level 5)",
+                    "name": "Палочка Волна отчаяния (Ранг 5)",
+                    "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{Волна отчаяния(*)}</p><hr><p>Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.</p><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]</p><p><strong>Частота:</strong> раз в день, плюс перегрузка</p><p><strong>Эффект:</strong> Вы @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворяете заклинания} указанного уровня.</p>"
                 },
                 {
                     "id": "115",
@@ -3703,228 +3688,236 @@
             "name": "Алый Силовик",
             "tokenName": "Алый Силовик",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "egTpOr4Wc0L5e0iY",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "eX2VLJ64ecfgdr3K",
+                    "name": "Скимитар"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "ayPIYrcz520FXkl7",
+                    "name": "Мягкая Дубинка"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "OlZeNmmphsIzWVz5",
+                    "name": "Композитный короткий лук"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Efficient Capture",
+                    "name": "Мастерство с Наручниками",
+                    "description": "<p><strong>Требование</strong>: У <strong>Силовика</strong> есть <strong>Наручники</strong> в руке, и он находится рядом с существом</p><hr><p>Силовик пытается связать наручниками запястья или лодыжки существа. Если <strong>Силовик</strong> получает успех при броске атаки с модификатором [[/r 1d20+30 #Наручники]]{+30} против КБ цели, он надевает на нее наручники.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Stunning Retort",
+                    "name": "Ошеломляющий Ответ",
+                    "description": "<p>Триггер: Враг критически провалил Удар против Силовика</p><hr><p>Силовик наносит удар своей мягкой дубинкой по этому врагу, если тот находится в пределах досягаемости; в противном случае, страж пытается провести проверку на @UUID[Compendium.pf2e.action-macros.Macro.nEwqNNWX6scLt4sc]{Запугивания}, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Деморализовать} этого врага</p>"
+                },
+                {
+                    "id": "Dual Abuse",
+                    "name": "Двойное Издевательство",
+                    "description": "<p>Силовик использует боль от одной атаки как открытие, чтобы нанести разрушительный второй удар. Силовик совершает две атаки по одной цели: Удар Скимитаром и Удар Мягкой Дубинкой (в любом порядке) или два Удара Композ.Корот.Луком. Если обе атаки попадают, вторая атака наносит дополнительные 3d6 урона, и Силовик накладывает на цель одно из следующих состояний до конца следующего хода Силовика: @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh], @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застиг.Врасплох} или @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}.</p><hr><p>Это считается как две атаки при расчете Штрафа Множественных Атак силовика, но штраф не увеличивается до завершения обеих атак.</p>"
                 }
             ]
         },
         "Crucidaemon": {
-            "name": "Crucidaemon",
-            "tokenName": "Crucidaemon",
-            "description": "",
-            "UUID": "",
-            "actorLink": true,
+            "name": "Крусидэймон (дэймон пыток)",
+            "tokenName": "Крусидэймон",
+            "description": "<p>Из всех способов умереть, крусидэймоны представляют, пожалуй, один из наименее желанных - смерть от пыток. За стройным телом этого беса, которое кажется изваянным из железа или мифрила, скрывается зловещий гнев и любовь к причинению боли. Крусидэймоны особенно любят причинять боль своими изогнутыми, зазубренными кинжалами, которые прикреплены к их телам с помощью цепи, пронзающей каждое запястье.</p><p>Существование крусидэймона посвящено тому, чтобы подвергать свою жертву вечной боли и террору. В отличие от других дэймонов, многие из которых стремятся как можно скорее полакомиться смертными душами, крусидэймон получает гораздо большее удовольствие от продления агонии своих жертв. Нередко крусидэймон будет причинять своей жертве такие мучения и боль, что когда, наконец-то, наступает конец, жертва со слезами на глазах благодарит дэймона за милость забвения. Встреча с крусидэймоном, не закончившаяся его смертью, еще далеко не завершена - крусидэймоны обладают беспредельным терпением к тем, кто осмеливается им противостоять.</p>",
+            "UUID": "ZRGRAqkDEZbRn8x3",
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Chained Dagger",
+                    "name": "Кинжал на Цепи"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Flurry of Daggers",
+                    "name": "Шквал Кинжалов",
+                    "description": "<p>Крусидэймон наносит 2 @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} Кинжалами на Цепях по одной цели.</p><hr><p>Эти атаки считаются к его штрафу множественной атаки, но он не увеличивается до завершения обоих атак.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Manifest Dagger",
+                    "name": "Проявление Кинжала",
+                    "description": "<p>Крусидэймон призывает новый кинжал на цепи взамен уничтоженному. Кинжалы крусидэймона нельзя @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Разоружить} и они становятся немагическими когда отсечены или после смерти дэймона.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Trap Dodger",
+                    "name": "Уклоняющийся от Ловушек",
+                    "description": "<p>Крусидэймонов практически невозможно обмануть ловушками. Когда крусидэймон кидает спасбросок против ловушки, его степень успеха на один выше, чем при броске.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Daemonic Trap Making",
+                    "name": "Дэймоническое Создание Ловушек",
+                    "description": "<p>Когда крусидэймон творит свое врожденное заклинание @UUID[Compendium.pf2e.spells-srd.Item.o0l57UfBm9ScEUMW], он может вложить в глиф любое `арканное` или `сакральное` заклинание подходящего уровня, даже если не может сотворять его.</p>"
                 }
             ]
         },
         "Immortal Ichor": {
-            "name": "Immortal Ichor",
-            "tokenName": "Immortal Ichor",
-            "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "name": "Бессмертная Субстанция",
+            "tokenName": "Бессмертная Субстанция",
+            "description": "<p>Бессмертная субстанция - это интеллектуальная масса крови мёртвого злого божества. Культисты, которые выполняют ритуал создания бессмертной субстанции, обычно запечатывают разумную слизь в подземной или удалённой камере, блокирующей её магические способности, но со временем эти печати разрушаются или ослабевают, освобождая нечестивое чудовище.</p>",
+            "UUID": "AtiN3EsRpHn5qbuv",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Resanguinate",
+                    "name": "Перекачка Крови",
+                    "description": "<p>Бессмертная субстанция вытягивает кровь из пор живых существ вокруг. Любое `живое` существо в радиусе 30 футов, имеющее кровь, получает [[/r {4d6}]]{4d6 урона} (@Check[type:fortitude|dc:33|basic:true]). Бессмертная субстанция восстанавливает ОЗ, равное общему нанесенному урону. Существо, которое провалило спасбросок, также становится @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (или @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} при критическом провале).</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Regeneration 15 (Deactivated by Holy)",
+                    "name": "Регенерация 15 (Деактивация Святой)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Immortality",
+                    "name": "Бессмертие",
+                    "description": "<p>Бессмертная субстанция не стареет, а также ей не нужно есть или дышать. Она может умереть только от насилия.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Corrupt Ally",
+                    "name": "Искажённый Союзник",
+                    "description": "<p>Существо, которое не прошло проверку спасброска от заклинания @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Очаровать} бессмертной субстанции, становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурмаен 1}. Значение Одурманен уменьшается на 1 каждые 24 часа.</p><p>Первый раз в день, когда существо, Одурманено @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{Очаровать} субстанции, проваливает спасбросок от другого применения Очаровать субстанции, значение состояния увеличивается на [[/r 1d4]]{1d4}. Если значение состояния Одурманен когда-либо становится равным показателю Мудрости существа, оно переходит под постоянный контроль субстанции; если оно умирает, на следующем ходу оно восстаёт как зомби (на выбор Мастера) под контролем субстанции. Если субстанция убита, эти зомби уничтожаются.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Dead Spells",
+                    "name": "Доменные Заклинания",
+                    "description": "<p>Бессмертная субстанция может сотворять начальное и продвинутое доменные заклинания, которые принадлежала мёртвому богу, из которого возникла субстанция (здесь представлены доменные заклинания из домена разрушения).</p>"
+                },
+                {
+                    "id": "Mental Erosion",
+                    "name": "Эрозия Разума",
+                    "description": "<p>Существо, по которому попадает Ложноножка бессмертной субстанции, становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} на 1 день, если оно провалит @Check[type:will|dc:35]</p>"
                 }
             ]
         },
         "Spiritbound Aluum": {
-            "name": "Spiritbound Aluum",
-            "tokenName": "Spiritbound Aluum",
-            "description": "",
+            "name": "Заточенный Алюум",
+            "tokenName": "Заточенный Алюум",
+            "description": "<section class=\"А\"><p>В то время как большинство алюумов оживляется душами добровольцев, лояльных Катапешу, Матера Договоров создали несколько более способных (и смертоносных) алюумов, усиленных душами дюжины или более опасных преступников. Эти Заточенные Алюумы редко используются в качестве стражей мира, вместо этого они служат убийцами, элитными телохранителями или силами по контролю за беспорядками во время военного положения.</p><p>Заточенный Алюум имеет тусклый голубой кристаллический фокус, который хранит составляющие души, окруженный множеством меньших драгоценных камней, используемых для ловли душ, которых Мастера Договоров хотят лишить входа в Великое Запределье. Заточенные Алюумы редко используют свою способность Связывания Души, за исключением случаев, когда им велят их хозяева. Однако убийственные или обиженные души внутри алюума иногда берут под контроль и умышленно поглощают уходящую душу из злобы или чтобы включить её в ядро конструкта. Если Заточенный Алюум не освобождается от захваченных душ вовремя, он может развить достаточно воли, чтобы превзойти приказы своих хозяев и даже пробудиться к полному сознанию. Эти отступившие алуумы обычно теряют признак неразумный, являются злыми, имеют модификатор Интеллекта -2 или выше, и приобретают несколько навыков с бонусами от +25 до +32.</p><hr><p>Алюумы - мощные конструкты из металла и камня, изначально созданные Мастерами Договоров для поддержания порядка в Катапеше. Конструкция каждого алюума включает создание @UUID[Compendium.pf2e.equipment-srd.Item.bU731I8njNmSAQhQ], латунного подвеса c синим кристаллом, предназначенного для контроля над этим конкретным конструктом. Амулет, созданный одновременно с алюумом, называется связанным амулетом.</p></section>",
             "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Soul Shriek",
+                    "name": "Душераздирающий Крик",
+                    "description": "<p>Алюум издает пронзительный вой @Template[type:cone|distance:15], наносящий @Damage[16d6[sonic]] (@Check[type:fortitude|dc:27|basic:true]). Существо, провалившее спасбросок @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ощеломлен 1}, или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 3} при крит.провале.</p><p>Перезарядка: [[/br 1d4 #Recharge Soul Shriek]]{1d4 Раунда}</p><section class=\"secret\"><p>The aluum can't use Soul Shriek again for [[/br 1d4 #Recharge Soul Shriek]]{1d4 rounds}.</p></section>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Aluum Antimagic",
+                    "name": "Антимагия Алюумов",
+                    "description": "<p>Алюумы-Силовики имунны к заклинаниям и магическим способностям, за двумя исключениями. `Пустотные` заклинания или магические способности дает Алюумам-Силовикам состояние @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} до конца его следующего хода вместо обычных эффектов. `Жизненные` заклинания или магические способности делает Алюумов-Силовиков @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} до конца его следующего хода вместо обычных эффектов.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Paralyzing Force",
+                    "name": "Парализующая Сила",
+                    "description": "<p>Существо, поврежденное @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Кулака Алюума-Силовика, должно совершить @Check[type:fortitude|dc:35] или стать @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] на 1 раунд. При крит.провале, существо @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] на [[/br 1d4 #minutes]]{1d4 Минуты} и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Obliteration Beam",
+                    "name": "Луч Уничтожения",
+                    "description": "<p><strong>Требования:</strong> Заточенный Алюум связал душу, используя своё врождённое заклинание @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]</p><hr><p>Заточенный Алюум преобразует сущность захваченной души в сырую магическую энергию, направляя дух в луч, который наносит @Damage[20d6[force]] по @Template[type:line|distance:30] (@Check[type:reflex|dc:38|basic:true]). Оставшиеся фрагменты захваченной души отпускаются в Великое Запределье.</p><p>Перезарядка: [[/br 1d4 #Recharge Obliteration Beam]]{1d4 раундов}.</p><section class=\"secret\"><p>The spiritbound aluum can't use Obliteration Beam again for [[/br 1d4 #Recharge Obliteration Beam]]{1d4 rounds}.</p></section>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Soul Binder",
+                    "name": "Связывание Души",
+                    "description": "<p>Когда Заточенный Алюум использует своё врождённое заклинание @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg], он связывает душу в своем центральном кристалле вместо обычного материального компонента. Кристалл может содержать до 60 душ.</p><p>При встрече кристалл Заточенного Алюума обычно содержит [[/br 1d6 #souls]]{1d6 душ}.</p>"
                 }
             ]
         },
         "Scarlet Triad Boss": {
             "name": "Алый Босс",
             "tokenName": "Алый Босс",
-            "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "SVh7cPwyGgmZORVz",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "iVzCadSFlB0zTY05",
+                    "name": "Короткий меч"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "lw6P5HJ72vY1Ef6K",
+                    "name": "Композитный короткий лук"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "JEvR25oMz9tl5Inz",
+                    "name": "Инструменты вора",
+                    "description": "<p>Вам нужны инструменты вора для @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Вскрытия замков} или @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{Отключения некоторых устройств}, используя навык Воровства. Инструменты взломщика добавляют бонус предмета +1 к проверкам <em>\"Вскрытия замка\"</em> или <em>\"Отключения устройства\"</em>.</p><p>Если ваши <em>инструменты взломщика</em> поломались, их можно починить заменив отмычки, используя @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{Запасные отмычки}, соответствующие вашему набору; это не требует использования действия Ремонт. Если вы надели свои инструменты вора, то можете доставать и убирать их как часть действия для их использования.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Weeping Midnight (applied to one arrow)",
+                    "name": "Плачущая полночь (Стрела)",
+                    "description": "<p>Для создания этого яда, быстро вызывающего вытекание слизи из глаз жертвы и их опухание, алхимики усовершенствовали убийственно аллергенную пыльцу вдовьей орхидеи.</p><hr><p><strong>Активация:</strong> <span class=\"pf2-icon\">T</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F] (<a href=\"https://clck.ru/36BB68\">ранение</a>)</p><p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:36|traits:alchemical,consumable,injury,poison|showDC:gm]</p><p><strong>Макс.продолжительность:</strong> 6 раундов</p><p><strong>Стадия 1:</strong> @Damage[6d6[poison]] и @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} (1 раунд)</p><p><strong>Стадия 2:</strong> @Damage[7d6[poison]], @UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{Ослеплен} и @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1} (1 раунд)</p><p><strong>Стадия 3:</strong> @Damage[8d6[poison]] и @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Слепота} (1 раунд)</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Return Fire",
+                    "name": "Ответный огонь",
+                    "description": "<p>Триггер: Алый Босс является целью физической дистанционной атаки</p><hr><p>Алый Босс получают бонусу обстоятельства +4 КБ против спровоцировавшей атаки. Если атака промахивается, и у босса в руках короткий лук, босс контратакует атакующего своим коротким луком.</p>"
+                },
+                {
+                    "id": "Darting Shot",
+                    "name": "Хитрый Выстрел",
+                    "description": "<p>Алый Босс совершает @UUID[Compendium.pf2e.action-macros.Macro.RjfPFjqPrNve6eeh]{Финт}@UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{*}, @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} со скоростью до своей Скорости и @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} коротким луком, в любом порядке. Он может совершать Финт против любой цели в пределах 30 футов, используя это действие.</p>"
                 }
             ]
         },
         "Bshez \"Sand Claws\" Shak": {
-            "name": "Bshez \"Sand Claws\" Shak",
-            "tokenName": "Bshez \"Sand Claws\" Shak",
-            "description": "",
-            "UUID": "",
+            "name": "Бшез Шак \"Когти Песка\"",
+            "tokenName": "Бшез Шак \"Когти Песка\"",
+            "UUID": "080v247YtmFRxT3l",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
+                    "id": "iLD58rCFSuSX1HF6",
+                    "name": "Кукри"
+                },
+                {
+                    "id": "Y8FacHkJWvG6NwDu",
+                    "name": "Раздирать (Кукри)"
+                },
+                {
+                    "id": "6mPULTjHntSqyOmv",
+                    "name": "Метательное Копье",
                     "description": "111"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Fling Sand in the Eyes",
+                    "name": "Бросить Песок",
+                    "description": "<p><strong>Требование</strong> Бшез находится на участке с рыхлым песком или грунтом.</p><hr><p>Бшез швыряет песок в глаза существу, находящемуся рядом. Если цель проваливает @Check[type:reflex|dc:38], она становится @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh] до начала следующего хода Бшез. Если она крит.провалит спасбросок, она становится @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] до начала следующего хода Бшез. В случае успеха, на неё это не влияет.</p><p>Независимо от степени успеха спасброска, существо получает временный иммунитет к этой способности до окончания битвы.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Graceful Double Slice",
+                    "name": "Превосходный Двойной Удар",
+                    "description": "<p>Бшез совершает два @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара}, один каждым кукри, используя её текущий Штраф Множественных Атака. Если оба удара попали, объедините их урон и добавьте любые применимые эффекты от обоих оружий.</p><hr><p>Это считается за одну атаку при расчете Штрафа Множественных Атак.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Shield Breaker",
+                    "name": "Ламатель Щитов",
+                    "description": "<p>Когда цель Удара Метательный Копьем Бшез использует Блок Щитом, удар наносит щиту дополнительный [[/r 4d6 #Shield Breaker]]{4d6 Урона}.</p>"
+                },
+                {
+                    "id": "Weapon Master",
+                    "name": "Мастер Оружия",
+                    "description": "<p>Бшез имеет доступ к эффектам критической специализации любого оружия, которым она владеет.</p>"
                 },
                 {
                     "id": "115",
@@ -3939,8 +3932,6 @@
             "description": "",
             "UUID": "",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
@@ -3977,9 +3968,7 @@
             "tokenName": "Xotanispawn",
             "description": "",
             "UUID": "",
-            "actorLink": true,
             "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
@@ -4017,8 +4006,6 @@
             "description": "",
             "UUID": "",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
@@ -4056,8 +4043,6 @@
             "description": "",
             "UUID": "",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
@@ -4095,8 +4080,6 @@
             "description": "",
             "UUID": "",
             "actorLink": true,
-            "prependAdjective": true,
-            "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
