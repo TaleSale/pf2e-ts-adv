@@ -3927,29 +3927,39 @@
             ]
         },
         "Weathered Wail": {
-            "name": "Weathered Wail",
-            "tokenName": "Weathered Wail",
+            "name": "Вой Ветра",
+            "tokenName": "Вой Ветра",
             "description": "",
-            "UUID": "",
+            "UUID": "H7NO4Q7ctHnfGKeJ",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Howl",
+                    "name": "Вой",
+                    "description": "<p><strong>Частота:</strong> 3/День</p><hr><p>Вендиго издает тоскливый вой, который слышен на расстоянии до 1 мили. Существо, услышавшее вой, должно успешно совершить @Check[type:will|dc:38] или быть @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}. Существо, критически провалившее спасбросок и находящееся в радиусе 120 футов от вендиго, становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 3}, а также обращается в @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} на [[/br 1d4 #раундов]]{1d4 раундов} (или пока не перестанет бояться, в зависимости от того, что наступит раньше).</p><p>Существо, напуганное воем вендиго, естественным образом оправляется от испуга, но не может таким образом снизить уровень Напуган ниже 1, пока не пройдет 1 час или не будет использована магия.</p><p>Независимо от результат спасброска существа получает временный иммунитет к вою вендиго на 24 часа.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Ride the Wind",
+                    "name": "Верхом на Ветру",
+                    "description": "<p><strong>Триггер:</strong> Вендиго сотворяет @UUID[Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC], пока он держит @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченным} врага</p><hr><p>Вендиго пытается превратить схваченное существо в ветер и унести его с собой, как часть действия сотворения. Если цель преуспевает в @Check[type:will|dc:38], она предотвращает свое превращение; в этом случае вендиго все равно превращается, автоматически отпустив жертву. Существо, вынужденное вместе с вендиго ехать Верхом на Ветре, подвергается Мучениям Вендиго.</p><p>Цель Верхом на Ветру может каждый раунд пытаться сделать новый Спас.Воли, чтобы вернуться к нормальную форму, но в случае успеха она немедленно становится телесной и начинает падение.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Heatsight",
+                    "name": "Чувство Тепла",
+                    "description": "<p>Чувство Тепла - это точное чувство, которое видит тепловые сигнатуры.</p>"
+                },
+                {
+                    "id": "Dream Haunting",
+                    "name": "Мучительный Кошмар",
+                    "description": "<p>Цель, провалившая спасбросок от @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq] вендиго, подвергается Мучениям Вендиго.</p>"
+                },
+                {
+                    "id": "Wendigo Torment",
+                    "name": "Мучение Вендиго",
+                    "description": "<p>Существо, пораженное Мучениями Вендиго, не может восстановиться ниже Стадия 1, пока не восстановит все ОЗ.</p><p style=\"text-align: center;\">@Check[type:will|dc:38]</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 4} (1 день)</p><p><strong>Стадия 2:</strong> Как Стадии 1 (1 день)</p><p><strong>Стадия 3:</strong> Существо ищет особь своей родословной, чтобы убить и сожрать. Затем оно попадает под влияние @UUID[Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC]{Миграция} и устремляется в небо с такой скоростью, что его ноги сгорают, превращаясь в зазубренные обрубки. Когда Существо уходит в небо, его заменяет новый Вендиго в течение [[/br 2d6 #минут]]{2d6 минут}.</p><p>Вернуть жертву к жизни можно с помощью @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu], аналогичной магии или ритуала @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO] 9-го ранга. Новый вендиго остается, даже если жертва воскрешена.</p>"
                 },
                 {
                     "id": "114",
@@ -3964,69 +3974,78 @@
             ]
         },
         "Xotanispawn": {
-            "name": "Xotanispawn",
-            "tokenName": "Xotanispawn",
+            "name": "Порождение Ксотани",
+            "tokenName": "Порождение Ксотани",
             "description": "",
-            "UUID": "",
+            "UUID": "JD6kdfZveObBe1mR",
             "prependAdjective": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Internal Furnace",
+                    "name": "Внутренняя Печь",
+                    "description": "<p><strong>Триггер:</strong> Существо, находящееся рядом с Порождение Ксотани, прикасается к нему или наносит ему физическую атаку</p><hr><p>Спровоцировавшее существо совершает @Check[type:reflex|dc:37|traits:damaging-effect] и в случае провала получает @Damage[5d8[persistent,fire]]</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Порождение Ксотани выдыхает @Template[type:cone|distance:60] магмы, которая наносит @Damage[10d10[fire],2d6[persistent, fire]] всем существам в области</p><p style=\"text-align: center;\">@Check[type:reflex|dc:39|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge]]{1d4 Раундов}</p><section class=\"secret\"><p>The Xotanispawn can't use its Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "qi5FtOzBWTiiCStB",
+                    "name": "Взрыв",
+                    "description": "<p>Когда Порождение Ксотани погибает, оно взрывается, нанося @Damage[15d8[fire]] всем существам в @Template[type:emanation|distance:30]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:39|basic:true]</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "XqfuKJG5gZuzeCDr",
+                    "name": "Устрашающее Присутствие",
+                    "description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:60]{60} @Check[type:will|dc:36]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Heat Surge",
+                    "name": "Нагрев Печи",
+                    "description": "<p>Когда Порождение Ксотани критически попадает тело порождения наливается жаром, увеличивая урон от Внутренней Печи до @Damage[10d8[persistent,fire]] до начала следующего хода.</p>"
                 }
             ]
         },
         "Ishti": {
-            "name": "Ishti",
-            "tokenName": "Ishti",
+            "name": "Ишти",
+            "tokenName": "Ишти",
             "description": "",
-            "UUID": "",
+            "UUID": "lRqptquQcM6ZcQ4O",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "GLOrUOMtmv1uHTph",
+                    "name": "Изменение Формы",
+                    "description": "<p>Ламия-Матриарх может принимать облик `среднего` гуманоида. Это не меняет ее Скорость, модификаторы атаки и урона от ее Ударов, но не позволяет ей использовать свое Проклятое Прикосновение.</p><p>Каждый Ламия-Матриарх имеет фиксированную гуманоидную форму - они не могут принимать другой облик каждый раз, когда используют эту способность, а внешний вид напоминает верхнюю часть их туловища, когда они находятся в своей истинной форме.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Matriarch's Caress",
+                    "name": "Проклятое Прикосновение",
+                    "description": "<p>Ишти прикасается к существу, которое должно преуспеть в @Check[type:will|dc:40] или стать @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманем 2} при крит.провал).</p><p>Если цель проваливает повторные спасброски против этой способности, значение состояния увеличивается на 1 (или на 2, если она крит.провалилась) (максимум до Одурманен 4). Значение этого состояния уменьшается на 1 каждые 24 часа.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "IHKQdP1f65ZJ8Oqu",
+                    "name": "Отравление Оружия",
+                    "description": "<p>Ишти применяет яд к колющему или рубящему оружию по своему выбору</p>"
                 },
                 {
-                    "id": "114",
+                    "id": "Quick Dervish Strike",
+                    "name": "Быстрые Удары",
+                    "description": "<p>Ишти наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Кинжалом по каждому врагу в пределах досягаемости. Первый враг, которому она наносит урон, подвергается Проклятому Прикосновению</p><hr><p>Каждая атака засчитывается в Штраф Множественной Атаки, но штраф не увеличивается до тех пор, пока все атаки не будут завершены.</p>"
+                },
+                {
+                    "id": "Corrosive Dagger",
+                    "name": "Разъедающий Кинжал"
+                },
+                {
+                    "id": "115",
                     "name": "111",
                     "description": "111"
                 },
@@ -4041,26 +4060,58 @@
             "name": "Ури Зандивар",
             "tokenName": "Ури Зандивар",
             "description": "",
-            "UUID": "",
+            "UUID": "aiNE06bxKD6jfoLd",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Speed Scimitar",
+                    "name": "Скимитар Скорости"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "TW4r3ip5ObjvYZMs",
+                    "name": "Шипы для щита"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "H6cbKbRUjKF71Gko",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "j0tisNS7G4pqIgVz",
+                    "name": "Блок Щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "Punish Imperfection",
+                    "name": "Наказать Несовершенство",
+                    "description": "<p><strong>Триггер:</strong> Существо в пределах досягаемости Ури проваливает бросок атаки, спасбросок или проверку навыка</p><hr><p>Ури наносит безоружный @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} по спровоцировавшему существу. Если атака попадает, цель должна успешно совершить @Check[type:fortitude|dc:41] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 3} до конца своего следующего хода (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 4} при критическом провале).</p>"
+                },
+                {
+                    "id": "Slash and Slam",
+                    "name": "Удар и Ошеломление",
+                    "description": "<p>Ури совершает два Удара: один скимитаром, другой - шипами для щита. Если оба удара попадают в цель, подавляющая сила атаки делает ее @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 2}, если один из ударов был критическим, или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 3}, если оба удара были критическими).</p><hr><p>Эти Удары считаются одной атакой для Штрафа Множественной Атаки Ури, и Штраф не увеличивается до тех пор, пока не будут нанесены обе атаки.</p>"
+                },
+                {
+                    "id": "Swift Capture",
+                    "name": "Быстрое Задержание",
+                    "description": "<p><strong>Требования:</strong> Ури носит @UUID[Compendium.pf2e.equipment-srd.Item.5zkoqnp6X5yPCXVy] и находится рядом с существом</p><hr><p>Ури убирает в ножны оружие, которое он носит, затем пытается связать запястья или лодыжки существа с помощью @UUID[Compendium.pf2e.equipment-srd.Item.5zkoqnp6X5yPCXVy]. Если Ури совершает успешный бросок атаки с модификатором [[/r 1d20+36 #Manacles]]{+36} против КБ цели, он применяет @UUID[Compendium.pf2e.equipment-srd.Item.5zkoqnp6X5yPCXVy].</p>"
+                },
+                {
+                    "id": "Swift Slash",
+                    "name": "Быстрый Удар",
+                    "description": "<p>Ури совешает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} и совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Скимитаром в любой момент `движения`</p>"
+                },
+                {
+                    "id": "Perfect Will",
+                    "name": "Совершенная Воля",
+                    "description": "<p>Если при броске Спас.Воли Ури получает успех, вместо этого он получает крит.успех</p><p>Если при броске Спас.Воли Ури получает крит.провал, вместо этого он получает провал</p>"
+                },
+                {
+                    "id": "Reactionary",
+                    "name": "Дополнительная Реакция",
+                    "description": "<p>Ури может использовать 2 реакции за раунд, но не может выполнять одну и ту же реакцию более одного раза за раунд.</p>"
                 },
                 {
                     "id": "114",
@@ -4075,39 +4126,59 @@
             ]
         },
         "Teyam Ishtori": {
-            "name": "Teyam Ishtori",
-            "tokenName": "Teyam Ishtori",
+            "name": "Тейям Иштори",
+            "tokenName": "Тейям Иштори",
             "description": "",
-            "UUID": "",
+            "UUID": "X7zSx8LFh2ZDnOYy",
             "actorLink": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Contingency",
+                    "name": "Сопряженность",
+                    "description": "<p>У демилича постоянно действует одно @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]{Сопряженность} Ранг 8 с одним из его врожденных арканных заклинаний Ранг 5 или ниже в качестве сопряженного заклинания - как правило, @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Переместить}</p><hr><p>Триггер: Пока лич находится в оцепенении, какое-либо существо тревожит останки демилича, прикасается к его сокровищам или сотовряет заклинание, которое может повлиять на демилича.&nbsp;</p><p>Демилич прекращает оцепенение, бросает инициативу и получает эффект сопряженного заклинания. Сопряженность восстанавливается через 24 часа.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Torpor",
+                    "name": "Оцепенение",
+                    "description": "<p>Обычно при встрече демилич бездействует и не предпринимает никаких действий, пока не сработает его реакция @UUID[Compendium.pf2e.spells-srd.Item.WG91Z5TiR6oO5FOw]</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Countermeasures",
+                    "name": "Контрмеры",
+                    "description": "<p><strong>Триггер:</strong> Начинается ход Теяма</p><hr><p>Тейам сотворяет @UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy], @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8], @UUID[Compendium.pf2e.spells-srd.Item.OOELvfkTedBMlWtq] или @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki] на себя. Обычно он выбирает Отражение Заклинаний, если на него уже не действует это заклинание.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Trap Soul",
+                    "name": "Силок Душ",
+                    "description": "<p><strong>Частота</strong>: 1/День на камень</p><hr><p>Десять камней из кварца на черепе Тейама могут заманить в ловушку души живых. Активация камня сотворяет заклинание @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]. Захватить Душу может нацелиться и воздействовать не на труп, а на существо @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{При смерти 1}. Существо может совершить @Check[type:fortitude|dc:43]; при успехе оно не умирает и его душа не попадает в ловушку, но оно получает @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} (или полностью лишается влияния при крит.успехе). Когда душа существа попадает в ловушку, его тело быстро превращается в пыль.</p><p>Драгоценные камни действуют подобно черным сапфирам, используемым при связывании душ, за исключением того, что они могут удерживать существ до 17-го уровня и имеют стоимость 200 ЗМ за штуку. Тейам может поглотить душу, которую он поймал в ловушку.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Telekinetic Whirlwind",
+                    "name": "Телекинетический вихрь",
+                    "description": "<p>Телекинетический вихрь активируется, когда Тейям выходит из Оцепенения. Обломки в области превращаются в телекинетический вихрь. Это затуманивает зрение, делая любое существо в этой области @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыт}, и заставляет существ в этой области (кроме Тейяма) считать всех существ @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрыт}. Любое существо, кроме Тейяма, которое входит в ауру или начинает свой ход в ней, получает @Damage[2d12[bludgeoning]].</p>"
+                },
+                {
+                    "id": "Demilich Eye Gems",
+                    "name": "Драгоценные Камни Демилича",
+                    "description": "<p>У демилича есть глаза из драгоценных камней, которые светятся, когда демилич активен. Каждый глаз содержит заклинание 8-го ранга, направленное на одно существо (обычно один глаз имеет @UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7], а другой @UUID[Compendium.pf2e.spells-srd.Item.BKIet436snMNcnez]). Демилич может активировать глаз. Для этого используется количество действий по сотворению заклинаний, требуемых заклинанием.</p><p>Когда Демилич произносит заклинание из глаза с драгоценным камнем, этот глаз перестает светиться на [[/br 1d4 #rounds]]{1d4 rounds}, во время которого заклинание этого глаза не может быть использовано. Иногда один или оба из двух <em>@UUID[Compendium.pf2e.equipment-srd.Item.Q4o8pEdxSY0bnJQZ] </em>могут быть собраны с уничтоженного Демилича в качестве магических предметов.</p>"
+                },
+                {
+                    "id": "Mental Magic",
+                    "name": "Ментальная Магия",
+                    "description": "<p>Тейам может заменить все Материальные и Жестовые компоненты для создания заклинаний Словесными компонентами, а также может заменить все @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать} компоненты для активации магических предметов на словесные компоненты.</p>"
+                },
+                {
+                    "id": "Staff Gems",
+                    "name": "Посох Могущества",
+                    "description": "<p>Когда-то давно Тейям впитал заклинания из посоха могущества, а драгоценных камней, вмонтированные в ее череп, причем более крупные узлы обозначают заклинания более высокого ранга. Она может произнести любое из заклинаний, как если бы активировала посох, и восстанавливает 1 заряд за 4 часа, проведенные в оцепенении, до 10 зарядов. Тейам владеет заклинаниями из @UUID[Compendium.pf2e.equipment-srd.Item.6m9niDjhA6tBfp5x]</p>"
+                },
+                {
+                    "id": "Devour Soul",
+                    "name": "Поглотить Душу",
+                    "description": "<p><strong>Требования:</strong> Душа была заперта в одном из кварцевых драгоценных камней Тейама на 24 часа.</p><hr><p>Тейам поглощает душу полностью уничтожается, а Тейам восстанавливает ОЗ, равное двойному уровню существа.</p>"
                 }
             ]
         },
