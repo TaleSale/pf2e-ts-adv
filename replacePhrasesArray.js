@@ -154,7 +154,6 @@ const replacePhrasesArray = [
   { pattern: /(Аудар|Айудар)/gi, replacement: "Айдар" },
   { pattern: /(Альтарейн|Альтэрейн)/gi, replacement: "Альтерейн" },
   { pattern: /(Барзилай)/gi, replacement: "Барзиллай" },
-  { pattern: /Мванги/gi, replacement: "Муанги" },
 
 ];
 

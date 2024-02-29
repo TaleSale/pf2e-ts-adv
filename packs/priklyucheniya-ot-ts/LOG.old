@@ -1,3 +1,23 @@
-2024/02/27-23:04:16.040 30e0 Recovering log #2991
-2024/02/27-23:04:16.343 30e0 Delete type=0 #2991
-2024/02/27-23:04:16.344 30e0 Delete type=3 #2989
+2024/02/29-19:46:48.330 2214 Recovering log #3018
+2024/02/29-19:46:48.389 2214 Delete type=0 #3018
+2024/02/29-19:46:48.389 2214 Delete type=3 #3017
+2024/02/29-20:54:53.449 193c Level-0 table #3022: started
+2024/02/29-20:54:53.891 193c Level-0 table #3022: 3623156 bytes OK
+2024/02/29-20:54:53.996 193c Delete type=0 #3020
+2024/02/29-20:54:53.997 193c Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/02/29-20:54:53.997 193c Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!f1gUAKTPDODiAyl8' @ 83 : 1
+2024/02/29-20:54:53.997 193c Compacting 1@1 + 5@2 files
+2024/02/29-20:54:54.292 193c Generated table #3023@1: 2 keys, 3337081 bytes
+2024/02/29-20:54:54.984 193c Generated table #3024@1: 6 keys, 2160578 bytes
+2024/02/29-20:54:55.308 193c Generated table #3025@1: 3 keys, 2185502 bytes
+2024/02/29-20:54:55.709 193c Generated table #3026@1: 6 keys, 2205907 bytes
+2024/02/29-20:54:56.250 193c Generated table #3027@1: 7 keys, 2719970 bytes
+2024/02/29-20:54:56.251 193c Compacted 1@1 + 5@2 files => 12609038 bytes
+2024/02/29-20:54:56.299 193c compacted to: files[ 0 0 11 0 0 0 0 ]
+2024/02/29-20:54:56.299 193c Delete type=2 #2928
+2024/02/29-20:54:56.299 193c Delete type=2 #2929
+2024/02/29-20:54:56.300 193c Delete type=2 #2930
+2024/02/29-20:54:56.300 193c Delete type=2 #2931
+2024/02/29-20:54:56.301 193c Delete type=2 #2988
+2024/02/29-20:54:56.301 193c Delete type=2 #3022
+2024/02/29-20:54:56.302 193c Manual compaction at level-1 from '!adventures!f1gUAKTPDODiAyl8' @ 83 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

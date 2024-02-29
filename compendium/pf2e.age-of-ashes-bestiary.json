@@ -4183,27 +4183,26 @@
             ]
         },
         "Acidic Needle Launcher": {
-            "name": "Acidic Needle Launcher",
-            "tokenName": "Acidic Needle Launcher",
-            "img": "",
-            "tokenImg": "",
+            "name": "Игломёт",
+            "tokenName": "Игломёт",
+            "img": "icons/magic/acid/projectile-needles-salvo-green.webp",
+            "tokenImg": "icons/magic/acid/projectile-needles-salvo-green.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdisable": "",
-            "hdescription": "",
+            "hstealth": "<p>(Мастер)</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:36|name:Disable Firing Mechanism|traits:mechanical,trap,complex], чтобы вывести из строя некоторые пусковые механизмы, сделав три соседние клетки в ловушке безопасными для входа.</p>",
+            "hdescription": "<p>Установленная на потолке пусковая установка обрушивает на злоумышленников иглы, покрытые кислотой</p>",
             "hreset": "",
-            "hroutine": "",
+            "hroutine": "<p>(3 действия) Пусковая установка кислотных игл выстреливает иглой в случайную цель в области, указанной на карте.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Needle Rain",
+                    "name": "Дождь Игл",
+                    "description": "<p><strong>Триггер:</strong> Существо перемещается в область, указанную на карте</p><hr><p>Ловушка выстреливает кислотной иглой в случайную цель в области, указанной на карте, а затем бросает инициативу.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Acidic Needle",
+                    "name": "Кислотная Игла"
                 },
                 {
                     "id": "113",
@@ -4213,27 +4212,27 @@
             ]
         },
         "Caustic Vapor": {
-            "name": "Caustic Vapor",
-            "tokenName": "Caustic Vapor",
-            "img": "",
-            "tokenImg": "",
+            "name": "Едкий Пар",
+            "tokenName": "Едкий Пар",
+            "img": "icons/magic/acid/dissolve-bone-skull.webp",
+            "tokenImg": "icons/magic/acid/dissolve-bone-skull.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdisable": "",
-            "hdescription": "",
-            "hreset": "",
+            "hstealth": "<p>(Мастер)</p>",
+            "hdisable": "<p>@Check[type:occultism|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (Мастер) или @Check[type:religion|dc:36|name:Exorcise the Spirits|traits:mechanical,trap] (Мастер) для изгнания духов</p>",
+            "hdescription": "<p>Дверь захлопывается, и комнату заполняет Едкий Пар</p>",
+            "hreset": "<p>Ловушка перезапускается через 1 день</p>",
             "hroutine": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Breath Snatcher",
+                    "name": "Похититель Дыхания",
+                    "description": "<p><strong>Триггер:</strong> `Живое` существо, не являющееся `слизью`, проводит в комнате не менее 3 раундов</p><hr><p>Ловушка активируется и заполняет область Едкими Паром, подвергая опасности всех существ, находящихся в ней.</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Caustic Nightmare Vapor",
+                    "name": "Едкий Пар",
+                    "description": "<p>Слизи невосприимчивы к этому яду</p><p style=\"text-align: center;\">@Check[type:fortitude|dc:38]</p><p><strong>Возникновение</strong> 1 раунд</p><p><strong>Макс.Продолж.:</strong> 6 раундов</p><p><strong>Стадия 1:</strong> @Damage[4d6[acid]] и @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] (1 раунд)</p><p><strong>Стадия 2:</strong> @Damage[6d6[acid]], замешательство и @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] (1 раунд)</p><p><strong>Стадия 3:</strong> @Damage[8d6[acid]], замешательство, Застигнут Врасплох и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} (1 раунд)</p>"
                 },
                 {
                     "id": "113",
@@ -4243,52 +4242,52 @@
             ]
         },
         "Endless Elven Aging": {
-            "name": "Endless Elven Aging",
-            "tokenName": "Endless Elven Aging",
-            "img": "",
-            "tokenImg": "",
+            "name": "Бесконечная Эльфийская Эпоха",
+            "tokenName": "Бесконечная Эльфийская Эпоха",
+            "img": "icons/magic/unholy/silhouette-light-fire-blue.webp",
+            "tokenImg": "icons/magic/unholy/silhouette-light-fire-blue.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdisable": "",
-            "hdescription": "",
-            "hreset": "",
-            "hroutine": "",
+            "hstealth": "<p>(Мастер)</p>",
+            "hdisable": "<p>@Check[type:occultism|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (Мастер) или @Check[type:religion|dc:38|name:Calm the Restless Energies|traits:haunt,magical] (Мастер), чтобы успокоить призрака на 1 час; критический успех успокаивает призрака навсегда</p>",
+            "hdescription": "<p>Фреска с призраками завораживает персонажей и стремительно истощает их жизненные силы.</p>",
+            "hreset": "<p>Призрак продолжает действовать до тех пор, пока в радиусе 30 футов от комнаты не останется ни одной цели. Затем в течение 1 минуты он отключается и может активироваться снова.</p>",
+            "hroutine": "<p>(2 действия) Призрак заманивает существ в Зону А2, используя Пленитель. Действия, не использованные для пленения, используются для того, чтобы истощить живое существо в комнате с помощью Прожить Тысячу Жизней.</p>",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Lifelike Scintillation",
+                    "name": "Реалистичная Фреска",
+                    "description": "<p><strong>Триггер:</strong> Живое существо осматривает фреску или входит в комнату</p><hr><p>Призрак активируется и бросает инициативу</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Captivate",
+                    "name": "Пленитель",
+                    "description": "<p>Слабо движущиеся образы заставляют одно существо в радиусе 30 футов от комнаты переместиться в нее. Существо пытается совершить @Check[type:will|dc:38|traits:charm]</p><hr><p><strong>Успех:</strong> Цель невредимо</p><p><strong>Провал:</strong> Цель должна потратить все свои действия в следующий ход на движение в комнату, после чего она будет @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] до конца своего следующего хода</p><p><strong>Крит.Провал:</strong> Как Провал, цель также @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} на 1 минуту</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Live a Thousand Lives",
+                    "name": "Прожить Тысячу Жизней",
+                    "description": "<p>Призрак заставляет живое существо в комнате пережить полную эльфийскую жизнь, за несколько секунд перенеся все раны, неудачи, потери и последствия векового старения. Цель должна совершить @Check[type:fortitude|dc:38].</p><hr><p><strong>Крит.Успех:</strong> Цель невредимо</p><p><strong>Успех:</strong> Цель становится @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]</p><p><strong>Провал:</strong> Цель становится @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (или ее значение истощен увеличивается на 1, максимум до истощен 3), и она @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] до конца своего следующего хода</p><p><strong>Крит.Провал:</strong> Как и провал, но цель также становится @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1} (или ее значение обречен увеличивается на 1)</p>"
                 }
             ]
         },
         "Luminous Ward": {
-            "name": "Luminous Ward",
-            "tokenName": "Luminous Ward",
-            "img": "",
-            "tokenImg": "",
+            "name": "Глиф-Сияния",
+            "tokenName": "Глиф-Сияния",
+            "img": "icons/magic/light/beam-strike-village-yellow.webp",
+            "tokenImg": "icons/magic/light/beam-strike-village-yellow.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdisable": "",
-            "hdescription": "",
-            "hreset": "",
+            "hstealth": "<p>(Мастер)</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:40|name:|traits:action:disable-a-device] (мастер) для рассеивания магии</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Ранг 9 КС_38) для противодействия магии</p>",
+            "hdescription": "<p>Взрыв сияния вырывается из двери.</p>",
+            "hreset": "<p>Ловушка перезапускается через 1 час</p>",
             "hroutine": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Radiant Explosion",
+                    "name": "Взрыв Синяия",
+                    "description": "<p><strong>Триггер:</strong> Существо прикасается к двери</p><hr><p>Все существа в радиусе 20 футов от двери испепеляются ярким светом, получая @Damage[20d6[fire]] (@Check[type:reflex|dc:40|basic:true]). Существо, провалившее спасбросок, получают @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] на 1 час (или навсегда при критическом провале).</p>"
                 },
                 {
                     "id": "112",
@@ -4303,22 +4302,22 @@
             ]
         },
         "Mental Scream Trap": {
-            "name": "Mental Scream Trap",
-            "tokenName": "Mental Scream Trap",
-            "img": "",
-            "tokenImg": "",
+            "name": "Ментальная Ловушка",
+            "tokenName": "Ментальная Ловушка",
+            "img": "icons/magic/control/fear-fright-shadow-monster-red.webp",
+            "tokenImg": "icons/magic/control/fear-fright-shadow-monster-red.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
-            "hdisable": "",
-            "hdescription": "",
+            "hstealth": "<p>(Мастер)</p>",
+            "hdisable": "<p>@Check[type:arcana|dc:41|name:Suppress the Magic|traits:magical,trap], чтобы подавить магию</p><p>@Check[type:thievery|dc:41|name:Scratch Out the Ward|traits:magical,trap], чтобы перечеркнуть глиф</p>",
+            "hdescription": "<p>Ментальный вопль дезориентирует существ в области</p>",
             "hreset": "",
             "hroutine": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Psychic Screech",
+                    "name": "Ментальный Вопль",
+                    "description": "<p>Триггер: Существо входит в отмеченную область</p><hr><p>Ментальный Вопль поражает всех существ в радиусе 10 футов от отмеченной области, требуя от них @Check[type:will|dc:41]</p><hr><p><strong>Крит.Успех</strong>: Цель невредима</p><p><strong>Успех</strong>: Цель @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлена 2}</p><p><strong>Провал</strong>: Цель @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализована} на 1 раунд, а по окончании паралича @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлена 2}</p><p><strong>Крит.Провал</strong>: Цель @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализована} на 4 раунда. В конце каждого своего хода она может сделать новое Спас.Воли, чтобы сократить оставшуюся продолжительность на 1 раунд, или полностью прекратить действие при критическом успехе.</p>"
                 },
                 {
                     "id": "112",
@@ -4333,59 +4332,60 @@
             ]
         },
         "Seismic Spears Trap": {
-            "name": "Seismic Spears Trap",
-            "tokenName": "Seismic Spears Trap",
-            "img": "",
-            "tokenImg": "",
+            "name": "Ловушка Катаклизма",
+            "tokenName": "Ловушка Катаклизма",
+            "img": "icons/magic/fire/projectile-beams-salvo-red.webp",
+            "tokenImg": "icons/magic/fire/projectile-beams-salvo-red.webp",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
-            "hstealth": "",
+            "hstealth": "<p>(Мастер)</p>",
             "hdisable": "",
             "hdescription": "",
-            "hreset": "",
+            "hreset": "<p>Ловушка перезапускается через 1 минуту</p>",
             "hroutine": "",
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Cataclysmic Rain",
+                    "name": "Дождь Катаклизма",
+                    "description": "<p>Триггер: Существо входит в отмеченную область</p><hr><p>Огненные копья наносят один Удар по каждому живому существу в радиусе 5 футов от отмеченной области</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "No MAP",
+                    "name": "Без ШМА",
+                    "description": "Огненные Копья атакует без ШМА"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Seismic Spear",
+                    "name": "Огненные Копья"
+                },
+                {
+                    "id": "Personal Quake",
+                    "name": "Личное Землетрясение",
+                    "description": "<p>Существо, пораженное огненным копьем, получает @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 3} на 1 раунд, так как его тело неконтролируемо сотрясается. При критическом попадании цель должна успешно совершить @Check[type:fortitude|dc:39] или подвергнуться @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg] на 1 минуту, а при критическом провале - навсегда.</p>"
                 }
             ]
         },
         "Книга 6================================================================================================": {
             "name": "==========================================================================================="
         },
-        "Mengkare": {
-            "name": "Менкарэ",
-            "tokenName": "Менкарэ",
+        "Ingnovim's Assistant": {
+            "name": "Помощник Ингновима",
+            "tokenName": "Помощник Ингновима",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "Ig1joUmSHSNL6QVU",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "PmP7kVHHTCVo9E2y",
+                    "name": "Длинный меч"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Death Throes",
+                    "name": "Смерть Внутри",
+                    "description": "<p>Когда Помощник Ингновима умирает, он взрывается, источая дурно пахнущий взрыв ядовитых внутренностей и ядовитых паров. Все существа в @Template[type:burst|distance:20] должны совершить @Check[type:fortitude|dc:38]</p><hr><p><strong>Крит.Успех:</strong> Существо невредимо</p><p><strong>Успех:</strong> Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}</p><p><strong>Провал:</strong> Существо получает @Damage[7d8[poison]]</p><p><strong>Крит.Провал:</strong> Существо получает @Damage[14d8[poison],2d8[persistent, poison]]</p>"
                 },
                 {
                     "id": "113",
@@ -4404,127 +4404,147 @@
                 }
             ]
         },
-        "Manifestation Of Dahak": {
-            "name": "Проявление Дахака",
-            "tokenName": "Дахак",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 40,
-            "tokendisplayName": 20,
-            "randomImg": false,
-            "classDC": {
-                "value": 58
-            }
-        },
-        "Aiudara Wraith": {
-            "name": "Aiudara Wraith",
-            "tokenName": "Aiudara Wraith",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Aiudara_Wraith.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Aiudara_Wraith_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 43
-            }
-        },
-        "Animated Dragonstorm": {
-            "name": "Animated Dragonstorm",
-            "tokenName": "Animated Dragonstorm",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 43
-            }
-        },
-        "Candlaron's Echo": {
-            "name": "Candlaron's Echo",
-            "tokenName": "Candlaron's Echo",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 42
-            }
-        },
-        "Damurdiel's Vengeance": {
-            "name": "Damurdiel's Vengeance",
-            "tokenName": "Damurdiel's Vengeance",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(legendary) or DC 47 to notice the dagger left in the pool start to move on its own.</p>",
-            "hdisable": "<p>Deception 45 (legendary) to pretend to be Erveniss and ask for forgiveness, Diplomacy 45 (legendary) to convince Damurdiel to stand down (elves who are masters in Diplomacy can attempt the check as if they were legendary instead), or Religion 40 (legendary) to call upon Calistria to calm Damurdiel's spirit.</p>",
-            "hdescription": "<p>An elven woman wearing a robe stands in the water. She beckons anyone who enters the room to join her in the pool.</p>",
-            "hreset": "<p>Damurdiel's spirit subsides once she is destroyed or if she manages to reduce a creature to 0 Hit Points. She returns after 1 minute.</p>",
-            "hroutine": "<p>(3 actions) The haunt attempts to Strike with the dagger.</p>"
-        },
-        "Dragonshard Guardian": {
-            "name": "Dragonshard Guardian",
-            "tokenName": "Dragonshard Guardian",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonshard_Guardian.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Dragonshard_Guardian_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 54
-            }
-        },
-        "Dragonstorm": {
-            "name": "Dragonstorm",
-            "tokenName": "Dragonstorm",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(legendary)</p>",
-            "hdisable": "<p>The dragonstorm can't be disabled-only endured. It ends only once the attack on Breachill and Citadel Altaerein is over.</p>",
-            "hdescription": "<p>A massive storm stirs in the skies above Breachill and Citadel Altaerein. As specific events begin during the three waves of the manifestation's retribution, the dragonstorm wreaks localized havoc.</p>",
-            "hreset": "",
-            "hroutine": ""
-        },
-        "Dragonstorm Fire Giant": {
-            "name": "Dragonstorm Fire Giant",
-            "tokenName": "Dragonstorm Fire Giant",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 43
-            }
-        },
-        "Emaliza Zandivar": {
-            "name": "Emaliza Zandivar",
-            "tokenName": "Emaliza Zandivar",
+        "Promise Guard": {
+            "name": "Страж Обещания",
+            "tokenName": "Страж Обещания",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "Afq4Osh3W1k9Bcsh",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "jfBUSjcjhlewvG1J",
+                    "name": "Длинный Меч"
                 },
                 {
-                    "id": "112",
+                    "id": "TU1DbG3ubOh1bDcw",
+                    "name": "Композитный короткий лук"
+                },
+                {
+                    "id": "Attack of Opportunity (Special)",
+                    "name": "Возможность для Атаки (Специальное)",
+                    "description": "<p>Страж Обещания может использовать Возможность для Атаки, когда существо в пределах ее досягаемости использует действие `концентрации`, в дополнение к его обычному триггеру. Они могут прерывать спровоцировавшее действий `концентрации`, и они прерывают действия при любом попадании, а не только при критическом.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "OOmkcTVG03cJ0cT3",
+                    "name": "Блок Щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "Shield Shove",
+                    "name": "Толкнуть Ударом",
+                    "description": "<p>Страж Обещания наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Длинным мечом, а затем толкает цель назад. Если Удар попадает, цель становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала следующего хода стража, и страж может автоматически @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Толкнуть} цель с теми же преимуществами, что и при действии Толкнуть (включая эффект крит.успеха, если Удар был критическим попаданием). Если стражник движется за целью, это движение не вызывает реакций. Кроме того, если цель вынуждена прекратить движение, потому что может врезаться в объект, она получает урон, равный Мод.Силы Стража.</p>"
+                },
+                {
+                    "id": "Sudden Charge",
+                    "name": "Внезапное Нападение",
+                    "description": "<p>Страж Обещания совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} вплоть до двух своих скоростей. Если страж заканчивает свое `движение` в пределах досягаемости хотя бы одного врага, он может нанести ему @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} ближнего боя.</p>"
+                },
+                {
+                    "id": "Promise Guard Stance",
+                    "name": "Стойка Стража Обещания",
+                    "description": "<p>Страж Обещания всегда держит свой щит поднятым, как если бы он использовал действие @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Поднять щит}, пока он соответствует требованиям этого действия.</p>"
+                },
+                {
+                    "id": "Shield Warden",
+                    "name": "Щит Стража",
+                    "description": "<p>Страж Обещания может использовать свою реакцию @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{Блок щитом}, чтобы предотвратить урон, наносимый соседнему союзнику.</p>"
+                }
+            ]
+        },
+        "Aiudara Wraith": {
+            "name": "Рэйф Айдара",
+            "tokenName": "Рэйф Айдара",
+            "description": "<p>Влияние Дахака в Гавани Альсеты создало эффект истощения души, который убивает незащищенных существ внутри, превращая их в призрачных существ, известных как Рэйф Айдара, но эта редкая нежить может подниматься и в современных порталах айдарах. Каждый раз, когда человек проходит через Айдар, есть шанс, что его прохождение оставит в сети слабый отпечаток его подсознания. Обычно этот отпечаток просто исчезает, но если айдар поврежден или человек страдает от некромантических заражений, эти отпечатки могут накапливаться и со временем объединяться на Астральном Плане или в пределах Кольца Альсеты в полноценного рэйфа. Рэйф вынужден жить с неполным самоощущением, постоянно разыскивая свои воспоминания и быстро становясь жестоким и мстительным, поскольку его попытки вернуть себе эти эфемерные представления постоянно терпят неудачу.</p>",
+            "UUID": "ZqL6MP4XxDys9dmW",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Spectral Hand",
+                    "name": "Прикосновение Рэйфа"
+                },
+                {
+                    "id": "Teleportation Attachment",
+                    "name": "Присоединиться к Телепортации",
+                    "description": "<p><strong>Триггер:</strong> Существо в радиусе 60ФТ использует эффект `телепортации`</p><hr><p>Рэйф Айдара телепортируется вместе с существом, прибывая в пустое пространство по своему выбору рядом с местом назначения спровоцировавшего существа. Если спровоцировавший эффект нацелен на несколько существ, рэйф айдара выбирает, рядом с каким существом он прибывает.</p>"
+                },
+                {
+                    "id": "Dimensional Shunt",
+                    "name": "Пространственный Бросок",
+                    "description": "<p>Прикосновение Рэйфа Айдара перемещает существа и бросает их сквозь пространство. Существо должно совершить @Check[type:fortitude|dc:40].</p><hr><p><strong>Крит.Успех:</strong> Существо не подвергается воздействию и получает временный иммунитет к пространственному броску на 1 минуту</p><p><strong>Успех:</strong> Существо отталкивается на 5ФТ в случайном направлении</p><p><strong>Провал:</strong> Существо телепортируется на 20ФТ в направлении по выбору рэйфа айдара</p><p><strong>Крит.Провал:</strong> Как Провал, но существо также @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 2}</p>"
+                },
+                {
+                    "id": "Drain Life",
+                    "name": "Истощение Жизни",
+                    "description": "<p>Когда Рэйф Айдара наносит урон `живому` существу своим Ударом Прикосновение Рэйфа, он получает 18 Врем.ОЗ, и цель должна успешно своершить @Check[type:fortitude|dc:40], иначе она будет @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} до тех пор, пока находится в состоянии истощения.</p><p>Дальнейший урон, наносимый Ударами Прикосновения Рэйфа Айдары, увеличивает значение состояний истощен и одурманен на 1 при провале спасброска, до максимума 10 для обоих.</p>"
+                },
+                {
+                    "id": "Instantaneous Movement",
+                    "name": "Мгновенное Движение",
+                    "description": "<p>`Движение` Рэйфа Айдара осуществляется с помощью `телепортации`. @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} Рэйфа Айудары не имеет признака `движение`. При Перемещении Рэйф Аидары мгновенно достигает места назначения в пределах своей Скорости.</p>"
+                }
+            ]
+        },
+        "Animated Dragonstorm": {
+            "name": "Оживший Драконий Шторм",
+            "tokenName": "Оживший Драконий Шторм",
+            "description": "",
+            "UUID": "yrU0xi4eKBmcGudo",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Channel Dragonstorm",
+                    "name": "Канал Драконьего Шторма",
+                    "description": "<p>Оживший направляет @Template[type:cone|distance:30] энергию драконьего шторма. Он наносит @Damage[3d8[acid],3d8[cold],3d8[electricity],3d8[fire],3d8[poison]] всем существам в области</p><p style=\"text-align: center;\">@Check[type:reflex|dc:40|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 Раунда}</p><section class=\"secret\"><p>The animated dragonstorm can't use Channel Dragonstorm again for [[/br 1d4 #Recharge Channel Dragonstorm]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "Vulnerable to Dispelling",
+                    "name": "Vulnerable to Dispelling",
+                    "description": "<p>Оживший Драконий Шторм может быть целью @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3] и @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Рассеять магию}. Если в него попадает подобное заклинание 9-го ранга или выше, то `конструкт` теряет сопротивление к кислоте, холоду, электричеству, огню и физическому урону, а также становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на [[/br 1d4 #раундов]]{1d4 раундов}.</p>"
+                },
+                {
+                    "id": "Destructive Strikes",
+                    "name": "Разрушительные Удары",
+                    "description": "<p>Атаки Ожившего Драконьего Шторма игнорируют Твердость объектов с Твердостью 20 или меньше.</p>"
+                },
+                {
+                    "id": "Dragonstorm Strike",
+                    "name": "Удар Драконьего Шторма",
+                    "description": "<p>При критическом попадании Кулака Ожившего выплескивается энергия Драконьего Шторма. Цель получает @Damage[1d6[acid],1d6[cold],1d6[electricity],1d6[fire],1d6[poison]]</p>"
+                },
+                {
+                    "id": "115",
                     "name": "111",
                     "description": "111"
+                }
+            ]
+        },
+        "Dragonstorm Fire Giant": {
+            "name": "Гигант Драконего Шторма",
+            "tokenName": "Гигант Драконего Шторма",
+            "description": "",
+            "UUID": "",
+            "appendNumber": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "UQnCKGq6QIQn8xKq",
+                    "name": "Двуручный Меч"
+                },
+                {
+                    "id": "Dragonstorm Blade",
+                    "name": "Клинок Драконьего Шторма",
+                    "description": "<p>Гигант поднимает одну руку к небу, направляя энергию драконьего шторма в клинок, который держит в другой. Гигант наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Двуручным Мечом со штрафом обстоятельства -2 к против каждого существа в пределах его досягаемости. Он делает только один бросок атаки и сравнивает результат с КБ каждого существа. Этот Удар наносит дополнительный @Damage[1d8[acid]], @Damage[1d8[cold]], @Damage[1d8[electricity]], @Damage[1d8[fire]] и @Damage[1d8[poison]] урон и считается за две атаки при Штрафе Множественной Атаки гиганта.</p>"
                 },
                 {
                     "id": "113",
@@ -4544,26 +4564,24 @@
             ]
         },
         "Hermean Mutant": {
-            "name": "Hermean Mutant",
-            "tokenName": "Hermean Mutant",
+            "name": "Мутант Хермеи",
+            "tokenName": "Мутант Хермеи",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
+            "UUID": "5dSVk2y88SLsPPON",
             "appendNumber": true,
             "tokenvision": true,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "111",
-                    "name": "111",
-                    "description": "111"
+                    "id": "ZXC6yvdBWQpHBJIb",
+                    "name": "Сжимать",
+                    "description": "<p>Урон: @Damage[4d8+10[bludgeoning]]</p><p>Спас.: @Check[type:fortitude|dc:41]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Grasping Hands",
+                    "name": "Хватающие Руки",
+                    "description": "<p>Различные руки мутанта вытягиваются и тянутся, пытаясь схватить близлежащих существ. Мутант пытается сделать проверку @UUID[Compendium.pf2e.action-macros.i95kcGLIQKOTsnv6]{Атлетики}@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{*}, чтобы захватить всех существ в радиусе 10 футов.</p><p>Штраф Множественной Атаки мутанта не увеличивается до тех пор, пока он не выполнит все проверки Атлетики, которые являются частью его Хватающих Рук. Существа, которые @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачены}, перетягиваются в пространство, рядом к мутанту. Это принудительное перемещение.</p>"
                 },
                 {
                     "id": "113",
@@ -4582,139 +4600,782 @@
                 }
             ]
         },
-        "Ilgreth": {
-            "name": "Ilgreth",
-            "tokenName": "Ilgreth",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 50
-            }
-        },
         "Ingnovim Tluss": {
-            "name": "Ingnovim Tluss",
-            "tokenName": "Ingnovim Tluss",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 49
-            }
+            "name": "Ингновим Тлусс",
+            "tokenName": "Ингновим Тлусс",
+            "description": "",
+            "UUID": "lcYcBIFmfKFt8Hcs",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Syringe",
+                    "name": "Шприц"
+                },
+                {
+                    "id": "Acid Flask (Major) [Infused]",
+                    "name": "Кислотная склянка [Сильная] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Этот бутылек наполнен едкой кислотой, наносящей 1 кислотного урона, 4d6 продолжительного урона кислотой и 4 урона кислотными брызгами. Вы получаете бонус предмета +3 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Alchemist's Fire (Major) [Infused]",
+                    "name": "Алхимический огонь [Сильный] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Алхимический огонь это комбинация горючих жидкостей, которые загораются при контакте с воздухом. Алхимический огонь наносит 4d8 урона огнем, 4 продолжительного урона огнем и 4 урона огненными брызгами. Вы получаете бонус предмета +3 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Bottled Lightning (Major) [Infused]",
+                    "name": "Молния в бутылке [Сильная] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}</p><p>Молния в бутылке наполнена летучими реагентами, которые создают взрыв электричества, когда реагируют с воздухом. Она наносит 4d6 урона электричеством и 4 урона электрическими брызгами. При попадании, цель становится @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнутой врасплох} до начала вашего следующего хода. Вы получаете бонус предмета +3 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Frost Vial (Major) [Infused]",
+                    "name": "Морозная склянка [Сильная] (Насыщенный)",
+                    "description": "<p>Жидкие реагенты внутри этого бутылька быстро поглощают тепло при контакте с воздухом. Морозная склянка наносит 4d6 урона холодом и 4 урона холодом от брызг. При попадании, цель получает штраф состояния -15 футов к своим Скоростям до конца своего следующего хода. Вы получаете бонус предмета +3 к броскам атаки.</p><p>@UUID[Compendium.pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{Эффект: Морозная склянка (Сильная)}</p>"
+                },
+                {
+                    "id": "Alchemist's Tools",
+                    "name": "Набор алхимика",
+                    "description": "<p>Этот переносной набор пробирок и химикатов можно использовать для простых алхимических задач. Если вы надели свой набор алхимика, то можете доставать и убирать его как часть действия для его использования.</p>"
+                },
+                {
+                    "id": "Bestial Mutagen (Major) [Infused]",
+                    "name": "Животный мутаген [Сильный] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">1</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>Ваши черты лица превращаются во что-то звериное, и вы набираете мышечную массу, но приобретаете неукюжую форму.</p><p><strong>Преимущество:</strong> Вы получаете бонус предмета +4 к проверкам Атлетики и броскам безоружных атак. Вы получаете безоружную атаку когтями с (1d8 рубящего урона) и признаком <a href=\"https://clck.ru/qFYma\"><em>`быстрое`</em></a> и безоружную атаку челюстями с (1d10 колющего урона). Вы получаете специализацию оружия с когтями и челюстями, или выдающуюся специализацию оружия, если у вас уже есть специализация с этими безоружными атаками.</p><p><strong>Недостаток:</strong> Вы получаете штраф -1 КБ и штраф -2 к спасброскам Рефлекса.</p><p><strong>Продолжительность:</strong> 1 час.</p><p>@UUID[Compendium.pf2e.equipment-effects.1ouUo8lLK6H79Rqh]{Эффект предмета: Животный мутаген (Сильный)}</p>"
+                },
+                {
+                    "id": "Juggernaut Mutagen (Major) [Infused]",
+                    "name": "Мутаген Джагернаут [Сильный] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>После выпивания этого мутагена, ваше тело станет плотным и крепким. У вас появляется здоровый румянец, хотя вы становитесь грузным и ненаблюдательным.</p><p><strong>Преимущество:</strong> Вы получаете бонус предмета +4 к спасброскам Стойкости и 45 временных ОЗ. Всякий раз, когда у вас максимальные ОЗ в течение полной 1 минуты, вы восстанавливаете временные ОЗ. Когда при броске спасброска Стойкости вы получаете успех, он становится критическим успехом, а критический провал - простым провалом.</p><p><strong>Недостаток:</strong> Вы получаете штраф -2 к спасброскам Воли, проверкам Восприятия и броскам инициативы.</p><p><strong>Продолжительность:</strong> 1 час.</p><p>@UUID[Compendium.pf2e.equipment-effects.2PNo8u4wxSbz5WEs]{Эффект: Мутаген джагернаут (Сильный)}</p>"
+                },
+                {
+                    "id": "Elixir of Life (True) [Infused]",
+                    "name": "Эликсир жизни [Истинный] (Насыщенный)",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><p>Эликсиры жизни ускоряют естественный процесс исцеления и иммунной системы у живых существ. Выпив этот эликсир, вы восстанавливаете [[/r 10d6+27]] ОЗ и получаете бонус предмета +4 к спасброскам против болезней и ядов на 10 минут.</p><p>@UUID[Compendium.pf2e.equipment-effects.9MeHc072G4L8AJkp]{Эффект: Эликсир жизни (Истинный)}</p>"
+                },
+                {
+                    "id": "2md78psqZkdESFj7",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Major Acid Flask",
+                    "name": "Кислотная склянка"
+                },
+                {
+                    "id": "Major Alchemist's Fire",
+                    "name": "Алхимический огонь"
+                },
+                {
+                    "id": "Major Bottled Lightning",
+                    "name": "Молния в бутылке"
+                },
+                {
+                    "id": "Major Frost Vial",
+                    "name": "Морозная склянка"
+                },
+                {
+                    "id": "Inject Unstable Mutagen",
+                    "name": "Вколоть Нестабильный Мутаген",
+                    "description": "<p><strong>Триггер:</strong> Ингновим наносит урон существу с помощью Шприца</p><hr><p>Существо, которому введен нестабильный мутаген, должно совершить @Check[type:fortitude|dc:41], чтобы противостоять инъекции.</p><hr><p><strong>Крит.Успех:</strong> Цель невредимо</p><p><strong>Успех:</strong> Цель получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}.</p><p><strong>Провал:</strong> Тело цели смещается и мутирует, его становится трудно контролировать; цель становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} и @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} на 24 часа.</p><p><strong>Крит.Провал:</strong> Тело цели полностью искажается, превращаясь в содрогающийся сгусток искореженной плоти, не способный к действиям; цель @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован}. Каждые 24 часа цель может сделать новый бросок спасброска против этого эффекта; при критическом успехе паралич прекращается.</p>"
+                },
+                {
+                    "id": "Syringe Filled with Unstable Mutagen",
+                    "name": "Шприц с Нестабильным Мутагеном"
+                },
+                {
+                    "id": "Quick Bomber",
+                    "name": "Быстрый Бомбометатель",
+                    "description": "<p>Ингновим совершает @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать} чтобы достать бомбу и потом @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Бросает} ее</p>"
+                },
+                {
+                    "id": "Infused Items",
+                    "name": "Насыщенные Предметы",
+                    "description": "<p>Ингновим несет</p><ul><li>4 @UUID[Compendium.pf2e.equipment-srd.Item.GttLYMT2welSpwCd]</li><li>4 @UUID[Compendium.pf2e.equipment-srd.Item.cLZrOihPht5M7eTw]</li><li>2 @UUID[Compendium.pf2e.equipment-srd.Item.nS75vsM3x5jxlUqn]</li><li>4 @UUID[Compendium.pf2e.equipment-srd.Item.rpbbfkexLhtadBDV]</li><li>4 @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]</li><li>2 @UUID[Compendium.pf2e.equipment-srd.Item.1kNp6yOS0aZPBPzZ]</li><li>4 @UUID[Compendium.pf2e.equipment-srd.Item.qK964kZz1ALcysOa]</li></ul><p>Предметы действуют в течение 24 часов или до следующих Ежедневных Приготовлений.</p>"
+                },
+                {
+                    "id": "Mutagenic Adaptation",
+                    "name": "Адаптация к мутагену",
+                    "description": "<p>Тело Ингновима адаптировалось к постоянному использованию его мутагенов. Он не страдает от недостатков животного мутагена, но на него по-прежнему нормально действуют другие мутагены.</p>"
+                }
+            ]
         },
-        "Ingnovim's Assistant": {
-            "name": "Ingnovim's Assistant",
-            "tokenName": "Ingnovim's Assistant",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 41
-            }
+        "Emaliza Zandivar": {
+            "name": "Эмализа Зандивар",
+            "tokenName": "Эмализа Зандивар",
+            "UUID": "jZc4PrsX3HCJnkXx",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "2AlP13lCWmjbH1ea",
+                    "name": "Посох"
+                },
+                {
+                    "id": "Contingency",
+                    "name": "Сопряженность",
+                    "description": "<p>Триггер: Эмализу атакуют</p><hr><p>На Эмализу сотворяется заклинание Ранг 5 @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Переместить}; она использует его, чтобы спастись от атаки, которая, как она боится, лишит ее сознания или убьет.</p>"
+                },
+                {
+                    "id": "Drain Bonded Item",
+                    "name": "Истощить предмет силы",
+                    "description": "<p><strong>Частота:</strong> Раз в день</p><hr><p>Вы расходуете энергию, хранящуюся в вашем предмете силы, находящемся при вас. Во время своего хода, вы получаете возможность сотворить 1 заклинание, не тратя слот, которое вы сегодня подготовили и уже использовали. Вы все еще должны сделать @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания} и выполнить другие требования заклинания.</p>"
+                },
+                {
+                    "id": "Warded Casting",
+                    "name": "Защитное Сотворение",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><p><strong>Триггер:</strong> Эмализа сотворяет заклинание</p><hr><p>Магия Эмализы создает вокруг нее небольшую защитную ауру. Она получает 20 Врем.ОЗ и сопротивление 20 кислота, холода, электричества или огня. Защитная аура сохраняется до начала ее следующего хода.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Ilgreth": {
+            "name": "Илгрит",
+            "tokenName": "Илгрит",
+            "UUID": "Ev930dfPpwCR8Zju",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "nw4MbhXR5zCwPJBV",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "ebQ7QkhGrSSsXuy0",
+                    "name": "Истощить предмет силы",
+                    "description": "<p><strong>Частота:</strong> Раз в день</p><hr><p>Вы расходуете энергию, хранящуюся в вашем предмете силы, находящемся при вас. Во время своего хода, вы получаете возможность сотворить 1 заклинание, не тратя слот, которое вы сегодня подготовили и уже использовали. Вы все еще должны сделать @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания} и выполнить другие требования заклинания.</p>"
+                },
+                {
+                    "id": "Overwhelming Energy",
+                    "name": "Сокрушающая энергия",
+                    "description": "<p>Если следующим действием Илгрита будет @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.}, то заклинание игнорирует 20 сопротивлений к урону кислотой, холодом, электричеством, огнем или звуком.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         },
         "Inizra Arumelo": {
-            "name": "Inizra Arumelo",
-            "tokenName": "Inizra Arumelo",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 50
-            }
-        },
-        "Lesser Dragonstorm": {
-            "name": "Lesser Dragonstorm",
-            "tokenName": "Lesser Dragonstorm",
-            "img": "systems/pf2e/icons/default-icons/hazard.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "hstealth": "<p>(legendary)</p>",
-            "hdisable": "<p>@Check[type:religion|dc:40|name:Call for Divine Intervention] (legendary) to call out to a non-evil deity for direct intervention to disperse the lesser dragonstorm (prayers to Apsu allow characters who are masters in Religion to attempt the check as if they were legendary instead), @Check[type:thievery|dc:42|name:Deactivate Vengegate|traits:action:disable-a-device] (legendary) to deactivate Vengegate while the manifestation is forcing it open, or a successful <em>@UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG]{Dispel Magic}</em> (10th level; DC 40) to counteract the lesser dragonstorm.</p>",
-            "hdescription": "<p>A small-scale version of a dragonstorm-a churning vortex of wind infused with fire, acid, lightning, poison, and ice-fills Alseta's Ring.</p>",
-            "hreset": "",
-            "hroutine": "<p>(1 action) On its initiative, the lesser dragonstorm reaches out and blasts all creatures within Alseta's Ring. Affected creatures take [[/r {2d8[acid],2d8[cold],2d8[fire],2d8[poison]}]]{10d8 damage} (@Check[type:reflex|dc:46|basic:true]), evenly split between acid, cold, fire, electricity, and poison. Creatures that fail their save are pulled 20 feet toward the center of Alseta's Ring (or are knocked prone and pulled 30 feet on a critical failure). After 10 rounds, the lesser dragonstorm is destroyed, but a much greater dragonstorm manifests in the surrounding region-see The Dragonstorm.</p>"
-        },
-        "Lesser Manifestation Of Dahak": {
-            "name": "Lesser Manifestation Of Dahak",
-            "tokenName": "Lesser Manifestation Of Dahak",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 54
-            }
-        },
-        "Promise Guard": {
-            "name": "Promise Guard",
-            "tokenName": "Promise Guard",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 41
-            }
+            "name": "Инизра Арумело",
+            "tokenName": "Инизра Арумело",
+            "UUID": "30FX1WFr0RkGeueX",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Attack of Opportunity (Special)",
+                    "name": "Возможность для Атаки (Специальное)",
+                    "description": "<p>Инизра может использовать Возможность для атаки, когда существо в пределах ее досягаемости использует действие `концентрации`, в дополнение к его обычному триггеру. Она может прерывать действия концентрации, причем она прерывает действия при любом попадании, а не только при критическом.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "aod69CMkW6wAO7gp",
+                    "name": "Копье"
+                },
+                {
+                    "id": "Spear (Thrown)",
+                    "name": "Копье (Метнуть)"
+                },
+                {
+                    "id": "Boundless Reprisals",
+                    "name": "Безграничные Реакции",
+                    "description": "<p>В начале каждого хода противника Инизра получает реакцию, которую может использовать только в этот ход.</p>"
+                },
+                {
+                    "id": "Paragon's Guard Stance",
+                    "name": "Стойка Стража Обещания",
+                    "description": "<p>Инизра всегда держит свой щит поднятым, как если бы она использовала действие @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Поднять щит}, пока она соответствует требованиям этого действия.</p>"
+                },
+                {
+                    "id": "Weapon Supremacy",
+                    "name": "Оружейное превосходство",
+                    "description": "<p>Инизра постоянно @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен 1}. Она может использовать свое дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         },
         "Rinnarv Bontimar": {
-            "name": "Rinnarv Bontimar",
-            "tokenName": "Rinnarv Bontimar",
-            "img": "systems/pf2e/icons/default-icons/npc.svg",
-            "tokenImg": "icons/svg/mystery-man.svg",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 50
-            }
-        },
-        "Tarrasque, The Armageddon Engine": {
-            "name": "Tarrasque, The Armageddon Engine",
-            "tokenName": "Tarrasque, The Armageddon Engine",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Tarrasque.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Tarrasque_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 60
-            }
+            "name": "Риннарв Бонтимар",
+            "tokenName": "Риннарв Бонтимар",
+            "UUID": "kLX36WXp6rjTt71z",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "8l7ngHz7yzWzu3vM",
+                    "name": "Эльфийская сабля"
+                },
+                {
+                    "id": "Attack of Opportunity (Special)",
+                    "name": "Возможность для Атаки (Специальное)",
+                    "description": "<p>Риннарв может использовать Возможность для Атаки, когда существо в пределах ее досягаемости использует действие `концентрации`, в дополнение к его обычному триггеру. Риннарв может прерывать спровоцировавшее действий `концентрации`, и он прерывает действия при любом попадании, а не только при критическом.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "Spell Strike",
+                    "name": "Зачарованный Удар",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><p><strong>Триггер:</strong> Риннарв начинает @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.}, целью которого является хотя бы 1 существо.</p><hr><p>Риннарв направляет заклинание через свой клинок. Он наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} своим клинком по цели в пределах досягаемости. Если Удар успешен, цель автоматически попадает под действие заклинания. Если заклинание требует броска атаки, цель поражается. Если заклинание требовало броска спасброска, цель получает штраф -4 к своему броску спасброска. Если заклинание могло быть направлено на несколько существ, оно направлено только на то существо, которое Риннарв поразил своим Ударом.</p>"
+                },
+                {
+                    "id": "Blood Magic",
+                    "name": "Магия Крови",
+                    "description": "<p>Когда Риннарв произносит одно из заклинаний своей Магии Крови или заклинание из списка дарованных заклинаний, он создает ауру, которая защищает его самого или одну из целей заклинания. Аура дает бонус состояния +1 к спасброскам на 1 раунд.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         },
         "Vazgorlu": {
-            "name": "Vazgorlu",
-            "tokenName": "Vazgorlu",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Vazgorlu.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Vazgorlu_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
-            "randomImg": false,
-            "classDC": {
-                "value": 43
-            }
+            "name": "Вазгорлу",
+            "tokenName": "Вазгорлу",
+            "description": "<p>Членистоногое чудовище, известное как Вазгорлу, устраивает свой дом на Астральном Плане или внутри стабильного портала, устраивая засады на существ, путешествующих туда с помощью магии `межпростанства`.</p>",
+            "UUID": "xPV49ZBCwDdCq5eI",
+            "prependAdjective": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ppTxZD2ni4N12liM",
+                    "name": "Клыки"
+                },
+                {
+                    "id": "e7C7CLUio6dT7UwM",
+                    "name": "Паутина"
+                },
+                {
+                    "id": "Hostile Juxtaposition",
+                    "name": "Враждебная Перестановка",
+                    "description": "111"
+                },
+                {
+                    "id": "Demiplane Lair",
+                    "name": "Логово-Демиплан",
+                    "description": "<p>Вазгорлу поддерживает межпространство диаметром 30 футов в Астральном Плане. Гравитация в этом демиплане тянется от центра, так что существа могут ходить по внутренней поверхности. В логове Вазгорлу в демиплане нет встроенной точки выхода, и если Вазгорлу не удается посетить демиплан в течение 24 часов, демиплан обрушается - все объекты и существа, находящиеся в нем, возвращаются в свои первоначальные места в мультивселенной до того, как они попали в демиплан.</p><p>Вазгорлу может создать новое логово-демиплан за 24 часа концентрации.</p>"
+                },
+                {
+                    "id": "Dimensional Tether",
+                    "name": "Паутина-Ловушка",
+                    "description": "<p>Существо, по которому попадает Удар Паутины Вазгорлу, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe] и приковано к ближайшей поверхности, пока не совершит @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться} (КС_42). Пока существо обездвижено паутиной, оно пытается противодействовать любому эффекту, который переместит его в другой план, Противодействия Ранг 10 и Вазгорлу использует свою [[/r 1d20+38]]{Аркану} для проверки противодействия.</p>"
+                },
+                {
+                    "id": "Redirect Portal",
+                    "name": "Перенаправить Портал",
+                    "description": "<p>Вазгорлу может провести 10 минут в контакте с магическим порталом, чтобы перенаправить его, заставив портал вместо этого вести в его логово-демиплан. Для этого вазгорлу необходимо успешно совершить [[/r 1d20+41 #Redirect Portal]]{+41} (КС равен КС заклинания для портала, созданного заклинанием, или же КС уровня портала; если у портала не указан уровень, считайте, что это портал 20-го уровня).</p>"
+                }
+            ]
         },
         "Xotani, The Firebleeder": {
-            "name": "Xotani, The Firebleeder",
-            "tokenName": "Xotani",
-            "img": "modules/pf2e-ts-adv/art_token/AgeofAshes/Xotani.webp",
-            "tokenImg": "modules/pf2e-ts-adv/art_token/AgeofAshes/Xotani_t.webp",
-            "tokendisplayBars": 0,
-            "tokendisplayName": 0,
+            "name": "Ксотани, Огнекровый",
+            "tokenName": "Ксотани, Огнекровый",
+            "description": "<p>Ксотани - чудовище из живого пламени и магмы, возможно, самое слабое из Порождений Ровагуга, но оно по-прежнему представляет собой великую угрозу. Ксотани был уничтожен в 2104 году AR альянсом заклинателей, но недавно его смертельный сон был прерван. Его труп подергивается, сигнализируя о том, что он, возможно, близок к возвращению.</p><hr><p>Порождения - титанические ужасы огромных размеров и силы, живущие только для того, чтобы уничтожать. Тараск и Ксотани - лишь два Порождения Ровагуга. Другие, включая Хемнозита (Червь-Монарх), Котогаза (Танец Дисгармонии) и Волнагура (Певец Конца), занимают ужасающие места в истории различных регионов, но самым известным является Улунат (Несвятой Первый), чья жукоподобная туша до сих пор валяется в Сотисе, столице Осириона.</p>",
+            "UUID": "X4oeJnv1KcpHFO6i",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Lava Bomb",
+                    "name": "Бомба Лавы"
+                },
+                {
+                    "id": "Firebleed",
+                    "name": "Огнекровый",
+                    "description": "<p><strong>Триггер:</strong> Ксотани получает урон</p><hr><p>Рана Ксотани извергается магмой в @Template[type:cone|distance:30], нанося @Damage[6d8[fire],6d8[persistent,fire]] с @Check[type:reflex|dc:42|basic:true]</p>"
+                },
+                {
+                    "id": "Bomb Barrage",
+                    "name": "Каскад Бомб",
+                    "description": "<p>Ксотани наносит три Удара Бомбами Лавы. Удары могут быть нанесены как по одному существу, так и по разным, если все цели находятся в радиусе 40 футов друг от друга.</p>"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака дыханием",
+                    "description": "<p>Ксотани выдыхает взрыв пламени, который наносит @Damage[18d6[fire],4d6[persistent, fire]] всем существам в зоне @Template[type:cone|distance:70]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:42|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge]]{1d4 Раундов}</p><section class=\"secret\"><p>It can't use Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>"
+                },
+                {
+                    "id": "IcprrivigaRsacAR",
+                    "name": "Проглотить целиком",
+                    "description": "<p>Размер: Огромный</p><p>Урон: @Damage[8d6+8[bludgeoning],12d6[fire]]</p><p>Разрыв: 35</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                {
+                    "id": "EDnXO2OsX5YQGXQy",
+                    "name": "Растоптать",
+                    "description": "<p>Размер: Огромный</p><p>Урон: Коготь</p><p>Спас.: @Check[type:reflex|dc:42]</p><p>Растоптывая Ксотани может совершить Перемещение вплоть до трех своих Скоростей</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+                },
+                {
+                    "id": "Blindsight (Precise) 120 feet",
+                    "name": "Слепое зрение (Точное 120)"
+                },
+                {
+                    "id": "Regeneration 25",
+                    "name": "Регенерация 25",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "eWRYW3sMrzor03KL",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:300]{300} @Check[type:will|dc:39]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "J7B6WzdiD0YTP0qQ",
+                    "name": "Световая слепота",
+                    "description": "<p>Ксотани подвергается Световой Слепоте только от солнечного света</p><p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+                },
+                {
+                    "id": "Reactive",
+                    "name": "Реактивный",
+                    "description": "<p>Ксотани получает 3 реакции в каждом раунде. Он по-прежнему может использовать только одну реакцию за триггер.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Candlaron's Echo": {
+            "name": "Эхо Кандларона",
+            "tokenName": "Эхо Кандларона",
+            "UUID": "53lk7ek73j65A09B",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "LB86IJopeELMnAze",
+                    "name": "Пугающий стон",
+                    "description": "<p>Привидение оплакивает свою судьбу, заставляя каждое живое существо в пределах @Template[type:emanation|distance:30] совершить спасбросок @Check[type:will|dc:44]. При провале существо становится @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 2} (или @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напугано 3} при критическом провале). При успехе существо становится временно иммунно на 1 минуту к <em>Пугающему стону</em> этого привидения.</p>"
+                },
+                {
+                    "id": "DjmGUYM8SGPzUgRQ",
+                    "name": "Телекинетическое нападение",
+                    "description": "<p>Привидение выкрикивает от боли и страдания, и тотчас мелкие предметы и обломки разлетаются в @Template[type:emanation|distance:30]. Существа в этой области получают @Damage[12d6[bludgeoning]], с @Check[type:reflex|dc:44|basic:true].</p>"
+                },
+                {
+                    "id": "Site Bound",
+                    "name": "Связь с местом",
+                    "description": "<p>Эхо не может покинуть поляну</p><hr><p>Типичное привидение может отдалиться лишь на небольшое расстояние от места, где оно было убито, или от места, которое он населяет. Типичное ограничение - 120 футов. Вместо этого, некоторые привидения привязаны не к месту, а к комнате, зданию, предмету или существу, которое было для них особенным.</p>"
+                },
+                {
+                    "id": "s5L6PEZRqvHlBdWg",
+                    "name": "Восстановление",
+                    "description": "<p>Эхо Кандларона восстанавливаетя до тех пор, пока живо Проявление Дахака</p><hr><p>Когда привидение уничтожено оно формируется заново через [[/br 2d4 #days]]{2d4 дня}, полностью исцеленным, в том месте к которому оно привязано. Привидение может быть окончательно уничтожено только в том случае, если кто-то определит причину его существования и исправит все, что мешает духу упокоиться.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Dragonshard Guardian": {
+            "name": "Хранитель Драконьего Рода",
+            "tokenName": "Хранитель Драконьего Рода",
+            "description": "<p>Созданный Менкарэ и питаемый осколком @UUID[Compendium.pf2e.equipment-srd.Item.L8OButuVM3PFxgrZ], этот конструкт сделан из скульптурного кристалла, обрамлено в красивую золотую оправу.</p>",
+            "UUID": "",
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака дыханием",
+                    "description": "<p>Конструкт дышит одним из двух способов, после чего не может снова использовать Атаку дыханием в течение [[/br 1d4 #Recharge Атака дыханием]]{1d4 раунда}.</p><p>- <strong>Огонь</strong> (`аркана` `эвокация` `огонь`): Взрыв пламени наносит @Damage[15d10[fire]] всем существам в @Template[type:cone|distance:60] (@Check[type:reflex|dc:45|basic:true]). Урон от огня не наносит объектам и конструктам.</p><p>- <strong>Ослабляющий газ</strong> (`аркана` `некромантия`): Облако золотистого газа заставляет каждое существо в @Template[type:cone|distance:60] совершает @Check[type:fortitude|dc:45]; эффект длится 1 минуту.</p><p><strong>Крит.Успех:</strong> Существо невредимо</p><p><strong>Успех:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблено 2}</p><p><strong>Провал:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблено 5}.</p><p><strong>Крити.Провал</strong> Существо @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 8}</p>"
+                },
+                {
+                    "id": "Reverberating Revenge",
+                    "name": "Реверберирующая месть",
+                    "description": "<p><strong>Триггер</strong> Хранитель получает урон холодом, огнем, электричеством или звуком от источника, не принадлежащего хранителю</p><hr><p>Тело Хранителя полностью поглощает энергию, не позволяя урону повредить конструкцию. Его тело реверберирует и преобразует поглощенную энергию, а затем проецирует ее наружу в @Template[type:burst|distance:60].</p><p>Каждое существо в пределах взрыва получает урон от огня, равный урону от энергии, поглощенной спровоцировавшим уроном, включая урон от сопротивления хранителя и дополнительный урон от его слабости (@Check[type:reflex|dc:45|basic:true]).</p><p>Этот урон огнем не наносит вреда объектам или конструктам.</p>"
+                },
+                {
+                    "id": "hPc0H3LlS5oAeiST",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:90]{90} @Check[type:will|dc:42]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Lesser Manifestation Of Dahak": {
+            "name": "Малое Проявление Дахака",
+            "tokenName": "Малое Проявление Дахака",
+            "UUID": "N8vOjTD2SqS2b9Sy",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Redirect Energy",
+                    "name": "Перенаправление Энергии",
+                    "description": "<p><strong>Триггер:</strong> Существо в радиусе 100ФТ сотворяет заклинание с признаком `кислота`, `холод`, `огонь`, `электричество` или `яд`, или такое заклинание начинает действовать из источника в радиусе 100ФТ</p><hr><p>Проявление Дахака принимает все решения по определению цели, назначения и других эффектов заклинания, как если бы оно было заклинателем.</p>"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Проявление Дахака выдыхает взрыв энергии драконьего шторма, который наносит @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]] в @Template[type:cone|distance:60]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:46|basic:true|name:Dragonstorm Breath|traits:fire,acid,cold,electricity,poison]</p><p>Перезарядка: [[/br 1d4 #Recharge Dragonstorm Breath]]</p><section class=\"secret\"><p>It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 rounds}</p></section>"
+                },
+                {
+                    "id": "Manipulate Energy",
+                    "name": "Воздействие на Энергию",
+                    "description": "<p>Проявление пытается взять под контроль магическое кислоту, холод, электричество, огонь или яд в радиусе 100 футов. Если проверка противодействия удается (Противодействия Ранг 10 [[/r 1d20+36 #Модификатор Воздействие]]{+36}), оригинальный заклинатель теряет контроль над заклинанием, контроль переходит к Проявлению, и Проявление считается поддержавшим заклинание этим действием (если применимо). Проявление может завершить заклинание вместо передачи контроля, если пожелает.</p>"
+                },
+                {
+                    "id": "Dragon Heat",
+                    "name": "Жар Дракона",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}: @Template[type:emanation|distance:10]</p><p>Урон: @Damage[6d6[fire]]</p><p>Спас.: @Check[type:reflex|dc:42|basic:true]</p>"
+                },
+                {
+                    "id": "KrTgWTUW9uB20sKT",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Template[type:emanation|distance:90]{90} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура} @Check[type:will|dc:42]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },        
+        "Mengkare": {
+            "name": "Менкарэ",
+            "tokenName": "Менкарэ",
+            "UUID": "6AN7eagk2WrWc4im",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Fzwm2tFZ9TfeKZxu",
+                    "name": "Сопряженность",
+                    "description": "<p>Триггер: Менкарэ проваливает спасбросок против заклинания</p><hr><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Рассеять магию} Ранг 7 пытается противодействовать спровоцировавшему заклинанию.</p>"
+                },
+                {
+                    "id": "Golden Luck",
+                    "name": "Золотая Удача",
+                    "description": "<p><strong>Триггер:</strong> Менгкарэ проваливает спасбросок</p><hr><p>Менгкаре улучшает свой результат на одну степень успеха, превращая провал в успех или критический провал в обычный провал.</p><p>Перезарядка: [[/br 1d4 #Recharge Golden Luck]]{1d4 Раунда}</p><section class=\"secret\"><p>Mengkare can't use this ability again for [[/br 1d4 #Recharge Golden Luck]]{1d4 rounds}</p></section>"
+                },
+                {
+                    "id": "h7oremneSeWvOijy",
+                    "name": "Изменение формы",
+                    "description": "<p>Менкарэ принимает форму среднего гуманоида, выдавая себя за человеческого волшебника Алмонда Бричтона.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                {
+                    "id": "Extra Reaction",
+                    "name": "Дополнительная реакция",
+                    "description": "<p>Менкарэ получает 2 реакции в начале своего хода каждый раунд</p>"
+                },
+                {
+                    "id": "Explosive Breath",
+                    "name": "Взрывное Дыхание",
+                    "description": "<p>Когда Менкарэ использует Атаку Дыханием, он может выпустить вместо конуса взрывную сферу пламени. При этом он выстреливает сферу в угол квадрата в радиусе 60 футов. Шар немедленно детонирует и наносит @Damage[24d6[fire]] (@Check[type:reflex|dc:48|basic:true|name:Explosive Orb|traits:fire]) всем существам в @Template[type:burst|distance:30]. Существа, критически провалившие спасбросок, загораются и получают @Damage[4d6[persistent,fire]].</p>"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Менгкаре дышит одним из двух способов. Он не может снова использовать Атаку Дыханием в течение [[/br 1d4 #Recharge Атака дыханием]]{1d4 раунда}</p><ul><li><strong>Огонь</strong> (`аркана` `эвокация` `огонь`); Менгкаре выдыхает взрыв пламени в @Template[type:cone|distance:80], который наносит @Damage[24d6[fire]]</li></ul><p style=\"text-align: center;\">@Check[type:reflex|dc:46|basic:true|name:Breath Weapon (Flame)]</p><ul><li><strong>Ослабляющий газ</strong> (`аркана` `некромантия`): Дракон выдыхает взрыв ослабляющего газа. Каждое существо в @Template[type:cone|distance:30] должно успешно своершить @Check[type:fortitude|dc:46|name:Breath Weapon (Weakening Gas)] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 4} на 1 минуту (или @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 5} при критическом провале)</li></ul>"
+                }
+            ]
+        },
+        "Manifestation Of Dahak": {
+            "name": "Проявление Дахака",
+            "tokenName": "Дахак",
+            "UUID": "sY47PB9b7nCJjgRq",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Redirect Energy",
+                    "name": "Перенаправление Энергии",
+                    "description": "<p><strong>Триггер:</strong> Существо в радиусе 100ФТ сотворяет заклинание с признаком `кислота`, `холод`, `огонь`, `электричество` или `яд`, или такое заклинание начинает действовать из источника в радиусе 100ФТ</p><hr><p>Проявление Дахака принимает все решения по определению цели, назначения и других эффектов заклинания, как если бы оно было заклинателем.</p>"
+                },
+                {
+                    "id": "6CJRM2LT3a7O3Hhp",
+                    "name": "Сжимать",
+                    "description": "<p>Урон: @Damage[(2d10+10)[bludgeoning],(2d6)[fire]]</p><p>Спас.: @Check[type:fortitude|basic:true|dc:48]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Dragonstorm Breath",
+                    "name": "Атака Драконим Штормом",
+                    "description": "<p>Проявление Дахака выдыхает взрыв энергии драконьего шторма, который наносит @Damage[5d6[acid],5d6[cold],5d6[electricity],5d6[fire],5d6[poison]] в @Template[type:cone|distance:60]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:48|basic:true|traits:fire,acid,cold,electricity,poison]</p><p>Перезарядка: [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 Раундов}</p><section class=\"secret\"><p>It can't use Dragonstorm Breath again for [[/br 1d4 #Recharge Dragonstorm Breath]]{1d4 rounds}</p></section>"
+                },
+                {
+                    "id": "Focused Breath Weapon",
+                    "name": "Фокусировать Драконий Шторм",
+                    "description": "<p>Проявление выдыхает взрыв энергии, наносящий 12d12 урона в @Template[type:line|distance:90] (@Check[type:reflex|dc:44|basic:true] ). Тип урона, наносимого этим Атака Дыханием, может быть @Damage[12d12[acid]]{кислота}, @Damage[12d12[cold]]{холод}, @Damage[12d12[electricity]]{электричество}, @Damage[12d12[fire]]{огонь} или @Damage[12d12[poison]]{яд}, по выбору Проявления при атаке.</p><p>Проявление не может использовать Фокусированный Драконий Шторм повторно в течение 2 раундов, а когда оно использует Фокусированный Драконий Шторм в следующий раз, оно должно нанести другой тип урона, чем при предыдущем использовании.</p>"
+                },
+                {
+                    "id": "Imprisoned",
+                    "name": "Заключенный",
+                    "description": "<p>Проявление Дахака не может физически покинуть Адамантвую Топь до тех пор, пока не возникнут особые условия. Эффекты планетарных путешествий не позволяют ему вырваться и не могут изгнать его из Адамантивой Топи.</p>"
+                },
+                {
+                    "id": "Dragonstorm Aura",
+                    "name": "Аура Драконьего Шторма",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}: 10</p><p>Спас.: @Check[type:reflex|dc:45|basic:true]</p><p>Урон: @Damage[2d6[acid],2d6[cold],2d6[electricity],2d6[fire],2d6[poison]]</p>"
+                },
+                {
+                    "id": "WsUJjMncNN9DWybk",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>@Template[type:emanation|distance:120]{120} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура} @Check[type:will|dc:45]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Tarrasque, The Armageddon Engine": {
+            "name": "Тарраск, Орудие Армагеддона",
+            "tokenName": "Тарраск",
+            "description": "<p>Самым могущественным отродьем является Тарраск, чья легенда распространилась по бесчисленным мирам за пределами Голариона. Уничтожение им государства Ниншабур и поход по Авистану в -632 AR завершились разрушением города Полета Шори в Кхо, прежде чем это отродье было запечатано в отдаленной пещере.</p><hr><p>Эти отродья - титанические ужасы огромных размеров и силы, живущие только для того, чтобы уничтожать. Тараск и Ксотани - лишь двое из отродий Ровагуга. Другие, включая Хемнозита (Червь-Монарх), Котогаза (Танец Дисгармонии) и Волнагура (Певец Конца), занимают ужасающие места в истории различных регионов, но самым известным является Улунат (Несвятой Первый), чья жукоподобная туша до сих пор лежит в Сотисе, столице Осириона.</p>",
+            "UUID": "5r2S6FeE6D1Oh66T",
+            "actorLink": true,
+            "tokenvision": true,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Reflect",
+                    "name": "Отражение",
+                    "description": "<p><strong>Триггер:</strong> Отражается эффект от панциря Тарраска</p><hr><p>Эффект перенаправляется обратно в его источник</p>"
+                },
+                {
+                    "id": "Carapace",
+                    "name": "Панцирь",
+                    "description": "<p>Тарраск невосприимчив к конусам, линиям, лучам и заклинанию @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]. Эти эффекты безвредно отражаются от его панциря.</p>"
+                },
+                {
+                    "id": "Regeneration 50",
+                    "name": "Регенерация 50",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "x7eL2M3jSBwA2oka",
+                    "name": "Устрашающее Присутствие",
+                    "description": "<p>@Template[type:emanation|distance:300]{300} @Compendium[pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура} @Check[type:will|dc:39]</p><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "XZIP4xIGRqQ4M88R",
+                    "name": "Неумолимый",
+                    "description": "<p>Тараск восстанавливается от состояний @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен} и @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен} в конце своего хода. Он также невосприимчив к штрафам, накладываемым на скорость, и игнорирует сложную местность и особо сложную местность.</p>"
+                },
+                {
+                    "id": "Reactive",
+                    "name": "Реактивный",
+                    "description": "<p>Тарраск получает 3 реакции каждый раунд. Он по-прежнему может использовать только одну реакцию за триггер.</p>"
+                },
+                {
+                    "id": "Destructive Frenzy",
+                    "name": "Разрушительное Безумие",
+                    "description": "<p>Тарраск наносит удар Челюстями, два удара Когтями, два удара Рогом и один удар Хвостом в любом порядке.</p>"
+                },
+                {
+                    "id": "3U0dwrOeAIosNI9e",
+                    "name": "Проглотить целиком",
+                    "description": "<p>Размер: Огромный</p><p>Урон: @Damage[(10d6+12)[bludgeoning],(10d6)[acid]]</p><p>Разрыв: 50</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+                },
+                {
+                    "id": "M4OptJYHoUkyQh2f",
+                    "name": "Растоптать",
+                    "description": "<p>Размер: Огромный</p><p>Урон: Когти</p><p>Спас.: @Check[type:reflex|basic:true|dc:49]</p><p>Тарраск во время Растоптать, совершает Перемещение до трех его Скоростей</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+                },
+                {
+                    "id": "Fast Swallow",
+                    "name": "Быстро Проглотить",
+                    "description": "<p><strong>Триггер:</strong> Тарраск держит существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен} в своих челюстях</p><hr><p>Тарраск совершает Проглотить Целиком</p>"
+                },
+                {
+                    "id": "Spine Volley",
+                    "name": "Залп Шипов",
+                    "description": "<p>Тарраск бросает шипы в @Template[type:cone|distance:120], нанося @Damage[(3d10+20)[piercing]] каждому существу в области</p><p style=\"text-align: center;\">@Check[type:reflex|dc:53|basic:true]</p><p>Перезарядка: [[/br 1d4 #Recharge Spine Залповое]]{1d4 Раунда}</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Damurdiel's Vengeance": {
+            "name": "Месть Дамурдиэля",
+            "tokenName": "Месть Дамурдиэля",
+            "img": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+            "tokenImg": "icons/skills/melee/maneuver-sword-katana-yellow.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
             "randomImg": false,
-            "classDC": {
-                "value": 50
-            }
+            "hstealth": "<p>(Легенда) или КС_47, чтобы заметить, как кинжал, оставленный в бассейне, начинает двигаться сам по себе</p>",
+            "hdisable": "<p>@Check[type:deception|dc:45] (Легенда), чтобы притвориться Эрвениссом и попросить прощения</p><p>@Check[type:diplomacy|dc:45] (Легенда), чтобы убедить Дамурдиэля встать (эльфы, которые являются мастерами в Дипломатии, могут попробовать проверку, как если бы они были Легендыми)</p><p>@Check[type:religion|dc:40] (Легенда), чтобы возвать к Калистрии и успокоить дух Дамурдиэля.</p>",
+            "hdescription": "<p>Эльфийская женщина в халате встает в воде. Она приглашает всех, кто входит в комнату, присоединиться к ней в бассейне.</p>",
+            "hreset": "<p>Дух Дамурдиэль затихает, когда ее уничтожают или если ей удается снизить Очки Здоровья существа до 0. Она возвращается через 1 минуту.</p>",
+            "hroutine": "<p>(3 Действия) Призрак совершает Удары Кинжалом</p>",
+            "items": [
+                {
+                    "id": "QVKGD3jLsVMeTZzu",
+                    "name": "Неожиданный Удар",
+                    "description": "<p>Триггер: Существо приближается к краю бассейна на расстояние 5 футов</p><hr><p>Призрак заставляет кинжал подняться из воды и метнуть его в сторону спровоцировавшее существо. Если атака попадает в цель, то вместо этого она становится критической. Затем призрак бросает инициативу.</p>"
+                },
+                {
+                    "id": "zgALCNYNRMkV6Bhv",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Dragonstorm": {
+            "name": "Драконий Шторм",
+            "tokenName": "Драконий Шторм",
+            "img": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
+            "tokenImg": "icons/magic/air/wind-tornado-funnel-damage-blue.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "randomImg": false,
+            "hstealth": "<p>(Легенда)</p>",
+            "hdisable": "<p>Драконий Шторм нельзя отключить - его можно только пережить. Он заканчивается только после завершения атаки на Бричхилл и Цитадель Алтерейн</p>",
+            "hdescription": "<p>В небе над Брихиллом и Цитаделью Алтерейн бушует мощный шторм. По мере того как начинаются конкретные события в рамках трех волн возмездия Проявления, Драконий Шторм сеет локальные разрушения.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Localized Dragonstorm",
+                    "name": "Область Драконьего Шторма",
+                    "description": "<p><strong>Триггер:</strong> Начинается новая волна</p><hr><p><strong>Бросок</strong> [[/r 1d10]], чтобы определить, какой эффект проявится из следующих возможностей. Размещение этих эффектов определяется Проявление Дахака, и они должны проявиться в наиболее пагубных для ПИ местах.</p>"
+                },
+                {
+                    "id": "1-2 Acid Rain",
+                    "name": "1-2 Кислотный Дождь",
+                    "description": "<p>Поток кислоты обливает существ в @Template[type:burst|distance:20]. Существа в области получают @Damage[6d10[acid]] (@Check[type:reflex|dc:42|basic:true] спасбросок). Существа, получившие критический урон, также получают @Damage[5[persistent,acid]] урона.</p>"
+                },
+                {
+                    "id": "3-4 Freezing Wind",
+                    "name": "3-4 Ледяной Ветер",
+                    "description": "<p>Шквал ледяного ветра и града обрушивается на всех существ в @Template[type:burst|distance:20]. Существа в области получают @Damage[3d10[cold],3d10[bludgeoning]] (@Check[type:reflex|dc:42|basic:true]). Существа, получившие критический провал, получают @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд</p>"
+                },
+                {
+                    "id": "5-6 Bolts of Lightning",
+                    "name": "5-6 Удары Молний",
+                    "description": "<p>Несколько молний поражают всех существ в @Template[type:burst|distance:20]. Существа в области получают @Damage[6d10[electricity]] (@Check[type:reflex|dc:42|basic:true]). Существа, критически провалившие спасбросок, получают @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] и @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] на 1 раунд.</p>"
+                },
+                {
+                    "id": "7-8 Flaming Vortex",
+                    "name": "7-8 Пламенный Вихрь",
+                    "description": "<p>Струи пламени падают на всех существ в @Template[type:burst|distance:20]. Существа в области получают @Damage[6d10[fire]] (@Check[type:reflex|dc:42|basic:true]). Существа, критически провалившие спасбросок, также получают @Damage[5[persistent,fire]] урона.</p>"
+                },
+                {
+                    "id": "9-10 Poison Miasma",
+                    "name": "9-10 Миазма Яда",
+                    "description": "<p>Ядовитый туман клубится, накрывая @Template[type:burst|distance:20] на 1 раунд. Существа внутри тумана становятся @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Скрытыми}, а существа за его пределами становятся скрытыми для существ внутри него. Существа, находящиеся в тумане, получают @Damage[6d10[poison]] (@Check[type:fortitude|dc:42|basic:true]). Существа, критически провалившие спасбросок, становятся @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2}.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+        },
+        "Lesser Dragonstorm": {
+            "name": "Малый Драконий Шторм",
+            "tokenName": "Малый Драконий Шторм",
+            "img": "icons/creatures/reptiles/dragon-winged-blue.webp",
+            "tokenImg": "icons/creatures/reptiles/dragon-winged-blue.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "randomImg": false,
+            "hstealth": "<p>(Легенда)</p>",
+            "hdisable": "<p>@Check[type:religion|dc:40|name:Call for Divine Intervention] (Легенда), чтобы воззвать к незлому божеству о прямом вмешательстве, чтобы рассеять Драконий Шторм (молитвы к Апсу позволяют персонажам, которые являются мастерами в Религии, пытаться выполнить проверку, как если бы они были легенда)</p><p>@Check[type:thievery|dc:42|name:Deactivate Vengegate|traits:action:disable-a-device] (Легенда), чтобы деактивировать Врата Мести, пока проявление заставляет их открыться</p><p>Успешное @UUID[Compendium.pf2e.spells-srd.9HpwDN4MYQJnW0LG] (Ранг 10 КС_40), чтобы противодействовать Драконьему Шторму.</p>",
+            "hdescription": "Малый драконий шторм - вихрь ветра, наполненный огнем, кислотой, молнией, ядом и льдом, - наполняет Кольцо Альсеты.",
+            "hreset": "",
+            "hroutine": "<p>(1 действие) По своей инициативе Малый Драконий Шторм протягивает руку и взрывает все существа в пределах кольца Альсеты. Существа получают @Damage[2d8[acid],2d8[cold],2d8[electricity],2d8[fire],2d8[poison]]{10d8 Урона} (@Check[type:reflex|dc:46|basic:true]), равномерно распределенного между кислотой, холодом, огнем, электричеством и ядом. Существа, провалившие спасбросок, отталкивается на 20 футов к центру Кольца Альсеты (или при критическом провале падают ничком и отталкиваются на 30 футов). Через 10 раундов Малый драконий шторм уничтожается, но в окрестностях появляется гораздо больший Драконий шторм</p>",
+            "items": [
+                {
+                    "id": "Manifest Lesser Dragonstorm",
+                    "name": "Проявление Малого Драконьего Шторма",
+                    "description": "<p><strong>Триггер</strong> Существо пытается активировать Врата мести</p><hr><p>Путь внутри Кольца Альсеты заполняется драконьим штормом. Существа в этой области получают @Damage[2d8[acid],2d8[cold],2d8[electricity],2d8[fire],2d8[poison]]{10d8 Урона}, поровну разделенного между кислотой, холодом, электричеством, огнем и ядом.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
         }
     }
 }
