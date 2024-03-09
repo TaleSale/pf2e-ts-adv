@@ -1,3 +1,23 @@
-2024/03/05-21:20:36.840 1178 Recovering log #3155
-2024/03/05-21:20:36.908 1178 Delete type=0 #3155
-2024/03/05-21:20:36.909 1178 Delete type=3 #3153
+2024/03/09-09:05:59.600 17e4 Recovering log #3205
+2024/03/09-09:05:59.723 17e4 Delete type=0 #3205
+2024/03/09-09:05:59.724 17e4 Delete type=3 #3204
+2024/03/09-09:33:15.096 10bc Level-0 table #3209: started
+2024/03/09-09:33:15.321 10bc Level-0 table #3209: 2105362 bytes OK
+2024/03/09-09:33:15.396 10bc Delete type=0 #3207
+2024/03/09-09:33:15.397 10bc Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/03/09-09:33:15.397 10bc Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!WIXDAXijy2djIy9b' @ 100 : 1
+2024/03/09-09:33:15.397 10bc Compacting 1@1 + 5@2 files
+2024/03/09-09:33:15.688 10bc Generated table #3210@1: 7 keys, 2313852 bytes
+2024/03/09-09:33:16.005 10bc Generated table #3211@1: 1 keys, 3620781 bytes
+2024/03/09-09:33:16.398 10bc Generated table #3212@1: 5 keys, 4211206 bytes
+2024/03/09-09:33:16.821 10bc Generated table #3213@1: 7 keys, 2932969 bytes
+2024/03/09-09:33:17.171 10bc Generated table #3214@1: 6 keys, 2933476 bytes
+2024/03/09-09:33:17.171 10bc Compacted 1@1 + 5@2 files => 16012284 bytes
+2024/03/09-09:33:17.211 10bc compacted to: files[ 0 0 11 0 0 0 0 ]
+2024/03/09-09:33:17.211 10bc Delete type=2 #3147
+2024/03/09-09:33:17.248 10bc Delete type=2 #3148
+2024/03/09-09:33:17.248 10bc Delete type=2 #3149
+2024/03/09-09:33:17.249 10bc Delete type=2 #3150
+2024/03/09-09:33:17.249 10bc Delete type=2 #3151
+2024/03/09-09:33:17.250 10bc Delete type=2 #3209
+2024/03/09-09:33:17.251 10bc Manual compaction at level-1 from '!adventures!WIXDAXijy2djIy9b' @ 100 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
