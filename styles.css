@@ -1,34 +1,3 @@
-/*кнопки*/
-.ai-button-wrapper {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 0px;
-  margin-top: -20px; /* Измените это значение для настройки вертикального положения */
-}
-
-.ai-button {
-  font-size: 12px;
-  padding: 2px 2px;
-  border: none;
-  background-color: transparent;
-  color: white;
-  transition: background-color 0.2s ease, color 0.2s ease;
-  cursor: pointer;
-}
-
-.ai-button.active {
-  background-color: green;
-}
-
-
-
-
-
-
-
-
-
 
 /*ЖУРНАЛЫ*/
 .А
@@ -713,48 +682,32 @@ kritproval {
   text-transform: uppercase;
 }
 
-
-/*CSS для переключателя*/
-/* Стили для контейнера переключателя */
-/* Стили для контейнера переключателя */
-.toggle-switch-container {
-  position: absolute;
-  left: 0; /* Расположение в левом нижнем углу */
-  bottom: 0; /* Расположение в левом нижнем углу */
-  z-index: 10;
+.read {
+  cursor:pointer;
+  position:relative;
+  width:auto;
+  z-index:1
+}
+.read:after {
+  background-color:#ffffff;
+  border-left:2px solid #470000;
+  border-radius:5px;
+  border-right:2px solid #470000;
+  color:#ff2424;
+  content:"";
+  display:block;
+  font-family:Font Awesome\ 6 Pro;
+  font-size:10px;
+  font-weight:900;
+  height:16px;
+  line-height:16px;
+  position:absolute;
+  right:-8px;
+  text-align:center;
+  top:-8px;
+  transition:background 1s ease-in-out;
+  transition:background-color 1s ease-in-out;
+  width:16px;
+  text-indent: 2px;
 }
 
-/* Стили для переключателя */
-.toggle-switch {
-  position: relative;
-  display: inline-block;
-  width: 20px; /* Установите нужную ширину */
-  height: 10px; /* Установите нужную высоту */
-  background: #4CAF50; /* Начальный цвет фона - зеленый */
-  border-radius: 10px;
-  transition: background-color 0.2s;
-  cursor: pointer;
-}
-
-/* Стили при активации переключателя */
-.toggle-switch.active {
-  background-color: #ff0000; /* Фон переключается на красный */
-}
-
-
-/* Стили для ползунка */
-.toggle-slider {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%) translateX(0); /* Центрирование по вертикали и горизонтали */
-  width: 14px; /* Установите нужную ширину */
-  height: 14px; /* Установите нужную высоту */
-  background-color: #A9A9A9; /* Темно-серый цвет ползунка */
-  border-radius: 50%;
-  transition: transform 0.2s, background-color 0.2s;
-}
-
-/* Перемещаем ползунок при активации переключателя */
-.toggle-switch.active .toggle-slider {
-  transform: translateY(-50%) translateX(10px); /* Смещение вправо, сохраняя центрирование по вертикали */
-}
