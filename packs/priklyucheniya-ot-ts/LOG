@@ -1,3 +1,25 @@
-2024/03/11-09:28:21.830 3154 Recovering log #3258
-2024/03/11-09:28:21.985 3154 Delete type=0 #3258
-2024/03/11-09:28:21.985 3154 Delete type=3 #3257
+2024/03/15-08:34:34.662 1ac Recovering log #3296
+2024/03/15-08:34:34.795 1ac Delete type=0 #3296
+2024/03/15-08:34:34.795 1ac Delete type=3 #3295
+2024/03/15-09:53:34.598 2468 Level-0 table #3300: started
+2024/03/15-09:53:34.754 2468 Level-0 table #3300: 1687338 bytes OK
+2024/03/15-09:53:34.799 2468 Delete type=0 #3298
+2024/03/15-09:54:44.318 2468 Level-0 table #3302: started
+2024/03/15-09:54:44.972 2468 Level-0 table #3302: 4179280 bytes OK
+2024/03/15-09:54:45.052 2468 Delete type=0 #3299
+2024/03/15-09:54:45.053 2468 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/03/15-09:54:45.053 2468 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!Pf0iu98egmBJQoab' @ 112 : 1
+2024/03/15-09:54:45.056 2468 Compacting 1@1 + 1@2 files
+2024/03/15-09:54:45.454 2468 Generated table #3303@1: 5 keys, 5117345 bytes
+2024/03/15-09:54:45.457 2468 Compacted 1@1 + 1@2 files => 5117345 bytes
+2024/03/15-09:54:45.498 2468 compacted to: files[ 0 1 13 0 0 0 0 ]
+2024/03/15-09:54:45.498 2468 Delete type=2 #3212
+2024/03/15-09:54:45.499 2468 Delete type=2 #3302
+2024/03/15-09:54:45.499 2468 Manual compaction at level-1 from '!adventures!Pf0iu98egmBJQoab' @ 112 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!f1gUAKTPDODiAyl8' @ 110 : 1
+2024/03/15-09:54:45.499 2468 Compacting 1@1 + 1@2 files
+2024/03/15-09:54:45.810 2468 Generated table #3304@1: 7 keys, 3390149 bytes
+2024/03/15-09:54:45.811 2468 Compacted 1@1 + 1@2 files => 3390149 bytes
+2024/03/15-09:54:45.843 2468 compacted to: files[ 0 0 13 0 0 0 0 ]
+2024/03/15-09:54:45.844 2468 Delete type=2 #3185
+2024/03/15-09:54:45.845 2468 Delete type=2 #3300
+2024/03/15-09:54:45.847 2468 Manual compaction at level-1 from '!adventures!f1gUAKTPDODiAyl8' @ 110 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

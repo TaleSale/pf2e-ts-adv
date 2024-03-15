@@ -4339,8 +4339,8 @@
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "<p>(Мастер)</p>",
-            "hdisable": "",
-            "hdescription": "",
+            "hdisable": "<p>@Check[type:thievery|dc:43|name:Disable the Wards|traits:magical,trap] (Мастер) для отключение глифов</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Противодействие Ранг 9 КС_38)</p>",
+            "hdescription": "<p>Линии пылающей лавы пронзают область, вызывая у целей дрожь, как будто они пойманы в землетрясении, и потенциально могут быть окаменевшими</p>",
             "hreset": "<p>Ловушка перезапускается через 1 минуту</p>",
             "hroutine": "",
             "items": [
