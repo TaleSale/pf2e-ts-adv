@@ -567,7 +567,7 @@ tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
 }
 
 .ts-spisok { /* _ <span class="Список"> */
-  color: darkblue;
+  color: rgb(2, 2, 39);
   font-weight: bold;
 }
 

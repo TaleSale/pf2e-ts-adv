@@ -1,3 +1,25 @@
-2024/03/15-00:20:30.187 3080 Recovering log #3293
-2024/03/15-00:20:30.363 3080 Delete type=0 #3293
-2024/03/15-00:20:30.421 3080 Delete type=3 #3291
+2024/03/17-17:53:57.721 c68 Recovering log #3333
+2024/03/17-17:53:57.772 c68 Delete type=0 #3333
+2024/03/17-17:53:57.772 c68 Delete type=3 #3332
+2024/03/17-20:01:24.748 2228 Level-0 table #3337: started
+2024/03/17-20:01:24.903 2228 Level-0 table #3337: 1533856 bytes OK
+2024/03/17-20:01:24.942 2228 Delete type=0 #3335
+2024/03/17-20:02:11.133 2228 Level-0 table #3339: started
+2024/03/17-20:02:11.357 2228 Level-0 table #3339: 766928 bytes OK
+2024/03/17-20:02:11.389 2228 Delete type=0 #3336
+2024/03/17-20:02:11.502 2228 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!9UJp1HH2rQmAZHnD' @ 116 : 1
+2024/03/17-20:02:11.502 2228 Compacting 1@0 + 1@1 files
+2024/03/17-20:02:11.695 2228 Generated table #3340@0: 1 keys, 766928 bytes
+2024/03/17-20:02:11.695 2228 Compacted 1@0 + 1@1 files => 766928 bytes
+2024/03/17-20:02:11.851 2228 compacted to: files[ 0 1 13 0 0 0 0 ]
+2024/03/17-20:02:11.852 2228 Delete type=2 #3337
+2024/03/17-20:02:11.852 2228 Delete type=2 #3339
+2024/03/17-20:02:12.061 2228 Manual compaction at level-0 from '!adventures!9UJp1HH2rQmAZHnD' @ 116 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/03/17-20:02:12.061 2228 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!9UJp1HH2rQmAZHnD' @ 116 : 1
+2024/03/17-20:02:12.061 2228 Compacting 1@1 + 1@2 files
+2024/03/17-20:02:12.485 2228 Generated table #3341@1: 6 keys, 2174781 bytes
+2024/03/17-20:02:12.485 2228 Compacted 1@1 + 1@2 files => 2174781 bytes
+2024/03/17-20:02:12.710 2228 compacted to: files[ 0 0 13 0 0 0 0 ]
+2024/03/17-20:02:12.710 2228 Delete type=2 #3331
+2024/03/17-20:02:12.711 2228 Delete type=2 #3340
+2024/03/17-20:02:12.711 2228 Manual compaction at level-1 from '!adventures!9UJp1HH2rQmAZHnD' @ 116 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
