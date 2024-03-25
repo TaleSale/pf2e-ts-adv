@@ -219,8 +219,8 @@
             ]
         },
 		"Blood of Belcorra": {
-			"name": "Кровь Белькорры",
-            "tokenName": "Кровь Белькорры",
+			"name": "Кровь Белкорры",
+            "tokenName": "Кровь Белкорры",
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "hstealth": "<p>(Эксперт)</p>",
@@ -3237,6 +3237,42 @@
                 }
             ]
 		},
+        "Этаж 8================================================================================================": {
+            "name": "==========================================================================================="
+        },
+        "Child of Belcorra": {
+			"name": "Чада Белкорры"
+		},
+        "Dragon's Blood Puffball": {
+			"name": "Гриб \"Драконья Кровь\""
+		},
+        "Dread Wisp": {
+			"name": "Жуткий Огонёк"
+		},
+        "Drow Hunter": {
+			"name": "Дроу-Охотник"
+		},
+        "Drow Warden": {
+			"name": "Дроу-Защитник"
+		},
+        "Dulac": {
+			"name": "Дюлак"
+		},
+        "Elder Child of Belcorra": {
+			"name": "Старший Чад Белкорры"
+		},
+        "Murmur": {
+			"name": "Бормотунья"
+		},
+        "Nyzuros": {
+			"name": "Низурос"
+		},
+        "Padli": {
+			"name": "Падли"
+		},
+        "Urthagul": {
+			"name": "Уртагул"
+		},
 
 
 
@@ -3374,14 +3410,7 @@
 			"senses": "greater darkvision",
 			"hp": "death flame"
 		},
-		"Child of Belcorra": {
-			"name": "Child of Belcorra",
-			"Cdescription": "<p>Практика мумификации мертвых в разных культурах - не единственный способ сохранения тела, и не единственный путь, приводящий к появлению этих распространяющих болезни неживых чудищ.</p>\n<p>Болотные мумии (также называемые торфяными мумиями или трясинными мумиями) редко покидают свои болотные владения, или вообще никогда. Менее сильные, чем их более известные искусственно сохраненные сородичи, болотные мумии сохраняются не веществами, вводимыми во время ритуалов, а природными элементами, присутствующими в безвоздушной, кислой среде торфяника или илистого болота. Хотя трупы, сохраненные таким образом, действительно могут восстать из трясины в виде болотных мумий из-за проклятия злых сил или направленного воздействия некроманта, подавляющее большинство из них оживает от бурлящей жажды отомстить или преследуя какую-то страшную цель, оставшуюся незавершенной на момент смерти - чаще всего, потому что существо было убито или предано. Природа этой эмоциональной привязки к жизни и сила эмоций умершего заставляют его существовать после смерти, а консервирующие свойства болота, в котором было тело, делают все остальное.</p>\n<p>Хотя большинство болотных мумий ведомы местью, многие из них реализуют свои темные желания с помощью общего насилия. Исполненные гнева и ненависти к живому, они безжалостно нападают на всех живых существ, которые осмеливаются забрести в их мрачные владения. Их мучительные стоны эхом разносятся над их гниющими жилищами, отгоняя большинство обитающих там живых существ и часто предупреждая путешественников о потенциальной опасности, скрывающейся под поверхностью.</p>\n<hr />\n<p>В то время как во многих культурах мумификация умерших практикуется по благим причинам, мумии-нежить создаются с помощью нечестивых ритуалов, обычно, для создания вечно бдительных стражей.</p>\n<p>Универсальность мумификации позволяет создавать мумии с помощью самых разных методов - природных, ритуальных, алхимических, а также их комбинаций.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision, tremorsense (imprecise) 30 feet",
-			"hp": "void healing"
-		},
+
 		"Daemonic Fog": {
 			"name": "Daemonic Fog",
 			"Hdescription": "<p>The fog solidifies into tiny, gnawing creatures that devour everyone within before fading back into mist.</p>",
@@ -3415,14 +3444,6 @@
 			"senses": "darkvision, wavesense (imprecise) 60 feet",
 			"hp": ""
 		},
-		"Dragon's Blood Puffball": {
-			"name": "Dragon's Blood Puffball",
-			"Cdescription": "<p>This bulbous, deep red fungus looks like an enormous, decaying rose.</p>\n<hr />\n<p>Many benign puffball fungi cling to the detritus of forest floors in Darklands caverns. These fungi's giant versions are more mobile and dangerous.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "motion sense 60 feet, no vision",
-			"hp": ""
-		},
 		"Dread Dhuthorex": {
 			"name": "Dread Dhuthorex",
 			"Cdescription": "<p>More intelligent than their lesser kin, dread dhuthorexes possess eerie, enchanting powers.</p>\n<hr />\n<p>Strange things swim in sunless seas, but few as fierce as the shark-like dhuthorexes. These beasts chase prey fearlessly and tenaciously.</p>",
@@ -3431,25 +3452,9 @@
 			"senses": "darkvision, wavesense (imprecise) 60 feet",
 			"hp": ""
 		},
-		"Dread Wisp": {
-			"name": "Dread Wisp",
-			"Cdescription": "<p>Will-o'-wisps native to the Darklands are more ominous and malevolent than those that bob about in the lonely marshes and surfaces of the upper world. These dread wisps instill terror with eerie shifts of light and consume the fear they create, drawing life energy from their victims in the process. While dread wisps can survive anywhere within the Darklands, they prefer moist areas like partially submerged caves, the banks of underground rivers, and towering fungus gardens.</p>\n<p>Dread wisps don't glow as brightly as surface will-o'-wisps because even the dimmest light attracts notice underground. Long-lived and hateful creatures, they remember vivid details about their lives, travels, and most delicious prey. Although dread wisps could share extensive lore and unique experiences, they don't, as they find amusement in others' ignorance.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": "void healing"
-		},
 		"Drow Cavern Seer": {
 			"name": "Drow Cavern Seer",
 			"Cdescription": "",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": ""
-		},
-		"Drow Hunter": {
-			"name": "Drow Hunter",
-			"Cdescription": "<p>Hunters seek out game to keep drow communities fed and functioning.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
 			"CdescriptionGM": "",
 			"language": "",
 			"senses": "darkvision",
@@ -3462,30 +3467,6 @@
 			"language": "",
 			"senses": "darkvision",
 			"hp": ""
-		},
-		"Drow Warden": {
-			"name": "Drow Warden",
-			"Cdescription": "<p>Wardens watch over drow encampments and often work in small groups.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": ""
-		},
-		"Dulac": {
-			"name": "Dulac",
-			"Cdescription": "",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "greater darkvision",
-			"hp": "death shadows"
-		},
-		"Elder Child of Belcorra": {
-			"name": "Elder Child of Belcorra",
-			"Cdescription": "",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision, tremorsense (imprecise) 30 feet",
-			"hp": "void healing"
 		},
 		"Galudu": {
 			"name": "Galudu",
@@ -3529,14 +3510,6 @@
 			"senses": "darkvision, see invisibility, true seeing",
 			"hp": "void healing"
 		},
-		"Murmur": {
-			"name": "Murmur",
-			"Cdescription": "<p>Monstrous humanoids that resemble humans with snakes instead of hair, medusas are best known for their petrifying gazes that-if lingered upon-can permanently transform mortals to stone. Medusas are shrewd and manipulative adversaries who collect and covet secrets, and who use threats and guile to exploit the fears of weaker creatures. A medusa may seek out powerful magic items, use divination magic to discover secret knowledge and unlock forbidden power, or infiltrate a society to beguile influential politicians. Their ability to worm their way into powerful organizations makes them natural leaders of criminal outfits and thieves' guilds, and their interest in magical phenomena leads some to pursue careers as oracles who offer to help adventurers find what they seek-for a price. Of course, if wit and deception proves insufficient, a medusa can always simply turn rivals into ornate stone decorations with little more than a glare.</p>\n<p>Exceptionally agile and surprisingly hardy, a medusa rarely backs down from a conflict even when cornered. Many adventurers who thought themselves readied to resist the effects of a medusa's gaze have nevertheless fallen to a medusa, as these creatures are also often deadly archers able to riddle their foes with venom-coated arrows from a distance. Still, a medusa may barter for their life if no alternatives remain, and the secrets carried by these powerful villains often make it more than worth sparing the monster's life.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": ""
-		},
 		"Nhimbaloth's Cutter": {
 			"name": "Nhimbaloth's Cutter",
 			"Cdescription": "<p>Crafted of hardened glass and held together by magically treated lead, glass golems are both deadly guardians and works of exquisite art. Glass golems most often protect grand cathedrals or opulent palaces-testaments to the wealth and power of those they serve, or once served. Once spurred into action by the commands of their creators, glass golems are quicker and more agile than most other golems. Their sharp, blade-like limbs can easily sever veins and arteries, creating wounds that bleed profusely.</p>\n<p>Of all the various types of golems, the glass golem is the one most akin to a work of art. Just as powerful aristocrats might use an ice golem for temperature regulation or a wood golem as an ego-boosting statue, a glass golem's colorful glass construction can elevate the beauty of any chamber by its mere presence.</p>",
@@ -3545,22 +3518,6 @@
 			"senses": "darkvision",
 			"hp": "",
 			"di": "Magic (see Golem Antimagic)"
-		},
-		"Nyzuros": {
-			"name": "Nyzuros",
-			"Cdescription": "<p>Hunters seek out game to keep drow communities fed and functioning.</p>\n<hr />\n<p>Drow have a reputation for evil due to demon worship in their major settlements. However, like members of any ancestry, drow can have any alignment, especially when removed from the demon lords' sinister influence.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": ""
-		},
-		"Padli": {
-			"name": "Padli",
-			"Cdescription": "",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "greater darkvision",
-			"hp": "death flame"
 		},
 		"Poisoning Room Specter": {
 			"name": "Poisoning Room Specter",
@@ -3617,14 +3574,6 @@
 			"language": "",
 			"senses": "greater darkvision",
 			"hp": "void healing"
-		},
-		"Urthagul": {
-			"name": "Urthagul",
-			"Cdescription": "<p>A gug's most horrid feature is its barrel-shaped head, which splits vertically to reveal numerous rows of sharp, yellow teeth and an open throat. Its eyes on either side of its head-jaw are small but keen. Bony ridges protect its eyes from the frantic flailing of its prey, as it prefers meals of raw and writhing meat over fungi and molds. It grips said prey with powerful arms that split at the elbow into a pair of forearms, giving it four clawed paws. These monstrous brutes are covered with shaggy black fur, often crusted with blood and gore.</p>\n<p>Although gugs may seem bestial, they have keen and wicked intellects. Gugs lair far underground, but they sometimes come to the surface to hunt during dark nights, either alone or in small groups. As they possess voracious appetites, most gugs consume the creatures they catch, but some instead kidnap their victims and retreat below the surface, leaving only a lingering stench and odd, clawed paw-prints. Victims are taken to rancid lairs marked with strange runes and sacrificed to the gugs' wicked gods of blood, darkness, and nightmares. Dire rumors tell of lightless gug cities made of titanic blocks of stone far underground, where powerful gug leaders preach their vile doctrines to mobs of howling gugs.</p>\n<p>Gugs have a strange relationship with ghouls, which seems to date from their shared origin in a distant subterranean world. Gugs live in fear of ghouls, despite towering over them; however, this strange fear doesn't apply to ghasts, whom gugs consume as voraciously as they do other creatures.</p>\n<p>Gugs stand 16 feet tall and weigh 2,000 pounds, although they have an eerie, graceful gait that belies their immense size. Their light step and ability to squeeze through very small crannies makes gugs common bogeymen in tales of strange disappearances or bloody massacres.</p>\n<p>Some particularly bloodthirsty gugs gain awful powers as gifts from their eldritch patrons. These monsters are known as savants, are never less than 12th level in power, and gain several occult innate spells. Though each savant's precise mix of spells varies, normally, these spells grant invisibility, offer power to manipulate and change rock, or invoke awful and destructive energies upon living flesh.</p>",
-			"CdescriptionGM": "",
-			"language": "",
-			"senses": "darkvision",
-			"hp": ""
 		},
 		"Voidbracken Chuul": {
 			"name": "Voidbracken Chuul",
