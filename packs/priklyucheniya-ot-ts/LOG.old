@@ -1,3 +1,26 @@
-2024/04/16-08:40:37.379 710 Recovering log #3589
-2024/04/16-08:40:37.465 710 Delete type=0 #3589
-2024/04/16-08:40:37.465 710 Delete type=3 #3588
+2024/06/22-09:10:06.566 1bf4 Recovering log #3984
+2024/06/22-09:10:06.692 1bf4 Delete type=0 #3984
+2024/06/22-09:10:06.693 1bf4 Delete type=3 #3983
+2024/06/22-10:30:22.169 d88 Level-0 table #3988: started
+2024/06/22-10:30:22.378 d88 Level-0 table #3988: 1749708 bytes OK
+2024/06/22-10:30:22.449 d88 Delete type=0 #3986
+2024/06/22-11:33:07.470 d88 Level-0 table #3990: started
+2024/06/22-11:33:07.756 d88 Level-0 table #3990: 874799 bytes OK
+2024/06/22-11:33:07.803 d88 Delete type=0 #3987
+2024/06/22-11:33:08.036 d88 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!gQY3kYShMp2ChM21' @ 245 : 1
+2024/06/22-11:33:08.036 d88 Compacting 1@0 + 1@1 files
+2024/06/22-11:33:08.345 d88 Generated table #3991@0: 1 keys, 874799 bytes
+2024/06/22-11:33:08.345 d88 Compacted 1@0 + 1@1 files => 874799 bytes
+2024/06/22-11:33:08.443 d88 compacted to: files[ 0 1 12 0 0 0 0 ]
+2024/06/22-11:33:08.443 d88 Delete type=2 #3988
+2024/06/22-11:33:08.444 d88 Delete type=2 #3990
+2024/06/22-11:33:08.444 d88 Manual compaction at level-0 from '!adventures!gQY3kYShMp2ChM21' @ 245 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/06/22-11:33:08.444 d88 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!gQY3kYShMp2ChM21' @ 245 : 1
+2024/06/22-11:33:08.444 d88 Compacting 1@1 + 1@2 files
+2024/06/22-11:33:08.981 d88 Generated table #3992@1: 3 keys, 2756034 bytes
+2024/06/22-11:33:09.461 d88 Generated table #3993@1: 1 keys, 199756 bytes
+2024/06/22-11:33:09.461 d88 Compacted 1@1 + 1@2 files => 2955790 bytes
+2024/06/22-11:33:09.552 d88 compacted to: files[ 0 0 13 0 0 0 0 ]
+2024/06/22-11:33:09.669 d88 Delete type=2 #3868
+2024/06/22-11:33:09.670 d88 Delete type=2 #3991
+2024/06/22-11:33:09.670 d88 Manual compaction at level-1 from '!adventures!gQY3kYShMp2ChM21' @ 245 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

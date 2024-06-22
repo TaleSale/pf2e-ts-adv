@@ -2,22 +2,27 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "6.7.0",
+  "version": "7.0.0",
   "relationships": {
-		"systems": [
-			{
-				"id": "pf2e",
-				"type": "system",
-				"compatibility": {
-					"minimum": "5.13.0"
-				}
-			}
-		]
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "PF2e-Bestiary-Token-Pack",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -26,50 +31,58 @@
       "flags": {}
     }
   ],
-  "type": "module",
-	"scripts": ["babele.js","tsform.js","priznak.js","formattingArray.js","replacePhrasesArray.js","button.js","squard.js"],
- 	"styles": ["styles.css"],
+  "scripts": [
+    "babele.js",
+    "ShadowsatSundown/shadowsatsundown.js"
+  ],
+  "styles": [
+    "styles.css",
+    "ShadowsatSundown/shadowsatsundown.css"
+  ],
   "packs": [
     {
-      "label": "Техническая Папка",
-      "type": "Item",
       "name": "tehnicheskaya-papka",
+      "label": "Техническая Папка",
       "path": "packs/tehnicheskaya-papka",
+      "type": "Item",
       "system": "pf2e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Приключения от TS",
-      "type": "Adventure",
       "name": "priklyucheniya-ot-ts",
-      "path": "packs/priklyucheniya-ot-ts.db",
-      "private": false,
+      "label": "Приключения от TS",
+      "path": "packs/priklyucheniya-ot-ts",
+      "type": "Adventure",
       "system": "pf2e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Pathfinder Flip-Mats",
-      "type": "Scene",
       "name": "pathfinder-flip-mats",
+      "label": "Pathfinder Flip-Mats",
       "path": "packs/pathfinder-flip-mats",
+      "type": "Scene",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     },
     {
-      "label": "Бестиарий TS",
-      "type": "Actor",
       "name": "bestiarij-ts",
+      "label": "Бестиарий TS",
       "path": "packs/bestiarij-ts",
+      "type": "Actor",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+      }
     }
   ],
   "packFolders": [
@@ -81,7 +94,9 @@
         "tehnicheskaya-papka",
         "priklyucheniya-ot-ts",
         "pathfinder-flip-mats"
-      ]
+      ],
+      "color": null,
+      "folders": []
     }
   ],
   "flags": {

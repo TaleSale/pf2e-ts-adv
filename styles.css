@@ -263,30 +263,6 @@
 
 /*АВТО_ОФОРМЛЕНИЕ*/
 
-.ts-sostoyaniya { /* состояния */ /* <span class="Состояния">Состояния</span> */
-    background: rgb(209, 152, 152); /* Цвет фона */
-    padding: 1px; /* Поля вокруг текста */
-    padding-left: 1px; /* Поле слева */
-    padding-right: 1px; /* Поле справа */
-    border-radius: 1px; /* Уголки */
-}
-  
-.ts-obstoyatelstva {   /* Обстоятельства */
-    background: #c7c789; /* Цвет фона */
-    padding: 1px; /* Поля вокруг текста */
-    padding-left: 1px; /* Поле слева */
-    padding-right: 1px; /* Поле справа */
-    border-radius: 1px; /* Уголки */
-}
-  
-.ts-predmeta {   /* <span class=\"ts-predmeta\">Предмета</span> */
-    background: #a2dddd; /* Цвет фона */
-    padding: 1px; /* Поля вокруг текста */
-    padding-left: 1px; /* Поле слева */
-    padding-right: 1px; /* Поле справа */
-    border-radius: 1px; /* Уголки */
-}
-
 tss { /* состояния */ /* <span class="Состояния">Состояния</span> */
   background: rgb(209, 152, 152); /* Цвет фона */
   padding: 1px; /* Поля вокруг текста */
@@ -323,256 +299,8 @@ tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
   padding-right: 2px;
 }
 
-.ts-krituspeh {
-  background: none;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  color: green;
-  display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
-  font-weight: 500;
-  justify-content: center;
-  letter-spacing: .05em;
-  padding: 1px;
-  text-align-last: center;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-uspeh {
-  background: none;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  color: blue;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
-  font-weight: 500;
-  justify-content: center;
-  letter-spacing: .05em;
-  padding: 1px;
-  text-align-last: center;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-proval {
-  background: none;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  color: #ff4500;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
-  font-weight: 500;
-  justify-content: center;
-  letter-spacing: .05em;
-  padding: 1px;
-  text-align-last: center;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-kritproval {
-  background: none;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  color: red;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
-  display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
-  font-weight: 500;
-  justify-content: center;
-  letter-spacing: .05em;
-  padding: 1px;
-  text-align-last: center;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-priznak {
-  align-items: center;
-  background-color: #5e0000;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-mirovoz {
-  align-items: center;
-  background-color: #576293;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-razmer {
-  align-items: center;
-  background-color: #3b7b59;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-obich {
-  align-items: center;
-  background-color: grey;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-neobich {
-  align-items: center;
-  background-color: #98513d;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-redk {
-  align-items: center;
-  background-color: blue;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-unik {
-  align-items: center;
-  background-color: purple;
-  border-radius: 2px;
-  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 50%);
-  color: #fff;
-  display: inline-block;
-  font-family: Roboto,sans-serif;
-  font-size: 0.625rem;
-  font-weight: 500;
-  letter-spacing: .05em;
-  min-height: 1.5em;
-  padding: 1px;
-  text-rendering: optimizeLegibility;
-  text-transform: uppercase;
-}
-
-.ts-uron {
-  background: pink;
-  white-space: nowrap;
-}
-
-.ts-kb {
-  background: hsla(0,0%,100%,.75);
-  color: #5e0000;
-}
-
-.ts-oz {
-  background: hsla(0,0%,100%,.75);
-  color: rgb(56, 117, 56);
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.ts-shma {
-  background: rgb(145, 145, 224);
-  font-family: Roboto,sans-serif;;
-}
-
-.ts-mhk { /* Мод.Харак.Колд. */
-  background: #b186c5; /* Цвет фона */
-  font-family: Roboto,sans-serif;;
-}
-
-.ts-narrativ { /* <p class="Нарратив"> */
-  background-color: #f0ad72;
-}
-
-.ts-utochnit { /* <blockquote> <p class="Уточнить"> */
-  background-color: #fbeeb8;
-}
-
-.ts-razv { /* <p class="Развеять"> */
-  background-color: #e4a3e4;
-}
-
-.ts-immun { /* <p class="Иммун"> */
-  background-color: #bfedd2;
-}
-
-.ts-spisok { /* _ <span class="Список"> */
-  color: rgb(2, 2, 39);
-  font-weight: bold;
-}
-
 u {
-  color: rgb(153, 102, 7);
+  color: rgb(92, 61, 4);
   text-decoration: underline;
 }
 
@@ -604,12 +332,10 @@ purple {
 krituspeh {
   background: none;
   align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   color: green;
   display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.7rem;
   font-weight: 500;
   justify-content: center;
   letter-spacing: .05em;
@@ -622,15 +348,10 @@ krituspeh {
 uspeh {
   background: none;
   align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   color: blue;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.7rem;
   font-weight: 500;
   justify-content: center;
   letter-spacing: .05em;
@@ -643,15 +364,10 @@ uspeh {
 proval {
   background: none;
   align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   color: #ff4500;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.7rem;
   font-weight: 500;
   justify-content: center;
   letter-spacing: .05em;
@@ -664,15 +380,10 @@ proval {
 kritproval {
   background: none;
   align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   color: red;
-  align-items: center;
-  border: 1px solid rgba(0,0,0,.5);
-  border-radius: 2px;
   display: inline-block;
-  font-family: Roboto,sans-serif;;
-  font-size: 0.625rem;
+  font-family: Roboto, sans-serif;
+  font-size: 0.7rem;
   font-weight: 500;
   justify-content: center;
   letter-spacing: .05em;

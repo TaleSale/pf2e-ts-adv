@@ -1,0 +1,230 @@
+{
+	"label": "Семь Бедствий Сэндпоинта",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.vision",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+	"entries": {
+		"Abstalar Zantus": {
+			"name": "Абсталар Зантус"
+		},
+		"Adimar Scarnetti": {
+			"name": "Адимар Скарнетти"
+		},
+		"Aliver \"Pillbug\" Podiker": {
+			"name": "Аливер \"Мокрица\" Подикер"
+		},
+		"Angry Townsfolk": {
+			"name": "Сердитые Горожане"
+		},
+		"Arika Avertin": {
+			"name": "Арика Авертин"
+		},
+		"Ascended Disciple": {
+			"name": "Вознесенный Ученик"
+		},
+		"Asmerelli": {
+			"name": "Асмерелли"
+		},
+		"Charn Scarnetti": {
+			"name": "Чарн Скарнетти"
+		},
+		"Chertus Jheed": {
+			"name": "Чертус Джид"
+		},
+		"Clockwork Serpent": {
+			"name": "Заводной Змей"
+		},
+		"Coloxus": {
+			"name": "Колоксус"
+		},
+		"Cruncher": {
+			"name": "Кранчер"
+		},
+		"Devil's Disciple": {
+			"name": "Ученик Дьявола"
+		},
+		"Divine Warden Of Haagenti": {
+			"name": "Божественный Страж Хаагенти"
+		},
+		"False Devil": {
+			"name": "Ложный Дьявол"
+		},
+		"Fiendish Flock": {
+			"name": "Дьявольская Стая"
+		},
+		"Fungus Tyrant": {
+			"name": "Грибковый Тиран"
+		},
+		"Geist": {
+			"name": "Гейст"
+		},
+		"Ghast Cultist": {
+			"name": "Гаст-Культист"
+		},
+		"Giant Longlegs": {
+			"name": "Гигантский Долгоножка"
+		},
+		"Glorkus": {
+			"name": "Глоркус"
+		},
+		"Goblin Ghoul": {
+			"name": "Гуль (Гоблин)"
+		},
+		"Gorlak": {
+			"name": "Горлак"
+		},
+		"Greedspawn": {
+			"name": "Порождение Жадности"
+		},
+		"Gurlunk": {
+			"name": "Гурлунк"
+		},
+		"Iazmilor": {
+			"name": "Язмилор"
+		},
+		"Isphinn": {
+			"name": "Исфинн"
+		},
+		"Jervis Stoot": {
+			"name": "Джервис Стут"
+		},
+		"Jordus Munt": {
+			"name": "Джордус Мант"
+		},
+		"Kaleb Valdemar’s Body": {
+			"name": "Калеб Вальдемар (Тело)"
+		},
+		"Kanker": {
+			"name": "Канкер"
+		},
+		"Minargul": {
+			"name": "Минаргул"
+		},
+		"Mnoghoth": {
+			"name": "Многот"
+		},
+		"Narlo Nyrell": {
+			"name": "Нарло Найрелл"
+		},
+		"Nualia": {
+			"name": "Нуалия"
+		},
+		"Pthuminin": {
+			"name": "Птуминин"
+		},
+		"Red Bishop": {
+			"name": "Красный Епископ"
+		},
+		"Ripnugget": {
+			"name": "Рипнагет"
+		},
+		"Scarhorn": {
+			"name": "Скархорн"
+		},
+		"Serpentfolk Cultist": {
+			"name": "Змеелюд-Культист"
+		},
+		"Sicklefang Longlegs": {
+			"name": "Серпоклыкий Долгоножка"
+		},
+		"Statue of Alaznist": {
+			"name": "Статуя Алазнист"
+		},
+		"Stickfoot": {
+			"name": "Тонконожка"
+		},
+		"Tiluatchek": {
+			"name": "Тилуачек"
+		},
+		"Tunch": {
+			"name": "Тунч"
+		},
+		"Vekensvok's Lampad": {
+			"name": "Лампада (Векенсвок)"
+		},
+		"Vizmivool": {
+			"name": "Визмивул"
+		},
+		"Wolgur Wrabs": {
+			"name": "Волгур Врабс"
+		},
+		"Zalavexus": {
+			"name": "Залавексус"
+		},
+		"Ziondriel": {
+			"name": "Зиондриэль"
+		},
+		"Ziradini": {
+			"name": "Зирадини"
+		},
+		"Zoog": {
+			"name": "Зуг"
+		},
+		"Zoog Swarm": {
+			"name": "Рой Зугов"
+		},
+		"Breath of Blood": {
+			"name": "Дыхание Крови"
+		},
+		"Corpselight Mist": {
+			"name": "Туман Трупосвета"
+		},
+		"Devil's Breath": {
+			"name": "Дьявольское Дыхание"
+		},
+		"Fear of the Devil": {
+			"name": "Страх перед Дьяволом"
+		},
+		"Fires of Abraxas": {
+			"name": "Огни Абраксаса"
+		},
+		"Flesh for the Hollow Star": {
+			"name": "Плоть для Пустой Звезды"
+		},
+		"Fungus-Covered Sinkhole": {
+			"name": "Скрытая Грибком Яма"
+		},
+		"Lightlock": {
+			"name": "Гаситель Света"
+		},
+		"Promise of Plagues": {
+			"name": "Обещание Чумы"
+		},
+		"Shadows of Everglut": {
+			"name": "Тени Опустошения"
+		},
+		"Skulls of Fear and Flame": {
+			"name": "Черепа Страха и Огня"
+		},
+		"Sticky Greeter": {
+			"name": "Липкое Приветствие"
+		},
+		"The Three Steps": {
+			"name": "Три Шага"
+		},
+		"The Watching Lords": {
+			"name": "Наблюдатели"
+		},
+		"Toxic Crystals": {
+			"name": "Токсичные Кристаллы"
+		},
+		"Whispers from Long Ago": {
+			"name": "Шепот из Давних Времен"
+		}
+	}
+}

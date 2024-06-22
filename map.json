@@ -1,4 +1,4 @@
-{
+!!{
   "pathfinder-bestiary-2": {
     "fv91xoQJlogVbruW": {
       "actor": "modules/pf2e-ts-adv/art_token/portraits/humanoid/darklands/aapoph-serpentfolk.webp",
@@ -6650,80 +6650,6 @@
 			"actor": "modules/pf2e-ts-adv/art_token/lost-omens-mwangi-expanse-bestiary/Zinba.webp",
       "token": "modules/pf2e-ts-adv/art_token/lost-omens-mwangi-expanse-bestiary/Zinba_t.webp"  
 		}
-  },
-  "shadows-at-sundown-bestiary":{
-		"litxGHyUUR64CWQJ": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Abridan_Ashau.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Abridan_Ashau_t.webp"
-    },
-		"Ry6Sih9K9iyhAN5C": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Acolyte_of_Pharasma.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Acolyte_of_Pharasma_t.webp"
-    },
-		"0jAkZcP5559iO0wo": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Aliriel.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Aliriel_t.webp"
-    },
-		"6RVzMyC9c61J616H": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Bishop_Keppira.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Bishop_Keppira_t.webp"
-    },
-		"Brooding Fvalthahalia": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/_t.webp"
-    },
-		"PRw22TOw6Z7ke5yp": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ibrique.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ibrique_t.webp"
-    },
-		"1Qc5fBx03ctMvlqE": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Manifestation.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Manifestation_t.webp"
-    },
-		"sawfqpGNObMA41at": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Shell.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Shell_t.webp"
-    },
-		"EaXkFFB7Lo6yJVZV": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Manifestation.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Ileosa_Manifestation_t.webp"
-    },
-		"Life Draining Thunder": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/_t.webp"
-    },
-		"sEss0ea0kYrkkti8": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Loreavor.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Loreavor_t.webp"
-    },
-		"JzoZZ0SurEHMeAPR": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Lorthact.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Lorthact_t.webp"
-    },
-		"z03ztiH8vBDRQTuw": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Paradox_Engine.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Paradox_Engine_t.webp"
-    },
-		"8optIXEiVUjfY0ph": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Profane_Ghoul.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Profane_Ghoul_t.webp"
-    },
-		"8oeuD5h4OzXsxZS5": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Scarlet_Walker.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Scarlet_Walker_t.webp"
-    },
-		"wCztuDEePLs9ZsEl": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Strigoi_Progenitor.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Strigoi_Progenitor_t.webp"
-    },
-		"OsRWaQVTonZBmZo1": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Strigoi_Servant.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Strigoi_Servant_t.webp"
-    },
-		"km4jIE3xBRZoY9o7": {
-      "actor": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Yniesse_Zenderholm.webp",
-      "token": "modules/pf2e-ts-adv/art_token/ShadowsatSundown/Yniesse_Zenderholm_t.webp"
-    }
   },
   "malevolence-bestiary":{
     "VgBE6ow0CvsQxFkq": {
