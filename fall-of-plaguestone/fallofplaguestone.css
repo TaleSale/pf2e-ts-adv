@@ -1,0 +1,170 @@
+.fallofplaguestone h1 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(0,68,22);
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.fallofplaguestone h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/fall-of-plaguestone/asset/back.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.fallofplaguestone article header.journal-page-header h2 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(0,68,22);
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone article header.journal-page-header h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/modules/pf2e-ts-adv/fall-of-plaguestone/asset/back.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+  background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+  background-attachment: fixed; /* Фиксированный фон, если нужно */
+  opacity: 0.4; /* Прозрачность 10% */
+  z-index: -1; /* За текстом */
+}
+
+.fallofplaguestone article header.journal-page-header h3 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(0,68,22);
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone article header.journal-page-header h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/modules/pf2e-ts-adv/fall-of-plaguestone/asset/back.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+  background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+  background-attachment: fixed; /* Фиксированный фон, если нужно */
+  opacity: 0.4; /* Прозрачность 10% */
+  z-index: -1; /* За текстом */
+}
+
+.fallofplaguestone h2
+{
+  color: rgb(5,71,26);
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone h3
+{
+  color: rgb(168,118,57);
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone h4
+{
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone h5
+{
+  font-family: GWENT;
+}
+
+.fallofplaguestone blockquote {
+  all: unset;
+}
+
+.fallofplaguestone blockquote {
+  color: rgb(31,90,50); 
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px 0; /* Отступы сверху и снизу для псевдоэлементов */
+  background: #f8f8eb;
+}
+
+.fallofplaguestone blockquote::before,
+.fallofplaguestone blockquote::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: rgb(43,99,61);
+  width: 100%; /* Полная ширина блока */
+  position: absolute;
+  left: 0;
+}
+
+.fallofplaguestone blockquote::before {
+  top: -5px; /* Полоса сверху с отступом наверх от текста */
+}
+
+.fallofplaguestone blockquote::after {
+  bottom: -5px; /* Полоса снизу с отступом вниз от текста */
+}
+
+.fallofplaguestone section.insite {
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.fallofplaguestone section.insite::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/fall-of-plaguestone/asset/back.webp') no-repeat center center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.fallofplaguestone section.insite h2
+{
+  color: black !important;
+  font-family: GWENT;
+  font-weight: bold;
+}
+
+.fallofplaguestone table tbody tr td
+{
+  text-align: justify;
+  text-align-last: left;
+}

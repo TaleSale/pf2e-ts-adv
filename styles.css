@@ -216,7 +216,24 @@
 /********** картинка слева **********/
 .ЛЕВ {
   float: left;
-  margin: 0 1em 1em 0;
+  margin: 0 0 1em 0em;
+  width: 20%;
+  margin-top: 2px; /* Вертикальный отступ от предыдущего объекта */
+  margin-left: 2px
+}
+
+.ЛЕВ img {
+  height: auto !important;
+  border: none; /* Убираем рамку у изображения */
+}
+
+.ЛЕВ figcaption {
+  white-space: nowrap; /* Запрет переноса текста на следующую строку */
+  text-overflow: ellipsis; /* Отображение многоточия, если текст не помещается */
+  font-size: 10px;
+  padding: 5px;
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
 }
 
 /********** картинка справа **********/
