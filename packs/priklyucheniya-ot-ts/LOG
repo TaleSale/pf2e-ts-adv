@@ -1,72 +1,28 @@
-2024/06/25-07:15:45.883 2924 Recovering log #4042
-2024/06/25-07:15:46.058 2924 Delete type=0 #4042
-2024/06/25-07:15:46.058 2924 Delete type=3 #4041
-2024/06/25-10:47:54.961 26f4 Level-0 table #4046: started
-2024/06/25-10:47:55.336 26f4 Level-0 table #4046: 1447129 bytes OK
-2024/06/25-10:47:55.423 26f4 Delete type=0 #4044
-2024/06/25-10:48:47.790 26f4 Compacting 1@1 + 5@2 files
-2024/06/25-10:48:48.083 26f4 Generated table #4047@1: 5 keys, 5277944 bytes
-2024/06/25-10:48:48.203 26f4 Generated table #4048@1: 6 keys, 2473259 bytes
-2024/06/25-10:48:48.403 26f4 Generated table #4049@1: 4 keys, 2647868 bytes
-2024/06/25-10:48:48.541 26f4 Generated table #4050@1: 6 keys, 2280193 bytes
-2024/06/25-10:48:48.728 26f4 Generated table #4051@1: 3 keys, 2764921 bytes
-2024/06/25-10:48:48.729 26f4 Compacted 1@1 + 5@2 files => 15444185 bytes
-2024/06/25-10:48:48.769 26f4 compacted to: files[ 0 0 13 0 0 0 0 ]
-2024/06/25-10:48:48.902 26f4 Delete type=2 #3865
-2024/06/25-10:48:48.935 26f4 Delete type=2 #3866
-2024/06/25-10:48:48.961 26f4 Delete type=2 #3867
-2024/06/25-10:48:49.000 26f4 Delete type=2 #3998
-2024/06/25-10:48:49.097 26f4 Delete type=2 #4026
-2024/06/25-10:48:49.099 26f4 Delete type=2 #4046
-2024/06/25-10:49:06.010 26f4 Level-0 table #4053: started
-2024/06/25-10:49:06.229 26f4 Level-0 table #4053: 1492057 bytes OK
-2024/06/25-10:49:06.298 26f4 Delete type=0 #4045
-2024/06/25-10:51:59.110 26f4 Compacting 1@1 + 8@2 files
-2024/06/25-10:51:59.409 26f4 Generated table #4054@1: 5 keys, 5277942 bytes
-2024/06/25-10:51:59.634 26f4 Generated table #4055@1: 6 keys, 2473259 bytes
-2024/06/25-10:51:59.804 26f4 Generated table #4056@1: 4 keys, 2647868 bytes
-2024/06/25-10:51:59.996 26f4 Generated table #4057@1: 6 keys, 2280193 bytes
-2024/06/25-10:52:00.198 26f4 Generated table #4058@1: 3 keys, 2764921 bytes
-2024/06/25-10:52:00.385 26f4 Generated table #4059@1: 5 keys, 2372208 bytes
-2024/06/25-10:52:00.519 26f4 Generated table #4060@1: 8 keys, 2400061 bytes
-2024/06/25-10:52:00.519 26f4 Compacted 1@1 + 8@2 files => 20216452 bytes
-2024/06/25-10:52:00.558 26f4 compacted to: files[ 0 0 12 0 0 0 0 ]
-2024/06/25-10:52:00.648 26f4 Delete type=2 #3869
-2024/06/25-10:52:00.650 26f4 Delete type=2 #3870
-2024/06/25-10:52:00.652 26f4 Delete type=2 #3993
-2024/06/25-10:52:00.652 26f4 Delete type=2 #4047
-2024/06/25-10:52:00.654 26f4 Delete type=2 #4048
-2024/06/25-10:52:00.655 26f4 Delete type=2 #4049
-2024/06/25-10:52:00.656 26f4 Delete type=2 #4050
-2024/06/25-10:52:00.657 26f4 Delete type=2 #4051
-2024/06/25-10:52:00.658 26f4 Delete type=2 #4053
-2024/06/25-10:53:05.623 26f4 Level-0 table #4062: started
-2024/06/25-10:53:05.708 26f4 Level-0 table #4062: 1447117 bytes OK
-2024/06/25-10:53:05.797 26f4 Delete type=0 #4052
-2024/06/25-10:53:53.307 26f4 Level-0 table #4064: started
-2024/06/25-10:53:53.463 26f4 Level-0 table #4064: 883889 bytes OK
-2024/06/25-10:53:53.511 26f4 Delete type=0 #4061
-2024/06/25-10:53:53.719 26f4 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!gQY3kYShMp2ChM21' @ 256 : 1
-2024/06/25-10:53:53.719 26f4 Compacting 1@0 + 1@1 files
-2024/06/25-10:53:54.127 26f4 Generated table #4065@0: 2 keys, 1447324 bytes
-2024/06/25-10:53:54.127 26f4 Compacted 1@0 + 1@1 files => 1447324 bytes
-2024/06/25-10:53:54.210 26f4 compacted to: files[ 0 1 12 0 0 0 0 ]
-2024/06/25-10:53:54.211 26f4 Delete type=2 #4062
-2024/06/25-10:53:54.212 26f4 Delete type=2 #4064
-2024/06/25-10:53:54.979 26f4 Manual compaction at level-0 from '!adventures!gQY3kYShMp2ChM21' @ 256 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
-2024/06/25-10:53:54.979 26f4 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!gQY3kYShMp2ChM21' @ 256 : 1
-2024/06/25-10:53:54.979 26f4 Compacting 1@1 + 5@2 files
-2024/06/25-10:53:56.324 26f4 Generated table #4066@1: 5 keys, 5277932 bytes
-2024/06/25-10:53:56.656 26f4 Generated table #4067@1: 6 keys, 2473259 bytes
-2024/06/25-10:53:57.353 26f4 Generated table #4068@1: 4 keys, 2647868 bytes
-2024/06/25-10:53:57.964 26f4 Generated table #4069@1: 6 keys, 2280193 bytes
-2024/06/25-10:53:58.615 26f4 Generated table #4070@1: 3 keys, 2765128 bytes
-2024/06/25-10:53:58.616 26f4 Compacted 1@1 + 5@2 files => 15444380 bytes
-2024/06/25-10:53:58.660 26f4 compacted to: files[ 0 0 12 0 0 0 0 ]
-2024/06/25-10:53:58.660 26f4 Delete type=2 #4054
-2024/06/25-10:53:58.661 26f4 Delete type=2 #4055
-2024/06/25-10:53:58.662 26f4 Delete type=2 #4056
-2024/06/25-10:53:58.662 26f4 Delete type=2 #4057
-2024/06/25-10:53:58.663 26f4 Delete type=2 #4058
-2024/06/25-10:53:58.664 26f4 Delete type=2 #4065
-2024/06/25-10:53:58.665 26f4 Manual compaction at level-1 from '!adventures!gQY3kYShMp2ChM21' @ 256 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/07/01-19:03:16.824 38ec Recovering log #4136
+2024/07/01-19:03:16.967 38ec Delete type=0 #4136
+2024/07/01-19:03:16.967 38ec Delete type=3 #4134
+2024/07/01-19:50:29.199 381c Level-0 table #4149: started
+2024/07/01-19:50:29.491 381c Level-0 table #4149: 948602 bytes OK
+2024/07/01-19:50:29.552 381c Delete type=0 #4147
+2024/07/01-19:50:29.825 381c Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/07/01-19:50:29.825 381c Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!folders!Opvj6xTWOWnVRYVQ' @ 274 : 0
+2024/07/01-19:50:29.825 381c Compacting 2@1 + 7@2 files
+2024/07/01-19:50:30.548 381c Generated table #4150@1: 5 keys, 2598437 bytes
+2024/07/01-19:50:31.356 381c Generated table #4151@1: 4 keys, 2511694 bytes
+2024/07/01-19:50:32.346 381c Generated table #4152@1: 6 keys, 3255998 bytes
+2024/07/01-19:50:33.198 381c Generated table #4153@1: 8 keys, 2400456 bytes
+2024/07/01-19:50:33.520 381c Generated table #4154@1: 3 keys, 2233658 bytes
+2024/07/01-19:50:34.786 381c Generated table #4155@1: 3 keys, 4980976 bytes
+2024/07/01-19:50:35.131 381c Generated table #4156@1: 19 keys, 1296940 bytes
+2024/07/01-19:50:35.131 381c Compacted 2@1 + 7@2 files => 19278159 bytes
+2024/07/01-19:50:35.420 381c compacted to: files[ 0 0 12 0 0 0 0 ]
+2024/07/01-19:50:35.421 381c Delete type=2 #4131
+2024/07/01-19:50:35.448 381c Delete type=2 #4132
+2024/07/01-19:50:35.595 381c Delete type=2 #4133
+2024/07/01-19:50:35.690 381c Delete type=2 #4138
+2024/07/01-19:50:35.732 381c Delete type=2 #4142
+2024/07/01-19:50:35.901 381c Delete type=2 #4143
+2024/07/01-19:50:35.973 381c Delete type=2 #4144
+2024/07/01-19:50:36.068 381c Delete type=2 #4145
+2024/07/01-19:50:36.186 381c Delete type=2 #4149
+2024/07/01-19:50:36.889 381c Manual compaction at level-1 from '!folders!Opvj6xTWOWnVRYVQ' @ 274 : 0 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "relationships": {
     "systems": [
       {
@@ -11,7 +11,7 @@
         "compatibility": {}
       }
     ],
-    "requires": [
+    "recommends": [
       {
         "id": "Pathfinder-2e-Bestiary-Token-Pack",
         "type": "module",
@@ -35,13 +35,15 @@
     "babele.js",
     "ShadowsatSundown/shadowsatsundown.js",
     "fall-of-plaguestone/fallofplaguestone.js",
-    "Slithering/slithering.js"
+    "Slithering/slithering.js",
+    "nightofthegraydeath/nightofthegraydeath.js"
   ],
   "styles": [
     "styles.css",
     "ShadowsatSundown/shadowsatsundown.css",
     "fall-of-plaguestone/fallofplaguestone.css",
-    "Slithering/slithering.css"
+    "Slithering/slithering.css",
+    "nightofthegraydeath/nightofthegraydeath.css"
   ],
   "packs": [
     {

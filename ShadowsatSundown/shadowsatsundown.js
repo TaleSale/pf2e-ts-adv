@@ -110,7 +110,7 @@ class ShadowsAtSundownJournalSheet extends JournalSheet {
           }
           node.parentNode.removeChild(node);
         }
-      } else if (node.nodeType === 1 && node.nodeName !== "SPAN" && !node.classList.contains('editor-content')) {  // элемент и не редакторский контент
+      } else if (node.nodeType === 1 && node.nodeName !== "SPAN" && !node.classList.contains('editor-content') && !/H[1-6]/.test(node.nodeName)) {  // элемент и не редакторский контент и не заголовки
         node.childNodes.forEach(traverseAndHighlight);
       }
     };

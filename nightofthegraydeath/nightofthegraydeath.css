@@ -1,0 +1,168 @@
+.nightofthegraydeath h1 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(255,255,255);
+  font-family: Exocet;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.nightofthegraydeath h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/nightofthegraydeath/asset/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 1; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.nightofthegraydeath article header.journal-page-header h2 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(255,255,255);
+  font-family: Exocet;
+}
+
+.nightofthegraydeath article header.journal-page-header h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/modules/pf2e-ts-adv/nightofthegraydeath/asset/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+  background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+  background-attachment: fixed; /* Фиксированный фон, если нужно */
+  opacity: 1; /* Прозрачность 10% */
+  z-index: -1; /* За текстом */
+}
+
+.nightofthegraydeath article header.journal-page-header h3 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(255,255,255);
+  font-family: Exocet;
+}
+
+.nightofthegraydeath article header.journal-page-header h3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('/modules/pf2e-ts-adv/nightofthegraydeath/asset/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+  background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+  background-attachment: fixed; /* Фиксированный фон, если нужно */
+  opacity: 1; /* Прозрачность 10% */
+  z-index: -1; /* За текстом */
+}
+
+.nightofthegraydeath h2
+{
+  color: rgb(127,25,24);
+  font-family: Exocet;
+  font-weight: bold;
+}
+
+.nightofthegraydeath h3
+{
+  color: rgb(5, 70, 73);
+  font-family: Exocet;
+  font-weight: bold;
+}
+
+.nightofthegraydeath h4
+{
+  font-family: Exocet;
+  font-weight: bold;
+}
+
+.nightofthegraydeath h5
+{
+  font-family: Exocet;
+}
+
+.nightofthegraydeath blockquote {
+  all: unset;
+}
+
+.nightofthegraydeath blockquote {
+  color: rgb(141,51,50); /* Ярко-красный цвет текста */
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px 0; /* Отступы сверху и снизу для псевдоэлементов */
+  background: #f8f8eb;
+}
+
+.nightofthegraydeath blockquote::before,
+.nightofthegraydeath blockquote::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: rgb(141,51,50);
+  width: 100%; /* Полная ширина блока */
+  position: absolute;
+  left: 0;
+}
+
+.nightofthegraydeath blockquote::before {
+  top: -3px; /* Полоса сверху с отступом наверх от текста */
+}
+
+.nightofthegraydeath blockquote::after {
+  bottom: -3px; /* Полоса снизу с отступом вниз от текста */
+}
+
+.nightofthegraydeath section.insite {
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.nightofthegraydeath section.insite::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid black;
+    background: url('/modules/pf2e-ts-adv/nightofthegraydeath/asset/back.webp') no-repeat center center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    opacity: 1; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.nightofthegraydeath section.insite h2
+{
+  color: rgb(41,26,49) !important;
+  font-family: Exocet;
+  font-weight: bold;
+}
+
+.nightofthegraydeath table tbody tr td
+{
+  text-align: justify;
+  text-align-last: left;
+}
