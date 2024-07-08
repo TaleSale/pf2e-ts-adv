@@ -134,13 +134,16 @@ Hooks.once('ready', () => {
   const style = document.createElement('style');
   style.textContent = `
     .highlight-blue {
-      font-style: oblique ;
+      font-family: Manuskript;
     }
+
     .highlight-red {
       font-weight: bold;
+      font-family: Manuskript;
     }
+
     .highlight-green {
-      font-style: italic;
+      text-decoration: underline;
     }
   `;
   document.head.appendChild(style);
