@@ -304,6 +304,15 @@ tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
   border-radius: 1px; /* Уголки */
 }
 
+.п {
+  padding: 2px 2px;
+  background-color: rgb(87, 8, 8); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
 .ts-effect {
     background: #20fa20; /* green background */
     padding-left: 2px;

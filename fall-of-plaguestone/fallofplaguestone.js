@@ -134,16 +134,13 @@ Hooks.once('ready', () => {
   const style = document.createElement('style');
   style.textContent = `
     .highlight-blue {
-      font-weight: bold;
-      color: darkblue;
+      font-style: oblique ;
     }
     .highlight-red {
       font-weight: bold;
-      color: darkred;
     }
     .highlight-green {
-      font-weight: bold;
-      color: darkgreen;
+      font-style: italic;
     }
   `;
   document.head.appendChild(style);
