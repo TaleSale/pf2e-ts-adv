@@ -627,9 +627,9 @@
                 }
             ]
         },
-        "Green Dragon Wyrmling (BB)": {
-            "name": "Зеленый Дракон (Вирмлин) (BB)",
-            "tokenName": "Зеленый Дракон (Вирмлин)",
+        "Horned Dragon (Juvenile, BB)": {
+            "name": "Рогатый Дракон (Вирмлин) (BB)",
+            "tokenName": "Рогатый Вирмлин",
             "UUID": "WPsgrCUSFCqgDvJi",
             "tokenvision": true,
             "tokendisplayBars": 40,
@@ -648,8 +648,8 @@
                 },
                 {
                     "name": "Атака Дыханием",
-                    "description": "<p>Дракон выдыхает @Template[type:cone|distance:30], который наносит [[/r 5d6[poison]]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:24|basic:true]</p><p>Перезарядка: [[/br 1d4[recharge]]]{1d4 Раунда}</p><section class=\"secret\"><p>The dragon can't use their Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>",
-                    "id": "j90G6J5zvaIVNb1q"
+                    "description": "<p>Дракон выдыхает @Template[type:cone|distance:30], который наносит [[/r 5d6[poison]]]</p><p style=\"text-align: center;\">@Check[type:reflex|dc:21|basic:true]</p><p>Перезарядка: [[/br 1d4[recharge]]]{1d4 Раунда}</p><section class=\"secret\"><p>The dragon can't use their Breath Weapon again for [[/br 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p></section>",
+                    "id": "Poison Breath"
                 },
                 {
                     "name": "111",
@@ -1481,7 +1481,7 @@
             "items": [
                 {
                     "name": "Вонь",
-                    "description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:19]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>",
+                    "description": "<p>Существо, которое входит или начинает в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура}@Template[type:emanation|distance:30]{30} Зулгата и чувствует его запах, должно совершить @Check[type:fortitude|dc:16]</p><p>Успех: Существо получает временно иммунитет к Вони Зулгатов на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 1}.</p>",
                     "id": "4NqTHQqAkLmiUovi"
                 },
                 {
