@@ -38,17 +38,6 @@ class SlitheringJournalSheet extends JournalSheet {
       journalHeaderElement.remove();
     }
 
-    // Добавляем бордовую вертикальную полосу
-    const separator = document.createElement('div');
-    separator.style.position = 'absolute';
-    separator.style.left = '300px';  // или другой подходящий отступ
-    separator.style.top = '30px';  // учтем высоту шапки
-    separator.style.bottom = '0';
-    separator.style.width = '5px';
-    separator.style.backgroundColor = 'rgb(0,68,22)';  // бордовый цвет
-
-    html[0].appendChild(separator);
-
     // Загружаем слова для выделения из JSON-файла
     try {
       const response = await fetch('modules/pf2e-ts-adv/Slithering/keywords.json');
@@ -144,6 +133,18 @@ Hooks.once('ready', () => {
 
     .highlight-green {
       text-decoration: underline;
+    }
+    
+    .highlight-darkred {
+      font-weight: bold;
+      font-family: Manuskript;
+      color: darkred;
+    }
+
+    .highlight-indigo {
+      font-weight: bold;
+      font-family: Manuskript;
+      color: indigo;
     }
   `;
   document.head.appendChild(style);

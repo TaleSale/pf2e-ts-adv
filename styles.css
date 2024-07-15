@@ -306,7 +306,61 @@ tsp {   /* <span class=\"ts-predmeta\">Предмета</span> */
 
 .п {
   padding: 2px 2px;
-  background-color: rgb(87, 8, 8); /* Цвет заливки */
+  background-color: rgb(94,0,0); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts {
+  padding: 2px 2px;
+  background-color: rgb(94,0,0); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts-common {
+  padding: 2px 2px;
+  background-color: rgb(50,50,50); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts-uncommon {
+  padding: 2px 2px;
+  background-color: rgb(152,81,61); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts-rare {
+  padding: 2px 2px;
+  background-color: rgb(0,38,100); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts-unik {
+  padding: 2px 2px;
+  background-color: rgb(84,22,110); /* Цвет заливки */
+  color: white; /* Цвет текста */
+  text-align: center; /* Выравнивание текста по центру */
+  border-left: 2px solid #d8c195; /* Левый бордюр */
+  border-right: 2px solid #d8c195; /* Правый бордюр */
+}
+
+.trts-razmer {
+  padding: 2px 2px;
+  background-color: rgb(58,123,89); /* Цвет заливки */
   color: white; /* Цвет текста */
   text-align: center; /* Выравнивание текста по центру */
   border-left: 2px solid #d8c195; /* Левый бордюр */

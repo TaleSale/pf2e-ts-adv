@@ -4,7 +4,7 @@
   position: relative; /* Для позиционирования псевдоэлементов */
   padding: 10px; /* Отступы для текста */
   z-index: 1; /* Поверх фона с прозрачностью */
-  color: rgb(63, 82, 76);
+  color: #3f524c;
   font-family: Marck Script;
   font-weight: bold;
 }
