@@ -5,7 +5,7 @@
   padding: 10px; /* Отступы для текста */
   z-index: 1; /* Поверх фона с прозрачностью */
   color: rgb(255,255,255);
-  font-family: Marck Script;
+  font-family: Manuskript;
   font-weight: bold;
 }
 
@@ -31,7 +31,7 @@
   padding: 10px; /* Отступы для текста */
   z-index: 1; /* Поверх фона с прозрачностью */
   color: rgb(255,255,255);
-  font-family: Marck Script;
+  font-family: Manuskript;
   font-weight: bold;
 }
 
@@ -57,7 +57,7 @@
   padding: 10px; /* Отступы для текста */
   z-index: 1; /* Поверх фона с прозрачностью */
   color: rgb(255,255,255);
-  font-family: Marck Script;
+  font-family: Manuskript;
   font-weight: bold;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .PFS3 blockquote {
-  color: rgb(99,109,172); /* цвет текста */
+  color: rgb(63, 74, 150); /* цвет текста */
   font-size: inherit; /* Использовать прошлый шрифт */
   line-height: 1.2; /* Высота строки */
   text-align: justify; /* Выровнять текст по ширине */
@@ -120,7 +120,7 @@
   content: "";
   display: block;
   height: 2px;
-  background: rgb(99,109,172);
+  background: rgb(63, 74, 150);
   width: 100%; /* Полная ширина блока */
   position: absolute;
   left: 0;

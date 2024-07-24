@@ -1,3 +1,29 @@
-2024/07/21-13:23:38.682 27d0 Recovering log #4365
-2024/07/21-13:23:38.765 27d0 Delete type=0 #4365
-2024/07/21-13:23:38.766 27d0 Delete type=3 #4364
+2024/07/24-09:37:19.603 1610 Recovering log #4375
+2024/07/24-09:37:19.658 1610 Delete type=0 #4375
+2024/07/24-09:37:19.658 1610 Delete type=3 #4374
+2024/07/24-14:02:38.451 1808 Level-0 table #4379: started
+2024/07/24-14:02:38.665 1808 Level-0 table #4379: 346004 bytes OK
+2024/07/24-14:02:38.754 1808 Delete type=0 #4377
+2024/07/24-14:02:39.108 1808 Manual compaction at level-0 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!JHvo5MJcntBOxrFt' @ 291 : 1
+2024/07/24-14:02:39.108 1808 Compacting 4@0 + 0@1 files
+2024/07/24-14:02:39.255 1808 Generated table #4380@0: 3 keys, 483792 bytes
+2024/07/24-14:02:39.255 1808 Compacted 4@0 + 0@1 files => 483792 bytes
+2024/07/24-14:02:39.298 1808 compacted to: files[ 0 1 12 0 0 0 0 ]
+2024/07/24-14:02:39.339 1808 Delete type=2 #4360
+2024/07/24-14:02:39.430 1808 Delete type=2 #4369
+2024/07/24-14:02:39.495 1808 Delete type=2 #4372
+2024/07/24-14:02:39.496 1808 Delete type=2 #4379
+2024/07/24-14:02:40.137 1808 Manual compaction at level-0 from '!adventures!JHvo5MJcntBOxrFt' @ 291 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/07/24-14:02:40.829 1808 Manual compaction at level-1 from '!adventures!2zlwx9zmDqF31n1B' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!UXFNMcXzUWlo2A00' @ 300 : 1
+2024/07/24-14:02:40.830 1808 Compacting 1@1 + 3@2 files
+2024/07/24-14:02:46.217 1808 Generated table #4381@1: 4 keys, 4957920 bytes
+2024/07/24-14:02:46.853 1808 Generated table #4382@1: 6 keys, 5468474 bytes
+2024/07/24-14:02:47.270 1808 Generated table #4383@1: 6 keys, 2473259 bytes
+2024/07/24-14:02:47.634 1808 Generated table #4384@1: 1 keys, 154158 bytes
+2024/07/24-14:02:47.634 1808 Compacted 1@1 + 3@2 files => 13053811 bytes
+2024/07/24-14:02:47.677 1808 compacted to: files[ 0 0 13 0 0 0 0 ]
+2024/07/24-14:02:47.785 1808 Delete type=2 #4139
+2024/07/24-14:02:47.899 1808 Delete type=2 #4140
+2024/07/24-14:02:47.927 1808 Delete type=2 #4347
+2024/07/24-14:02:47.928 1808 Delete type=2 #4380
+2024/07/24-14:02:47.928 1808 Manual compaction at level-1 from '!adventures!UXFNMcXzUWlo2A00' @ 300 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

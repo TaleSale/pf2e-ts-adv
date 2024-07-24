@@ -1,0 +1,1287 @@
+{
+	"label": "Сезон 3",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink",
+        "scaleX": "prototypeToken.texture.scaleX",
+        "scaleY": "prototypeToken.texture.scaleY"
+    },
+	"entries": {
+		"03-00================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"03-08================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Iron Ring Deckhand": {
+			"name": "Матрос \"Железное Кольцо\"",
+            "tokenName": "Матрос",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/IronRingPirate.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/IronRingPirate.webp",
+            "description": "<p>Работающие на погрузке и разгрузке грузов с кораблей, докеры считаются недисциплинированными, но многие из них не отвлекаются и упорно трудятся до тех пор, пока не выполнят работу. Некоторые действительно отмечают окончание рабочего дня бурной пьянкой.</p><hr><p>Рабочие каждый день выполняют изнурительную физическую работу.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Bottle",
+                    "name": "Бутылка"
+                },
+                {
+                    "id": "Empty Bottle",
+                    "name": "Пустая Бутылка"
+                },
+                {
+                    "id": "Whiskey",
+                    "name": "Виски",
+                    "description": "<p>Алкоголь - распространенное вещество, доступное в потрясающем разнообразии. Цена дозы алкоголя зависит от конкретного напитка. Во время действия алкоголя вы не можете оправиться от состояния @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошноты}.</p><p>Если вы проваливаете спасбросок против алкоголя, за исключением первичных спасбросков, стадия недуга не увеличивается сама; единственный способ увеличить стадию недуга алкоголя - употребить больше алкоголя.</p><hr><p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F] (@Trait[Ingested]{глотаемый})</p><p><strong>Спасбросок:</strong> @Check[type:fortitude|dc:12|traits:alchemical,consumable,drug,ingested,poison,secret]</p><p><strong>Возникновение:</strong> 10 минут</p><p><strong>Стадия 1:</strong> бонус предмета +1 к спасброскам против эффектов страха (10 минут)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут врасплох}, бонус предмета +1 к спасброскам против эффектов страха (10 минут)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1}, @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут врасплох}, @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} (10 минут)</p><p><strong>Стадия 4:</strong> @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2} и @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2} (10 минут)</p><p><strong>Стадия 5:</strong> @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 2}, @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошнота 2}, и @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} (10 минут)</p><p><strong>Стадия 6:</strong> @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без сознания} (8 часов)</p><p><strong>Стадия 7:</strong> смерть</p>"
+                },
+                {
+                    "id": "Heft Crate",
+                    "name": "Тяжелый ящик",
+                    "description": "<p><strong>Требования:</strong> Матрос возле ящика</p><hr><p>Матрос берет ящик и швыряет его на расстояние вплоть до 15 футов. При приземлении, ящик разрывается @Template[type:burst|distance:5]. Каждое существо в области получает @Damage[2d4[bludgeoning]] (@Check[type:reflex|dc:13|basic:true|traits:damaging-effect]), и область становится <a href=\"https://clck.ru/akms9\">сложной местностью</a> пока не расчищена.</p>"
+                },
+                {
+                    "id": "Swig",
+                    "name": "Отхлебнуть",
+                    "description": "<p>Матрос @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействует} чтобы достать бутылку алкоголя, либо взять поблизости ничейную бутылку алкоголя и выпить целиком.</p><p>На 1 минуту, докер получает бонус предмета +2 к броскам урона ближнего боя и спасброскам против страха, но становится @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжим 1}.</p><p>@UUID[Compendium.pf2e.bestiary-effects.HArljmKc2IR7rtfc]{Эффект: Отхлебнуть}</p>"
+                }
+            ]
+		},
+		"Iron Ring Pirate": {
+			"name": "Пират \"Железное Кольцо\"",
+            "tokenName": "Пират",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/IronRingPirate.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/IronRingPirate.webp",
+            "description": "<p>Этот бич морей представляет угрозу для всех, кто проводит время вдали от суши.</p><hr><p>Искателям приключений может понадобиться переправиться на быстроходном судне, или они могут столкнуться с опасностью в виде рейдеров на море или в прибрежных поселениях.</p>",
+			"prependAdjective": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Cmu4PgaVIciVRKDC",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "AtMtAwu4qZIQZq8E",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "CmUq3q1BL7VoIvyM",
+                    "name": "Скимитар"
+                },
+                {
+                    "id": "lrHNxw2aet6y4AAg",
+                    "name": "Возможность для атаки",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "Boarding Action",
+                    "name": "Абордажное действие",
+                    "description": "<p>Пират пролетает на веревке или @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещается}, двигаясь с двойной Скоростью. Если пират совершил абордаж или сошел с судна во время этого передвижения, то в конце него он может совершить Удар ближнего боя, при попадании наносящий 1 дополнительную кость урона.</p>"
+                },
+                {
+                    "id": "86ELyZJGF5f8M7ew",
+                    "name": "Храбрость",
+                    "description": "<p>Когда пират при броске спасброска Воли против эффекта @Trait[Fear]{страха} получает успех, то вместо этого получает крит.успех. Дополнительно, каждый раз, когда он получает состояние @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган} то снижает его значение на 1.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Iron Ring Bosun": {
+			"name": "Боцман \"Железное Кольцо\"",
+            "tokenName": "Боцман",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "description": "",
+			"prependAdjective": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Naval Pike",
+                    "name": "Морская Пика"
+                },
+                {
+                    "id": "O4GUtfCmOYOhNgf2",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Bosun's Command",
+                    "name": "Команда боцмана",
+                    "description": "<p><strong>Частота</strong>: 1/Раунд</p><hr><p>Боцман приказывает союзнику атаковать или занять позицию. До конца следующего хода союзника он получает по выбору боцмана бонус состояния +2 к броскам атаки или бонус состояния +10 футов к скорости.</p><hr><ul><li>@UUID[Compendium.pf2e.bestiary-effects.Item.WfiaKdXNSxC3POcs]{Effect: Bosun's Command - Attack Bonus}</li><li>@UUID[Compendium.pf2e.bestiary-effects.Item.yG27Ixwdpxqbrhzf]{Effect: Bosun's Command - Speed Bonus}</li></ul>"
+                },
+                {
+                    "id": "Pike and Strike",
+                    "name": "Пика и Удар",
+                    "description": "<p>Боцмана совершает своей морской пикой. Если этот удар попадает, боцман может либо переместить цель на 5 футов в пределах досягаемости пики, либо нанести по ней Удара Кулаком без увеличения Штрафа Множественной Атаки до окончания Удара кулаком.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Vaggas the Bosun": {
+			"name": "Ваггас, Боцман",
+            "tokenName": "Ваггас",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Naval Pike",
+                    "name": "Морская Пика"
+                },
+                {
+                    "id": "O4GUtfCmOYOhNgf2",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Bosun's Command",
+                    "name": "Команда боцмана",
+                    "description": "<p><strong>Частота</strong>: 1/Раунд</p><hr><p>Боцман приказывает союзнику атаковать или занять позицию. До конца следующего хода союзника он получает по выбору боцмана бонус состояния +2 к броскам атаки или бонус состояния +10 футов к скорости.</p><hr><ul><li>@UUID[Compendium.pf2e.bestiary-effects.Item.WfiaKdXNSxC3POcs]{Effect: Bosun's Command - Attack Bonus}</li><li>@UUID[Compendium.pf2e.bestiary-effects.Item.yG27Ixwdpxqbrhzf]{Effect: Bosun's Command - Speed Bonus}</li></ul>"
+                },
+                {
+                    "id": "Pike and Strike",
+                    "name": "Пика и Удар",
+                    "description": "<p>Боцмана совершает своей морской пикой. Если этот удар попадает, боцман может либо переместить цель на 5 футов в пределах досягаемости пики, либо нанести по ней Удара Кулаком без увеличения Штрафа Множественной Атаки до окончания Удара кулаком.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Vaggas the Fanatic": {
+			"name": "Ваггас, Фанатик",
+            "tokenName": "Ваггас",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/hobgoblin-general.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "yEcvRwueCdGqs9GC",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "nN82jRXcz7hgkXiE",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Fanatical Frenzy",
+                    "name": "Фанатичное безумие",
+                    "description": "<p data-visibility=\"gm\"><strong>Требования:</strong> Фанатие получил урон и не @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомлен}, либо находится в безумии</p><p><strong>Эффект:</strong> Фанатик впадает в безумие, длящееся 1 минуту. В безумии, он получает бонус состояния +1 к броскам атак и бонус состояния +2 к броскам урона, а также штраф состояния -2 к КБ. Фанатик не может добровольно остановить безумие. После безумия, фанатик @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Утомлен}.</p><hr><p>@UUID[Compendium.pf2e.bestiary-effects.3Wtzyb0ZgkaC7vHY]{Эффект: Фанатичное безумие}</p>"
+                },
+                {
+                    "id": "+2 to Will Saves vs. Higher Ranking Iron Ring Members",
+                    "name": "-2 к спасброскам Воли против более важных Железных Колец"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Tadrun (1-2)": {
+			"name": "Тадрун (1-2)",
+            "tokenName": "Тадрун",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/Tadrun.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/Tadrun.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Formation",
+                    "name": "Строй",
+                    "description": "<p>Когда Тадрун рядом с хотя бы 2 другими союзниками, Тадрун получает бонус обстоятельства +1 к КБ и спасброскам. Этот бонус увеличивается до +2 для спасбросков Рефлекса от эффектов по области.</p>"
+                },
+                {
+                    "id": "Hunt Prey",
+                    "name": "Выслеживать добычу",
+                    "description": "<p>Тадрун выбирает в качестве добычи одно существо, которое он может видеть и слышать, или то, которое он выслеживает.</p><ul><li><p>Тадрун получает бонус +2 к обстоятельствам к проверкам Восприятия для Поиска добычи и к проверкам Выживания для Выслеживания добычи.</p></li><li><p>Если Тадрун в первый раз за раунд попадает по добыче, он наносит дополнительно 1d8 точного урона.</p></li></ul><p>Эти эффекты действуют до тех пор, пока Тадрун снова не использует \"Охоту на добычу\".</p>"
+                },
+                {
+                    "id": "QCAuAM8cKoNOPXxb",
+                    "name": "Боевой топор"
+                },
+                {
+                    "id": "GoGoLfTTr7TAYwkI",
+                    "name": "Шипованная рукавица"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Tadrun (3-4)": {
+			"name": "Тадрун (3-4)",
+            "tokenName": "Тадрун",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/Tadrun.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-08/Tadrun.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Formation",
+                    "name": "Строй",
+                    "description": "<p>Когда Тадрун рядом с хотя бы 2 другими союзниками, Тадрун получает бонус обстоятельства +1 к КБ и спасброскам. Этот бонус увеличивается до +2 для спасбросков Рефлекса от эффектов по области.</p>"
+                },
+                {
+                    "id": "Hunt Prey",
+                    "name": "Выслеживать добычу",
+                    "description": "<p>Тадрун выбирает в качестве добычи одно существо, которое он может видеть и слышать, или то, которое он выслеживает.</p><ul><li><p>Тадрун получает бонус +2 к обстоятельствам к проверкам Восприятия для Поиска добычи и к проверкам Выживания для Выслеживания добычи.</p></li><li><p>Если Тадрун в первый раз за раунд попадает по добыче, он наносит дополнительно 1d8 точного урона.</p></li></ul><p>Эти эффекты действуют до тех пор, пока Тадрун снова не использует \"Охоту на добычу\".</p>"
+                },
+                {
+                    "id": "QCAuAM8cKoNOPXxb",
+                    "name": "Секира"
+                },
+                {
+                    "id": "GoGoLfTTr7TAYwkI",
+                    "name": "Шипованная рукавица"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+
+
+
+
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+		"Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)": {
+			"name": "Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)"
+		},
+		"Alchemy-Gorged Giant Leech": {
+			"name": "Alchemy-Gorged Giant Leech"
+		},
+		"Angry Void Boils": {
+			"name": "Angry Void Boils"
+		},
+		"Anguished Tombstone Door": {
+			"name": "Anguished Tombstone Door"
+		},
+		"Animated Blade (PFS 3-99)": {
+			"name": "Animated Blade (PFS 3-99)"
+		},
+		"Animated Cookware": {
+			"name": "Animated Cookware"
+		},
+		"Animated Full Plate (PFS 3-99)": {
+			"name": "Animated Full Plate (PFS 3-99)"
+		},
+		"Animated Knickknack (1-2)": {
+			"name": "Animated Knickknack (1-2)"
+		},
+		"Animated Knickknack (3-4)": {
+			"name": "Animated Knickknack (3-4)"
+		},
+		"Arabuk": {
+			"name": "Arabuk"
+		},
+		"Arabuk Yearling": {
+			"name": "Arabuk Yearling"
+		},
+		"Arisept (7-8)": {
+			"name": "Arisept (7-8)"
+		},
+		"Arisept (9-10)": {
+			"name": "Arisept (9-10)"
+		},
+		"Aspis Agent": {
+			"name": "Aspis Agent"
+		},
+		"Aspis Bulwark": {
+			"name": "Aspis Bulwark"
+		},
+		"Aspis Defender": {
+			"name": "Aspis Defender"
+		},
+		"Aspis Enforcer": {
+			"name": "Aspis Enforcer"
+		},
+		"Aspis Oppressor": {
+			"name": "Aspis Oppressor"
+		},
+		"Aspis Recruit": {
+			"name": "Aspis Recruit"
+		},
+		"Aspis Striker": {
+			"name": "Aspis Striker"
+		},
+		"Aspis Usurper": {
+			"name": "Aspis Usurper"
+		},
+		"Aspis Warden": {
+			"name": "Aspis Warden"
+		},
+		"Aydrian Thrune (3-4)": {
+			"name": "Aydrian Thrune (3-4)"
+		},
+		"Aydrian Thrune (5-6)": {
+			"name": "Aydrian Thrune (5-6)"
+		},
+		"Bergworm": {
+			"name": "Bergworm"
+		},
+		"Bergworm Tyrant": {
+			"name": "Bergworm Tyrant"
+		},
+		"Blessed Crossbow Trap": {
+			"name": "Blessed Crossbow Trap"
+		},
+		"Bloodletting Scythe Blade": {
+			"name": "Bloodletting Scythe Blade"
+		},
+		"Bloody Barber Ambusher": {
+			"name": "Bloody Barber Ambusher"
+		},
+		"Bloody Barber Leader": {
+			"name": "Bloody Barber Leader"
+		},
+		"Bloody Beetle Exoskeleton": {
+			"name": "Bloody Beetle Exoskeleton"
+		},
+		"Bloody Skeletal Champion": {
+			"name": "Bloody Skeletal Champion"
+		},
+		"Bloody Skeleton Guard": {
+			"name": "Bloody Skeleton Guard"
+		},
+		"Branwaen": {
+			"name": "Branwaen"
+		},
+		"Bugbear Tormentor (PFS 3-13)": {
+			"name": "Bugbear Tormentor (PFS 3-13)"
+		},
+		"Cairn Wight (PFS 3-09)": {
+			"name": "Cairn Wight (PFS 3-09)"
+		},
+		"Caliclotherax (11-12)": {
+			"name": "Caliclotherax (11-12)"
+		},
+		"Caliclotherax (9-10)": {
+			"name": "Caliclotherax (9-10)"
+		},
+		"Carved Mourner": {
+			"name": "Carved Mourner"
+		},
+		"Caustic Mud Pot": {
+			"name": "Caustic Mud Pot"
+		},
+		"Cinder Rat (Ashgrip)": {
+			"name": "Cinder Rat (Ashgrip)"
+		},
+		"Cinder Rat (Leadroar)": {
+			"name": "Cinder Rat (Leadroar)"
+		},
+		"Cleansing Cascade": {
+			"name": "Cleansing Cascade"
+		},
+		"Cleansing Torrent": {
+			"name": "Cleansing Torrent"
+		},
+		"Cloud of Reverie": {
+			"name": "Cloud of Reverie"
+		},
+		"Cobbled Bruiser": {
+			"name": "Cobbled Bruiser"
+		},
+		"Cobbled Brutalizer": {
+			"name": "Cobbled Brutalizer"
+		},
+		"Cog the Ruffian": {
+			"name": "Cog the Ruffian"
+		},
+		"Cog the Torchbearer": {
+			"name": "Cog the Torchbearer"
+		},
+		"Cole Farsen, Advisor": {
+			"name": "Cole Farsen, Advisor"
+		},
+		"Cole Farsen, Gang Leader": {
+			"name": "Cole Farsen, Gang Leader"
+		},
+		"Cooking Catastrophe": {
+			"name": "Cooking Catastrophe"
+		},
+		"Cooking Disaster": {
+			"name": "Cooking Disaster"
+		},
+		"Crushing Spirits (5-6)": {
+			"name": "Crushing Spirits (5-6)"
+		},
+		"Crushing Spirits (7-8)": {
+			"name": "Crushing Spirits (7-8)"
+		},
+		"Deadly Fetchling Sneak": {
+			"name": "Deadly Fetchling Sneak"
+		},
+		"Debased Relic": {
+			"name": "Debased Relic"
+		},
+		"Debris Storm": {
+			"name": "Debris Storm"
+		},
+		"Deep Mud": {
+			"name": "Deep Mud"
+		},
+		"Deep Shadow Guardian": {
+			"name": "Deep Shadow Guardian"
+		},
+		"Displaced Robot (1-2)": {
+			"name": "Displaced Robot (1-2)"
+		},
+		"Displaced Robot (3-4)": {
+			"name": "Displaced Robot (3-4)"
+		},
+		"Displaced Robot (5-6)": {
+			"name": "Displaced Robot (5-6)"
+		},
+		"Displaced Robot (7-8)": {
+			"name": "Displaced Robot (7-8)"
+		},
+		"Drakauthix (PFS 3-15)": {
+			"name": "Drakauthix (PFS 3-15)"
+		},
+		"Duergar Crusher": {
+			"name": "Duergar Crusher"
+		},
+		"Elite Green Hag (PFS 3-99)": {
+			"name": "Elite Green Hag (PFS 3-99)"
+		},
+		"Elite Hadrosaurid (PFS 3-99)": {
+			"name": "Elite Hadrosaurid (PFS 3-99)"
+		},
+		"Elite Hell Hound (PFS 3-07)": {
+			"name": "Elite Hell Hound (PFS 3-07)"
+		},
+		"Elite Hieracosphinx (PFS 3-14)": {
+			"name": "Elite Hieracosphinx (PFS 3-14)"
+		},
+		"Eloise's Ghost (1-2)": {
+			"name": "Eloise's Ghost (1-2)"
+		},
+		"Eloise's Ghost (3-4)": {
+			"name": "Eloise's Ghost (3-4)"
+		},
+		"Eloise's Last Gasp (1-2)": {
+			"name": "Eloise's Last Gasp (1-2)"
+		},
+		"Eloise's Last Gasp (3-4)": {
+			"name": "Eloise's Last Gasp (3-4)"
+		},
+		"Eloko (PFS 3-03)": {
+			"name": "Eloko (PFS 3-03)"
+		},
+		"Eltha Embercall (11-12, 28+ CP)": {
+			"name": "Eltha Embercall (11-12, 28+ CP)"
+		},
+		"Eltha Embercall (9-10)": {
+			"name": "Eltha Embercall (9-10)"
+		},
+		"Enduring Zombie Hulk": {
+			"name": "Enduring Zombie Hulk"
+		},
+		"Enhanced Brown Mold": {
+			"name": "Enhanced Brown Mold"
+		},
+		"Enraged Shrouded Bloodseeker": {
+			"name": "Enraged Shrouded Bloodseeker"
+		},
+		"Eternal Hall (1-2)": {
+			"name": "Eternal Hall (1-2)"
+		},
+		"Eternal Hall (3-4)": {
+			"name": "Eternal Hall (3-4)"
+		},
+		"Eternal Hall (5-6)": {
+			"name": "Eternal Hall (5-6)"
+		},
+		"Eternal Hall (7-8)": {
+			"name": "Eternal Hall (7-8)"
+		},
+		"Explosive Rat": {
+			"name": "Explosive Rat"
+		},
+		"Falling Tree": {
+			"name": "Falling Tree"
+		},
+		"Fasiel Ibn Sazadin (1-2)": {
+			"name": "Fasiel Ibn Sazadin (1-2)"
+		},
+		"Fasiel Ibn Sazadin (3-4)": {
+			"name": "Fasiel Ibn Sazadin (3-4)"
+		},
+		"Fast Shambler Troop": {
+			"name": "Fast Shambler Troop"
+		},
+		"Fast-Spinning Juice Fountain": {
+			"name": "Fast-Spinning Juice Fountain"
+		},
+		"Faulty Rockslide Trap": {
+			"name": "Faulty Rockslide Trap"
+		},
+		"Faulty Tidal Controls": {
+			"name": "Faulty Tidal Controls"
+		},
+		"Fetchling Sneak": {
+			"name": "Fetchling Sneak"
+		},
+		"Filth Fire (PFS 3-01)": {
+			"name": "Filth Fire (PFS 3-01)"
+		},
+		"Fipp the Prophet": {
+			"name": "Fipp the Prophet"
+		},
+		"Fire Sentry": {
+			"name": "Fire Sentry"
+		},
+		"Firespark Trap (1-2)": {
+			"name": "Firespark Trap (1-2)"
+		},
+		"Firespark Trap (3-4)": {
+			"name": "Firespark Trap (3-4)"
+		},
+		"Flaming Animated Armor (Ashgrip) (1-2)": {
+			"name": "Flaming Animated Armor (Ashgrip) (1-2)"
+		},
+		"Flaming Animated Armor (Firecutter) (1-2)": {
+			"name": "Flaming Animated Armor (Firecutter) (1-2)"
+		},
+		"Flaming Animated Armor (Holy Hand) (1-2)": {
+			"name": "Flaming Animated Armor (Holy Hand) (1-2)"
+		},
+		"Flaming Animated Armor (Leadroar) (1-2)": {
+			"name": "Flaming Animated Armor (Leadroar) (1-2)"
+		},
+		"Flensing Trap (5-6)": {
+			"name": "Flensing Trap (5-6)"
+		},
+		"Flensing Trap (7-8)": {
+			"name": "Flensing Trap (7-8)"
+		},
+		"Foot Pincer": {
+			"name": "Foot Pincer"
+		},
+		"Forged Bones": {
+			"name": "Forged Bones"
+		},
+		"Ghast (Arctic)": {
+			"name": "Ghast (Arctic)"
+		},
+		"Ghast (Heretical)": {
+			"name": "Ghast (Heretical)"
+		},
+		"Giant Amoeba (PFS 3-98)": {
+			"name": "Giant Amoeba (PFS 3-98)"
+		},
+		"Giant Rat (PFS 3-98)": {
+			"name": "Giant Rat (PFS 3-98)"
+		},
+		"Glurorchaes (7-8)": {
+			"name": "Glurorchaes (7-8)"
+		},
+		"Grieving Carved Mourner": {
+			"name": "Grieving Carved Mourner"
+		},
+		"Grimple (PFS 3-18)": {
+			"name": "Grimple (PFS 3-18)"
+		},
+		"Grimstalker (PFS 3-13)": {
+			"name": "Grimstalker (PFS 3-13)"
+		},
+		"Half-Formed Abrikandilu": {
+			"name": "Half-Formed Abrikandilu"
+		},
+		"Hellbound Jailer (3-4)": {
+			"name": "Hellbound Jailer (3-4)"
+		},
+		"Hellbound Jailer (5-6)": {
+			"name": "Hellbound Jailer (5-6)"
+		},
+		"Hellbound Robber": {
+			"name": "Hellbound Robber"
+		},
+		"Hellbound Rogue": {
+			"name": "Hellbound Rogue"
+		},
+		"Horrid Nightmare": {
+			"name": "Horrid Nightmare"
+		},
+		"Insolent's Castigation": {
+			"name": "Insolent's Castigation"
+		},
+		"Insolent's Retort": {
+			"name": "Insolent's Retort"
+		},
+		"Junior (1-2)": {
+			"name": "Junior (1-2)"
+		},
+		"Junior (3-4)": {
+			"name": "Junior (3-4)"
+		},
+		"Junk Launcher": {
+			"name": "Junk Launcher"
+		},
+		"Khisisi (5-6)": {
+			"name": "Khisisi (5-6)"
+		},
+		"Khisisi (7-8)": {
+			"name": "Khisisi (7-8)"
+		},
+		"Kobold Dragon Mage (PFS 3-99)": {
+			"name": "Kobold Dragon Mage (PFS 3-99)"
+		},
+		"Kobold Scout (PFS 3-99)": {
+			"name": "Kobold Scout (PFS 3-99)"
+		},
+		"Kobold Warrior (PFS 3-99)": {
+			"name": "Kobold Warrior (PFS 3-99)"
+		},
+		"Lacerating Trip Wire": {
+			"name": "Lacerating Trip Wire"
+		},
+		"Languid Isqulug": {
+			"name": "Languid Isqulug"
+		},
+		"Languid Purple Worm": {
+			"name": "Languid Purple Worm"
+		},
+		"Leopard (PFS 3-13)": {
+			"name": "Leopard (PFS 3-13)"
+		},
+		"Lesser Animate Dream": {
+			"name": "Lesser Animate Dream"
+		},
+		"Lightweight Animated Armor": {
+			"name": "Lightweight Animated Armor"
+		},
+		"Living Landslide (PFS 3-11)": {
+			"name": "Living Landslide (PFS 3-11)"
+		},
+		"Malfunctioning Tidal Controls": {
+			"name": "Malfunctioning Tidal Controls"
+		},
+		"Manipulator's Metronome (1-2)": {
+			"name": "Manipulator's Metronome (1-2)"
+		},
+		"Manipulator's Metronome (3-4)": {
+			"name": "Manipulator's Metronome (3-4)"
+		},
+		"Marcien Blakros (7-8)": {
+			"name": "Marcien Blakros (7-8)"
+		},
+		"Marcien Blakros (7-8) (Shadow Double)": {
+			"name": "Marcien Blakros (7-8) (Shadow Double)"
+		},
+		"Marcien Blakros (9-10)": {
+			"name": "Marcien Blakros (9-10)"
+		},
+		"Marcien Blakros (9-10) (Shadow Double)": {
+			"name": "Marcien Blakros (9-10) (Shadow Double)"
+		},
+		"Mature Arabuk": {
+			"name": "Mature Arabuk"
+		},
+		"Monastic Bodyguard (3-4)": {
+			"name": "Monastic Bodyguard (3-4)"
+		},
+		"Monastic Bodyguard (5-6)": {
+			"name": "Monastic Bodyguard (5-6)"
+		},
+		"Mud Pot": {
+			"name": "Mud Pot"
+		},
+		"Muesello's Best Summoning Rune": {
+			"name": "Muesello's Best Summoning Rune"
+		},
+		"Muesello's Elite Summoning Rune": {
+			"name": "Muesello's Elite Summoning Rune"
+		},
+		"Muesello's Greater Summoning Rune": {
+			"name": "Muesello's Greater Summoning Rune"
+		},
+		"Muesello's Summoning Rune": {
+			"name": "Muesello's Summoning Rune"
+		},
+		"Mummy Guardian (PFS 3-09)": {
+			"name": "Mummy Guardian (PFS 3-09)"
+		},
+		"Mutated Brown Mold": {
+			"name": "Mutated Brown Mold"
+		},
+		"Natron Eruption": {
+			"name": "Natron Eruption"
+		},
+		"Natron Explosion": {
+			"name": "Natron Explosion"
+		},
+		"Ninth Army Bodyguard": {
+			"name": "Ninth Army Bodyguard"
+		},
+		"Ninth Army Burglar": {
+			"name": "Ninth Army Burglar"
+		},
+		"Ninth Army Fence": {
+			"name": "Ninth Army Fence"
+		},
+		"Ninth Army Guard": {
+			"name": "Ninth Army Guard"
+		},
+		"Ninth Army Mage": {
+			"name": "Ninth Army Mage"
+		},
+		"Ninth Army Operative": {
+			"name": "Ninth Army Operative"
+		},
+		"Ninth Army Ruffian": {
+			"name": "Ninth Army Ruffian"
+		},
+		"Ninth Army Soldier": {
+			"name": "Ninth Army Soldier"
+		},
+		"Ninth Army War Mage": {
+			"name": "Ninth Army War Mage"
+		},
+		"Nuglub (PFS 3-18)": {
+			"name": "Nuglub (PFS 3-18)"
+		},
+		"Old Drakauthix (PFS 3-15)": {
+			"name": "Old Drakauthix (PFS 3-15)"
+		},
+		"Onyx Alliance Commander": {
+			"name": "Onyx Alliance Commander"
+		},
+		"Onyx Alliance Enforcer": {
+			"name": "Onyx Alliance Enforcer"
+		},
+		"Onyx Alliance Officer": {
+			"name": "Onyx Alliance Officer"
+		},
+		"Onyx Alliance Scout": {
+			"name": "Onyx Alliance Scout"
+		},
+		"Overloading Arch (1-2)": {
+			"name": "Overloading Arch (1-2)"
+		},
+		"Overloading Arch (3-4)": {
+			"name": "Overloading Arch (3-4)"
+		},
+		"Overloading Arch (5-6)": {
+			"name": "Overloading Arch (5-6)"
+		},
+		"Overloading Arch (7-8)": {
+			"name": "Overloading Arch (7-8)"
+		},
+		"Panicked Bat Swarm": {
+			"name": "Panicked Bat Swarm"
+		},
+		"Pelagastr Tail": {
+			"name": "Pelagastr Tail"
+		},
+		"Pernicious Powder Keg": {
+			"name": "Pernicious Powder Keg"
+		},
+		"Peryton (Arctic)": {
+			"name": "Peryton (Arctic)"
+		},
+		"Peryton (Heretical)": {
+			"name": "Peryton (Heretical)"
+		},
+		"Peryton (Rifle Mutation)": {
+			"name": "Peryton (Rifle Mutation)"
+		},
+		"Poisoned Dart Trap (1-2)": {
+			"name": "Poisoned Dart Trap (1-2)"
+		},
+		"Poisoned Dart Trap (3-4)": {
+			"name": "Poisoned Dart Trap (3-4)"
+		},
+		"Poltergeist (Holy Hand)": {
+			"name": "Poltergeist (Holy Hand)"
+		},
+		"Pontrius Tilasti (1-2)": {
+			"name": "Pontrius Tilasti (1-2)"
+		},
+		"Pontrius Tilasti (3-4)": {
+			"name": "Pontrius Tilasti (3-4)"
+		},
+		"Precarious Sliding Floor": {
+			"name": "Precarious Sliding Floor"
+		},
+		"Pup of Tindalos": {
+			"name": "Pup of Tindalos"
+		},
+		"Raging Debris Storm": {
+			"name": "Raging Debris Storm"
+		},
+		"Rampaging Roast (Medium Rare)": {
+			"name": "Rampaging Roast (Medium Rare)"
+		},
+		"Rampaging Roast (Well Done)": {
+			"name": "Rampaging Roast (Well Done)"
+		},
+		"Raseri Kanton Skeleton": {
+			"name": "Raseri Kanton Skeleton"
+		},
+		"Reckless Akitonian Scientist": {
+			"name": "Reckless Akitonian Scientist"
+		},
+		"Revinus (1-2)": {
+			"name": "Revinus (1-2)"
+		},
+		"Revinus (3-4)": {
+			"name": "Revinus (3-4)"
+		},
+		"Revinus's Guards (1-2)": {
+			"name": "Revinus's Guards (1-2)"
+		},
+		"Revinus's Guards (3-4)": {
+			"name": "Revinus's Guards (3-4)"
+		},
+		"Rock Launcher": {
+			"name": "Rock Launcher"
+		},
+		"Rockslide Trap": {
+			"name": "Rockslide Trap"
+		},
+		"Ruthless Fetchling Sneak": {
+			"name": "Ruthless Fetchling Sneak"
+		},
+		"Sandswept Statue": {
+			"name": "Sandswept Statue"
+		},
+		"Scalding Mephit": {
+			"name": "Scalding Mephit"
+		},
+		"Severing Trip Wire": {
+			"name": "Severing Trip Wire"
+		},
+		"Shadow (PFS 3-17)": {
+			"name": "Shadow (PFS 3-17)"
+		},
+		"Shadow Double Runes (1-2)": {
+			"name": "Shadow Double Runes (1-2)"
+		},
+		"Shadow Double Runes (3-4)": {
+			"name": "Shadow Double Runes (3-4)"
+		},
+		"Shadow Guardian": {
+			"name": "Shadow Guardian"
+		},
+		"Shadow Spears (7-8)": {
+			"name": "Shadow Spears (7-8)"
+		},
+		"Shadow Spears (9-10)": {
+			"name": "Shadow Spears (9-10)"
+		},
+		"Shanrigol Mound": {
+			"name": "Shanrigol Mound"
+		},
+		"Shobhad Hunter (5-6)": {
+			"name": "Shobhad Hunter (5-6)"
+		},
+		"Shobhad Hunter (7-8)": {
+			"name": "Shobhad Hunter (7-8)"
+		},
+		"Shrouded Bloodseeker": {
+			"name": "Shrouded Bloodseeker"
+		},
+		"Skeleton Warrior": {
+			"name": "Skeleton Warrior"
+		},
+		"Skulk (PFS 3-13)": {
+			"name": "Skulk (PFS 3-13)"
+		},
+		"Sliding Floor": {
+			"name": "Sliding Floor"
+		},
+		"Smiglen Daet": {
+			"name": "Smiglen Daet"
+		},
+		"Smilglen Daet": {
+			"name": "Smilglen Daet"
+		},
+		"Smoldering Nightmare": {
+			"name": "Smoldering Nightmare"
+		},
+		"Sorrowful Tombstone Door": {
+			"name": "Sorrowful Tombstone Door"
+		},
+		"Sparkles (11-12)": {
+			"name": "Sparkles (11-12)"
+		},
+		"Sparkles (9-10)": {
+			"name": "Sparkles (9-10)"
+		},
+		"Spinning Juice Fountain": {
+			"name": "Spinning Juice Fountain"
+		},
+		"Strong Electric Latch Rune": {
+			"name": "Strong Electric Latch Rune"
+		},
+		"Strong Fire Sentry": {
+			"name": "Strong Fire Sentry"
+		},
+		"Sulfuric Slime": {
+			"name": "Sulfuric Slime"
+		},
+		"Tascio Raetullus (3-4)": {
+			"name": "Tascio Raetullus (3-4)"
+		},
+		"Tascio Raetullus (5-6)": {
+			"name": "Tascio Raetullus (5-6)"
+		},
+		"Temporal Echoes (1-2)": {
+			"name": "Temporal Echoes (1-2)"
+		},
+		"Temporal Echoes (3-4)": {
+			"name": "Temporal Echoes (3-4)"
+		},
+		"Temporal Echoes (5-6)": {
+			"name": "Temporal Echoes (5-6)"
+		},
+		"Temporal Echoes (7-8)": {
+			"name": "Temporal Echoes (7-8)"
+		},
+		"Thick Pelagastr Tail": {
+			"name": "Thick Pelagastr Tail"
+		},
+		"Thomil Bolyrius (3-4)": {
+			"name": "Thomil Bolyrius (3-4)"
+		},
+		"Thomil Bolyrius (5-6)": {
+			"name": "Thomil Bolyrius (5-6)"
+		},
+		"Thundering Wihsaak": {
+			"name": "Thundering Wihsaak"
+		},
+		"Thundering Wihsaak (Arctic)": {
+			"name": "Thundering Wihsaak (Arctic)"
+		},
+		"Thundering Wihsaak (Heretical)": {
+			"name": "Thundering Wihsaak (Heretical)"
+		},
+		"Thundering Wihsaak (Rifle Mutation)": {
+			"name": "Thundering Wihsaak (Rifle Mutation)"
+		},
+		"Tilting Floor": {
+			"name": "Tilting Floor"
+		},
+		"Timewarped Amalgam": {
+			"name": "Timewarped Amalgam"
+		},
+		"Tombstone Door": {
+			"name": "Tombstone Door"
+		},
+		"Trip Wire": {
+			"name": "Trip Wire"
+		},
+		"Tyrannical Interrogator": {
+			"name": "Tyrannical Interrogator"
+		},
+		"Umbral Cu Sith": {
+			"name": "Umbral Cu Sith"
+		},
+		"Umbral Drake": {
+			"name": "Umbral Drake"
+		},
+		"Uncle Jeb (1-2)": {
+			"name": "Uncle Jeb (1-2)"
+		},
+		"Uncle Jeb (3-4)": {
+			"name": "Uncle Jeb (3-4)"
+		},
+		"Unstable Column (1-2)": {
+			"name": "Unstable Column (1-2)"
+		},
+		"Unstable Column (3-4)": {
+			"name": "Unstable Column (3-4)"
+		},
+		"Unstable Column (5-6)": {
+			"name": "Unstable Column (5-6)"
+		},
+		"Unstable Skeletal Champion": {
+			"name": "Unstable Skeletal Champion"
+		},
+		"Unstable Skeleton Guard": {
+			"name": "Unstable Skeleton Guard"
+		},
+		"Vengeful Ember Fox": {
+			"name": "Vengeful Ember Fox"
+		},
+		"Veteran Onyx Alliance Enforcer": {
+			"name": "Veteran Onyx Alliance Enforcer"
+		},
+		"Veteran Onyx Alliance Scout": {
+			"name": "Veteran Onyx Alliance Scout"
+		},
+		"Void Boils": {
+			"name": "Void Boils"
+		},
+		"Volatile Tidal Controls": {
+			"name": "Volatile Tidal Controls"
+		},
+		"Wailing Ghost": {
+			"name": "Wailing Ghost"
+		},
+		"Waking Nightmare": {
+			"name": "Waking Nightmare"
+		},
+		"Waking Terror": {
+			"name": "Waking Terror"
+		},
+		"Wasp Swarm (Arctic)": {
+			"name": "Wasp Swarm (Arctic)"
+		},
+		"Wasp Swarm (Heretical)": {
+			"name": "Wasp Swarm (Heretical)"
+		},
+		"Wasp Swarm (PFS 3-13)": {
+			"name": "Wasp Swarm (PFS 3-13)"
+		},
+		"Weak Hell Hound (PFS 3-07)": {
+			"name": "Weak Hell Hound (PFS 3-07)"
+		},
+		"Weakened Cobbleswarm": {
+			"name": "Weakened Cobbleswarm"
+		},
+		"Weeping Carved Mourner": {
+			"name": "Weeping Carved Mourner"
+		},
+		"Werebat (PFS 3-13)": {
+			"name": "Werebat (PFS 3-13)"
+		},
+		"Weretiger (PFS 3-13)": {
+			"name": "Weretiger (PFS 3-13)"
+		},
+		"Young Arabuk": {
+			"name": "Young Arabuk"
+		},
+		"Zebub (PFS)": {
+			"name": "Zebub (PFS)"
+		}
+	}
+}
