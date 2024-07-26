@@ -386,6 +386,385 @@
                 }
             ]
 		},
+		"03-12================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Rampaging Roast (Well Done)": {
+			"name": "Буйное Жаркое (1-2)",
+            "tokenName": "Буйное Жаркое",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/RampagingRoast.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/RampagingRoast.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Slam",
+                    "name": "Удар"
+                },
+                {
+                    "id": "Rampaging Charge",
+                    "name": "Буйный Рывок",
+                    "description": "<p>Буйное жаркое совершает Перемещение до удвоенной скорости по прямой, а затем совершает Удар Ударом. Если он переместился хотя бы на 10 футов, то получает бонус обстоятельства +1 к броскам атаки.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Rampaging Roast (Medium Rare)": {
+			"name": "Буйное Жаркое (3-4)",
+            "tokenName": "Буйное Жаркое",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/RampagingRoast.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/RampagingRoast.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Slam",
+                    "name": "Удар"
+                },
+                {
+                    "id": "Rampaging Charge",
+                    "name": "Буйный Рывок",
+                    "description": "<p>Буйное жаркое совершает Перемещение до удвоенной скорости по прямой, а затем совершает Удар Ударом. Если он переместился хотя бы на 10 футов, то получает бонус обстоятельства +1 к броскам атаки.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Animated Cookware": {
+			"name": "Ожившая Посуда",
+            "tokenName": "Ожившая Посуда",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/standalone-adventures/crown-of-the-kobold-king/Ulizmilas-Cauldron.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/standalone-adventures/crown-of-the-kobold-king/Ulizmilas-Cauldron.webp",
+            "description": "<p>Получив подобие жизни с помощью ритуалов или другой странной магии, одушевленные объекты имеют разные формы и служат для самых разных целей. Ниже приведены несколько примеров типичных оживленных объектов. Многие из этих существ служат стражами, удивляя ничего не подозревающих авантюристов, своим внезапным нападением. Другие служат праздным развлечением для чересчур богатых, простыми слугами, созданными для выполнения всякой работы, и тому подобного.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Pot",
+                    "name": "Горшок"
+                },
+                {
+                    "id": "Slam",
+                    "name": "Удар"
+                },
+                {
+                    "id": "Construct Armor (Hardness 5)",
+                    "name": "Броня конструкта (Твердость 5)",
+                    "description": "<p>Как обычные объекты, оживший доспех имеет Твердость. Эта Твердость снижает любой получаемый урон на величину этой Твердости.</p><p>Как только ОЗ ожившего доспеха снижаются ниже половины, или сразу после получения урона от критического попадания, его броня конструкта ломается и КБ снижается до 13.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Scalding Mephit": {
+			"name": "Обжигающий Мефит",
+            "tokenName": "Обжигающий Мефит",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/mephit-steam.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/mephit-steam.webp",
+            "description": "<p>Эти наглые и высокомерные существа - одни из самых энергичных мефитов. Они быстро назначают себя лидерами любой группы, выкрикивая приказы пронзительным, высоким голосом и настаивая на том, чтобы все было сделано по-ихнему. Даже когда они не командуют другими, постоянное шипение пара, выходящего из их пор, гарантирует, что тишины не будет никогда.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Boiling Rain",
+                    "name": "Кипящий Дождь",
+                    "description": "<p><strong>Частота:</strong> Раз в день</p><hr><p>Обжигающий мефит призывает дождь кипящий воды, который окружает его в @Template[type:emanation|distance:10]. Существа в области получают @Damage[(2d8+3)[fire]] (@Check[type:reflex|dc:18|basic:true]), и небольшие ничейные огни (такие как факелы) тушатся.</p>"
+                },
+                {
+                    "id": "Breath Weapon",
+                    "name": "Атака Дыханием",
+                    "description": "<p>Обжигающий мефит выдыхает облако пара в @Template[type:cone|distance:15], наносящий всем существам в области @Damage[3d6[fire]] (@Check[type:reflex|dc:17|basic:true]).</p><p>Он не может снова использовать <em>\"Атаку дыханием\"</em> [[/br 1d4 #Перезарядка атаки дыханием]]{1d4 раунда}.</p>"
+                },
+                {
+                    "id": "Steam Vision",
+                    "name": "Паровое Зрение",
+                    "description": "<p>Паровой мефит игнорирует состояние @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Сокрытия} от пара.</p>"
+                },
+                {
+                    "id": "Fast Healing 2 (in boiling water or steam)",
+                    "name": "Быстрое исцеление 2 (в кипящей воде или паре)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Fasiel Ibn Sazadin (1-2)": {
+			"name": "Фасиэль ибн Сазадин (1-2)",
+            "tokenName": "Фасиэль ибн Сазадин",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/FasielIbnSazadin.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/FasielIbnSazadin.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "R0HLiBnfzTgXGH4w",
+                    "name": "Посох"
+                },
+                {
+                    "id": "-1 to Saves vs. Emotion Effects",
+                    "name": "-1 Спас. пр. Эмоций"
+                },
+                {
+                    "id": "Punishing Strike",
+                    "name": "Яростный Удар",
+                    "description": "<p>Фасиэль выплескивает свою постоянную ярость в безрассудной атаке, которая делает его @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала следующего хода. Он наносит Удар; если он попадает, то увеличивает количество костей урона на один и добавляет к Удару эффект @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]</p><hr><p>Это считается за две атаки для его Штрафа Множественной Атаки.</p>"
+                },
+                {
+                    "id": "6yq9O6WHEsvMhrT814",
+                    "name": "Изменение формы",
+                    "description": "<p>Уличный скельм может принять внешность любого @Trait[Humanoid]{гуманоида} мужского пола Среднего размера. Это не изменяет его Скорость или бонусы атаки и урона \"Ударов\", но может изменить тип урона, наносимого его \"Ударами\".</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                {
+                    "id": "Frightening Rant",
+                    "name": "Устрашающая тирада",
+                    "description": "<p>Скельм злобно высказывается, наполняя близлежащих существ стыдом, страхом и гневом. Каждое существо в пределах @Template[type:emanation|distance:30]{30 футов} должно совершить успешный спасбросок @Check[type:will|dc:20]{Воли}, иначе становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано 1} (при критическом провале @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано 2}).</p><p>Пока существо напугано этой тирадой, оно получает штраф состояния −2 к броскам урона на основе Силы против данного скельма, но получает бонус состояния +2 к этим броскам против других существ.</p>"
+                }
+            ]
+		},
+		"Fasiel Ibn Sazadin (3-4)": {
+			"name": "Фасиэль ибн Сазадин (3-4)",
+            "tokenName": "Фасиэль ибн Сазадин",
+			"img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/FasielIbnSazadin.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/FasielIbnSazadin.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "R0HLiBnfzTgXGH4w",
+                    "name": "Посох"
+                },
+                {
+                    "id": "-1 to Saves vs. Emotion Effects",
+                    "name": "-1 Спас. пр. Эмоций"
+                },
+                {
+                    "id": "Punishing Strike",
+                    "name": "Яростный Удар",
+                    "description": "<p>Фасиэль выплескивает свою постоянную ярость в безрассудной атаке, которая делает его @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до начала следующего хода. Он наносит Удар; если он попадает, то увеличивает количество костей урона на один и добавляет к Удару эффект @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]</p><hr><p>Это считается за две атаки для его Штрафа Множественной Атаки.</p>"
+                },
+                {
+                    "id": "6yq9O6WHEsvMhrT814",
+                    "name": "Изменение формы",
+                    "description": "<p>Уличный скельм может принять внешность любого @Trait[Humanoid]{гуманоида} мужского пола Среднего размера. Это не изменяет его Скорость или бонусы атаки и урона \"Ударов\", но может изменить тип урона, наносимого его \"Ударами\".</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                {
+                    "id": "Frightening Rant",
+                    "name": "Устрашающая тирада",
+                    "description": "<p>Скельм злобно высказывается, наполняя близлежащих существ стыдом, страхом и гневом. Каждое существо в пределах @Template[type:emanation|distance:30]{30 футов} должно совершить успешный спасбросок @Check[type:will|dc:22]{Воли}, иначе становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано 1} (при критическом провале @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано 2}).</p><p>Пока существо напугано этой тирадой, оно получает штраф состояния −2 к броскам урона на основе Силы против данного скельма, но получает бонус состояния +2 к этим броскам против других существ.</p>"
+                }
+            ]
+		},
+		"Spinning Juice Fountain": {
+			"name": "Вращающийся Фонтан (1-2)",
+            "tokenName": "Вращающийся Фонтан",
+            "img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/SpinningJuiceFountain.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/SpinningJuiceFountain.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:athletics|dc:16|name:Grapple a Tier|traits:hazard,complex,magical,trap,action:grapple], чтобы схватить ярус и остановить его движение, затем @Check[type:crafting|dc:14|name:Disable the Pump Mechanism|traits:hazard,complex,magical,trap,action:disable-a-device] или @Check[type:thievery|dc:14|name:Disable the Pump Mechanism|traits:hazard,complex,magical,trap,action:disable-a-device] (пока ярус схвачен), чтобы отключить механизм вращения через щель, которую оставила открытой предыдущая проверка. Захват яруса требует 1 действия. Каждая проверка Ремесла или Воровства для отключения яруса - это 2 действия.</p><p>Фонтан имеет три яруса, и для полного отключения фонтана требуется отключить каждый ярус. Для каждого отключенного яруса КС для захвата или отключения другого яруса уменьшается на 2. Если существо критически преуспевает в проверке отключения яруса, он немедленно отключается, независимо от количества проверок, которые в противном случае потребовались бы из-за корректировки очков вызова.</p>",
+            "hdescription": "<p>Зачарованный фонтан разбрызгивает большое количество виноградного сока, когда его мраморные ярусы вращаются с нарастающей скоростью.</p>",
+            "hreset": "",
+            "hroutine": "<p>(1 Действие) Фонтан ускоряет вращение, разбрызгивая сок на 10 футов во все стороны в первый раунд, на 15 футов во все стороны во втором раунде и на 20 футов во все стороны в третий раунд. Каждый квадрат, где он распыляет сок, становится сложной местностью. В начале четвертого раунда фонтан ломается, отключая опасность и разбрызгивая сок на 25 футов во все стороны.</p>",
+            "items": [
+                {
+                    "id": "Begin to Spin",
+                    "name": "Начать Вращение",
+                    "description": "<p><strong>Триггер</strong>: Сафа приказывает фонтану начать вращаться в начале <strong>События 1: Прибытие Сафы</strong>;</p><hr><p>Фонтан разбрызгивает сок во все стороны, делая каждую прилегающую к нему клетку сложной местностью. Ловушка бросает инициативу.</p>"
+                },
+                {
+                    "id": "Centrifugal Slam",
+                    "name": "Центробежный удар",
+                    "description": "<p><strong>Триггер</strong>: Существо пытается схватить один из ярусов фонтана. Каждый ярус фонтана имеет одну реакцию в раунд;</p><hr><p>Тяжелый, вращающийся мрамор обладает достаточной силой, чтобы раздавить руки тех, кто пытается его остановить. Пытавшееся схватить существо должно совершить @Check[type:fortitude|dc:15|traits:hazard,complex,magical,trap], прежде чем оно бросит свою проверку на захват фонтана.</p><hr><p><strong>Крит.Успех</strong>: Существо не получает урона и получает бонус обстоятельств +2 к своей следующей проверке \"Схватить фонтан\".</p><p><strong>Успех</strong>: Существо не получает урона.</p><p><strong>Провал</strong>: Существо получает @Damage[(1d6+3)[bludgeoning]] и получает штраф -2 к следующей проверке схватить фонтан.</p><p><strong>Крит.Провал</strong>: Существо получает @Damage[(2d6+3)[bludgeoning]] и отбрасывается на 10 футов от фонтана в случайном направлении, предотвращая попытку схватить фонтан.</p>"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+		"Fast-Spinning Juice Fountain": {
+			"name": "Вращающийся Фонтан (3-4)",
+            "tokenName": "Вращающийся Фонтан",
+            "img": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/SpinningJuiceFountain.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/3%20Season/03-12/SpinningJuiceFountain.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:athletics|dc:20|name:Grapple a Tier|traits:hazard,complex,magical,trap,action:grapple], чтобы схватить ярус и остановить его движение, затем @Check[type:crafting|dc:18|name:Disable the Pump Mechanism|traits:hazard,complex,magical,trap,action:disable-a-device] или @Check[type:thievery|dc:18|name:Disable the Pump Mechanism|traits:hazard,complex,magical,trap,action:disable-a-device] (пока ярус схвачен), чтобы отключить механизм вращения через щель, которую оставила открытой предыдущая проверка. Захват яруса требует 1 действия. Каждая проверка Ремесла или Воровства для отключения яруса - это 2 действия.</p><p>Фонтан имеет три яруса, и для полного отключения фонтана требуется отключить каждый ярус. Для каждого отключенного яруса КС для захвата или отключения другого яруса уменьшается на 2. Если существо критически преуспевает в проверке отключения яруса, он немедленно отключается, независимо от количества проверок, которые в противном случае потребовались бы из-за корректировки очков вызова.</p>",
+            "hdescription": "<p>Зачарованный фонтан разбрызгивает большое количество виноградного сока, когда его мраморные ярусы вращаются с нарастающей скоростью.</p>",
+            "hreset": "",
+            "hroutine": "<p>(1 Действие) Фонтан ускоряет вращение, разбрызгивая сок на 10 футов во все стороны в первый раунд, на 15 футов во все стороны во втором раунде и на 20 футов во все стороны в третий раунд. Каждый квадрат, где он распыляет сок, становится сложной местностью. В начале четвертого раунда фонтан ломается, отключая опасность и разбрызгивая сок на 25 футов во все стороны.</p>",
+            "items": [
+                {
+                    "id": "Begin to Spin",
+                    "name": "Начать Вращение",
+                    "description": "<p><strong>Триггер</strong>: Сафа приказывает фонтану начать вращаться в начале <strong>События 1: Прибытие Сафы</strong>;</p><hr><p>Фонтан разбрызгивает сок во все стороны, делая каждую прилегающую к нему клетку сложной местностью. Ловушка бросает инициативу.</p>"
+                },
+                {
+                    "id": "Centrifugal Slam",
+                    "name": "Центробежный удар",
+                    "description": "<p><strong>Триггер</strong>: Существо пытается схватить один из ярусов фонтана. Каждый ярус фонтана имеет одну реакцию в раунд;</p><hr><p>Тяжелый, вращающийся мрамор обладает достаточной силой, чтобы раздавить руки тех, кто пытается его остановить. Пытавшееся схватить существо должно совершить @Check[type:fortitude|dc:18|traits:hazard,complex,magical,trap], прежде чем оно бросит свою проверку на захват фонтана.</p><hr><p><strong>Крит.Успех</strong>: Существо не получает урона и получает бонус обстоятельств +2 к своей следующей проверке \"Схватить фонтан\".</p><p><strong>Успех</strong>: Существо не получает урона.</p><p><strong>Провал</strong>: Существо получает @Damage[(1d10+6)[bludgeoning]] и получает штраф -2 к следующей проверке схватить фонтан.</p><p><strong>Крит.Провал</strong>: Существо получает @Damage[(2d10+6)[bludgeoning]] и отбрасывается на 10 футов от фонтана в случайном направлении, предотвращая попытку схватить фонтан.</p>"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
 
 
 
@@ -484,9 +863,6 @@
 		},
 		"Animated Blade (PFS 3-99)": {
 			"name": "Animated Blade (PFS 3-99)"
-		},
-		"Animated Cookware": {
-			"name": "Animated Cookware"
 		},
 		"Animated Full Plate (PFS 3-99)": {
 			"name": "Animated Full Plate (PFS 3-99)"
@@ -728,17 +1104,8 @@
 		"Falling Tree": {
 			"name": "Falling Tree"
 		},
-		"Fasiel Ibn Sazadin (1-2)": {
-			"name": "Fasiel Ibn Sazadin (1-2)"
-		},
-		"Fasiel Ibn Sazadin (3-4)": {
-			"name": "Fasiel Ibn Sazadin (3-4)"
-		},
 		"Fast Shambler Troop": {
 			"name": "Fast Shambler Troop"
-		},
-		"Fast-Spinning Juice Fountain": {
-			"name": "Fast-Spinning Juice Fountain"
 		},
 		"Faulty Rockslide Trap": {
 			"name": "Faulty Rockslide Trap"
@@ -1037,12 +1404,6 @@
 		"Raging Debris Storm": {
 			"name": "Raging Debris Storm"
 		},
-		"Rampaging Roast (Medium Rare)": {
-			"name": "Rampaging Roast (Medium Rare)"
-		},
-		"Rampaging Roast (Well Done)": {
-			"name": "Rampaging Roast (Well Done)"
-		},
 		"Raseri Kanton Skeleton": {
 			"name": "Raseri Kanton Skeleton"
 		},
@@ -1072,9 +1433,6 @@
 		},
 		"Sandswept Statue": {
 			"name": "Sandswept Statue"
-		},
-		"Scalding Mephit": {
-			"name": "Scalding Mephit"
 		},
 		"Severing Trip Wire": {
 			"name": "Severing Trip Wire"
@@ -1135,9 +1493,6 @@
 		},
 		"Sparkles (9-10)": {
 			"name": "Sparkles (9-10)"
-		},
-		"Spinning Juice Fountain": {
-			"name": "Spinning Juice Fountain"
 		},
 		"Strong Electric Latch Rune": {
 			"name": "Strong Electric Latch Rune"
