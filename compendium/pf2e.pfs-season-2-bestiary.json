@@ -528,7 +528,7 @@
 			"img": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Corvius_Vayn.webp",
             "tokenImg": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Corvius_Vayn.webp",
             "description": "",
-            "appendNumber": true,
+			"actorLink": true,
             "tokenvision": true,
 			"ring": {
 				"enabled": true,
@@ -577,7 +577,7 @@
 			"img": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Corvius_Vayn.webp",
             "tokenImg": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Corvius_Vayn.webp",
             "description": "",
-            "appendNumber": true,
+			"actorLink": true,
             "tokenvision": true,
 			"ring": {
 				"enabled": true,
@@ -626,7 +626,8 @@
 			"img": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Perizia.webp",
             "tokenImg": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Perizia.webp",
             "description": "<p>Мариды — капризные, но могущественные гении с <a href=\"https://clck.ru/sXmqF\">Плана Воды</a>; среди рода гениев с ними по силе соперничают только огненные эфриты. Мариды воплощают силу океанских волн и течений, но у них есть и более мягкая сторона — они любят выступления и искусство, такие как танцы, музыка и рассказывание историй.</p><p>Мариды относятся к эфритам враждебно, но редко сталкиваются с ними в своей родной среде. Они ладят с @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.GyigGu36XLPV72nW]{Джинни}, @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.tMxtnGthVV01wNQb]{Джаннами} и @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.xqnl2eFzy5H2NZoQ]{Шайтанами}, хотя последние считают маридов взбалмошными и надоедливыми, связываясь с ними ровно настолько, чтобы заключить торговые сделки. В обществе маридов существуют строгие правила гостеприимства, а во многих городах маридов есть магически запечатанный квартал для иностранцев, где шахзады маридов ведут дела с воздуходышащими.</p><hr><p>Для каждого Плана Стихии существует свой вид гения, и их тела формируются из стихийной материи, соответствующей их родному плану: джинни формируются из ветра, облаков и бурь; эфриты — огонь, ставший плотью; мариды — существа воды; шайтаны состоят из металла, самоцветов и камня. И наконец, джанн образуется из всех 4 элементов и является самыми слабыми из рода гениев.</p>",
-            "tokenvision": true,
+			"actorLink": true,
+			"tokenvision": true,
 			"ring": {
 				"enabled": true,
 				"colors": {
@@ -718,7 +719,8 @@
 			"img": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Perizia.webp",
             "tokenImg": "modules/pf2e-ts-adv/PFS/2%20Se%D0%B0son/02-16/Perizia.webp",
             "description": "<p>Мариды — капризные, но могущественные гении с <a href=\"https://clck.ru/sXmqF\">Плана Воды</a>; среди рода гениев с ними по силе соперничают только огненные эфриты. Мариды воплощают силу океанских волн и течений, но у них есть и более мягкая сторона — они любят выступления и искусство, такие как танцы, музыка и рассказывание историй.</p><p>Мариды относятся к эфритам враждебно, но редко сталкиваются с ними в своей родной среде. Они ладят с @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.GyigGu36XLPV72nW]{Джинни}, @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.tMxtnGthVV01wNQb]{Джаннами} и @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.xqnl2eFzy5H2NZoQ]{Шайтанами}, хотя последние считают маридов взбалмошными и надоедливыми, связываясь с ними ровно настолько, чтобы заключить торговые сделки. В обществе маридов существуют строгие правила гостеприимства, а во многих городах маридов есть магически запечатанный квартал для иностранцев, где шахзады маридов ведут дела с воздуходышащими.</p><hr><p>Для каждого Плана Стихии существует свой вид гения, и их тела формируются из стихийной материи, соответствующей их родному плану: джинни формируются из ветра, облаков и бурь; эфриты — огонь, ставший плотью; мариды — существа воды; шайтаны состоят из металла, самоцветов и камня. И наконец, джанн образуется из всех 4 элементов и является самыми слабыми из рода гениев.</p>",
-            "tokenvision": true,
+			"actorLink": true,
+			"tokenvision": true,
 			"ring": {
 				"enabled": true,
 				"colors": {
@@ -925,6 +927,479 @@
 		"02-17================================================================================================": {
             "name": "==========================================================================================="
         },
+		"Bounty================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Ssalarn": {
+			"name": "Ссаларн",
+            "tokenName": "Ссаларн",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/tatzlwyrm.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/tatzlwyrm.webp",
+            "description": "<p>Тацлвирмы похожи на змей размером с человека, с двумя руками и головой дракона. Дальние родственники настоящих драконов, тацлвирмы обладают лишь скудным уровнем интеллекта. Они могут говорить на драконьем языке (с густым шипящим акцентом), но их способность рассуждать ограничена, и они не умеют пользоваться магией. Однако они обладают определенным уровнем хитрости, и некоторые из них умеют строить простейшие ловушки и даже логова. Однако они не являются кладоискателями сокровищ, так что не надейтесь найти тацлвирма, сидящего на кровати с монетами.</p><p>Некоторым тацлвирмам удается наладить рабочие отношения с драконами, хотя такое случается крайне редко. Время от времени драконы используют их в качестве посыльных (поскольку они могут говорить на их языке, пусть и грубо), разведчиков (из-за их меньших размеров), проводников (когда они знакомы с определенной горой) и даже мускулов (для преследования врагов, не заслуживающих непосредственного внимания дракона).</p><p>Тацлвирмы не работают с кобольдами, однако тацлвирмы едят кобольдов.</p><p>В холода тацлвирмы впадают в спячку, а когда чувствуют приближение зимы, ищут подземные логова, расщелины гор или даже сеновалы. В одном примечательном случае горожане сообщили, что их ненадолго наводнили тацлвирмы после того, как конфликт между заклинателями в близлежащих холмах вызвал внезапную метель. Местные ученые до сих пор спорят, была ли причиной наплыва внезапная смена погоды или же существа были привлечены одним из других пользователей магии, остававшихся в городе и входивших в то же паломничество, что и сражающиеся.</p><p>При столкновении с ними тацлвирмы скорее нападают, чем отступают. Более того, иногда они специально затаиваются, используя естественную маскировку своей чешуи и выжидая удобного момента, чтобы выпустить свой фирменный прием: изрыгнуть ядовитый пар в лицо противнику. Поскольку эта дыхательная атака не имеет большой дистанции, вирмам обычно приходится сначала хватать противника и подносить его близко к своему рту.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Gelid Breath",
+                    "name": "Холодное Дыхание",
+                    "description": "<p>Татцлвирм изрыгает струю холодного пара в лицо соседнему существу, которое должно совершить @Check[type:fortitude|dc:17]; существо получает штраф обстоятельства -2, если оно @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} или @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застиг.Врасплох}</p><div data-visibility=\"gm\"><p>Перезарядка: 2 Раунда</p></div><hr><p>Крит.Успех: Существо невредимо</p><p>Успех: Существо получает @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} на 1 раунд</p><p>Провал: Существо получает [[/r (2d6+4)[cold]]] и получает @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} на 1 раунд</p><p>Крит.Провал: Существо получает [[/r (4d6+4)[cold]]] и получает @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюжесть 1} на 1 минуту</p>"
+                },
+                {
+                    "id": "Natural Camouflage",
+                    "name": "Естественный Камуфляж",
+                    "description": "<p>­Белая и голубая чешуя Ссаларна обеспечивает естественный камуфляж.</p><p>В снежных и ледяных районах Ссаларн может совершать @Trait[Move]{движение} с полной Скоростью, когда он совершает @UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Красться}, так же он получает бонус обстоятельства +4 к @UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Спрятаться}</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Kareida": {
+			"name": "Карейда",
+            "tokenName": "Карейда",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/03/scarecrow.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/03/scarecrow.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Scarecrow Mask",
+                    "name": "Маска Пугало"
+                },
+                {
+                    "id": "4WqDlk9JHj0pG88J",
+                    "name": "Булава"
+                },
+                {
+                    "id": "rmGbisSadlCJdx5j",
+                    "name": "Метательное Копье"
+                },
+                {
+                    "id": "6ITIR8OKpmryGoUu",
+                    "name": "Шипастая Цепь"
+                },
+                {
+                    "id": "Masked Intentions",
+                    "name": "Замаскированные Намерения",
+                    "description": "<p>­Маска Карейды скрывает ее сосредоточенность во время боя.</p><p>Враги, которые начинают свой ход в @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Ауре 30ФТ} или входят в нее, должны совершить @Check[type:will|dc:16]</p><hr><p>Крит.Успех: Существо временно иммуно на 1 минуту</p><p>Провал: Существо получает @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застиг.Врасплох} против Карейды и штраф обстоятельства -2 спас. против проверок `навыков` Карейды, которая она делает против существа до начала его след.хода.</p>"
+                }
+            ]
+		},
+		"Teflar": {
+			"name": "Тефлара",
+            "tokenName": "Тефлара",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/03/teflar.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/03/teflar.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "nvHMNNPzATn5jOLK",
+                    "name": "Шипованная рукавица"
+                },
+                {
+                    "id": "Religious Symbol of Zon-Kuthon (Wooden)",
+                    "name": "Религиозный символ Зон-Кутон [Дерево]",
+                    "description": "<p>Этот кусок дерева гравирован изображением, представляющим божество. Некоторые сакральные заклинатели, такие как жрецы, могут использовать религиозный символ своего божества как сакральный фокус при использовании некоторых умений и сотворении некоторых заклинаний. Чтобы использовать религиозный символ, его надо держать в одной руке.</p>"
+                },
+                {
+                    "id": "Invigorating Agony",
+                    "name": "Бодрящая Агония",
+                    "description": "<p><strong>Требование</strong>: Тефлара потратила как минимум 1 ОФ</p><p><strong>Триггер</strong>: Тефлара получает кровотечение, колющ.урон или рубящ.урон</p><hr><p>Тефлара восстанавливает 1 ОФ</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Cobbleswarm (B5)": {
+			"name": "Рой Клещей-Булыжников (B5)",
+            "tokenName": "Рой Клещей-Булыжников",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-3/cobbleswarm.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-3/cobbleswarm.webp",
+            "description": "<p>Клещи-Булыжнки похожи на квадратные камни размером в несколько дюймов, а их рты напоминают расколотые геоды. Хотя в одиночку они неторопливы и безобидны, в больших группах они опасны.</p><hr><p>Занятые дорожные строители могут неосознанно использовать Клещи-Булыжники при строительстве дорог.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Grasping Bites",
+                    "name": "Схватывающие Укусы",
+                    "description": "<p>Рой Булыжников совершает проверку @Check[type:athletics|defense:fortitude] против КС_СТК всех существ в его пространстве.</p><hr><p>Крит.Успех: Существо падает @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} и получает @Damage[1d6[bludgeoning]], и @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} Роем Булыжником до конца след.хода булыжника</p><p>Успех: Существо падает @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} и @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачен} Роем Булыжником до конца след.хода булыжника</p>"
+                },
+                {
+                    "id": "Pummeling Assault",
+                    "name": "Множество Ударов",
+                    "description": "<p>Каждый враг в пространстве Роя Булыжников получает@Damage[2d4[bludgeoning]]</p><p style=\"text-align: center\">@Check[type:reflex|dc:17|basic:true]</p>"
+                },
+                {
+                    "id": "Clutching Cobbles",
+                    "name": "Подвижные Булыжники",
+                    "description": "<p>Пространство Роя Булыжников - сложная местность</p>"
+                },
+                {
+                    "id": "NaTbdbqoxFlKljoH",
+                    "name": "Виброчувствительность (Точное 40, Неточное 80)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Charmed Crab": {
+			"name": "Очарованный Краб",
+            "tokenName": "Очарованный Краб",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/crab-giant.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/crab-giant.webp",
+            "description": "<p>Крабы это питающиеся падалью ракообразные, известные своим твердым панцирем и характерной боковой походкой. Они используют свои клешни, чтобы защищаться, охотиться и сражаться за территорию с другими крабами. Столкнувшись с внешними угрозами, большинство крабов предпочитают сбегать, но когда отступление невозможно, они как можно сильнее вцепляются в своих врагов.</p><p>Приведенные здесь характеристики представляют собой гигантских крабов, обитающих близко к водной поверхности. Крабы, живущие глубже под водой, часто демонстрируют более экстремальную адаптацию к окружающей среде. Крабы, которые живут на глубине, где мало света, получают ночное зрение и сопротивление холоду, а те, которые приспособились к самым враждебным глубинам моря, могут обнаруживать близлежащих существ по мельчайшим изменениям океанских течений.</p><p>Эти шустрые существа ценятся за их вкусное мясо, но их размер делает их весьма опасными целями для промысла.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"scaleX": 1.2,
+			"scaleY": 1.2,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Scuttle",
+                    "name": "Удирать",
+                    "description": "<p><strong>Триггер:</strong> Существо, которое гигантский краб может видеть, целится в краба атакой</p><hr><p><strong>Эффект:</strong> Гигантский краб удирает в сторону и получает бонус обстоятельства +2 к КБ против спровоцировавшей атаки. После определения результата атаки, как часть этой реакции, краб может @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Переместиться} по прямой вплоть до своей Скорости.</p>"
+                },
+                {
+                    "id": "vVpTV3k0NEGybnj0",
+                    "name": "Сжимать",
+                    "description": "<p>@Damage[(1d4+3)[bludgeoning]], @Check[type:fortitude|dc:17|basic:true]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Vulnerable to Prone",
+                    "name": "Уязвимость к опрокидыванию",
+                    "description": "<p>Если существо совершает критически успешную проверку @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Опрокидывания} гигантского краба, то в дополнение к обычным эффектам, краб переворачивается на спину. Перевернутый на спину гигантский краб испытывает особые трудности в защите; вместо получения обычного штрафа обстоятельства −2 к КБ из-за того, что он @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут врасплох}, он получает штраф обстоятельства −4 к КБ.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Glorzia": {
+			"name": "Глорция",
+            "tokenName": "Глорция",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/bugbear-thug.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/bugbear-thug.webp",
+            "description": "<p>Наиболее распространенный багбер-бандит специализируется на искусстве таиться в тени.</p><hr><p>Эти скрытные и жестокие гоблиноидные существа любят сеять страх и мучить свои жертвы. Багберы — монстры, скрывающиеся в шкафу и прячущиеся под кроватью. Хищничая в отдаленных фермерских хозяйствах, багберы выдают свое присутствие стуком в ночи или скрипом досок, чтобы посеять затаенный ужас и вызвать страх и подозрения.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "dDXknNDkuBlvDhtG",
+                    "name": "Метательное копье"
+                },
+                {
+                    "id": "iOwa8J6lkBBjdfrR",
+                    "name": "Меч-бастард"
+                },
+                {
+                    "id": "Bushwhack",
+                    "name": "Нападение из чащи",
+                    "description": "<p>Багбер-бандит @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещается} вплоть до 10 футов и пытается @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Захватить} существо для которого он @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Необнаружен}. При успехе, он еще наносит этому существу урон от кулака.</p>"
+                },
+                {
+                    "id": "Mauler",
+                    "name": "Терзатель",
+                    "description": "<p>Багбер-бандит получает бонус обстоятельства +3 к броскам урона по @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченным} им существам.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Collapsing Ice": {
+			"name": "Обрушение Льда",
+            "tokenName": "Обрушение Льда",
+            "img": "systems/pf2e/icons/spells/warped-terrain.webp",
+            "tokenImg": "systems/pf2e/icons/spells/warped-terrain.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:crafting|dc:19], чтобы создать импровизированное устройство для скрепления льда</p>",
+            "hdescription": "<p>Лед здесь слабый и рушится под весом Маленького или бо́льше существа.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Q4mH8KkVoesKGR2B",
+                    "name": "Обрушение",
+                    "description": "<p>Триггер: Существо идет по ложному следу по тонкому льду</p><hr><p>Лед обрушивается под ведущей собачей упряжкой. Собак и упряжки можно спасти, но ПИ потеряют много времени.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Ice Slick": {
+			"name": "Ледяное Пятно",
+            "tokenName": "Ледяное Пятно",
+            "img": "icons/commodities/materials/slime-thick-blue.webp",
+            "tokenImg": "icons/commodities/materials/slime-thick-blue.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:athletics|dc:18], чтобы расколоть лед и сделать его поверхность шероховатой.</p>",
+            "hdescription": "<p>Ледяное Пятно заставляет любого, кроме Ссаларна, кто пытается пересечь его, поскользнуться и упасть.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Slip and Slide",
+                    "name": "Скольжение",
+                    "description": "<p>Триггер: Существо соверашет `движение` по ледяному пятну</p><hr><p>Цель должна совершить @Check[type:acrobatics|dc:15] на @UUID[Compendium.pf2e.actionspf2e.M76ycLAqHoAgbcej]{Балансировать}. Если она проваливает эту проверку, то падает @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} и начинает скольжение на 10ФТ в том направлении, в котором он совершало `движение`, когда эта реакция была спровоцирована. Если это скольжение прерывается стеной, цель получает [[/r (1d6)[bludgeoning]]] за каждые 5ФТ прерванного скольжения. Если это скольжение проходит через пространство другого существа, это другое существо должно совершить @Check[type:reflex|dc:14], иначе оно также будет сбито @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Unstable Ice": {
+			"name": "Неустойчивый Лёд",
+            "tokenName": "Неустойчивый Лёд",
+            "img": "systems/pf2e/icons/spells/clinging-ice.webp",
+            "tokenImg": "systems/pf2e/icons/spells/clinging-ice.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:athletics|dc:19], чтобы переместить ледяные плиты в более устойчивое положение.</p>",
+            "hdescription": "<p>Лед здесь раскололся из-за потепления, погодных условий и неумолимого потока океанской воды внизу</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Drift",
+                    "name": "Дрейф",
+                    "description": "<p>Триггер: Существо ступает на неустойчивый лед</p><hr><p>Вес и инерция существ заставляют треснувший лед расколоться и двинуться, в результате чего они окажутся на плавучем айсберге.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Sinkhole": {
+			"name": "Карствовая Воронка",
+            "tokenName": "Карствовая Воронка",
+            "img": "icons/environment/traps/trap-jaw-steel.webp",
+            "tokenImg": "icons/environment/traps/trap-jaw-steel.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:nature|dc:12|name:Uncover Sinkhole|traits:environmental], чтобы удалить покрывающую листву</p>",
+            "hdescription": "<p>Укрытие из листьев и рыхлой грязи скрывает внезапный перепад высот.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Fall",
+                    "name": "Падение",
+                    "description": "<p>Триггер: Существо заходит в воронку</p><hr><p>Существо, спровоцировавшее триггер, падает и получает урон от падения (@Damage[10[bludgeoning]]). Это существо может использовать реакцию @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY], чтобы избежать падения.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Hidden Bog": {
+			"name": "Скрытая Яма",
+            "tokenName": "Скрытая Яма",
+            "img": "systems/pf2e/icons/spells/mud-pit.webp",
+            "tokenImg": "systems/pf2e/icons/spells/mud-pit.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:crafting|dc:15|name:Create a makeshift plank|traits:environmental] или @Check[type:thievery|dc:18|name:Create a makeshift plank|traits:environmental], чтобы создать импровизированный настил через яму; существа могут пересечь опасную зону, не наступая в грязь.</p>",
+            "hdescription": "<p>Этот участок поросшей травой земли скрывает лужей липкой грязи 10 футов в поперечнике.</p>",
+            "hreset": "<p>Существа все еще могут упасть в грязь после того, как ловушка сработает, но все будут видеть границы ловушки</p>",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "J1h1q77QXlZlIewC",
+                    "name": "Обвал",
+                    "description": "<p>Триггер: Существо входит в пространство скрытой яму</p><hr><p>Существо проваливается на два фута в липкую грязь, и завершает свое действие @Trait[Move]{движение}. Грязь накладывает штраф -10ФТ к скорости существа, пока она не будет пока не снята (требуется 3 действия)</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Ancient Ooze Pit": {
+			"name": "Древняя Яма со Слизью",
+            "tokenName": "Древняя Яма со Слизью",
+            "img": "systems/pf2e/icons/spells/canticle-of-everlasting-grief.webp",
+            "tokenImg": "systems/pf2e/icons/spells/canticle-of-everlasting-grief.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:thievery|dc:12|name:Remove Trapdoor|traits:mechanical,trap] для удаление люка</p>",
+            "hdescription": "<p>Ловушка закрывает яму площадью 10ФТ и глубиной 10ФТ. На дне лежит кислотная масса, которая когда-то была желатиновым кубом.</p>",
+            "hreset": "<p>Существо может попасть в ловушку, но для того, чтобы ловушка снова спряталась, необходимо вручную установить люк. Остатки слизи просачиваются в землю, и ловушка теперь функционирует как обычная @UUID[Compendium.pf2e.hazards.Actor.BHq5wpQU8hQEke8D]</p>",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Pitfall",
+                    "name": "Падение",
+                    "description": "<p>Триггер: Существо заходит в пространство люка</p><hr><p>Существо падает внутрь и получает @Damage[5[bludgeoning]] от падения, а затем @Damage[1d6[acid]], когда слизь вздымается от удара. Существо может использовать реакцию @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY], чтобы избежать падения</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Hands of Slow Death": {
+			"name": "Hands of Slow Death",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+
+
 
 
 
@@ -935,6 +1410,7 @@
             "tokenImg": "",
             "description": "",
             "appendNumber": true,
+			"actorLink": true,
             "tokenvision": true,
 			"ring": {
 				"enabled": true,
@@ -1022,9 +1498,6 @@
 		},
 		"Anatomical Model (3-4)": {
 			"name": "Anatomical Model (3-4)"
-		},
-		"Ancient Ooze Pit": {
-			"name": "Ancient Ooze Pit"
 		},
 		"Animated Guardian": {
 			"name": "Animated Guardian"
@@ -1122,9 +1595,6 @@
 		"Chaotic Door (3-4)": {
 			"name": "Chaotic Door (3-4)"
 		},
-		"Charmed Crab": {
-			"name": "Charmed Crab"
-		},
 		"Chesjilawa Jadwiga Karina (5-6)": {
 			"name": "Chesjilawa Jadwiga Karina (5-6)"
 		},
@@ -1143,17 +1613,11 @@
 		"Clouded Quartz (7-8)": {
 			"name": "Clouded Quartz (7-8)"
 		},
-		"Cobbleswarm (B5)": {
-			"name": "Cobbleswarm (B5)"
-		},
 		"Collapsing Cabinet (1-2)": {
 			"name": "Collapsing Cabinet (1-2)"
 		},
 		"Collapsing Cabinet (3-4)": {
 			"name": "Collapsing Cabinet (3-4)"
-		},
-		"Collapsing Ice": {
-			"name": "Collapsing Ice"
 		},
 		"Collapsing Ramp (7-8)": {
 			"name": "Collapsing Ramp (7-8)"
@@ -1311,9 +1775,6 @@
 		"Giant Worker Ant": {
 			"name": "Giant Worker Ant"
 		},
-		"Glorzia": {
-			"name": "Glorzia"
-		},
 		"Goblin Skeleton": {
 			"name": "Goblin Skeleton"
 		},
@@ -1329,20 +1790,11 @@
 		"Hand Of Urxehl (9-10)": {
 			"name": "Hand Of Urxehl (9-10)"
 		},
-		"Hands of Slow Death": {
-			"name": "Hands of Slow Death"
-		},
-		"Hidden Bog": {
-			"name": "Hidden Bog"
-		},
 		"Hobgoblin Skeleton": {
 			"name": "Hobgoblin Skeleton"
 		},
 		"Hunting Spider (PFS 2-18)": {
 			"name": "Hunting Spider (PFS 2-18)"
-		},
-		"Ice Slick": {
-			"name": "Ice Slick"
 		},
 		"Insidious Dragon Forest Rot": {
 			"name": "Insidious Dragon Forest Rot"
@@ -1355,9 +1807,6 @@
 		},
 		"Jinkin (PFS 2-00)": {
 			"name": "Jinkin (PFS 2-00)"
-		},
-		"Kareida": {
-			"name": "Kareida"
 		},
 		"Kayajima Boar": {
 			"name": "Kayajima Boar"
@@ -1551,9 +2000,6 @@
 		"Silaqui (5-6)": {
 			"name": "Silaqui (5-6)"
 		},
-		"Sinkhole": {
-			"name": "Sinkhole"
-		},
 		"Skeletal Cyclops": {
 			"name": "Skeletal Cyclops"
 		},
@@ -1581,9 +2027,6 @@
 		"Spark Troll (3-4)": {
 			"name": "Spark Troll (3-4)"
 		},
-		"Ssalarn": {
-			"name": "Ssalarn"
-		},
 		"Starved Sea Drake": {
 			"name": "Starved Sea Drake"
 		},
@@ -1607,9 +2050,6 @@
 		},
 		"Strak (7-8)": {
 			"name": "Strak (7-8)"
-		},
-		"Teflar": {
-			"name": "Teflar"
 		},
 		"Tewakam Nekotek (3-4)": {
 			"name": "Tewakam Nekotek (3-4)"
@@ -1643,9 +2083,6 @@
 		},
 		"Unkillable Zombie Shambler": {
 			"name": "Unkillable Zombie Shambler"
-		},
-		"Unstable Ice": {
-			"name": "Unstable Ice"
 		},
 		"Urkhas (3-4)": {
 			"name": "Urkhas (3-4)"
