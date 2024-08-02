@@ -1,44 +1,8 @@
-2024/07/29-14:41:28.406 dc8 Recovering log #4431
-2024/07/29-14:41:28.511 dc8 Level-0 table #4440: started
-2024/07/29-14:41:28.719 dc8 Level-0 table #4440: 520059 bytes OK
-2024/07/29-14:41:28.955 dc8 Delete type=0 #4431
-2024/07/29-14:41:28.956 dc8 Delete type=3 #4429
-2024/07/29-14:41:29.717 27cc Moved #4440 to level-1 520059 bytes OK: files[ 0 1 12 0 0 0 0 ]
-2024/07/29-14:41:34.918 27cc Compacting 1@1 + 6@2 files
-2024/07/29-14:41:35.105 27cc Generated table #4442@1: 7 keys, 2149169 bytes
-2024/07/29-14:41:35.488 27cc Generated table #4443@1: 4 keys, 4957455 bytes
-2024/07/29-14:41:35.767 27cc Generated table #4444@1: 6 keys, 5453894 bytes
-2024/07/29-14:41:35.885 27cc Generated table #4445@1: 6 keys, 2463471 bytes
-2024/07/29-14:41:36.130 27cc Generated table #4446@1: 5 keys, 2939216 bytes
-2024/07/29-14:41:36.329 27cc Generated table #4447@1: 5 keys, 2583637 bytes
-2024/07/29-14:41:36.330 27cc Compacted 1@1 + 6@2 files => 20546842 bytes
-2024/07/29-14:41:36.352 27cc compacted to: files[ 0 0 12 0 0 0 0 ]
-2024/07/29-14:41:36.352 27cc Delete type=2 #4433
-2024/07/29-14:41:36.353 27cc Delete type=2 #4434
-2024/07/29-14:41:36.353 27cc Delete type=2 #4435
-2024/07/29-14:41:36.354 27cc Delete type=2 #4436
-2024/07/29-14:41:36.355 27cc Delete type=2 #4437
-2024/07/29-14:41:36.355 27cc Delete type=2 #4438
-2024/07/29-14:41:36.355 27cc Delete type=2 #4440
-2024/07/29-18:15:41.037 27cc Level-0 table #4449: started
-2024/07/29-18:15:41.659 27cc Level-0 table #4449: 617083 bytes OK
-2024/07/29-18:15:41.682 27cc Delete type=0 #4441
-2024/07/29-18:15:42.044 27cc Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
-2024/07/29-18:15:42.487 27cc Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!XSTJUB2JoQa7Ypnr' @ 345 : 1
-2024/07/29-18:15:42.487 27cc Compacting 1@1 + 6@2 files
-2024/07/29-18:15:42.655 27cc Generated table #4450@1: 8 keys, 2183369 bytes
-2024/07/29-18:15:42.971 27cc Generated table #4451@1: 4 keys, 4957479 bytes
-2024/07/29-18:15:43.227 27cc Generated table #4452@1: 6 keys, 5453663 bytes
-2024/07/29-18:15:43.327 27cc Generated table #4453@1: 6 keys, 2462866 bytes
-2024/07/29-18:15:43.475 27cc Generated table #4454@1: 5 keys, 2939216 bytes
-2024/07/29-18:15:43.625 27cc Generated table #4455@1: 5 keys, 2583677 bytes
-2024/07/29-18:15:43.626 27cc Compacted 1@1 + 6@2 files => 20580270 bytes
-2024/07/29-18:15:43.649 27cc compacted to: files[ 0 0 12 0 0 0 0 ]
-2024/07/29-18:15:43.649 27cc Delete type=2 #4442
-2024/07/29-18:15:43.668 27cc Delete type=2 #4443
-2024/07/29-18:15:43.669 27cc Delete type=2 #4444
-2024/07/29-18:15:43.669 27cc Delete type=2 #4445
-2024/07/29-18:15:43.677 27cc Delete type=2 #4446
-2024/07/29-18:15:43.695 27cc Delete type=2 #4447
-2024/07/29-18:15:43.698 27cc Delete type=2 #4449
-2024/07/29-18:15:43.698 27cc Manual compaction at level-1 from '!adventures!XSTJUB2JoQa7Ypnr' @ 345 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/08/01-15:19:04.719 3538 Recovering log #4486
+2024/08/01-15:19:04.755 3538 Delete type=0 #4486
+2024/08/01-15:19:04.755 3538 Delete type=3 #4484
+2024/08/01-18:59:47.539 1c70 Level-0 table #4497: started
+2024/08/01-18:59:47.606 1c70 Level-0 table #4497: 0 bytes OK
+2024/08/01-18:59:47.972 1c70 Delete type=0 #4495
+2024/08/01-18:59:48.381 1c70 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/08/01-18:59:48.381 1c70 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

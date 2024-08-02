@@ -765,6 +765,134 @@
                 }
             ]
 		},
+		"Bounty================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Branwaen": {
+			"name": "Бранвен",
+            "tokenName": "Бранвен",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/14/21.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/14/21.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "ybMay6cjsqqqEcmR",
+                    "name": "Кланновый Кинжал"
+                },
+                {
+                    "id": "bVFDWRUd0PwXIqtr",
+                    "name": "Мягкая Дубинка"
+                },
+                {
+                    "id": "RqISTVRZosHsYfXu",
+                    "name": "Ручной Арбалет"
+                },
+                {
+                    "id": "+2 AC, Reflex, and Perception versus Traps",
+                    "name": "+2 КБ, РФЛ, и Восприятие против Ловушек"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Deep Mud": {
+			"name": "Глубокая Грязь",
+            "tokenName": "Глубокая Грязь",
+            "img": "icons/environment/wilderness/terrain-rocky-ground.webp",
+            "tokenImg": "icons/environment/wilderness/terrain-rocky-ground.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[type:survival|dc:15|name:Navigate Mud|traits:environmental], чтобы проложить безопасный путь по оставшимся кускам камня</p>",
+            "hdescription": "<p>Грязь жадно цепляется за все, что в нее попадает, затрудняя движение.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Squelch",
+                    "name": "Затянуть",
+                    "description": "<p>Триггер: Существо шагает по грязи</p><hr><p>Глубокая грязь засасывает ноги существа. Существо, спровоцировавшее триггер, должно совершить @Check[type:reflex|dc:16|basic:true|traits:environmental], так как его тянет к грязи и оно пытается удержаться на ногах. При провале грязь наносит @Damage[2d4[bludgeoning]], и существо падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60].</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+		"Smilglen Daet": {
+			"name": "Смилглен Даэт",
+            "tokenName": "Смилглен Даэт",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/15/20.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/15/20.webp",
+            "description": "<p>Верхняя половина гриндилоу смутно напоминает Гоблина, но от пояса вниз их тело разделено на клубок присосавшихся, извивающихся щупалец. Гриндилоу в основном обитают на мелководье, в пресных и соленых водах, включая озера, реки, прибрежные районы и коралловые рифы. Обычно они объединяются в группы, называемые школами, численность которых может составлять от нескольких особей до нескольких сотен. Небольшие школы иногда переходят под контроль какого-нибудь могущественного водного существа, но такие союзы длятся лишь до тех пор, пока школа не столкнется с серьезной неудачей, и тогда выжившие гриндилоу разбросаются и образуют свои собственные небольшие школы.</p><p>Гриндилоу не территориальны, но прагматичны. Хотя они редко строят постоянные строения, они из поколения в поколение обживают хорошие охотничьи угодья, пока их не вытеснят хищники. Они часто устраивают логово в мобильных убежищах, например в водорослях саргассо или корпусе заброшенного корабля. Они искусные падальщики и охотники, питающиеся всем, что попадется им под руку.</p><p>Гриндилоу уважают силу более крупных морских хищников, но питают особую ненависть к кальмарам (или всему, что напоминает кальмара). Моряки, курсирующие по кишащим гриндилоу водам, часто рисуют на днищах своих корпусов изображения кальмаров в надежде отпугнуть потенциальные набеги. Хотя это может сдержать небольшие школы, но может и дать обратный эффект, подстрекая большие группы к скоординированной атаке; это становится особенно вероятным, если маршрут судна предсказуем. Ненависть к кальмарам не распространяется на других щупальцеобразных существ: гриндилоу считают осьминогов воплощением грации и силы.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "nplfqbEUtcOBlV0b",
+                    "name": "Реагирующий удар (особый)",
+                    "description": "<p>В начале каждого своего хода гриндилоу получает 1 дополнительную реакцию, которую он может использовать только для нанесения Реактивного Удара Щупальцем. Они не могут использовать более одного Реактивного Удара, вызванного одним и тем же действием или выбором.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "ftJSskhqjZaMBNyZ",
+                    "name": "Реактивная струя",
+                    "description": "<p>Гриндилоу совершает движение на расстояние до 60 футов по прямой линии в воде, не вызывая реакций.</p>"
+                },
+                {
+                    "id": "Clinging Suckers",
+                    "name": "Цепкие Щупальца",
+                    "description": "<p>Когда Смилглен Даэт держит @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{схваченным} существо, которое больше ее самой, она прикрепляется к нему. Существо, которое было @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачено}, не @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижено}, но если оно движется, Смилглен перемещается вместе с ним. Если существо среднее или меньше, оно получает Штраф Скорости -5 футов, пока Смилглен привязана к нему. Смиглен @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох}, пока привязан к существу.</p>"
+                },
+                {
+                    "id": "OBn7syfr2t30QJaa",
+                    "name": "Укус"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
 
 
 
@@ -945,9 +1073,6 @@
 		"Bloody Skeleton Guard": {
 			"name": "Bloody Skeleton Guard"
 		},
-		"Branwaen": {
-			"name": "Branwaen"
-		},
 		"Bugbear Tormentor (PFS 3-13)": {
 			"name": "Bugbear Tormentor (PFS 3-13)"
 		},
@@ -1019,9 +1144,6 @@
 		},
 		"Debris Storm": {
 			"name": "Debris Storm"
-		},
-		"Deep Mud": {
-			"name": "Deep Mud"
 		},
 		"Deep Shadow Guardian": {
 			"name": "Deep Shadow Guardian"
@@ -1478,9 +1600,6 @@
 		},
 		"Smiglen Daet": {
 			"name": "Smiglen Daet"
-		},
-		"Smilglen Daet": {
-			"name": "Smilglen Daet"
 		},
 		"Smoldering Nightmare": {
 			"name": "Smoldering Nightmare"

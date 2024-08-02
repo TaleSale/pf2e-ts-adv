@@ -147,6 +147,13 @@ Hooks.once('ready', () => {
       font-family: Manuskript;
       color: indigo;
     }
+
+    .journal-page-content {
+      text-indent: 10px;
+      text-align: justify;
+      text-align-last: left;
+      margin: 8px;
+  }
   `;
   document.head.appendChild(style);
 });
