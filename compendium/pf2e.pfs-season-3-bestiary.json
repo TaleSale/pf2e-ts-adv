@@ -893,6 +893,226 @@
                 }
             ]
 		},
+		"Bloody Barber Ambusher": {
+			"name": "Кровавый Парикмахер - Бандит",
+            "tokenName": "Бандит",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/agents-of-edgewatch/Bloody-Barber-Goon.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/agents-of-edgewatch/Bloody-Barber-Goon.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "2bhNMTFQUllzs5kW",
+                    "name": "Боевая Бритва"
+                },
+                {
+                    "id": "MxDqScTZc3l8a63U",
+                    "name": "Праща"
+                },
+                {
+                    "id": "Bloody Shave",
+                    "name": "Кровавое Бритье",
+                    "description": "<p><strong>Триггер</strong>: Бандит делает успешный Удар боевой бритвой и имеет одну свободную руку;</p><hr><p>Цель, получившая удар боевой бритвой, становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} до начала следующего хода Бандита или пока не покинет пределы досягаемости Бандита, в зависимости от того, что наступит раньше.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Bloody Barber Leader": {
+			"name": "Кровавый Парикмахер - Лидер",
+            "tokenName": "Лидер",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/16/20.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/16/20.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "2bhNMTFQUllzs5kW",
+                    "name": "Боевая Бритва"
+                },
+                {
+                    "id": "MxDqScTZc3l8a63U",
+                    "name": "Праща"
+                },
+                {
+                    "id": "Bloody Shave",
+                    "name": "Кровавое Бритье",
+                    "description": "<p><strong>Триггер</strong>: Бандит делает успешный Удар боевой бритвой и имеет одну свободную руку;</p><hr><p>Цель, получившая удар боевой бритвой, становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} до начала следующего хода Бандита или пока не покинет пределы досягаемости Бандита, в зависимости от того, что наступит раньше.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Alchemy-Gorged Giant Leech": {
+			"name": "Пожравшая Алхимию Гигантская Пиявка",
+            "tokenName": "Гигантская Пиявка",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/leech-giant.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/leech-giant.webp",
+            "description": "<p>Гигантские пиявки, способные расти до длины почти в 5 футов, имеют круглые пасти, заполненные крючковидными зубами. Они предпочитают обитать в стоячей воде или медленно движущемся мелководье, либо в сыром, влажном подлеске. Их любимая добыча — лошади и более крупные животные, но они не упустят шанса вцепиться в еду размером с человека или полурослика.</p><hr><p>Хотя аптекари и полевые медики ценят пиявок как средство для уменьшения отеков или оттока крови, большинство тех, кто сталкивается с ними, презирают пиявок, независимо от положения.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Blood Drain",
+                    "name": "Выкачивание крови",
+                    "description": "<p><strong>Требования:</strong> У гигантской пиявки есть @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} или @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо.</p><hr><p><strong>Эффект:</strong> Гигантская пиявка выкачивает кровь у схваченного существа. Это наносит [[/r 2d4]]{2d4 урона}. Существо, у которого гигантская пиявка откачала кровь @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощено 1} пока не получит какое-либо количество исцеления.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Panicked Bat Swarm": {
+			"name": "Напуганная Стая Летучих Мышей",
+            "tokenName": "Стая Летучих Мышей",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Bat Vampire Bat Swarm.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Bat Vampire Bat Swarm.webp",
+            "description": "<p>Хотя типичная летучая мышь вампир имеет размах крыльев <span class=\"pf2e-ru-inline-unit\" data-tooltip-class=\"pf2e\" data-tooltip=\"~18 см\">7 дюймов</span> и в одиночку не представляет значительной угрозы для крупной добычи (более того, эти кровопийцы могут питаться так, что их спящие жертвы ничего не замечают), некоторые необычайно агрессивные особи этих летучих мышей охотятся смертоносными стаями. Бурлящая туча летучих мышей вампиров гораздо опаснее, чем сумма их всех по отдельности, и за пугающе короткий промежуток времени, способна нанести огромное количество кровоточащих ран.</p><hr><p>По всему миру обитают самые разные виды летучих мышей. Большинство этих ночных животных безобидные насекомоядные, но смертоносные породы летучих мышей вампиров и огромных летучих мышей размером с лошадей представляют для искателей приключений гораздо большую угрозу.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Panicked Flutter",
+                    "name": "Напуганное Нападение",
+                    "description": "<p>Каждый враг в пространстве стаи летучих мышей получает @Damage[1d6[piercing]] (@Check[type:reflex|dc:17|basic:true]). Существо, провалившее свой спасбросок, еще получает @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен} на 1 раунд.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Foot Pincer": {
+			"name": "Капкан для Ног",
+            "tokenName": "Капкан для Ног",
+            "img": "icons/commodities/tech/claw-mechanical.webp",
+            "tokenImg": "icons/commodities/tech/claw-mechanical.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен); @Check[type:perception|dc:20|traits:hazard,mechanical,trap], когда рой летучих мышей активен</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:17|name:Jam Mechanism|traits:trap,mechanical], чтобы заклинить спусковой механизм капкана.</p>",
+            "hdescription": "<p>Металлическая ловушка с зубьями спряталась на дне ослабленного места в полу.</p>",
+            "hreset": "<p>Чтобы снова активировать капкан, его нужно вернуть в исходное положение вручную.</p>",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Slam Shut",
+                    "name": "Захлопнуться",
+                    "description": "<p><strong>Триггер</strong>: Существо наступает пространство ловушки</p><hr><p>Ловушка захлопывается на ноге спровоцировавшего существа. Существо должно получить усспех в @Check[type:reflex|dc:18] или @Damage[(1d6+5)[slashing],(1d4)[bleed]].</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Blessed Crossbow Trap": {
+			"name": "Благословенная ловушка-арбалет",
+            "tokenName": "Благословенная ловушка-арбалет",
+            "img": "icons/weapons/crossbows/crossbow-purple.webp",
+            "tokenImg": "icons/weapons/crossbows/crossbow-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:thievery|dc:20|name:Disable Wire|traits:trap,mechanical] (Обучен), чтобы отключить триггер</p>",
+            "hdescription": "<p>Спрятанный за задними занавесками святилища арбалет готов к стрельбе. Заряженный болт магически усилен святой силой, чтобы нанести дополнительный урон по демонам.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "0qtKNKZnNdAzY9FI",
+                    "name": "Ловушка-Арбалет",
+                    "description": "<p><strong>Триггер</strong>: Священный текст тронут или перемещен;</p><hr><p>Ловушка выстреливает болт, направленный туда, где существо будет стоять перед алтарем.</p>"
+                },
+                {
+                    "id": "0VATQa0n9Q2hJS2v",
+                    "name": "Арбалет"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
 
 
 
@@ -980,9 +1200,6 @@
 		"Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)": {
 			"name": "Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)"
 		},
-		"Alchemy-Gorged Giant Leech": {
-			"name": "Alchemy-Gorged Giant Leech"
-		},
 		"Angry Void Boils": {
 			"name": "Angry Void Boils"
 		},
@@ -1052,17 +1269,8 @@
 		"Bergworm Tyrant": {
 			"name": "Bergworm Tyrant"
 		},
-		"Blessed Crossbow Trap": {
-			"name": "Blessed Crossbow Trap"
-		},
 		"Bloodletting Scythe Blade": {
 			"name": "Bloodletting Scythe Blade"
-		},
-		"Bloody Barber Ambusher": {
-			"name": "Bloody Barber Ambusher"
-		},
-		"Bloody Barber Leader": {
-			"name": "Bloody Barber Leader"
 		},
 		"Bloody Beetle Exoskeleton": {
 			"name": "Bloody Beetle Exoskeleton"
@@ -1270,9 +1478,6 @@
 		},
 		"Flensing Trap (7-8)": {
 			"name": "Flensing Trap (7-8)"
-		},
-		"Foot Pincer": {
-			"name": "Foot Pincer"
 		},
 		"Forged Bones": {
 			"name": "Forged Bones"
@@ -1483,9 +1688,6 @@
 		},
 		"Overloading Arch (7-8)": {
 			"name": "Overloading Arch (7-8)"
-		},
-		"Panicked Bat Swarm": {
-			"name": "Panicked Bat Swarm"
 		},
 		"Pelagastr Tail": {
 			"name": "Pelagastr Tail"
