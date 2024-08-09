@@ -1,0 +1,172 @@
+.PFS4 h1 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: black;
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.PFS4 h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/PFS4/back3.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.PFS4 article header.journal-page-header h2 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: black;
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.PFS4 article header.journal-page-header h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/PFS4/back3.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.PFS4 article header.journal-page-header h3 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: black;
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.PFS4 article header.journal-page-header h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/PFS4/back3.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.PFS4 h2
+{
+  color: rgb(51, 115, 160);
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+.PFS4 h3
+{
+  color: rgb(145, 102, 71);
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+.PFS4 h4
+{
+  font-family: Vollkorn;
+  font-weight: bold;
+}
+
+.PFS4 h5
+{
+  font-family: Vollkorn;
+}
+
+.PFS4 blockquote {
+  all: unset;
+}
+
+.PFS4 blockquote {
+  color: rgb(145, 102, 71); /* цвет текста */
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px 0; /* Отступы сверху и снизу для псевдоэлементов */
+  background: #f8f8eb;
+}
+
+.PFS4 blockquote::before,
+.PFS4 blockquote::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: rgb(145, 102, 71);
+  width: 100%; /* Полная ширина блока */
+  position: absolute;
+  left: 0;
+}
+
+.PFS4 blockquote::before {
+  top: -5px; /* Полоса сверху с отступом наверх от текста */
+}
+
+.PFS4 blockquote::after {
+  bottom: -5px; /* Полоса снизу с отступом вниз от текста */
+}
+
+.PFS4 section.insite {
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.PFS4 section.insite::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/PFS4/back2.webp') no-repeat center center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    opacity: 0.6; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.insite h2
+{
+  color: black !important;
+  font-family: Manuskript;
+  font-weight: bold;
+}
+
+.PFS4 table tbody tr td
+{
+  text-align: justify;
+  text-align-last: left;
+}

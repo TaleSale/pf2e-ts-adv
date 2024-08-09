@@ -1,0 +1,939 @@
+{
+	"label": "Сезон 4",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink",
+        "scaleX": "prototypeToken.texture.scaleX",
+        "scaleY": "prototypeToken.texture.scaleY"
+    },
+	"entries": {
+		"Bounty================================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Denufair": {
+			"name": "Денуфайр",
+            "tokenName": "Денуфайр",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/21/19.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/21/19.webp",
+            "description": "",
+            "actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Jaws",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "Feral Leap",
+                    "name": "Дикий прыжок",
+                    "description": "<p>Хищный кролик прыгает на максимальные высоту и расстояние, равные половине его Скорости. Это движение не провоцирует реакции. В любой момент прыжка, хищный кролик совершает \"Удар\" челюстями.</p>"
+                },
+                {
+                    "id": "Stench",
+                    "name": "Вонь",
+                    "description": "<p>@Template[type:emanation|distance:10] @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]</p><p>Существо попадающее в эту ауру или начинающее в ней свой ход, должно совершить успешный спасбросок @Check[type:fortitude|dc:13], иначе испытывает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошноту 1} (+ при критическом провале, @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} пока испытывает <em>`тошноту`</em>). Находясь в этой ауре, существа получают штраф обстоятельства -2 к спасброскам против <a href=\"https://clck.ru/jrjN6\"><em>`болезни`</em></a> и восстановлению от этого состояния <em>`тошноты`</em>. Существо, успешно совершившее свой спасбросок, временно иммунно на 1 минуту.</p>"
+                },
+                {
+                    "id": "Sense Companion",
+                    "name": "Ощущение компаньона",
+                    "description": "<p>Компаньон знает направление к своему прошлому хозяину или семье (пока они находятся на одной и том же плане), но не расстояние.</p>"
+                }
+            ]
+		},
+		"Dorenea": {
+			"name": "Доренея",
+            "tokenName": "Доренея",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/book-of-the-dead/Withered.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/book-of-the-dead/Withered.webp",
+            "description": "<p>Если @UUID[Compendium.pf2e.book-of-the-dead-bestiary.qO20so7Mv2pmsLL1]{Подсушенный зомби} выживает в течение нескольких лет, его тело продолжает высыхать, плоть твердеет, а глаза превращаются в бледные, светящиеся шары, глубоко посаженные в пустых глазницах. Называемые \"иссохшими\", эти зомби хитры, способны составлять сложные планы и даже ставить ловушки, используя своих менее умных собратьев, чтобы заманивать ничего не подозревающих в смертельные засады.</p><hr><p>Единственное желание зомби - поедать живых. Бездумные и вечно пошатывающиеся предвестники смерти, зомби останавливаются только тогда, когда их уничтожают</p><p>Некроманты чаще всего создают эту неразумную нежить как послушных, расходных слуг. Предоставленный самим себе, зомби стремится только поглощать живых, останавливаясь лишь тогда, когда его гниющее тело больше не способно держаться вместе.</p>",
+            "actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "bwdkr5yl7ye33lip",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "2d552nmuu8dx669n",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "irqrb4xjw4fid7ki",
+                    "name": "Кулак"
+                },
+                {
+                    "id": "4nn1859fvesmfedg",
+                    "name": "Короткий Меч"
+                },
+                {
+                    "id": "Sudden Surge",
+                    "name": "Внезапная активность",
+                    "description": "<p><strong>Триггер:</strong> Начинается ход этого зомби;</p><hr><p><strong>Эффект:</strong> Зомби получает неожиданный прилив скорости. Он @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен} на этот ход и может использовать дополнительное действие на \"Удар\" или @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}. Если в этом ходу первым действием зомби является \"Удар\" ближнего боя, то цель @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута врасплох} для этой атаки.</p><p>Иссохший зомби не может снова использовать \"Внезапную активность\" [[/r 1d4 #Recharge]]{1d4 раунда}.</p>"
+                },
+                {
+                    "id": "Slow",
+                    "name": "Медленный",
+                    "description": "<p>Зомби постоянно @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} и не может использовать реакции.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Pups": {
+			"name": "Пупс",
+            "tokenName": "Пупс",
+			"img": "modules/pf2e-ts-adv/PFS/Bounty/21/21.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Bounty/21/21.webp",
+            "description": "<p>Отвергнутые гончие получаются из самых верных собак. Они невероятно привязаны к своим хозяевам, не подпуская живых существ и не желая расставаться.</p><hr><p>Узы преданности, сохраняющиеся после смерти, оживляют питомцев, которые в течение нескольких дней после смерти выползают из могил и возвращаются к своим прошлым хозяевам, семье или стае. К сожалению, смерть безвозвратно меняет восставшего питомца. Они возвращаются агрессивными, хищными чудовищами, которых трудно контролировать и легко разозлить. Даже самый дружелюбный и послушный питомец в несмерти становится садистским и жестоким, в первую очередь сосредотачиваясь на тех, кого он рассматривает как конкурентов за внимание своих хозяев. Когда хозяин восставшего питомца обижает, отвергает или оскорбляет его, то питомец обращается против него.</p>",
+            "actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "b146le3z824z27kz",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "Stench",
+                    "name": "Вонь",
+                    "description": "<p>@Template[type:emanation|distance:15] @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]</p><p>Существо попадающее в эту ауру или начинающее в ней свой ход, должно совершить успешный спасбросок @Check[type:fortitude|dc:14], иначе испытывает @UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{Тошноту 1} (+ при критическом провале, @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Замедлен 1} пока испытывает <em>`тошноту`</em>). Находясь в этой ауре, существа получают штраф обстоятельства -2 к спасброскам против <a href=\"https://clck.ru/jrjN6\"><em>`болезни`</em></a> и восстановлению от этого состояния <em>`тошноты`</em>. Существо, успешно совершившее свой спасбросок, временно иммунно на 1 минуту.</p>"
+                },
+                {
+                    "id": "Betray the Living",
+                    "name": "Предать Стаю",
+                    "description": "<p>Пупс наносит дополнительные 1d4 урона живым существам</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "Sense Companion",
+                    "name": "Ощущение компаньона",
+                    "description": "<p>Компаньон знает направление к своему прошлому хозяину или семье (пока они находятся на одной и том же плане), но не расстояние.</p>"
+                }
+            ]
+		},
+		"Averlace's Last Stand": {
+			"name": "Последняя Позиция Аверлейс",
+            "tokenName": "Последняя Позиция Аверлейс",
+            "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+            "tokenImg": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>, чтобы заметить сгущение тумана и услышать шепчущий голос, спрашивающий \"Гармон в безопасности?\"</p>",
+            "hdisable": "<p>@Check[religion|dc:18] (Обучен), чтобы изгнать призрака</p><p>@Check[deception|dc:20]/@Check[diplomacy|dc:20], чтобы убедительно сказать, что Гармон \"в безопасности\"</p>",
+            "hdescription": "<p>В душе Аверлейс затаилось чувство, что она охраняет останки своего наставника и свои собственные.</p>",
+            "hreset": "<p>Призрак возобновляется каждую ночь в полночь, пока не будут уничтожены скелеты-солдаты, восставшие из Гармона и Аверлейса.</p>",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Emotional Outburst",
+                    "name": "Вспышка эмоции",
+                    "description": "<p><strong>Триггер</strong>: Живое существо входит в зону действия призрака</p><hr><p>Аверлейс рычит в гневе или отрицании. Все существа в радиусе 30 футов должны успешно совершить @Check[fortitude|dc:18] или получить @Damage[(3d6)[mental],(3d6)[sonic]]. При провале они получают @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} на 1 час (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при критическом провале).</p>"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+
+
+
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+
+
+
+
+
+		"A Broken Promise (1-2)": {
+			"name": "A Broken Promise (1-2)"
+		},
+		"A Broken Promise (3-4)": {
+			"name": "A Broken Promise (3-4)"
+		},
+		"Abyssal Bunny Swarm": {
+			"name": "Abyssal Bunny Swarm"
+		},
+		"Abyssal Drool": {
+			"name": "Abyssal Drool"
+		},
+		"Abyssal Warhound": {
+			"name": "Abyssal Warhound"
+		},
+		"Abyssal Warhound General": {
+			"name": "Abyssal Warhound General"
+		},
+		"Abyssal Warhound Pack Leader": {
+			"name": "Abyssal Warhound Pack Leader"
+		},
+		"Accursed Succubus": {
+			"name": "Accursed Succubus"
+		},
+		"Adagio": {
+			"name": "Adagio"
+		},
+		"Alarmingly Efficient Unseen Arson Assistant": {
+			"name": "Alarmingly Efficient Unseen Arson Assistant"
+		},
+		"Allegro": {
+			"name": "Allegro"
+		},
+		"Ambush Assassin": {
+			"name": "Ambush Assassin"
+		},
+		"Ambush Observer": {
+			"name": "Ambush Observer"
+		},
+		"Ambush Raider": {
+			"name": "Ambush Raider"
+		},
+		"Ambush Runner": {
+			"name": "Ambush Runner"
+		},
+		"Ambush Scout": {
+			"name": "Ambush Scout"
+		},
+		"Ambush Spy": {
+			"name": "Ambush Spy"
+		},
+		"Animated Dagger": {
+			"name": "Animated Dagger"
+		},
+		"Animated Dagger (3-4)": {
+			"name": "Animated Dagger (3-4)"
+		},
+		"Animated Leather Armor": {
+			"name": "Animated Leather Armor"
+		},
+		"Animated Leather Armor (4-99)": {
+			"name": "Animated Leather Armor (4-99)"
+		},
+		"Aslynn": {
+			"name": "Aslynn"
+		},
+		"Aslynn the Dream Taker": {
+			"name": "Aslynn the Dream Taker"
+		},
+		"Aslynn's Eye": {
+			"name": "Aslynn's Eye"
+		},
+		"Aslynn's Sharper Eye": {
+			"name": "Aslynn's Sharper Eye"
+		},
+		"Bandit Skullcracker": {
+			"name": "Bandit Skullcracker"
+		},
+		"Bloody Barber Gang Leader": {
+			"name": "Bloody Barber Gang Leader"
+		},
+		"Bloody Barber Ruffian": {
+			"name": "Bloody Barber Ruffian"
+		},
+		"Bloody Barber Thief": {
+			"name": "Bloody Barber Thief"
+		},
+		"Bolger Trusk (5-6)": {
+			"name": "Bolger Trusk (5-6)"
+		},
+		"Bolger Trusk (7-8)": {
+			"name": "Bolger Trusk (7-8)"
+		},
+		"Brinna": {
+			"name": "Brinna"
+		},
+		"Bugbear Bully": {
+			"name": "Bugbear Bully"
+		},
+		"Bugbear Creeper": {
+			"name": "Bugbear Creeper"
+		},
+		"Bugbear Night Terror": {
+			"name": "Bugbear Night Terror"
+		},
+		"Bugbear Raider": {
+			"name": "Bugbear Raider"
+		},
+		"Bugbear Slasher": {
+			"name": "Bugbear Slasher"
+		},
+		"Bugbear Terror": {
+			"name": "Bugbear Terror"
+		},
+		"Bugbear Trickster": {
+			"name": "Bugbear Trickster"
+		},
+		"Burrowing Viper Rat": {
+			"name": "Burrowing Viper Rat"
+		},
+		"Butterfly's Breath Trap (1-2)": {
+			"name": "Butterfly's Breath Trap (1-2)"
+		},
+		"Butterfly's Breath Trap (3-4)": {
+			"name": "Butterfly's Breath Trap (3-4)"
+		},
+		"Charlatan (PFS 4-05)": {
+			"name": "Charlatan (PFS 4-05)"
+		},
+		"Combustive Zombie": {
+			"name": "Combustive Zombie"
+		},
+		"Coven Grave Hag": {
+			"name": "Coven Grave Hag"
+		},
+		"Coven Winter Hag": {
+			"name": "Coven Winter Hag"
+		},
+		"Cunning Vampire Spawn": {
+			"name": "Cunning Vampire Spawn"
+		},
+		"Damaged Automaton": {
+			"name": "Damaged Automaton"
+		},
+		"Darkened Shadow Bombard": {
+			"name": "Darkened Shadow Bombard"
+		},
+		"Darkened Shadow Cannon": {
+			"name": "Darkened Shadow Cannon"
+		},
+		"Darkened Shadow Cannon (4-17)": {
+			"name": "Darkened Shadow Cannon (4-17)"
+		},
+		"Death Drop (3-4)": {
+			"name": "Death Drop (3-4)"
+		},
+		"Death Drop (5-6)": {
+			"name": "Death Drop (5-6)"
+		},
+		"Deep Quicksand": {
+			"name": "Deep Quicksand"
+		},
+		"Deimostride (7-8)": {
+			"name": "Deimostride (7-8)"
+		},
+		"Deimostride (9-10)": {
+			"name": "Deimostride (9-10)"
+		},
+		"Depleted Roiling Incant": {
+			"name": "Depleted Roiling Incant"
+		},
+		"Dero Stalker (PFS 4-05)": {
+			"name": "Dero Stalker (PFS 4-05)"
+		},
+		"Determined Dura (1-2)": {
+			"name": "Determined Dura (1-2)"
+		},
+		"Determined Dura (3-4)": {
+			"name": "Determined Dura (3-4)"
+		},
+		"Determined Halran (1-2)": {
+			"name": "Determined Halran (1-2)"
+		},
+		"Determined Halran (3-4)": {
+			"name": "Determined Halran (3-4)"
+		},
+		"Determined Rhenei (1-2)": {
+			"name": "Determined Rhenei (1-2)"
+		},
+		"Determined Rhenei (3-4)": {
+			"name": "Determined Rhenei (3-4)"
+		},
+		"Determined Thisnabel (1-2)": {
+			"name": "Determined Thisnabel (1-2)"
+		},
+		"Determined Thisnabel (3-4)": {
+			"name": "Determined Thisnabel (3-4)"
+		},
+		"Dig-Widget (PFS 4-07)": {
+			"name": "Dig-Widget (PFS 4-07)"
+		},
+		"Dream of Doom": {
+			"name": "Dream of Doom"
+		},
+		"Dura (1-2)": {
+			"name": "Dura (1-2)"
+		},
+		"Dura (3-4)": {
+			"name": "Dura (3-4)"
+		},
+		"Elite Animate Dream (PFS 4-11)": {
+			"name": "Elite Animate Dream (PFS 4-11)"
+		},
+		"Elite Cave Bear (PFS 4-07)": {
+			"name": "Elite Cave Bear (PFS 4-07)"
+		},
+		"Elite Clacking Skull Swarm": {
+			"name": "Elite Clacking Skull Swarm"
+		},
+		"Elite Combustive Zombie": {
+			"name": "Elite Combustive Zombie"
+		},
+		"Elite Palace Skelm (PFS 4-11)": {
+			"name": "Elite Palace Skelm (PFS 4-11)"
+		},
+		"Elite Smokesight Deadeye Wight": {
+			"name": "Elite Smokesight Deadeye Wight"
+		},
+		"Elite Smokesight Hunter Wight": {
+			"name": "Elite Smokesight Hunter Wight"
+		},
+		"Elite Smokesight Prowler Wight": {
+			"name": "Elite Smokesight Prowler Wight"
+		},
+		"Elite Smokesight Stalker Wight": {
+			"name": "Elite Smokesight Stalker Wight"
+		},
+		"Elite Smokesight Wight Captain": {
+			"name": "Elite Smokesight Wight Captain"
+		},
+		"Elite Smokesight Wight Commander": {
+			"name": "Elite Smokesight Wight Commander"
+		},
+		"Elite Sulfur Zombie": {
+			"name": "Elite Sulfur Zombie"
+		},
+		"Elven Fence": {
+			"name": "Elven Fence"
+		},
+		"Elven Grave Robber": {
+			"name": "Elven Grave Robber"
+		},
+		"Elven Hunter": {
+			"name": "Elven Hunter"
+		},
+		"Elven Torchbearer": {
+			"name": "Elven Torchbearer"
+		},
+		"Elven Tracker": {
+			"name": "Elven Tracker"
+		},
+		"Enormous Rat": {
+			"name": "Enormous Rat"
+		},
+		"Evasive Vampire Count": {
+			"name": "Evasive Vampire Count"
+		},
+		"Faded Animate Dream": {
+			"name": "Faded Animate Dream"
+		},
+		"Farah Al-Saleel (3-4)": {
+			"name": "Farah Al-Saleel (3-4)"
+		},
+		"Farah Al-Saleel (5-6)": {
+			"name": "Farah Al-Saleel (5-6)"
+		},
+		"Fascinating Lecture (1-2)": {
+			"name": "Fascinating Lecture (1-2)"
+		},
+		"Fascinating Lecture (3-4)": {
+			"name": "Fascinating Lecture (3-4)"
+		},
+		"Fasiel Ibn Sazadin (5-6)": {
+			"name": "Fasiel Ibn Sazadin (5-6)"
+		},
+		"Festering Vermlek": {
+			"name": "Festering Vermlek"
+		},
+		"Fetid Familiar": {
+			"name": "Fetid Familiar"
+		},
+		"Fey-Touched Great Wolf": {
+			"name": "Fey-Touched Great Wolf"
+		},
+		"Fireball Rune": {
+			"name": "Fireball Rune"
+		},
+		"Fleshwarp Apprentice": {
+			"name": "Fleshwarp Apprentice"
+		},
+		"Giant Fetid Familiar": {
+			"name": "Giant Fetid Familiar"
+		},
+		"Grace of the Owl": {
+			"name": "Grace of the Owl"
+		},
+		"Greater Barghest (PFS 4-07)": {
+			"name": "Greater Barghest (PFS 4-07)"
+		},
+		"Greater Fireball Rune": {
+			"name": "Greater Fireball Rune"
+		},
+		"Grim Rictus Bridge Guard": {
+			"name": "Grim Rictus Bridge Guard"
+		},
+		"Grim Rictus Robber": {
+			"name": "Grim Rictus Robber"
+		},
+		"Growling Shadow Drake": {
+			"name": "Growling Shadow Drake"
+		},
+		"Hallways Full of Even More Mostly Illusory Opossums": {
+			"name": "Hallways Full of Even More Mostly Illusory Opossums"
+		},
+		"Hallways Full of Mostly Illusory Opossums": {
+			"name": "Hallways Full of Mostly Illusory Opossums"
+		},
+		"Halran (1-2)": {
+			"name": "Halran (1-2)"
+		},
+		"Halran (3-4)": {
+			"name": "Halran (3-4)"
+		},
+		"Harpy Forager": {
+			"name": "Harpy Forager"
+		},
+		"Harpy Wailer": {
+			"name": "Harpy Wailer"
+		},
+		"Hidden Forest Bog": {
+			"name": "Hidden Forest Bog"
+		},
+		"Hidden Forest Bog (3-4)": {
+			"name": "Hidden Forest Bog (3-4)"
+		},
+		"Hidden Forest Bog (5-6)": {
+			"name": "Hidden Forest Bog (5-6)"
+		},
+		"Hidden Forest Bog (7-8)": {
+			"name": "Hidden Forest Bog (7-8)"
+		},
+		"House Spirits With a Large Number of Regenerating Pies": {
+			"name": "House Spirits With a Large Number of Regenerating Pies"
+		},
+		"House Spirits With an Absurd Number of Regenerating Pies": {
+			"name": "House Spirits With an Absurd Number of Regenerating Pies"
+		},
+		"In The Witch's Clutches": {
+			"name": "In The Witch's Clutches"
+		},
+		"In The Witch's Grasp": {
+			"name": "In The Witch's Grasp"
+		},
+		"Infested Clockwork Heap": {
+			"name": "Infested Clockwork Heap"
+		},
+		"Infested Clockwork Vessel": {
+			"name": "Infested Clockwork Vessel"
+		},
+		"It Pours": {
+			"name": "It Pours"
+		},
+		"It Rains": {
+			"name": "It Rains"
+		},
+		"Larcius": {
+			"name": "Larcius"
+		},
+		"Lemming Rat": {
+			"name": "Lemming Rat"
+		},
+		"Liaskra (1-2)": {
+			"name": "Liaskra (1-2)"
+		},
+		"Liaskra (3-4)": {
+			"name": "Liaskra (3-4)"
+		},
+		"Living Boulder (PFS 4-04)": {
+			"name": "Living Boulder (PFS 4-04)"
+		},
+		"Major Fireball Rune": {
+			"name": "Major Fireball Rune"
+		},
+		"Malevolent Reflections": {
+			"name": "Malevolent Reflections"
+		},
+		"Meddlesome Scrit": {
+			"name": "Meddlesome Scrit"
+		},
+		"Menacing Shadow Drake": {
+			"name": "Menacing Shadow Drake"
+		},
+		"Mutant Shadow Drake": {
+			"name": "Mutant Shadow Drake"
+		},
+		"Mutated Scorpion": {
+			"name": "Mutated Scorpion"
+		},
+		"Nathatel": {
+			"name": "Nathatel"
+		},
+		"Nathatel (3-4)": {
+			"name": "Nathatel (3-4)"
+		},
+		"Nathatel (5-6)": {
+			"name": "Nathatel (5-6)"
+		},
+		"Nathatel (7-8)": {
+			"name": "Nathatel (7-8)"
+		},
+		"Overtaxed Vrisk": {
+			"name": "Overtaxed Vrisk"
+		},
+		"Pappy Draighean": {
+			"name": "Pappy Draighean"
+		},
+		"Pappy Draighean (5-6)": {
+			"name": "Pappy Draighean (5-6)"
+		},
+		"Patched Up Automaton": {
+			"name": "Patched Up Automaton"
+		},
+		"Possessed Clockwork Heap": {
+			"name": "Possessed Clockwork Heap"
+		},
+		"Possessed Clockwork Vessel": {
+			"name": "Possessed Clockwork Vessel"
+		},
+		"Potted Violet Etheroot": {
+			"name": "Potted Violet Etheroot"
+		},
+		"Recon Patroller": {
+			"name": "Recon Patroller"
+		},
+		"Recon Scout": {
+			"name": "Recon Scout"
+		},
+		"Revna the Brave (5-6)": {
+			"name": "Revna the Brave (5-6)"
+		},
+		"Revna the Brave (7-8)": {
+			"name": "Revna the Brave (7-8)"
+		},
+		"Rhenei (1-2)": {
+			"name": "Rhenei (1-2)"
+		},
+		"Rhenei (3-4)": {
+			"name": "Rhenei (3-4)"
+		},
+		"Runt (1-2)": {
+			"name": "Runt (1-2)"
+		},
+		"Runt (3-4)": {
+			"name": "Runt (3-4)"
+		},
+		"Seldrick Dralston (1-2)": {
+			"name": "Seldrick Dralston (1-2)"
+		},
+		"Seldrick Dralston (3-4)": {
+			"name": "Seldrick Dralston (3-4)"
+		},
+		"Serraleth": {
+			"name": "Serraleth"
+		},
+		"Serraleth (7-8)": {
+			"name": "Serraleth (7-8)"
+		},
+		"Shadow Cannon": {
+			"name": "Shadow Cannon"
+		},
+		"Shaitan Tactics (3-4)": {
+			"name": "Shaitan Tactics (3-4)"
+		},
+		"Shaitan Tactics (5-6)": {
+			"name": "Shaitan Tactics (5-6)"
+		},
+		"Shard of Aslynn (1-2)": {
+			"name": "Shard of Aslynn (1-2)"
+		},
+		"Shard of Aslynn (3-4)": {
+			"name": "Shard of Aslynn (3-4)"
+		},
+		"Skeletal Pathfinder": {
+			"name": "Skeletal Pathfinder"
+		},
+		"Skeletal Pathfinder Veteran": {
+			"name": "Skeletal Pathfinder Veteran"
+		},
+		"Skulk Raider": {
+			"name": "Skulk Raider"
+		},
+		"Smokesight Deadeye Wight": {
+			"name": "Smokesight Deadeye Wight"
+		},
+		"Smokesight Hunter Wight": {
+			"name": "Smokesight Hunter Wight"
+		},
+		"Smokesight Prowler Wight": {
+			"name": "Smokesight Prowler Wight"
+		},
+		"Smokesight Stalker Wight": {
+			"name": "Smokesight Stalker Wight"
+		},
+		"Smokesight Wight Captain": {
+			"name": "Smokesight Wight Captain"
+		},
+		"Smokesight Wight Commander": {
+			"name": "Smokesight Wight Commander"
+		},
+		"Snakebush (1-2)": {
+			"name": "Snakebush (1-2)"
+		},
+		"Snakebush (3-4)": {
+			"name": "Snakebush (3-4)"
+		},
+		"Sounrel (3-4)": {
+			"name": "Sounrel (3-4)"
+		},
+		"Sounrel (5-6)": {
+			"name": "Sounrel (5-6)"
+		},
+		"Stabilized Black Pudding": {
+			"name": "Stabilized Black Pudding"
+		},
+		"Stabilized Ochre Jelly": {
+			"name": "Stabilized Ochre Jelly"
+		},
+		"Storm-Wrought Chains": {
+			"name": "Storm-Wrought Chains"
+		},
+		"Suhko (1-2)": {
+			"name": "Suhko (1-2)"
+		},
+		"Suhko (3-4)": {
+			"name": "Suhko (3-4)"
+		},
+		"Suncatcher Blooms (1-2)": {
+			"name": "Suncatcher Blooms (1-2)"
+		},
+		"Suncatcher Blooms (3-4)": {
+			"name": "Suncatcher Blooms (3-4)"
+		},
+		"Tempest-Forged Chains": {
+			"name": "Tempest-Forged Chains"
+		},
+		"Thisnabel (1-2)": {
+			"name": "Thisnabel (1-2)"
+		},
+		"Thisnabel (3-4)": {
+			"name": "Thisnabel (3-4)"
+		},
+		"Transformed Bremix (7-8)": {
+			"name": "Transformed Bremix (7-8)"
+		},
+		"Transformed Bremix (9-10)": {
+			"name": "Transformed Bremix (9-10)"
+		},
+		"Transformed Narcela (7-8)": {
+			"name": "Transformed Narcela (7-8)"
+		},
+		"Transformed Narcela (9-10)": {
+			"name": "Transformed Narcela (9-10)"
+		},
+		"Travel Worn Lurker In Light": {
+			"name": "Travel Worn Lurker In Light"
+		},
+		"Troublesome Scrit": {
+			"name": "Troublesome Scrit"
+		},
+		"Tsimaan": {
+			"name": "Tsimaan"
+		},
+		"Ulfen Soldier": {
+			"name": "Ulfen Soldier"
+		},
+		"Unbridled Necromantic Energy (1-2)": {
+			"name": "Unbridled Necromantic Energy (1-2)"
+		},
+		"Unbridled Necromantic Energy (3-4)": {
+			"name": "Unbridled Necromantic Energy (3-4)"
+		},
+		"Undead Nathatel": {
+			"name": "Undead Nathatel"
+		},
+		"Undead Nathatel (7-8)": {
+			"name": "Undead Nathatel (7-8)"
+		},
+		"Unseen Arson Assistant": {
+			"name": "Unseen Arson Assistant"
+		},
+		"Urdefhan Blood Mage (PFS 4-11)": {
+			"name": "Urdefhan Blood Mage (PFS 4-11)"
+		},
+		"Urdefhan High Tormentor (PFS 4-11)": {
+			"name": "Urdefhan High Tormentor (PFS 4-11)"
+		},
+		"Veteran Ulfen Soldier": {
+			"name": "Veteran Ulfen Soldier"
+		},
+		"Veteran Vermlek": {
+			"name": "Veteran Vermlek"
+		},
+		"Vicious Abyssal Bunny Swarm": {
+			"name": "Vicious Abyssal Bunny Swarm"
+		},
+		"Vrisk": {
+			"name": "Vrisk"
+		},
+		"Weak Clacking Skull Swarm": {
+			"name": "Weak Clacking Skull Swarm"
+		},
+		"Weak Cunning Vampire Spawn": {
+			"name": "Weak Cunning Vampire Spawn"
+		},
+		"Weak Evasive Vampire Count": {
+			"name": "Weak Evasive Vampire Count"
+		},
+		"Well-Fed Potted Violet Etheroot": {
+			"name": "Well-Fed Potted Violet Etheroot"
+		},
+		"Wicked Reflection": {
+			"name": "Wicked Reflection"
+		},
+		"Witch of the Owl": {
+			"name": "Witch of the Owl"
+		},
+		"Witch's Eye": {
+			"name": "Witch's Eye"
+		},
+		"Witch's Gaze": {
+			"name": "Witch's Gaze"
+		},
+		"Witch's Talon": {
+			"name": "Witch's Talon"
+		},
+		"Witch's Wing": {
+			"name": "Witch's Wing"
+		}
+	}
+}

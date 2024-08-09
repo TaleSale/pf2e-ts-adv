@@ -1113,6 +1113,121 @@
                 }
             ]
 		},
+		"Falling Tree": {
+			"name": "Падающее Дерево",
+            "tokenName": "Падающее Дерево",
+            "img": "icons/magic/nature/tree-fruit-green.webp",
+            "tokenImg": "icons/magic/nature/tree-fruit-green.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:nature|dc:21|name:Predict the tree's collapse] (Обучен), чтобы предсказать и избежать места обрушения дерева.</p><p>@Check[type:thievery|dc:21|name:Prop the tree up] (Обучен), чтобы подпереть дерево.</p>",
+            "hdescription": "<p>На тропинку рушится частично заваленное дерево.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Timber!",
+                    "name": "Падение!",
+                    "description": "<p><strong>Триггер</strong>: Живое существо попадает в область обрушения</p><hr><p>Дерево падает, нанося @Damage[(4d8+10)[bludgeoning]] всем существам в области</p><p style=\"text-align: center\">@Check[type:reflex|dc:22|basic:true]</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Explosive Rat": {
+			"name": "Взрывная Крыса",
+            "tokenName": "Крыса",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/standalone-adventures/fall-of-plaguestone/Icy_Rat.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/standalone-adventures/fall-of-plaguestone/Icy_Rat.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Explosive Harness",
+                    "name": "Взрывной Пояс",
+                    "description": "<p>Крыса подключена к взрывному поясу, который показывает угрожающий карманные часы с 1 минутой. Пояс взорвется через 1 минуту (10 раундов), если его не обезвредят, или немедленно, если крыса получит урон от огня. Этот взрыв наносит @Damage[2d6[fire]] крысе и всем существам в @Template[type:burst|distance:5] (@Check[type:reflex|dc:15|basic:true]) и поджигает горючие объекты на зоне.</p><p>Если крыса @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei], @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM], или @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf], соседнее существо может попытаться безопасно удалить и обезвредить пояс с успешным @Check[type:nature|dc:17], @Check[type:thievery|dc:17] или @Check[type:tanning-lore|dc:15]. Попытка обезвредить пояс это активность из двух действий.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Cloud of Reverie": {
+			"name": "Облако Благовоний",
+            "tokenName": "Облако Благовоний",
+            "img": "icons/magic/air/fog-gas-smoke-green.webp",
+            "tokenImg": "icons/magic/air/fog-gas-smoke-green.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Из сундука вырывается облако мерцающей голубой пыли и задерживается в воздухе.</p>",
+            "hdisable": "<p>@Check[type:religion|dc:23] или @Check[type:medicine|dc:23], чтобы распознать, что этот аромат принадлежит благовониям мечтаний, и принять необходимые меры предосторожности при открытии сундука, например, задержать дыхание и защитить лицо от воздействия.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Incense Cloud",
+                    "name": "Облако Благовоний",
+                    "description": "<p><strong>Триггер</strong>: Сундук открыт</p><hr><p>Все существа в радиусе 10 футов от сундука вдыхают пыль и становятся @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Заворожен} и @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Утомлен} (@Check[type:fortitude|dc:20] отменяет оба эффекта).</p><p>@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Заворожен} длится 1 минуту, пока цель впадает в спокойное и мечтательное оцепенение, глядя на удаляющуюся пыльную дымку. Как обычно, состояние @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Утомлен} длится до тех пор, пока пораженное существо не получит полный ночной отдых.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Pernicious Powder Keg": {
+			"name": "Механическая Взрывная Бочка",
+            "tokenName": "Механическая Взрывная Бочка",
+            "img": "icons/containers/barrels/barrel-drum-steel-oil.webp",
+            "tokenImg": "icons/containers/barrels/barrel-drum-steel-oil.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdisable": "<p>@Check[type:crafting|dc:18] or @Check[type:thievery|dc:18] на заклинивание механизма одной из распылительных форсунок. Каждый успех отключает одну из трех форсунок, уменьшая количество действий Опасности на 1. После отключения всех трех форсунок вокруг бочки больше нет масла, которое могло бы поджечь механизм зажигания, поэтому Опасность не может нанести урон.</p><p>Механизм воспламенения можно отключить с помощью еще одной проверки @Check[type:crafting|dc:18] или @Check[type:thievery|dc:18].</p><hr><p>Каждая попытка @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{отключения устройства} это активность за два действия.</p>",
+            "hdescription": "<p>Из этой внушительной большой и прочной дубовой бочки появляется грозная заводная конструкция. Подпружиненный пусковой механизм катапультирует крыс, начиненных взрывчаткой, а форсунки распыляют горючее масло перед воспламенением.</p>",
+            "hreset": "",
+            "hroutine": "<p>(4 Действия) Три сопла, расположенные вокруг устройства, извергают масло, которое покрывает объекты и плавает на воде. Когда давление в форсунках изменяется, они покрывают маслом все, что находится поблизости, а затем поджигают масло с помощью встроенных зажигалок.</p><p>Первое действие Опасности распространяет масло на 5 футов, второе - на 10 футов, третье - на 20 футов. Существа в этой области могут совершить @Check[type:reflex|dc:22] , чтобы не быть покрытыми маслом. Как только масло распространится, активируется свеча зажигания.</p>",
+            "items": [
+                {
+                    "id": "rmNWwFegibu6Etqd",
+                    "name": "Зажигание",
+                    "description": "<p>Свеча зажигания создает огонь, который быстро сжигает покрытых маслом существ и объекты вокруг бочки, нанося @Damage[(1d6+4)[fire],(1d4)[persistent,fire]] (@Check[type:reflex|dc:18|basic:true]).</p><p>После зажигания области и существа больше не покрыты маслом.</p>"
+                },
+                {
+                    "id": "Death Blossom",
+                    "name": "Смертельное Цветение",
+                    "description": "<p><strong>Триггер</strong>: Крышка бочки снимается;</p><hr><p>Снятие крышки ломает тонкий рычаг, который запускает цепную реакцию. Обручи защелкиваются, и края бочки раскрываются, как лепестки цветка. Четыре взрывные крысы выбрасываются во все стороны, а Опасность бросает Инициативу.</p>"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
 
 
 
@@ -1311,9 +1426,6 @@
 		"Cleansing Torrent": {
 			"name": "Cleansing Torrent"
 		},
-		"Cloud of Reverie": {
-			"name": "Cloud of Reverie"
-		},
 		"Cobbled Bruiser": {
 			"name": "Cobbled Bruiser"
 		},
@@ -1427,12 +1539,6 @@
 		},
 		"Eternal Hall (7-8)": {
 			"name": "Eternal Hall (7-8)"
-		},
-		"Explosive Rat": {
-			"name": "Explosive Rat"
-		},
-		"Falling Tree": {
-			"name": "Falling Tree"
 		},
 		"Fast Shambler Troop": {
 			"name": "Fast Shambler Troop"
@@ -1691,9 +1797,6 @@
 		},
 		"Pelagastr Tail": {
 			"name": "Pelagastr Tail"
-		},
-		"Pernicious Powder Keg": {
-			"name": "Pernicious Powder Keg"
 		},
 		"Peryton (Arctic)": {
 			"name": "Peryton (Arctic)"

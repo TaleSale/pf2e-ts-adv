@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "7.0.12",
+  "version": "7.1.0",
   "relationships": {
     "systems": [
       {
@@ -41,7 +41,8 @@
     "journals/otari/otari.js",
     "journals/PFS1/PFS1.js",
     "journals/PFS2/PFS2.js",
-    "journals/PFS3/PFS3.js"
+    "journals/PFS3/PFS3.js",
+    "journals/PFS4/PFS4.js"
   ],
   "styles": [
     "styles.css",
@@ -52,7 +53,8 @@
     "journals/otari/otari.css",
     "journals/PFS1/PFS1.css",
     "journals/PFS2/PFS2.css",
-    "journals/PFS3/PFS3.css"
+    "journals/PFS3/PFS3.css",
+    "journals/PFS4/PFS4.css"
   ],
   "packs": [
     {
