@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "relationships": {
     "systems": [
       {
@@ -42,7 +42,8 @@
     "journals/PFS1/PFS1.js",
     "journals/PFS2/PFS2.js",
     "journals/PFS3/PFS3.js",
-    "journals/PFS4/PFS4.js"
+    "journals/PFS4/PFS4.js",
+    "journals/Rusthenge/Rusthenge.js"
   ],
   "styles": [
     "styles.css",
@@ -54,7 +55,8 @@
     "journals/PFS1/PFS1.css",
     "journals/PFS2/PFS2.css",
     "journals/PFS3/PFS3.css",
-    "journals/PFS4/PFS4.css"
+    "journals/PFS4/PFS4.css",
+    "journals/Rusthenge/Rusthenge.css"
   ],
   "packs": [
     {
