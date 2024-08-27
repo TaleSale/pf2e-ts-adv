@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "7.1.1",
+  "version": "7.1.2",
   "relationships": {
     "systems": [
       {
@@ -33,7 +33,8 @@
   ],
   "scripts": [
     "babele.js",
-    "trts.js",
+    "autoformat.js",
+    "troop.js",
     "ShadowsatSundown/shadowsatsundown.js",
     "fall-of-plaguestone/fallofplaguestone.js",
     "Slithering/slithering.js",

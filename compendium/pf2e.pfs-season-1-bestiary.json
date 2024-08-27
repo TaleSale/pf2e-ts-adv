@@ -5568,6 +5568,151 @@
                 }
             ]
 		},
+        "Q3==============================================================================================": {
+            "name": "==========================================================================================="
+        },
+		"Young Sea Serpent": {
+			"name": "Молодой Морской Змей (1-2)",
+            "tokenName": "Молодой Морской Змей",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+            "description": "",
+            "appendNumber": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Waterspout",
+                    "name": "Водный Поток"
+                },
+                {
+                    "id": "Constrict",
+                    "name": "Сжимать",
+                    "description": "<p>@Damage[(1d4+2)[bludgeoning]], @Check[type:fortitude|dc:14|basic:true]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Young Sea Serpent Algae",
+                    "name": "Яд Молодого Морского Змея",
+                    "description": "<p>Вода в балластных органах на шее морского змея полна психотропных водорослей.</p><p style=\"text-align: center\">@Check[fortitude|dc:18|name:Young Sea Serpent Algae Poison]</p><p><strong>Макс.Продолж.:</strong> 3 Раундов</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] и, если летит, тратит свое первое действие каждый ход, чтобы спуститься на 20 футов (1 Раунд)</p>"
+                },
+                {
+                    "id": "Spine Rake",
+                    "name": "Спиные Шипы",
+                    "description": "<p>Молодой морской змей вытягивает шипы вдоль спины и совершаеть @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} или @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}. Каждое существо, к которому змея рядом в любой момент во время своего @Trait[Move]{Движение}, получает @Damage[(1d4+2)[piercing]] (@Check[type:reflex|dc:14|basic:true]).</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Adolescent Sea Serpent": {
+			"name": "Молодой Морской Змей (3-4)",
+            "tokenName": "Молодой Морской Змей",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+            "description": "",
+            "UUID": "",
+            "actorLink": true,
+            "prependAdjective": true,
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Waterspout",
+                    "name": "Водный Поток"
+                },
+                {
+                    "id": "Constrict",
+                    "name": "Сжимать",
+                    "description": "<p>@Damage[(1d4+6)[bludgeoning]], @Check[type:fortitude|dc:17|basic:true]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Adolescent Sea Serpent Algae",
+                    "name": "Яд Молодого Морского Змея",
+                    "description": "<p>Вода в балластных органах на шее морского змея полна психотропных водорослей.</p><p style=\"text-align: center\">@Check[fortitude|dc:20|name:Young Sea Serpent Algae Poison]</p><p><strong>Макс.Продолж.:</strong> 3 Раундов</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ] и, если летит, тратит свое первое действие каждый ход, чтобы спуститься на 20 футов (1 Раунд)</p>"
+                },
+                {
+                    "id": "Spine Rake",
+                    "name": "Спиные Шипы",
+                    "description": "<p>Молодой морской змей вытягивает шипы вдоль спины и совершаеть @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} или @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение}. Каждое существо, к которому змея рядом в любой момент во время своего @Trait[Move]{Движение}, получает @Damage[(1d8+4)[piercing]] (@Check[type:reflex|dc:17|basic:true]).</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Moldy Deck": {
+			"name": "Заплесневелая Палуба",
+            "tokenName": "Заплесневелая Палуба",
+            "img": "icons/magic/nature/plant-undersea-seaweed-glow-green.webp",
+            "tokenImg": "icons/magic/nature/plant-undersea-seaweed-glow-green.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "<p>@Check[survival|dc:13|name:Neutralize Moldy Deck|traits:poison,environmental,mechanical], чтобы удалить или нейтрализовать плесень, не нарушая ее.</p>",
+            "hdescription": "<p>Серая плесень покрывает участок палубы размером 10 футов на 25 футов.</p>",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "Grey Mold Dustup",
+                    "name": "Пыльца серой плесени",
+                    "description": "<p><strong>Триггер</strong>: Существо перемещается в пространство опасности или наносит ей урон. Опасность не может использовать эту реакцию, если урон был нанесен огнем или кислотой</p><hr><p>Спровоцировавшее и все существа в области действия серой плесени подвергаются воздействию серой плесени.</p>"
+                },
+                {
+                    "id": "Grey Mold",
+                    "name": "Серая Плесень",
+                    "description": "<p>Состояние неуклюж, вызванное серой плесенью, сохраняется и после окончания действия яда.</p><p style=\"text-align: center\">@Check[fortitude|dc:15]</p><p><strong>Макс.Продолж.:</strong> 3 Раундов</p><p><strong>Стадия 1:</strong> @Damage[1d4[poison]] (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[1d4[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} (1 Раунд)</p><p><strong>Стадия 3:</strong> @Damage[1d4[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} (1 Раунд)</p>"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
         "Q7================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -5779,16 +5924,14 @@
         "000-000==============================================================================================": {
             "name": "==========================================================================================="
         },
-		"Adolescent Sea Serpent": {
-			"name": "Adolescent Sea Serpent",
+		"creature": {
+			"name": "",
             "tokenName": "",
 			"img": "",
             "tokenImg": "",
             "description": "",
-            "UUID": "",
-            "actorLink": true,
-            "prependAdjective": true,
             "appendNumber": true,
+			"actorLink": true,
             "tokenvision": true,
 			"ring": {
 				"enabled": true,
@@ -5829,6 +5972,36 @@
                     "id": "115",
                     "name": "111",
                     "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdisable": "",
+            "hdescription": "",
+            "hreset": "",
+            "hroutine": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
                 }
             ]
 		},
@@ -6187,9 +6360,6 @@
 		"Minor Summoning Rune": {
 			"name": "Minor Summoning Rune"
 		},
-		"Moldy Deck": {
-			"name": "Moldy Deck"
-		},
 		"Mr. Chitters (5-6)": {
 			"name": "Mr. Chitters (5-6)"
 		},
@@ -6456,9 +6626,6 @@
 		},
 		"Witchwyrd (PFS 1-21)": {
 			"name": "Witchwyrd (PFS 1-21)"
-		},
-		"Young Sea Serpent": {
-			"name": "Young Sea Serpent"
 		},
 		"Zatqualmish (3-4)": {
 			"name": "Zatqualmish (3-4)"
