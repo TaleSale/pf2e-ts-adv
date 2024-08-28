@@ -1,0 +1,172 @@
+.SoG h1 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(19,65,69);
+  font-family: Marck Script;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.SoG h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/SoG/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.SoG article header.journal-page-header h2 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color: rgb(19,65,69);
+  font-family: Marck Script;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.SoG article header.journal-page-header h2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/SoG/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.SoG article header.journal-page-header h3 {
+  text-align: center; /* Выравнивание текста по центру горизонтально */
+  align-items: center; /* Выравнивание текста по центру вертикально */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 10px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+  color:rgb(19,65,69);
+  font-family: Marck Script;
+  font-weight: bold;
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.SoG article header.journal-page-header h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/SoG/back2.webp') no-repeat center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.SoG h2
+{
+  color:rgb(19,65,69);
+  font-family: Manuskript;
+  font-weight: bold;
+}
+
+.SoG h3
+{
+  color: rgb(87,88,90);
+  font-family: Manuskript;
+  font-weight: bold;
+}
+
+.SoG h4
+{
+  font-family: Manuskript;
+  font-weight: bold;
+}
+
+.SoG h5
+{
+  font-family: Manuskript;
+}
+
+.SoG blockquote {
+  all: unset;
+}
+
+.SoG blockquote {
+  color:rgb(56,95,98); /* цвет текста */
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px 0; /* Отступы сверху и снизу для псевдоэлементов */
+  background: #f8f8eb;
+}
+
+.SoG blockquote::before,
+.SoG blockquote::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background:rgb(56,95,98);
+  width: 100%; /* Полная ширина блока */
+  position: absolute;
+  left: 0;
+}
+
+.SoG blockquote::before {
+  top: -5px; /* Полоса сверху с отступом наверх от текста */
+}
+
+.SoG blockquote::after {
+  bottom: -5px; /* Полоса снизу с отступом вниз от текста */
+}
+
+.SoG section.insite {
+  font-size: inherit; /* Использовать прошлый шрифт */
+  line-height: 1.2; /* Высота строки */
+  text-align: justify; /* Выровнять текст по ширине */
+  position: relative; /* Для позиционирования псевдоэлементов */
+  padding: 20px; /* Отступы для текста */
+  z-index: 1; /* Поверх фона с прозрачностью */
+}
+
+/* Прозрачный фон через псевдоэлемент */
+.SoG section.insite::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/modules/pf2e-ts-adv/journals/SoG/back2.webp') no-repeat center center; /* Абсолютный путь к изображению фона */
+    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    background-attachment: fixed; /* Фиксированный фон, если нужно */    background-size: cover; /* Масштабировать изображение, чтобы покрыть весь блок */
+    opacity: 0.4; /* Прозрачность 10% */
+    z-index: -1; /* За текстом */
+}
+
+.insite h2
+{
+  color: rgb(21,67,70) !important;
+  font-family: Manuskript;
+  font-weight: bold;
+}
+
+.SoG table tbody tr td
+{
+  text-align: justify;
+  text-align-last: left;
+}
