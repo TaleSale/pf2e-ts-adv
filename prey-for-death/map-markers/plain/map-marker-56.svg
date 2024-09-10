@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      text {
+        fill: rgb(255, 255, 255);
+        font-size: 100px;
+        font-weight: 700;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-anchor: middle;
+        white-space: pre;
+        filter: drop-shadow( 2px 2px 1px rgba(0, 0, 0, .6));
+        transform: scale(1, 1.55);
+      }
+    </style>
+  </defs>
+  <g>
+    <text x="64" y="75">56</text>
+  </g>
+</svg>

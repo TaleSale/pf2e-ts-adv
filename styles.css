@@ -242,7 +242,9 @@
   margin: 0 0 1em 0em;
   width: 20%;
   margin-top: 2px; /* Вертикальный отступ от предыдущего объекта */
-  margin-left: 2px
+  margin-left: 2px;
+  position: relative; /* Относительное позиционирование необходимо для работы z-index */
+  z-index: 10;
 }
 
 .ПРАВ img {

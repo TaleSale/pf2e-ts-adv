@@ -1,0 +1,1100 @@
+{
+	"label": "Украденная Судьба",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink",
+        "scaleX": "prototypeToken.texture.scaleX",
+        "scaleY": "prototypeToken.texture.scaleY"
+    },
+	"entries": {
+		"Ferrugon": {
+			"name": "Ферругон",
+            "tokenName": "Ферругон",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ferrugon.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ferrugon.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Vainglorious Whispers",
+                    "name": "Шепот Тщеславия",
+                    "description": "<p><strong>Триггер</strong>: Существо, не-дьявол, в радиусе 30 футов от ферругона получает успех (но не крит.успех) при броске атаки, проверке навыка или спасброске</p><hr><p>Ферругон нашептывает спро воцировавшему существу подрывные послания, заставляя его стать слишком уверенным в своих силах, в то время как на самом деле он становится менее успешным. Цель должна совершить @Check[will|dc:32]. В случае провала цель получает бонус состояния +2 к спасброскам против эффектов @Trait[Fear]{Страха}, но при этом получает штраф -2 ко всем броскам атаки и проверкам навыков на 1 час.</p><p>Во время этого времени жертва не может совершать @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Помощь}, применить к себе эффекты @Trait[Healing]{Исцеление}, а также совершать @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Укрыться} или @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Поднять Щит}, так как в данный момент они кажутся существу ненужными. Аналогичные защитные действия также могут быть недоступны жертве, на усмотрение ГМ. Цель получает временный иммунитет к Шепот Тщеславия на 24 часа.</p><p>@UUID[Item.O7tmh15vF5VGRYgr]{Шепот Тщеславия}</p>"
+                },
+                {
+                    "id": "Metallic",
+                    "name": "Металлический",
+                    "description": "<p>Ферругон - @Trait[Metal]{Металлическое} существо, поэтому на него действуют такие эффекты, как @UUID[Compendium.pf2e.spells-srd.Item.0fYE64odlKqISzft]</p>"
+                },
+                {
+                    "id": "Ferrugon Tetanus",
+                    "name": "Столбняк Ферругона",
+                    "description": "<p style=\"text-align: center\">@Check[fortitude|dc:32]</p><p><strong>Возникновение: </strong>[[/br 1d4 #Days]]{1d4 День}</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} (1 Неделя)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} and can't speak (1 День)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF] (1 День)</p><p><strong>Стадия 4:</strong> Смерть</p>"
+                },
+                {
+                    "id": "Sunder Objects",
+                    "name": "Сокрушить Предмет",
+                    "description": "<p>Когда ферругон наносит урон предмету или строению, он наносит дополнительные 2d8 повреждения этому предмету или строению.</p>"
+                },
+                {
+                    "id": "Dimension Door (At Will)",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "Infernal Pact",
+                    "name": "Дьявольский пакт",
+                    "description": "<p>Вы обращаетесь к могущественному дьяволу, прося его подчинить вам некоторых своих прихвостней. Если вам удаётся, дьявол отправляет вам на свой выбор одного @Trait[Devil]{дьявола} уровня 2 или меньше, двух дьяволов уровня 0 или меньше, или трёх дьяволов уровня −1 или меньше.</p><hr><p><strong>Критический успех:</strong> Посланные дьяволы служат вам [[/br 1d4 #недели]]{1d4 недели}.</p><p><strong>Успех:</strong> Посланные дьяволы служат вам [[/br 1d4 #дни]]{1d4 дня}.</p><p><strong>Провал:</strong> Ваша просьба отклонена.</p><p><strong>Критический провал:</strong> Вашу просьбу не только отклоняют, но могущественный дьявол посылает свое недовольство вашему повелителю.</p><hr><p><strong>Усиление (+1):</strong> Уровень посланного вам дьявола увеличивается на 1 для каждого варианта.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Mercenary Assassin": {
+			"name": "Наемный Убийца",
+            "tokenName": "Наемный Убийца",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mercenary-Assassin.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mercenary-Assassin.webp",
+            "description": "",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "KFu8jUJFASg04ENu",
+                    "name": "Композитный короткий лук"
+                },
+                {
+                    "id": "TtSAFJ8OrXG7j4tu",
+                    "name": "Рапира"
+                },
+                {
+                    "id": "Poison Weapon",
+                    "name": "Отравленное Оружие",
+                    "description": "<p><strong>Требования</strong>: Убийца владеет колющим оружием и имеет свободную руку</p><hr><p>Убийца наносит @Trait[Poison]{Яд} на оружие.</p>"
+                },
+                {
+                    "id": "Swift Sneak",
+                    "name": "Быстро красться",
+                    "description": "<p>Убийца можете @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Красться} с полной Скоростью.</p>"
+                },
+                {
+                    "id": "Sneak Attack",
+                    "name": "Внезапная Атака",
+                    "description": "<p>Убийца наносит дополнительные @Damage[(2d6)[precision]] Точного Урона существам в @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]</p>"
+                },
+                {
+                    "id": "Simple Injury Poison",
+                    "name": "Яд Ранений",
+                    "description": "<p>@Damage[2d4[poison]]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Dieral Myrnese": {
+			"name": "Дирал Мирнез",
+            "tokenName": "Дирал Мирнез",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Dieral-Myrnese.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Dieral-Myrnese.webp",
+            "description": "<p>Чем дольше преступники хранят украденную добычу, тем больше шансов, что их поймают. Скупщики делают себя незаменимыми в преступном мире, платя за краденые товары, чтобы потом перепродать их, будь то через, казалось бы, законный бизнес или закрытой группе элитных покупателей.</p><hr><p>Некоторые преступники - отчаявшиеся, у которых нет другого выхода, кроме как нарушать закон, чтобы выжить, а другие выбирают преступную жизнь ради острых ощущений, формируя банды или подпольные гильдии, которые специализируются на конкретных незаконных делах.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Quick Rummage",
+                    "name": "Быстро рыться",
+                    "description": "<p>У скупщика всегда есть несколько предметов под рукой. Скупщик @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействует} чтобы достать оружие или предмет, на активацию которого нужно одиночное действие, а затем @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударяет} этим оружием или <a href=\"https://clck.ru/aiMdK\">Активирует</a> этот предмет.</p>"
+                },
+                {
+                    "id": "Fence's Eye",
+                    "name": "Глаз скупщика",
+                    "description": "<p>Скупщики живут благодаря своему умению распознать выгодную сделку. Они могут использовать Знания преступного мира, чтобы определить стоимость и @UUID[Compendium.pf2e.actionspf2e.eReSHVEPCsdkSL4G]{Идентифицировать магию} предмета. Делая это, они получают бонус обстоятельства +2 к проверкам Знаний преступного мира, а также к проверкам Знаний преступного мира, чтобы определить, является ли предмет краденым, будет ли украденный предмет слишком узнаваем, чтобы его легко сбыть, и кто будет заинтересован в покупке такого предмета.</p>"
+                },
+                {
+                    "id": "Scoundrel's Feint",
+                    "name": "Финт негодяя",
+                    "description": "<p>Когда скупщик успешно @UUID[Compendium.pf2e.actionspf2e.QNAVeNKtHA0EUw4X]{Финтует}, цель @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута врасплох} для атак скупщика, до конца следующего хода скупщика. При критическом успехе, цель @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнута врасплох} для всех атак до конца следующего хода скупщика.</p>"
+                },
+                {
+                    "id": "Sneak Attack",
+                    "name": "Внезапная атака",
+                    "description": "<p>Скупщик наносит дополнительные 2d6 точного урона по застигнутым врасплох существам.</p>"
+                },
+                {
+                    "id": "3Gsk5abTPsMK7L90",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "8EfthxjczAzYkpvD",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "6KJ0ua534rpJ3q5Q",
+                    "name": "Короткий меч"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Vharnev the Butcher": {
+			"name": "Вхарнев Мясник",
+            "tokenName": "Вхарнев Мясник",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vharnev-the-Butcher.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vharnev-the-Butcher.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "egWEtcRnwXSbF5Ls",
+                    "name": "Боевой Топор"
+                },
+                {
+                    "id": "Defensive Charm",
+                    "name": "Защитные Чары",
+                    "description": "<p><strong>Триггер</strong>: Вхарнев является целью дистанционной атаки</p><hr><p>Вхарнев быстро прочерчивает защитную руну между собой и источником атаки, получая бонус обстаятельства +2 к КБ против спровоцировавшей атаки.</p>"
+                },
+                {
+                    "id": "Sudden Charge",
+                    "name": "Внезапное Нападение",
+                    "description": "<p>Вхарнев совершает дважды @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} и потом @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в ближнем бою.</p>"
+                },
+                {
+                    "id": "Uniila Witch Token",
+                    "name": "Токен Униилы",
+                    "description": "<p>Вхарнев носит Жетон Униилы в виде амулета с руническим символом глаза @UUID[Compendium.pf2e.deities.Item.Af4TSJjutVi9Vdwi]{Махатхаллы}. Заклинания Вхарнева ниже 5-го Ранга считаются на 1 Ранг выше для целей противодействия и противодействия другим заклинаниям.</p><p>Раз в день Вхарнев может активировать жетон, чтобы сотворить заклинание @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY] (КС29).</p>"
+                },
+                {
+                    "id": "Witch Token",
+                    "name": "Жетон Униилы",
+                    "description": "<p>Униила создает жетон в форме украшения. Когда Жетон Униилы инвестируется смертным, все заклинания смертного, кроме тех, что сотворены на самом высоком ранге, который смертный может сотворять, считаются на 1 ранг выше, чтобы противодействовать другим заклинаниям и быть противодействуемыми.</p><p>Существо также может активировать жетон униилы, чтобы сотворить заклинание один раз в день. Это заклинание выбирается из одного из арканных стихийных заклинаний униилы 4 ранга или ниже, когда униила создает жетон.</p><p>Пока существо инвестирует жетон униилы, оно считает свои спасброски против заклинаний униилы на одну степень успеха хуже, а униила всегда знает расстояние и направление до существа. Существо не может иметь более одного инвестированого жетона униилы, а униила не может иметь более одного существующего жетона. Униила может уничтожить свой жетон как свободное действие с признаком @Trait[Concentrate]{Концентрация}. Если жетон униилы инвестирован, когда униила совершает это, существо, которое инвестировало жетон униилы, получает @Damage[9d8[mental]] (@Check[will|dc:29|basic]).</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Uniila": {
+			"name": "Униила",
+            "tokenName": "Униила",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "7WUsxorWZIKhPB7q",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Every Dagger",
+                    "name": "Все Кинжалы",
+                    "description": "<p><strong>Требования</strong>: Униила владеет четырьмя кинжалами;</p><hr><p>Униила пытается совершить один @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} кинжалом по цели. Если этот Удар попадает в цель, униила наносит три дополнительных кубика урона от оружия.</p>"
+                },
+                {
+                    "id": "Fearsome Magic",
+                    "name": "Пугающая Магия",
+                    "description": "<p><strong>Частота</strong>: 1/Час</p><hr><p>Если следующим действием униила сотворяет вредоносное заклинание, то существа, провалившие спасбросок против заклинания @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.провале), в дополнение к другим эффектам заклинания.</p>"
+                },
+                {
+                    "id": "Witch Token",
+                    "name": "Жетон Униилы",
+                    "description": "<p><strong>Частота</strong>: 1/День</p><hr><p>Униила создает жетон в форме украшения. Когда Жетон Униилы инвестируется смертным, все заклинания смертного, кроме тех, что сотворены на самом высоком ранге, который смертный может сотворять, считаются на 1 ранг выше, чтобы противодействовать другим заклинаниям и быть противодействуемыми.</p><p>Существо также может активировать жетон униилы, чтобы сотворить заклинание один раз в день. Это заклинание выбирается из одного из арканных стихийных заклинаний униилы 4 ранга или ниже, когда униила создает жетон.</p><p>Пока существо инвестирует жетон униилы, оно считает свои спасброски против заклинаний униилы на одну степень успеха хуже, а униила всегда знает расстояние и направление до существа. Существо не может иметь более одного инвестированого жетона униилы, а униила не может иметь более одного существующего жетона. Униила может уничтожить свой жетон как свободное действие с признаком @Trait[Concentrate]{Концентрация}. Если жетон униилы инвестирован, когда униила совершает это, существо, которое инвестировало жетон униилы, получает @Damage[9d8[mental]] (@Check[will|dc:29|basic]).</p>"
+                },
+                {
+                    "id": "Dimension Door (At Will)",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Uniila Occultist": {
+			"name": "Униила-Оккультист",
+            "tokenName": "Униила",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Uniila.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "7WUsxorWZIKhPB7q",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "Every Dagger",
+                    "name": "Все Кинжалы",
+                    "description": "<p><strong>Требования</strong>: Униила владеет четырьмя кинжалами;</p><hr><p>Униила пытается совершить один @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} кинжалом по цели. Если этот Удар попадает в цель, униила наносит три дополнительных кубика урона от оружия.</p>"
+                },
+                {
+                    "id": "Fearsome Magic",
+                    "name": "Пугающая Магия",
+                    "description": "<p><strong>Частота</strong>: 1/Час</p><hr><p>Если следующим действием униила сотворяет вредоносное заклинание, то существа, провалившие спасбросок против заклинания @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} при крит.провале), в дополнение к другим эффектам заклинания.</p>"
+                },
+                {
+                    "id": "Witch Token",
+                    "name": "Жетон Униилы",
+                    "description": "<p><strong>Частота</strong>: 1/День</p><hr><p>Униила создает жетон в форме украшения. Когда Жетон Униилы инвестируется смертным, все заклинания смертного, кроме тех, что сотворены на самом высоком ранге, который смертный может сотворять, считаются на 1 ранг выше, чтобы противодействовать другим заклинаниям и быть противодействуемыми.</p><p>Существо также может активировать жетон униилы, чтобы сотворить заклинание один раз в день. Это заклинание выбирается из одного из арканных стихийных заклинаний униилы 4 ранга или ниже, когда униила создает жетон.</p><p>Пока существо инвестирует жетон униилы, оно считает свои спасброски против заклинаний униилы на одну степень успеха хуже, а униила всегда знает расстояние и направление до существа. Существо не может иметь более одного инвестированого жетона униилы, а униила не может иметь более одного существующего жетона. Униила может уничтожить свой жетон как свободное действие с признаком @Trait[Concentrate]{Концентрация}. Если жетон униилы инвестирован, когда униила совершает это, существо, которое инвестировало жетон униилы, получает @Damage[9d8[mental]] (@Check[will|dc:29|basic]).</p>"
+                },
+                {
+                    "id": "Dimension Door (At Will)",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+
+
+		"Bhanyada Behemoth": {
+			"name": "Бханьяда - Чудище",
+            "tokenName": "Бханьяда - Чудище",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Bhanyada-Behemoth.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06bhanyada000000]{Бханьяда}</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Extraneous Flesh",
+                    "name": "Лишняя Плоть",
+                    "description": "<p><strong>Частота</strong>: 3/День</p><p><strong>Триггер</strong>: Удар наносит Бханьяда - Падальщику критическое попадание</p><hr><p>Критическое попадание может просто отрезать кусок тела, который бханьяда может потерять без особого вреда. Бханьяда - Падальщик совершает @Check[flat|dc:11]. В случае успеха он не получает дополнительного урона от критического удара (хотя другие эффекты, например, эффекты специализации критического удара, он получает как обычно).</p>"
+                },
+                {
+                    "id": "Odor of Rot",
+                    "name": "Запах Гнили",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура} 10 футов. Существа, кроме @Trait[Aberration]{Аберрация}, которые входят в ауру бханьяды или начинают свой ход в ней, должны успешно совершить @Check[fortitude|dc:29] или получить @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{ТОшнота 2} при крит.провале). Существо, получившее успех против этого спасброска, получает временный иммунитет на 1 минуту.</p><p></p>"
+                },
+                {
+                    "id": "Lumbering Swings",
+                    "name": "Шквал Кулаков",
+                    "description": "<p>Бханьяда - Чудище совершает @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} и наносит до четырех @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударов} Кулаками в любой момент этого @Trait[Move]{Движение}. Каждый Удар должен быть нацелен на новое существо. К атакам применяется обычный штраф множественных атак.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Bhanyada Scavenger": {
+			"name": "Бханьяда - Падальщик",
+            "tokenName": "Бханьяда - Падальщик",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Bhanyada-Scavenger.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Bhanyada-Scavenger.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06bhanyada000000]{Бханьяда}</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Extraneous Flesh",
+                    "name": "Лишняя Плоть",
+                    "description": "<p><strong>Частота</strong>: 3/День</p><p><strong>Триггер</strong>: Удар наносит Бханьяда - Падальщику критическое попадание</p><hr><p>Критическое попадание может просто отрезать кусок тела, который бханьяда может потерять без особого вреда. Бханьяда - Падальщик совершает @Check[flat|dc:11]. В случае успеха он не получает дополнительного урона от критического удара (хотя другие эффекты, например, эффекты специализации критического удара, он получает как обычно).</p>"
+                },
+                {
+                    "id": "Change Posture",
+                    "name": "Сменить Стойку",
+                    "description": "<p>Бханьяда меняет стойку между двуногим и четвероногим.</p><p>В двуногой стойке бханьяда не может совершать Внезапное Нападение.</p><p>В четвероногой стойке она теряет Скорость Карабканья.</p>"
+                },
+                {
+                    "id": "Gnashing Bite",
+                    "name": "Скрежещущий Укус",
+                    "description": "<p>При укусе зубы бханьяды смещаются во рту.</p><p>Бханьяда совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Челюстями (которые имеют признак `универсальный колющий`). При попадании цель получает дополнительные @Damage[2d10[bludgeoning]], а также @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд (если челюсти наносили дробящий урон), или получает @Damage[1d8[persistent,bleed]] (если челюсти наносили колющий урон)</p>"
+                },
+                {
+                    "id": "M4PQc3PKYSOC7kUo",
+                    "name": "Внезапное Нападение",
+                    "description": "<p>Бханьяда совершает дважды @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещение} и совершает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Челюстями в конце своего @Trait[Move]{Движение}.</p>"
+                },
+                {
+                    "id": "Odor of Rot",
+                    "name": "Запах Гнили",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура} 10 футов. Существа, кроме @Trait[Aberration]{Аберрация}, которые входят в ауру бханьяды или начинают свой ход в ней, должны успешно совершить @Check[fortitude|dc:23] или получить @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{ТОшнота 2} при крит.провале). Существо, получившее успех против этого спасброска, получает временный иммунитет на 1 минуту.</p><p></p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Bhanyada Swarm": {
+			"name": "Бханьяда - Рой",
+            "tokenName": "Бханьяда - Рой",
+			"img": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/PZO90190%20BHANYADA%20SWARM.webp",
+            "tokenImg": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/PZO90190%20BHANYADA%20SWARM.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06bhanyada000000]{Бханьяда}</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Extraneous Flesh",
+                    "name": "Лишняя Плоть",
+                    "description": "<p><strong>Частота</strong>: 3/День</p><p><strong>Триггер</strong>: Удар наносит Бханьяда - Падальщику критическое попадание</p><hr><p>Критическое попадание может просто отрезать кусок тела, который бханьяда может потерять без особого вреда. Бханьяда - Падальщик совершает @Check[flat|dc:11]. В случае успеха он не получает дополнительного урона от критического удара (хотя другие эффекты, например, эффекты специализации критического удара, он получает как обычно).</p>"
+                },
+                {
+                    "id": "Swarming Bites",
+                    "name": "Укусы Роя",
+                    "description": "<p>Каждый враг в пространстве Бханьяда - Рой получает @Damage[2d6[bludgeoning]] (@Check[reflex|dc:30|basic]). При провале существо так же получает @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 раунд.</p>"
+                },
+                {
+                    "id": "Odor of Rot",
+                    "name": "Запах Гнили",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура} 10 футов. Существа, кроме @Trait[Aberration]{Аберрация}, которые входят в ауру бханьяды или начинают свой ход в ней, должны успешно совершить @Check[fortitude|dc:27] или получить @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{ТОшнота 2} при крит.провале). Существо, получившее успех против этого спасброска, получает временный иммунитет на 1 минуту.</p><p></p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Hurlilu": {
+			"name": "Хурлилу",
+            "tokenName": "Хурлилу",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06liluhurlilu000]{Лилу, Хурлилу}</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Lifesense (Imprecise) 120 feet",
+                    "name": "Жизнечувствительность (Неточное 120)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+                },
+                {
+                    "id": "Flesh Tearer",
+                    "name": "Разрыватель Плоти",
+                    "description": "<p>Если Хуралилу критически попадает по врагу @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} ближнего боя, то чистая проверка врага на восстановление от Продолжительного Урона Кровотечением равна @Check[type:flat|dc:19] вместо КС 15.</p>"
+                },
+                {
+                    "id": "Dominate the Air",
+                    "name": "Доминирование в Воздухе",
+                    "description": "<p><strong>Требования</strong>: Хурлилу летает</p><p><strong>Триггер</strong>: Существо в радиусе 30 футов покидает землю, используя Скорость Полета</p><hr><p>Хурлилу сотворяет на спровоцировавшее существо @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]</p>"
+                },
+                {
+                    "id": "Dive Bomb",
+                    "name": "Пикирующая Бомба",
+                    "description": "<p><strong>Частота</strong>: 1/Раунд</p><hr><p>Хурлилу @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещается} со Скоростью Полета и наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в конце этого @Trait[Move]{Движение}</p>"
+                },
+                {
+                    "id": "Dimension Door (At Will)",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "Fear (At Will)",
+                    "name": "Страх (По Желанию)",
+                    "description": "<p>Вы вселяете в цель страх; она должна совершить спасбросок Воли.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 1}.</p><p><strong>Провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 2}.</p><p><strong>Критический провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 3} и впадает в @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд.</p><hr><p><strong>Усиление (3-й):</strong> Вы можете выбрать целями вплоть до 5 существ.</p>"
+                },
+                {
+                    "id": "Earthbind (At Will)",
+                    "name": "Земные оковы (По Желанию)",
+                    "description": "<p>Используя вес земли, вы препятствуете полету цели, с эффектами в зависимости от ее спасброска Стойкости. Если существо благополучно достигает земли, оно не получает урона при падении.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов.</p><p><strong>Провал:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов. Если она касается земли, то 1 раунд не может @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь}, @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Левитировать}, или другим образом оторваться от земли.</p><p><strong>Критический провал:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов. Если она касается земли, то 1 минуту не может @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь}, @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Левитировать}, или другим образом оторваться от земли.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Oppali": {
+			"name": "Оппали",
+            "tokenName": "Оппали",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Oppali.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Oppali.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06oppali00000000]{Оппали}</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Staccato Blast",
+                    "name": "Взрыв Стаккато"
+                },
+                {
+                    "id": "Vine",
+                    "name": "Лоза"
+                },
+                {
+                    "id": "Energizing Incompetence",
+                    "name": "Энергичная Некомпетентность",
+                    "description": "<p><strong>Триггер</strong>: Существо в радиусе 30 футов критически проваливает атаку против оппали;</p><hr><p>Вместо этого атака становится провальной, и оппали становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен 1} на 1 раунд. Он может использовать это дополнительное действие для @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Шага}, @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещения} или @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар}.</p>"
+                },
+                {
+                    "id": "Trumpet Blast",
+                    "name": "Трубный Взрыв",
+                    "description": "<p>Оппали испускает мощный взрыв диссонансного шума, который наносит @Damage[9d8[sonic]] существам в @Template[cone|distance:60] (@Check[fortitude|dc:29|basic]). Существа, провалившие спасбросок, также получает @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR] на 1 раунд. Оппали не может использовать Трубный Взрыв в течение [[/br 1d4 #Recharge Trumpet Blast]]{1d4 Раунда} или пока не получит не менее 20 урона звуком от одного источника (в зависимости от того, что наступит раньше).</p><div data-visibility=\"gm\"><p>The oppali can't use its Trumpet Blast again for [[/br 1d4 #Recharge Trumpet Blast]]{1d4 rounds}</p></div>"
+                },
+                {
+                    "id": "Soundsense (Precise) 60 feet",
+                    "name": "Чувство Звука (Точное 60)",
+                    "description": "<p>Чувство слуха оппали является точным чувством в диапазоне 60 футов.</p>"
+                },
+                {
+                    "id": "Drain Luck",
+                    "name": "Отток Удачи",
+                    "description": "<p>Существо, не являющееся @Trait[Animal]{Животное} или @Trait[Plant]{Растение}, пораженное @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Лозы Оппали, должно дважды совершить @Check[fortitude|dc:29], принимая меньший результат за действительный.</p><p><strong>Крит.Успех</strong>: Существо невредимо и получает временно иммунитет к Отток Удачи на 24 часа.</p><p><strong>Успех</strong>: Существо получает @Damage[2d6[poison]]. До начала следующего хода существо должно бросать дважды и взять худший результат при всех проверках.</p><p><strong>Провал</strong>: Существо получает @Damage[2d6[persistent,poison]]. В течение 1 раунда существо должно бросать дважды и принимать худший результат при всех проверках.</p><p><strong>Крит.Провал</strong>: Существо получает @Damage[4d6[persistent,poison]]. В течение 1 минуты существо должно бросать дважды и принять худший результат во всех проверках.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Arodeth": {
+			"name": "Ародет",
+            "tokenName": "Ародет",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Arodeth.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Arodeth.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06arodeth0000000]{Ародет}</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "MNYOnxxfF9bobKfE",
+                    "name": "Посох"
+                },
+                {
+                    "id": "Fated to Fail",
+                    "name": "Нагадать Провал",
+                    "description": "<p><strong>Триггер</strong>: Существо, находящееся рядом с Ародет, попадает или критически попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} ближнего боя</p><hr><p>Ародет пытается совершить Знание: Гадание против КС Воли спровоцировавшего существа. При успехе атака снижается на одну степень успеха (от попадания до провала или от критического попадания до попадания).</p>"
+                },
+                {
+                    "id": "5760NWe18d8bfoJ2",
+                    "name": "Арканный Каскад",
+                    "description": "<p><strong>Требование</strong>: Леди Ародет может перейти в эту @Trait[Stance]{Стойка}, только если ее последним действием было @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотвор.Закл.} или @UUID[Compendium.pf2e.stolen-fate-bestiary.Actor.oWFqioYktqayWFlS.Item.ru8fL6SrdnGMWNYO], но она может оставаться в @Trait[Stance]{Стойка}, даже если больше не соответствует этим требованиям;</p><hr><p>Находясь в этой @Trait[Stance]{Стойка}, Ародет может @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать} или @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{Отпустить}, чтобы изменить хватку посоха, в качестве свободного действия, когда она наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Посохом, включая @UUID[Compendium.pf2e.stolen-fate-bestiary.Actor.oWFqioYktqayWFlS.Item.ru8fL6SrdnGMWNYO]. Это происходит до того, как она бросит свой бросок атаки.</p><p>Она также может @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы изменить хват посоха, как свободное действие, которое происходит в конце ее хода.</p>"
+                },
+                {
+                    "id": "ru8fL6SrdnGMWNYO",
+                    "name": "Зачарованный Удар",
+                    "description": "<p>Ародет направляет заклинание в удар ближнего боя, чтобы нанести заряженную атаку. Ародет @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотв.Закл.} @UUID[Compendium.pf2e.spells-srd.mAMEt4FFbdqoRnkN]{Искажение Пустотой}, @UUID[Compendium.pf2e.spells-srd.r7ihOgKv19eJQnik]{Дезинтеграция} или @UUID[Compendium.pf2e.spells-srd.O9w7r4BKgPogYDDe]{Сотворение Пламени}. Эффекты заклинания проявляются не сразу, а вливаются в ее атаку. Ародет наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} Посохом, который приобретает признак @Trait[Arcane]{Аркана}. Заклинание сочетается с атакой, при этом для определения эффектов удара и заклинания используется бросок атаки Ародет.</p><hr><p>Это считается как две атаки для штрафа множественных атак, но штраф не применяется до тех пор, пока она не выполнит Зачарованный Удар.</p><p>После совершения Зачарованого Удара Ародет не может совершить его снова, пока не перезарядит эту способность как одно действие, которое имеет признак @Trait[Concentrate]{Концентрация}. Она также перезаряжает свой Зачарованный Удар, когда сотворяет @UUID[Compendium.pf2e.spells-srd.oOaEfsdVpgTXRhrY]{Рунический оттиск} или @UUID[Compendium.pf2e.spells-srd.KAapTzGKJMbMQCL1]{Вращающийся посох}.</p>"
+                },
+                {
+                    "id": "3CCzGcpOSw3f00qt",
+                    "name": "Извилистое Древо",
+                    "description": "<p>Пока Ародет владеете Посохом одной рукой, этот посох подстраивается по форме и весу, приобретая признак @Trait[Agile]{быстрое} и увеличивая кость урона до 1d6.</p><p>Пока Ародет владеете посохом двумя руками, он удлиняется, изгибается и меняет форму, приобретая признаки @Trait[Parry]{парирование}, @Trait[Reach]{длинное} и @Trait[Trip]{опрокидывание}.</p><hr><p>Уникальный боевой стиль Ародет также позволяет ей добавить свойство @Trait[Finesse]{Точное} к любому посоху, которым она владеет в бою.</p>"
+                },
+                {
+                    "id": "MNYOnxxfF9bobKfE",
+                    "name": "Посох"
+                },
+                {
+                    "id": "3ktt2ttpeuKOAdn8",
+                    "name": "Книга Заклинаний Ародет",
+                    "description": "<p>Книга заклинаний содержит записанные знания, необходимые для изучения и подготовки различных заклинаний.</p><hr><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.d6o52BnjViNz7Gub]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.TDNlDWbYb58Y55Da]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]</p><p>@UUID[Compendium.pf2e.spells-srd.Item.O9w7r4BKgPogYDDe]</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Drustan": {
+			"name": "Друстан",
+            "tokenName": "Друстан",
+			"img": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/PZO90190_Drustan_final.webp",
+            "tokenImg": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/PZO90190_Drustan_final.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06drustan0000000]{Друстан}</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Td4ZWdQhTgBNT889",
+                    "name": "Меч-Бастард"
+                },
+                {
+                    "id": "Divine Ally",
+                    "name": "Божественный Союзник",
+                    "description": "<p>Божественный Союзник Друстана - его Меч-бастард. Он получает эффект критической специализации, а оружие приобретает свойства @UUID[Compendium.pf2e.equipment-srd.Item.XszNvxnymWYRaoTp]{Руны Огненная}</p>"
+                },
+                {
+                    "id": "Lyre (Virtuoso)",
+                    "name": "Лира [Ручной виртуозный]",
+                    "description": "<p>Тяжелые инструменты, такие как большие барабаны, полный набор колокольчиков и клавишные инструменты, менее портативны и, как правило, должны быть неподвижными во время игры. Виртуозный инструмент дает бонус предмета +1 к проверкам Выступления при использовании этого инструмента.</p>"
+                },
+                {
+                    "id": "+3 to Reflex vs. Damaging Effects",
+                    "name": "+3 РФЛ против эффектов с уроном"
+                },
+                {
+                    "id": "zBUpfRfxuUBF9E5S",
+                    "name": "Железный Приказ",
+                    "description": "<p><strong>Триггер:</strong> Враг в пределах 15 футов наносит Друстану урон</p><hr><p>Друстан приказываете своему врагу послушно встать перед вами на колени. Если он осмелится отказаться, ему придется поплатиться за это болью и страданием. Враг должен выбрать один из следующих вариантов:</p><ul><li>Враг преклоняет колени, падая @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} свободным действием (<span class=\"pf2-icon\">f</span>)</li><li>Враг отказывается и Друстан наносите ему @Damage[(4d6)[mental],(5)[persistent,spirit]]</li></ul><p>Дополнительно, до конца вашего следующего хода, ваши @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удары} по спровоцировавшему существу, наносят дополнительно 2 духовного урона.</p>"
+                },
+                {
+                    "id": "BZNxjsgY155td88X",
+                    "name": "Сокрушение Добра",
+                    "description": "<p>Друстан выбирает одного врага, которого видит. До начала его следующего хода @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удары} его Меч-бастарда наносят этому врагу дополнительно 6 духовного урона.</p><p>Если выбранный враг атакует Друстана до начала его следующего хода, продолжительность действия продлевается до конца следующего хода этого врага.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+
+
+
+
+
+		"All-Seeing Hajeck": {
+			"name": "All-Seeing Hajeck"
+		},
+		"Aquatic Viper Vine": {
+			"name": "Aquatic Viper Vine"
+		},
+		"Arzuu": {
+			"name": "Arzuu"
+		},
+		"Blade Magus": {
+			"name": "Blade Magus"
+		},
+		"Blade Mercenary": {
+			"name": "Blade Mercenary"
+		},
+		"Blood-Pear Tree": {
+			"name": "Blood-Pear Tree"
+		},
+		"Bolti Sorrinson": {
+			"name": "Bolti Sorrinson"
+		},
+		"Cluster Heart": {
+			"name": "Cluster Heart"
+		},
+		"Crystal Sentinel": {
+			"name": "Crystal Sentinel"
+		},
+		"Crystalline Sentinel": {
+			"name": "Crystalline Sentinel"
+		},
+		"Demongate Colossus": {
+			"name": "Demongate Colossus"
+		},
+		"Demonic Rabble": {
+			"name": "Demonic Rabble"
+		},
+		"Derhii": {
+			"name": "Derhii"
+		},
+		"Diskrasia The Sharp": {
+			"name": "Diskrasia The Sharp"
+		},
+		"Endlo Kiver": {
+			"name": "Endlo Kiver"
+		},
+		"Ephialtes": {
+			"name": "Ephialtes"
+		},
+		"Fabled Harrowkin": {
+			"name": "Fabled Harrowkin"
+		},
+		"Fabrina The Spinster": {
+			"name": "Fabrina The Spinster"
+		},
+		"Falling Stars Trap": {
+			"name": "Falling Stars Trap"
+		},
+		"Fate's Prophet": {
+			"name": "Fate's Prophet"
+		},
+		"Gegnir": {
+			"name": "Gegnir"
+		},
+		"Ghalzarokh": {
+			"name": "Ghalzarokh"
+		},
+		"Guardian Aluum": {
+			"name": "Guardian Aluum"
+		},
+		"Guardian Mural": {
+			"name": "Guardian Mural"
+		},
+		"Hadi Mob": {
+			"name": "Hadi Mob"
+		},
+		"Hala The Rod": {
+			"name": "Hala The Rod"
+		},
+		"Harpy Warbird": {
+			"name": "Harpy Warbird"
+		},
+		"Ildamir": {
+			"name": "Ildamir"
+		},
+		"Kannijo": {
+			"name": "Kannijo"
+		},
+		"Katpaskir": {
+			"name": "Katpaskir"
+		},
+		"Maggot Pit": {
+			"name": "Maggot Pit"
+		},
+		"Markish Aghayarea": {
+			"name": "Markish Aghayarea"
+		},
+		"Mighty Bul-Gae": {
+			"name": "Mighty Bul-Gae"
+		},
+		"Mivanian Soldier": {
+			"name": "Mivanian Soldier"
+		},
+		"Mogaran": {
+			"name": "Mogaran"
+		},
+		"Ndede": {
+			"name": "Ndede"
+		},
+		"Nornhound": {
+			"name": "Nornhound"
+		},
+		"Obcisidaemon": {
+			"name": "Obcisidaemon"
+		},
+		"Phasmadaemon": {
+			"name": "Phasmadaemon"
+		},
+		"Queen Kawlinawk": {
+			"name": "Queen Kawlinawk"
+		},
+		"Quoppopak Mummy": {
+			"name": "Quoppopak Mummy"
+		},
+		"Raskus": {
+			"name": "Raskus"
+		},
+		"Raven Nicoletta": {
+			"name": "Raven Nicoletta"
+		},
+		"Rogue Sphere": {
+			"name": "Rogue Sphere"
+		},
+		"Scaleseed Nagaji": {
+			"name": "Scaleseed Nagaji"
+		},
+		"Shadow Maze": {
+			"name": "Shadow Maze"
+		},
+		"Shaldar Falls-Far": {
+			"name": "Shaldar Falls-Far"
+		},
+		"Sickened Doprillu": {
+			"name": "Sickened Doprillu"
+		},
+		"Simple Harrowkin": {
+			"name": "Simple Harrowkin"
+		},
+		"Smith's Skull": {
+			"name": "Smith's Skull"
+		},
+		"Sonnorae": {
+			"name": "Sonnorae"
+		},
+		"Speaker Of Svaryr": {
+			"name": "Speaker Of Svaryr"
+		},
+		"Stage Fire": {
+			"name": "Stage Fire"
+		},
+		"Storied Harrowkin": {
+			"name": "Storied Harrowkin"
+		},
+		"Suvarden": {
+			"name": "Suvarden"
+		},
+		"Svaryr Commander": {
+			"name": "Svaryr Commander"
+		},
+		"Svaryr Soldier": {
+			"name": "Svaryr Soldier"
+		},
+		"The Avalanche": {
+			"name": "The Avalanche"
+		},
+		"The Betrayal": {
+			"name": "The Betrayal"
+		},
+		"The Courtesan": {
+			"name": "The Courtesan"
+		},
+		"The Cricket": {
+			"name": "The Cricket"
+		},
+		"The Crows": {
+			"name": "The Crows"
+		},
+		"The Dance": {
+			"name": "The Dance"
+		},
+		"The Eclipse": {
+			"name": "The Eclipse"
+		},
+		"The Fool": {
+			"name": "The Fool"
+		},
+		"The Inquisitor": {
+			"name": "The Inquisitor"
+		},
+		"The Joke": {
+			"name": "The Joke"
+		},
+		"The Keeper": {
+			"name": "The Keeper"
+		},
+		"The Peacock": {
+			"name": "The Peacock"
+		},
+		"The Prince of Wolves": {
+			"name": "The Prince of Wolves"
+		},
+		"The Queen Mother": {
+			"name": "The Queen Mother"
+		},
+		"The Shadow Prince": {
+			"name": "The Shadow Prince"
+		},
+		"The Teamster": {
+			"name": "The Teamster"
+		},
+		"The Trader": {
+			"name": "The Trader"
+		},
+		"The Twin": {
+			"name": "The Twin"
+		},
+		"The Unicorn": {
+			"name": "The Unicorn"
+		},
+		"The Wanderer": {
+			"name": "The Wanderer"
+		},
+		"The Winged Serpent": {
+			"name": "The Winged Serpent"
+		},
+		"Ticktock": {
+			"name": "Ticktock"
+		},
+		"Torgral": {
+			"name": "Torgral"
+		},
+		"Trexima Butoi": {
+			"name": "Trexima Butoi"
+		},
+		"Usilket": {
+			"name": "Usilket"
+		},
+		"Vehanezhad": {
+			"name": "Vehanezhad"
+		},
+		"Vincuvicar": {
+			"name": "Vincuvicar"
+		},
+		"Voricose": {
+			"name": "Voricose"
+		},
+		"Wrath Riot": {
+			"name": "Wrath Riot"
+		},
+		"Xiuli Cachu": {
+			"name": "Xiuli Cachu"
+		},
+		"Zashuvin": {
+			"name": "Zashuvin"
+		},
+		"Zellara Esmeranda": {
+			"name": "Zellara Esmeranda"
+		},
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "appendNumber": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		}
+	}
+}
