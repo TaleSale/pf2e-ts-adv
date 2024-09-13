@@ -1,5 +1,23 @@
-2024/09/12-08:41:45.874 3b3c Recovering log #5003
-2024/09/12-08:41:46.062 3b3c Level-0 table #5005: started
-2024/09/12-08:41:46.185 3b3c Level-0 table #5005: 1572173 bytes OK
-2024/09/12-08:41:46.278 3b3c Delete type=0 #5003
-2024/09/12-08:41:46.279 3b3c Delete type=3 #5002
+2024/09/12-09:41:19.034 60c Recovering log #5006
+2024/09/12-09:41:19.127 60c Delete type=0 #5006
+2024/09/12-09:41:19.127 60c Delete type=3 #5004
+2024/09/12-09:42:05.606 a78 Moved #5005 to level-1 1572173 bytes OK: files[ 0 1 13 0 0 0 0 ]
+2024/09/12-09:42:18.598 a78 Level-0 table #5010: started
+2024/09/12-09:42:18.783 a78 Level-0 table #5010: 1574937 bytes OK
+2024/09/12-09:42:18.822 a78 Delete type=0 #5008
+2024/09/12-09:42:18.878 a78 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!Mx1v9GNLPfJm0IiE' @ 435 : 1
+2024/09/12-09:42:18.878 a78 Compacting 1@0 + 1@1 files
+2024/09/12-09:42:19.030 a78 Generated table #5011@0: 1 keys, 1574937 bytes
+2024/09/12-09:42:19.030 a78 Compacted 1@0 + 1@1 files => 1574937 bytes
+2024/09/12-09:42:19.067 a78 compacted to: files[ 0 1 13 0 0 0 0 ]
+2024/09/12-09:42:19.067 a78 Delete type=2 #5005
+2024/09/12-09:42:19.068 a78 Delete type=2 #5010
+2024/09/12-09:42:19.206 a78 Manual compaction at level-0 from '!adventures!Mx1v9GNLPfJm0IiE' @ 435 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/09/12-09:42:19.247 a78 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!Mx1v9GNLPfJm0IiE' @ 435 : 1
+2024/09/12-09:42:19.247 a78 Compacting 1@1 + 1@2 files
+2024/09/12-09:42:19.399 a78 Generated table #5012@1: 6 keys, 2705950 bytes
+2024/09/12-09:42:19.400 a78 Compacted 1@1 + 1@2 files => 2705950 bytes
+2024/09/12-09:42:19.422 a78 compacted to: files[ 0 0 13 0 0 0 0 ]
+2024/09/12-09:42:19.422 a78 Delete type=2 #4998
+2024/09/12-09:42:19.423 a78 Delete type=2 #5011
+2024/09/12-09:42:19.428 a78 Manual compaction at level-1 from '!adventures!Mx1v9GNLPfJm0IiE' @ 435 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
