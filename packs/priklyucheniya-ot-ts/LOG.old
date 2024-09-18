@@ -1,6 +1,8 @@
-2024/09/14-08:19:47.863 306c Recovering log #5014
-2024/09/14-08:19:48.007 306c Level-0 table #5016: started
-2024/09/14-08:19:48.092 306c Level-0 table #5016: 1586114 bytes OK
-2024/09/14-08:19:48.230 306c Delete type=0 #5014
-2024/09/14-08:19:48.242 306c Delete type=3 #5013
-2024/09/14-12:36:02.452 1124 Moved #5016 to level-1 1586114 bytes OK: files[ 0 1 13 0 0 0 0 ]
+2024/09/18-09:30:10.818 2d04 Recovering log #5032
+2024/09/18-09:30:10.875 2d04 Delete type=0 #5032
+2024/09/18-09:30:10.875 2d04 Delete type=3 #5030
+2024/09/18-09:31:01.329 121c Level-0 table #5038: started
+2024/09/18-09:31:01.329 121c Level-0 table #5038: 0 bytes OK
+2024/09/18-09:31:01.354 121c Delete type=0 #5036
+2024/09/18-09:31:01.371 121c Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2024/09/18-09:31:01.737 121c Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

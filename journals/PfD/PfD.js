@@ -1,16 +1,5 @@
-// modules/pf2e-ts-adv/createJournal.js
-
-
 class PfDJournalSheet extends JournalSheet {
-  getData(options) {
-    const data = super.getData(options);
-    return data;
-  }
-
-  get template() {
-    return super.template;
-  }
-
+  
   static get defaultOptions() {
     const options = super.defaultOptions;
     options.classes.push("PfD");
@@ -23,20 +12,22 @@ class PfDJournalSheet extends JournalSheet {
     const navigationElement = html.find('.journal-sidebar')[0];
     const contentElement = html.find('.journal-entry-content')[0];
 
-    if (navigationElement) {
-      navigationElement.style.background = "url('modules/pf2e-ts-adv/journals/PfD/back.webp') no-repeat center center";
-      navigationElement.style.backgroundSize = "cover";
-      navigationElement.style.width = '300px';  // установим ширину навигационной части
+    if (navigationElement || contentElement) {
+      if (navigationElement) {
+        navigationElement.style.background = "url('modules/pf2e-ts-adv/journals/PfD/back.webp') no-repeat center center";
+        navigationElement.style.backgroundSize = "cover";
+        navigationElement.style.width = '300px';  // установим ширину навигационной части
+      }
+
+      if (contentElement) {
+        contentElement.style.backgroundColor = "#f0f0f0";  // светло-серый фон
+      }
     }
 
-    if (contentElement) {
-      contentElement.style.backgroundColor = "#f0f0f0";  // светло-серый фон
-    }
-
-    // Удаляем элемент с классом `journal-header`, если он существует
+    // Скрываем элемент journal-header вместо его удаления
     const journalHeaderElement = html.find('.journal-header')[0];
     if (journalHeaderElement) {
-      journalHeaderElement.remove();
+      journalHeaderElement.style.display = 'none'; // Скрываем, вместо удаления
     }
 
     // Загружаем слова для выделения из JSON-файла
@@ -49,21 +40,25 @@ class PfDJournalSheet extends JournalSheet {
     }
   }
 
-  // Метод для настройки MutationObserver
+  // Метод для настройки MutationObserver с дебаунсом
   setupMutationObserver(contentElement, keywords) {
     if (!contentElement) return;
 
+    let timeoutId;
     const observer = new MutationObserver((mutationsList) => {
-      let shouldHighlight = false;
-      for (const mutation of mutationsList) {
-        if (mutation.type === 'childList' || mutation.type === 'subtree') {
-          shouldHighlight = true;
-          break;
+      clearTimeout(timeoutId); // Сбрасываем предыдущий таймер
+      timeoutId = setTimeout(() => {
+        let shouldHighlight = false;
+        for (const mutation of mutationsList) {
+          if (mutation.type === 'childList' || mutation.type === 'subtree') {
+            shouldHighlight = true;
+            break;
+          }
         }
-      }
-      if (shouldHighlight) {
-        this.highlightText(contentElement, keywords);
-      }
+        if (shouldHighlight) {
+          this.highlightText(contentElement, keywords);
+        }
+      }, 100); // Ожидание 100 мс перед вызовом
     });
 
     observer.observe(contentElement, {
