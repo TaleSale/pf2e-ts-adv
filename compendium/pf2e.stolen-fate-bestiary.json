@@ -374,8 +374,347 @@
                 }
             ]
 		},
-
-
+        "Raskus": {
+			"name": "Раскус",
+            "tokenName": "Раскус",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Raskus.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Raskus.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "pnyZcD5LsQuLc4dG",
+                    "name": "Рапира"
+                },
+                {
+                    "id": "NoXUsHcREOAaeLd7",
+                    "name": "Шипомёт",
+                    "description": "<p>Сделанный из шипованного хвоста мантикоры, шипомёт создан чтобы выпускать большие похожие на копья снаряды. Шипомёт это <em>разящее оружие +1</em>. Это отдельный вид воинского огнестрельного оружия, наносящий 1d8 колющего урона. Он обладает признаками @Trait[Kickback]{отдача}, @Trait[Backswing]{предательское} и @Trait[FatalAim]{фатальное прицеливание d12}, с шагом дистанции 120 футов и перезарядкой 2. Вместо эффекта критической специализации огнестрельного оружия, он использует эффект критической специализации луков.</p><section class=\"БлокСтат read\"><h4><strong>Активация:</strong> <span class=\"pf2-icon\">3</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F] (@Trait[Magical]{магический})</h4><p><strong>Частота:</strong> раз в день</p><p><strong>Требования:</strong> <em>Шипомёт</em> заряжен</p><hr><p><em>Шипомёт</em> выстреливает залп маленьких шипов в @Template[burst|distance:10]{10-футовом взрыве} с центром в любом месте в пределах его дистанции. Совершите @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Выстрел} шипомётом по каждому существу в области. Каждая атака считается к вашему штрафу множественной атаки, но не увеличивайте свой штраф, пока не закончите все атаки. При успехе, шип накладывает на существо штраф состояния -5 футов к Скорости. При критическом успехе, существо вместо этого @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено}. В любом случае, оно само или существо находящее рядом, могут использовать действие @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы вынуть шип и закончить штраф или состояние <span class=\"pf2e-ru-inline-condition\" data-tooltip-class=\"pf2e\" data-tooltip=\"PF2E.condition.immobilized.summary\">обездвиживания</span>.</p></section>"
+                },
+                {
+                    "id": "SPu5gKD0FDSwLPA0",
+                    "name": "Реагирующий Выстрел",
+                    "description": "<p><strong>Требования</strong>: В руках у Раскуса заряженный Шипомёт;</p><p><strong>Триггер</strong>: Существо в радиусе 30 футов от Раскуса использует действие @Trait[Move]{Движение}, совершает дистанционную атаку или покидает клетку во время действия @Trait[Move]{Движение}, которое он использует;</p><hr><p>Раскус совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} из Шипомёта по спровоцировавшему существу.</p><p>Этот Удар не влияет на Штраф Множественной Атаки, и его Штраф Множественной Атаки не применяется к этому Удару.</p>"
+                },
+                {
+                    "id": "Go For the Eyes",
+                    "name": "Прямо в Глаз",
+                    "description": "<p><strong>Триггер:</strong> Раскус наносит критическое попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Клюва</p><hr><p>Раскус пытается выколоть глаза своей жертве. Цель должна совершить @Check[fortitude|dc:29]</p><hr><p><strong>Успех:</strong> Цель невредима.</p><p><strong>Провал:</strong> Цель получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} на 1 Раунд.</p><p><strong>Крит.Провал:</strong> Цель получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота}, пока не исцелится до максимальных Очков Здоровья.</p>"
+                },
+                {
+                    "id": "Opportunistic Attack",
+                    "name": "Оппортунистическая Атака ",
+                    "description": "<p>Удар Раскуса наносит дополнительные 3d6 урона любому противнику, у которого есть эффект снижения Скорости, @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} или @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен}.</p>"
+                },
+                {
+                    "id": "Quick Spiker",
+                    "name": "Быстрый Стрелок",
+                    "description": "<p>Для перезарядки шипомёта Раскусу требуется всего 1 действие, а не 2. Он может легко менять хватку шипомёта, улучшая его признак @Trait[FatalAimD12]{Фатальное прицеливание d12} до @Trait[FatalD12]{Фатального d12}.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Mivanian Soldier": {
+			"name": "Миванский Солдат",
+            "tokenName": "Солдат",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mivanian-Soldier.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mivanian-Soldier.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "1qegim4EF3BX1vmO",
+                    "name": "Шипомёт",
+                    "description": "<p>Сделанный из шипованного хвоста мантикоры, шипомёт создан чтобы выпускать большие похожие на копья снаряды. Шипомёт это <em>разящее оружие +1</em>. Это отдельный вид воинского огнестрельного оружия, наносящий 1d8 колющего урона. Он обладает признаками @Trait[Kickback]{отдача}, @Trait[Backswing]{предательское} и @Trait[FatalAim]{фатальное прицеливание d12}, с шагом дистанции 120 футов и перезарядкой 2. Вместо эффекта критической специализации огнестрельного оружия, он использует эффект критической специализации луков.</p><section class=\"БлокСтат read\"><h4><strong>Активация:</strong> <span class=\"pf2-icon\">3</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F] (@Trait[Magical]{магический})</h4><p><strong>Частота:</strong> раз в день</p><p><strong>Требования:</strong> <em>Шипомёт</em> заряжен</p><hr><p><em>Шипомёт</em> выстреливает залп маленьких шипов в @Template[burst|distance:10]{10-футовом взрыве} с центром в любом месте в пределах его дистанции. Совершите @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Выстрел} шипомётом по каждому существу в области. Каждая атака считается к вашему штрафу множественной атаки, но не увеличивайте свой штраф, пока не закончите все атаки. При успехе, шип накладывает на существо штраф состояния -5 футов к Скорости. При критическом успехе, существо вместо этого @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено}. В любом случае, оно само или существо находящее рядом, могут использовать действие @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы вынуть шип и закончить штраф или состояние <span class=\"pf2e-ru-inline-condition\" data-tooltip-class=\"pf2e\" data-tooltip=\"PF2E.condition.immobilized.summary\">обездвиживания</span>.</p></section>"
+                },
+                {
+                    "id": "Flig7CqMsVAcX9EA",
+                    "name": "Рапира"
+                },
+                {
+                    "id": "WB2tiAmiNxAa148W",
+                    "name": "Реагирующий Выстрел",
+                    "description": "<p><strong>Требования</strong>: В руках у Солдата заряженный Шипомёт;</p><p><strong>Триггер</strong>: Существо в радиусе 30 футов от Солдата использует действие @Trait[Move]{Движение}, совершает дистанционную атаку или покидает клетку во время действия @Trait[Move]{Движение}, которое он использует;</p><hr><p>Солдат совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} из Шипомёта по спровоцировавшему существу.</p><p>Этот Удар не влияет на Штраф Множественной Атаки, и его Штраф Множественной Атаки не применяется к этому Удару.</p>"
+                },
+                {
+                    "id": "Go For the Eyes",
+                    "name": "Прямо в Глаз",
+                    "description": "<p><strong>Триггер:</strong> Солдат наносит критическое попадает @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} Клюва</p><hr><p>Солдат пытается выколоть глаза своей жертве. Цель должна совершить @Check[fortitude|dc:26]</p><hr><p><strong>Успех:</strong> Цель невредима.</p><p><strong>Провал:</strong> Цель получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} на 1 Раунд.</p><p><strong>Крит.Провал:</strong> Цель получает @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота}, пока не исцелится до максимальных Очков Здоровья.</p>"
+                },
+                {
+                    "id": "Quick Spiker",
+                    "name": "Быстрый Стрелок",
+                    "description": "<p>Для перезарядки шипомёта Солдату требуется всего 1 действие, а не 2. Он может легко менять хватку шипомёта, улучшая его признак @Trait[FatalAimD12]{Фатальное прицеливание d12} до @Trait[FatalD12]{Фатального d12}.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Zashuvin": {
+			"name": "Зашувин",
+            "tokenName": "Зашувин",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Hurlilu.webp",
+            "description": "<p>@UUID[JournalEntry.pf2ap19006advent.JournalEntryPage.06liluhurlilu000]{Лилу, Хурлилу}</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Lifesense (Imprecise) 120 feet",
+                    "name": "Жизнечувствительность (Неточное 120)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+                },
+                {
+                    "id": "Flesh Tearer",
+                    "name": "Разрыватель Плоти",
+                    "description": "<p>Если Хурлилу критически попадает по врагу @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} ближнего боя, то чистая проверка врага на восстановление от Продолжительного Урона Кровотечением равна @Check[type:flat|dc:19] вместо КС 15.</p>"
+                },
+                {
+                    "id": "Dominate the Air",
+                    "name": "Доминирование в Воздухе",
+                    "description": "<p><strong>Требования</strong>: Хурлилу летает</p><p><strong>Триггер</strong>: Существо в радиусе 30 футов покидает землю, используя Скорость Полета</p><hr><p>Хурлилу сотворяет на спровоцировавшее существо @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]</p>"
+                },
+                {
+                    "id": "Dive Bomb",
+                    "name": "Пикирующая Бомба",
+                    "description": "<p><strong>Частота</strong>: 1/Раунд</p><hr><p>Хурлилу @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещается} со Скоростью Полета и наносит @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удар} в конце этого @Trait[Move]{Движение}</p>"
+                },
+                {
+                    "id": "Dimension Door (At Will)",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "Fear (At Will)",
+                    "name": "Страх (По Желанию)",
+                    "description": "<p>Вы вселяете в цель страх; она должна совершить спасбросок Воли.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 1}.</p><p><strong>Провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 2}.</p><p><strong>Критический провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугана 3} и впадает в @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} на 1 раунд.</p><hr><p><strong>Усиление (3-й):</strong> Вы можете выбрать целями вплоть до 5 существ.</p>"
+                },
+                {
+                    "id": "Earthbind (At Will)",
+                    "name": "Земные оковы (По Желанию)",
+                    "description": "<p>Используя вес земли, вы препятствуете полету цели, с эффектами в зависимости от ее спасброска Стойкости. Если существо благополучно достигает земли, оно не получает урона при падении.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов.</p><p><strong>Провал:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов. Если она касается земли, то 1 раунд не может @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь}, @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Левитировать}, или другим образом оторваться от земли.</p><p><strong>Критический провал:</strong> Цель благополучно приземляется с высоты вплоть до 120 футов. Если она касается земли, то 1 минуту не может @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Лететь}, @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]{Левитировать}, или другим образом оторваться от земли.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Scaleseed Nagaji": {
+			"name": "Чешуйчатый Нагаджи",
+            "tokenName": "Нагаджи",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Scaleseed-Nagaji.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Scaleseed-Nagaji.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "lxQcniwgNJLFzP6W",
+                    "name": "Серп"
+                },
+                {
+                    "id": "Slough Toxins",
+                    "name": "Сбросить Токсин",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><p><strong>Требования:</strong> Нагаджи поражен @Trait[Poison]{Яд}</p><hr><p>Нагаджи ускоряют свой метаболизм. Нагаджи бросает спасбросок против яда с бонусом обстоятельств +2. Если в конце своего хода нагаджи должен сделать еще одно спасбросок против того же яда, он также получает бонус обстоятельства +2 к этому спасброску.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Kannijo": {
+			"name": "Канниджо",
+            "tokenName": "Канниджо",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Kannijo.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Kannijo.webp",
+            "description": "",
+            "appendNumber": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "1BD5jRohvhbGdDwq",
+                    "name": "Клыки"
+                },
+                {
+                    "id": "Drain Qi",
+                    "name": "Истощить ци",
+                    "description": "<p><strong>Требования:</strong> В досягаемости цзянши находится @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схваченное}, @UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{Парализованное}, @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Сдерживаемое}, находящееся @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без сознания} или готовое существо;</p><hr><p>Цзянши вытягивает через дыхание жертвы жизненную энергию - ци. Если жертва схвачена, то для этого требуется проверка @Check[athletics|defense:fortitude] против КС Стойкости жертвы, а в остальных случаях происходит автоматически. Жертва @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощена 1}, а цзянши восстанавливает [[/r 13[healing]]]{13 ОЗ}, получая излишки ОЗ в качестве временных Очков Здоровья. \"Истощение ци\" у существа, которое уже истощено, не восстанавливает цзянши ОЗ, но увеличивает значение <em>`истощения`</em> жертвы на 1, убивая жертву когда оно достигает @UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{Истощен 5}. Если жертва обладает возможностью сотворять <a href=\"https://clck.ru/sYegr\">заклинания ки</a>, то может потратить 1 Очко Фокусировки, чтобы не стать <em>`истощенным`</em>. Это защищает его только от текущей атаки, но не от последующих попыток \"Истощить ци\".</p><p>Состояние <em>`истощения`</em> жертвы уменьшается на 1 в неделю. Если существо ограничивает свою диету клейким рисом хотя бы на 1 день и тратит 10 минут танцуя, бегая или как-то иначе выполняя энергичные физические упражнения совершив успешную проверку @Check[athletics|dc:25], то оно снижает свое состояние <em>`истощен`</em> на 1.</p>"
+                },
+                {
+                    "id": "Breathsense (Precise) 60 feet",
+                    "name": "Чувство Дыхания (Точное 60)",
+                    "description": "<p>Цзянши не может воспринимать живых существ на расстоянии более 5 футов, кроме как с помощью ощущения дыхания. Пока живое существо в пределах указанного расстояния задерживает дыхание, оно @UUID[Compendium.pf2e.conditionitems.zJxUflt9np0q4yML]{Невидимо} для цзянши. Чтобы задержать дыхание таким образом, у существа должна быть свободна 1 рука, чтобы полностью заткнуть нос или закрыть рот (см. полные правила о <a href=\"https://clck.ru/afTDc\">задержке дыхания</a>).</p>"
+                },
+                {
+                    "id": "Jspfa7SNI6gNhPK4",
+                    "name": "Ковен",
+                    "description": "<p>Духовная нага добавляет @UUID[Compendium.pf2e.spells-srd.Item.U58aQWJ47VrI36yP], @UUID[Compendium.pf2e.spells-srd.Item.9BnhadUO8FMLmeZ3] и @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H] к своим заклинаниям ковена.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
+                },
+                {
+                    "id": "Harrowed Fulu",
+                    "name": "Харро-Фулу",
+                    "description": "<p>В отличие от обычного Цзянши, @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.hwrZQSADT36TjDdv]{Искаженный Фулу} Канниджо был заменен картой из Колоды Судьбы, и эта замена осталась незамеченной вампиром.</p><p>Канниджо невосприимчив к заклинаниям, произнесенным из магического предмета без использования слота заклинаний, например из свитка или палочки, а также получает пассивные способности @UUID[Compendium.pf2e.equipment-srd.Item.RCtvSgzBCsyaztOj] (но не его способность активации).</p><p>Существо может [[/act steal dc=33]] @UUID[Compendium.pf2e.equipment-srd.Item.RCtvSgzBCsyaztOj]. Это немедленно прекращает иммунитет Канниджо к этим эффектам, отрицает пассивные эффекты карты и снимает с Канниджо быстрое исцеление. Канниджо больше не может создать Змеиный укус в качестве своего фулу, но может создать замену искаженному фулу, потратив 1 час без перерыва на то, чтобы начертить полоску бумаги (или что-то подобное) с помощью письменного прибора.</p>"
+                },
+                {
+                    "id": "Jiang-Shi Vulnerabilities",
+                    "name": "Уязвимости цзянши",
+                    "description": "<p>Все цзянши обладают следующими уязвимостями.</p><ul><li><strong>Отвращение:</strong> Цзянши не может добровольно приблизиться на расстояние 10 футов к размахиваемому зеркалу или звуку звенящего колокольчика. Чтобы махать зеркалом или колокольчиком, существо должно @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы делать это в течение 1 раунда (аналогично @UUID[Compendium.pf2e.actionspf2e.xjGwis0uaC2305pm]{Поднять щит}). Если цзянши непроизвольно приближается к объекту своего отвращения на расстояние 10 футов, он получает состояние @UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{Бегство} убегая от объекта своего отвращения, пока не закончит действие на расстоянии более 10 футов от него. После 1 раунда нахождения под воздействием объекта своего отвращения, цзянши может одиночным действием с признаком <a href=\"https://clck.ru/jjU4o\"><em>`концентрация`</em></a> совершить спасбросок @Check[will|dc:25]. При успехе он преодолевает свое отвращение на [[/r 1d6 #rounds]]{1d6 раундов} (или 1 час при крит.успехе).</li><li><strong>Горечь прозрения:</strong> Цзянши страдает от серьезной меланхолии, когда ему напоминают о его низменной сущности и истинности его экзистенциальной оторванности от живых существ. Когда цзянши видит алтарь с хотя бы 1 Массой пищи, поднесенной духам предков, он должен совершить спасбросок @Check[will|dc:25]. После этого он временно иммунитет к \"Горечи прозрения\" на 1 минуту.</li></ul><hr><p><strong>Критический успех:</strong> Цзянши невредим.</p><p><strong>Успех:</strong> Цзянши @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 1} на 1 раунд.</p><p><strong>Провал:</strong> Цзянши @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} на 1 минуту.</p><p><strong>Критический провал:</strong> Цзянши @UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{Одурманен 2} и в @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательстве} на 1 минуту.</p>"
+                },
+                {
+                    "id": "One More Breath",
+                    "name": "Еще один вздох",
+                    "description": "<p>В отличие от другой <a href=\"https://clck.ru/jzAjA\"><em>`нежити`</em></a>, цзянши не уничтожается при 0 ОЗ. Вместо этого, он становится @UUID[Compendium.pf2e.conditionitems.fBnFDH2MTzgFijKf]{Без сознания} и приходит в него через 1 минуту с 1 ОЗ. Если на цзянши находящегося <em>`без сознания`</em> разбросать хотя бы 1 Массу клейкого риса или куриных яиц, он будет уничтожен навсегда. Если ОЗ цзянши были снижены до 0 от атаки оружием из сумеречного дерева, он мгновенно уничтожается.</p>"
+                },
+                {
+                    "id": "Manipulate the Green",
+                    "name": "Обольщение Зеленого",
+                    "description": "<p>Канниджо может использовать @UUID[Compendium.pf2e.spells-srd.Item.5pwK2FZX6QwgtfqX] против существ @Trait[Plant]{Растение}, обычно невосприимчивых к @Trait[Mental]{Ментальный} эффектам, и может общаться с существами под ее Обольщением, как если бы он находился под действием @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]</p>"
+                },
+                {
+                    "id": "Rigor Mortis",
+                    "name": "Трупное окоченение",
+                    "description": "<p>Цзянши игнорирует <a href=\"https://clck.ru/akms9\">сложную местность</a> и эффекты, которые могут сделать его @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком}. Цзянши не может выполнить действие @UUID[Compendium.pf2e.actionspf2e.HYNhdaPtF1QmQbR3]{Упасть ничком}. Когда цзянши @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Прыгает}, он не провоцирует реакции, которые обычно срабатывают на действия <a href=\"https://clck.ru/jjR6e\"><em>`движения`</em></a>, как например, @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.hFtNbo1LKYCoDy2O]{Возможность для атаки}.</p>"
+                },
+                {
+                    "id": "Spirit Naga Venom",
+                    "name": "Яд духовной наги",
+                    "description": "<p style=\"text-align: center\">@Check[fortitude|dc:33] (@Check[fortitude|dc:34] если цель @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg])</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @Damage[2d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[3d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} (1 Раунд)</p>"
+                },
+                {
+                    "id": "Unseen Servant",
+                    "name": "Призрачный приспешник",
+                    "description": "<p>Вы призываете @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.j7NNPfZwD19BwSEZ]{Призрачного приспешника}. Приспешник имеет приблизительно форму гуманоида. Вы можете выбрать, будет ли он @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Невидимым}, или будет обладать эфемерной внешностью, он очевидно что это магический эффект, а не настоящее существо.</p>"
+                },
+                {
+                    "id": "Vampiric Touch",
+                    "name": "Вампирское пиршество",
+                    "description": "<p>Ваше прикосновение вытягивает жизненную силу из цели, усиливая вас. Вы наносите цели 6d6 урона пустотой. Вы получаете временные Очки Здоровья, равные половине полученного целью урона пустотой (после применения сопротивлений и т.п.). Вы теряете любые оставшиеся временные ОЗ после 1 минуты.</p><hr><p><strong>Усиление (+1):</strong> Урон увеличивается на 2d6.</p>"
+                },
+                {
+                    "id": "Modify Memory",
+                    "name": "Переписать память",
+                    "description": "<p>Вы изменяете воспоминания цели, стирая воспоминание, повышая его четкость, изменяя воспоминание или добавляя ложное. Цель может совершить спасбросок Воли, чтобы противостоять заклинанию.</p><hr><p><strong>Критический успех:</strong> Цель невредима и понимает что вы пытались изменить ее память.</p><p><strong>Успех:</strong> Цель невредима, но думает, что ваше заклинание было чем-то безобидным, а не <em>перезапись памяти</em>, если только она не опознает заклинание.</p><p><strong>Провал:</strong> В течение первых 5 минут действия заклинания вы можете \"Поддерживать\" заклинание, чтобы один раз в раунд изменить воспоминание. Когда вы это делаете, вы представляете до 6 секунд памяти для изменения, максимум в 5 непрерывных минут памяти.</p><p>Все изменённые воспоминания остаются изменёнными до тех пор, пока действует заклинание. Если цель выйдет из зоны действия до истечения 5 минут, вы не можете продолжать изменять воспоминания.</p><hr><p><strong>Усиление (6-й):</strong> Вы можете \"Сотворить\" это заклинание на готовую цель, чтобы подавить все воспоминания об определённой теме, изложенной в 50 словах или меньше. Этот эффект постоянный, и эти пропуски покрываются неясной дымкой.</p>"
+                },
+                {
+                    "id": "Crushing Despair",
+                    "name": "Волна отчаяния",
+                    "description": "<p>Вы вызываете отчаяние у существ в области. Эффекты для каждого существа определяются его спасброском Воли.</p><hr><p><strong>Критический успех:</strong> Существо невредимо.</p><p><strong>Успех:</strong> На 1 раунд существо не может использовать реакции и должно совершить еще один спасбросок в начале своего хода; при провале, на этот ход оно @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлено 1}, так как оно безудержно рыдает.</p><p><strong>Провал:</strong> Как успех, но продолжительность 1 минута.</p><p><strong>Критический провал:</strong> Как провал, и существо автоматически @Condition[Slowed]{замедлено 1} на 1 минуту.</p><hr><p><strong>Усиление (7-й):</strong> Область увеличивается до 60-футового конуса.</p>"
+                }
+            ]
+		},
+        "Stage Fire": {
+			"name": "Сцена в Огне",
+            "tokenName": "Сцена в Огне",
+            "img": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokenImg": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>КС Скрытности 0, но модификатор инициативы +28</p>",
+            "hdisable": "<p>@Check[survival|dc:27], чтобы погасить два соседних квадрата огня (при критическом успехе можно погасить четыре соседних квадрата);</p><p>Любое заклинание с признаком `вода` (например, @UUID[Compendium.pf2e.spells-srd.Item.WzLKjSw6hsBhuklC] или @UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]), брошенное на огонь, автоматически тушит два квадрата, или [[/r 2d4 #Squares]] соседних квадрата, если заклинатель достигнет результата КС_30 при броске атаки заклинания;</p><p>@UUID[Compendium.pf2e.spells-srd.Item.02J0rDTk37KN2sjt] мгновенно гасит весь огонь в радиусе 20 футов.</p>",
+            "hdescription": "<p>Пламя охватило сцену театра.</p>",
+            "hreset": "",
+            "hroutine": "<p>В свой ход огонь сцены расширяется внутрь и наружу на 5 футов, заполняя огнем все соседние квадраты. Существа в пределах этих квадратов получают @Damage[4d6[fire]] (@Check[reflex|dc:30|basic]), так же как и любые существа, которые входят в горящий квадрат. Этот урон от огня может быть нанесен существу только один раз за ход.</p><p>Кроме того, существо, которое заканчивает свой ход в горящем квадрате, получает @Damage[8d6[fire]] (@Check[reflex|dc:30|basic]); при провале спасброска это существо также получает @Damage[1d6[persistent,fire]]</p>",
+            "items": [
+                {
+                    "id": "Erupt in Flame",
+                    "name": "Извержение пламени",
+                    "description": "<p>Когда начинается эта встреча, огонь вспыхивает кольцом, опоясывающим всю сцену, как показано пунктирным контуром на карте.</p><p>Затем Сцена в Огне бросает инициативу.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
 		"Bhanyada Behemoth": {
 			"name": "Бханьяда - Чудище",
             "tokenName": "Бханьяда - Чудище",
@@ -560,7 +899,7 @@
                 {
                     "id": "Flesh Tearer",
                     "name": "Разрыватель Плоти",
-                    "description": "<p>Если Хуралилу критически попадает по врагу @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} ближнего боя, то чистая проверка врага на восстановление от Продолжительного Урона Кровотечением равна @Check[type:flat|dc:19] вместо КС 15.</p>"
+                    "description": "<p>Если Хурлилу критически попадает по врагу @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Ударом} ближнего боя, то чистая проверка врага на восстановление от Продолжительного Урона Кровотечением равна @Check[type:flat|dc:19] вместо КС 15.</p>"
                 },
                 {
                     "id": "Dominate the Air",
@@ -773,6 +1112,496 @@
                 }
             ]
 		},
+        "Shaldar Falls-Far": {
+			"name": "Шалдар Фаллс-Фар",
+            "tokenName": "Шалдар Фаллс-Фар",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Shaldar-Falls-Far.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Shaldar-Falls-Far.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "vXV1TLvIaBkgzfBU",
+                    "name": "Длинный Меч"
+                },
+                {
+                    "id": "eE9OsC8ixc7EWV4V",
+                    "name": "Композитный длинный лук"
+                },
+                {
+                    "id": "oaRwgjffVWj2VLoh",
+                    "name": "Реагирующий Удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "E55nOJJJ2v7NEF5h",
+                    "name": "Выслеживать добычу",
+                    "description": "<p>Шалдар обозначает одно существо, которое она может видеть и слышать, или то, которое она выслеживает, как свою добычу. Она получает бонус обстоятельства +2 к проверкам Восприятия для @UUID[Compendium.pf2e.actionspf2e.BlAOM2X92SI6HMtJ]{Поиск} добычи и к проверкам Выживания для @UUID[Compendium.pf2e.actionspf2e.EA5vuSgJfiHH7plD]{Выслеживание} добычи.</p><p>Когда она впервые за раунд попадает по указанной добыче, она наносит дополнительный 1d8 точного урона. Она также игнорирует штраф за совершение дистанционных атак в пределах своего второго шага дистанции. Эти эффекты действуют до тех пор, пока Шалдар снова не совершит Выслеживать добычу.</p>"
+                },
+                {
+                    "id": "Q10BurWsYz8Rl2mu",
+                    "name": "Цель охотника",
+                    "description": "<p>Шалдар совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} дистанционным оружием по своей добыче. Для этого \"Удара\" она получает бонус обстоятельства +2 на бросок атаки, и игнорируете у добычи состояние @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W].</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Blade Mercenary": {
+			"name": "Наемник Клинков",
+            "tokenName": "Наемник",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Blade-Mercenary.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Blade-Mercenary.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "SzVQIfkLtjSZQXS9",
+                    "name": "Длинный Меч"
+                },
+                {
+                    "id": "bD7TQrz4HXeQr8DY",
+                    "name": "Композитный длинный лук"
+                },
+                {
+                    "id": "Steel-Colored Feather Token (Bird)",
+                    "name": "Перо-символ [Птичка]",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>Каждое <em>перо-символ</em> кажется простым перышком экзотической птицы. Очин пера покрыт золотом, и имеет нанесенную арканную руну. Активация <em>пера-символа</em> заставляет превратиться его в другой объект, который потому может быть использован как обычно. Каждое перо может быть активированного только раз, и большинство их них потом постоянно остаются другими объектами.</p><p>Когда активировано, это перо превращается в маленького воробья, который сидит на вашем пальце и ждет пока вы передадите сообщение длиной до минуты, а так же имя и примерное местоположение получателя. Получателем должен быть кто-то, кого вы встречали, а место таким, которое вы посещали. После получения сообщения, птичка улетает, чтобы доставить его, пролетая 30 миль за час и ища цель в месте, которое вы обозначили. Если птичка находит цель, она садится рядом с ней, из нее исходят ваши слова и она улетает и исчезает. Птичка так же исчезает, если не может найти вашу цель после 10 часов поиска указанного места.</p>"
+                },
+                {
+                    "id": "uQHTJGBpGOfOkiex",
+                    "name": "Реагирующий Удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "x2Do1cEZKcXLOgLK",
+                    "name": "Блок щитом",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+                },
+                {
+                    "id": "9vJh1pTd0NEtrKZp",
+                    "name": "Мощная атака",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
+                },
+                {
+                    "id": "Ready Armaments",
+                    "name": "Быстро Вооружиться",
+                    "description": "<p>Наемник совершает @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы вытащить или убрать оружие, затем @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы вытащить или убрать оружие. Наемник может вместо этого @UUID[Compendium.pf2e.actionspf2e.xjGwis0uaC2305pm]{Поднять щит} вместо любого действия Взаимодействовать.</p>"
+                },
+                {
+                    "id": "Bravery",
+                    "name": "Храбрость",
+                    "description": "<p>Когда наемник получает успех Спасбросока Воли против эффекта `страх`, он получает критический успех.</p><p>Когда наемник получает состояние @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Напуган}, уменьшите его значение на 1.</p>"
+                },
+                {
+                    "id": "Cat Fall",
+                    "name": "Кошачье Падение",
+                    "description": "<p>Наемник считает, что падение на 25 футов короче.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Harpy Warbird": {
+			"name": "Гарпия Боевые Птицы",
+            "tokenName": "Гарпия",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Harpy-Warbird.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Harpy-Warbird.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "QwDPtTQ47D6wfTIz",
+                    "name": "Реагирующий Удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "lVYrD3no36uMQzru",
+                    "name": "Алебарда"
+                },
+                {
+                    "id": "PRyNZBalCpyUxk9Y",
+                    "name": "Композитный короткий лук"
+                },
+                {
+                    "id": "War Formation",
+                    "name": "Строй",
+                    "description": "<p>Гарпия наносит дополнительные 2d6 урона своими Ударами в ближнем бою любому существу, находящемуся в пределах досягаемости хотя бы одного из союзников гарпии.</p>"
+                },
+                {
+                    "id": "Captivating Song",
+                    "name": "Захватывающая песня",
+                    "description": "<p>Гарпия выкрикивает жуткую, завораживающую мелодию. Каждое существо, не являющееся гарпией, в пределах @Template[emanation|distance:300] должно совершить @Check[will|dc:29], чтобы не попасть под влияние песни гарпии. Эффект длится 1 Раунд, но если гарпия снова использует эту способность в последующих раундах, она продлевает длительность на 1 Раунд для всех затронутых существ. Как только существо преуспевает в любом спасброске против Захватывающая песня, существо получает временный иммунитет к Захватывающая песня на 24 часа.</p><hr><p><strong>Успех</strong>: Существо невредимо.</p><p><strong>Провал</strong>: Существо получает @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg], и оно должно тратить каждое свое действие, чтобы приблизиться к гарпии как можно более целесообразно, избегая при этом очевидных опасностей. Если затронутое существо находится рядом с гарпией, оно остается неподвижным и не действует. Если на него нападает гарпия, существо освобождается от плена песни в конце хода гарпии.</p><p><strong>Крит.Провал</strong>: Как Провал, но если на него нападает гарпия, существо может совершить новый спасбросок в начале своего следующего хода, а не освобождаться в конце хода гарпии.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Endlo Kiver": {
+			"name": "Эндло Кивер",
+            "tokenName": "Эндло Кивер",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Endlo-Kiver.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Endlo-Kiver.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "0ptrzEs0TrLXxj1k",
+                    "name": "Двуручный меч"
+                },
+                {
+                    "id": "Resolute Stance",
+                    "name": "Решительная Стойка",
+                    "description": "<p>Эндло черпает силу камня, чтобы укрепить свою защиту. В этой @Trait[Stance]{Стойке} он получает Бонус Состояния +2 к своему КБ и увеличивает свое сопротивление рубящему урону до 15, но снижает свою Скорость на 5 футов.</p>"
+                },
+                {
+                    "id": "Juggernaut",
+                    "name": "Джаггернаут",
+                    "description": "<p>Когда Эндло получает успех на спасбросок Стойкости, он вместо этого получает критический успех.</p>"
+                },
+                {
+                    "id": "Gorum's Hand",
+                    "name": "Рука Горума",
+                    "description": "<p>Эндло наносит дополнительный куб урона двуручными мечами (включенными в его Удар в листе), что также добавляет дополнительный куб к его заклинанию @UUID[Compendium.pf2e.spells-srd.Item.8M03UxGXjYyDFAoy]</p>"
+                },
+                {
+                    "id": "Replenishment of War",
+                    "name": "Наполнение войной",
+                    "description": "<p>Когда Эндло наносит урон существу с помощью Удара двуручного меча, он получает 6 временных очков здоровья до начала своего следующего хода. Если Удар был критическим, он вместо этого получает 12 временных очков здоровья.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.XE2YhBMl7wc6nQAZ]</p>"
+                },
+                {
+                    "id": "Religious Symbol of Gorum",
+                    "name": "Религиозный символ [Горум]",
+                    "description": "<p>Этот кусок дерева гравирован изображением, представляющим божество. Некоторые сакральные заклинатели, такие как жрецы, могут использовать религиозный символ своего божества как сакральный фокус при использовании некоторых умений и сотворении некоторых заклинаний. Чтобы использовать религиозный символ, его надо держать в одной руке.</p>"
+                },
+                {
+                    "id": "Steel-Colored Feather Token (Bird)",
+                    "name": "Перо-символ [Птичка]",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>Каждое <em>перо-символ</em> кажется простым перышком экзотической птицы. Очин пера покрыт золотом, и имеет нанесенную арканную руну. Активация <em>пера-символа</em> заставляет превратиться его в другой объект, который потому может быть использован как обычно. Каждое перо может быть активированного только раз, и большинство их них потом постоянно остаются другими объектами.</p><p>Когда активировано, это перо превращается в маленького воробья, который сидит на вашем пальце и ждет пока вы передадите сообщение длиной до минуты, а так же имя и примерное местоположение получателя. Получателем должен быть кто-то, кого вы встречали, а место таким, которое вы посещали. После получения сообщения, птичка улетает, чтобы доставить его, пролетая 30 миль за час и ища цель в месте, которое вы обозначили. Если птичка находит цель, она садится рядом с ней, из нее исходят ваши слова и она улетает и исчезает. Птичка так же исчезает, если не может найти вашу цель после 10 часов поиска указанного места.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Queen Kawlinawk": {
+			"name": "Королева Каулинавк",
+            "tokenName": "Королева Каулинавк",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Queen-Kawlinawk.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Queen-Kawlinawk.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Captivating Song",
+                    "name": "Захватывающая песня",
+                    "description": "<p>Гарпия выкрикивает жуткую, завораживающую мелодию. Каждое существо, не являющееся гарпией, в пределах @Template[emanation|distance:300] должно совершить @Check[will|dc:33], чтобы не попасть под влияние песни гарпии. Эффект длится 1 Раунд, но если гарпия снова использует эту способность в последующих раундах, она продлевает длительность на 1 Раунд для всех затронутых существ. Как только существо преуспевает в любом спасброске против Захватывающая песня, существо получает временный иммунитет к Захватывающая песня на 24 часа.</p><hr><p><strong>Успех</strong>: Существо невредимо.</p><p><strong>Провал</strong>: Существо получает @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg], и оно должно тратить каждое свое действие, чтобы приблизиться к гарпии как можно более целесообразно, избегая при этом очевидных опасностей. Если затронутое существо находится рядом с гарпией, оно остается неподвижным и не действует. Если на него нападает гарпия, существо освобождается от плена песни в конце хода гарпии.</p><p><strong>Крит.Провал</strong>: Как Провал, но если на него нападает гарпия, существо может совершить новый спасбросок в начале своего следующего хода, а не освобождаться в конце хода гарпии.</p>"
+                },
+                {
+                    "id": "PRyNZBalCpyUxk9Y",
+                    "name": "Композитный короткий лук"
+                },
+                {
+                    "id": "5XK7gBB06DtCcfCT",
+                    "name": "Фальшион"
+                },
+                {
+                    "id": "QwDPtTQ47D6wfTIz",
+                    "name": "Реагирующий Удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "War Formation",
+                    "name": "Строй",
+                    "description": "<p>Гарпия наносит дополнительные 2d6 урона своими Ударами в ближнем бою любому существу, находящемуся в пределах досягаемости хотя бы одного из союзников гарпии.</p>"
+                },
+                {
+                    "id": "Dread Cry",
+                    "name": "Ужасный Крик",
+                    "description": "<p>Королева Каулинавк издает крик в @Template[cone|distance:60], который наносит урон ее врагам, но воодушевляет ее союзников. Крик наносит @Damage[14d6[sonic]] существам, не являющимся гарпиями, в области (@Check[fortitude|dc:33|basic]). Гарпии в области могут вместо этого использовать реакцию на @UUID[Compendium.pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Лететь}, @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} или @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение}; одна гарпия в области, по выбору Королева Каулинавк, может вместо этого использовать реакцию на @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p><p><strong>Перезарядка</strong>: [[/br 1d4 #Recharge Dread Cry]]{1d4 Раундов}.</p><div data-visibility=\"gm\"><p>Queen Kawlinawk can't use Dread Cry for [[/br 1d4 #Recharge Dread Cry]]{1d4 Раундов}</p></div>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Guardian Mural": {
+			"name": "Фрезка-Страж",
+            "tokenName": "Фрезка-Страж",
+            "img": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokenImg": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "<p>Одна из резных фигур на фреске внезапно оживает и выбирается из картины, превращаясь в реальное существо в центре комнаты.</p>",
+            "hdisable": "<p>@Check[thievery|dc:35], чтобы испортить фреску именно таким образом, чтобы она стала непригодной для использования</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo] Ранг 7 КС34</p>",
+            "hroutine": "",
+            "hreset": "<p>24 Часа</p>",
+            "items": [
+                {
+                    "id": "Summon Mukradi",
+                    "name": "Призыв Мукради",
+                    "description": "<p><strong>Триггер</strong>: существо пытается открыть дверь в область H7</p><hr><p>Оживший @UUID[Actor.JheGJKyZ62r2I8zw]{Мукради} появляется в пространстве размером 20 футов, обозначенном пунктирным контуром на карте. Все остальные существа в этой области падают @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Ничком} и выталкиваются из этого квадрата — те, кто успешно совершает @Check[reflex|dc:40], могут выбрать, будут ли они вытолкнуты на север или юг, в то время как те, кто провалил спасбросок, будут вытолкнуты на запад, из комнаты полностью вниз с высоты 200 футов. Эти существа могут @UUID[Compendium.pf2e.actionspf2e.3yoajuKjwHZ9ApUY]{Схватиться за уступ}, успешно совершив @Check[reflex|dc:36]. Затем мукради бросает инициативу, но полностью исчезает через 1 минуту.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+        "Falling Stars Trap": {
+			"name": "Ловушка падающих звезд",
+            "tokenName": "Ловушка падающих звезд",
+            "img": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokenImg": "modules/pf2e-ts-adv-stolenfate/pf2e-ap190-the-choosing/assets/art/hazard.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Мастер)</p>",
+            "hdescription": "<p>Нажимные пластины в полу заставляют шипы с кристаллическими наконечниками падать вниз по комнате и взрываться.</p>",
+            "hdisable": "<p>@Check[thievery|dc:40] (мастер) отключить достаточное количество нажимных пластин, чтобы ловушка не сработала</p>",
+            "hroutine": "",
+            "hreset": "<p>Запас шипов в ловушке волшебным образом пополняется, и ловушка восстанавливается через 1 час.</p>",
+            "items": [
+                {
+                    "id": "Rain of Stars",
+                    "name": "Дождь Звезд",
+                    "description": "<p><strong>Триггер</strong>: Каждый раз, когда нелетающее существо входит в квадрат в этой комнате, совершите бросок @Check[flat|dc:6|traits:secret]. При провале ловушка срабатывает, когда персонаж наступает на нажимную пластину — ловушка автоматически срабатывает, если существо наступает на любой квадрат к западу от коридора, ведущего в H12</p><hr><p>Ловушка делает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} Шипами по всем существам в комнате. Затем каждое существо в комнате получает @Damage[(6d10)[piercing]], когда шипы взрываются (@Check[reflex|dc:36|basic]).</p>"
+                },
+                {
+                    "id": "Crystal Spike",
+                    "name": "Шип"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		},
+        "Blade Magus": {
+			"name": "Магус Клинков",
+            "tokenName": "Магус",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Blade-Magus.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Blade-Magus.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "d3ST6KOQO6LIsMKe",
+                    "name": "Алебарда"
+                },
+                {
+                    "id": "Steel-Colored Feather Token (Bird)",
+                    "name": "Перо-символ [Птичка]",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>Каждое <em>перо-символ</em> кажется простым перышком экзотической птицы. Очин пера покрыт золотом, и имеет нанесенную арканную руну. Активация <em>пера-символа</em> заставляет превратиться его в другой объект, который потому может быть использован как обычно. Каждое перо может быть активированного только раз, и большинство их них потом постоянно остаются другими объектами.</p><p>Когда активировано, это перо превращается в маленького воробья, который сидит на вашем пальце и ждет пока вы передадите сообщение длиной до минуты, а так же имя и примерное местоположение получателя. Получателем должен быть кто-то, кого вы встречали, а место таким, которое вы посещали. После получения сообщения, птичка улетает, чтобы доставить его, пролетая 30 миль за час и ища цель в месте, которое вы обозначили. Если птичка находит цель, она садится рядом с ней, из нее исходят ваши слова и она улетает и исчезает. Птичка так же исчезает, если не может найти вашу цель после 10 часов поиска указанного места.</p>"
+                },
+                {
+                    "id": "xPjPK1SHG0eVmzLW",
+                    "name": "Реагирующий Удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "Arcane Cascade",
+                    "name": "Арканный Каскад",
+                    "description": "<p><strong>Требования</strong>: Магус Клинков может войти в эту @Trait[Stance]{Стойка}, если его последним действием было Сотворение Заклинания или Зачарованный Удар</p><hr><p>Когда Магус Клинков входит в эту @Trait[Stance]{Стойка} и в начале каждого своего хода в ней, Магус Клинков получают 5 Временных Очков Здоровья. В этой @Trait[Stance]{Стойка} Удары ближнего боя Магуса получают признак `арканный`, наносят дополнительно @Damage[(2)[force]] и наносят @Damage[(4[splash])[force]]{4 урона брызгами силы} врагам, находящимся рядом с целью.</p>"
+                },
+                {
+                    "id": "Spellstrike",
+                    "name": "Зачарованный Удар",
+                    "description": "<p>Магус Клинков направляют заклинание в удар ближнего боя, чтобы нанести магически заряженную атаку. Магус Клинков сотворяет @UUID[Compendium.pf2e.spells-srd.gISYsBFby1TiXfBt]{Кислотный всплеск}, @UUID[Compendium.pf2e.spells-srd.gYjPm7YwGtEa1oxh]{Морозный луч} или @UUID[Compendium.pf2e.spells-srd.N1Z1oLPdBxaSgrEE]{Вампирское пиршество}. Эффекты заклинания не проявляются немедленно, а вместо этого встраиваются в атаку Магуса Клинков.</p><p>Магус Клинков совершает Удар ближнего боя, который получает признак `арканный`. Заклинание сочетается с атакой, используя бросок атаки Магуса Клинков для определения эффектов как удара, так и заклинания. Это считается двумя атаками для их Штрафа Множественных Атак, но штраф не увеличивается, пока магус не завершит Зачарованный Удар.</p><p>После использования Зачарованного Удара Магусы Клинков не могут совершить это снова, пока не перезарядят эту способность как одиночное действие, имеющее признак @Trait[Concentrate]{Концентрация}. Магус Клинков также перезаряжают свой Зачарованный Удар, когда сотворяет @UUID[Compendium.pf2e.spells-srd.r82rqcm0MmGaBFkM]{Громовой удар}.</p>"
+                },
+                {
+                    "id": "Capture Magic",
+                    "name": "Захват магии",
+                    "description": "<p><strong>Триггер</strong>: Магус Клинков получает успех спасброска от наносящего урон заклинания противника, или противник проваливает атаку заклинанием против Магуса Клинков наносящим урон заклинанием</p><hr><p>Магус Клинков входят в свой Арканный Каскад. Если магус Клинков уже находится в Арканном Каскаде, он получает Бонус Состояния +2 к урону от Арканного Каскада до конца своего следующего хода.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.E0fYyli4aCVmevgJ]</p>"
+                },
+                {
+                    "id": "Steel-Colored Feather Token (Bird)",
+                    "name": "Перо-символ [Птичка]",
+                    "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><hr><p>Каждое <em>перо-символ</em> кажется простым перышком экзотической птицы. Очин пера покрыт золотом, и имеет нанесенную арканную руну. Активация <em>пера-символа</em> заставляет превратиться его в другой объект, который потому может быть использован как обычно. Каждое перо может быть активированного только раз, и большинство их них потом постоянно остаются другими объектами.</p><p>Когда активировано, это перо превращается в маленького воробья, который сидит на вашем пальце и ждет пока вы передадите сообщение длиной до минуты, а так же имя и примерное местоположение получателя. Получателем должен быть кто-то, кого вы встречали, а место таким, которое вы посещали. После получения сообщения, птичка улетает, чтобы доставить его, пролетая 30 миль за час и ища цель в месте, которое вы обозначили. Если птичка находит цель, она садится рядом с ней, из нее исходят ваши слова и она улетает и исчезает. Птичка так же исчезает, если не может найти вашу цель после 10 часов поиска указанного места.</p>"
+                },
+                {
+                    "id": "Spellbook",
+                    "name": "Книга Заклинаний Магуса Клинков",
+                    "description": "<p>В этой книге записаны следующие заклинания:</p><ul><li><p>@UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.TDNlDWbYb58Y55Da]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]</p></li><li><p>@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]</p></li></ul>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Ndede": {
+			"name": "Ндеде",
+            "tokenName": "Ндеде",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ndede.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ndede.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Change Shape",
+                    "name": "Изменение формы",
+                    "description": "<p>Попобава может принимать форму человека или маленькой или средней летучей мыши. Он теряет свою ауру Вони во время полиморфа. В форме человека он также теряет свои Удары, но может наносить Удары кулаком, которые наносят такой же урон как и Удар когтем, но дробящим уроном.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                {
+                    "id": "Stench",
+                    "name": "Вонь",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура 30}. Существо, входящее в ауру или начинающее свой ход в ауре, должно получить успех в @Check[fortitude|dc:34] или получить @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (плюс @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}, пока его тошнит при критическом провале).</p><p>Находясь в ауре, затронутые существа получают Штраф Обстоятельства -2 для спасбросков от болезней и для восстановления от состояния тошнота.</p><p>Существо получившее успех спасброска получает временно иммунитет на 1 минуту.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.wX9L6fbqVMLP05hn]</p>"
+                },
+                {
+                    "id": "Shameful Loathing",
+                    "name": "Позорное Отвращение",
+                    "description": "<p>Существо, пострадавшее от Челюстей попобавы, охвачено стыдом и ненавистью к себе и должно совершить @Check[will|dc:36]</p><hr><p><strong>Успех</strong>: Цель невредима.</p><p><strong>Провал</strong>: Цель получает @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}, пока @Trait[Curse]{Проклятие} не будет снято.</p><p><strong>Крит.Провал</strong>: Как Провал, но Цель получает также @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1}.</p>"
+                },
+                {
+                    "id": "Feed on Sorrow",
+                    "name": "Питаться Горем",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><hr><p>Попобава черпает силы в страданиях других. Он восстанавливает [[/r 10[healing]]]{10 ОЗ} за каждого врага в пределах @Template[emanation|distance:30], имеющего одно из следующих состояний, максимум до 40 Очков Здоровья: @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ], @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv], @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1], @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7], @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw], @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL], @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18], @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3], @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix], @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg] или @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2].</p>"
+                },
+                {
+                    "id": "Hallucinatory Haunting",
+                    "name": "Галлюцинации",
+                    "description": "<p><strong>Триггер</strong>: Попобава перемещает объект с помощью @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w] или @UUID[Compendium.pf2e.spells-srd.Item.tpLTLbJUrYcMWGld], управляет существом с помощью @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P] или сотворяет @UUID[Compendium.pf2e.spells-srd.Item.WqPhJNzLa8vSjrH6]</p><hr><p>Попобава сотворяет @UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a] или @UUID[Compendium.pf2e.spells-srd.Item.yV7Ouzaoe7DHLESI], звук которого исходит из цели или области заклинания.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        
 
 
 
@@ -786,12 +1615,6 @@
 		},
 		"Arzuu": {
 			"name": "Arzuu"
-		},
-		"Blade Magus": {
-			"name": "Blade Magus"
-		},
-		"Blade Mercenary": {
-			"name": "Blade Mercenary"
 		},
 		"Blood-Pear Tree": {
 			"name": "Blood-Pear Tree"
@@ -820,9 +1643,6 @@
 		"Diskrasia The Sharp": {
 			"name": "Diskrasia The Sharp"
 		},
-		"Endlo Kiver": {
-			"name": "Endlo Kiver"
-		},
 		"Ephialtes": {
 			"name": "Ephialtes"
 		},
@@ -831,9 +1651,6 @@
 		},
 		"Fabrina The Spinster": {
 			"name": "Fabrina The Spinster"
-		},
-		"Falling Stars Trap": {
-			"name": "Falling Stars Trap"
 		},
 		"Fate's Prophet": {
 			"name": "Fate's Prophet"
@@ -847,23 +1664,14 @@
 		"Guardian Aluum": {
 			"name": "Guardian Aluum"
 		},
-		"Guardian Mural": {
-			"name": "Guardian Mural"
-		},
 		"Hadi Mob": {
 			"name": "Hadi Mob"
 		},
 		"Hala The Rod": {
 			"name": "Hala The Rod"
 		},
-		"Harpy Warbird": {
-			"name": "Harpy Warbird"
-		},
 		"Ildamir": {
 			"name": "Ildamir"
-		},
-		"Kannijo": {
-			"name": "Kannijo"
 		},
 		"Katpaskir": {
 			"name": "Katpaskir"
@@ -877,14 +1685,8 @@
 		"Mighty Bul-Gae": {
 			"name": "Mighty Bul-Gae"
 		},
-		"Mivanian Soldier": {
-			"name": "Mivanian Soldier"
-		},
 		"Mogaran": {
 			"name": "Mogaran"
-		},
-		"Ndede": {
-			"name": "Ndede"
 		},
 		"Nornhound": {
 			"name": "Nornhound"
@@ -895,14 +1697,8 @@
 		"Phasmadaemon": {
 			"name": "Phasmadaemon"
 		},
-		"Queen Kawlinawk": {
-			"name": "Queen Kawlinawk"
-		},
 		"Quoppopak Mummy": {
 			"name": "Quoppopak Mummy"
-		},
-		"Raskus": {
-			"name": "Raskus"
 		},
 		"Raven Nicoletta": {
 			"name": "Raven Nicoletta"
@@ -910,14 +1706,8 @@
 		"Rogue Sphere": {
 			"name": "Rogue Sphere"
 		},
-		"Scaleseed Nagaji": {
-			"name": "Scaleseed Nagaji"
-		},
 		"Shadow Maze": {
 			"name": "Shadow Maze"
-		},
-		"Shaldar Falls-Far": {
-			"name": "Shaldar Falls-Far"
 		},
 		"Sickened Doprillu": {
 			"name": "Sickened Doprillu"
@@ -933,9 +1723,6 @@
 		},
 		"Speaker Of Svaryr": {
 			"name": "Speaker Of Svaryr"
-		},
-		"Stage Fire": {
-			"name": "Stage Fire"
 		},
 		"Storied Harrowkin": {
 			"name": "Storied Harrowkin"
@@ -1039,9 +1826,6 @@
 		"Xiuli Cachu": {
 			"name": "Xiuli Cachu"
 		},
-		"Zashuvin": {
-			"name": "Zashuvin"
-		},
 		"Zellara Esmeranda": {
 			"name": "Zellara Esmeranda"
 		},
@@ -1093,6 +1877,36 @@
                     "id": "115",
                     "name": "111",
                     "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
                 }
             ]
 		}
