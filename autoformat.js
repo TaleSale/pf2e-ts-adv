@@ -681,18 +681,49 @@ class TSButton {
         { pattern: /As failure,/gi, replacement: 'Как Провал,' },
         { pattern: /Requirements\<\/strong\>/gi, replacement: 'Требования:\<\/strong\>' },
         { pattern: /Frequency\<\/strong\>/gi, replacement: 'Частота:\<\/strong\>' },
+        { pattern: /Onset\<\/strong\>/gi, replacement: 'Возникновение:\<\/strong\>' },
+        { pattern: /Saving Throw\<\/strong\>/gi, replacement: 'Спасбросок:\<\/strong\>' },
+        { pattern: /Activate\<\/strong\>/gi, replacement: 'Активация:\<\/strong\>' },
+
+
+
 
         { pattern: /The target is unaffected/gi, replacement: 'Цель невредима' },
         { pattern: /The target is/gi, replacement: 'Цель получает' },
+        { pattern: /once per day/gi, replacement: '1/День' },
+        { pattern: /, plus overcharge/gi, replacement: ', плюс Перегрузка' },
         { pattern: /The creature is unaffected/gi, replacement: 'Существо невредимо' },
         { pattern: /The creature is/gi, replacement: 'Существо получает' },
         { pattern: /that creature is temporarily immune/gi, replacement: 'существо получает временно иммунитет' },
         { pattern: /A creature that succeeds at its save is temporarily immune/gi, replacement: 'Существо получившее успех спасброска получает временно иммунитет' },
         { pattern: /multiple attack penalty/gi, replacement: 'Штраф Множественных Атак' },
+        { pattern: /Damage depends on the number of actions/gi, replacement: 'Урон зависит от количества действий' },
 
-        { pattern: /once per round/gi, replacement: '1/Раунд' },
+        { pattern: /\]\{Dazzled\}/gi, replacement: '\]\{Ослеплен\}' },
         { pattern: /\]\{Blinded\}/gi, replacement: '\]\{Слепота\}' },
         { pattern: /\]\{Immobilized\}/gi, replacement: '\]\{Обездвижен\}' },
+        { pattern: /\]\{Confused\}/gi, replacement: '\]\{Замешательство\}' },
+        { pattern: /\]\{Paralyzed\}/gi, replacement: '\]\{Парализован\}' },
+        { pattern: /\]\{Unconscious\}/gi, replacement: '\]\{Без сознания\}' },
+        { pattern: /\]\{Fascinated\}/gi, replacement: '\]\{Заворожен\}' },
+        { pattern: /\]\{Fleeing\}/gi, replacement: '\]\{Бегство\}' },
+        { pattern: /\]\{Flat-Footed\}/gi, replacement: '\]\{Застиг.Врасплох\}' },
+        { pattern: /\]\{Fatigued\}/gi, replacement: '\]\{Утомление\}' },
+        { pattern: /Enfeebl[a-z]* ([0-9]+)/gi, replacement: 'Ослаблен $1' },
+        { pattern: /Drain[a-z]* ([0-9]+)/gi, replacement: 'Истощен $1' },
+        { pattern: /Doom[a-z]* ([0-9]+)/gi, replacement: 'Обречен $1' },
+        { pattern: /Clums[a-z]* ([0-9]+)/gi, replacement: 'Неуклюж $1' },
+        { pattern: /Stupef[a-z]* ([0-9]+)/gi, replacement: 'Одурманен $1' },
+        { pattern: /Sicken[a-z]* ([0-9]+)/gi, replacement: 'Тошнота $1' },
+        { pattern: /Slow[a-z]* ([0-9]+)/gi, replacement: 'Замедлен $1' },
+        { pattern: /Frighten[a-z]* ([0-9]+)/gi, replacement: 'Напуган $1' },
+        { pattern: /\{Prone\}/gi, replacement: '\{Ничком\}' },
+
+
+
+        { pattern: /once per round/gi, replacement: '1/Раунд' },
+        { pattern: / and /gi, replacement: ' и ' },
+        { pattern: / or /gi, replacement: ' или ' },
         { pattern: /\+([0-9]) (status bonus)/gi, replacement: 'Бонус Состояния +$1' },
         { pattern: /\-([0-9]) (status penalty)/gi, replacement: 'Штраф Состояния -$1' },
         { pattern: /\+([0-9]) (item bonus)/gi, replacement: 'Бонус Предмета +$1' },
@@ -709,7 +740,8 @@ class TSButton {
 
 
 
-        { pattern: /Stage ([0-9])/gi, replacement: 'Стадия $1:' },
+        { pattern: /Stage ([0-9]+)\<\/strong\>/gi, replacement: 'Стадия $1:\<\/strong\>' },
+        { pattern: /as stage ([0-9]+)/gi, replacement: 'Как Стадия $1' },
         { pattern: /(?<!for )([0-9]) (rounds)/gi, replacement: '$1 Раундов' },
         { pattern: /(?<!for )([0-9]) (round)/gi, replacement: '$1 Раунд' },
         { pattern: /for ([0-9]) (rounds)/gi, replacement: 'на $1 Раундов' },
@@ -718,8 +750,17 @@ class TSButton {
         { pattern: /for ([0-9]+) (hour)/gi, replacement: 'на $1 Час' },
         { pattern: /for ([0-9]+) (minutes)/gi, replacement: 'на $1 Минут' },
         { pattern: /for ([0-9]+) (minute)/gi, replacement: 'на $1 Минуту' },
+        { pattern: /(?<!for )([0-9]+) (minutes)/gi, replacement: '$1 Минут' },
+        { pattern: /(?<!for )([0-9]+) (minute)/gi, replacement: '$1 Минуту' },
+        { pattern: /(?<!for )([0-9]+) (hours)/gi, replacement: '$1 Часа' },
+        { pattern: /(?<!for )([0-9]+) (hour)/gi, replacement: '$1 Час' },
+        { pattern: /([0-9]+) (days)/gi, replacement: '$1 Дней' },
+        { pattern: /([0-9]+) (day)/gi, replacement: '$1 День' },
+        { pattern: /([0-9]+) (weeks)/gi, replacement: '$1 Недель' },
+        { pattern: /([0-9]+) (week)/gi, replacement: '$1 Неделя' },
+        { pattern: /\]\{([0-9]+)d([0-9]+) rounds\}/gi, replacement: '\]\{$1d$2 Раундов\}' },
 
-        { pattern: /Clumsy ([0-9])/gi, replacement: 'Неуклюж $1' },
+
         { pattern: /`Противодейств[а-я]*`/gi, replacement: '@UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]' },
 
         { pattern: /<section class=\"statblock\"><h4>/gi, replacement: '<section class=\"БлокСтат\"><h4>' },
