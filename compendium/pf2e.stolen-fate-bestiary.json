@@ -1865,7 +1865,7 @@
                 {
                     "id": "Defiance Vulnerability",
                     "name": "Уязвимость Неповиновению",
-                    "description": "<p>Неповиновение причиняет гхалзароху страдания. Если существо получает крит.успех при спасброске против заклинаниям гальзароха @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6], @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf], @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P] или @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H] или способности @UUID[Actor.S9jB0TQE0jZoJYVj.Item.VCmPQKNuDLaeg6QH], демон получает @Damage[4d6[mental]].</p><p>Демон получает такой же урон, если крит.проваливает свою проверку на запугивание.</p>"
+                    "description": "<p>Неповиновение причиняет гхалзароху страдания. Если существо получает крит.успех при спасброске против заклинаниям гальзароха @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6], @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf], @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P] или @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H] или способности Обвинить, демон получает @Damage[4d6[mental]].</p><p>Демон получает такой же урон, если крит.проваливает свою проверку на запугивание.</p>"
                 },
                 {
                     "id": "Abyssal Spew",
@@ -2414,6 +2414,934 @@
                 }
             ]
 		},
+        "Ephialtes": {
+			"name": "Эфиальт",
+            "tokenName": "Эфиальт",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ephialtes.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ephialtes.webp",
+            "description": "<p>Эфиальты велстраки — это совершенные и бесстрашные охотники на обреченных и проклятых.</p><h2>Добыча Эфиальтов</h2><p>Когда они ловят достаточно жертвы, эфиальт велстрак возвращается в Теневую Плоскость, принося жертв для других велстраков, чтобы использовать их для тренировки или в качестве сырья. Велстраки уважают эфиальтов за их \"щедрость\" в руководстве и обеспечении других представителей своего рода, но всегда насторожены, делая предположения о пределах этой щедрости.</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Constrict",
+                    "name": "Сжимать",
+                    "description": "<p>@Damage[(2d4+13)[bludgeoning]], @Check[fortitude|dc:37|basic]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+                },
+                {
+                    "id": "Exhale Chains",
+                    "name": "Выдох Цепей",
+                    "description": "<p>Эфиальт выдыхает клубок колючих цепей. Все существа в @Template[cone|distance:50] должны совешить @Check[reflex|dc:37]. Эфиальт не может использовать Выдох Цепей в течение [[/br 1d4 #Recharge Exhale Chains]]{1d4 Раундов}.</p><hr><p><strong>Крит. Успех:</strong> Существо невредимо</p><p><strong>Успех:</strong> Оно получает @Damage[8d6[piercing]]</p><p><strong>Провал:</strong> Оно получает @Damage[(15d6)[piercing],(2d6)[persistent,bleed]], и становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] на 1 Раунд</p><p><strong>Крит. Провал:</strong> Как Провал, но @Damage[(30d6)[piercing],(2d6)[persistent,bleed]], и становится @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM] до тех пор, пока не совершит @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] (КС37)</p>"
+                },
+                {
+                    "id": "Nowhere to Run",
+                    "name": "Некуда Бежать",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура 30}. Когда существо заканчивает свой ход в ауре, оно ощущает мощное чувство безнадежности. Существо должно успешно совершить @Check[will|dc:34] или стать @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} (@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2} при критическом провале) на 1 Раунд.</p>"
+                },
+                {
+                    "id": "Focus Gaze",
+                    "name": "Фокусировать Взгляд",
+                    "description": "<p>Эфиальт пристально смотрит на существо, которое он может видеть на расстоянии 30 футов. Существо должно совершить Спасбросок Воли против ауры Некуда Бежать. Если оно уже было замедлено, при провале спасброска его скорость уменьшается на 10 футов до конца следующего хода. После этого спасброска цель получает временный иммунитет к Фокусировать Взгляд до начала следующего хода эфиальта.</p>"
+                },
+                {
+                    "id": "Painsight",
+                    "name": "Чувство Боли",
+                    "description": "<p>Вельстрак автоматически знает, имеет ли существо, которое он видит, какие-либо из @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv], @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1], и @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2] состояний, а также значение этих состояний.</p>"
+                },
+                {
+                    "id": "Regeneration 20 (Deactivated By Good or Silver)",
+                    "name": "Регенерация (Святой или Серебро)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Torgral": {
+			"name": "Торграл",
+            "tokenName": "Торграл",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ghalzarokh.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ghalzarokh.webp",
+            "description": "<p>Демоны Гхалзарох, также известные как демоны тирании, формируются из душ жестоких самодержцев. Эти демоны подчиняют себе более слабых исчадий. Собрав армию, галзарох начинает хаотичную серию кровавых завоеваний.</p><h2>Демоны-Тираны</h2><p>Гхалзарохи - задиры, предпочитающие союзников многочисленным рабам. Эти демоны не любят быть обязанными какому-либо другому существу и служат более сильным существам только в расчете на богатую награду. Гхалзароха редко можно встретить без свиты или армии (например, толпы демонов). Они предпочитают заключать «пакты» с «меньшими» демонами, обычно предлагая лишь слабую гарантию того, что более слабое исчадье продолжит свое существование.</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Rend",
+                    "name": "Раздирать (Когти)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Rend]</p>"
+                },
+                {
+                    "id": "Defiance Vulnerability",
+                    "name": "Уязвимость Неповиновению",
+                    "description": "<p>Неповиновение причиняет гхалзароху страдания. Если существо получает крит.успех при спасброске против заклинаниям гальзароха @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6], @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf], @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P] или @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H] или способности Обвинить, демон получает @Damage[4d6[mental]].</p><p>Демон получает такой же урон, если крит.проваливает свою проверку на запугивание.</p>"
+                },
+                {
+                    "id": "Abyssal Spew",
+                    "name": "Дыхание Бездны",
+                    "description": "<p>Гхалзарох извергает едкое пламя, наносящее @Damage[8d6[acid],8d6[fire]] в @Template[cone|distance:40] (@Check[reflex|dc:36|basic]). Гхалзарох не может снова использовать Дыхание Бездны в течение [[/br 1d4 #Recharge Abyssal Spew]]{1d4 Раундов}.</p>"
+                },
+                {
+                    "id": "Project Blame",
+                    "name": "Обвинить",
+                    "description": "<p><strong>Триггер</strong>: Существо успешно или критически успешно выполняет спасбросок против одного из заклинаний гхалзароха или Дыхания Бездны, или гхалзарох промахивается по существу Ударом ближнего боя.</p><hr><p>Существо должно совершить @Check[will|dc:36]</p><hr><p><strong>Крит.Успех:</strong> Существо получает временный иммунитет к Обвинить на 24 Часа, и гхалзарох страдает от Уязвимости Неповиновению.</p><p><strong>Успех:</strong> Состояние @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен} существа увеличивается на 1 (если оно успешно выполнило спасбросок) или его состояние @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж} увеличивается на 1 (если демон провалил свой удар). Это увеличение длится до конца следующего хода существа, но не может увеличить ни одно из состояний больше, чем на 3.</p><p><strong>Провал:</strong> Как Успех, но длительность меняется на 1 Минуту. Существо может совершать @Check[will|dc:36] в конце своего хода, чтобы снять эффект раньше.</p><p><strong>Крит.Провал:</strong> Как Провал, но продолжительность 24 Часа.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Derhii": {
+			"name": "Дерхий",
+            "tokenName": "Дерхий",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Derhii.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Derhii.webp",
+            "description": "<p>Легенды утверждают, что маги Шори могли создать дерхий как солдат. Хотя фольклор может быть ошибочен, нет сомнений в том, что эти летающие обезьяны являются отличными воинами. История также ясно показывает, что дерхии сражались в бесчисленных битвах за Империю Шори, оттачивая свои тактические навыки и боевые традиции. Независимо от того, была ли магия Шори ответственна за появление первых дерхий, предания показывают, что Империя Шори почитала своих солдат и относилась к ним как к ценным союзникам, а не просто как к слугам.</p><p>Дерхии редки даже в Джунглях Просторы Мванги, где пали последние летающие города Шори, такие как Кхо и Ульдувай. Тем не менее, некоторые обитают среди шпилей, которые возвышаются над руинами Шори; эти дерхии часто значительно сильнее, чем описанный ниже. Другие дерхии распространились из остатков павшей Империи Шори, чтобы населить удаленные высокогорья и старые леса.</p><p>Дерхии образуют небольшие родственные группы, называемые отрядами, сосредоточенные вокруг одного старшего дерхия и его родственников. Несколько отрядов могут объединиться в более крупное общество с советом лидеров отрядов под руководством одного доминирующего старшего.</p><p>Дерхии всеядны и предпочитают мясо, в отличие от наземных и в основном травоядных горилл, на которых они похожи. Возможно, эта привычка развилась из-за необходимости дерхий в значительных количествах пищи, для пути солдат.</p><h2>Искусство Дерхий</h2><p>Дерхий редко используют деньги, но они талантливые мастера. Их изделия практичны, красивы и, при необходимости, смертоносны. В искусстве дерхий все еще видны влияния Шори, включая кристаллические узоры, бисероплетение и геометрические формы, намекающие на арканную магию. Кожаные и металлические изделия дерхий также на высшем уровне, благодаря их стремлению к функциональному и прочному вооружению.</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "UA870zXAyvtm6IxJ",
+                    "name": "Метательное копье"
+                },
+                {
+                    "id": "NxtVBTMv1vRmgthf",
+                    "name": "Фальшион"
+                },
+                {
+                    "id": "Power Dive",
+                    "name": "Мощный Рывок",
+                    "description": "<p>Дерий совершает @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} дважды в воздухе, затем наносит Удар с помощью изготовленного оружия. Если дерий совершил движение как минимум на 20 футов от своей начальной позиции, урон от удара увеличивается на одну кость урона, например, урон от фальшиона увеличивается до 2d10+7. При ближней атаке дерий может отказаться от дополнительного урона, чтобы заставить цель упасть @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.</p>"
+                },
+                {
+                    "id": "Booming Voice",
+                    "name": "Громкий голос",
+                    "description": "<p>Дерий может использовать свой голос в качестве сигнала. Звук слышен на расстоянии до 12 миль как гудение в воздухе, которое передает 20 слов информации за 5 минут.</p>"
+                },
+                {
+                    "id": "Critical Knockdown",
+                    "name": "Критическое Опрокидывание",
+                    "description": "<p>Когда дерий наносит критический удар Ударом ближнего боя, цель также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.</p>"
+                }
+            ]
+		},
+        "Guardian Aluum": {
+			"name": "Алюум-Страж",
+            "tokenName": "Алюум",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Guardian-Aluum.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Guardian-Aluum.webp",
+            "description": "<p>Наиболее распространенный алюум питается от связанной души преданного городского служителя, но его создание является одной из самых охраняемых тайн Мастеров Договоров. По всему Катапешу разбросано десятки спящих алюумов, и только тот, кто носит амулет алюума, может активировать и командовать одним из этих солдат высотой 14 футов. Мастера Договоров доверяют лишь немногим, кроме Стражи Зефира, носить эти амулеты, и кража такого амулета является одним из самых тяжких преступлений в городе.</p><hr><p>Алюумы - это мощные металлические и каменные конструкции, изначально созданные Мастерами Договоров для поддержания порядка в Катапеше. Конструкция каждого алюума включает создание <em>@UUID[Compendium.pf2e.equipment-srd.Item.bU731I8njNmSAQhQ]</em>, латунного кулона с голубым кристаллом, предназначенного для управления этой конкретной конструкцией. Амулет, созданный одновременно с алюумом, называется амулетом связи.</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Soul Shriek",
+                    "name": "Крик Души",
+                    "description": "<p>Алюум издает пронзительный вой в @Template[cone|distance:15], который наносит @Damage[12d6[sonic]] (@Check[fortitude|dc:33|basic]). При провале существо получает @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 1}, или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен 3} при критическом провале. Алюум не может использовать Крик Души снова в течение [[/br 1d4 #Recharge Soul Shriek]]{1d4 раундов}.</p>"
+                },
+                {
+                    "id": "Aluum Antimagic",
+                    "name": "Антимагия Алюума",
+                    "description": "<p>Алюумы-Стражи иммунны к заклинаниям и магическим способностям, за исключением двух случаев. Заклинание или магическая способность с признаком @Trait[Void]{Пустота} накладывает на алюума состояние @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} до конца его следующего хода вместо обычных эффектов. Заклинание или магическая способность с признаком @Trait[Vitality]{Жизненность} накладывает на алюума состояние @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} до конца его следующего хода вместо обычных эффектов.</p>"
+                },
+                {
+                    "id": "Paralyzing Force",
+                    "name": "Парализующая Сила",
+                    "description": "<p>Существо получившее урон от Удара Алуюма, должно успешно совершить @Check[fortitude|dc:33] или стать @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} на 1 раунд. При критическом провале существо получает Паралич на [[/br 1d4 #Minutes]]{1d4 минуты} и падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Katpaskir": {
+			"name": "Катпаскир",
+            "tokenName": "Катпаскир",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Katpaskir.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Katpaskir.webp",
+            "description": "<p>Рожденные из душ предсказателей бедствий и лидеров культов, которые стремились подорвать и развязать реальность, катпаскиры являются демонами нигилизма и разрушения.</p><h2>Создатели Разломов</h2><p>Катпаскиры чувствуют слабости в планарной ткани. Эти демоны проникают в пространства между измерениями и разрушают барьеры. Они оставляют дыры, направленные на создание хаоса и разрушения. Таким образом, катпаскиры грызут реальность, надеясь однажды ее развязать.</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Breach Planar Wards",
+                    "name": "Ращрушить Планарные Якоря",
+                    "description": "<p><strong>Триггер:</strong> Эффект пытается предотвратить использование катпаскиром эффекта телепортации или заклинания @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Призыв Бесов} (но это не эффект от предмета с признаком @Trait[Artifact]{Артефакт}).</p><hr><p>Катпаскир пытается противодействовать спровоцировавшему эффекту (модификатор противодействия [[/r 1d20+29 #Counteract]]{+29}).</p>"
+                },
+                {
+                    "id": "Mirrored Summons",
+                    "name": "Зеркальный Призыв",
+                    "description": "<p><strong>Триггер:</strong> Существо в пределах 30 футов, о котором катпаскир осведомлен, использует магию для призыва существа с признаком @Trait[Holy]{Святой}.</p><hr><p>Катпаскир сотворяет заклинание @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff], восстанавливая ежедневную возможность сделать это при необходимости. Это заклинание автоматически поддерживается, пока спровоцировавший призыв поддерживается, на срок до 1 минуты.</p>"
+                },
+                {
+                    "id": "Dimensional Ambush",
+                    "name": "Планарная Засада",
+                    "description": "<p>Катпаскир сотворяет заклинание @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8], затем совершает Удар ближнего боя, который наносит три дополнительных кости урона. Этот удар считается двумя атаками при расчете штрафа множественных атак.</p>"
+                },
+                {
+                    "id": "Distortion Field",
+                    "name": "Поле Искажения",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура 30}. Реальность изгибается и искажается на уровне всех чувств, не смещая фактическое местоположение катпаскира. Существо по выбору катпаскира, которое начинает свой ход в ауре, должно успешно совершить @Check[will|dc:37] или считать область как особо сложную местность и неровную поверхность (КС 20). Существо, которое успешно проходит, всё равно считает область как сложную местность. Для всех существ расстояние через ауру удваивается при определении штрафа за дистанцию.</p>"
+                },
+                {
+                    "id": "Warp Sense",
+                    "name": "Чувство Варпа",
+                    "description": "<p>Катпаскир ощущает изменения в планарной ткани на расстоянии до 1 мили, включая любые эффекты телепортации, определяя направление и расстояние до нарушения. Если он ощущает такое нарушение в пределах 500 футов, катпаскир может сотворить заклинание @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21], чтобы наблюдать за областью, не требуя прямой видимости к месту.</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Markish Aghayarea": {
+			"name": "Маркиш Агайярея",
+            "tokenName": "Маркиш Агайярея",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Markish-Aghayarea.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Markish-Aghayarea.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Rush of Shadows",
+                    "name": "Напор Теней",
+                    "description": "<p>Маркиш выпускает струю теневой воды @Template[line|distance:60], нанося @Damage[(9d6)[bludgeoning],(6d6)[void]] (@Check[reflex|dc:36|basic]). Существо, которое проваливает спасбросок, также отталкивается на 10 футов (20 футов при критическом провале) и становится @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} при критическом провале). Маркиш не может использовать Напор Теней в течение [[/br 1d4 #Recharge Rush of Shadows]]{1d4 Раундов}.</p>"
+                },
+                {
+                    "id": "Devour Soul",
+                    "name": "Пожирание Души",
+                    "description": "<p>Пожиратель касается существа в пределах досягаемости, нанося @Damage[12d6[void]] (@Check[fortitude|dc:36|basic]). Если существо убито этой атакой, его душа оказывается схвачена внутри пожирателя. Пока его душа находится в ловушке, существо нельзя воскресить, кроме как с помощью мощной магии, например, заклинания @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu] . Уничтожение пожирателя или успешное противодействие <em>\"Пожиранию души\"</em> (см. <em>\"Отражение заклинаний\"</em>) освобождает эту душу.</p><p>Пожиратель единовременно может удерживать только 1 душу. Душа имеет 5 зарядов души за каждый уровень исходного существа (см. далее <em>\"Заклинания души\"</em>). Пожиратель может тратить эти заряды на сотворение заклинаний. Если душа освобождена и существо возвращается к жизни, то существо @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощено 1} за каждые потраченные 5 зарядов души. Если количество зарядов души уменьшается до 0, то душа поглощена и может быть возвращена к жизни только с помощью могущественной магии, такой как <em>желание</em>.</p>"
+                },
+                {
+                    "id": "Grant Wish",
+                    "name": "Подарить Желание",
+                    "description": "<p><strong>Частота:</strong> 3 раза в год</p><hr><p>Маркиш сотворять заклинание @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu] как арканное заклинание, чтобы исполнить желание смертного или неживого существа (исключая себя), но он делает всё возможное, чтобы изогнуть эффекты желания, причиняя страдания, или интерпретирует формулировку желания так, чтобы мучить того, кто его просит.</p>"
+                },
+                {
+                    "id": "Jewelry",
+                    "name": "Сокровища"
+                },
+                {
+                    "id": "Spell Deflection",
+                    "name": "Отражение заклинаний",
+                    "description": "<p>Заклинатель, целящийся в пожирателя @Trait[Mental]{ментальным} заклинанием, @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW], @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg], @UUID[Compendium.pf2e.spells-srd.Item.sX2o0HH4RjJDAZ8C], @UUID[Compendium.pf2e.spells-srd.Item.hVU9msO9yGkxKZ3J], @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m], @UUID[Compendium.pf2e.spells-srd.Item.PHVHBbdHeQRfjLmE] или @UUID[Compendium.pf2e.spells-srd.Item.Ht35SDf9PDStJfoC], должен совершить проверку @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.E4Q7EiSG18sIvFwg]{Противодействия}, чтобы освободить душу, пойманную пожирателем с помощью <em>\"Поглощения души\"</em>. Если эта проверка противодействия успешная, то схваченная душа освобождена (однако существо остаётся мертвым), и пожиратель не может использовать заряды души от этого существа.</p><p>В остальном Пожиратели невосприимчивы к этим заклинаниям.</p>"
+                },
+                {
+                    "id": "2a2eONlkTBanM6W0",
+                    "name": "Истощение жизни",
+                    "description": "<p>Когда пожиратель наносит живому существу урон своим Ударом когтями, то получает 15 временных ОЗ, и существо должно совершить успешный @Check[fortitude|dc:36], иначе будет @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощено 1}. Дальнейший урон, наносимый пожирателем, при провале спасброска увеличивает состояние @Condition[Drained]{истощения} на 1, до максимального @Condition[Drained]{истощен 4}.</p>"
+                },
+                {
+                    "id": "Soul Spells",
+                    "name": "Заклинания души",
+                    "description": "<p>Пожиратель творит врожденные оккультные заклинания, но для этого он должен потратить количество зарядов души, равное уровню заклинания (подобно сотворению заклинания из посоха при помощи зарядов). Он может усилить любое заклинание до максимум 6-го ранга, расходуя больше зарядов при @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотворении} этого заклинания. При встрече, пожиратель обычно имеет 1 пойманную душу с 10 зарядами души.</p>"
+                },
+                {
+                    "id": "Vortex",
+                    "name": "Водовород",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура 40}. Вода в ауре, которая также находится в том же водоеме, что и марид, является сложной местностью для Плывущих существ. Существа с признаком водный имеют иммунитет.</p>"
+                },
+                {
+                    "id": "juuJQNblfVjikNma",
+                    "name": "Трезубец"
+                },
+                {
+                    "id": "ыiVT9NxveIuAQ8KF5",
+                    "name": "Трезубец"
+                }
+            ]
+		},
+        "Mogaran": {
+			"name": "Могаран",
+            "tokenName": "Могаран",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mogaran.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Mogaran.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Soulfire Breath",
+                    "name": "Выдохнуть Огонь Души",
+                    "description": "<p>Могаран выдыхает призрачный зеленый огонь в @Template[cone|distance:60]. Живые существа в области получают @Damage[18d6[void]] (@Check[reflex|dc:38|basic]). @Trait[Holy]{Святое} существо, которое проваливает этот спасбросок, становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} на 1 минуту (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 4} при критическом провале). Существо, убитое Выдохнуть Огонь Души, не может быть воскрешено, кроме как с помощью мощной магии, такой как Желания. Могаран не может использовать Выдохнуть Огонь Души снова в течение [[/br 1d4 #Recharge Soulfire Breath]]{1d4 Раундов}.</p>"
+                },
+                {
+                    "id": "Soulfire Inhalation",
+                    "name": "Вдохнуть Огонь Души",
+                    "description": "<p><strong>Требования:</strong> Последним действием Могарана было Выдохнуть Огонь Души</p><hr><p>Могаран вдыхает и восстанавливает [[/r 10[healing]]] Очков Здоровья за каждое существо, поврежденное его Выдохнуть Огонь Души. Любое избыточное исцеление получает в виде временных Очков Здоровья, которые сохраняются на 1 минуту.</p>"
+                },
+                {
+                    "id": "Trample",
+                    "name": "Растоптать",
+                    "description": "<p>[Большой], [Когти], @Check[reflex|dc:38|basic]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+                },
+                {
+                    "id": "Frightful Presence",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>Аура 60. @Check[will|dc:35]</p><p>Эта аура подавляется до тех пор, пока функционирует кристаллический имплантат Могарана.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "Crystal Implant",
+                    "name": "Кристаллический имплант",
+                    "description": "<p>Кристалл в форме волчьей головы, имплантированный в лоб Могарана, пульсирует теневой энергией в начале каждого его хода. Любой ПИ, который является легендой в Аркане, Оккультизме или Религии и видит это, может совершить @Check[arcana|dc:36], @Check[occultism|dc:36] или @Check[religion|dc:36]; при успехе они понимают, что кристалл каким-то образом манипулирует действиями Могарана.</p><p>Если кристалл будет уничтожен или деактивирован, Могаран восстанавливает контроль над своими действиями. Кристалл функционирует как магический предмет 19-го уровня для целей Рассеять Магию, но его также можно уничтожить, целенаправленно атакуя его (КБ 40; Твёрдость 20; ОЗ 90). В качестве альтернативы персонаж может вырвать кристалл из лба Могарана с успешной @Check[athletics|dc:36], что требует действия Взаимодействия, но только если Могаран @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен}.</p>"
+                },
+                {
+                    "id": "Restoration Vulnerability",
+                    "name": "Уязвимость к восстановлению",
+                    "description": "<p>Могаран испытывает отвращение к восстановлению душ. Он получает @Damage[(3d10+10)[mental]] первый раз в каждом раунде, когда существо в пределах 100 футов от него воскрешается или теряет состояние @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv].</p>"
+                },
+                {
+                    "id": "Smoking Wound",
+                    "name": "Дымящаяся рана",
+                    "description": "<p>Существо, поврежденное челюстями Могарана, испытывает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1} от резкого запаха паров из раны.</p>"
+                },
+                {
+                    "id": "Stunning Tail",
+                    "name": "Ошеломляющий хвост",
+                    "description": "<p>Если Могаран критически попадает своим ударом хвоста, цель должна успешно совершить @Check[fortitude|dc:38] или быть @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлен} на 1 раунд ([[/br 1d4 #Stunned Duration]] раундов при критическом провале).</p>"
+                }
+            ]
+		},
+        "Quoppopak Mummy": {
+			"name": "Куоппопак-Муммия",
+            "tokenName": "Куоппопак-Муммия",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Quoppopak-Mummy.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Quoppopak-Mummy.webp",
+            "description": "<p>Куоппопаки сочетают в себе самые ужасающие черты водомерок, осьминогов и летучих мышей-вампиров в одном злобном водном монстре. Их тела состоят из овального брюшка, восьми полых щупалец и толстой, похожей на хвост конечности, заканчивающейся брюшной трубкой, которая напоминает рот миноги и способна поглощать жидкости с поразительной скоростью. В то время как Куоппопаки могут неуклюже маневрировать на суше, они предпочитают передвигаться по воде; Куоппопаки скользят по поверхности озер или океана, засовывая свои брюшные трубки в воду, прокачивая жидкость через свои тела, а затем распыляя воду обратно в виде струи под высоким давлением через свои полые, похожие на копья щупальца. Хотя брюшная трубка не может выталкивать жидкости, она все равно представляет существенную угрозу для других существ. У куоппопак есть жабры, но они расположены внутри брюшка существа, что позволяет им втягивать воздух из воды, которую они всасывают через свои брюшные трубки. Куоппопак может удерживать немного воды в брюшке для быстрых вылазок на сушу, но это похоже на то, как люди задерживают дыхание, чтобы нырнуть под воду, и запасы воды у монстров быстро истощаются.</p>",
+            "appendNumber": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Ventral Tube",
+                    "name": "Брюшная Трубка"
+                },
+                {
+                    "id": "Attack of Opportunity (Tentacle Only)",
+                    "name": "Возможность для атаки (Щупальца)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+                },
+                {
+                    "id": "Tentacle Stab",
+                    "name": "Удар Щупальцем",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><hr><p>Куоппопак делает два Удара щупальцем по одному и тому же существу. Эти Удары наносят колющий урон вместо дробящего, и куоппопак не может @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Захватить} с их помощью. Его штраф множественных атак не увеличивается до тех пор, пока не будут выполнены оба удара.</p>"
+                },
+                {
+                    "id": "Despair",
+                    "name": "Отчаяние",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.v61oEQaDdcRpaZ9X]{Аура 30}. Живые существа находятся в состоянии @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1} в пределах Ауры Отчаяния. Они не могут естественным образом восстановиться от этого Напуган, находясь в этой области, но восстанавливаются мгновенно, как только покинут её.</p><p>Когда существо впервые входит в область, оно должно успешно совершить @Check[will|dc:30] (после применения штрафа за Напуган) или быть @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} на 1 раунд. Существо становится временно невосприимчивым к эффекту парализован на 24 часа.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f]{Эффект: Отчаяние}</p>"
+                },
+                {
+                    "id": "Oil Rot",
+                    "name": "Масла Гниения",
+                    "description": "<p>Это заболевание и любой урон от него не могут быть исцелены, пока это проклятие не будет снято. По мере прогрессирования заболевания плоть существа становится слизкой. Существо, убитое Маслом гниения, расплавляется в лужу зловонного масла и может быть воскрешено только с помощью ритуала @UUID[Compendium.pf2e.spells-srd.kqhPt9344UkcGVYO]{Воскрешение} 7-го ранга или аналогичной магии.</p><p><strong>Спасбросок:</strong> @Check[fortitude|dc:33]</p><p><strong>Стадия 1:</strong> носитель без негативного эффекта (1 минута)</p><p><strong>Стадия 2:</strong> @Damage[10d6[void]] урон и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 2} (1 день)</p>"
+                },
+                {
+                    "id": "Water Glide",
+                    "name": "Скольжение по Воде",
+                    "description": "<p>Куоппопак может стоять и двигаться по поверхности воды или других жидкостей, не проваливаясь. Он может погружаться под воду, если захочет, но для этого ему нужно @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть}.</p>"
+                },
+                {
+                    "id": "Ignite Oil",
+                    "name": "Воспламеняющееся Масло",
+                    "description": "<p><strong>Триггер:</strong> Куоппопак-мумия получает урон от огня, пока находится над водой</p><hr><p>Масляная оболочка мумии загорается. Этот огонь не наносит дополнительного урона мумии, но заставляет её ближние атаки наносить дополнительный @Damage[1d6[fire]]. В конце своего хода мумия пытается сделать @Check[flat|dc:10]; при успехе огонь гаснет. Огонь также гаснет немедленно, если мумия погружается в воду.</p>"
+                }
+            ]
+		},
+        "Sonnorae": {
+			"name": "Соннора",
+            "tokenName": "Соннора",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Sonnorae.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Sonnorae.webp",
+            "description": "<p>Поиск абсолютных ощущений через членовредительство - это ужасающее занятие обитающих в тенях бесов, известных как вельстраки. Они выходят за рамки своей стоической отрешенности только тогда, когда причиняют своим жертвам боль и ужас, практикуя новые формы пыток или обращая свои мучительные практики на самих себя. Вельстраки считают себя просветленными существами, преодолевшими такие ограничения, как мораль или смертные табу, но своим жертвам они известны как безэмоциональные мучители, причиняющие садистские страдания. Эти бесы утверждают, что стремятся к совершенству мысли, формы и действия, однако они не признают никакого совершенства, которое не требует болезненного отсечения плоти или духа.</p><p>Вельстраки проявляются из душ самых крайних мазохистов или садистов из числа смертных, которых осудили и отправили на Теневой План. Они принимают формы, соответствующие их мерзким пристрастиям - от низкоранговых авгуров до маэстро страданий и увечий, называемых отшельниками. Этот процесс трансформации шаг за шагом искажает душу, а другие вельстраки проводят своих новых представителей через несметные комнаты боли в темных уголках Теневого Плана.</p><hr><p>Вельстракские рассказчики и историки известны как регенты хора. В сопровождении ужасающих хоров, регенты выступают при дворах вельстраков-демагогов.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Final Spite",
+                    "name": "Финальная злость",
+                    "description": "<p><strong>Триггер:</strong> Соннора снижена до 0 очков здоровья</p><hr><p>Соннора сотворяет @UUID[Compendium.pf2e.spells-srd.FEsuyf203wTNE2et]{Стенания проклятых}, если это возможно, перед смертью. В противном случае она совершает один @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>"
+                },
+                {
+                    "id": "Assemble Choir",
+                    "name": "Собрать Хор",
+                    "description": "<p>Соннора добавляет в свой хор криков существо, на которое действует его @UUID[Compendium.pf2e.stolen-fate-bestiary.Actor.9CR1pTY23jFPi5Xn.Item.AXpLna1FjT83aiYJ] и находящееся в пределах 100ФТ. Соннора может иметь в своем хоре любое количество существ, однако существо, на которое больше не действует Мучительное Касание, немедленно покидает хор.</p><p>Существа в хоре криков Соннорэ @UUID[Compendium.pf2e.conditionitems.AdPVz7rbaVSRxHFg]{Заворожены} друг другом и Соннорой, и они не могут использовать враждебные действия по отношению друг к другу или Сонноре. Когда Соннора сотворяетт врожденное сакральное заклинание, он может заставить этот эффект, исходить не от себя, а от любого члена своего хора, используя при этом КС и бонус атаки Сонноры.</p>"
+                },
+                {
+                    "id": "Spirit-Flensing Touch",
+                    "name": "Мучительное Касание",
+                    "description": "<p>Соннора касается духа существа в пределах 10 футов. Дух цели разрывает её органы и плоть, и она совершает @Check[will|dc:40|traits:damaging-effect].</p><hr><p><strong>Крит. Успех:</strong> Существо невредимо и становится временно невосприимчивым на 24 часа.</p><p><strong>Успех:</strong> Существо получает @Damage[4d6[slashing]]</p><p><strong>Провал:</strong> Существо получает @Damage[9d6[slashing]] и получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1}. Пока существо остаётся в состоянии тошноты, оно должно использовать одно действие в свой ход, чтобы закричать от боли.</p><p><strong>Крит. Провал:</strong> Существо получает @Damage[18d6[slashing]] и получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2}. Пока существо остаётся в состоянии тошноты, оно должно использовать два действия в свой ход, чтобы закричать от боли.</p>"
+                },
+                {
+                    "id": "Regeneration 25 (Deactivated by Holy or Silver)",
+                    "name": "Регенерация 25 (Святой или Серебро)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "Painsight",
+                    "name": "Чувство Боли",
+                    "description": "<p>Вельстрак автоматически знает, имеет ли существо, которое он видит, какие-либо из @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv], @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1], и @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2] состояний, а также значение этих состояний.</p>"
+                },
+                {
+                    "id": "Unnerving Gaze",
+                    "name": "Нервирующий взгляд",
+                    "description": "<p>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.v61oEQaDdcRpaZ9X]{Аура 30}. Когда существо завершает свой ход в ауре, оно должно успешно совершить @Check[will|dc:37] или стать @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1}.</p>"
+                },
+                {
+                    "id": "Focus Gaze",
+                    "name": "Фокусировать Взгляд",
+                    "description": "<p>Соннора смотрит на существо, которое она видит в пределах 30 футов. Цель должна совершить @Check[will|dc:37] против @UUID[Compendium.pf2e.stolen-fate-bestiary.Actor.9CR1pTY23jFPi5Xn.Item.70hKpMI6lW9A6okT] Соннорэ. Кроме того, если существо уже было @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречено}, при провале спасброска оно видит, как кожа его тела отходит, что делает его @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство} на время, пока оно остаётся обречён. После этого спасброска существо становится временно невосприимчивым до начала следующего хода Соннорэ.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "The Prince of Wolves": {
+			"name": "Принц Волков",
+            "tokenName": "Принц Волков",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/The-Prince-of-Wolves.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/The-Prince-of-Wolves.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "k4TvXsamE3BZrhHI",
+                    "name": "Моргенштерн"
+                },
+                {
+                    "id": "ayynYxDMOCcqdh46",
+                    "name": "Мрачный клинок"
+                },
+                {
+                    "id": "NQfUCh9kPfVKuiTn",
+                    "name": "Изменение формы",
+                    "description": "<p>Принц принимает свою гуманоидную форму, гибридную форму или форму волка. Находясь в гибридной форме, он получает Удар Челюстями. Находясь в животной форме, он получает эффекты заклинания @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Форма животного} Ранга 5 , чтобы стать собакой. Он предпочитает сражаться в гибридной форме.</p>"
+                },
+                {
+                    "id": "taFjFiB7BPLoR88m",
+                    "name": "Выслеживать добычу",
+                    "description": "<p>Принц назначает одну или две цели, которые он может видеть или слышать, как свою добычу. Он получает бонус обстоятельства +2 к проверкам Восприятия для @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Поиск} и @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Выслеживание} своей добычи.</p><p>Если он использует Выслеживать добычу против третьего существа, когда у него уже есть две назначенные цели, одно из ранее назначенных существ теряет это назначение. Его назначение длится до его следующих ежедневных приготовлений.</p>"
+                },
+                {
+                    "id": "qAKBIbB3NyNj4kh9",
+                    "name": "Удар в стычке",
+                    "description": "<p>Принц совершает @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB] а потом @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR], либо \"Удар\" а потом <em>\"Шаг\"</em>.</p>"
+                },
+                {
+                    "id": "Tear Fate",
+                    "name": "Разрыв Судьбы",
+                    "description": "<p><strong>Требования:</strong> Предыдущее действие Принца Волков было успешным ударом в ближнем бою.</p><hr><p>Принц Волков закручивает своё оружие в ранах, нанесённых существу, которое он только что поразил, а затем вырывает оружие. При этом он вырывает фрагменты судьбы этого существа, оставляя его с неудачей. Существо получает @Damage[12d6[mental]] (@Check[will|dc:38|basic]); при провале существо также становится @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречено 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречено 2} при критическом провале). Существо становится невосприимчивым к Разрыву Судьбы.</p>"
+                },
+                {
+                    "id": "E0fIhztOYczwAOr7",
+                    "name": "Парное парирование",
+                    "description": "<p><strong>Требование:</strong> Принц держит два оружия ближнего боя, каждое в другой руке.</p><hr><p>Принц получает бонус обстоятельства +1 к КБ до начала своего следующего хода, пока он продолжает соответствовать требованиям этой способности.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.eu2HidLHaGKe4MPn]</p>"
+                },
+                {
+                    "id": "KgIatydPQ8lDG95D",
+                    "name": "Парный удар",
+                    "description": "<p><strong>Требования:</strong> Вы владеете двумя оружиями ближнего боя, по одному в руке.</p><p><strong>Частота:</strong> 1/Раунд;</p><hr><p>Принц наносит два Удара по своей добыче, по одному с каждым из необходимых оружий. Если оба удара попадают в одну и ту же добычу, объедините их урон для целей её сопротивлений и слабостей. Примените его штраф множественных атак к каждому удару как обычно.</p>"
+                },
+                {
+                    "id": "+2 Item to Saves Vs. Fear and Effects That Render him Clumsy, Doomed, Drained, Enfeebled, or Fatigued",
+                    "name": "Бонус Предмета +2 пр. Страха и эффектов что накладывают Неуклюж, Обречен, Истощен, Ослаблен или Утомлен"
+                },
+                {
+                    "id": "iaxADgRZ2JRaQ2qJ",
+                    "name": "Восстановление",
+                    "description": "<p>Когда Принц Волков умирает, его душа немедленно отправляется к кристаллическому теневому стеллу в его логове. Его тело восстанавливается в течение 24 часов, полностью формируясь из теневой стеллы. Его можно навсегда убить только в том случае, если теневая стелла будет уничтожен.</p>"
+                },
+                {
+                    "id": "fWvNV9sjU5BkeCBU",
+                    "name": "Тактика стаи",
+                    "description": "<p>Если враг находится в пределах досягаемости Принца Волков и, по крайней мере, 2 его союзников, то этот враг для него @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут врасплох}.</p>"
+                },
+                {
+                    "id": "cArxbi5YQPh9tAT1",
+                    "name": "Внезапная атака 4d6",
+                    "description": "<p>Принц наносит дополнительный 4d6 точного урона существам, застигнутым врасплох.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Voricose": {
+			"name": "Варикоз",
+            "tokenName": "Варикоз",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/interlocutor.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-2/interlocutor.webp",
+            "description": "<p>Собеседники — самые талантливые хирурги-скульпторы вельстраков, вырезающие плоть и заменяющие ее новыми частями тела из мышц, сухожилий и металла. Каждый собеседник тщательно продумывает свой внешний вид, но все они представляют собой огромные сплетения множества самых крепких конечностей, плотных костей и острейшего металла, которые только они могут найти. Они постоянно ищут новые материалы для приращения к своим формам, а убитых ими врагов редко находят целыми, ведь для собеседников нет ничего ценнее ног, глаз или даже мозга сильного противника. Рост собеседников в среднем составляет @Unit[Foot|9]{9 футов}, а вес - около @Unit[Pound|800]{800 фунтов}.</p><hr><p>Поиск абсолютных ощущений через членовредительство — это ужасающее занятие обитающих в тенях бесов, известных как вельстраки. Они выходят за рамки своей стоической отрешенности только тогда, когда причиняют своим жертвам боль и ужас, практикуя новые формы пыток или обращая свои мучительные практики на самих себя. Вельстраки считают себя просветленными существами, преодолевшими такие ограничения, как мораль или смертные табу, но своим жертвам они известны как безэмоциональные мучители, причиняющие садистские страдания. Эти бесы утверждают, что стремятся к совершенству мысли, формы и действия, однако они не признают никакого совершенства, которое не требует болезненного отсечения плоти или духа.</p><p>Вельстраки проявляются из душ самых крайних мазохистов или садистов из числа смертных, которых осудили и отправили на <a href=\"https://clck.ru/rem3s\">Теневой План</a>. Они принимают формы, соответствующие их мерзким пристрастиям — от низкоранговых @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.BTQ2ARKulg5Egueg]{Авгуров} до маэстро страданий и увечий, называемых @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.hmnNDCNV425MisdA]{Отшельниками}. Этот процесс трансформации шаг за шагом искажает душу, а другие вельстраки проводят своих новых представителей через несметные комнаты боли в темных уголках Теневого Плана.</p><h2>Смертное название</h2><p>Некоторые смертные называют вельстраков \"кайтонами\" (англ. kytons), что является ошибкой, которую вельстраки воспринимают с холодным весельем. Термин \"кайтон\" означает мастера или виртуоза среди себе подобных, и этим бесам нравится, когда их называют мастерами их ужасных путей к совершенству через агонию.</p><h2>Вельстраки-божества</h2><p>Самые могущественные вельстраки — это уникальные божества, известные под общим названием как демагоги вельстраков — могущественные существа, которым часто поклоняются смертные, стремящиеся испытать новые мучительные откровения и обрести власть, усиливая тело через боль.</p><h2>Презренное происхождение</h2><p>Вельстраки возникли из первых порочных мыслей смертных, которые божественные существа сочли столь прискорбными, что заперли всех вельстраков в <a href=\"https://clck.ru/sVruX\">Аду</a>. Однако, вскоре, новообразовавшиеся существа сбежали из своей инфернальной тюрьмы на <a href=\"https://clck.ru/rem3s\">Теневой План</a>.</p><h2>Кузница теней</h2><p>Многие вельстраки поручают ковку своих цепей уникальным вельстракам, известным как альмонеры (almoners). Эти шестирукие безногие гуманоиды бесконечно трудятся в огромной пламенной литейной называемой \"Кузница Теней\". Алмонеры действуют по таинственным правилам, и с одинаковой вероятностью могут как отказать вельстраку, отправив его восвояси, так и вручить ему цепь тонкой работы еще до того, как он выскажет свою просьбу.</p><h2>Вельстраки Голариона</h2><p>Вельстраков чаще всего можно встретить в теневом царстве Нидал, где строго соблюдается государственное поклонение @UUID[Compendium.pf2e.deities.Item.ZfN7jkK6boU1FuiS]{Зон-Кутону}. По правде, многие вельстраки созданы из душ Счастливчиков (Joyful Things) — почитателей Зон-Кутона, которым ампутировали конечности, чтобы сосредоточить их разум на почитании боли, жертвенности и мучений.</p><h2>Остальные вельстраки</h2><p>Существует столько разновидностей вельстраков, сколько есть способов причинять боль. Они различаются по силе от относительно слабых лампадариев (lampadarius) до могущественных филакаторов (phylacator). Например, сравнительно миниатюрный певчий (cantor) вельстрак отравляет разум своих жертв так, что им кажется, будто их раздирают когтями изнутри. Могущественные @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.hmnNDCNV425MisdA]{Отшельники}, с другой стороны, ищут самых могущественных существ, чтобы поглотить их в свою форму и властвовать над всеми другими вельстраками, кроме демагогов.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "0wAXok0L4TEEqyiJ",
+                    "name": "Хлыст"
+                },
+                {
+                    "id": "Glimpse of Stolen Flesh",
+                    "name": "Проблеск украденной плоти",
+                    "description": "<p>30 футов.</p><hr><p>Когда существо заканчивает свой ход в этой ауре, оно видит части своего тела в облике тела собеседника. Существо должно совершить успешный спасбросок @Check[will|dc:33]{Воли}, иначе @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 1}.</p>"
+                },
+                {
+                    "id": "Regeneration 20 (Deactivated by Holy or Silver)",
+                    "name": "Регенервция 20 (Святой или Серебро)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "Painsight",
+                    "name": "Чувство Боли",
+                    "description": "<p>Вельстрак автоматически знает, имеются ли у видимого им существа состояния @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{При смерти} или @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ранен}, а также значения этих состояний.</p>"
+                },
+                {
+                    "id": "Focus Gaze",
+                    "name": "Сосредоточить взгляд",
+                    "description": "<p>Собеседник смотрит на существо в пределах 30 футов, которое он может видеть. Существо должно немедленно совершить спасбросок @Check[will|dc:33] против <em>\"Проблеска украденной плоти\"</em>. Кроме того, если существо уже было @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено}, то при провале спасброска оно ощущает как его внутренние органы скручиваются и извиваются и оно @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюже 2} на 1 минуту. После совершения спасброска, существо временно иммунно до начала следующего хода собеседника.</p>"
+                },
+                {
+                    "id": "Surgical Rend",
+                    "name": "Хирургический порез",
+                    "description": "<p>Это работает как умение @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.3JOi2cMcGhT3eze1]{Раздирать}, нанося урон когтем. В дополнение, если цель — живое существо с органами и мышцами, собеседник вскрывает точную рану. Пока существо не восстановит максимальное ОЗ и не закроет рану таким образом, \"Удары\" по нему наносят дополнительные 1d6 точного урона.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.9iL6CeZlmtIuAZOJ]</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Xiuli Cachu": {
+			"name": "Сиули Качу",
+            "tokenName": "Сиули Качу",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Xiuli-Cachu.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Xiuli-Cachu.webp",
+            "description": "<p>Происходящие от людей, давно исчезнувших из мира света, морлоки — жестокие монстры, обитающие в запутанных туннелях верхних районов Темных земель. Их жилистые тела скрывают силу конечностей и быстроту реакции, а руки достаточно длинны, чтобы они могли передвигаться на четырех конечностях с невероятной скоростью или скрытностью. Они уже не помнят, как жили их предки на поверхности, хотя многие морлоки до сих пор обитают в разрушенных руинах своих древних домов. Некоторые морлоки поклоняются статуям людей из тех ушедших эпох как богам, но другие теперь поклоняются Ламашту, Ровагугу или другим жестоким божествам.</p><p>Молодые морлоки ненасытны и жаждут даже малейшего кусочка пищи, даже съедают своих братьев и сестер, если нет другой еды. Большинство морлоков поощряют эту практику, чтобы их родовая группа в целом становилась сильнее.</p><p>Типичный морлок имеет рост чуть более @Unit[Foot|5]{5 футов} и весит около @Unit[Pound|150]{150 фунтов}.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "WjdfOh3H5jL4gm6b",
+                    "name": "Фальшион"
+                },
+                {
+                    "id": "NXk6QjCfO8eW6Txp",
+                    "name": "Внезапная Атака 3d6",
+                    "description": "<p>\"Удары\" существа наносят дополнительные 3d6 точного урона @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутым врасплох} существам.</p>"
+                },
+                {
+                    "id": "Swarming Stance",
+                    "name": "Роевая стойка",
+                    "description": "<p>Морлок может находиться в одном пространстве с другим морлоком, но одно и то же место могут занимать не более двух морлоков. Когда морлоки занимают одно и то же место, они получают бонус обстоятельства +1 к броскам атаки.</p>"
+                },
+                {
+                    "id": "Frenetic Casting",
+                    "name": "Неистовый Заклинатель",
+                    "description": "<p>Сиули совершает @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} со своей скоростью. В любой момент во время своего движения Сиули может @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотвор.Заклинания}, которое обычно требует двух действий или меньше для сотворения.</p>"
+                },
+                {
+                    "id": "Instinctual Tinker",
+                    "name": "Инстинктивный Ремесленник",
+                    "description": "<p>Морлок возится с соседним конструктом или механической опасностью. Он делает проверку @Check[crafting|defense:fortitude]{Ремесла} против КС Стойкости конструкта или опасности. Морлок не может получить успех если уровень цели больше чем удвоенный уровень морлока.</p><hr><p><strong>Критический успех:</strong> Цель получает @Damage[4d6[healing]]{4d6 ОЗ} ОЗ и бонус обстоятельства +1 к броскам атаки на 1 минуту.</p><p><strong>Успех:</strong> Цель получает @Damage[2d6[healing]]{2d6 ОЗ}.</p><p><strong>Критический провал:</strong> Морлок ранит себя, получая @Damage[2d6]{2d6 урона} (обычно @Damage[2d6[bludgeoning]]{дробящего}, @Damage[2d6[piercing]]{колющего} или @Damage[2d6[slashing]]{рубящего} урона, но потенциально и другого типа на усмотрение Мастера).</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.TEzLEXBZzNCp6flg]</p>"
+                },
+                {
+                    "id": "Bone Symbol of Lamashtu",
+                    "name": "Костяной Символ Ламашту",
+                    "description": "<p>Этот кусок кости гравирован изображением, представляющим божество. Некоторые сакральные заклинатели, такие как жрецы, могут использовать религиозный символ своего божества как сакральный фокус при использовании некоторых умений и сотворении некоторых заклинаний. Чтобы использовать религиозный символ, его надо держать в одной руке.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Ticktock": {
+			"name": "Тикток",
+            "tokenName": "Тикток",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ticktock.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Ticktock.webp",
+            "description": "<p>Ризничие это неудачники среди вельстраков, существа, чьи тела и разум были полностью сломлены пытками вельстраков. Эти бедолаги собраны в верных агентов из металлолома, плоти лишенной нервов и кусочков тьмы, и получающих восторженное удовольствие от служения другим вельстракам. Ризничие усилены благодаря миниатюрным вратам в Теневой План, расположенный глубоко во рту. Расширив челюсти, они могут завыть, с визгом и порывами ветра этого плана. Ризничие различаются по внешнему виду, но размером с искалеченного человека. Их черты избыточны или отсутствуют, а сами они обмотаны колючими и ржавыми цепями.</p><hr><p>Поиск абсолютных ощущений через членовредительство — это ужасающее занятие обитающих в тенях бесов, известных как вельстраки. Они выходят за рамки своей стоической отрешенности только тогда, когда причиняют своим жертвам боль и ужас, практикуя новые формы пыток или обращая свои мучительные практики на самих себя. Вельстраки считают себя просветленными существами, преодолевшими такие ограничения, как мораль или смертные табу, но своим жертвам они известны как безэмоциональные мучители, причиняющие садистские страдания. Эти бесы утверждают, что стремятся к совершенству мысли, формы и действия, однако они не признают никакого совершенства, которое не требует болезненного отсечения плоти или духа.</p><p>Вельстраки проявляются из душ самых крайних мазохистов или садистов из числа смертных, которых осудили и отправили на <a href=\"https://clck.ru/rem3s\">Теневой План</a>. Они принимают формы, соответствующие их мерзким пристрастиям — от низкоранговых @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.BTQ2ARKulg5Egueg]{Авгуров} до маэстро страданий и увечий, называемых @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.hmnNDCNV425MisdA]{Отшельниками}. Этот процесс трансформации шаг за шагом искажает душу, а другие вельстраки проводят своих новых представителей через несметные комнаты боли в темных уголках Теневого Плана.</p><h2>Смертное название</h2><p>Некоторые смертные называют вельстраков \"кайтонами\" (англ. kytons), что является ошибкой, которую вельстраки воспринимают с холодным весельем. Термин \"кайтон\" означает мастера или виртуоза среди себе подобных, и этим бесам нравится, когда их называют мастерами их ужасных путей к совершенству через агонию.</p><h2>Вельстраки-божества</h2><p>Самые могущественные вельстраки — это уникальные божества, известные под общим названием как демагоги вельстраков — могущественные существа, которым часто поклоняются смертные, стремящиеся испытать новые мучительные откровения и обрести власть, усиливая тело через боль.</p><h2>Презренное происхождение</h2><p>Вельстраки возникли из первых порочных мыслей смертных, которые божественные существа сочли столь прискорбными, что заперли всех вельстраков в <a href=\"https://clck.ru/sVruX\">Аду</a>. Однако, вскоре, новообразовавшиеся существа сбежали из своей инфернальной тюрьмы на <a href=\"https://clck.ru/rem3s\">Теневой План</a>.</p><h2>Кузница теней</h2><p>Многие вельстраки поручают ковку своих цепей уникальным вельстракам, известным как альмонеры (almoners). Эти шестирукие безногие гуманоиды бесконечно трудятся в огромной пламенной литейной называемой \"Кузница Теней\". Алмонеры действуют по таинственным правилам, и с одинаковой вероятностью могут как отказать вельстраку, отправив его восвояси, так и вручить ему цепь тонкой работы еще до того, как он выскажет свою просьбу.</p><h2>Вельстраки Голариона</h2><p>Вельстраков чаще всего можно встретить в теневом царстве Нидал, где строго соблюдается государственное поклонение @UUID[Compendium.pf2e.deities.Item.ZfN7jkK6boU1FuiS]{Зон-Кутону}. По правде, многие вельстраки созданы из душ Счастливчиков (Joyful Things) — почитателей Зон-Кутона, которым ампутировали конечности, чтобы сосредоточить их разум на почитании боли, жертвенности и мучений.</p><h2>Остальные вельстраки</h2><p>Существует столько разновидностей вельстраков, сколько есть способов причинять боль. Они различаются по силе от относительно слабых лампадариев (lampadarius) до могущественных филакаторов (phylacator). Например, сравнительно миниатюрный певчий (cantor) вельстрак отравляет разум своих жертв так, что им кажется, будто их раздирают когтями изнутри. Могущественные @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.hmnNDCNV425MisdA]{Отшельники}, с другой стороны, ищут самых могущественных существ, чтобы поглотить их в свою форму и властвовать над всеми другими вельстраками, кроме демагогов.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Tool Fingers",
+                    "name": "Пальцы-Клинки"
+                },
+                {
+                    "id": "Shadow Scream",
+                    "name": "Крик тени",
+                    "description": "<p><strong>Частота:</strong> Раз в час</p><hr><p><strong>Эффект:</strong> Ризничий открывает рот, чтобы высвободить визжащие завывания и коверкающую разум тьму Теневого Плана. Это создает вокруг ризничего @Template[emanation|distance:30]{30-футовую эманацию} тьмы и воющих звуков. Существа с @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6]{Ночным зрением} не могут видеть сквозь эту тьму. Ризничий может поддерживать <em>\"Крик тени\"</em> вплоть до 1 минуты. Существа, не являющиеся @Trait[Velstrac]{вельстраками}, находящиеся в этой области в момент использования данного умения, а также те, кто попадают в нее или начинают в ней свой ход, должны совершить спасбросок @Check[will|dc:37|traits:damaging-effect]{Воли}.</p><hr><p><strong>Критический успех:</strong> Существо невредимо и временно иммунно на 24 часа.</p><p><strong>Успех:</strong> Существо получает @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухоту} на 1 раунд.</p><p><strong>Провал:</strong> Существо в @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательстве} и @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глохнет} на 1 раунд.</p><p><strong>Критический провал:</strong> Существо получает @Damage[20[mental]]{20 ментального урона}, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательстве} и @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глохнет} на 1 раунд.</p>"
+                },
+                {
+                    "id": "Painsense",
+                    "name": "Чувство Боли",
+                    "description": "<p>Вельстрак автоматически знает, имеются ли у видимого им существа состояния @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{При смерти} или @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ранен}, а также значения этих состояний.</p>"
+                },
+                {
+                    "id": "Regeneration 15 (Deactivated by Holy or Silver)",
+                    "name": "Регенерация 15 (Святой/Серебро)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "Tick Tock Tick Tock",
+                    "name": "Тик Ток Тик Ток",
+                    "description": "<p>30 футов. Когда существо завершает свой ход в ауре, постоянные щелчки и тиканье, исходящие от ТикТока, проникают в его мысли и наполняют слушателя ощущением, что время ускоряется для всех, кроме него самого. Существо должно успешно совершить @Check[will|dc:34] или стать @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} (или @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2} при критическом провале) до конца своего следующего хода.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Vincuvicar": {
+			"name": "Тюремщик",
+            "tokenName": "Тюремщик",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vincuvicar.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vincuvicar.webp",
+            "description": "<p>Тюремные хранители среди вельстраков, Тюремщики процветают, лишая других свободы.</p><h2>Троны Тюремщиков</h2><p>Каждый Тюремщик обладает личным, шипованным железным троном — символом власти. Этот железный трон является объектом с прочностью 20 и 500 очками здоровья. Если трон тюремщика будет уничтожен, вельстрак должен вернуться в Теневой План, чтобы получить или создать замену.</p>",
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Animated Manacles",
+                    "name": "Ожившие Кандалы"
+                },
+                {
+                    "id": "KHxgR8lhG5mEopes",
+                    "name": "Двуручный Цеп"
+                },
+                {
+                    "id": "Painsense",
+                    "name": "Чувство Боли",
+                    "description": "<p>Вельстрак автоматически знает, имеются ли у видимого им существа состояния @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{При смерти} или @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Ранен}, а также значения этих состояний.</p>"
+                },
+                {
+                    "id": "Regeneration 25 (Deactivated by Holy or Silver)",
+                    "name": "Регенерация 25 (Святой/Серебро)",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+                },
+                {
+                    "id": "Alone and Forgotten",
+                    "name": "Одинокий и Забытый",
+                    "description": "<p>30 футов. Когда существо завершает свой ход в ауре, оно чувствует себя в заточении и должно успешно совершить @Check[will|dc:37] или стать @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 1} и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 1 Раунд.</p>"
+                },
+                {
+                    "id": "Institutionalized",
+                    "name": "Связь с Тюрьмой",
+                    "description": "<p>Тюремщик устанавливает связь с учреждением, которое содержит заключенных. Это занимает 1 день и заканчивает любую предыдущую связь, которую имел Тюремщик. Находясь в зоне тюрьмы, Тюремщик получает бонус состояния +2 к проверкам навыков и проверкам восприятия.</p>"
+                },
+                {
+                    "id": "Focus Gaze",
+                    "name": "Сфокусировать Взгляд",
+                    "description": "<p>Тюремщик смотрит на существо, которое он может видеть на расстоянии 30 футов. Существо должно совершить Спасбросок Воли против Одинокий и Забытый. Если существо уже было Ослаблено и Замедлено, при провале спасброска его безнадежность приводит к тому, что оно становится @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Ослаблен 2} и не может выполнить действие @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9], пока остается Ослаблен. После этого спасброска существо становится временно невосприимчивым до начала следующего хода Тюремщика.</p>"
+                },
+                {
+                    "id": "Shackle",
+                    "name": "Кандалы",
+                    "description": "<p><strong>Триггер:</strong> Существо в пределах 60 футов получает урон от удара Оживших Кандалов Тюремщика</p><hr><p>Существо должно совершить @Check[reflex|dc:40].</p><hr><p><strong>Крит. Успех:</strong> Существо избегает кандалов.</p><p><strong>Успех:</strong> Кандалы отвлекают существо, заставляя его стать @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] до конца его следующего хода.</p><p><strong>Провал:</strong> Кандалы сливаются на месте и связывают ноги и руки существа, пока оно не @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] (КC 40) или пока кандалы не будут уничтожены.</p><p><strong>Крит. Провал:</strong> Как Провал, но Существо также становится @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM].</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Vehanezhad": {
+			"name": "Веханежад",
+            "tokenName": "Веханежад",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vehanezhad.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/stolen-fate/Vehanezhad.webp",
+            "description": "<p>Добродушные, но тщеславные, кристаллические драконы — красивые существа с блестящей шкурой из разноцветных кристаллов и самоцветов. Их красота — предмет особой гордости, но в то же время и слабость, так как кристаллических драконов легко разозлить оскорблениями по поводу их внешности. Несмотря на относительно мягкий характер по сравнению с другими истинными драконами, кристаллические драконы могут быть вспыльчивы и склонны находить оскорбления там, где их не предполагалось. Хотя их мнения изменчивы, кристаллические драконы предпочитают упорядоченную обстановку и не любят внезапных прерываний или отвлечений.</p><p>Кристаллические драконы строят свои логова в подземных гротах, где они создают великолепно красивое окружение. Их строгие стандарты и живое воображение означают, что они постоянно работают над улучшением внешнего вида или планировки какой-либо части своего логова. Эти логова уникальны для каждого отдельного кристаллического дракона, но в них всегда есть множество отражающих поверхностей, которые позволяют дракону наблюдать за своим внешним видом. Они варьируются от кристаллов и отражающих бассейнов до зеркал тонкой работы, которые располагаются по всему логову в приятном для глаз порядке. Подарки в виде хорошо изготовленных или волшебных зеркал — отличный способ добиться расположения кристаллического дракона.</p><p>Хотя кристаллические драконы легко отвлекаются на свои сверкающие коллекции или тщеславие, в основе своей они остаются добросердечными существами и быстро заводят друзей. Хотя кристаллический дракон склонен считать злых существ неотесанными и неприятными, любой другой житель или обитатель его дома может быстро стать другом или любимым питомцем, в зависимости от способности существа к общению (и частым похвалам и комплиментам, которых жаждут кристаллические драконы).</p><hr><p>Странные и потусторонние природные драконы родом из реальностей, соседствующих с <a href=\"https://clck.ru/pxYdf\">Материальным Планом</a> — четырех Планов Стихий и <a href=\"https://clck.ru/rem3s\">Теневым Планом</a>. Эти истинные драконы обладают характером и силой, соответствующими их плану происхождения, и склонностью к <a href=\"https://clck.ru/jjeJw\"><em>`природной`</em></a> магии, в отличие от цветных и металлических драконов, которые предпочитают <a href=\"https://clck.ru/jjcSG\"><em>`арканную`</em></a> или <a href=\"https://clck.ru/kjA84\"><em>`сакральную`</em></a> магию. Хотя природные драконы происходят с далеких планов, на Материальном Плане их можно встретить в регионах, затронутых их родным планом или напоминающих его. Хотя такие столкновения редки, искатели приключений и путешественники иногда находят, например, водного дракона, обитающего у соленого шельфового моря, или кристаллического дракона, живущего в массивных естественных пещерах в глубине Темноземья. В отличие от цветных и металлических драконов, природные драконы, как правило, не развивают способностей к изменению формы, и они менее заинтересованы в проникновении в поселения или влиянии на других из тени.</p><h2>Шардизад</h2><p>Еще относительно молодая кристаллическая драконица, Шардизад уже сделала себе имя в городе Вати, в Осирионе. Она взяла на себя несколько необычную роль лавочника в некрополе этого города, где охотно обменивает собранные ею магические предметы на драгоценные камни.</p><h2>Природные драконы заклинатели</h2><p>Каждый вид природного дракона имеет сноску, посвященную драконам-заклинателям этого типа. Чтобы сделать природного дракона-заклинателя, уберите у него умения \"Драконье неистовство\" и \"Драконий импульс\" и дайте ему указанные заклинания. Вы можете заменить любое количество этих заклинаний на другие <a href=\"https://clck.ru/eSBAp\">природные заклинания</a>, при условии, что вы сохраните такое же количество заклинаний для каждого уровня. Возможно, вы также захотите увеличить у дракона модификатор <strong>Мудрости</strong> или <strong>Харизмы</strong> на 1 или 2, чтобы отразить его владение магией.</p><h2>Природные драконы Голариона</h2><p>Голарион не является домом для многих природных драконов. Однако они все же время от времени приходят в Голарион, спасаясь от преследований на своем родном плане, строя новые логова, мучая более слабых существ или издеваясь над ними, или ища знания и ресурсы, которые скудны или недоступны на родине.</p><p>Водных драконов можно встретить вдоль береговой линии Голариона, но их часто беспокоят пиратство и другие беззаконные элементы. Они стараются избегать густонаселенных прибрежных районов, таких как Кандалы, и выбирают в качестве дома отдаленные острова в океанах, где они могут управлять небольшими общинами, взращенными по своему усмотрению. Облачные драконы еще более изолированы, и, не интересуясь политикой, предпочитая селиться в больших горных массивах, таких как Кодары или Барьерная Стена. Тщеславие кристаллических драконов заставляет их искать места, дополняющие их естественную красоту, например, усыпанные драгоценными камнями пещеры в Темноземье. Из всех природных драконов чаще всего на Голарионе обитают сварливые магматические драконы, которых привлекают вулканические хребты, такие как Горы Пяти Королей. Теневые драконы родом не со Стихийного Плана, а с Теневого, и их можно встретить везде, где границы с этим планом истончаются, особенно в зловещем государстве Нидал.</p><h2>Клады природных драконов</h2><p>Может природные драконы и происходят с других планов бытия, в отличие от цветных или металлических драконов, но у них есть одна общая черта с этими видами — одержимость сокровищами. Конкретные детали о том, какие сокровища предпочитает каждая категория природных драконов, подробно описаны в их соответствующих разделах; помимо этих общих рекомендаций, сокровища в кладе дракона должны соответствовать тематике этого вида дракона. Например, сокровища водного дракона должны иметь морскую тематику, в то время как теневой дракон будет собирать сокровища мрачного и теневого характера; кристаллический дракон сосредоточен на драгоценных камнях, а облачный дракон ищет предметы, дарующие полет или издающие экзотический аромат. Из них всех, клады магматического дракона больше всего похожи на клады классического дракона — при условии, что собранные предметы смогут выжить при палящих температурах, которые обычно присутствуют в вулканических норах этих драконов!</p><h2>Религия природных драконов</h2><p>Хотя религиозные природные драконы иногда поклоняются @UUID[Compendium.pf2e.deities.Item.o8ayCv3LAHWlu0vQ]{Апсу} или @UUID[Compendium.pf2e.deities.Item.Bzfc5mIUfMxOnQWu]{Дахаку} (какого бога-дракона они предпочитают, зависит от их отношения к добру или злу), большинство предпочитает поклоняться божествам стихий.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "1M2I2905EVmXay9H",
+                    "name": "Драконье неистовство",
+                    "description": "<p>Дракон в любом порядке наносит 2 \"Удара\" когтями и 1 \"Удар\" хвостом.</p>"
+                },
+                {
+                    "id": "JLqzN2RUPFKa8beH",
+                    "name": "Отражение заклинания",
+                    "description": "<p><strong>Триггер:</strong> Кристаллический дракон является целью дистанционной атаки заклинанием</p><hr><p><strong>Эффект:</strong> Кристаллический дракон смещает крыло, пытаясь отразить заклинание и получает бонус обстоятельства +4 к КБ против спровоцировавшей атаки. Если атака промахивается, заклинание отражено обратно в заклинателя, который должен совершить новый бросок дистанционной атаки заклинанием по своему КБ, чтобы определить, попало ли в него заклинание.</p>"
+                },
+                {
+                    "id": "Crystallize Flesh",
+                    "name": "Кристаллизация плоти",
+                    "description": "<p><strong>Триггер:</strong> Кристаллический дракон наносит урон \"Ударом\" челюстей существу из плоти</p><p><strong>Частота:</strong> 3 раза в день</p><hr><p><strong>Эффект:</strong> Дракон врезает трансформирующие кристаллы в плоть существа. Существо должно совершить @Check[fortitude|dc:40].</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 1} на 1 раунд, так как часть его плоти превращена в кристалл.</p><p><strong>Провал:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 1} и должна совершать спасбросок Стойкости в конце каждого своего хода; этот продолжающийся спасбросок имеет признак @Trait[Incapacitation]{недееспособность}. При провале, величина состояния @Condition[Slowed]{замедлен} увеличивается на 1 (или на 2 при критическом провале). Успешный спасбросок снижает состояние @Condition[Slowed]{замедлен} на 1. Существо неспособное действовать из-за состояния @Condition[Slowed]{замедления} <em>\"Кристаллизации плоти\"</em> временно становится @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Окаменевшим} становясь кристаллической статуей. Этот эффект заканчивается, если у существа снято состояние @Condition[Slowed]{замедления} или @Condition[Petrified]{окаменения}.</p><p><strong>Критический провал:</strong> Как провал, но цель изначально @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлена 2}.</p>"
+                },
+                {
+                    "id": "h69jYWXNKYbuTyzE",
+                    "name": "Атака дыханием",
+                    "description": "<p>Дракон выдыхает шквал колющих кристаллов @Template[cone|distance:60] наносящих @Damage[19d6[piercing]] (@Check[reflex|dc:38|basic]).</p><p>Он не может снова использовать <em>\"Атаку дыханием\"</em> [[/br 1d4 #Перезарядка атаки дыханием]]{1d4 раунда}.</p>"
+                },
+                {
+                    "id": "Extra Reaction",
+                    "name": "Дополнительная реакция",
+                    "description": "<p>В начале каждого своего хода дракон получает 2 реакции.</p>"
+                },
+                {
+                    "id": "PbQYJStaqe1nhRUn",
+                    "name": "Устрашающее присутствие",
+                    "description": "<p>90 футов. @Check[will|dc:37]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+                },
+                {
+                    "id": "Scintillating Aura",
+                    "name": "Сверкающая аура",
+                    "description": "<p>30 футов.</p><hr><p>Вокруг кристаллического дракона мерцает вихрь отраженного цвета и света. Существа в эманации этой ауры @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплены}. Каждое существо заканчивающее свой ход в данной эманации, должно совершить успешный спасбросок @Check[will|dc:37]{Воли}, иначе будет @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 1} (или @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлено 3} при крит.провале). При успехе спасброска, оно временно иммунно к этому ошеломляющему эффекту на 1 минуту.</p><p>Кристаллический дракон может включить или выключить эту ауру одиночным действием (<span class=\"action-glyph\">1</span>), имеющим признак @Trait[Concentrate]{концентраци}, и он может не воздействовать на союзников.</p>"
+                },
+                {
+                    "id": "Crystal Corruption",
+                    "name": "Кристаллическое Заражение",
+                    "description": "<p>Существа, пораженные этим проклятием, медленно превращаются в твердый кристалл. Состояния тошноты, замедления и паралича, вызванные этим недугом, не могут быть устранены, пока сам недуг не будет снят. Существа, обладающие одновременно признаками земли и элементаль, вместо этого становятся носителями и не испытывают никаких негативных эффектов, кроме получения слабости к звуку.</p><p><strong>Спасбросок:</strong> @Check[fortitude|dc:40]</p><p><strong>Стадия 1:</strong> Тошнота 1 (1 Час)</p><p><strong>Стадия 2:</strong> слабость 5 к звуку и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (1 День)</p><p><strong>Стадия 3:</strong> слабость 5 к звуку и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} (1 День)</p><p><strong>Стадия 4:</strong> слабость 10 к звуку и @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} (1 День)</p><p><strong>Стадия 5:</strong> слабость 10 к звуку, и существо становится навсегда @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Окаменевшим}.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
 
 
 
@@ -2480,14 +3408,8 @@
 		"Cluster Heart": {
 			"name": "Cluster Heart"
 		},
-		"Derhii": {
-			"name": "Derhii"
-		},
 		"Diskrasia The Sharp": {
 			"name": "Diskrasia The Sharp"
-		},
-		"Ephialtes": {
-			"name": "Ephialtes"
 		},
 		"Fabled Harrowkin": {
 			"name": "Fabled Harrowkin"
@@ -2498,29 +3420,17 @@
 		"Gegnir": {
 			"name": "Gegnir"
 		},
-		"Guardian Aluum": {
-			"name": "Guardian Aluum"
-		},
 		"Hala The Rod": {
 			"name": "Hala The Rod"
 		},
 		"Ildamir": {
 			"name": "Ildamir"
 		},
-		"Katpaskir": {
-			"name": "Katpaskir"
-		},
 		"Maggot Pit": {
 			"name": "Maggot Pit"
 		},
-		"Markish Aghayarea": {
-			"name": "Markish Aghayarea"
-		},
 		"Mighty Bul-Gae": {
 			"name": "Mighty Bul-Gae"
-		},
-		"Mogaran": {
-			"name": "Mogaran"
 		},
 		"Nornhound": {
 			"name": "Nornhound"
@@ -2530,9 +3440,6 @@
 		},
 		"Phasmadaemon": {
 			"name": "Phasmadaemon"
-		},
-		"Quoppopak Mummy": {
-			"name": "Quoppopak Mummy"
 		},
 		"Raven Nicoletta": {
 			"name": "Raven Nicoletta"
@@ -2551,9 +3458,6 @@
 		},
 		"Smith's Skull": {
 			"name": "Smith's Skull"
-		},
-		"Sonnorae": {
-			"name": "Sonnorae"
 		},
 		"Speaker Of Svaryr": {
 			"name": "Speaker Of Svaryr"
@@ -2606,9 +3510,6 @@
 		"The Peacock": {
 			"name": "The Peacock"
 		},
-		"The Prince of Wolves": {
-			"name": "The Prince of Wolves"
-		},
 		"The Queen Mother": {
 			"name": "The Queen Mother"
 		},
@@ -2629,24 +3530,6 @@
 		},
 		"The Winged Serpent": {
 			"name": "The Winged Serpent"
-		},
-		"Ticktock": {
-			"name": "Ticktock"
-		},
-		"Torgral": {
-			"name": "Torgral"
-		},
-		"Vehanezhad": {
-			"name": "Vehanezhad"
-		},
-		"Vincuvicar": {
-			"name": "Vincuvicar"
-		},
-		"Voricose": {
-			"name": "Voricose"
-		},
-		"Xiuli Cachu": {
-			"name": "Xiuli Cachu"
 		},
 		"Zellara Esmeranda": {
 			"name": "Zellara Esmeranda"
