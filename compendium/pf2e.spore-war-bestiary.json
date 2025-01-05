@@ -1,0 +1,312 @@
+{
+	"label": "Война Спор",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink",
+        "scaleX": "prototypeToken.texture.scaleX",
+        "scaleY": "prototypeToken.texture.scaleY"
+    },
+	"entries": {
+		"Alzarius": {
+			"name": "Альзариус",
+            "tokenName": "Альзариус",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "adQr6C0gqOGW0dth",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "aW0lnwgZJkVdfcIP",
+                    "name": "Кинжал"
+                },
+                {
+                    "id": "o7Lnal1I3y5DOgXx",
+                    "name": "Посох"
+                },
+                {
+                    "id": "Snowcaster's Staff",
+                    "name": "Посох Заклинателя Зимы",
+                    "description": "<p>Этот Разящий Мороздный Посох +2 - семейная реликвия, подаренная Альзариусу его матерью, когда он принял решение остаться в Ксере. Он утверждает, что этот дар передавался из поколения в поколение в его семье.</p><hr><p><strong>Активация</strong>: @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания}</p><p><strong>Эффект</strong>: Вы тратите количество зарядов из посоха, чтобы сотворить заклинание из его списка</p><ul><li><strong>Чары: </strong>@UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]</li><li><strong>2-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]</li><li><strong>3-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3], @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]</li><li><strong>4-й: </strong>@UUID[Compendium.pf2e.spells-srd.Item.kHyjQbibRGPNCixx], @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n], @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]</li><li><strong>5-й: </strong>@UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU], @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]</li></ul>"
+                },
+                {
+                    "id": "Razmir mask and robes",
+                    "name": "Маска и мантия Размира"
+                },
+                {
+                    "id": "Quickened Casting",
+                    "name": "Ускоренное колдовство",
+                    "description": "<p><strong>Частота:</strong> 1/День</p><hr><p>Альзариус может использовать заклинание более эффективно. Если его следующим действием будет сотворение чар или заклинания до 4-го ранга, он сократит количество действий, необходимых для его сотворения, на 1 (минимум на 1 действие).</p>"
+                },
+                {
+                    "id": "Masked Lies",
+                    "name": "Замаскированная ложь",
+                    "description": "<p>Пока Альзариус носит маску Размира, очень трудно определить, лжет ли он. Все проверки на Восприятие, позволяющие распознать его Обман, получают штраф обстоятельства -4.</p>"
+                },
+                {
+                    "id": "Skilled Diplomat",
+                    "name": "Опытный дипломат",
+                    "description": "<p>Всякий раз, когда Альзариус пытается @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Произвести впечатление} с помощью Дипломатии, он может совершить проверку против КС Воли до 50 существ одновременно. Если он сосредоточен на том, чтобы Произвести Впечатление только на одной цели, он расценивает успех как критический.</p><p>Наконец, всякий раз, когда он обращается к цели с @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Просьба}, он может обращаться с ней так, как если бы отношение цели к нему было на шаг лучше, чем оно есть на самом деле, при условии, что оно не является @UUID[Compendium.pf2e.conditionitems.ud7gTLwPeklzYSXG]{Враждебный}.</p>"
+                },
+                {
+                    "id": "Frozen Bloodline",
+                    "name": "Зимние Наследие Крови",
+                    "description": "<p>Наследие крови Альзариуса связано со стихией воды, особенно с ее проявлениями в виде льда или снега. Когда он сотворяет заклинание, наносящее урон холода, цель получает дополнительный 1 урон холода за каждый ранг заклинания.</p>"
+                },
+                {
+                    "id": "Signature Spells",
+                    "name": "Коронные заклинания",
+                    "description": "<p>Альзариус может сотворять @UUID[Compendium.pf2e.spells-srd.Item.oUDNCArkQTdhllxD], @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0], @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs], @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU] и @UUID[Compendium.pf2e.spells-srd.Item.kHyjQbibRGPNCixx] более высокого ранга, потратив слот заклинание этого ранг.</p>"
+                },
+                {
+                    "id": "Snowcaster's Legacy",
+                    "name": "Наследие Заклинателя Зимы",
+                    "description": "<p>Когда Альзариус наносит урон @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}, он наносит дополнительный 2d6 урон холодом, поскольку осколки льда и порывы ледяного ветра наносят урон по существу.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Captain Talymir": {
+			"name": "Капитан Талимир",
+            "tokenName": "Капитан Талимир",
+			"img": "",
+            "tokenImg": "",
+            "description": "<p>Могильные рыцари — это воины-нежить, получившие нежизнь от проклятого доспеха.</p>",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Fist",
+                    "name": "Кулак"
+                },
+                {
+                    "id": "Frost Composite Longbow",
+                    "name": "Морозный композитный длинный лук"
+                },
+                {
+                    "id": "Frost Greatsword",
+                    "name": "Морозный двуручный меч"
+                },
+                {
+                    "id": "Reactive Strike",
+                    "name": "Реагирующий удар",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+                },
+                {
+                    "id": "Devastating Blast",
+                    "name": "Разрушительный взрыв",
+                    "description": "<p>Могильный рыцарь выпускает @Template[cone|distance:30]. Существа в области получают @Damage[12d6[cold]] с @Check[reflex|dc:30|basic].</p><p>Могильный рыцарь не может использовать эту способность снова [[/br 1d4 #Перезарядка разрушительного взрыва]]{1d4 раунда}.</p>"
+                },
+                {
+                    "id": "Sacrilegious Aura",
+                    "name": "Святотатственная аура",
+                    "description": "<p>30 футов.</p><hr><p>Когда существо в ауре использует заклинание или способность с признаком @Trait[Vitality]{жизненность}, могильный рыцарь автоматически пытается противодействовать ему с модификатором противодействия [[/r 1d20+18 #Противодействие]]{+18}.</p>"
+                },
+                {
+                    "id": "Graveknight's Curse",
+                    "name": "Проклятие могильного рыцаря",
+                    "description": "<p>Это проклятие действует на всех, кто носит доспехи могильного рыцаря не менее 1 часа.</p><p><strong>Спасбросок:</strong> @Check[will|dc:34]</p><hr><p><strong>Возникновение:</strong> 1 час</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1} и не может снять доспех (1 день)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 2}, штраф −10 футов к Скоростям и не может снять доспех (1 день)</p><p><strong>Стадия 3:</strong> умирает и превращается в могильного рыцаря этих доспехов.</p>"
+                },
+                {
+                    "id": "Weapon Master",
+                    "name": "Мастер оружия",
+                    "description": "<p>Могильный рыцарь получает доступ к критическим специализациям любого оружия, которым он владеет.</p>"
+                },
+                {
+                    "id": "Dragon Bonded",
+                    "name": "Связь с драконом",
+                    "description": "<p>Капитан Талимир невосприимчив к Устрашающему присутствию Улугурникса, его Атаке дыханием и Вони.</p><p>Если Улугурникс будет уничтожен, Капитан Талимир придет в ярость. Он наносит 2 дополнительных урона при ударах в ближнем бою и становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 3 раунда; он может использовать это дополнительное действие для Перемещение или Удар.</p>"
+                }
+            ]
+		},
+		"Degholau": {
+			"name": "Degholau"
+		},
+		"Delvarnis": {
+			"name": "Delvarnis"
+		},
+		"Enhanced Fireball Rune": {
+			"name": "Enhanced Fireball Rune"
+		},
+		"Eshmok": {
+			"name": "Eshmok"
+		},
+		"Fungal Flytrap": {
+			"name": "Fungal Flytrap"
+		},
+		"Fungal Heart": {
+			"name": "Fungal Heart"
+		},
+		"Grizzer": {
+			"name": "Grizzer"
+		},
+		"Lukarazyll": {
+			"name": "Lukarazyll"
+		},
+		"Razmiri Blade Assassin": {
+			"name": "Razmiri Blade Assassin"
+		},
+		"Root Rotter": {
+			"name": "Root Rotter"
+		},
+		"Rotting Cultist": {
+			"name": "Rotting Cultist"
+		},
+		"Sewer Pipe Trap": {
+			"name": "Sewer Pipe Trap"
+		},
+		"Sinmold": {
+			"name": "Sinmold"
+		},
+		"Spear Jaw Trap": {
+			"name": "Spear Jaw Trap"
+		},
+		"Spore Tyrannosaurus": {
+			"name": "Spore Tyrannosaurus"
+		},
+		"Tanglebriar Isqulug": {
+			"name": "Tanglebriar Isqulug"
+		},
+		"Tithekeeper": {
+			"name": "Tithekeeper"
+		},
+		"Ulugurnix": {
+			"name": "Ulugurnix"
+		},
+		"Vintalax, The Rotting God": {
+			"name": "Vintalax, The Rotting God"
+		},
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "appendNumber": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		}
+	}
+}
