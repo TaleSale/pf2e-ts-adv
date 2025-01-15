@@ -1,5 +1,50 @@
-2025/01/07-09:51:56.678 3318 Recovering log #5494
-2025/01/07-09:51:56.681 3318 Level-0 table #5496: started
-2025/01/07-09:51:56.806 3318 Level-0 table #5496: 363984 bytes OK
-2025/01/07-09:51:56.889 3318 Delete type=0 #5494
-2025/01/07-09:51:56.890 3318 Delete type=3 #5493
+2025/01/15-09:46:32.687 3d14 Recovering log #5581
+2025/01/15-09:46:32.946 3d14 Delete type=0 #5581
+2025/01/15-09:46:32.946 3d14 Delete type=3 #5579
+2025/01/15-10:25:45.590 2a58 Level-0 table #5586: started
+2025/01/15-10:25:45.850 2a58 Level-0 table #5586: 288729 bytes OK
+2025/01/15-10:25:45.891 2a58 Delete type=0 #5584
+2025/01/15-10:25:45.956 2a58 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!folders!ado5IFr1eddtuCln' @ 463 : 1
+2025/01/15-10:25:45.956 2a58 Compacting 1@0 + 0@1 files
+2025/01/15-10:25:46.078 2a58 Generated table #5587@0: 1 keys, 287331 bytes
+2025/01/15-10:25:46.256 2a58 Generated table #5588@0: 1 keys, 560 bytes
+2025/01/15-10:25:46.256 2a58 Compacted 1@0 + 0@1 files => 287891 bytes
+2025/01/15-10:25:46.283 2a58 compacted to: files[ 0 2 15 0 0 0 0 ]
+2025/01/15-10:25:46.283 2a58 Delete type=2 #5586
+2025/01/15-10:25:46.288 2a58 Manual compaction at level-0 from '!folders!ado5IFr1eddtuCln' @ 463 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2025/01/15-10:25:46.288 2a58 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!folders!ado5IFr1eddtuCln' @ 463 : 1
+2025/01/15-10:25:46.288 2a58 Compacting 2@1 + 15@2 files
+2025/01/15-10:25:46.505 2a58 Generated table #5589@1: 11 keys, 2692454 bytes
+2025/01/15-10:25:46.755 2a58 Generated table #5590@1: 4 keys, 4917258 bytes
+2025/01/15-10:25:47.045 2a58 Generated table #5591@1: 6 keys, 2719389 bytes
+2025/01/15-10:25:47.325 2a58 Generated table #5592@1: 3 keys, 4405653 bytes
+2025/01/15-10:25:47.773 2a58 Generated table #5593@1: 10 keys, 2547859 bytes
+2025/01/15-10:25:48.033 2a58 Generated table #5594@1: 5 keys, 2974081 bytes
+2025/01/15-10:25:48.715 2a58 Generated table #5595@1: 7 keys, 2763531 bytes
+2025/01/15-10:25:49.036 2a58 Generated table #5596@1: 5 keys, 2798516 bytes
+2025/01/15-10:25:49.781 2a58 Generated table #5597@1: 5 keys, 3261523 bytes
+2025/01/15-10:25:50.445 2a58 Generated table #5598@1: 6 keys, 3495602 bytes
+2025/01/15-10:25:50.910 2a58 Generated table #5599@1: 8 keys, 2675820 bytes
+2025/01/15-10:25:51.705 2a58 Generated table #5600@1: 3 keys, 2701169 bytes
+2025/01/15-10:25:52.173 2a58 Generated table #5601@1: 2 keys, 4061074 bytes
+2025/01/15-10:25:52.507 2a58 Generated table #5602@1: 22 keys, 1475510 bytes
+2025/01/15-10:25:52.507 2a58 Compacted 2@1 + 15@2 files => 43489439 bytes
+2025/01/15-10:25:52.583 2a58 compacted to: files[ 0 0 14 0 0 0 0 ]
+2025/01/15-10:25:52.583 2a58 Delete type=2 #4866
+2025/01/15-10:25:52.583 2a58 Delete type=2 #4999
+2025/01/15-10:25:52.584 2a58 Delete type=2 #5059
+2025/01/15-10:25:52.584 2a58 Delete type=2 #5111
+2025/01/15-10:25:52.585 2a58 Delete type=2 #5362
+2025/01/15-10:25:52.585 2a58 Delete type=2 #5363
+2025/01/15-10:25:52.585 2a58 Delete type=2 #5364
+2025/01/15-10:25:52.585 2a58 Delete type=2 #5365
+2025/01/15-10:25:52.586 2a58 Delete type=2 #5366
+2025/01/15-10:25:52.586 2a58 Delete type=2 #5368
+2025/01/15-10:25:52.587 2a58 Delete type=2 #5369
+2025/01/15-10:25:52.587 2a58 Delete type=2 #5370
+2025/01/15-10:25:52.587 2a58 Delete type=2 #5414
+2025/01/15-10:25:52.588 2a58 Delete type=2 #5506
+2025/01/15-10:25:52.588 2a58 Delete type=2 #5512
+2025/01/15-10:25:52.588 2a58 Delete type=2 #5587
+2025/01/15-10:25:52.589 2a58 Delete type=2 #5588
+2025/01/15-10:25:52.995 2a58 Manual compaction at level-1 from '!folders!ado5IFr1eddtuCln' @ 463 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
