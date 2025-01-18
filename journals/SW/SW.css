@@ -111,8 +111,7 @@
   line-height: 1.2; /* Высота строки */
   text-align: justify; /* Выровнять текст по ширине */
   position: relative; /* Для позиционирования псевдоэлементов */
-  padding: 20px 0; /* Отступы сверху и снизу для псевдоэлементов */
-  background: #f8f8eb;
+  padding: 5px 5px; /* Отступы сверху и снизу для псевдоэлементов */
 }
 
 .SW blockquote::before,
