@@ -1,81 +1,33 @@
-Hooks.on('preUpdateToken', async (scene, tokenDocument, updateData, options) => {
-  // Проверяем, изменилось ли положение токена
-  if (!('x' in updateData || 'y' in updateData)) {
-    return;
-  }
+// Отслеживание движения токенов по опасной зоне ауры эффекта
+Hooks.on('updateToken', async (scene, token, update) => {
+  if (!update.x && !update.y) return;
 
-  const tokenId = tokenDocument.id;
-  const currentToken = canvas.tokens.get(tokenId);
-  if (!currentToken) return;
+  const tokenObject = canvas.tokens.get(token._id);
+  if (!tokenObject) return;
 
-  // Получаем предыдущие координаты токена
-  const previousX = tokenDocument.x;
-  const previousY = tokenDocument.y;
+  const hazardousEffect = tokenObject.actor?.effects.find(e => e.name.startsWith("Hazardous Terrain"));
+  if (!hazardousEffect) return;
 
-  // Получаем новые координаты токена
-  const newX = updateData.x !== undefined ? updateData.x : previousX;
-  const newY = updateData.y !== undefined ? updateData.y : previousY;
+  const damageMatch = hazardousEffect.name.match(/(\d+d\d+)\s*(\w+)/);
+  if (!damageMatch) return;
 
-  // Функция для проверки, находится ли точка внутри квадрата ауры
-  function isPointInAura(pointX, pointY, auraToken, auraRange) {
-    const auraTokenCenter = auraToken.getCenter(0, 0);
-    const dx = Math.abs(pointX - auraTokenCenter.x);
-    const dy = Math.abs(pointY - auraTokenCenter.y);
-    const gridSize = canvas.grid.size;
-    return dx <= (auraRange * gridSize) / 2 && dy <= (auraRange * gridSize) / 2;
-  }
+  const [_, formula, type] = damageMatch;
+  const damageData = { formula, type };
 
-  // Функция для проверки, пересекает ли токен квадрат ауры
-  function didTokenCrossAura(prevX, prevY, newX, newY, auraToken, auraRange) {
-    const gridSize = canvas.grid.size;
-    const prevCenter = { x: prevX + currentToken.width * gridSize / 2, y: prevY + currentToken.height * gridSize / 2 };
-    const newCenter = { x: newX + currentToken.width * gridSize / 2, y: newY + currentToken.height * gridSize / 2 };
+  // Создание сообщения об уроне
+  const messageContent = `/r ${damageData.formula}[${damageData.type}]`;
+  const chatMessage = await ChatMessage.create({ content: messageContent, speaker: { alias: tokenObject.name } });
 
-    // Проверяем, был ли предыдущий центр вне ауры, а новый внутри
-    const wasOutside = !isPointInAura(prevCenter.x, prevCenter.y, auraToken, auraRange);
-    const isInside = isPointInAura(newCenter.x, newCenter.y, auraToken, auraRange);
+  // Ждём, пока сообщение появится в чате, и находим его DOM-элемент
+  Hooks.once('renderChatMessage', (message, html) => {
+      if (message.id !== chatMessage.id) return;
 
-    return wasOutside && isInside;
-  }
-
-  // Ищем все эффекты на сцене
-  const allEffects = scene.tokens.reduce((acc, t) => {
-    t.actor?.effects.forEach(effect => acc.push({ effect, token: t }));
-    return acc;
-  }, []);
-
-  // Фильтруем эффекты, названия которых начинаются с "Hazardous Terrain"
-  const hazardousTerrainEffects = allEffects.filter(item => item.effect.name?.startsWith("Hazardous Terrain"));
-
-  for (const hazardousTerrainEffectData of hazardousTerrainEffects) {
-    const effect = hazardousTerrainEffectData.effect;
-    const effectToken = hazardousTerrainEffectData.token;
-
-    // Проверяем, есть ли у эффекта аура
-    const auraRange = effect.flags?.tokenauras?.aura?.radius;
-    console.log(`Аура эффекта "${effect.name}" на токене "${effectToken.name}":`, auraRange); // Добавлена отладка
-
-    if (auraRange) {
-      if (didTokenCrossAura(previousX, previousY, newX, newY, effectToken, auraRange)) {
-        // Извлекаем формулу урона и тип урона из названия эффекта
-        const match = effect.name.match(/^Hazardous Terrain\s+(.+)\s+(.+)$/);
-        if (match) {
-          const damageFormula = match[1];
-          const damageType = match[2];
-
-          // Отправляем сообщение в чат с броском урона
-          ChatMessage.create({
-            content: `/r ${damageFormula}[${damageType}]`,
-            speaker: { alias: effectToken.name },
-          });
-
-          // Опционально: Добавьте повествовательное сообщение
-          ChatMessage.create({
-            content: `${currentToken.name} проходит через опасную область от ${effectToken.name}.`,
-            speaker: { alias: "Система" },
-          });
-        }
+      const applyDamageButton = html[0].querySelector('button[data-action="apply-damage"]');
+      if (applyDamageButton) {
+          // Эмулируем нажатие на кнопку «Нанести урон»
+          applyDamageButton.click();
+      } else {
+          console.error('Кнопка "Нанести урон" не найдена в сообщении.');
       }
-    }
-  }
+  });
 });

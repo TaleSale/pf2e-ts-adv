@@ -1,16 +1,44 @@
-2025/01/18-22:49:32.237 fac Recovering log #5629
-2025/01/18-22:49:32.475 fac Delete type=0 #5629
-2025/01/18-22:49:32.475 fac Delete type=3 #5628
-2025/01/19-00:09:36.051 2628 Level-0 table #5633: started
-2025/01/19-00:09:36.283 2628 Level-0 table #5633: 1002002 bytes OK
-2025/01/19-00:09:36.303 2628 Delete type=0 #5631
-2025/01/19-00:09:36.394 2628 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
-2025/01/19-00:09:36.394 2628 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!8GZI0563wstZX4zv' @ 468 : 1
-2025/01/19-00:09:36.394 2628 Compacting 1@1 + 1@2 files
-2025/01/19-00:09:36.528 2628 Generated table #5634@1: 8 keys, 2539163 bytes
-2025/01/19-00:09:36.754 2628 Generated table #5635@1: 3 keys, 868097 bytes
-2025/01/19-00:09:36.754 2628 Compacted 1@1 + 1@2 files => 3407260 bytes
-2025/01/19-00:09:36.784 2628 compacted to: files[ 0 0 15 0 0 0 0 ]
-2025/01/19-00:09:36.784 2628 Delete type=2 #5607
-2025/01/19-00:09:36.785 2628 Delete type=2 #5633
-2025/01/19-00:09:36.984 2628 Manual compaction at level-1 from '!adventures!8GZI0563wstZX4zv' @ 468 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2025/01/22-15:24:05.246 3550 Recovering log #5685
+2025/01/22-15:24:05.326 3550 Delete type=0 #5685
+2025/01/22-15:24:05.327 3550 Delete type=3 #5684
+2025/01/22-15:26:00.539 2fc0 Level-0 table #5689: started
+2025/01/22-15:26:00.596 2fc0 Level-0 table #5689: 1430444 bytes OK
+2025/01/22-15:26:00.615 2fc0 Delete type=0 #5687
+2025/01/22-15:26:38.254 2fc0 Level-0 table #5691: started
+2025/01/22-15:26:38.334 2fc0 Level-0 table #5691: 1465239 bytes OK
+2025/01/22-15:26:38.361 2fc0 Delete type=0 #5688
+2025/01/22-15:27:59.639 2fc0 Level-0 table #5693: started
+2025/01/22-15:27:59.968 2fc0 Level-0 table #5693: 1762720 bytes OK
+2025/01/22-15:28:00.127 2fc0 Delete type=0 #5690
+2025/01/22-15:28:00.235 2fc0 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2025/01/22-15:28:00.235 2fc0 Expanding@1 2+11 (3193164+33290672 bytes) to 3+11 (4658403+33290672 bytes)
+2025/01/22-15:28:00.235 2fc0 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!pDjsPWQ83CEyBeB8' @ 470 : 1
+2025/01/22-15:28:00.235 2fc0 Compacting 3@1 + 11@2 files
+2025/01/22-15:28:00.456 2fc0 Generated table #5694@1: 5 keys, 2932953 bytes
+2025/01/22-15:28:00.639 2fc0 Generated table #5695@1: 7 keys, 2194036 bytes
+2025/01/22-15:28:00.900 2fc0 Generated table #5696@1: 3 keys, 4778156 bytes
+2025/01/22-15:28:01.149 2fc0 Generated table #5697@1: 6 keys, 2719389 bytes
+2025/01/22-15:28:01.557 2fc0 Generated table #5698@1: 3 keys, 4405653 bytes
+2025/01/22-15:28:01.779 2fc0 Generated table #5699@1: 10 keys, 2547859 bytes
+2025/01/22-15:28:02.121 2fc0 Generated table #5700@1: 5 keys, 2974081 bytes
+2025/01/22-15:28:02.452 2fc0 Generated table #5701@1: 7 keys, 2763531 bytes
+2025/01/22-15:28:02.598 2fc0 Generated table #5702@1: 5 keys, 2798516 bytes
+2025/01/22-15:28:03.000 2fc0 Generated table #5703@1: 5 keys, 3261523 bytes
+2025/01/22-15:28:03.283 2fc0 Generated table #5704@1: 6 keys, 3495902 bytes
+2025/01/22-15:28:03.283 2fc0 Compacted 3@1 + 11@2 files => 34871599 bytes
+2025/01/22-15:28:03.340 2fc0 compacted to: files[ 0 0 15 0 0 0 0 ]
+2025/01/22-15:28:03.340 2fc0 Delete type=2 #5590
+2025/01/22-15:28:03.341 2fc0 Delete type=2 #5591
+2025/01/22-15:28:03.341 2fc0 Delete type=2 #5592
+2025/01/22-15:28:03.341 2fc0 Delete type=2 #5593
+2025/01/22-15:28:03.342 2fc0 Delete type=2 #5594
+2025/01/22-15:28:03.342 2fc0 Delete type=2 #5595
+2025/01/22-15:28:03.343 2fc0 Delete type=2 #5596
+2025/01/22-15:28:03.343 2fc0 Delete type=2 #5597
+2025/01/22-15:28:03.344 2fc0 Delete type=2 #5598
+2025/01/22-15:28:03.344 2fc0 Delete type=2 #5634
+2025/01/22-15:28:03.344 2fc0 Delete type=2 #5635
+2025/01/22-15:28:03.345 2fc0 Delete type=2 #5689
+2025/01/22-15:28:03.345 2fc0 Delete type=2 #5691
+2025/01/22-15:28:03.345 2fc0 Delete type=2 #5693
+2025/01/22-15:28:03.346 2fc0 Manual compaction at level-1 from '!adventures!pDjsPWQ83CEyBeB8' @ 470 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
