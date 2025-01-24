@@ -1,3 +1,24 @@
-2025/01/22-14:13:49.436 828 Recovering log #5683
-2025/01/22-14:13:49.565 828 Delete type=0 #5683
-2025/01/22-14:13:49.566 828 Delete type=3 #5682
+2025/01/24-16:52:00.882 19a0 Recovering log #5723
+2025/01/24-16:52:01.117 19a0 Level-0 table #5725: started
+2025/01/24-16:52:01.230 19a0 Level-0 table #5725: 1446311 bytes OK
+2025/01/24-16:52:01.439 19a0 Delete type=0 #5723
+2025/01/24-16:52:01.439 19a0 Delete type=3 #5722
+2025/01/24-20:50:31.461 14a0 Level-0 table #5728: started
+2025/01/24-20:50:31.588 14a0 Level-0 table #5728: 1465320 bytes OK
+2025/01/24-20:50:31.661 14a0 Delete type=0 #5726
+2025/01/24-20:50:31.823 14a0 Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!pBgce6YyZEwZbVte' @ 473 : 1
+2025/01/24-20:50:31.823 14a0 Compacting 1@0 + 0@1 files
+2025/01/24-20:50:31.890 14a0 Generated table #5729@0: 1 keys, 1446311 bytes
+2025/01/24-20:50:31.890 14a0 Compacted 1@0 + 0@1 files => 1446311 bytes
+2025/01/24-20:50:31.918 14a0 compacted to: files[ 0 2 15 0 0 0 0 ]
+2025/01/24-20:50:31.918 14a0 Delete type=2 #5725
+2025/01/24-20:50:31.919 14a0 Manual compaction at level-0 from '!adventures!pBgce6YyZEwZbVte' @ 473 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2025/01/24-20:50:31.919 14a0 Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!pDjsPWQ83CEyBeB8' @ 474 : 1
+2025/01/24-20:50:31.919 14a0 Compacting 2@1 + 1@2 files
+2025/01/24-20:50:32.143 14a0 Generated table #5730@1: 6 keys, 3511850 bytes
+2025/01/24-20:50:32.143 14a0 Compacted 2@1 + 1@2 files => 3511850 bytes
+2025/01/24-20:50:32.160 14a0 compacted to: files[ 0 0 15 0 0 0 0 ]
+2025/01/24-20:50:32.161 14a0 Delete type=2 #5704
+2025/01/24-20:50:32.161 14a0 Delete type=2 #5728
+2025/01/24-20:50:32.162 14a0 Delete type=2 #5729
+2025/01/24-20:50:32.162 14a0 Manual compaction at level-1 from '!adventures!pDjsPWQ83CEyBeB8' @ 474 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)

@@ -737,7 +737,7 @@ class TSButton {
         { pattern: /\-([0-9]+)-foot (item penalty)/gi, replacement: 'Штраф Предмета -$1ФТ' },
         { pattern: /\+([0-9]+)-foot (circumstance bonus)/gi, replacement: 'Бонус Обстоятельства +$1ФТ' },
         { pattern: /\-([0-9]+)-foot (circumstance penalty)/gi, replacement: 'Штраф Обстоятельства -$1ФТ' },
-
+        { pattern: /([0-9]+)([a-z]*)-rank/gi, replacement: 'Ранг $1' },
 
 
 

@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv",
   "title": "PF2E-TS-ADV",
   "description": "Сборник распаковывающихся приключений от Торговца Сказками",
-  "version": "7.2.6",
+  "version": "7.3.0",
   "relationships": {
     "systems": [
       {
@@ -34,6 +34,7 @@
   "scripts": [
     "babele.js",
     "autoformat.js",
+    "nameimg.js",
     "ShadowsatSundown/shadowsatsundown.js",
     "fall-of-plaguestone/fallofplaguestone.js",
     "Slithering/slithering.js",
@@ -110,6 +111,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "makrosy",
+      "label": "Макросы",
+      "path": "packs/makrosy",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ],
   "packFolders": [
