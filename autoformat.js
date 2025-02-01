@@ -32,6 +32,47 @@ class TSButton {
         { pattern: /Выживан[а-я]*_КС(\d+)/gi, replacement: '@Check[type:survival|dc:$1]' },
         { pattern: /Воровств[а-я]*_КС(\d+)/gi, replacement: '@Check[type:thievery|dc:$1]' },
         { pattern: /Восприят[а-я]*_КС(\d+)/gi, replacement: '@Check[type:perception|dc:$1]' },
+
+        { pattern: /Знан[а-я]*: Тассилон[а-я]*_КС(\d+)/gi, replacement: '@Check[type:thassilon-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Академич[а-я]*_КС(\d+)/gi, replacement: '@Check[type:academia-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Бухгалтер[а-я]*_КС(\d+)/gi, replacement: '@Check[type:accounting-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Архитектур[а-я]*_КС(\d+)/gi, replacement: '@Check[type:architecture-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Искусств[а-я]*_КС(\d+)/gi, replacement: '@Check[type:art-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Цирков[а-я]*_КС(\d+)/gi, replacement: '@Check[type:circus-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Инженер[а-я]*_КС(\d+)/gi, replacement: '@Check[type:engineering-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Фермер[а-я]*_КС(\d+)/gi, replacement: '@Check[type:farming-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Рыба[а-я]*_КС(\d+)/gi, replacement: '@Check[type:fishing-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Предсказан[а-я]*_КС(\d+)/gi, replacement: '@Check[type:fortune-telling-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Игр[а-я]*_КС(\d+)/gi, replacement: '@Check[type:games-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Генеалог[а-я]*_КС(\d+)/gi, replacement: '@Check[type:genealogy-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Гладиатор[а-я]*_КС(\d+)/gi, replacement: '@Check[type:gladiatorial-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Гильд[а-я]*_КС(\d+)/gi, replacement: '@Check[type:guild-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Геральд[а-я]*_КС(\d+)/gi, replacement: '@Check[type:heraldry-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Травнич[а-я]*_КС(\d+)/gi, replacement: '@Check[type:herbalism-lore|dc:$1]' },        
+        { pattern: /Знан[а-я]*: Охот[а-я]*_КС(\d+)/gi, replacement: '@Check[type:hunting-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Труд[а-я]*_КС(\d+)/gi, replacement: '@Check[type:labor-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Юридич[а-я]*_КС(\d+)/gi, replacement: '@Check[type:legal-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Библиотеч[а-я]*_КС(\d+)/gi, replacement: '@Check[type:library-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Коммерчес[а-я]*_КС(\d+)/gi, replacement: '@Check[type:mercantile-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Акушер[а-я]*_КС(\d+)/gi, replacement: '@Check[type:midwifery-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Мельнич[а-я]*_КС(\d+)/gi, replacement: '@Check[type:milling-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Шахтер[а-я]*_КС(\d+)/gi, replacement: '@Check[type:mining-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Монах[а-я]*_КС(\d+)/gi, replacement: '@Check[type:monk-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Мореход[а-я]*_КС(\d+)/gi, replacement: '@Check[type:sailing-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Путник[а-я]*_КС(\d+)/gi, replacement: '@Check[type:traveller-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Торгов[а-я]*_КС(\d+)/gi, replacement: '@Check[type:trading-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Развед[а-я]*_КС(\d+)/gi, replacement: '@Check[type:scouting-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Письмен[а-я]*_КС(\d+)/gi, replacement: '@Check[type:scribing-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Кон[а-я]*_КС(\d+)/gi, replacement: '@Check[type:stabling-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Кож[а-я]*_КС(\d+)/gi, replacement: '@Check[type:tanning-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Театр[а-я]*_КС(\d+)/gi, replacement: '@Check[type:theater-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Прест[а-я]* Мир[а-я]*_КС(\d+)/gi, replacement: '@Check[type:underworld-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Воен[а-я]* Дел[а-я]*_КС(\d+)/gi, replacement: '@Check[type:warfare-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Динозавр[а-я]*_КС(\d+)/gi, replacement: '@Check[type:dinosaur-lore|dc:$1]' },
+        { pattern: /Знан[а-я]*: Обществ[а-я]*_Искател[а-я]*_КС(\d+)/gi, replacement: '@Check[type:pathfinder-society-lore|dc:$1]' },
+        { pattern: /КС_(\d+)/gi, replacement: 'КС$1' },
+
+
         // Паттерны для обычных спасбросков
         { pattern: /(?<!Пр\.)Спас\.РФЛ_КС(\d+)/gi, replacement: '@Check[type:reflex|dc:$1]' },
         { pattern: /(?<!Пр\.)Спас\.СТК_КС(\d+)/gi, replacement: '@Check[type:fortitude|dc:$1]' },
@@ -307,6 +348,7 @@ class TSButton {
         { pattern: /`Страх[а-я]*`/gi, replacement: '@Trait[Fear]{Страх}' },
         { pattern: /`Фечлин`/gi, replacement: '@Trait[Fetchling]{Фечлин}' },
         { pattern: /`Фея`/gi, replacement: '@Trait[Fey]{Фея}' },
+        { pattern: /`Прост[а-я]*`/gi, replacement: '@Trait[Simple]{Простая}' },
         { pattern: /`Исчади[а-я]*`/gi, replacement: '@Trait[Fiend]{Исчадие}' },
         { pattern: /`Воин`/gi, replacement: '@Trait[Fighter]{Воин}' },
         { pattern: /`Figurehead`/gi, replacement: '@Trait[Figurehead]{Figurehead}' },
@@ -670,6 +712,8 @@ class TSButton {
         { pattern: /`Исполинск[а-я]*`/gi, replacement: '@Trait[Gargantuan]{Исполинский}' },
 
         { pattern: /`Нейтрал[а-я]*`/gi, replacement: '@Trait[Neutral]{Нейтральный}' },
+        { pattern: /`Слаб[а-я]*`/gi, replacement: '@Trait[Weak]{Слабый}' },
+        { pattern: /`Элитн[а-я]*`/gi, replacement: '@Trait[Elite]{Элитный}' },
 
         // Изменения в англ
         { pattern: /Maximum Duration\<\/strong\> ([0-9])/gi, replacement: 'Макс.Продолж.:\<\/strong\> $1' },
@@ -763,7 +807,9 @@ class TSButton {
 
 
         { pattern: /`Противодейств[а-я]*`/gi, replacement: '@UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.mmfWcV3Iyql5nzTo]' },
+        { pattern: /Вспомн[а-я]* Информ[а-я]*/gi, replacement: '@UUID[Compendium.pf2e.actionspf2e.1OagaWtBpVXExToo]{Вспом.Информ.}' },
 
+        
         { pattern: /<section class=\"statblock\"><h4>/gi, replacement: '<section class=\"БлокСтат\"><h4>' },
         { pattern: /<section class=\"statblock\"><img/gi, replacement: '<section class=\"ПРАВ\"><img' },
         // Добавьте другие паттерны здесь
