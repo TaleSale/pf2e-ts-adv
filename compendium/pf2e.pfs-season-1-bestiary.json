@@ -5128,8 +5128,8 @@
         "Statue Of Set": {
 			"name": "Статуя Сета",
             "tokenName": "Статуя Сета",
-			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/animated-statue-giant.webp",
-            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/animated-statue-giant.webp",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Animated%20Statue%20Giant.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Animated%20Statue%20Giant.webp",
             "description": "<p>Как и любые гуманоидные ожившие статуи Среднего размера, гигантские ожившие статуи используются для охраны важных мест, но их увеличенный размер и сила делают их наиболее полезными в больших хранилищах, просторных комнатах или на открытом воздухе. Ожившие объекты такой силы и размера идеально подходят для выполнения задач и обязанностей, которые обычно выполняют големы, таким образом, еще более мощные ожившие объекты практически не встречаются.</p><hr><p>Получив подобие жизни с помощью ритуалов или другой странной магии, одушевленные объекты имеют разные формы и служат для самых разных целей. Ниже приведены несколько примеров типичных оживленных объектов. Многие из этих существ служат стражами, удивляя ничего не подозревающих авантюристов, своим внезапным нападением. Другие служат праздным развлечением для чересчур богатых, простыми слугами, созданными для выполнения всякой работы, и тому подобного.</p>",
             "UUID": "",
             "actorLink": true,
@@ -5191,8 +5191,8 @@
         "Mummy Brute": {
 			"name": "Мумия-Громила",
             "tokenName": "Мумия-Громила",
-			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/mummy-guardian.webp",
-            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/mummy-guardian.webp",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Mummy%20Guardian.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Mummy%20Guardian.webp",
             "description": "",
             "UUID": "",
             "appendNumber": true,
@@ -5237,8 +5237,8 @@
 		"Mummy Shambler": {
 			"name": "Волочащаяся Мумия",
             "tokenName": "Волоч.Мумия",
-			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/mummy-guardian.webp",
-            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/bestiary-1/mummy-guardian.webp",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Mummy%20Guardian.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Mummy%20Guardian.webp",
             "description": "",
             "UUID": "",
             "appendNumber": true,
@@ -5572,8 +5572,8 @@
 		"Young Sea Serpent": {
 			"name": "Молодой Морской Змей (1-2)",
             "tokenName": "Молодой Морской Змей",
-			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
-            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea%20Serpent.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea%20Serpent.webp",
             "description": "",
             "appendNumber": true,
 			"actorLink": true,
@@ -5622,8 +5622,8 @@
         "Adolescent Sea Serpent": {
 			"name": "Молодой Морской Змей (3-4)",
             "tokenName": "Молодой Морской Змей",
-			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
-            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea Serpent.webp",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea%20Serpent.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Sea%20Serpent.webp",
             "description": "",
             "UUID": "",
             "actorLink": true,
@@ -5711,6 +5711,440 @@
                 }
             ]
 		},
+        "Q4==============================================================================================": {
+            "name": "==========================================================================================="
+        },
+        "Port Peril Bar Fight (Last Catch) (1-2)": {
+			"name": "Драка в баре Порт Беды (B 1-2)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:17|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:20|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 15.</p>"
+                },
+                {
+                    "id": "Slippery When Wet",
+                    "name": "Скользко и Мокро",
+                    "description": "<p>Если море всплеснет, прорвет бочку или существо с водным происхождением использует способность, основанную на воде, то 4 смежных пятифутовых квадрата покроются эффектом @UUID[Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8].</p><p>Этот эффект является особенностью Последний Улов</p>"
+                }
+            ]
+		},
+		"Port Peril Bar Fight (Last Catch) (3-4)": {
+            "name": "Драка в баре Порт Беды (B 3-4)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:22|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:25|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 21.</p>"
+                },
+                {
+                    "id": "Slippery When Wet",
+                    "name": "Скользко и Мокро",
+                    "description": "<p>Если море всплеснет, прорвет бочку или существо с водным происхождением использует способность, основанную на воде, то 4 смежных пятифутовых квадрата покроются эффектом @UUID[Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8].</p><p>Этот эффект является особенностью Последний Улов</p>"
+                }
+            ]
+		},
+		"Port Peril Bar Fight (Rivanti's Bar) (1-2)": {
+            "name": "Драка в баре Порт Беды (C 1-2)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:17|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:20|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 15.</p>"
+                },
+                {
+                    "id": "Jinx Gone Wrong",
+                    "name": "Внезапный Сглаз",
+                    "description": "<p>Что-то в драке в баре привлекло бурю невезения, в результате чего персонаж ударился голенью о вытолкнутую скамейку или получил по голове падающей картиной. Опасность накладывает на существо @UUID[Compendium.pf2e.spells-srd.Item.kvm68hVtmADiIvN4].</p><p>Этот эффект является особенностью Бара Риванти.</p>"
+                }
+            ]
+		},
+		"Port Peril Bar Fight (Rivanti's Bar) (3-4)": {
+			"name": "Драка в баре Порт Беды (C 3-4)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:22|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:25|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 21.</p>"
+                },
+                {
+                    "id": "Jinx Gone Wrong",
+                    "name": "Внезапный Сглаз",
+                    "description": "<p>Что-то в драке в баре привлекло бурю невезения, в результате чего персонаж ударился голенью о вытолкнутую скамейку или получил по голове падающей картиной. Опасность накладывает на существо @UUID[Compendium.pf2e.spells-srd.Item.kvm68hVtmADiIvN4].</p><p>Этот эффект является особенностью Бара Риванти.</p>"
+                }
+            ]
+		},
+		"Port Peril Bar Fight (The Watchtower) (1-2)": {
+			"name": "Драка в баре Порт Беды (A 1-2)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:17|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:20|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 15.</p>"
+                },
+                {
+                    "id": "Get the Goods!",
+                    "name": "Хватай товар!",
+                    "description": "<p>Игровые фишки, кошелек с деньгами или драгоценности из сломанного ожерелья рассыпаются по земле. Все существа в @Template[burst|distance:15], которых можно соблазнить материальным богатством, должны совершить @Check[will|dc:15] или быть @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg] на 1 раунд или пока существо не использует @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы забрать драгоценности.</p><p>Этот эффект является особенностью Сторожевой башни.</p>"
+                }
+            ]
+		},
+		"Port Peril Bar Fight (The Watchtower) (3-4)": {
+			"name": "Драка в баре Порт Беды (A 3-4)",
+            "tokenName": "Драка в баре Порт Беды",
+            "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokenImg": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>-10 и отсутствие минимального навыка, чтобы заметить</p>",
+            "hdisable": "<p>@Check[intimidation|dc:22|name:Cow the Crowd] разогнать толпу</p><p>@Check[diplomacy|dc:25|name:Disperse the Crowd] убедить разойтись</p>",
+            "hdescription": "<p>Разношерстная толпа махает кулаками, швыряется бутылками и вообще впадает в хаос, когда в одном из питейных заведений Порта Беды вспыхивает драка, сгруппировавшаяся в шести секциях.</p>",
+            "hreset": "",
+            "hroutine": "<p>(2 действия) Бой в баре использует свое первое действие, чтобы нанести общий разгромный удар по всем существам в любой области, которая не была отключена. Сделайте по одному удару против каждого врага в зоне и бросьте урон только один раз для всех целей. Затем барный бой использует свое второе действие, чтобы применить Особенность Порта Беды</p>",
+            "items": [
+                {
+                    "id": "General Mayhem",
+                    "name": "Общий Удар",
+                    "description": "<p>Урон может быть колющим, режущим или пронзающим.</p>"
+                },
+                {
+                    "id": "Port Peril Specialty",
+                    "name": "Особенность Порта Беды",
+                    "description": "<p>Драка в баре создает уникальный для бара эффект, находящийся в любой точке опасности (даже в тех секциях, которые были отключены), если не была отключена вся опасность. КС для каждого эффекта равен 21.</p>"
+                },
+                {
+                    "id": "Get the Goods!",
+                    "name": "Хватай товар!",
+                    "description": "<p>Игровые фишки, кошелек с деньгами или драгоценности из сломанного ожерелья рассыпаются по земле. Все существа в @Template[burst|distance:15], которых можно соблазнить материальным богатством, должны совершить @Check[will|dc:21] или быть @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg] на 1 раунд или пока существо не использует @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы забрать драгоценности.</p><p>Этот эффект является особенностью Сторожевой башни.</p>"
+                }
+            ]
+		},
+        "Offended Gambler": {
+			"name": "Обиженный Игрок (1-2)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/npc-gallery/Drunkard.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/npc-gallery/Drunkard.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Slap",
+                    "name": "Пощечина"
+                },
+                {
+                    "id": "aJaau3IaIcLAfEaK",
+                    "name": "Рапира"
+                },
+                {
+                    "id": "Flurry of Slaps",
+                    "name": "Шквал пощечин",
+                    "description": "<p>Обиженный игрок наносит два Удара пощечины. Если оба попадают в одно и то же существо, они объединяют свой урон для целей сопротивлений и слабостей.</p><p>Обиженный применяют свои Штраф Множественных Атак к Ударам обычным образом.</p>"
+                },
+                {
+                    "id": "Throw Drink",
+                    "name": "Метнуть Выпивку",
+                    "description": "<p>Обиженный игрок хватает стоящий рядом напиток и бросает его в лицо существу в радиусе 10 футов. Существо должно совершить @Check[fortitude|dc:15] или быть @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен} на один раунд (@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} при критическом провале). В свой ход пораженное существо может потратить действие @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы снять состояние ослеплен или слепота.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Offended High Roller": {
+			"name": "Обиженный Игрок (3-4)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/npc-gallery/Drunkard.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/ruleboock/npc-gallery/Drunkard.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Slap",
+                    "name": "Пощечина"
+                },
+                {
+                    "id": "aJaau3IaIcLAfEaK",
+                    "name": "Рапира"
+                },
+                {
+                    "id": "Flurry of Slaps",
+                    "name": "Шквал пощечин",
+                    "description": "<p>Обиженный игрок наносит два Удара пощечины. Если оба попадают в одно и то же существо, они объединяют свой урон для целей сопротивлений и слабостей.</p><p>Обиженный применяют свои Штраф Множественных Атак к Ударам обычным образом.</p>"
+                },
+                {
+                    "id": "Throw Drink",
+                    "name": "Метнуть Выпивку",
+                    "description": "<p>Обиженный игрок хватает стоящий рядом напиток и бросает его в лицо существу в радиусе 10 футов. Существо должно совершить @Check[fortitude|dc:18] или быть @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен} на один раунд (@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Слепота} при критическом провале). В свой ход пораженное существо может потратить действие @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, чтобы снять состояние ослеплен или слепота.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Seaborn Fisher": {
+			"name": "Обиженный Моряк (1-2)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/strength-of-thousands/Kiru.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/strength-of-thousands/Kiru.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Knife",
+                    "name": "Рыбацкий нож"
+                },
+                {
+                    "id": "Fishing Knife",
+                    "name": "Рыбацкий нож"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Seaborn Captain": {
+			"name": "Обиженный Моряк (3-4)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/strength-of-thousands/Kiru.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/adventure-patch/strength-of-thousands/Kiru.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Knife",
+                    "name": "Рыбацкий нож"
+                },
+                {
+                    "id": "Fishing Knife",
+                    "name": "Рыбацкий нож"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Storm Acolyte": {
+			"name": "Обиженный тенгу (1-2)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Tengu%20Sneak.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Tengu%20Sneak.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "N7GLQ7QjPYoVVIlq",
+                    "name": "Скимитар"
+                },
+                {
+                    "id": "Storm Smite",
+                    "name": "Кара Шторма",
+                    "description": "<p><strong>Триггер:</strong> Тэнгу критически попадает Ударом скимитара</p><hr><p>Тэнгу выпускает взрыв молнии в @Template[burst|distance:10], сосредоточенным на цели. Существо в области, отличное от тэнгу, получает @Damage[1d6[electricity]] (@Check[reflex|dc:13|basic]). При критическом провале существо также полухает @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} на 1 Раунд.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Storm Warrior-Priest": {
+			"name": "Обиженный тенгу (3-4)",
+            "tokenName": "Обиженный",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Tengu%20Sneak.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Tengu%20Sneak.webp",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 5,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "N7GLQ7QjPYoVVIlq",
+                    "name": "Скимитар"
+                },
+                {
+                    "id": "Storm Smite",
+                    "name": "Кара Шторма",
+                    "description": "<p><strong>Триггер:</strong> Тэнгу критически попадает Ударом скимитара</p><hr><p>Тэнгу выпускает взрыв молнии в @Template[burst|distance:10], сосредоточенным на цели. Существо в области, отличное от тэнгу, получает @Damage[2d6[electricity]] (@Check[reflex|dc:15|basic]). При критическом провале существо также полухает @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Глухота} на 1 Раунд.</p>"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+
+
+
         "Q7================================================================================================": {
             "name": "==========================================================================================="
         },
@@ -5928,7 +6362,7 @@
 			"img": "",
             "tokenImg": "",
             "description": "",
-            "appendNumber": true,
+            "prependAdjective": true,
 			"actorLink": true,
             "tokenvision": true,
 			"ring": {
@@ -6400,12 +6834,6 @@
 		"Nevashi (7-8)": {
 			"name": "Nevashi (7-8)"
 		},
-		"Offended Gambler": {
-			"name": "Offended Gambler"
-		},
-		"Offended High Roller": {
-			"name": "Offended High Roller"
-		},	
 		"Paravaax (3-4)": {
 			"name": "Paravaax (3-4)"
 		},
@@ -6427,24 +6855,7 @@
 		"Plum Leshy (3-4)": {
 			"name": "Plum Leshy (3-4)"
 		},
-		"Port Peril Bar Fight (Last Catch) (1-2)": {
-			"name": "Port Peril Bar Fight (Last Catch) (1-2)"
-		},
-		"Port Peril Bar Fight (Last Catch) (3-4)": {
-			"name": "Port Peril Bar Fight (Last Catch) (3-4)"
-		},
-		"Port Peril Bar Fight (Rivanti's Bar) (1-2)": {
-			"name": "Port Peril Bar Fight (Rivanti's Bar) (1-2)"
-		},
-		"Port Peril Bar Fight (Rivanti's Bar) (3-4)": {
-			"name": "Port Peril Bar Fight (Rivanti's Bar) (3-4)"
-		},
-		"Port Peril Bar Fight (The Watchtower) (1-2)": {
-			"name": "Port Peril Bar Fight (The Watchtower) (1-2)"
-		},
-		"Port Peril Bar Fight (The Watchtower) (3-4)": {
-			"name": "Port Peril Bar Fight (The Watchtower) (3-4)"
-		},
+
 		"Prefect (Electrowhip) (3-4)": {
 			"name": "Prefect (Electrowhip) (3-4)"
 		},
@@ -6493,12 +6904,6 @@
 		"Sea Devil Invader": {
 			"name": "Sea Devil Invader"
 		},
-		"Seaborn Captain": {
-			"name": "Seaborn Captain"
-		},
-		"Seaborn Fisher": {
-			"name": "Seaborn Fisher"
-		},
 		"Skeletal Mage": {
 			"name": "Skeletal Mage"
 		},
@@ -6546,12 +6951,6 @@
 		},
 		"Steel Mephit": {
 			"name": "Steel Mephit"
-		},
-		"Storm Acolyte": {
-			"name": "Storm Acolyte"
-		},
-		"Storm Warrior-Priest": {
-			"name": "Storm Warrior-Priest"
 		},
 		"Summoning Rune (PFS 1-11)": {
 			"name": "Summoning Rune (PFS 1-11)"

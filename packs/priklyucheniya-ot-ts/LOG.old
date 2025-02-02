@@ -1,3 +1,15 @@
-2025/01/31-23:25:57.034 3be0 Recovering log #5842
-2025/01/31-23:25:57.202 3be0 Delete type=0 #5842
-2025/01/31-23:25:57.202 3be0 Delete type=3 #5841
+2025/02/02-14:23:38.822 211c Recovering log #5865
+2025/02/02-14:23:38.876 211c Delete type=0 #5865
+2025/02/02-14:23:38.876 211c Delete type=3 #5863
+2025/02/02-14:51:06.986 157c Level-0 table #5870: started
+2025/02/02-14:51:07.027 157c Level-0 table #5870: 224810 bytes OK
+2025/02/02-14:51:07.103 157c Delete type=0 #5868
+2025/02/02-14:51:07.103 157c Manual compaction at level-0 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
+2025/02/02-14:51:07.103 157c Manual compaction at level-1 from '!adventures!0AxPxdb3w7dl2eat' @ 72057594037927935 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at '!adventures!XaXuxSFGZDHfmERO' @ 517 : 1
+2025/02/02-14:51:07.103 157c Compacting 1@1 + 1@2 files
+2025/02/02-14:51:07.365 157c Generated table #5871@1: 8 keys, 2875688 bytes
+2025/02/02-14:51:07.365 157c Compacted 1@1 + 1@2 files => 2875688 bytes
+2025/02/02-14:51:07.386 157c compacted to: files[ 0 0 15 0 0 0 0 ]
+2025/02/02-14:51:07.386 157c Delete type=2 #5832
+2025/02/02-14:51:07.386 157c Delete type=2 #5870
+2025/02/02-14:51:07.461 157c Manual compaction at level-1 from '!adventures!XaXuxSFGZDHfmERO' @ 517 : 1 .. '!folders!rltdi2inyX5o97iU' @ 0 : 0; will stop at (end)
