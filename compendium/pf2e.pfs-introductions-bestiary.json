@@ -1,0 +1,279 @@
+{
+	"label": "ПФС Интро",
+	"mapping": {
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink"
+    },
+	"entries": {
+		"Ancient Summoning Rune": {
+			"name": "Древняя Призывающая Руна",
+            "tokenName": "Древняя Призывающая Руна",
+            "img": "icons/magic/control/silhouette-aura-energy.webp",
+            "tokenImg": "icons/magic/control/silhouette-aura-energy.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(Обучен)</p>",
+            "hdescription": "<p>Облако невидимых магических датчиков в радиусе 10 футов окружает центральную колонну комнаты.</p>",
+            "hdisable": "<p>@Check[type:acrobatics|dc:15], чтобы приблизиться, не активировав ловушку, затем @Check[type:thievery|dc:17] (Обучен), чтобы стереть руну, или @Check[type:athletics|dc:19], чтобы убрать достаточно камней из колонны, чтобы нарушить магию</p><p>@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG] (Противодействие Ранг 1 КС15), чтобы противодействовать руне.</p>",
+            "hroutine": "",
+            "hreset": "<p>Ловушка перезагружается каждый день на рассвете.</p>",
+            "items": [
+                {
+                    "id": "wz43EsdDh8PtPAEO",
+                    "name": "Призыв Слабого Монстра",
+                    "description": "<p><strong>Триггер:</strong> Существо входит в облако магических датчиков;</p><hr><p><strong>Эффект:</strong> Ловушка призывает одно из существ, с которыми ранее сталкивались в Зоне B, со слабой корректировкой (<em>Бестиарий</em> 6). Существо бросает инициативу и остается на 7 раундов, после чего действие заклинания заканчивается, и существо исчезает. Призванное существо также исчезает, если существо отключает ловушку до истечения продолжительности. Призванное существо может использовать 3 действия каждый раунд и может использовать реакции, в отличие от большинства призванных существ.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"Befuddled Thoughts": {
+			"name": "Befuddled Thoughts"
+		},
+		"Blood Hunger": {
+			"name": "Blood Hunger"
+		},
+		"Cheerful Tune": {
+			"name": "Cheerful Tune"
+		},
+		"Cleaning Agents": {
+			"name": "Cleaning Agents"
+		},
+		"Encouraging Supervision": {
+			"name": "Encouraging Supervision"
+		},
+		"Ghoul (PFS Intro 2)": {
+			"name": "Ghoul (PFS Intro 2)"
+		},
+		"Rain In Cloudy Day": {
+			"name": "Дождик в Облачный День",
+            "tokenName": "Дождик",
+			"img": "modules/pf2e-ts-adv/PFS/Intro/1/41.webp",
+            "tokenImg": "modules/pf2e-ts-adv/PFS/Intro/1/41.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "wZ1AstdLPhm6Qgw9",
+                    "name": "Бросок Спор"
+                },
+                {
+                    "id": "cuIO5yrbqlbeRoTo",
+                    "name": "Кулак"
+                },
+                {
+                    "id": "Qo6Zya98KMBBIXlg",
+                    "name": "Споры",
+                    "description": "<p>Существо, получившее урон от Ударам Бросок Спорами Дождика в Облачный Ден, должны совершить спасбросок с тем же КС и эффектом, что и его способность Облако Спор.</p>"
+                },
+                {
+                    "id": "f4Bxn2vuVItRYQrZ",
+                    "name": "Изменение формы",
+                    "description": "<p>Дождик в Облачный День превращается в Маленький гигантский гриб или участок грибов. В противном случае эта способность использует эффекты @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]</p>"
+                },
+                {
+                    "id": "Ln8ZtQy8JZzqvbgp",
+                    "name": "Облако Спор",
+                    "description": "<p>Дождик в Облачный День может выпустить облако спор, которое раздражает глаза и горло не-грибковых существ на расстоянии @Template[emanation|distance:15]. Каждое существо должно совершить @Check[fortitude|dc:16] или получить @Damage[1[persistent,poison]]. Зрение существа ухудшается, пока оно получает этот продолжительный урон, и оно может видеть только в пределах 20 футов (10 футов при критическом провале).</p>"
+                },
+                {
+                    "id": "PSd8ZUnIEeTZZ3Qc",
+                    "name": "Зеленый Взрыв",
+                    "description": "<p>Когда Дождик в Облачный День умирает, из его тела вырывается поток природной энергии, восстанавливающий @Damage[2d8[healing]] ОЗ каждому растительному существу в @Template[emanation|distance:30]. Эта область заполнена грибами, становясь сложной местностью. Если местность не является пригодной средой для этих грибов, они увядают через 24 Часа.</p>"
+                }
+            ]
+		},
+		"Spiked Pit": {
+			"name": "Spiked Pit"
+		},
+		"Spite of the Righteous": {
+			"name": "Spite of the Righteous"
+		},
+		"Sun-Scorched Shadow Drake": {
+			"name": "Sun-Scorched Shadow Drake"
+		},
+		"Swamp Ooze": {
+			"name": "Болотная Слизь",
+            "tokenName": "Болотная Слизь",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Ooze%20Sewer%20Ooze.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Ooze%20Sewer%20Ooze.webp",
+            "description": "<p>Эти аморфные массы сточных вод и прочего мусора пробираются через грязные водостоки под большими и малыми городами.</p><hr><p>Слизь, плесень и прочих студней можно встретить в мрачных подземельях и тенистых лесах. Хотя они не обязательно злые, некоторые из них вырастают до огромных размеров и обладают ненасытным аппетитом.</p><details><summary>Информация с боковых панелей</summary><h2>Кислота слизи</h2><p>Многие слизи обладают кислотными свойствами, способными быстро разрушать плоть, дерево и даже прочные материалы. Некоторые считают, что слизь это результат алхимических или магических экспериментов, в то время как другие полагают, что они просто появились в результате естественных процессов эволюции.</p><h2>Другие слизи</h2><p>В мире существует множество разновидностей этих почти неразумных монстров. Некоторые из них - просто разновидности, разноцветные пудинги, желе и слизь, мало чем отличаются от представленных здесь, кроме мест обитания и рациона.</p><p>Другие слизи более специализированы в своей роли или опасно разумны. Самой известной разновидностью этих смертоносной и могущественной слизи является, к счастью редкий, блайт (blight), существо состоящее из протоплазмы и глаз, которое проклинает своим присутствием целые регионы.</p></details>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "Pseudopod",
+                    "name": "Ложноножка"
+                },
+                {
+                    "id": "Swamp Wave",
+                    "name": "Волна Болота",
+                    "description": "<p><strong>Частота:</strong> Раз в минуту</p><hr><p><strong>Эффект:</strong></p><p>Канализационная слизь выпускает волну грязи, покрывая всех существ в @Template[emanation|distance:20]{20-футовой эманации}. Каждое существо в области должно преуспеть в спасброске @Check[reflex|dc:17]{Рефлекса} или получит @Damage[1d4[acid]] и штраф −10 футов к своим Скоростям на 1 минуту (существо также падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} при критическом провале).</p><p>Существо может использовать действие @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействия}, чтобы очистить кого-нибудь, уменьшая штраф к Скорости на 5 футов каждым действием.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]</p>"
+                },
+                {
+                    "id": "Motion Sense 60 feet",
+                    "name": "Чувствительность к движению 60 футов",
+                    "description": "<p>Канализационная слизь ощущает движение поблизости при помощи вибраций и движения воздуха.</p>"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"Swampy Quicksand": {
+			"name": "Болотный Зыбучий песок",
+            "tokenName": "Болотный Зыбучий песок",
+            "img": "icons/magic/nature/trap-spikes-thorns-green.webp",
+            "tokenImg": "icons/magic/nature/trap-spikes-thorns-green.webp",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "<p>(обучен) (или −10 и без минимального мастерства если поверхность потревожена)</p>",
+            "hdescription": "<p>Пятно из воды и песка шириной 15 футов пытается затянуть наступающих на него существ.</p>",
+            "hdisable": "<p>@Check[survival|dc:16|name:Безопасно потревожить поверхность] (обучен) потревожить поверхность</p>",
+            "hroutine": "<p>(1 действие): Во время своей инициативы, зыбучий песок затягивает вниз каждое существо внутри себя. Существо, которое было погружено по пояс, погружается по шею, а существо, которое было погружено по шею, полностью затягивается в песок и должно задержать свое дыхание, чтобы не задыхаться (@UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.KdoLyU91c0oS2hTw#tonutь-i-zadyhatьsya]{Тонуть и задыхаться}).</p><p>Существо в зыбучем песке может сделать проверку @Check[athletics|dc:18], чтобы @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} либо подняв себя на одну ступень, если погружено по шею или хуже, либо чтобы двигаться 5 футов, если погружено лишь по пояс. При крит.провале, существо погружается на 1 ступень. Существо, которое \"Выплывает\" из зыбучего песка, выбирается из опасности и лежит ничком в пространстве рядом с пятном зыбучего песка. Другие существа могут оказать этому существу @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Помощь}, обычно используя веревку или совершая подобное содействие, или пытаясь вытянуть существо своими собственными проверками @Check[athletics|dc:18|name:Помочь другому существу в зыбучем песке], с теми же результатами, как если бы существо само делало эту проверку.</p>",
+            "hreset": "<p>Опасность всё ещё затягивает любого, кто зайдет в нее, но поверхность не становится снова спрятанной пока не уляжется в течение 24 часов.</p>",
+            "items": [
+                {
+                    "id": "Submerge",
+                    "name": "Погружение",
+                    "description": "<p><strong>Триггер:</strong> Существо Огромного размера или менее заходит на зыбучий песок</p><hr><p><strong>Эффект:</strong> Спровоцировавшее существо тонет в зыбучем песке по пояс. Зыбучий песок кидает инициативу, если еще этого не сделал.</p>"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                }
+            ]
+		},
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "prependAdjective": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1,
+				  "texture": null
+				}
+			},
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		}
+	}
+}

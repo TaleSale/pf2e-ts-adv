@@ -1,8 +1,24 @@
 {
 	"label": "Техническая Папка",
 	"mapping": {
-		"rules": "system.rules",
-		"slug": "system.slug"
+		"name": {
+			"path": "name",
+			"converter": "itemNameConverter"
+		},
+		"description": "system.description.value",
+		"gm": "system.description.gm",
+		"subitems": {
+			"path": "system.subitems",
+			"converter": "actorItemCollectionConverter"
+		},
+		"rules": {
+			"path": "system.rules",
+			"converter": "carefulMerge"
+		},
+		"slug": {
+			"path": "system.slug",
+			"converter": "carefulMerge"
+		}
 	},
 	"entries": {
 		"Antler": {

@@ -1,6 +1,14 @@
 {
 	"label": "Война Спор",
 	"mapping": {
+        "name": {
+            "path": "name",
+            "converter": "actorNameConverter"
+        },
+        "items": {
+            "path": "items",
+            "converter": "actorItemCollectionConverter"
+        },
         "description": "system.details.publicNotes",
         "img": "img",
         "tokenName": "prototypeToken.name",
@@ -25,8 +33,8 @@
 		"Alzarius": {
 			"name": "Альзариус",
             "tokenName": "Альзариус",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/alzarius1.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/alzarius1.webp",
             "description": "",
 			"actorLink": true,
             "tokenvision": true,
@@ -38,10 +46,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -58,56 +68,56 @@
                     "name": "Посох"
                 },
                 {
-                    "id": "Snowcaster's Staff",
+                    "id": "icRfiIIcInNUtffs",
                     "name": "Посох Заклинателя Зимы",
                     "description": "<p>Этот Разящий Мороздный Посох +2 - семейная реликвия, подаренная Альзариусу его матерью, когда он принял решение остаться в Ксере. Он утверждает, что этот дар передавался из поколения в поколение в его семье.</p><hr><p><strong>Активация</strong>: @UUID[Compendium.pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Сотворение заклинания}</p><p><strong>Эффект</strong>: Вы тратите количество зарядов из посоха, чтобы сотворить заклинание из его списка</p><ul><li><strong>Чары: </strong>@UUID[Compendium.pf2e.spells-srd.Item.IxhGEKl63R4QBvkj]</li><li><strong>2-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]</li><li><strong>3-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3], @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]</li><li><strong>4-й: </strong>@UUID[Compendium.pf2e.spells-srd.Item.kHyjQbibRGPNCixx], @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n], @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]</li><li><strong>5-й: </strong>@UUID[Compendium.pf2e.spells-srd.Item.5esP2GVzvxWsMgaX], @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU], @UUID[Compendium.pf2e.spells-srd.Item.R5FHRv7VqyRnxg2t]</li></ul>"
                 },
                 {
-                    "id": "Razmir mask and robes",
+                    "id": "RY9E16PdCnfVQrgR",
                     "name": "Размиранская маска и роба"
                 },
                 {
-                    "id": "Quickened Casting",
+                    "id": "t8t15Lfj05IlEtCH",
                     "name": "Ускоренное колдовство",
                     "description": "<p><strong>Частота:</strong> 1/День</p><hr><p>Альзариус может использовать заклинание более эффективно. Если его следующим действием будет сотворение чар или заклинания до 4-го ранга, он сократит количество действий, необходимых для его сотворения, на 1 (минимум на 1 действие).</p>"
                 },
                 {
-                    "id": "Masked Lies",
+                    "id": "cvwM3Cy7NFVgilh7",
                     "name": "Замаскированная ложь",
                     "description": "<p>Пока Альзариус носит маску Размира, очень трудно определить, лжет ли он. Все проверки на Восприятие, позволяющие распознать его Обман, получают штраф обстоятельства -4.</p>"
                 },
                 {
-                    "id": "Skilled Diplomat",
+                    "id": "ExVTbhbC9UlgFvsz",
                     "name": "Опытный дипломат",
                     "description": "<p>Всякий раз, когда Альзариус пытается @UUID[Compendium.pf2e.actionspf2e.OX4fy22hQgUHDr0q]{Произвести впечатление} с помощью Дипломатии, он может совершить проверку против КС Воли до 50 существ одновременно. Если он сосредоточен на том, чтобы Произвести Впечатление только на одной цели, он расценивает успех как критический.</p><p>Наконец, всякий раз, когда он обращается к цели с @UUID[Compendium.pf2e.actionspf2e.DCb62iCBrJXy0Ik6]{Просьба}, он может обращаться с ней так, как если бы отношение цели к нему было на шаг лучше, чем оно есть на самом деле, при условии, что оно не является @UUID[Compendium.pf2e.conditionitems.ud7gTLwPeklzYSXG]{Враждебный}.</p>"
                 },
                 {
-                    "id": "Frozen Bloodline",
+                    "id": "VKk43Gkuqk3lkO44",
                     "name": "Зимние Наследие Крови",
                     "description": "<p>Наследие крови Альзариуса связано со стихией воды, особенно с ее проявлениями в виде льда или снега. Когда он сотворяет заклинание, наносящее урон холода, цель получает дополнительный 1 урон холода за каждый ранг заклинания.</p>"
                 },
                 {
-                    "id": "Signature Spells",
+                    "id": "fr12rvt4Ek18pG5y",
                     "name": "Коронные заклинания",
                     "description": "<p>Альзариус может сотворять @UUID[Compendium.pf2e.spells-srd.Item.oUDNCArkQTdhllxD], @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0], @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs], @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU] и @UUID[Compendium.pf2e.spells-srd.Item.kHyjQbibRGPNCixx] более высокого ранга, потратив слот заклинание этого ранг.</p>"
                 },
                 {
-                    "id": "Snowcaster's Legacy",
+                    "id": "GBnBaeuMYpbshBPY",
                     "name": "Наследие Заклинателя Зимы",
                     "description": "<p>Когда Альзариус наносит урон @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Ударом}, он наносит дополнительный 2d6 урон холодом, поскольку осколки льда и порывы ледяного ветра наносят урон по существу.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "poGLK7NZZeHZSdD9",
+                    "name": "Форма элементаля (Вода)",
+                    "description": "<p>Вы призываете силы планов, чтобы превратиться в боевую форму элементаля Среднего размера. Когда вы сотворяете это заклинание, выберите элемент. Когда вы в этой форме, то получаете соответствующий признак и признак @Trait[Elemental]{элементаль}. Вам необходимо место, чтобы увеличиться в размере, иначе заклинание пропадает. Вы можете @UUID[Compendium.pf2e.actionspf2e.Item.AjLSHZSWQ90exdLo]{Развеять} это заклинание.</p><p>Вы получаете следующие характеристики и умения вне зависимости от того, какую боевую форму выбрали:</p><ul><li>КБ = 19 + ваш уровень. Игнорируете ваш штраф проверки доспеха и снижение Скорости.</li><li>10 временных ОЗ.</li><li>@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6].</li><li>Одну или более безоружных атак ближнего боя, в зависимости от выбранной боевой формы, которые являются единственными атаками которыми вы можете совершить \"Удар\". Вы обучены им. Ваш модификатор атаки +18, а бонус урона +9. Эти атаки основаны на Ловкости (воздух, металл или огонь) или на Силе (вода, дерево или земля). Если ваш соответствующий модификатор безоружной атаки выше, то можете использовать его.</li><li>Модификаторы Акробатики (воздух, металл или огонь) или Атлетики (вода, дерево или земля) +20; или ваши если они выше.</li></ul><p>Вы также получаете особые умения в зависимости от вида выбранного элементаля:</p><ul><li><p><strong>Вода</strong></p><ul><li>Скорость 20 футов, Скорость плавания 60 футов; сопротивление 5 огню</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> волна, <strong>Урон</strong> 1d12 дробящий и вы можете мгновенно потратить действие (<span class=\"action-glyph\">1</span>) после попадания, чтобы оттолкнуть цель на 5 футов с эффектами успешного использования @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731].</li></ul></li><li><p><strong>Воздух</strong></p><ul><li>Скорость полёта 80 футов, перемещение не провоцирует реакции</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> порыв ветра, <strong>Урон</strong> 1d4 дробящий.</li></ul></li><li><p><strong>Дерево</strong></p><ul><li>Скорость 20 футов, Скорость карабканья 30 футов</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> ветвь, <strong>Урон</strong> 2d10 дробящий.</li></ul></li><li><p><strong>Земля</strong></p><ul><li>Скорость 20 футов, Скорость рытья 20 футов</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> валун, <strong>Урон</strong> 2d10 дробящий.</li></ul></li><li><p><strong>Металл</strong></p><ul><li>Скорость 40 футов, Скорость полёта 20 футов</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> лезвие (@Trait[Versatile P]{универсальное К}), <strong>Урон</strong> 1d8 рубящий + 1d4 электричество.</li></ul></li><li><p><strong>Огонь</strong></p><ul><li>Скорость 50 футов; сопротивление 10 огню, слабость 5 к холоду и воде</li><li><strong>Ближний бой:</strong> <span class=\"action-glyph\">1</span> завихрение, <strong>Урон</strong> 1d8 огнём + 1d4 продолжительного урона огнём.</li></ul></li></ul><hr><p><strong>Усиление (6-й):</strong> Ваша боевая форма становится Большого размера, и атаки становятся @Trait[Reach 10]{длинными 10 футов}. Ваш нужно достаточно места для превращения, иначе заклинание пропадает. Вы получаете КБ = 22 + ваш уровень, 15 временных ОЗ, модификатор атаки +23, бонус урона +13, и Акробатику или Атлетику +23.</p><p><strong>Усиление (7-й):</strong> Ваша боевая форма становится Огромного размера, и атаки становятся @Trait[Reach 15]{длинными 15 футов}. Ваш нужно достаточно места для превращения, иначе заклинание пропадает. Вы получаете КБ = 22 + ваш уровень, 20 временных ОЗ, модификатор атаки +25, бонус урона +11, удвоенное количество костей урона (включая @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]), и Акробатику или Атлетику +25.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.Qp0dlhJaCzXIx73r]</p>"
                 }
             ]
 		},
 		"Captain Talymir": {
 			"name": "Капитан Талимир",
             "tokenName": "Капитан Талимир",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actortalymirandulugurnix.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actortalymirt.webp",
             "description": "<p>Могильные рыцари — это воины-нежить, получившие нежизнь от проклятого доспеха.</p>",
 			"actorLink": true,
             "tokenvision": true,
@@ -119,62 +129,68 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Fist",
+                    "id": "4adEu2Sh2OYsvkLV",
                     "name": "Кулак"
                 },
                 {
-                    "id": "Frost Composite Longbow",
+                    "id": "XCfMmPXvB7LJznlU",
                     "name": "Морозный композитный длинный лук"
                 },
                 {
-                    "id": "Frost Greatsword",
+                    "id": "12LD6QHUzml95C9n",
                     "name": "Морозный двуручный меч"
                 },
                 {
-                    "id": "Reactive Strike",
+                    "id": "eYkcQHOoOkQpf2rb",
                     "name": "Реагирующий удар",
                     "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
                 },
                 {
-                    "id": "Devastating Blast",
+                    "id": "1UmNfowZ4HWxS9rx",
                     "name": "Разрушительный взрыв",
                     "description": "<p>Могильный рыцарь выпускает @Template[cone|distance:30]. Существа в области получают @Damage[12d6[cold]] с @Check[reflex|dc:30|basic].</p><p>Могильный рыцарь не может использовать эту способность снова [[/br 1d4 #Перезарядка разрушительного взрыва]]{1d4 раунда}.</p>"
                 },
                 {
-                    "id": "Sacrilegious Aura",
+                    "id": "xH6NrBw4bYEHU7e3",
                     "name": "Святотатственная аура",
                     "description": "<p>30 футов.</p><hr><p>Когда существо в ауре использует заклинание или способность с признаком @Trait[Vitality]{жизненность}, могильный рыцарь автоматически пытается противодействовать ему с модификатором противодействия [[/r 1d20+18 #Противодействие]]{+18}.</p>"
                 },
                 {
-                    "id": "Graveknight's Curse",
+                    "id": "snOrUVs5f8v8gtuP",
                     "name": "Проклятие могильного рыцаря",
                     "description": "<p>Это проклятие действует на всех, кто носит доспехи могильного рыцаря не менее 1 часа.</p><p><strong>Спасбросок:</strong> @Check[will|dc:34]</p><hr><p><strong>Возникновение:</strong> 1 час</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1} и не может снять доспех (1 день)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 2}, штраф −10 футов к Скоростям и не может снять доспех (1 день)</p><p><strong>Стадия 3:</strong> умирает и превращается в могильного рыцаря этих доспехов.</p>"
                 },
                 {
-                    "id": "Weapon Master",
+                    "id": "t6KHJCiZXdNJnqxB",
                     "name": "Мастер оружия",
                     "description": "<p>Могильный рыцарь получает доступ к критическим специализациям любого оружия, которым он владеет.</p>"
                 },
                 {
-                    "id": "Dragon Bonded",
+                    "id": "ZDAvMSdqzRdJy5aw",
                     "name": "Связь с драконом",
                     "description": "<p>Капитан Талимир невосприимчив к Устрашающему присутствию Улугурникса, его Атаке дыханием и Вони.</p><p>Если Улугурникс будет уничтожен, Капитан Талимир придет в ярость. Он наносит 2 дополнительных урона при ударах в ближнем бою и становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} на 3 раунда; он может использовать это дополнительное действие для Перемещение или Удар.</p>"
+                },
+                {
+                    "id": "8R3jmOcyIfgNNdKr",
+                    "name": "Исцеление пустотой"
                 }
             ]
 		},
 		"Degholau": {
 			"name": "Дегхолаус",
             "tokenName": "Дегхолаус",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actordegholau.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actordegholau.webp",
             "description": "<p>Дегхолаусы формируются из проклятых душ, предавших свои общества во имя зла или ради личной выгоды. Эти исчадия ада напоминают раздутых, звероподобных гуманоидов с безглазыми кротоподобными лицами. У них пять хвостов, каждый из которых украшен кроваво-красными глазами.</p><h2>Тяжкие Преступления</h2><p>Те, чьи души становятся дегхолаусами, злоупотребляли властью в своей стране ради личной выгоды или просто из-за жажды жестокости. Они могли продавать секреты, подрывать институты власти или начинать военные действия против собственного народа. Некоторые поначалу обманывали себя, веря, что их действия праведны или безвредны, но в итоге приняли свою разрушительную роль, повредив свою душу настолько полно, что после суда превращаются в этих демонов.</p>",
             "prependAdjective": true,
             "tokenvision": true,
@@ -186,44 +202,58 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Spit",
+                    "id": "fHyIsP6JVlIHyojS",
                     "name": "Плевок"
                 },
                 {
-                    "id": "Exposure Vulnerability",
+                    "id": "tGV6qcSxDZi2tXNS",
+                    "name": "Хвост"
+                },
+                {
+                    "id": "5v63fstxfbYiyG4p",
+                    "name": "Когти"
+                },
+                {
+                    "id": "0a4Fcomu6orfgxiA",
+                    "name": "Круговое зрение"
+                },
+                {
+                    "id": "R6h555Ee4IhmZEOY",
                     "name": "Уязвимость к Разоблачению",
                     "description": "<p>Когда существо в первый раз за раунд критически преуспевает в спасброске против Завесы Лжи дегхолауса, или когда существо уличает исчадие во лжи сразу после того, как демон проваливает @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Лгать}, дегхолаус получает @Damage[3d6[mental]] и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
                 },
                 {
-                    "id": "Conspiratorial Thoughts",
+                    "id": "untdFLKUpby8X9UZ",
                     "name": "Конспирологические Мысли",
                     "description": "<p><strong>Спасбросок:</strong> @Check[will|dc:33]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} (1 Раунд)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 2} (1 Раунд)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Под контролем} у этого дегхолауса (1 Раунд)</p>"
                 },
                 {
-                    "id": "Twisted Loyalties",
+                    "id": "ZO5bq9LBYC5p6e7l",
                     "name": "Искаженная Верность",
                     "description": "<p><strong>Спасбросок:</strong> @Check[will|dc:33]</p><p><strong>Возникновение:</strong> 1 День</p><p><strong>Стадия 1:</strong> Бонус Состояния +1 к броскам атаки и урона, необходимо преуспеть в @Check[flat|dc:10] чтобы использовать реакцию @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Помощь} (3 Дня)</p><p><strong>Стадия 2:</strong> Как Стадия 1, и Бонус Состояния +1 к проверкам навыков, плюс необходимо преуспеть в @Check[flat|dc:10] чтобы исцелить союзника (1 Неделя)</p><p><strong>Стадия 3:</strong> Как Стадия 2, плюс потеря признака @Trait[Consecration]{Освящение} (1 Неделя)</p><p><strong>Стадия 4:</strong> анафемы становятся эдиктами, а бывшие эдикты становятся анафемами — следование этим новым эдиктам вызывает потерю способностей и освящения, дарованных классами и божествами, которые считают их анафемой (1 Неделя)</p>"
                 },
                 {
-                    "id": "Veil of Lies",
+                    "id": "aBZdR5KU6uweR38c",
                     "name": "Завеса Лжи",
                     "description": "<p>15 футов. Дегхолаус испускает в своей ауре слабый запах гниющих полевых цветов — аромат, притупляющий разум. Существо, заканчивающее свой ход в ауре, должно совершить @Check[will|dc:30].</p><hr><p><strong>Крит.Успех:</strong> Существо невредимо и временно получает иммунитет к Завесе Лжи на 1 Минуту.</p><p><strong>Успех:</strong> Существо невредимо.</p><p><strong>Провал:</strong> Существо становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1}, пока остается в ауре и на 10 Минут после выхода из ауры.</p><p><strong>Крит.Провал:</strong> Как Провал, но @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2}.</p>"
                 },
                 {
-                    "id": "Translocate (At Will)",
+                    "id": "7HtggvaftWFMBdX4",
                     "name": "Переместить (По Желанию)",
                     "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
                 },
                 {
-                    "id": "Truespeech (Constant)",
+                    "id": "kc8C8zhUfOqFUwnf",
                     "name": "Истинная речь (Постоянно)",
                     "description": "<p>Цель может понимать все слова, независимо от языка, а также говорить на языках других существ. В смешанной группе существ, каждый раз, когда цель говорит, она может выбрать существо и говорить на языке, который это существо понимает, даже если цель не знает, что это за язык.</p><hr><p><strong>Усиление (7-й):</strong> Продолжительность 8 часов.</p>"
                 }
@@ -232,8 +262,8 @@
 		"Delvarnis": {
 			"name": "Дельварнис",
             "tokenName": "Дельварнис",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actordelvarnis.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actordelvarnis.webp",
             "description": "",
 			"actorLink": true,
             "tokenvision": true,
@@ -245,10 +275,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -257,17 +289,17 @@
                     "name": "Посох"
                 },
                 {
-                    "id": "Counterspell",
+                    "id": "fsOceixvlu0ofCp8",
                     "name": "Контрзаклинание",
                     "description": "<p><strong>Триггер</strong> Существо Сотворяет Заклинание, которое знает Дельварнис</p><hr><p>Дельварнис тратит ячейку заклинания того же уровня и затем пытается противодействовать спровоцировавшему заклинанию с модификатором [[/gmr 1d20+18 #Counteract]]{+18}.</p>"
                 },
                 {
-                    "id": "Unexplained Demise",
+                    "id": "ablVeJr7myncLdRb",
                     "name": "Необъяснимая Смерть",
                     "description": "<p><strong>Триггер:</strong> Дельварнис захвачен живым</p><hr><p>Кровь льется из ушей и носа Дельварниса, и он падает замертво на месте. Находящийся рядом ИП, который становится свидетелем этой необъяснимой смерти, должен преуспеть в @Check[will|dc:27], иначе становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
                 },
                 {
-                    "id": "Otherworldly Will",
+                    "id": "nAiiSbYBQ3BXTJ9E",
                     "name": "Потусторонняя Воля",
                     "description": "<p>Дельварниса ведёт вперед единственная, потусторонняя воля, направляющая его действия. Всякий раз, когда Дельварнис совершает спасбросок Воли против @Trait[Mental]{Ментальный} эффекта, который мог бы контролировать или диктовать его действия, Дельварнис рассматривает результат спасброска как на одну степень лучше.</p>"
                 },
@@ -277,21 +309,26 @@
                     "description": "<p>Дельварнис наносит дополнительные 4d6 ментального урона Ударами ближнего боя, совершенными пока он носит маску. При критическом попадании таким Ударом, пораженное существо становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
                 },
                 {
+                    "id": "1YZuVeubPYPVO33v",
+                    "name": "Стойкое колдовство",
+                    "description": "<p>Вы не теряете заклинания так просто. Если реакция прервёт ваше заклинательское действие, совершите @Check[flat|dc:15|showDC:all]. В случае успеха, ваше действие не прерывается.</p>"
+                },
+                {
                     "id": "+2 Striking Staff of Control (Greater)",
                     "name": "Посох контроля [Отличный]",
                     "description": "<p>На извилистой вершине золотого посоха выложена целая россыпь ослепительных драгоценных камней. Когда вы владеете этим посохом, вы получаете бонус состояния +1 к проверкам Дипломатии для @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Просьбы}.</p><hr><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p><p><strong>Эффект:</strong> Вы тратите количество зарядов из посоха, чтобы сотворить заклинание из его списка.</p><ul><li><strong>Чары:</strong> @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]</li><li><strong>1-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6], @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]</li><li><strong>2-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv], @UUID[Compendium.pf2e.spells-srd.Item.CQb8HtQ1BPeZmu9h]</li><li><strong>3-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.IihxWhRfpsBgQ5jS]</li><li><strong>4-й:</strong> @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6], @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY], @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]</li></ul>"
                 },
                 {
-                    "id": "Demon Mask (Greater, Appears as a Mask of Razmir)",
+                    "id": "V4OunmDBG6duLq1T",
                     "name": "Демоническая маска [Отличная] (Маска Размира)",
                     "description": "<p>Эта ужасающая маска создана в облике злобного демона и даёт бонус предмета +2 к проверкам Запугивания.</p><hr><p><strong>Активация—Злобная ухмылка:</strong> <span class=\"action-glyph\">2</span> (@Trait[Manipulate]{воздействие})</p><p><strong>Частота:</strong> Раз в день</p><p><strong>Эффект:</strong> Маска сотворяет @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D] 3-го ранга с КС 29.</p>"
                 },
                 {
-                    "id": "Black Razmir Robes",
+                    "id": "D0vz4lFMFhpLjtf2",
                     "name": "Черная Мантия Размира"
                 },
                 {
-                    "id": "Iron Key",
+                    "id": "2pVM9KqDXEoXcFPe",
                     "name": "Железный Ключ"
                 }
             ]
@@ -310,7 +347,7 @@
             "hreset": "",
             "items": [
                 {
-                    "id": "Fireball",
+                    "id": "4rFY0zdEHqyddS7r",
                     "name": "Огненный Шар",
                     "description": "<p><strong>Триггер:</strong> Живое существо входит в область сенсора</p><hr><p>Руна взрывает огненный шар с центром в квадрате спровоцировавшего существа. Это @UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd] Ранг 6, которое наносит @Damage[12d6[fire]] с @Check[reflex|dc:29|basic|traits:fire|options:item:spell]</p>"
                 },
@@ -329,8 +366,8 @@
 		"Eshmok": {
 			"name": "Эшмок",
             "tokenName": "Эшмок",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actoreshmok.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actoreshmok.webp",
             "description": "<p>Эшмоки являются доказательством того, что гнев поглощает существо. Сформированные из яростных душ, эти демоны напоминают гигантских человекообразных ос, которые стали жертвами паразитических грибов. Неприглядный волокнистый материал грибов является физическим проявлением ярости. Потоки этого вещества вырываются из тел эшмоков, извергая споры, вызывающие ярость, в то время как решетчатые структуры наростов, похожие на гнезда, на их туловищах служат убежищем для роев ос.</p><h2>Яростные Паразиты</h2><p>Рои, которые поражают эшмока, не являются его союзниками, но воплощениями гнева, которые служат для постоянного преследования и мучения существа. Некоторые утверждают, что эти осы являются проявлениями мести Калистрии, но ее верные считают, что правда ближе к тому, что эти осы представляют насмешку над местью и искажение направленного гнева, который их богиня преподает и воплощает. В результате, эшмоки особенно презираются почитателями Калистрии.</p>",
             "prependAdjective": true,
             "tokenvision": true,
@@ -342,35 +379,37 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Infesting Exhalation",
+                    "id": "gEd5szbw7tgDayJj",
                     "name": "Атака Дыханием Заражения",
                     "description": "<p>Эшмок выдыхает волну жалящих демонических ос в @Template[type:cone|distance:30], нанося каждому существу @Damage[4d8[poison]] (@Check[reflex|dc:28|basic]).</p><p>Рой демонических ос остаются в области на 6 Раундов или до тех пор, пока эшмок не сможет снова использовать Атаку Дыханием Заражения, что произойдет раньше. Каждое существо, пострадавшее от Атаки Дыханием Заражения или вступившее в область, должно успешно совершить @Check[fortitude|dc:28] или получить @Damage[2d8[persistent, poison]] и @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1}. В конце каждого своего хода они могут совершить новый спасбросок Стойкости, чтобы прекратить эффекты.</p><p>Эшмок не может использовать Атаку Дыханием Заражения снова в течение [[/gmr 1d6 #Recharge Infesting Exhalation]]{1d6 Раундов}.</p>"
                 },
                 {
-                    "id": "Harmony Vulnerability",
+                    "id": "8MefJICxEaL0kKqs",
                     "name": "Уязвимость к Гармонии",
                     "description": "<p>Яростные проявления эшмока определяют его, и навязывание гармонии ему разрывает его душу. Если он проваливает спасбросок против @UUID[Compendium.pf2e.spells-srd.szIyEsvihc5e1w8n]{Успокоение} или подобного эффекта, принуждающего его к перемирию, эшмок получает @Damage[4d6[mental]].</p>"
                 },
                 {
-                    "id": "Eshmok Infection",
+                    "id": "BM77FWpiqPwOVwo3",
                     "name": "Заражение Эшмока",
                     "description": "<p>Существо, которое @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускоренный} из-за заражения эшмока, может использовать дополнительное действие каждый раунд только для Ударов. Существо, которое в @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство} из-за заражения эшмока, никогда не считает эшмока в грибной форме целью.</p><p><strong>Спасбросок:</strong> @Check[will|dc:28]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Замешательство} (1 Раунд)</p><p><strong>Стадия 2:</strong> Замешательство и @UUID[Compendium.pf2e.conditionitems.nlCjDvLMf2EkV2dl]{Ускорен} (1 Раунд)</p><p><strong>Стадия 3:</strong> Замешательство, Ускорен и @UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Застигнут Врасплох} (1 Раунд)</p>"
                 },
                 {
-                    "id": "Change Shape",
+                    "id": "Ms1JQiB4TB9EcT3D",
                     "name": "Изменение формы",
                     "description": "<p>Эшмок превращается в форму гриба или обратно в обычную форму гуманоидной осы. В форме гриба он теряет Скорость Полета и не могут наносить Удары Жалом. В форме гриба он получает Удар Щупальцем в ближнем бою (+21 с @Damage[(2d8+9)[slashing]] и Заражение Эшмока); Удар щупальцем имеет признак: @Trait[Agile]{Быстрое}, @Trait[Magical]{Магический}, @Trait[Reach]{Длинное_10}, @Trait[Unarmed]{Безоружное} и @Trait[Unholy]{Нечестивый}.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
                 },
                 {
-                    "id": "Translocate (At Will)",
+                    "id": "DcCMWDcnlhxCTHQ2",
                     "name": "Переместить (По Желанию)",
                     "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
                 }
@@ -379,8 +418,8 @@
 		"Fungal Flytrap": {
 			"name": "Грибковая Мухоловка",
             "tokenName": "Мухоловка",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Flytrap Giant Flytrap.webp",
+            "tokenImg": "modules/Pathfinder-2e-Bestiary-Token-Pack/portraits/bestiary/monster-core/Flytrap Giant Flytrap.webp",
             "description": "<p>Поскольку они так хорошо сливаются с окружающей листвой, гигантские мухоловки могут использовать элемент неожиданности, чтобы наносить быстрые удары по ничего не подозревающим искателям приключений и лесным путешественникам.</p><hr><p>Мухоловки обычно питаются гуманоидами, чудовищными насекомыми и более крупной добычей.</p>",
 			"prependAdjective": true,
             "tokenvision": true,
@@ -392,41 +431,42 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Leaf",
+                    "id": "mf1G3pa8hN8LNJ4n",
                     "name": "Листья"
                 },
                 {
-                    "id": "Quick Capture",
+                    "id": "A7AIAW82kyBDKhWn",
                     "name": "Быстрая ловля",
                     "description": "<p><strong>Триггер:</strong> Существо попадает атакой или касается мухоловки.</p><hr><p><strong>Эффект:</strong> Мухоловка наносит \"Удар\" листвой по спровоцировавшему существу. Если она попадает, существо оказывается @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачено} этой листвой.</p>"
                 },
                 {
-                    "id": "Focused Assault",
+                    "id": "CBZgnwJ9S03gtLHf",
                     "name": "Сфокусированное нападение",
                     "description": "<p>Мухоловка атакует одну цель всеми четырьмя своими листьями. Мухоловка наносит один \"Удар\" листом. При успехе мухоловка наносит урон \"Удара\" листом плюс дополнительные @Damage[1d8[piercing]] за каждый лист, кроме первого. При провале мухоловка наносит урон от одного \"Удара\"\" листом, но не может использовать <em>\"Улучшенный захват\"</em>. При критическом провале она не наносит урона. При этом штраф множественных атак мухоловки считается как количество атак, равное количеству листьев мухоловки.</p>"
                 },
                 {
-                    "id": "Hungry Flurry",
+                    "id": "rZ6DDkGMLvCQH70m",
                     "name": "Голодный шквал",
                     "description": "<p>Мухоловка наносит четыре \"Удара\" листьями со штрафом −2, каждый по разным целям. Эти атаки засчитываются в штраф множественных атак, но ШМА не увеличивается до тех пор, пока мухоловка не совершит обе атаки.</p>"
                 },
                 {
-                    "id": "Greater Infestation",
+                    "id": "QS36nnJeanAeIdKI",
                     "name": "Большое Заражение",
                     "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:29]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @Damage[2d8[poison]] (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[3d8[persistent,poison]] и может слышать мысли Корневой Гнили в пределах 30 футов как неточное чувство (2 Раундов)</p><p><strong>Стадия 3:</strong> Как Стадия 2, но @Damage[4d8[persistent,poison]] и существо воскрешает после смерти как Корневая Гниль (2 Раундов).</p><hr><p>Это заменяет способности Захват и Проглотить целиком, которыми обладают гигантские мухоловки.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "j6xu1V9riuAOrTpK",
+                    "name": "Виброчувствительность (неточное 60)"
                 },
                 {
                     "id": "115",
@@ -449,7 +489,7 @@
             "hreset": "<p>Грибковое сердце деактивируется и восстанавливается, если пройдет 3 раунда, в течение которых не будет попыток Отключить Устройство или повредить. При последующих активациях \"Послание Древотеса\" телепатические сообщения не передаются - это просто всепоглощающее ощущение надвигающейся гибели.</p>",
             "items": [
                 {
-                    "id": "Treerazer Notices",
+                    "id": "TDizqENcCMkARS9M",
                     "name": "Послание Древотеса",
                     "description": "<p><strong>Триггер:</strong> Грибковое Сердце получает урон, или попытка Отключить Устройство не удаётся</p><hr><p>Зловещий голос заполняет разум всех существ в области <strong>D1</strong> или <strong>D2</strong>, говорящий на хтонийском: \"И вот мой щенок потерпел неудачу, но ты не нашёл спасения - ты обрек Кьонин на падение. Ты будешь первым, кто умрёт, или ты задержишься достаточно долго, чтобы увидеть, как всё, что тебе дорого, станет моим?\" ПИ немедленно распознают этот голос как принадлежащий Древотесу и должны совершить @Check[will|dc:39] или получить @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1} и @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 2} (или Обречен 1, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 4}, и @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство} до тех пор, пока они остаются напуган при критическом провале). Затем Грибковое Сердце бросает инициативу.</p>"
                 },
@@ -468,8 +508,8 @@
 		"Grizzer": {
 			"name": "Гриззер",
             "tokenName": "Гриззер",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorgrizzer.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorgrizzer.webp",
             "description": "<p>Эти бандитские ящерицы известны двумя особенностями. Во-первых, они выглядят нелепо, когда бегут, пританцовывая на задних лапах и дико размахивая передними в воздухе. Во-вторых, они заядлые воришки, способные хранить в желудке необычайное количество товаров. Много Гриззеров появилось в Речных Королевствах чуть более 10 лет назад, но несколько скоординированных охот вытеснили их на юго-запад, где они стали процветать в лесах Размирана.</p><h2>Странные аппетиты фей.</h2><p>Странный аппетит гриззера - не уникальное явление среди фей. Азарпалы, например, умеют хранить пищу в своих животах и насыщать их ядами, которые сеют хаос на пирах и банкетах. Истории о китах, плавающих в потусторонних морях и поглощающих целые деревни, или о двуличных змееподобных фей, способных принимать облик тех, кого они поглощают, говорят о том, что фей со странными аппетитами не так уж необычны в Первом Мире.</p>",
             "prependAdjective": true,
             "tokenvision": true,
@@ -481,25 +521,27 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Digest",
+                    "id": "IM7PVRzGjOwdOFMz",
                     "name": "Переваривание",
                     "description": "<p>Гриззер наполняет свой желудок кислотой на 1 раунд, чтобы переварить его содержимое. Существа, находящиеся в желудке, должны задержать дыхание или начать задыхаться, и они получают @Damage[4d8[acid]] (@Check[reflex|dc:29|basic]). Гриззер может Поддерживать эту активность, в этом случае желудок остается наполненным кислотой; существа внутри получают урон кислотой в конце своего хода и не могут перевести дыхание. Гриззер восстанавливает 10 Очков Здоровья, если хотя бы одно существо получает урон кислоты в результате переваривания.</p>"
                 },
                 {
-                    "id": "Regurgitate",
+                    "id": "WAhYoFJ1JRpwesoj",
                     "name": "Изрыгнуть",
                     "description": "<p>Гриззер извергает из своего желудка существо или ничейный предмет в соседнее незанятое пространство.</p>"
                 },
                 {
-                    "id": "Snatch Object",
+                    "id": "ZCRXWPSO911WQluj",
                     "name": "Вырвать объект",
                     "description": "<p>Гриззер разворачивает свой липкий язык к существу в радиусе 15 футов и пытается либо подтянуть цель ближе, либо @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Разоружить} ее.</p><p>Если Гриззер решает потянуть цель, он совершает @Check[type:athletics|defense:fortitude] против КС Стойкости цели и при успехе подтягивая ее в соседнее пространство.</p><p>Если Гриззер пытается [[/act disarm]]{Разоружить} цель, он получает Бонус Обстоятельства +1 к проверке Атлетики, если предмет сделан из блестящего материала или магически освещен, например, с помощью света. Если попытка Разоружить критически успешна, Гриззер также захватывает предмет языком и проглатывает его.</p>"
                 },
@@ -509,37 +551,39 @@
                     "description": "<p>Огромный, без урона, Разрыв [20]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
                 },
                 {
-                    "id": "Cold Iron Indigestion",
+                    "id": "2tnVXCJpPjj5VU3v",
                     "name": "Несварение от холодного железа",
                     "description": "<p>Если Гриззер проглатывает предмет из холодного железа или существо, держащее или носящее предмет из холодного железа, Гриззер получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}, пока не срыгнет его.</p>"
                 },
                 {
-                    "id": "Extradimensional Stomach",
+                    "id": "EbE3C2YuIe0CXTus",
                     "name": "Межпространственный желудок",
                     "description": "<p>Живот гриззера - это межпространственное помещение (которое выглядит как огромная вытянутая кожистая комната), способное вместить до 24 существ. Если Гриззер не использует Переварение, пространство имеет ту же среду, что и окружающая его среда, и существа внутри не получают урона от проглатывания и не сталкиваются с угрозой удушья.</p>"
                 },
                 {
-                    "id": "Limber",
+                    "id": "1fBEO5jlP48EQ0bO",
                     "name": "Гибкий",
                     "description": "<p>Гриззер игнорирует сложную местность в узких коридорах и может двигаться с полной скоростью, когда Протискивается.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "DceoDxVkjADlYoJL",
+                    "name": "Когти"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "DOdN2ipcrLTHuuUe",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "NxVa974eu4jHJzDe",
+                    "name": "Захват"
                 }
             ]
 		},
-		"Lukarazyll": {
+        "Lukarazyll": {
 			"name": "Лукарацылл",
             "tokenName": "Лукарацылл",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorlukarazyll1.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorlukarazyll1t.webp",
             "description": "<p>Демоны-разрушители, также известные как абрикандилы, презирают красивые вещи и делают все возможное, чтобы уничтожить как людей, так и объекты, считающиеся таковыми. Абрикандил формируется из душ смертных, которые были вандалами, мизантропами или осквернителями произведений искусства, особенно если их деструктивные действия проистекали из чувства сильной зависти.</p><p>Больше красоты абрикандил ненавидит только одну вещь: свой собственный облик. Один лишь вид их лица, отраженного в зеркале, щите или даже в воде, может привести демона-разрушителя в ярость. Многие истребители демонов используют эту тактику в своих интересах, отправляясь в бой наготове с полированными стальными щитами и клинками из холодного железа.</p><hr><p>Когда грешная смертная душа осуждена и отправлена в Бездну, она может превратиться в смертоносного беса - демона. Демоны являются живыми воплощениями греха, будь то классические грехи, такие как гнев или обжорство, или более \"специализированные\" пороки, такие как одержимость пытками или акт измены или предательства. Будучи однажды сформированным, его движущие цели двояки: накопление личной силы и развращение смертных душ, чтобы они запятнались грехом. Таким образом демоны обеспечивают нескончаемый приток новых демонов для пополнения своих постоянно растущих рядов в Бездне.</p>",
 			"actorLink": true,
             "tokenvision": true,
@@ -551,41 +595,74 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Fungus-Infested Hurled Debris",
+                    "id": "hbJLdmKm20p84vtq",
                     "name": "Зараженные Обломки"
                 },
                 {
-                    "id": "Wreck",
+                    "id": "VBxySuyNQGXdtmjL",
+                    "name": "Когти"
+                },
+                {
+                    "id": "QwKsTc2ps0cjzmnW",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "4cx1d9efogHuWe26",
                     "name": "Крушить",
                     "description": "<p>Абрикандил наносит 2 @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Удара} когтями по ничейному объекту или удерживаемому зеркалу. Удерживаемое зеркало использует КБ держащего его персонажа.</p><p>Если оба \"Удара\" попадают, объедините их урон с целью преодоления Твердости или сопротивления.</p><p>Эти \"Удары\" не считаются к штрафу множественной атаки абрикандила, и он не применяется к этим \"Ударам\".</p>"
                 },
                 {
-                    "id": "Mirror Vulnerability",
+                    "id": "983mBG3qwmzQKGS2",
                     "name": "Ненависть к зеркалам",
                     "description": "<p>Абрикандил ненавидит вид своего отражения. Когда существо @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействует} с зеркалом в пределах обзора демона-разрушителя, этот демон получает штраф −2 к спасброскам Воли против проверок Запугивания. Абрикандил заканчивающий свой ход рядом с зеркалом или атакованный существом держащим зеркало, получает @Damage[3d6[mental]]{3d6 ментального урона} (обычно это приводит к тому, что абрикандил сосредотачивает свои усилия на уничтожении ближайшего зеркала с помощью умения <em>\"Крушить\"</em>).</p>"
                 },
                 {
-                    "id": "Shattering Blow",
+                    "id": "aS9Pap4c6Nyhj03X",
                     "name": "Сокрушительный Удар",
                     "description": "<p>Лукарацылл бьет кулаками по земле, разрушая ландшафт вокруг себя. Существа в @Template[type:emanation|distance:15] получают @Damage[4d12[bludgeoning]] (@Check[reflex|dc:32|basic]). Те, кто проваливает спасбросок, оказываются @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}. Кроме того, все клетки в радиусе 15 футов от Лукарацылла становятся сложной местностью.</p>"
                 },
                 {
-                    "id": "Loathsome Bite",
+                    "id": "3wLOdV2RXEY5pnF5",
                     "name": "Увечащий укус",
                     "description": "<p>Когда Лукарацылл наносит @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} челюстями по существу, оно заражается самоненавистью демона. Существо должно успешно совершить @Check[will|dc:34], чтобы избежать получения штрафа состояния -1 на проверки, основанные на Харизме. Этот штраф накапливается до -3 и остается, даже если раны исцеляются. Штраф уменьшается на 1 каждые 24 часа, пока не достигнет 0.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.LgZx5xotO08JzhVc]</p>"
                 },
                 {
-                    "id": "Spore Burst",
+                    "id": "gNVUO0HtDy6k0VQO",
                     "name": "Взрыв Спор",
                     "description": "<p>Каждый раз, когда Лукарацылл поднимает обломки для броска, от его рук вырастают нити грибка, заражая обломки, так что при ударе они взрываются облаком ядовитых спор.</p><p>Все существа, не являющиеся `грибковые`, в пределах @Template[type:emanation|distance:10] от цели (включая цель) должны совершить @Check[fortitude|dc:32]. Цель, по которой бросают обломки, получает штраф обстоятельств -2 на этот спасбросок. Те, кто проваливают спасбросок, получают @Damage[2d6[persistent,poison]] и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}. Существа не могут снять состояние тошнота, пока не восстановится от этого продролжительного урона.</p>"
+                },
+                {
+                    "id": "UZivbag22tDFAKdd",
+                    "name": "Телепатия 100"
+                },
+                {
+                    "id": "lrdI1PqfqH6GIeRA",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "v6VzSHWldOCoUopr",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "sLx2lnElw4KtRXwZ",
+                    "name": "Проклятая метаморфоза (безобижное животное зараженное грибами)",
+                    "description": "<p>Вы превращаете существо в безобидное животное, подходящее для данной местности, с эффектами в зависимости от спасброска Стойкости цели.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Тело цели получает незначительные черты безвредного животного. Из-за частичного трансформирования, внутренние органы цели сотрясаются и оно получает состояние @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}. Когда оно восстанавливается от тошноты, его черты восстанавливаются.</p><p><strong>Провал:</strong> Цель превращается на 1 минуту, но сохраняет разум. Если оно в свой ход тратит все действия на то, чтобы сосредоточиться на своей изначальной форме, оно может совершить спасбросок Воли, чтобы мгновенно закончить эффект.</p><p><strong>Критический провал:</strong> Цель превращается в выбранное безвредное животное, телом и разумом, на неограниченный период времени.</p>"
+                },
+                {
+                    "id": "Actor.AIXn9JgPzmIW7Z0Z.Item.kTpS9loCN3Fp4IBc",
+                    "name": "Летать (Постоянно)",
+                    "description": "<p>Цель может парить в воздухе, получая Скорость полёта, равную её Скорости или 20 футам, в зависимости от того, что больше.</p><p>@UUID[Compendium.pf2e.spell-effects.Item.MuRBCiZn5IKeaoxi]</p><hr><p><strong>Усиление (7-й):</strong> Продолжительность увеличивается до 1 часа.</p>"
                 },
                 {
                     "id": "113",
@@ -597,8 +674,8 @@
 		"Razmiri Blade Assassin": {
 			"name": "Клинок Размира",
             "tokenName": "Клинок Размира",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorassasin.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorassasin.webp",
             "description": "",
             "appendNumber": true,
             "tokenvision": true,
@@ -610,10 +687,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -626,32 +705,32 @@
                     "name": "Рапира"
                 },
                 {
-                    "id": "Unexplained Demise",
+                    "id": "ppH8Y8jywqq7NJm0",
                     "name": "Необъяснимая Смерть",
                     "description": "<p><strong>Триггер:</strong> Клинок захвачен живым</p><hr><p>Кровь льется из ушей и носа Клинка, и он падает замертво на месте. Находящийся рядом ИП, который становится свидетелем этой необъяснимой смерти, должен преуспеть в @Check[will|dc:22], иначе становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
                 },
                 {
-                    "id": "Otherworldly Will",
+                    "id": "z41GRa1gKQnSP5wN",
                     "name": "Потусторонняя Воля",
                     "description": "<p>Клинок ведёт вперед единственная, потусторонняя воля, направляющая его действия. Всякий раз, когда Клинок совершает спасбросок Воли против @Trait[Mental]{Ментальный} эффекта, который мог бы контролировать или диктовать его действия, Клинок рассматривает результат спасброска как на одну степень лучше.</p>"
                 },
                 {
-                    "id": "Nimble Dodge",
+                    "id": "Z7SvZR83Hkn79HDG",
                     "name": "Ловкое Уклонение",
                     "description": "<p><strong>Триггер:</strong> Существо целится в Клинок атакой, и он может видеть атакующего.</p><hr><p>Клинок ловко уворачиваетесь, получая против спровоцировавшей атаки бонус обстоятельства +2 к КБ.</p>"
                 },
                 {
-                    "id": "Poison Weapon",
+                    "id": "CI0xauhT4sblIMa8",
                     "name": "Отравленное Оружие",
                     "description": "<p><strong>Требования:</strong> Клинк владеет оружием с колющим или рубящим уроном и имеет свободную руку</p><hr><p>Клинок наносит яд на оружие.</p>"
                 },
                 {
-                    "id": "Sneak Attack",
+                    "id": "OnGX99D9tbMGKZMD",
                     "name": "Внезапная атака",
                     "description": "<p>Клинок наносит дополнительные 2d6 точного урона @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутым Врасплох} существам.</p>"
                 },
                 {
-                    "id": "Surprise Attack",
+                    "id": "ZjiXNAAO9yrRpDvy",
                     "name": "Неожиданная атака",
                     "description": "<p>В первом раунде боя существа, которые еще не действовали, находятся в состоянии @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] для Клинка.</p>"
                 },
@@ -665,8 +744,8 @@
 		"Root Rotter": {
 			"name": "Корень Гнили",
             "tokenName": "Корень Гнили",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorrootrotter.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorrootrotter.webp",
             "description": "<p>Корни Гнили - это все, что осталось от несчастных эльфийских жителей Гринголда. Некоторые погибли при первых выбросах Спор Джехарлу, в то время как другие поддались заражению Плесень Греха. Грибок теперь пронизывает их тела, обвиваясь вокруг их мозга и нервов, чтобы оживить их.</p><h2>Распространители Гнили</h2><p>Корень Гнили, остающийся на месте на 24 Часа, вызывает заражение @Template[type:emanation|distance:5] зловонными неприятными грибами. Это распространение увеличивается на 5 футов за каждые дополнительные 24 Часа, в течение которых Корень Гнили остается неподвижным, до максимальной области @Template[type:emanation|distance:60] после 12 Дней неподвижного затаивания. Эти грибы постоянны, пока у них есть источник питания, но могут быть уничтожены так же легко, как и любой участок обычных грибов.</p>",
             "appendNumber": true,
             "tokenvision": true,
@@ -678,55 +757,64 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Disperse",
+                    "id": "5Y1BDRtyFk8KwSpN",
                     "name": "Распостранить",
                     "description": "<p><strong>Требования:</strong> Корень Гнили имеет 25 Очков Здоровья или меньше</p><hr><p>Корень Гнили уничтожает сам себя. Из его тела вырываются колючие грибковые корни, нанося @Damage[10d6[piercing]] в @Template[type:emanation|distance:10] (@Check[reflex|dc:25|basic]). Любое существо, провалившее спасбросок, подвергается Заражению Гнилью.</p>"
                 },
                 {
-                    "id": "Fungal Root",
+                    "id": "FBCGJUvGZkv8Prk7",
                     "name": "Грибные Корни",
                     "description": "<p><strong>Требования:</strong> Корень Гнили стоит на грибной местности</p><hr><p>Грибные корни тянутся, чтобы схватить ближайшего врага. Враг в пределах 30 футов от Корня Гнили получает @Damage[4d6[piercing]] и должен совершить @Check[reflex|dc:27]</p><hr><p><strong>Крит.Успех:</strong> Существо невредимо.</p><p><strong>Успех:</strong> Существо получает половину урона и становится @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Неуклюж 1} до конца своего следующего хода.</p><p><strong>Провал:</strong> Существо получает полный урон и становится Неуклюж 1 на неограниченную длительность. Кроме того, существо становится @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Схвачен} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться} КС 27) на 1 Минуту.</p><p><strong>Крит.Провал:</strong> Как при провале, но двойной урон. Кроме того, существо подвергается Заражению Гнилью.</p>"
                 },
                 {
-                    "id": "Fungus Sense",
+                    "id": "WOg7GpfGZ8BaShg5",
                     "name": "Грибное Чувство",
                     "description": "<p>Корень Гнили обладает неточной Виброчувствительность для обнаружения вибраций существ, находящихся в области грибной местности, которую он делит с ними.</p>"
                 },
                 {
-                    "id": "Fungal Empowerment",
+                    "id": "yW6kSSYOyN0SZ23S",
                     "name": "Грибное Усиление",
                     "description": "<p>Если Корень Гнили касается грибной местности в начале своего хода, он восстанавливает @Damage[10[healing]] ОЗ и становится @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен} в этот ход; он может использовать дополнительное действие только для @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} или @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>"
                 },
                 {
-                    "id": "Fungal Mind",
+                    "id": "JY9rAddEAvmjglU9",
                     "name": "Грибной Разум",
                     "description": "<p>Корни Гнили телепатически общаются друг с другом. Находясь в пределах телепатического диапазона как минимум с одним другим Корнем Гнили, они получают Бонус Обстоятельства +2 к броскам инициативы, проверкам Восприятия и спасброскам против @Trait[Mental]{Ментальный} эффектов. Если один Корень Гнили знает о враге, все члены грибного разума в пределах диапазона также знают о нем.</p>"
                 },
                 {
-                    "id": "Rotter Infestation",
+                    "id": "qtcJImVaTzh3cwtt",
                     "name": "Заражение Гнилью",
                     "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:27]</p><p><strong>Возникновение:</strong> 1 День</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 День)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} и может чувствовать присутствие Корней Гнили в пределах 30 футов как неточное чувство (1 Раунд)</p><p><strong>Стадия 3:</strong> Как Стадия 2, но при смерти превращается в Корень Гнили (1 День)</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "w4LFpANSIxPjULqH",
+                    "name": "Кулак"
+                },
+                {
+                    "id": "zHYpJSw05Pb527GD",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "OgeUlpyzinY1Ey8R",
+                    "name": "Исцеление пустотой"
                 }
             ]
 		},
 		"Rotting Cultist": {
 			"name": "Гниющий Культист",
             "tokenName": "Гниющий Культист",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorrottingcultist.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorrottingcultist.webp",
             "description": "",
             "appendNumber": true,
             "tokenvision": true,
@@ -738,10 +826,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -754,35 +844,35 @@
                     "name": "Рапира"
                 },
                 {
-                    "id": "Mask",
+                    "id": "ysiZNnhkhlcJPCVP",
                     "name": "Маска"
                 },
                 {
-                    "id": "Razmir Robes",
+                    "id": "iFUE461jPOirElMz",
                     "name": "Размиранская Роба"
                 },
                 {
-                    "id": "Otherworldly Will",
+                    "id": "JKpVhSEh7qzyFwJx",
                     "name": "Потусторонняя Воля",
                     "description": "<p>Культист ведёт вперед единственная, потусторонняя воля, направляющая его действия. Всякий раз, когда Культист совершает спасбросок Воли против @Trait[Mental]{Ментальный} эффекта, который мог бы контролировать или диктовать его действия, Культист рассматривает результат спасброска как на одну степень лучше.</p>"
                 },
                 {
-                    "id": "Sneak Attack",
+                    "id": "mR1DAC3EBTanVT2q",
                     "name": "Внезапная атака",
                     "description": "<p>Культист наносит дополнительные 2d6 точного урона @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнутым Врасплох} существам.</p>"
                 },
                 {
-                    "id": "Surprise Attack",
+                    "id": "999luufRj0Y4WPxg",
                     "name": "Неожиданная атака",
                     "description": "<p>В первом раунде боя существа, которые еще не действовали, находятся в состоянии @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg] для Культиста.</p>"
                 },
                 {
-                    "id": "Pray to the Rotting God",
+                    "id": "Q9G3CprtsQgFnDvm",
                     "name": "Молитва Гниющему Богу",
                     "description": "<p><strong>Частота:</strong> 1/День</p><hr><p>Гниющий культист взывает к Гниющему Богу, предлагая свою плоть в обмен на силу. Гниющий культист получает исцеление @Damage[(4d6+8)[healing]] ОЗ, получает Бонус Состояния +1 при бросках атаки на 1 Минуту, и они уменьшают любое состояние (кроме замедлен), влияющее на них, на 1 (если оно имеет числовое значение; это не влияет на состояния без значений). Гниющий культист становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} на 10 Минут, когда из его плоти вырывается Грибковое Цветение.</p>"
                 },
                 {
-                    "id": "Fungal Fervor",
+                    "id": "ehSgBhJSmlBjHJGe",
                     "name": "Грибковая Свирепость",
                     "description": "<p><strong>Триггер:</strong> Гниющий культист уменьшен до 0 ОЗ</p><hr><p>Гниющий культист избегает смерти и снижает свое ОЗ до 1. Он @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}, и каждый раз, когда он использует эту способность, его замедление увеличивается на 1, максимум до 3. Каждый раз, когда он использует эту способность, из его плоти вырывается грибок, а его движения становятся еще более рассогласованными. Состояние замедлен уменьшается на 1 каждый день.</p><div data-visibility=\"gm\"><p>Обратите внимание, что, поскольку это реакция, любой дальнейший урон, нанесенный гниющему культисту, который снижает его до 0 ОЗ, прежде чем он восстановит свою реакцию, убивает его.</p></div>"
                 }
@@ -802,7 +892,7 @@
             "hreset": "",
             "items": [
                 {
-                    "id": "Filth Fall",
+                    "id": "S5IbFFydJSWXmzfP",
                     "name": "Падение Грязи",
                     "description": "<p><strong>Триггер:</strong> Давление оказывается на плитку пола.</p><hr><p>Металлическая плита над ней прогибается, выбрасывая поток нечистот и плотоядных червей на всех, кто находится в радиусе 10 футов от нажимной плиты. Каждый, кого заденет грязь, должно совершить @Check[fortitude|dc:32]</p><hr><p><strong>Крит.Успех:</strong> Существо невредимо.</p><p><strong>Успех:</strong> Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} и @Damage[2d12[piercing]]</p><p><strong>Провал:</strong> Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} и @Damage[4d12[piercing]]</p><p><strong>Крит.Провал:</strong> Существо получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 4} и @Damage[(4d12)[piercing],(2d12)[persistent,piercing]]</p>"
                 },
@@ -821,8 +911,8 @@
 		"Sinmold": {
 			"name": "Плесень Греха",
             "tokenName": "Плесень Греха",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorsinmold.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorsinmold.webp",
             "description": "<p>Плесени Греха возникают из-за порчи, вызванной махинациями Древотеса. По мере того, как земля трансформируется, она привлекает души, связанные с Внешними Царствами. Эти души сливаются в тела из грибковой слизи, порождая аморфных исчадий, которые с жадностью охотятся за большим количеством биологической материи, используя булавовидные ложноножки или хлыстоподобные отростки, которые могут легко прорезать плоть и кости.</p><h3>Демоническая Трансформация</h3><p>Плесень Греха, поглотившая многих существ в течение периода от 1 до 2 недель, затвердевает свою внешнюю оболочку в кокон и превращается в демона. Эта трансформация занимает 3 дня, в течение которых Плесень Греха находится в бессознательном состоянии, повышает свой КБ до 37 и максимальные ОЗ до 400 и приобретает Твердость 10. Плесени Греха ищут безопасное место для трансформации, например, подземное убежище или плотный навес на вершине дерева, хотя некоторые просто едят до тех пор, пока не превратятся в кокон. Грехи, которые душа совершила при жизни, определяют, каким демоном станет Плесень Греха, поэтому получившаяся форма может стать как более высоким, так и более низким уровнем, как это определит ГМ.</p>",
             "appendNumber": true,
             "tokenvision": true,
@@ -834,10 +924,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -847,34 +939,32 @@
                     "description": "<p>@Check[reflex|dc:32], @Damage[(3d10)[acid]] и Переваривание, Вырваться [32], Разрыв [18]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
                 },
                 {
-                    "id": "Spore Purge",
+                    "id": "CIQeKlHmGrKtUzcR",
                     "name": "Извержение Спор",
                     "description": "<p><strong>Требования:</strong> Плесень Греха имеет временные ОЗ от Переваривания</p><hr><p>Плесень Греха теряет все временные ОЗ и выпускает всех существ, которых она в данный момент поглотила, выталкивая их в ближайшие незанятые пространства. Она выпускает облако спор из своего тела, нанося @Damage[5d8[poison]] (@Check[fortitude|dc:29|basic]) в @Template[type:emanation|distance:20]. Любое существо, провалившее этот спасбросок, также должно совершить спасбросок против Заражения Плесенью.</p>"
                 },
                 {
-                    "id": "Desperation Vulnerability",
+                    "id": "6FLJPX5aNUrFnuWr",
                     "name": "Уязвимость к Отчаянию",
                     "description": "<p>Плесени Греха осознают, что находятся в уязвимом состоянии как бесформенные \"новорожденные исчадия\" и отчаянно стремятся стать сильнее, прежде чем станут добычей более могущественных демонов. Всякий раз, когда Плесень Греха находится в боевом столкновении и заканчивает свой ход, не нанеся урона другому существу, Плесень Греха получает @Damage[3d6[mental]] и становится @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напуган 1}.</p>"
                 },
                 {
-                    "id": "Digestion",
+                    "id": "no9JeqHYDCcPoIlD",
                     "name": "Переваривание",
                     "description": "<p>В первый раз за раунд, когда Плесень Греха наносит урон существу с помощью Поглотить, Плесень Греха немедленно восстанавливает ОЗ, равные нанесенному урону, получая ОЗ сверх своего максимума в качестве Временных ОЗ, которые длятся 1 час. Пока у Плесени Греха есть эти Временные ОЗ, ее поверхность затвердевает, и ее КБ увеличивается до 30.</p>"
                 },
                 {
-                    "id": "Sinmold Infestation",
+                    "id": "ChHQV3DvokqMb4HQ",
                     "name": "Заражение Плесенью",
                     "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:32]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @Damage[2d8[poison]] (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[3d8[poison]] и может чувствовать присутствие Корней Гнили в пределах 30 футов как неточное чувство (1 Раунд)</p><p><strong>Стадия 3:</strong> Как Стадия 2, но @Damage[4d8[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1} (1 Раунд)</p><p><strong>Стадия 4:</strong> Как Стадия 3, но при смерти превращается в Корень Гнили (1 Раунд)</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "g67BUMCmKViqL47S",
+                    "name": "Ложноножка"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "njHUglbN0dpYEuhc",
+                    "name": "Щупальца"
                 }
             ]
 		},
@@ -892,7 +982,7 @@
             "hreset": "",
             "items": [
                 {
-                    "id": "Spear Jaws",
+                    "id": "XuTIPtDZ18xxLrWP",
                     "name": "Копья-Челюсти",
                     "description": "<p><strong>Триггер:</strong> Существо среднего или большего размера входит на клетку, отмеченную буквой S</p><hr><p>Дюжины железных копьев выстреливают из пола и потолка, пронзая всех в пространстве. Ловушка наносит @Damage[(8d8+16)[piercing]] (@Check[reflex|dc:30|basic]). Те, кто проваливает этот спасбросок, также получает @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe] до начала своего следующего хода, когда копья вытягиваются.</p>"
                 },
@@ -911,8 +1001,8 @@
 		"Spore Tyrannosaurus": {
 			"name": "Споровый Тираннозавр",
             "tokenName": "Споровый Тираннозавр",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorsporetyrannosaur.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorsporetyrannosaur.webp",
             "description": "<p>Тираннозавр, которого мночие считают королем динозавров, это массивный хищник с широкой пастью, наполненной злобными острыми зубами. Некоторые племена гигантов даже использовали тираннозавров в качестве скакунов или боевых зверей.</p><hr><p>Пережитки первобытной эпохи, эти огромные рептилоидные животные до сих пор в большом количестве обитают в отдаленных диких местах или под землей в магических пещерах Темноземья. Людоящеры, орки, гиганты и другие гуманоиды живущие рядом с динозаврами, используют их в качестве скакунов, охранных или охотничьих зверей. Иногда богатые дворяне собирают динозавров, чтобы выставить их в зверинцах, что почти неизбежно приводит к тому, что динозавров выхаживают друиды и другие защитники природы. Когда динозавры появляются в регионах за пределами своих обычных мест обитания, это часто бывает результатом выпуска большой коллекции.</p>",
             "appendNumber": true,
             "tokenvision": true,
@@ -924,20 +1014,22 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Fling",
+                    "id": "24g2FSPaGiTvJB6C",
                     "name": "Швырнуть",
                     "description": "<p><strong>Требования:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачено} челюстями тираннозавра</p><hr><p><strong>Эффект:</strong> Тираннозавр подбрасывает существо в воздух на высоту до 10 футов от своей пасти и на расстояние 20 футов. Существо падает на 25 футов (при условии, что тираннозавр подбрасывает его так высоко, как только может) и получает соответствующий урон от падения. Если брошенное существо приземляется на другое существо, оно получает такое же количество дробящего урона. Существо, на которое приземлились может совершить @Check[reflex|dc:33|basic].</p>"
                 },
                 {
-                    "id": "Pin Prey",
+                    "id": "9gYASQQf328TmVpW",
                     "name": "Прижать жертву",
                     "description": "<p><strong>Триггер:</strong> Тираннозавр критически попадает своей ногой по противнику Большого или меньшего размера</p><hr><p><strong>Эффект:</strong> Существо, поражённое ногой, падает @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком}, и удерживается на месте. Пока тираннозавр не движется со своего места, прижатое существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачено}.</p><p>Тираннозавр получает бонус обстоятельства +2 к атаке прижатого таким образом существа, но он может <em>\"Проглотить целиком\"</em> это существо только если сначала @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схватит} его челюстями.</p>"
                 },
@@ -952,32 +1044,44 @@
                     "description": "<p>Огромный, Нога, @Check[reflex|dc:30|basic]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
                 },
                 {
-                    "id": "Spore Breath",
+                    "id": "raGz3FT0rBA5DRPc",
                     "name": "Споровое Дыхание",
                     "description": "<p>Споровый тираннозавр выпускает из своей пасти @Template[type:cone|distance:60] высокотоксичных спор. Существа в этой области получают @Damage[14d6[poison]] (@Check[fortitude|dc:33|basic]). При провале цель также получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (или @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале).</p><p>Споровый тираннозавр не может снова использовать споровое дыхания в течение [[/gmr 1d4 #Recharge the spore breath weapon]]{1d4 Раундов}.</p>"
                 },
                 {
-                    "id": "Fungalsense",
+                    "id": "12NagAQPX82czuZ4",
                     "name": "Чувства Грибов",
                     "description": "<p>Споровый тираннозавр, контактирующий с грибковым заражением, может ощущать близкое движение всего, что касается того же участка грибкового заражения.</p>"
                 },
                 {
-                    "id": "Aura of Spores",
+                    "id": "isAizYnvNaMLUqQd",
                     "name": "Аура Спор",
                     "description": "<p>30 футов. Существа, которые начинают свой ход в ауре спорового тираннозавра, подвергаются опасности вдыхания токсичных спор, которые он постоянно выделяет.</p><p>Существа без признаков @Trait[Fungus]{Грибковый} или @Trait[Plant]{Растение} получают @Damage[4d6[poison]] (@Check[fortitude|dc:30|basic]) при входе в ауру или начале своего хода в ауре. Те, кто получают провал, также получают @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.</p>"
                 },
                 {
-                    "id": "Fungal Empowerment",
+                    "id": "aHZeRVDynG7BMq1x",
                     "name": "Грибковое усиление",
                     "description": "<p>Когда споровый тираннозавр касается грибкового заражения, он получает Быстрое Исцеление 10 и @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Ускорен}; он может использовать дополнительное действие @UUID[Compendium.pf2e.actionspf2e.Bcxarzksqt9ezrs6]{Перемещение} или @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар}.</p>"
+                },
+                {
+                    "id": "orlHVFqe7EEW7ruO",
+                    "name": "Нога"
+                },
+                {
+                    "id": "OTDwVMsK2PJ4wuY6",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "kxRli3zYiks3nckW",
+                    "name": "Захват"
                 }
             ]
 		},
 		"Tanglebriar Isqulug": {
 			"name": "Искулуг Терновника",
             "tokenName": "Искулуг Терновника",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actortanglebriarisqulug.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actortanglebriarisqulug.webp",
             "description": "<p>Внешний вид искулуга, хотя и пугающий, может быть наименее ужасным его качеством. Это существо напоминает двуногую амфибию со щупальцами вместо рук и головой, состоящей из беспорядочной массы того, что кажется двигающимися, слизистыми прозрачными яйцами, наполненными извивающимися личинками. На самом деле эти личинки представляют собой коллективный разум и сознание искулуга — его \"тело\" не более чем органический костюм, изготовленный из плоти тех, кого он съел, аналогичный сложной паутине паука или улью колонии пчел, но полностью способный к движению и насилию.</p>",
             "appendNumber": true,
             "tokenvision": true,
@@ -989,60 +1093,69 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Expel Infestation",
+                    "id": "GRiHxWvHx9rf0zcF",
                     "name": "Изгнание заражения",
                     "description": "<p>Искулуг выбрасывает личинок из коллективного разума в своей голове в @Template[cone|distance:30]{30-футовом конусе}. Существа в области получают @Damage[6d10[piercing]], так как рой питается их плотью (простой спасбросок @Check[reflex|dc:32|basic]{Рефлекса}). Существа, получившие урон от этой способности, подвергаются <em>\"Искулугии\"</em>.</p><p>Искулуг становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одруманен 1} на [[/br 1d4 #Продолжительность одурманивания]]{1d4 раунда}, и не может использовать <em>\"Изгнание заражения\"</em> пока @Condition[Stupeied]{одурманен} от этого умения.</p>"
                 },
                 {
-                    "id": "Host Scent",
+                    "id": "swAJMaqujVUFqFKT",
                     "name": "Нюх на носителя",
                     "description": "<p>Искулуг может точно чувствовать существо с <em>\"Искулугией\"</em> в радиусе 30 футов, и знает текущую стадию заболевания.</p>"
                 },
                 {
-                    "id": "Regeneration 10 (Deactivated by Cold)",
+                    "id": "m8k2uRU1UVmPgF03",
                     "name": "Регенерация 10 (отключается от холода)",
                     "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
                 },
                 {
-                    "id": "Isqulugia",
+                    "id": "CwEVrNGC8oHJQrv0",
                     "name": "Искулугия",
                     "description": "<p>Состояния @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен} и @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} от искулугии нельзя снять, пока не излечен этот недуг.</p><p><strong>Спасбросок:</strong> @Check[fortitude|dc:32]</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (1 час)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Утомление} и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} (1 день)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Утомление} и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} (1 день)</p><p><strong>Стадия 4:</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализован} (1 день)</p><p><strong>Стадия 5:</strong> существо умирает, и его тело насильственно трансформируется в нового искулуга. Вернуть жертву к жизни может @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Желание}, аналогичная магия или ритуал @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{Воскрешение} 9-го ранга. Новый искулуг остается, даже если жертву вернуть к жизни.</p>"
                 },
                 {
-                    "id": "Malleability",
+                    "id": "u3s5y4pE6L6HfEAq",
                     "name": "Податливость",
                     "description": "<p>Искулуг может @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{Протискиваться} сквозь узкие пространства, как если бы он был Маленьким существом. Пока \"Протискивается\", он может двигаться с полной Скоростью. Искулуг может даже \"Протиснуться\" скозь пространство, обычно вмещающее только Крошечное существо, но делает это со стандартной для \"Протискивания\" скорости.</p>"
                 },
                 {
-                    "id": "Spore Cloud",
+                    "id": "fRwko0nbFXXeMXfH",
                     "name": "Облако Спор",
                     "description": "<p><strong>Триггер:</strong> Искулуг Терновника поражен атакой ближнего боя;</p><hr><p>Искулуг Терновника выпускает облако ядовитых спор, которые вгрызаются в кожу любого `живого` не-@Trait[Fungus]{Грибковый} существа, находящегося рядом с ним. Споры наносят @Damage[(2d6)[persistent,poison]], и пока урон сохраняется, существо так же получает @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{Неуклюж 1} от онемения, вызванного спорами.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "E89TNZAj6eZb2Z9E",
+                    "name": "Щупальца"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "F2mPoxLl7PTJpc3I",
+                    "name": "Круговое зрение"
+                },
+                {
+                    "id": "CRuPtzSYQoeDAWbH",
+                    "name": "Разум роя"
+                },
+                {
+                    "id": "WtMCu7aRag8Z4ewh",
+                    "name": "Болотная поступь",
+                    "description": "<p>Существо игнорирует сложную местность, вызванную особенностями болотной местности</p>"
                 }
             ]
 		},
 		"Tithekeeper": {
 			"name": "Сборщик десятины",
             "tokenName": "Сборщик десятины",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actortithekeeper.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actortithekeeper.webp",
             "description": "<p>Самые могущественные жрецы Размира устанавливают Хранителей Десятины, чтобы у его последователей не появились липкие пальцы. У этих зиккуратоподобных сооружений более двух десятков ног и рот, похожий на ловушку. На его вершине находится маска с прикрепленной к ней цветной лентой, обозначающей его символический ранг в Церкви Размира.</p><h2>Орудия ужаса</h2><p>Несмотря на то, что основная функция Сборщика десятины - сбор монет, они способны на большую жестокость. Жрецы, решившие, что деревня слишком отстает от графика выплат, могут поручить Сборщику десятины изрубить на куски нескольких жителей и размахивать телами жертв в воздухе во время шествия по улицам. Те, кто пережил это испытание, очень мотивированы на то, чтобы избежать его повторения.</p>",
             "appendNumber": true,
             "tokenvision": true,
@@ -1054,51 +1167,61 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Accept Tithe",
+                    "id": "UfNYMzlG9vSoNKRd",
                     "name": "Принять десятину",
                     "description": "<p><strong>Триггер:</strong> Существо бросает монеты или предлагает ценности не менее чем на 750 зм в радиусе 15 футов от Сборщика десятины</p><hr><p>Сборщик десятины быстро использует свои ноги, чтобы зачерпнуть ценности в свое хранилище и теперь безразличен к спровоцировавшему существу, если только это существо не использует враждебные действия против него или его союзников.</p>"
                 },
                 {
-                    "id": "Impale",
+                    "id": "WseMJaoN35TNcgzl",
                     "name": "Пронзить",
                     "description": "<p><strong>Требования:</strong> У Сборщика десятины есть @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} существо</p><hr><p>Сборщик десятины пронзает цель шипом, нанося @Damage[(2d8+13)[piercing]] (@Check[reflex|dc:29|basic]). Больше не нужно тратить действие, чтобы продлить время действия Захват для этой цели. Цель перемещается вместе с Хранителем Десятины и получает @Damage[1d8[persistent,bleed]] урона, пока не совершит Вырваться (КС 29).</p>"
                 },
                 {
-                    "id": "Body",
+                    "id": "o40aXWtqKTabe864",
                     "name": "Тело"
                 },
                 {
-                    "id": "Rip Off",
+                    "id": "S6muXnYVqd6xPoYs",
                     "name": "Содрать",
                     "description": "<p><strong>Требования:</strong> Сборщик десятины Пронзил существо</p><hr><p>Сборщик десятины отрывает существо от шипастых ног, освобождая его. Существо получает @Damage[4d10[slashing]] (@Check[fortitude|dc:29|basic]) и больше не является @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачен}. При провале спасброска существо также получает @Damage[2d8[persistent,bleed]].</p>"
                 },
                 {
-                    "id": "Trample",
+                    "id": "Ix25RSVuLJJG7MxU",
                     "name": "Растоптать",
                     "description": "<p>Средний, Нога, @Check[reflex|dc:29|basic]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
                 },
                 {
-                    "id": "Eyes Behind the Mask",
+                    "id": "2k7t0cZJVWfjCoCL",
                     "name": "Глаза за Маской",
                     "description": "<p>Существо в маске и одеянии жреца Размира, превосходящее по рангу маску и ленту Сборщика десятины, может потратить час на взаимодействие с маской Сборщика десятины, чтобы установить с ней связь. Маска существа становится инвестированным предметом, который позволяет ему видеть и слышать, как будто он смотрит сквозь маску Сборщика десятины.</p><p>Чтобы активировать эффект подглядывания, существо должно совершить 3 действия, представляя себе Сборщика десятины, и эффект можно @UUID[Compendium.pf2e.actionspf2e.AjLSHZSWQ90exdLo]{Развеять}. Несколько существ могут одновременно создавать связи с маской Сборщика десятины, и существо может иметь связи с несколькими Хранителями Десятины, используя только одну маску. Каждая связь заканчивается через неделю, но может быть возобновлена в любое время.</p>"
                 },
                 {
-                    "id": "Capacity for Punishment",
+                    "id": "UwthgNFhzVYfkzkK",
                     "name": "Способность к наказанию",
                     "description": "<p>У Сборщика десятины может быть до шести существ, Пронзенных и @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченных} его ногами одновременно.</p>"
                 },
                 {
-                    "id": "Locked Vault",
+                    "id": "UEN6QlyeiPOycfoa",
                     "name": "Запертое хранилище",
                     "description": "<p>Тело Сборщика десятины - это запертое хранилище, в котором хранятся все отданные ему десятины. Чтобы открыть хранилище надо совершить @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H] КС 29 или @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx] КС 33.</p>"
+                },
+                {
+                    "id": "P033wqv4auNm4uta",
+                    "name": "Нога"
+                },
+                {
+                    "id": "qJSH834xZCZmdPUX",
+                    "name": "Улучшенный Захват"
                 },
                 {
                     "id": "115",
@@ -1110,8 +1233,8 @@
 		"Ulugurnix": {
 			"name": "Улугурникс",
             "tokenName": "Улугурникс",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actortalymirandulugurnix.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorulugurnixt.webp",
             "description": "<p>Магия, проходящая через природных драконов, может проявлять в данном виде драконов более звериные или звероподобные черты. К таким чертам относятся массивные парные рога рогатого дракона. Хотя их громоздкие каркасы, естественная окраска и выделяющаяся гребневидная чешуя по-своему примечательны, именно рога бросаются в глаза с первого взгляда. Рогатые драконы используют свои рога, чтобы пронзить добычу в быстрой и жестокой демонстрации своей мощи. В целом они созерцательны и зациклены на знаниях и самодисциплине - черты, не соответствующие их звериному облику. В результате рогатые драконы обычно более открыты для общения с чужаками.</p><hr><p>Драконы существуют в самых разных формах и многие из них обладают магическими способностями или связаны с магией. Некоторые драконы черпают из магии больше силы, чем другие, что позволяет им проявлять способности или изменять свое тело при длительном воздействии магии. Такие драконы становятся более могущественными с возрастом и укрепляют свои связи с магическим происхождением. Ученые спорят о классификации этих драконов: одни предпочитают называть их магическими драконами, другие традиционными, что объясняется их связью с определенными магическими обычаями. Независимо от названия, эти драконы имеют ряд общих черт: способность использовать магическую энергию, усиление могущества и хитрости с возрастом, а также склонность к накоплению огромных сокровищ и богатств.</p>",
 			"actorLink": true,
             "tokenvision": true,
@@ -1123,10 +1246,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1136,27 +1261,27 @@
                     "description": "<p><strong>Триггер:</strong> Существо в досягаемости хвоста дракона использует действие @Trait[Move]{движения} или покидает квадрат во время используемого действия @Trait[Move]{движения}.</p><hr><p><strong>Эффект:</strong> Дракон наносит по спровоцировавшей цели \"Удар\" хвостом со штрафом −2. При попадании, он <a href=\"https://clck.ru/epked\">прерывает</a> действие существа.</p>"
                 },
                 {
-                    "id": "Consume Flesh",
+                    "id": "kmoO5nM9lLiCvPNn",
                     "name": "Поглощение плоти",
                     "description": "<p><strong>Требования:</strong> Гуль рядом с трупом существа, которое умерло за прошедший час.</p><hr><p><strong>Эффект:</strong> Гуль пожирает кусок трупа и восстанавливает @Damage[6d6[healing]].</p><p>Он может восстановить ОЗ с каждого конкретного трупа только 1 раз.</p>"
                 },
                 {
-                    "id": "Draconic Frenzy",
+                    "id": "Iv8LMCTGw5NLD5aD",
                     "name": "Драконье неистовство",
                     "description": "<p>Дракон в любом порядке наносит 2 \"Удара\" когтями и 1 \"Удар\" рогом.</p>"
                 },
                 {
-                    "id": "Ghoul Whispers",
+                    "id": "7l6OIo3lkrYm0wAz",
                     "name": "Шепот гуля",
                     "description": "<p><strong>Требования:</strong> В досягаемости гуля находится @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Парализованное}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаемое} или находящееся @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Без сознания} существо.</p><hr><p><strong>Эффект:</strong> Гуль шепчет в уши существа темные мысли и мерзкие желания. Существо должно совершить спасбросок от проклятия запретных желаний.</p><p><strong>Запретные желания:</strong> (@Trait[Curse]{проклятие})</p><p><strong>Спасбросок:</strong> @Check[will|dc:30|traits:curse]</p><p><strong>Стадия 1:</strong> Переносчик не имеет эффектов заболевания (1 день)</p><p><strong>Стадия 2:</strong> @Damage[2d6[void]] и цель испытывает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1} пока не съест сырое мясо (1 раунд)</p><p><strong>Стадия 3:</strong> как стадия 2</p><p><strong>Стадия 4:</strong> как стадия 2 если цель не ела сырое мясо за последние 24 часа, иначе @Damage[4d6[void]] и испытывает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 2} пока не съест сырое мясо</p><p><strong>Стадия 5:</strong> если существо ело сырое мясо за последние 24 часа, оно умирает и восстаёт как гуль, иначе оно возвращается на стадию 4</p>"
                 },
                 {
-                    "id": "Impaling Charge",
+                    "id": "3Fn7wuVzeuI4kT5H",
                     "name": "Прокалывающее нападение",
                     "description": "<p><strong>Требования:</strong> У дракона на рог не насажено существо</p><hr><p><strong>Эффект:</strong> Дракон пытается забодать противника. Он \"Перемещается\", а затем пытается нанести \"Удар\" рогом. При попадании цель оказывается насаженной на рог дракона. Существо @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схвачено}, пока находится на роге (и может попытаться @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться}, как обычно). Дракону не нужно использовать дополнительные действия, чтобы удерживать @Condition[Grabbed]{схваченное} существо. Если дракон движется, он забирает схваченное существо с собой.</p>"
                 },
                 {
-                    "id": "Poison Breath",
+                    "id": "VPryni3E3RGw5MdV",
                     "name": "Атака Дыханием Яда",
                     "description": "<p>Улугурникс выдыхает ядовитое облако, которое наносит @Damage[12d6[poison]] урона в @Template[type:cone|distance:40] (@Check[fortitude|dc:30|basic]). Он не может использовать Атаку Дыханием снова в течение [[/gmr 1d4 #Recharge Poison Breath]]{1d4 Раундов}.</p>"
                 },
@@ -1166,42 +1291,56 @@
                     "description": "<p>90ФТ @Check[will|dc:27]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
                 },
                 {
-                    "id": "Stench",
+                    "id": "xTeTu16wnP0A4xll",
                     "name": "Вонь",
                     "description": "<p>10 футов, @Check[fortitude|dc:27]</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
                 },
                 {
-                    "id": "Draconic Momentum",
+                    "id": "XhU4mCNUkX4dqLS7",
                     "name": "Драконий импульс",
                     "description": "<p>Когда дракон совершает критическое попадание \"Ударом\", он перезаряжает свое \"Атаку дыханием\".</p>"
                 },
                 {
-                    "id": "Forest Passage",
+                    "id": "1FbPUVt1mVdHjwrB",
                     "name": "Лесная поступь",
                     "description": "<p>Рогатый дракон игнорирует @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.z68vgV2XWhi1KYEP#mestnostь]{Сложную местность}, вызванную растениями, такими как кусты, лианы или подлесок. Даже растения, управляемые магией, не препятствуют его движению.</p>"
                 },
                 {
-                    "id": "Grave Knowledge",
+                    "id": "8BzH2B4bDUBJMWb0",
                     "name": "Могильное знание",
                     "description": "<p>Модификатор навыка [[/r 1d20+23]]{+23}</p><hr><p><strong>Частота:</strong> Раз в час</p><hr><p><strong>Эффект:</strong> Гуль взывает к знаниям, которые он получил от одного существа, съеденного им за последние 7 дней. Гуль совершает проверку навыка, которому было обучено съеденное существо (если неясно, было ли существо обучено, это остаётся на усмотрение Мастера). Гуль считается обученным и использует высокий модификатор навыка для уровня гуля. Проверка занимает столько же действий или времени, сколько и обычно.</p><p>Вместо этого гуль может автоматически изучить особую информацию, известную поглощенному за последние 7 дней существу, такую как местонахождение скрытого сокровища или имя любимого человека. Гуль может сделать это только один раз за существо, независимо от поглощенного количества плоти.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "zLSUNYt5ukMkU9zC",
+                    "name": "Когти"
+                },
+                {
+                    "id": "zgg5I2ssn7V4bFRq",
+                    "name": "Рога"
+                },
+                {
+                    "id": "s6adAtDXbmqHceWK",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "BWkGmIVrerzvJg6A",
+                    "name": "Хвост"
+                },
+                {
+                    "id": "EcQPs6iXiv7P49O5",
+                    "name": "Исцеление пустотой"
                 },
                 {
                     "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "name": "111"
                 }
             ]
 		},
 		"Vintalax, The Rotting God": {
 			"name": "Винталакс, Гниющий Бог",
             "tokenName": "Винталакс, Гниющий Бог",
-			"img": "",
-            "tokenImg": "",
+			"img": "modules/pf2e-ts-adv-sporewar/210/actorvintalax.webp",
+            "tokenImg": "modules/pf2e-ts-adv-sporewar/210/actorvintalax.webp",
             "description": "",
 			"actorLink": true,
             "tokenvision": true,
@@ -1213,15 +1352,17 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Fungus Tentacle",
+                    "id": "KZKM954yltYjp9ry",
                     "name": "Грибковое Щупальце"
                 },
                 {
@@ -1229,7 +1370,7 @@
                     "name": "Кинжал"
                 },
                 {
-                    "id": "Otherworldly Will",
+                    "id": "8OmBZyt7RzzFHAQm",
                     "name": "Потусторонняя Воля",
                     "description": "<p>Винталакса ведёт вперед единственная, потусторонняя воля, направляющая его действия. Всякий раз, когда Винталакс совершает спасбросок Воли против @Trait[Mental]{Ментальный} эффекта, который мог бы контролировать или диктовать его действия, Винталакс рассматривает результат спасброска как на одну степень лучше.</p>"
                 },
@@ -1238,52 +1379,74 @@
                     "name": "Кинжал"
                 },
                 {
-                    "id": "Spore Burst",
+                    "id": "eyikGGHRDaETtUqe",
                     "name": "Взрыв Спор",
                     "description": "<p><strong>Триггер: </strong>Винталакс получает урон от удара ближнего боя, нанесенного соседним существом</p><hr><p>Из испорченного тела Винталакса вырывается облако спор, которое окутывает атакующего, быстро разрастаясь и растворяя его плоть. Эти споры наносят @Damage[4d6[persistent,poison]] (@Check[fortitude|dc:34|basic]).</p>"
                 },
                 {
-                    "id": "Spore Breath",
+                    "id": "Qn6ZA6ChMs6fMitE",
                     "name": "Атака Дыханием Спор",
                     "description": "<p>Винталакс выпускает облако спор из своего рта в @Template[type:cone|distance:30]. Существа в этой области получают @Damage[12d6[acid]] (@Check[fortitude|dc:34|basic]). Те, кто проваливает этот спасбросок, получают @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (или @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале), поскольку споры попадают в их легкие и начинают расти. Эти существа получают @Damage[2d6[persistent,bleed]] урона до тех пор, пока их тошнит. Это кровотечение не может быть остановлено, пока сохраняется состояние тошнота. Любое существо, получившее урон от Атака Дыханем Спор, подвергается воздействию Гниющий Дар.</p>"
                 },
                 {
-                    "id": "Rotting Gift",
+                    "id": "H9TM1MMKor3xpYry",
                     "name": "Гниющий Дар",
                     "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:34]</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} (1 День)</p><p><strong>Стадия 2:</strong> Одурманен 1 и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 1} (1 День)</p><p><strong>Стадия 3:</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощен 2} (1 День)</p><p><strong>Стадия 4:</strong> Истощен 1 и @UUID[Compendium.pf2e.conditionitems.9qGBRpbX9NEwtAAr]{Под контролем} Гниющего Бога (1 День)</p><p><strong>Стадия 5:</strong> @UUID[Compendium.pf2e.conditionitems.9qGBRpbX9NEwtAAr]{Под контролем} Гниющего Бога (1 День)</p><p><strong>Стадия 6:</strong> Существо становится под постоянным контролем Гниющего бога (и может получить уникальные способности, связанные с грибком) - в этот момент Существо получает уже не болезнь, и контроль может быть прекращен только смертью Гниющего Бога или эффектом, снимающим проклятия. Существо теряет все способности, связанные с грибком, которые дает Гниющий Дар, как только он будет снят.</p>"
                 },
                 {
-                    "id": "Throne Tethered",
+                    "id": "DrNIeMG6xhBE6L50",
                     "name": "Связь с Троном",
                     "description": "<p>Винталакс прикреплен к своему трону скрученной длиной колючих грибковых лоз, которые ограничивают его подвижность в областях <strong>B9</strong> и <strong>B10</strong>. Эту привязь можно разрушить (<strong>КБ</strong> 30, <strong>Твердость</strong> 12, <strong>ОЗ</strong> 50 (ПП 25), <strong>Иммунитет</strong> кислота, дробящий; <strong>Сопротивление</strong> колющий 10), в этом случае Винталакс воет от боли, поскольку его тело начинает быстро разлагаться. Каждый раунд, в течение которого он остается отделенным от трона, он теряет свое Быстрое Исцеление и получает урон @Damage[4d6[spirit]] в начале своего хода, но его КБ увеличивается до 36, а скорость до 25 футов из-за его возросшей подвижности. Он может прекратить этот эффект, сев обратно на свой трон (действие взаимодействия) и оставаясь там до конца своего хода, после чего к нему снова прикрепится новая грибковая связь.</p>"
                 },
                 {
-                    "id": "Marvelous Medicines (Stored in Retrieval Belt)",
+                    "id": "V6C40ynmRJAjD5JH",
                     "name": "Чудесные лекарства (в Ремень Извлечения)",
                     "description": "<p>Этот набор лекаря содержит, казалось бы, бесконечный запас бинтов, трав и предметов для исцеления безупречного качества, давая вам бонус предмета +2 к проверкам Медицины.</p><p>Если вы используете <em>чудесные лекарства</em> когда @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Лечите яд} или @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Лечите болезнь}, перед тем как совершить проверку, лекарства пытаются @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.E4Q7EiSG18sIvFwg]{Противодействовать} исцеляемых вами яда или болезни с рангом противодействия 5 и модификатором [[/r 1d20+21 #Противодействия]]{+21}. Это эффект @Trait[Healing]{исцеления}.</p><p>Эти лекарства нельзя повторно использовать для исцеления того же недуга этого пациента.</p>"
                 },
                 {
-                    "id": "Healing Potion (Greater) (Stored in Retrieval Belt)",
+                    "id": "OjalGYiA8S4BnRdv",
                     "name": "Зелье исцеления [Большое] (в Ремень Извлечения)",
                     "description": "<p><strong>Активация:</strong> <span class=\"action-glyph\">1</span> (@Trait[Manipulate]{воздействие})</p><hr><p><em>Зелье исцеления</em> это бутылёк с рубиново-красной жидкостью, которая дает пьющему его ощущение покалывания по мере быстрого заживления ран. Когда вы пьёте <em>зелье исцеления</em>, то восстанавливаете @Damage[(6d8+20)[healing]]{6d8+20 ОЗ}.</p>"
                 },
                 {
-                    "id": "Potion of Fire Resistance (Moderate) (Stored in Retrieval Belt)",
+                    "id": "z9mr7stUuG0whoF7",
                     "name": "Зелье сопротивления огню [Среднее] (в Ремень Извлечения)",
                     "description": "<p><strong>Активация:</strong> <span class=\"pf2-icon\">A</span> @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]</p><p>Выпивание этого густого укрепляющего зелья дает сопротивление 10 к огню на 1 час.</p><p>@UUID[Compendium.pf2e.equipment-effects.Item.8zKGaGrkTd8ALqJO]</p>"
                 },
                 {
-                    "id": "Wand of Lightning Bolt (Rank 5) (Stored in Retrieval Belt)",
+                    "id": "5k4E1L7oi69CoIfM",
                     "name": "Волшебная палочка Удар молнии (Ранг 5) (в Ремень Извлечения)",
                     "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Удар молнии}</p><hr><p>Этот жезл длиной около фута содержит одно заклинание. Внешний вид обычно связан с заклинанием внутри.</p><hr><p><strong>Активация:</strong> @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]</p><p><strong>Частота:</strong> Раз в день, плюс перегрузка</p><p><strong>Эффект:</strong> Вы @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Сотворяете заклинание} указанного ранга.</p>"
                 },
                 {
-                    "id": "Tentacle Eruption",
+                    "id": "CTxuUvk7zPwfXMqc",
                     "name": "Извержение щупалец",
                     "description": "<p>Винталакс вонзает свои щупальца в землю, заставляя усики грибка извергаться повсюду в области <strong>B9</strong>. Это наносит @Damage[2d8[bludgeoning],3d6[acid]] урон каждому существу в этой области ( @Check[reflex|dc:34|basic]). Существа, провалившие спасбросок от извержения щупалец, захватываются усиками, снижая свою скорость на 10 футов до начала следующего хода Винталакса (или становятся @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} при критическом провале).</p>"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
                 }
             ]
 		},
+
+
         "Invidiak": {
 			"name": "Инвидиак [Демон зависти]",
             "tokenName": "Инвидиак",
@@ -1300,37 +1463,43 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Exorcism Vulnerability",
+                    "id": "TtqhvUO0vvhjbIFp",
                     "name": "Уязвимость к экзорцизму",
                     "description": "<p>Если инвидиак пытается овладеть существом и это существо при броске совершает критически успешный спасбросок, чтобы сопротивляться его @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Одержимости}, или если @Condition[Possession]{одержимость} инвидиака существом закончилась досрочно, как например, из-за успешного @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Рассеяния магии}, то инвидиак получает @Damage[6d6[mental]]{6d6 ментального урона} и не может использовать @Condition[Possession]{одержимость} 24 часа.</p>"
                 },
                 {
-                    "id": "Favored Host",
+                    "id": "tIiXnBCscCuQi4WY",
                     "name": "Предпочитаемый носитель",
                     "description": "<p>У каждого инвидиака есть определенный вид существ, которыми они предпочитают овладевать, выбираемые из списка:</p><ul><li>аберрация</li><li>животное</li><li>чудовище</li><li>или любой гуманоид (такой как дварф)</li></ul><p>В большинстве случаев, предпочитаемый вид цели — люди. Когда инвидиак использует @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Одержимость} на предпочитаемого носителя, то продолжительность увеличивается до неограниченной, а эффект длится пока не будет @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{отменен} или его не развеет инвидиак.</p>"
                 },
                 {
-                    "id": "Unbodied Possession",
+                    "id": "fDEMKsDuC7SNDbx6",
                     "name": "Бестелесное овладение",
                     "description": "<p>При использовании @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Одержимости}, инвидиак не оставляет после себя тела.</p>"
                 },
                 {
-                    "id": "Share Pain",
+                    "id": "zBhbPtqzK6B5JjcX",
                     "name": "Поделиться болью",
                     "description": "<p><strong>Триггер:</strong> Существо в пределах 30 футов от инвидиак наносит урон инвидиак</p><hr><p>Отголосок боли инвидиак обрушивается на спровоцировавшее существо, нанося ментальный несмертельный урон, равный половине урона, который инвидиак получил от спровоцировавшей атаки (@Check[will|dc:25|basic]). При критическом провале Цель получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.</p>"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "s43Ks62ECjo1B5kX",
+                    "name": "Когти"
+                },
+                {
+                    "id": "1zbo0xc2s4vpFPYx",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
                 }
             ]
 		},
@@ -1350,10 +1519,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1366,17 +1537,17 @@
                     "name": "Эльфийская сабля"
                 },
                 {
-                    "id": "Hunt Prey",
+                    "id": "ImzpAPq1SgMcf7t3",
                     "name": "Выслеживать добычу",
                     "description": "<p>Споровый раб обозначает одно существо, которое он может видеть или слышать, своей добычей. Он получает Бонус Обстоятельства +2 к проверкам Восприятия, когда совершает @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Поиск} своей добычи, и игнорирует штраф за дистанционных атак в пределах своего второго шага дистанции против выслеживаемой им добычи. Если споровый раб использует Выслеживать добычу против существа, когда у него уже есть добыча, предыдущее существо теряет обозначение. Обозначение длится 24 Часа.</p>"
                 },
                 {
-                    "id": "Precise Aim",
+                    "id": "4Cq1p27nn9mKwvRz",
                     "name": "Точная цель",
                     "description": "<p>Споровый раб наносит дополнительно @Damage[(2d6)[precision]]{2d6 Точного} по существу, которого он обозначил своей `добычей`.</p>"
                 },
                 {
-                    "id": "Spore Burst",
+                    "id": "eswnnzXSCS7W92iT",
                     "name": "Споровый взрыв",
                     "description": "<p>Когда спорового раба опускают до 0 ОЗ уроном, отличным от урона холодом, он взрывается токсичными зелеными спорами. Все существа в @Template[type:emanation|distance:15] вокруг спорового раба получают @Damage[10d6[poison]] (@Check[fortitude|dc:26|basic]).</p>"
                 }
@@ -1398,33 +1569,39 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Mold Spit",
+                    "id": "huY2kc7XivnkykqV",
                     "name": "Плевок"
+                },
+                {
+                    "id": "EF6jFpXwBUM3i2gf",
+                    "name": "Кулак"
                 },
                 {
                     "id": "4hkCvTjHbDQlib2s",
                     "name": "Коса"
                 },
                 {
-                    "id": "Moldy Mess",
+                    "id": "j2rTwTtnlsXlNIpr",
                     "name": "Грязную плесень",
                     "description": "<p><strong>Требования:</strong> Существо @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} в пределах досягаемости грибкового болотного гиганта</p><hr><p>Грибковый болотный гигант трясет и приподнимает свое тело, заставляя большие полосы плесени и грибковой корки осыпаться с него и покрывать существо ничком. Цель становится @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Обездвижен} плесенью, пока она не @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться} (КС 27) и получает @Damage[6d6[poison]] (@Check[fortitude|dc:27|basic]). Грибковый болотный гигант не может использовать Грязную плесень снова в течение [[/gmr 1d4 #Recharge Moldy Mess]]{1d4 Раунда}.</p>"
                 },
                 {
-                    "id": "Twist the Hook",
+                    "id": "eoLK3mAvvXiMTLnH",
                     "name": "Проворачивание крюка",
                     "description": "<p>Болотный гигант наносит \"Удар\" ближнего боя своей косой. При попадании, он проворачивает и дёргает его, опрокидывая цель @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} и раздирая ужасную рану, наносящую существу @Damage[2d6[bleed]].</p>"
                 },
                 {
-                    "id": "Spore Cloud",
+                    "id": "XJnrKfLYt73rxGte",
                     "name": "Споровое облако",
                     "description": "<p>20 футов. Грибковый болотный гигант испускает слабовидимое облако зеленых спор, когда не находится под водой. Любое существо, заканчивающее свой ход в облаке спор, получает @Damage[2d6[poison]] (@Check[fortitude|dc:27|basic]). Существо, которое проваливает этот спасбросок, также получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} ( @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале).</p>"
                 },
@@ -1456,45 +1633,61 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Caustic Slurry",
+                    "id": "vjOub9vtuISmvomw",
                     "name": "Плевок"
                 },
                 {
-                    "id": "Change Shape",
+                    "id": "72jJa15ItZv7arsa",
                     "name": "Изменение формы",
                     "description": "<p>Миастрилек может принять облик любого Маленького или Среднего гуманоида. Это не меняет его Скорости, но не позволяет ему совершать Удары клыками.</p>"
                 },
                 {
-                    "id": "Tremortoxin",
+                    "id": "QJWVyAn47kGQgaMa",
                     "name": "Тремортоксин",
                     "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:30]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> –10 футов штраф состояния ко всем Скоростям (1 Раунд)</p><p><strong>Стадия 2:</strong> –10 футов штраф состояния ко всем Скоростям и штраф обстоятельства –1 к броскам атаки и проверкам, требующим надежного удержания предметов (1 Раунд)</p><p><strong>Стадия 3:</strong> как Стадия 2, но увеличьте штраф обстоятельства к проверкам до –2 (1 Раунд)</p>"
                 },
                 {
-                    "id": "Clarity Vulnerability",
+                    "id": "xfxM5wyDSe6T5PcZ",
                     "name": "Уязвимость к очищению",
                     "description": "<p>Первый раз в раунд, когда существо в пределах 30 футов от миастрилека добивается критического успеха в спасброске против @Trait[Poison]{Яд} или @Trait[Disease]{Болезнь} или полностью восстанавливается после такого `недуга` с помощью магии или другого эффекта, демон получает @Damage[(6d6)[mental]].</p>"
                 },
                 {
-                    "id": "Fangs",
+                    "id": "Ou5BMmgMpsogLzjT",
                     "name": "Клыки"
                 },
                 {
-                    "id": "Spew Pollution",
+                    "id": "TkLMoHlGjJkilsgR",
                     "name": "Изрыгнуть загрязнение",
                     "description": "<p>Миастрилек извергает струю кислоты и щебня в @Template[type:cone|distance:30]{30-футовом конусе} нанося @Damage[(6d6)[piercing],(6d6)[acid]] (@Check[reflex|dc:30|basic]). Эта область становится опасной местностью на 1 Минуту (урон @Damage[(2d6)[acid]]). Существо может получить этот урон только один раз за ход. Миастрилек должен подождать [[/gmr 1d4 #rounds]]{1d4 Раунда}, прежде чем снова изрыгнуть загрязнение.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "k2QpNNcHIWKxZzuI",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "PxCs3bomHPw9ynzm",
+                    "name": "Гипноз (По желанию)",
+                    "description": "<p>Вы создаете облако завораживающих узоров и цветов, которое парит в воздухе. Существа, находящиеся внутри облака, получают состояние @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Ослеплен}. Также существо должно совершить спасбросок Воли, если оно внутри облака когда вы сотворяете его, когда оно попадает в облако, когда заканчивает свой ход внутри облака, или если оно использует на облаке действие @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Поиск} или @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Взаимодействовать}. Существо, уже @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Завороженное} облаком, не совершает новые спасброски.</p><p><strong>Успех:</strong> Цель невредима.</p><p><strong>Провал:</strong> Цель @Condition[Fascinated]{заворожена} облаком.</p><p><strong>Критический провал:</strong> Цель @Condition[Fascinated]{заворожена} облаком. Пока она остаётся @Condition[Fascinated]{заворожена}, она не может использовать реакции.</p>"
+                },
+                {
+                    "id": "EADcNyLKItJ53sm1",
+                    "name": "Переместить (По Желанию)",
+                    "description": "<p>Вы мгновенно переносите себя и любые предметы, которые вы носите и держите, из вашего текущего места в незанятое пространство, которое видите, в пределах диапазона. Если в результате этого вы перенесёте с собой другое существо, даже если переносите его в @Trait[Extradimensional]{межпространственном} контейнере, то заклинание пропадает.</p><hr><p><strong>Усиление (5-й):</strong> Дистанция увеличивается до @Unit[Mile|1]{1 мили}. Вам не надо быть способным видеть своё место назначения, если вы были там ранее и знаете примерное место и дистанцию от вас. Вы временно иммунны на 1 час.</p>"
+                },
+                {
+                    "id": "muP4MlePpBuohzZK",
+                    "name": "Хождение по воде (Постоянно)",
+                    "description": "<p>Цель может ходить по поверхности воды и других жидкостей, не проваливаясь. Она может уйти под воду, если пожелает, но в этом случае она должна @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Плыть} как обычно. Заклинание не даёт возможности дышать под водой.</p><hr><p><strong>Усиление (4-й):</strong> Дистанция заклинания увеличивается до 30 футов, продолжительность увеличивается до 1 часа, и вы можете выбрать целями вплоть до 10 существ.</p>"
                 }
             ]
 		},
@@ -1514,10 +1707,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1526,54 +1721,66 @@
                     "name": "Кинжал"
                 },
                 {
-                    "id": "Grow Sporepod",
+                    "id": "zTUk285orSz8VuBR",
                     "name": "Вырастить споровый кокон",
                     "description": "<p>Королева спор заставляет кокон грибкового материала размером с человека вырваться из-под земли в любой точке, которую она может видеть в пределах 60 футов. После создания споровый кокон сохраняется 1 Минуту, пока Королева спор не переместится на расстояние более 120 футов от него или пока он не будет уничтожен (КБ 45, Твердость 20, 60 ОЗ). Она не может вырастить споровый кокон снова в течение [[/gmr 1d4 #rounds]]{1d4 Раунда}, но помимо этого и 1-минутного существования спорового кокона, нет жестких ограничений на количество споровых коконов, которые могут быть у неё одновременно активны.</p>"
                 },
                 {
-                    "id": "Sporestride",
+                    "id": "mGQswZHQ8ZgVEJWy",
                     "name": "Споровый шаг",
                     "description": "<p>Королева спор совершает @UUID[Compendium.pf2e.actionspf2e.UHpkTuCtyaPqiCAB]{Шаг} в соседний споровый кокон или неразрушенный кокон душ (см. зону <strong>K</strong>) и мгновенно телепортируется в любой другой активный споровый кокон или кокон душ в этой области, вырываясь из целевого кокона и уничтожая его в процессе.</p>"
                 },
                 {
-                    "id": "Sporewarp",
+                    "id": "DE2HiFd3EjYr3JoX",
                     "name": "Споровый варп",
                     "description": "<p>Королева спор совершает @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} щупальцем, но считает споровый кокон или кокон душ по своему выбору в пределах 120 футов, которые она может видеть, точкой отсчёта для этого Удара щупальцем.</p>"
                 },
                 {
-                    "id": "Mind-Draining Kiss",
+                    "id": "gaf17uTpbvO4KcPq",
                     "name": "Поцелуй истощающий разум",
                     "description": "<p><strong>Частота:</strong> 1/Раунд</p><hr><p>Королева спор вступает в страстный контакт с существом, которое она @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схватила}, пытаясь истощить его волю. Поцелуй делает существо @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} или увеличивает его состояние одурманен на 1, максимум до 4. Существо получает @Damage[4d6[poison]] и затем должно преуспеть в @Check[will|dc:42], иначе на него будет действовать @UUID[Compendium.pf2e.spells-srd.qwlh6aDgi86U3Q7H]{Внушение} оставаться неподвижным, а не пытаться @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться}.</p>"
                 },
                 {
-                    "id": "Fungaltongue",
+                    "id": "lgB1MU6GHJHRtB1m",
                     "name": "Язык грибов",
                     "description": "<p>Королева спор может разговаривать со всеми формами грибов. Она получает Бонус Обстоятельства +3 ко всем проверкам Обмана, Дипломатии или Запугивания, сделанным против грибковых существ.</p>"
                 },
                 {
-                    "id": "Distracted by Failures",
+                    "id": "mt6YPCJZaIlcVzZ8",
                     "name": "Отвлеченная провалом",
                     "description": "<p>Квилиндра живо помнит свои провалы в своей прошлой жизни. ПИ может дразнить её как действие с признаком @Trait[Auditory]{Слуховой}, @Trait[Concentrate]{Концентрация}, @Trait[Linguistic]{Языковой} и @Trait[Mental]{Ментальный}, предприняв проверку @Check[deception|dc:40]{Обмана}, @Check[diplomacy|dc:40]{Дипломатии}, @Check[intimidation|dc:40]{Запугивания} или @Check[performance|dc:40]{Выступления}.</p><hr><p><strong>Крит.Успех:</strong> Квилиндра сильно отвлекается; она становится @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} до конца столкновения, становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} и @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1} до конца своего следующего хода, так как она тратит драгоценные мгновения, бормоча и визжа от ярости на ПИ. Дополнительные критические успехи увеличивают значение ее состояния одурманен на 1, максимум до @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 3}.</p><p><strong>Успех:</strong> Как кри.успех, но она не одурманена и остается застигнутой врасплох только до конца своего следующего хода.</p><p><strong>Провал:</strong> Квилиндра лишь слегка отвлекается и становится застигнутой врасплох к этому ПИ до конца хода этого персонажа.</p><p><strong>Крит.Провал:</strong> Квилиндра невосприимчива.</p>"
                 },
                 {
-                    "id": "Create Spawn",
+                    "id": "SIGvsx61oNnyWzLT",
                     "name": "Создание порождения",
                     "description": "<p>Королева спор может создавать порождение из врагов, но она не использует эту способность в бою, так как она скорее предпочтёт увидеть ПИ мёртвыми, чем дать им этот грибковый дар.</p><hr><p>Если существо умирает после того, как его ОЗ снизились до 0 в результате Поцелуя, истощающего разум грибкового тирана, грибковый тиран может превратить эту жертву в спорового раба, пожертвовав часть своей грибковой материи жертве и оставив их \"созревать\" внутри очага грибка на 24 Часа. По истечении этого времени существо воскресает, но получает @Trait[Fungus]{Грибковый} признак и становится споровым рабом. Это препятствует тому, чтобы душа существа продолжала путь в загробный мир, подобно тому, как нежить исключается из этого цикла, поэтому те, кто почитает этот цикл священным (особенно последователи Фаразмы), считают споровых рабов такими же плохими, как и нежить, несмотря на то, что они являются живыми существами. Если новый споровый раб имеет более низкий уровень, чем его создатель, то он находится @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Под контролем} создателя. Если грибковый тиран контролирует слишком много споровых рабов одновременно (как определено ГМ), сильные духом споровые рабы могут освободиться, преуспев в @Check[will|dc:28]{Воли}. Обычно грибковый тиран избегает создания споровых рабов из падших врагов, которые слишком сильны, чтобы их контролировать, поскольку они слишком хорошо осведомлены о принуждении к мести, которое такие жертвы могут питать к тем, кто вырвал их из загробной жизни.</p>"
                 },
                 {
-                    "id": "Vengeful Slice",
+                    "id": "v1kBflFPb6tcyPK9",
                     "name": "Мстительный Удар",
                     "description": "<p>Королева спор наносит дополнительный @Damage[(2d6)[spirit]] эльфам, которых она атакует своим кинжалом. Эльф, ОЗ которого снижены до 0 в результате Удара кинжалом Королевы спор, становится @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Обречен 1}, поскольку Древотес принимает его душу к сведению.</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "SE3Kkb5f3EdsOZd7",
+                    "name": "Когти"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "Gk1nMrx6NNO1AcKk",
+                    "name": "Щупальца"
+                },
+                {
+                    "id": "H0jCOnnhcKA0P999",
+                    "name": "Захват",
+                    "variant":"At Will"
+                },
+                {
+                    "id": "0FsvKpwHU0l0t09W",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "awhtBl96HYgS5YUn",
+                    "name": "Истинная речь (Постоянно)",
+                    "description": "<p>Цель может понимать все слова, независимо от языка, а также говорить на языках других существ. В смешанной группе существ, каждый раз, когда цель говорит, она может выбрать существо и говорить на языке, который это существо понимает, даже если цель не знает, что это за язык.</p><hr><p><strong>Усиление (7-й):</strong> Продолжительность 8 часов.</p>"
                 }
             ]
 		},
@@ -1593,10 +1800,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1610,34 +1819,47 @@
                     "description": "<p>Бхута принимает облик Большого, Среднего или Маленького животного, распространенного в его области. Это не изменяет Скорость бхуты, модификаторы атаки и урона \"Ударов\", но может изменить тип урона, наносимого \"Ударами\". Независимо от того, какую форму принимает бхута, ее ноги остаются отставленными назад, и бхута не отбрасывает тень. Бхута в форме животного по-прежнему бесплотно, хотя это и не очевидно, если просто посмотреть на него.</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
                 },
                 {
-                    "id": "Possess Animal",
+                    "id": "j0godn9ynpr21ye8",
                     "name": "Овладеть животным",
                     "description": "<p>Бхута пытается овладеть соседним животным. Он сотворяет @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m] 9-го ранга со следующими изменениями: поскольку у бхуты нет физического тела, на него не действует это ограничение. При критическом провале продолжительность увеличивается до 1 полного дня. Когда животное одержимо бхутой, оно не отбрасывает тень.</p>"
                 },
                 {
-                    "id": "Bound",
+                    "id": "ngnwinz7rvkh1cvw",
                     "name": "Связь",
                     "description": "<p>Бхуты связаны с природной зоной или объектом, где они погибли, и должны оставаться в пределах @Template[emanation|distance:120] от этой связи. Бхута может покинуть место, только если его пригласят путешествовать с живыми спутниками, а такое приглашение бхуты часто пытаются получить хитростью. Во время путешествия бхута должен оставаться в пределах 120 футов хотя бы от одного из пригласивших его живых существ. Если все члены группы погибают, бхуты должны вернуться в свою зону до полуночи того же дня или будут уничтожены.</p>"
                 },
                 {
-                    "id": "Shadowless",
+                    "id": "8ki7j1n996www1th",
                     "name": "Без тени",
                     "description": "<p>Бхута не отбрасывает тени.</p>"
                 },
                 {
-                    "id": "Primal Corruption",
+                    "id": "ww6g31ronygtiit4",
                     "name": "Природная коррупция",
                     "description": "<p>Бхута развращает диких животных, живущих в его зоне связи, проникая в их разум. Животные, живущие в зоне связи, получают штраф обстоятельства -4 против способности бхуты \"Овладеть животным\", а также врожденных заклинаний бхуты @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6] и @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf].</p>"
                 },
                 {
-                    "id": "114",
-                    "name": "111",
-                    "description": "111"
+                    "id": "p2rb04uhqbleqtpy",
+                    "name": "Когти"
                 },
                 {
-                    "id": "115",
-                    "name": "111",
-                    "description": "111"
+                    "id": "RZ8nmKkTFCoNYpw1",
+                    "name": "Исцеление пустотой"
+                },
+                {
+                    "id": "ywbDQ4LngZa7FxGO",
+                    "name": "Разговор с растениями (Постоянно)",
+                    "description": ""
+                },
+                {
+                    "id": "PoG0zyKmW3xXESIi",
+                    "name": "Очаровать (Грибковые и растение)",
+                    "description": ""
+                },
+                {
+                    "id": "blRax867OLdVUMwk",
+                    "name": "Неприязнь природы (в проклятом владение)",
+                    "description": ""
                 }
             ]
 		},
@@ -1657,10 +1879,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1679,29 +1903,37 @@
                     "description": "<p>Бхута пытается овладеть соседним животным. Он сотворяет @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m] 9-го ранга со следующими изменениями: поскольку у бхуты нет физического тела, на него не действует это ограничение. При критическом провале продолжительность увеличивается до 1 полного дня. Когда животное одержимо бхутой, оно не отбрасывает тень.</p>"
                 },
                 {
-                    "id": "Bound",
+                    "id": "ngnwinz7rvkh1cvw",
                     "name": "Связь",
                     "description": "<p>Бхуты связаны с природной зоной или объектом, где они погибли, и должны оставаться в пределах @Template[emanation|distance:120] от этой связи. Бхута может покинуть место, только если его пригласят путешествовать с живыми спутниками, а такое приглашение бхуты часто пытаются получить хитростью. Во время путешествия бхута должен оставаться в пределах 120 футов хотя бы от одного из пригласивших его живых существ. Если все члены группы погибают, бхуты должны вернуться в свою зону до полуночи того же дня или будут уничтожены.</p>"
                 },
                 {
-                    "id": "Shadowless",
+                    "id": "8ki7j1n996www1th",
                     "name": "Без тени",
                     "description": "<p>Бхута не отбрасывает тени.</p>"
                 },
                 {
-                    "id": "Primal Corruption",
+                    "id": "ww6g31ronygtiit4",
                     "name": "Природная коррупция",
                     "description": "<p>Бхута развращает диких животных, живущих в его зоне связи, проникая в их разум. Животные, живущие в зоне связи, получают штраф обстоятельства -4 против способности бхуты \"Овладеть животным\", а также врожденных заклинаний бхуты @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6] и @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf].</p>"
                 },
                 {
-                    "id": "Ectoplasmic Lash",
+                    "id": "21bU3XDOjBMXGKKy",
                     "name": "Эктоплазмическая плеть",
                     "description": "<p><strong>Частота:</strong> 1/День</p><hr><p>Бхута бьёт одной из нитей эктоплазмы, связывающим его с Башней Смерти, нанося @Damage[(13d6)[spirit]] всем живым существам по выбору бхута в пределах 15 футов (@Check[will|dc:32|basic]).</p>"
                 },
                 {
-                    "id": "112",
-                    "name": "111",
-                    "description": "111"
+                    "id": "p2rb04uhqbleqtpy",
+                    "name": "Когти"
+                },
+                {
+                    "id": "RZ8nmKkTFCoNYpw1",
+                    "name": "Исцеление пустотой"
+                },
+                {
+                    "id": "2rZ3lNaN5f0YITQj",
+                    "name": "Разговор с растениями (Постоянно)",
+                    "description": ""
                 }
             ]
 		},
@@ -1721,23 +1953,25 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Limb",
+                    "id": "REbcJzGp6sT7jOuZ",
                     "name": "Конечность"
                 },
                 {
-                    "id": "Warping Ray",
+                    "id": "6Jhrih75LDb7Tovl",
                     "name": "Луч искривления"
                 },
                 {
-                    "id": "Displace",
+                    "id": "bpvnWZi8sukcfy9H",
                     "name": "Смещение",
                     "description": "<p><strong>Триггер:</strong> Амальгамит поражен \"Ударом\".</p><hr><p><strong>Эффект:</strong> Амальгамит совершает \"Репозицию\" себя или \"Транспозицию\" с другим существом. Если амальгамит успешно меняет свое местоположение, он и любое затронутое \"Транспозицией\" существо получают половину урона от спровоцировавшего \"Удара\".</p>"
                 },
@@ -1752,12 +1986,12 @@
                     "description": "<p>Амальгамит выбирает до двух дестабилизированных существ, которых он может видеть в радиусе 50 футов, и меняет их местами или перемещает одно такое существо в свободное пространство, которое он может видеть в радиусе. Если амальгамит выбирает двух существ, он может выбрать себя в качестве одного из них, но обе цели должны быть одинакового размера. Несогласное существо может совершить спасбросок @Check[will|dc:33]{Воли}. Если одна из целей преуспеет в спасброске, обе не будут затронуты.</p>"
                 },
                 {
-                    "id": "Regeneration 10 (Deactivated by Piercing)",
+                    "id": "rU17t3NM7TJ3u03o",
                     "name": "Регенерация 10 (отключается от колющего)",
                     "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
                 },
                 {
-                    "id": "Destabilizing Field",
+                    "id": "rGx3BT8mbRKRUpA2",
                     "name": "Дестабилизирующее поле",
                     "description": "<p>40 футов.</p><p>Существо, начинающее свой ход в ауре чувствует, как его тело начинает растягиваться, и должно преуспеть в спасброске @Check[fortitude|dc:33]{Стойкости} или стать дестабилизированным.</p><p>Дестабилизированное существо испускет ауру дестабилизации в @Template[type:emanation|distance:10] и получает @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошноту 1}. Дестабилизация заканчивается, когда существо перестает @Condition[Sickened]{тошнить}.</p><p>Существо преуспевшее в спасброске против ауры, временно иммуно ко всем \"Дестабилизирующим полям\" на 1 минуту.</p>"
                 }
@@ -1779,22 +2013,41 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Wild Swing",
+                    "id": "ty02a1CedQJfgYkL",
                     "name": "Дикий взмах",
                     "description": "<p>от <span class=\"action-glyph\">1</span> до <span class=\"action-glyph\">3</span></p><p><strong>Частота:</strong> Раз в раунд</p><hr><p><strong>Эффект:</strong> Члены отряда дико размахивают своим оружием - в первую очередь секирами - и хаотично атакуют каждого врага, находящегося рядом с отрядом (простой спасбросок @Check[reflex|dc:27|basic]{Рефлекса}). Урон зависит от количества действий.</p><p><span class=\"action-glyph\">1</span> @Damage[(1d12+2)[slashing]]</p><p><span class=\"action-glyph\">2</span> @Damage[(2d12+9)[slashing]]</p><p><span class=\"action-glyph\">3</span> @Damage[(3d12+9)[slashing]]</p>"
                 },
                 {
-                    "id": "Troop Spellcasting",
+                    "id": "7cb3300PlOTebHcM",
                     "name": "Колдовство отряда",
                     "description": "<p>Когда озлобленное священство \"Сотворяет заклинание\", входящие в него члены объединяют свои усилия для создания более мощной версии заклинания, чем мог бы достичь каждый из них в одиночку. При \"Сотворении заклинаний\", имеющих область в виде взрыва, конуса или линии и не имеющее продолжительности, увеличьте область действия этого заклинания. Добавьте 5 футов к радиусу взрыва, обычно имеющее радиус не менее 10 футов (взрыв с меньшим радиусом не затрагивается). Добавьте 5 футов к длине конуса или линии, обычно имеющих длину 15 футов или меньше, и добавьте 10 футов к длине большего конуса или линии.</p>"
+                },
+                {
+                    "id": "uMpGqaiMkiEy14R0",
+                    "name": "Увядание растений (не требует вторичных заклинателей)"
+                },
+                {
+                    "id": "NmGeqt2BxwfGod5Z",
+                    "name": "Построение"
+                },
+                {
+                    "id": "AsbIVQDcJZfJhU4N",
+                    "name": "Защита отряда"
+                },
+                {
+                    "id": "wWvqRgRb0u1JwCr6",
+                    "name": "Перещение отряда",
+                    "description": "<p>Когда отряд @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Перемещается}, они в начале @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.OvqohW9YuahnFaiX]{Строятся} свободным действием (<span class=\"action-glyph\">F</span>) в область 20 на 20 футов (за вычетом любых недостающих квадратов), потом двигаются вплоть до своей Скорости. Это работает так же как передвижение Исполинских существ; например, если любой из квадратов отряда попадает в сложную местность, то дополнительная стоимость передвижения применяется ко всему отряду.</p>"
                 },
                 {
                     "id": "113",
@@ -1819,40 +2072,48 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Moldy Branch",
+                    "id": "oSq2qYAln4B4sFY0",
                     "name": "Ветка"
                 },
                 {
-                    "id": "Thorny Root",
+                    "id": "WeXirhh6gD0DCTGB",
                     "name": "Корень"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "2T8gBoUiFYXYQ2wp",
+                    "name": "Камень"
                 },
                 {
-                    "id": "Sunder Objects",
+                    "id": "AGXK0KxxfZSzKqKk",
                     "name": "Разрушение объектов",
                     "description": "<p>Когда древень-регент наносит предмет предмету или структуре, он наносит дополнительные [[/r {2d10}]]{2d10 урона}.</p>"
                 },
                 {
-                    "id": "Spore Spray",
+                    "id": "mYx5idAG87aEyIii",
                     "name": "Конус Спор",
                     "description": "<p>Регент Терновника распыляет из своего тела споры, нанося @Damage[14d6[poison]] в @Template[type:cone|distance:50] (@Check[fortitude|dc:33|basic]). Он не может снова использовать конус спор в течение [[/gmr 1d4 #Recharge spore spray]]{1d4 Раундов}.</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "JgLAUNOR58PPWtCz",
+                    "name": "Разговор с растениями (Постоянно)"
+                },
+                {
+                    "id": "DM0bCE11AyauvvEH",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "QcXlYliyTvqiEDHM",
+                    "name": "Бросок камня"
                 }
             ]
 		},
@@ -1872,27 +2133,48 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
                 {
-                    "id": "Crush Chitin",
+                    "id": "x68dPIsgXM3s4jCZ",
+                    "name": "Когти"
+                },
+                {
+                    "id": "C10wjHeJK4PRbQiQ",
+                    "name": "Челюсти"
+                },
+                {
+                    "id": "VjdE8difbmDAhk1V",
+                    "name": "Хвост"
+                },
+                {
+                    "id": "unEjKFEEILdk8x7m",
+                    "name": "Захват"
+                },
+                {
+                    "id": "v6xF3lh5EautuUcG",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "M7bSwayItCZu1H43",
                     "name": "Раздавить хитин",
                     "description": "<p><strong>Требования:</strong> У хравгодона есть @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} или @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Сдерживаемое} существо</p><hr><p><strong>Эффект:</strong> Хравгодон кусает существо, нанося @Damage[(2d12+9)[piercing]] (простой спасбросок @Check[fortitude|dc:28|basic]{Стойкости}) игнорируя первые 5 единиц Твердости или сопротивления к физическому урону цели. При провале спасброска цель также получает штраф обстоятельства -2 к КБ на 1 раунд.</p><p>@UUID[Compendium.pf2e.bestiary-effects.Item.7OJrBAEah6YFLzcK]</p>"
                 },
                 {
-                    "id": "Grasping Tail",
+                    "id": "7c1InSV9VXV4cB8Z",
                     "name": "Хватательный хвост",
                     "description": "<p>Хравгодон может тащить за собой @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Схваченное} хвостом Большое или меньшее существо, когда \"Перемещается\".</p>"
                 },
                 {
-                    "id": "113",
-                    "name": "111",
-                    "description": "111"
+                    "id": "VzGIFsHN3g95xlJs",
+                    "name": "Свободное движение (Постоянно)"
                 }
             ]
 		},
@@ -1912,10 +2194,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [
@@ -1929,14 +2213,78 @@
                     "description": "<p>Боггард-воин издает ужасающее кваканье. Любое существо в @Template[emanation|distance:30]{30-футовой эманации}, не являющееся @Trait[Boggard]{боггардом}, должно преуспеть в @Check[will|dc:36]{Воли} или будет @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Напугано 1}</p><p>Если спасбросок был критически успешен, существо временно иммунно на 1 минуту.</p>"
                 },
                 {
-                    "id": "Swamp Passage",
+                    "id": "momzHh7zAZRC7Hob",
                     "name": "Болотная поступь",
                     "description": "<p>Боггард игнорирует @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.z68vgV2XWhi1KYEP#mestnostь]{Сложную местность} вызванную особенностями болот.</p>"
                 },
                 {
-                    "id": "Tongue Grab",
+                    "id": "MEAPfylvHHHbTqOf",
                     "name": "Захват языком",
                     "description": "<p>Если боггард-культист попадает по существу своим языком, то это существо становится @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Схвачено} боггардом. В отличие от обычного захвата, существо не @UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{Обездвижено}, но оно не может двигаться за пределы досягаемости языка боггарда.</p><p>Существо может отсечь язык, если попадет по КБ 33 и нанесет не менее 28 рубящего урона. Хотя это не наносит боггарду никакого урона, однако лишает его возможности использовать свой \"Удар\" языком, пока он не отрастит язык, что занимает неделю.</p>"
+                },
+                {
+                    "id": "mw30E878JJp7tVVh",
+                    "name": "Язык"
+                }
+            ]
+		},
+        "Sporescout": {
+			"name": "Споровый разведчик",
+            "tokenName": "Споровый разведчик",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "yYnWk86OioP7rBgK",
+                    "name": "Композитный короткий лук"
+                },
+                {
+                    "id": "YoW8D9AqyXbsBbaW",
+                    "name": "Серп"
+                },
+                {
+                    "id": "7u8sJ9qftjWaiy32",
+                    "name": "Плащ диверсии",
+                    "description": "<p><strong>Частота:</strong> 1/День</p><hr><p>Споровый разведчик выделяет на тело липкий слой диверсионных спор. На 1 Минуту любое существо, прикоснувшееся к разведчику или нанесшее ему урон безоружной атакой или оружием ближнего боя без признака @Trait[Reach]{Длинное}, получает @Damage[3d6[mental]], так как споры проникают в его мысли с болезненными и подрывными желаниями предложить рабство Древотесу.</p>"
+                },
+                {
+                    "id": "MW6uNbupIKPU9HQA",
+                    "name": "Сфокусировать споры",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><hr><p>Споровый разведчик выбрасывает свои заразные споры на существо, которое он видит в радиусе 20 футов. Цель должна немедленно совершить @Check[will|dc:31] спасбросок против Заражение Преданностью. Если существо уже было Одурманено Заражение Преданностью, оно становится @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Под контролем} спорового разведчика до начала следующего хода разведчика.</p>"
+                },
+                {
+                    "id": "XbPhGtCj5ICaLRVb",
+                    "name": "Грибковый шепот",
+                    "description": "<p>Существо, страдающее от @Trait[Fungus]{Грибковый} @Trait[Affliction]{Недуга}, получает штраф состояния -2 на все спасброски против @Trait[Mental]{Ментальный} эффектов, созданных споровым разведчиком, и может всегда понимать любой язык, на котором говорит с ним споровый разведчик.</p>"
+                },
+                {
+                    "id": "h99k22ofuPTIlVCG",
+                    "name": "Заражение Преданностью",
+                    "description": "<p>20 футов. Когда существо заканчивает свой ход в ауре, оно должно совершить @Check[will|dc:31] (@Trait[Plant]{Растение} или @Trait[Fungus]{Грибковый} получает штраф обстоятельства -2 к этому спасброску). Если существо проваливается, оно становится @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} на 1 Минуту (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} при критическом провале), когда споры грибкового лешого укореняются в плоти и посылают в разум жертвы нежелательные и отвлекающие мысли о преданности Древотесу.</p>"
+                },
+                {
+                    "id": "YWgY6x4GVnSHF56N",
+                    "name": "Жуткая Атака",
+                    "description": "<p>Споровый разведчик наносит дополнительно 1d6 точного урона и 1d6 кровотечения существам, которые @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]</p>"
                 },
                 {
                     "id": "115",
@@ -1945,8 +2293,314 @@
                 }
             ]
 		},
+        "Pukwudgie Scribe": {
+			"name": "Пуквудж-жрец",
+            "tokenName": "Пуквудж-жрец",
+			"img": "",
+            "tokenImg": "",
+            "description": "<p>Пуквуджи носят разные названия во многих регионах, но те, кто знает о них, сходятся во мнении, что вызов их озорной натуре вызывает их гнев.</p><p>В древние времена пуквуджи перебрались во Вселенную из Первого Мира, возможно в результате эмиграции гномов. Эти гордые феи одержимы проявлением уважения, и хотя сначала они пытались подружиться со смертными, каждая попытка заканчивалась трагедией, поскольку пуквуджи воспринимали любой возможный промах как тяжкое оскорбление. Смертные опасаясь такой реакции, стали воспринимать пуквуджей как опасную помеху. Пкувуджи, в свою очередь, стали обижаться на смертных и богов, которые им благоволили.</p><p>В лучшем случае пуквуджи играют со встречными смертными жестокие шутки. В худшем, похищают и даже убивают тех, кто не относится к ним с должным уважением. Жестокие феи, такие как твигджеки и красные колпаки, часто собираются под предводительством пуквуджа, что очень радует пуквуджа.</p><p>Пуквуджи устраивают свои деревни в самых древних лесах, скрываясь под заклинаниями @UUID[Compendium.pf2e.spells-srd.Item.HBJPsonQnWcC3qdX]. Они свободно перемещаются между Вселенной и Первым Миром через крошечные порталы под холмами, деревьями или камнями. Не чуждые насилия, пуквуджи редко путешествуют в одиночку и часто смазывают свои иглы или оружие специально приготовленным ядом, прежде чем вступить во враждебную ситуацию.</p><p>Рост пуквуджа составляет около @Unit[Foot|2]{2 футов}, из их головы растут острые иглы, спускающиеся вниз по спине. Цвет кожи зависит от региона, в котором они обитают, и варьируется от бледно-серого до коричневого.</p><details><summary>Информация с боковых панелей</summary><h2>Трепетный обмен</h2><p>Пуквуджи в значительной степени полагаются на свои знания местных растений, которые они используют для приготовления пищи, лекарств, магического оружия и своего фирменного яда. Если к пуквуджам проявляют должное уважение, они обменивают свои творения на предметы, которые считают ценными. Они не жалеют монет, но принимают в качестве платы уникальную пищу, красивые вещи и даже интересные истории. Однако малейший проступок может быстро превратить встречу с пуквуджем во враждебную.</p></details>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "t6jDWd2ugfdQo2h9",
+                    "name": "Секира"
+                },
+                {
+                    "id": "e81mjeZGp9mKBDKv",
+                    "name": "Изменение формы",
+                    "description": "<p>Пуквуджи принимает физический облик гигантского дикобраза или возвращается к естественной форме. В форме дикобраза его размер меняется на Средний, но он теряет \"Удары\" оружием и получает \"Удар\" иголками (<strong>Атака ближнего боя:</strong> +27, <strong>Урон:</strong> 3d10+11 колющего урона + 2d8 продолжительного урона ядом).</p><hr><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+                },
+                {
+                    "id": "JQcN49zNIu4wTuSg",
+                    "name": "Защитные иглы",
+                    "description": "<p>Существо, попавшее по пуквуджу безоружный \"Ударом\" или не-@Trait[Reach]{длинным} \"Ударом\" ближнего боя, получает @Damage[6d6[piercing]] (простой спасбросок @Check[reflex|dc:33|basic]{Рефлекса}). При критическом провале спасброска существо также получает @Damage[2d6[persistent,poison]] от отравленных игл.</p>"
+                },
+                {
+                    "id": "lV8lCapoUOFDMPz8",
+                    "name": "Яд пуквуджа",
+                    "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:36]</p><hr><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @Damage[1d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 1} (1 Раунд)</p><p><strong>Стадия 2:</strong> @Damage[1d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Одурманен 2} (1 Раунд)</p><p><strong>Стадия 3:</strong> @Damage[1d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство}, и Одурманен 2 (1 Раунд)</p>"
+                },
+                {
+                    "id": "lGFDmPhDxFNEVo95",
+                    "name": "Невидимость (По желанию, себя)"
+                }
+            ]
+		},
+        "Tanglebriar Creeper": {
+			"name": "Кошмар Терновника",
+            "tokenName": "Кошмар Терновника",
+			"img": "",
+            "tokenImg": "",
+            "description": "<p>Чудовищные, раздутые пауки из продуваемого всеми ветрами Ленга строят жуткие, опасные логова с помощью магически принужденных рабов. У ленгских пауков от пяти до 13 ног, но всегда нечётное количество.</p><details><summary>Информация с боковых панелей</summary><h2>Храмы паутины</h2><p>Ленгские пауки строят сложные логова из своей паутины, многие из которых служат двойной цели - они являются храмами сверхъестественных богов, которых они почитают. Большинство ленгских пауков поклоняются Внешним Богам, таким как Хастур, Ньярлатхотеп или Йог-Согот, среди прочих.</p></details>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "sR5alX5hZopxwTLw",
+                    "name": "Бола из паутины"
+                },
+                {
+                    "id": "6U0xCdudnhZPawQv",
+                    "name": "Цеп из паутины"
+                },
+                {
+                    "id": "fcCuiTHr7ed8LhqK",
+                    "name": "Клыки"
+                },
+                {
+                    "id": "Wvss2Toe2q47z9GS",
+                    "name": "Нога"
+                },
+                {
+                    "id": "N8OPQrQXn7YLXcis",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "iINgbpwr9zD0DJ0d",
+                    "name": "Быстрое исцеление 15"
+                },
+                {
+                    "id": "snsO2nPGYHe6pZx0",
+                    "name": "Создать оружие из паутины",
+                    "description": "<p>Кошмар терновника создаёт оружие,прикрепляя шнур из паутины к тяжелым предметам, таким как камни или куски металла, либо соединяя два тяжелых предмета вместе, чтобы создать болу, либо прикрепляя один к своей ноге, чтобы создать боевой цеп.</p><p>Любое оружие ближнего боя, созданное кошмар терновника, также становится пропитанным токсином и наносит дополнительные 1d6 урона ядом при попадании.</p>"
+                },
+                {
+                    "id": "0hkOF2WHkLhHAEjQ",
+                    "name": "Спуск на паутине",
+                    "description": "<p>Кошмар терновника двигается строго вниз на расстояние вплоть до 120 футов, удерживаемый нитью паутины. Он может висеть на паутине или отцепиться от нее. Расстояние, которое он <em>\"Спускается на паутине\"</em> не считается для урона от падения.</p><p>Существо может \"Ударом\" рассечь паутину (КБ 30, Твердость 15, 25 ОЗ), из-за чего Кошмар терновника падает.</p>"
+                },
+                {
+                    "id": "sWbaqjXgO4EigI5j",
+                    "name": "Разложить ловушку из паутины",
+                    "description": "<p><strong>Частота:</strong> 3 раза в день</p><hr><p>Кошмар терновника плетет паутину в радиусе 20 футов от себя, чтобы создать @UUID[Compendium.pf2e.equipment-srd.Item.TFnr9Gq7VXPJu0GQ], @UUID[Compendium.pf2e.equipment-srd.Item.a2XaerM1KkPyLIPM] или @UUID[Compendium.pf2e.equipment-srd.Item.XU8u9F3uoesGDjgM]. Паутина Кошмара терновника дает ему все необходимое сырьё. Все спасброски и КС чтобы @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Вырваться} ([[/act escape dc=43]]), связанные с ловушками из паутины, используют КС Ремесла для ловушек (КС 43) Кошмара терновника. Ловушка из паутины распадается через 24 часа.</p>"
+                },
+                {
+                    "id": "iw7xcu7OkpYHYyQ2",
+                    "name": "Отличное паутинное чутьё",
+                    "description": "<p>Когда касается своей паутины, кошмар терновника обладает неточной @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.j2wsK6IsW5yMW1jW]{Виброчувствительностью} для обнаружения вибраций от существ, касающихся его паутины.</p>"
+                },
+                {
+                    "id": "k4tbzCH8jMb0d1Qk",
+                    "name": "Яд кошмара терновника",
+                    "description": "<p><strong>Спасбросок:</strong> @Check[fortitude|dc:36]{Стойкость}</p><p><strong>Макс.продолжительность:</strong> 6 раундов</p><p><strong>Стадия 1:</strong> @Damage[2d6[poison]] и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощён 1} (1 раунд)</p><p><strong>Стадия 2:</strong> @Damage[2d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство} и @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Истощён 2} (1 минута); эффект @Condition[Confused]{замешательства} обладает признаками @Trait[Emotion]{эмоция} и @Trait[Mental]{ментальный}.</p>"
+                },
+                {
+                    "id": "iZxDrmolCkhIxWO6",
+                    "name": "Дистанционное опрокидывание",
+                    "description": "<p>Кошмар терновника может использовать бола из паутины, чтобы @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Опрокинуть} цель проверкой Атлетики. Эта проверка имеет штраф обстоятельства −2. Бола из паутины не наносит урона, когда используется, чтобы \"Опрокинуть\".</p>"
+                },
+                {
+                    "id": "dN1NwYPhuayf0ZIz",
+                    "name": "Истинная речь (Постоянно)"
+                },
+                {
+                    "id": "XVcUwP4ZAyolJQnh",
+                    "name": "Полет (Постоянно)"
+                }
+            ]
+		},
+        "Swamp Blight": {
+			"name": "Болотная плесень",
+            "tokenName": "Болотная плесень",
+			"img": "",
+            "tokenImg": "",
+            "description": "<p>Болотная плесень предстает как дрожащая капля отвратительной коричневой и зеленой грязи, из которой выглядывают десятки ненавистных красных глаз.</p><hr><p>Плесени - это искажения гнева природы.</p><hr><h2>Болотная Нежить</h2><p>Хотя болотная плесень может подчинять себе нежить в своих проклятых владениях, она предпочитает использовать эту силу для сбора и контроля нежити, которая процветала бы в болотистом окружении. При построении столкновения с болотной плесенью, рассмотрите возможность корректировки существующей нежити, чтобы она больше соответствовала тематически болотистой местности, и избегайте использования нежити, которая не имела бы смысла в таком регионе. Корректировка врожденных заклинаний существа-нежити, чтобы сделать их сакральными заклинаниями, связанными с болотистыми регионами, - отличный способ добиться такой кастомизации.</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "esPEKLLtemdZde2G",
+                    "name": "Разлагающаяся плоть"
+                },
+                {
+                    "id": "vTivo3M2rcdrS1U9",
+                    "name": "Жало"
+                },
+                {
+                    "id": "Hpnp9sOhmA6SZeqA",
+                    "name": "Извергнуть гниль",
+                    "description": "<p><strong>Триггер:</strong> Существо в пределах 20 футов от болотной плесени наносит урон плесени</p><hr><p>Болотная плесень с силой извергает гнилую органику в нападающего, нанося ему @UUID[Compendium.pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Удар} разлагающейся плотью.</p>"
+                },
+                {
+                    "id": "Ek7f9vg0YLD3SmX7",
+                    "name": "Зов топи",
+                    "description": "<p><strong>Частота:</strong> 1/Раунд</p><hr><p>Аура сверкающих огней окружает болотную плесень, заставляя цель, которую видит болотная плесень и которая находится в пределах 60 футов, двигаться к ней. Это не принудительное перемещение и может заставить существ перемещаться по опасной местности. Цель должна совершить @Check[will|dc:38].</p><hr><p><strong>Крит.Успех:</strong> Существо становится временно невосприимчивым к Зову топи на 1 Час.</p><p><strong>Успех:</strong> Цель немедленно Перемещение или иным образом использует свою самую быструю Скорость, чтобы приблизиться к болотной плесени. Это перемещение не стоит цели действий. В свой следующий ход цель не может добровольно отойти дальше от плесени, но в остальном может действовать нормально.</p><p><strong>Провал:</strong> Как Успех, за исключением того, что цель тратит все свои действия в свой следующий ход также на приближение к плесени, если она еще не является смежной, и не может предпринимать никаких других действий в течение 1 Раунда. Кроме того, цель не может добровольно отойти дальше от плесени в течение 1 Минуты.</p><p><strong>Крит.Провал:</strong> Как Провал, за исключением того, что единственными действиями существа является приближение к плесени в течение 1 Минуты.</p>"
+                },
+                {
+                    "id": "8wHudiQfa99uH0vB",
+                    "name": "Контролировать владения",
+                    "description": "<p>Плесень проецирует свои чувства в любую точку своих проклятых владений, получая точное представление об окружающей обстановке в радиусе 500 футов до конца своего следующего хода. Плесень может сотворить @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Подчинение} через эту сенсорную связь. Плесень может Поддерживать эту способность, но не может использовать ее для расширения своих чувств за пределы своих владений.</p>"
+                },
+                {
+                    "id": "MIe6z3p4TMVFmAaU",
+                    "name": "Аура Комаров",
+                    "description": "<p>30 футов. Комары окружают плесень. Комары игнорируют существ, которых плесень обозначает как союзников, а также всех, кто имеет полные ОЗ. Все другие существа, которые входят в ауру или начинают свой ход внутри нее, получают @Damage[(2d6)[persistent,bleed]] при @Check[fortitude|dc:35].</p><hr><p><strong>Крит.Успех:</strong> Существо не получает урона.</p><p><strong>Успех:</strong> Существо получает половину урона.</p><p><strong>Провал:</strong> Существо получает полный урон и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1}.</p><p><strong>Крит.Провал:</strong> Существо получает двойной урон и @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2}.</p>"
+                },
+                {
+                    "id": "aDhi9XrvRPZGGELa",
+                    "name": "Быстрое исцеление 30",
+                    "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+                },
+                {
+                    "id": "BLdkNidRdojGz90U",
+                    "name": "Подчинение плесени",
+                    "description": "<p>Все плесени могут сотворить @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Подчинение} в качестве врожденного сакрального заклинания, но могут нацеливаться только на @Trait[Animal]{Животное}, @Trait[Beast]{Чудовище}, @Trait[Fungus]{Грибковый}, @Trait[Ooze]{Слизь}, @Trait[Plant]{Растение} или @Trait[Undead]{Нежить}, которые находятся в пределах их проклятых владений. Если существо, подчиненное этим заклинанием, покидает проклятые владения, эффекты <em>подчинения</em> немедленно прекращаются, но до тех пор, пока подчиненное существо остается в проклятых владениях, продолжительность действия неограниченна. Когда плесень нацеливается на @Trait[Mindless]{Неразумный} @Trait[Fungus]{Грибковый}, @Trait[Ooze]{Слизь} или @Trait[Plant]{Растение}, ее заклинание <em>подчинения</em> теряет признак @Trait[Mental]{Ментальный}.</p>"
+                },
+                {
+                    "id": "LuAy4QdolmpZrOfg",
+                    "name": "Проклятое владение",
+                    "description": "<p>Существа-гуманоиды, умирающие в проклятых владениях болотной плесени, наполняются энергией пустоты. Через 24 Часа они восстают в виде существ-нежити своего уровня или ниже. Существа, чьи тела были неповреждены, обычно становятся зомби или мумиями, в то время как те, чьи тела были сильно повреждены, обычно восстают в виде теней или бхутов. Эта нежить автоматически не находится под прямым контролем болотной плесени, но она потенциально может быть подчинена болотной плесенью.</p><hr><p>Раз в год, находясь в местности, совместимой со своим типом (например, болоте для болотной плесени), плесень может наполнить окружающую землю своей искаженной сущностью, выполнив ритуал, который занимает один день. Регион в радиусе 5 миль становится ее проклятыми владениями; этот эффект не распространяется на несовместимую местность и не перемещается вместе с плесенью. Точка, в которой плесень прокляла владения, становится ее эпицентром.</p><p>В своих проклятых владениях плесень игнорирует всю немагическую сложную местность и всегда получает преимущества действия @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Замести следы}. Плесени также обладают неточным чувством местонахождения всех существ в своих владениях и могут общаться со всеми разумными существами, обнаруженными в их владениях, используя телепатию. Проклятые владения каждой плесени обладают дополнительными свойствами, специфичными для типа плесени. Плесень за пределами проклятых владений становится @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Замедлен 1}, пока не вернется в свои собственные или другие проклятые владения плесени.</p><p>Устранение этого проклятия требует персонажа со способностью @UUID[Compendium.pf2e.feats-srd.Item.zGrUu3dUtqHrqGuo]{Снятие Проклятия} (или аналогичной способностью); это действие должно быть выполнено в эпицентре проклятых владений. Если плесень, которая прокляла владения, мертва, проверки для противодействия проклятым владениям получают Бонус Обстоятельства +4.</p>"
+                },
+                {
+                    "id": "uZiJtdvDjUk2umPP",
+                    "name": "Восстановление",
+                    "description": "<p>Если плесень убита в своих проклятых владениях, ее тело растворяется в окружающей среде, и новая плесень того же типа спонтанно формируется через [[/gmr 1d10 #Days]]{1d10} дней в эпицентре проклятых владений, если проклятие не будет снято до этого. Новая плесень сохраняет все воспоминания о предыдущей плесени.</p>"
+                },
+                {
+                    "id": "a6tGUz3QzuHcYSJA",
+                    "name": "Брызги внутренностей",
+                    "description": "<p>Цели, пораженные Ударом разлагающейся плоти, должны преуспеть в @Check[fortitude|dc:40] или стать @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 2} при критическом провале). Это состояние суммируется само с собой и с состоянием тошноты от ауры комаров, до максимального значения @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Тошнота 4}. Если Удар попадает критически, цель также получает @Damage[(2d6)[persistent,acid]]</p>"
+                },
+                {
+                    "id": "4CSJKJuWyaBe59gQ",
+                    "name": "Путь природы (По желанию, Проклятое владение)",
+                    "description": "<p>Вы входите в живое дерево с достаточно большим стволом, чтобы вы поместились внутри, и мгновенно телепортируетесь к любому дереву того же вида в радиусе 5 миль, которое также имеет достаточно большой ствол. Как только вы входите в первое дерево, то сразу же узнаете примерное расположение других достаточно больших деревьев того же вида в пределах дистанции, и если хотите, можете выйти из исходного дерева. Вы не можете переносить с собой @Trait[Extradimensional]{межпространственные} карманы; если вы пытаетесь это сделать, то заклинание проваливается.</p><hr><p><strong>Усиление (6-й):</strong> Выходное дерево может быть на расстоянии вплоть до @Unit[Mile|50]{50 миль}.</p><p><strong>Усиление (8-й):</strong> Выходное дерево может быть на расстоянии вплоть до @Unit[Mile|500]{500 миль}.</p><p><strong>Усиление (9-й):</strong> Выходное дерево может быть где угодно на той же планете.</p>"
+                },
+                {
+                    "id": "z0G37OMWDmxVEYW4",
+                    "name": "Приказ (По желанию, Растения)",
+                    "description": "<p>Вы выкрикиваете команду, которую трудно проигнорировать. Вы можете приказать цели приблизиться к вам, убежать (как если бы у нее было состояние @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Бегство}), отпустить то что она держит, упасть @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Ничком} или стоять на месте. Она не может @UUID[Compendium.pf2e.actionspf2e.Item.A72nHGUtNXgY5Ey9]{Выждать} или использовать никакие реакции, пока не выполнит ваш приказ. Эффекты зависят от спасброска Воли.</p><hr><p><strong>Успех:</strong> Существо невредимо.</p><p><strong>Провал:</strong> В качестве первого действия во время следующего хода, существо обязано использовать одно действие, чтобы выполнить ваш приказ.</p><p><strong>Критический провал:</strong> Существо обязано использовать все свои действия во время следующего хода, чтобы подчиниться вашему приказу.</p><hr><p><strong>Усиление (5-й):</strong> Вы можете выбрать целями вплоть до 10 существ.</p>"
+                },
+                {
+                    "id": "NgNWyzxqEVCohhuN",
+                    "name": "Подчинение (По желанию)",
+                    "description": "<p>Вы берёте контроль над целью, заставляя ее подчиняться вашим приказам. Если вы даете заведомо саморазрушительный приказ, цель не действует, пока вы не отдадите новый приказ. Эффект зависит от её спасброска Воли.</p><hr><p><strong>Критический успех:</strong> Цель невредима.</p><p><strong>Успех:</strong> Цель @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Ошеломлена 1}, поскольку она сопротивляется вашим командам.</p><p><strong>Провал:</strong> Вы контролируете цель. Она становится @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Под контролем}, но может совершать спасбросок Воли в конце каждого своего хода. В случае успеха, заклинание заканчивается.</p><p><strong>Критический провал:</strong> Как провал, но цель получает новый спасбросок только если вы отдаете ей новый приказ, который противоречит её сущности, такой, как убийство союзников.</p><hr><p><strong>Усиление (10-й):</strong> Продолжительность неограниченна.</p>"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+        "Briargeist": {
+			"name": "Гейст Терновника",
+            "tokenName": "Гейст Терновника",
+			"img": "",
+            "tokenImg": "",
+            "description": "<p>Гейст Терновника - это вердориты, уникальные для Спутанного Терновника. Тысячелетия, проведенные под пропитывающим разлагающим влиянием Древотеса, даровали им гораздо большую силу, исказив их формы от смутно гуманоидных до ожившего переплетения колючих лоз, корней и грибковых наростов.</p><hr><h2>О Вердоритах</h2><p>Вердориты - это разъяренные призрачные отголоски, остающиеся после катастрофического краха экосистемы. Взывая к сущностям миллионов истребленных растений и животных, они наказывают всех, кого считают виновными в катастрофе, а также любого, кто попытается навредить землям, к которым они привязаны. Дополнительные сведения о вердоритах приведены на страницах 164–165 Pathfinder Book of the Dead.</p>",
+            "prependAdjective": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "80pxiEmzRczDj9pV",
+                    "name": "Опутывающие лианы (По желанию)"
+                },
+                {
+                    "id": "VC2ssjXaTWcqum30",
+                    "name": "Путь природы (По желанию, Спутанный Терновник)"
+                },
+                {
+                    "id": "F6pyoNxjNBLuniJk",
+                    "name": "Разговор с растениями (Постоянно)"
+                },
+                {
+                    "id": "WkxF0ZMSKrmWF5jJ",
+                    "name": "Заражающие семена"
+                },
+                {
+                    "id": "bajVfJLtthRLAsny",
+                    "name": "Лиана"
+                },
+                {
+                    "id": "u71dBWt6z2xvVz6E",
+                    "name": "Постоянные заклинания"
+                },
+                {
+                    "id": "0N5GY4XcVHzGR8tX",
+                    "name": "Зависимость от Спутанного Терновника",
+                    "description": "<p>Гейст терновника связан со Спутанным Терновником и должен оставаться в его пределах. Если Гкйст терновника выходит за пределы Спутанного Терновника, он немедленно уничтожается.</p>"
+                },
+                {
+                    "id": "WduwOgbxTddKUpJj",
+                    "name": "Сбивающий с толку токсин",
+                    "description": "<p><strong>Спасбросок:</strong> @Check[Воли|dc:36]</p><p><strong>Макс.Продолж.:</strong> 6 Раундов</p><p><strong>Стадия 1:</strong> @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Слепота} и @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Застигнут Врасплох} (1 Раунд)</p><p><strong>Стадия 2:</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Замешательство} и Застигнут Врасплох (1 Раунд)</p><p><strong>Стадия 3:</strong> @Damage[(3d10)[ментальный]], Замешательство и Застигнут Врасплох (1 Раунд)</p>"
+                },
+                {
+                    "id": "D6o2RP0FL2AhYsFn",
+                    "name": "Терновая Лоза",
+                    "description": "<p>Бестелесные семена, извергнутые из Гейста Терновника, быстро растут, когда повреждают живых существ. Живые существа, получившие урон от заражающего семени гейста терновника, должны совершить @Check[fortitude|dc:36] со следующими эффектами. Живое существо может быть носителем только одной терновой лозы одновременно; существу, у которого в настоящее время растет терновая лоза после провала предыдущего спасброска, не нужно совершать дополнительные спасброски Стойкости.</p><hr><p><strong>Крит.успех:</strong> Семени не удается пустить корни.</p><p><strong>Успех:</strong> Семени не удается пустить корни, но цель все же получает @Damage[(2d10)[void]], поскольку семя отмирает.</p><p><strong>Провал:</strong> Семя пускает корни внутри цели и наносит @Damage[(2d10)[void]]. В начале следующего хода существа из его тела вырастает длинная призрачная колючая лоза. Этот призрачный нарост совершает действие @UUID[Compendium.pf2e.actionspf2e.Item.nwq9isiFaxgdkTo3]{Удар} (как если бы гейст терновника совершал атаку) против случайно выбранного союзника существа-носителя в пределах досягаемости в начале хода существа-носителя. Если подходящей цели нет, лоза наносит @Damage[(2d10)[void]] (@Check[fortitude|dc:36|basic:true]) носителю. Носитель может предпринять новую попытку спасброска Стойкости в конце каждого из своих ходов; в противном случае этот эффект автоматически заканчивается через 1 Минуту.</p><p><strong>Крит.провал:</strong> Как Провал, за исключением того, что носитель не может предпринимать новые попытки спасбросков Стойкости, чтобы досрочно прекратить действие терновой лозы.</p>"
+                }
+            ]
+		},
 
 
+        
 
 		"creature": {
 			"name": "",
@@ -1965,10 +2619,12 @@
 				},
 				"effects": 1,
 				"subject": {
-				  "scale": 1,
+				  "scale": 1.28,
 				  "texture": null
 				}
 			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
             "tokendisplayBars": 40,
             "tokendisplayName": 20,
             "items": [

@@ -28,10 +28,11 @@ $(document).on('click', '.read', function(event) {
   }
 });
 
-Hooks.on('init', () => {
-  Babele.get().register({
-      module: 'pf2e-ts-adv',
-      lang: 'ru',
-      dir: 'compendium'
+Hooks.once("babele.init", (babele) => {
+  babele.register({
+    module: "pf2e-ts-adv", 
+    lang: "ru",
+    dir: "compendium"      
   });
+  console.log("Ваш модуль зарегистрирован в Babele для перевода компедиумов");
 });
