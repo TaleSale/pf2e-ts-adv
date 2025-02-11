@@ -735,6 +735,7 @@ class TSButton {
 
         { pattern: /The target is unaffected/gi, replacement: 'Цель невредима' },
         { pattern: /The target is/gi, replacement: 'Цель получает' },
+        { pattern: /The creature takes/gi, replacement: 'Цель получает' },
         { pattern: /once per day/gi, replacement: '1/День' },
         { pattern: /, plus overcharge/gi, replacement: ', плюс Перегрузка' },
         { pattern: /The creature is unaffected/gi, replacement: 'Существо невредимо' },

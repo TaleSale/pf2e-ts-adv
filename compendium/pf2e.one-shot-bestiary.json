@@ -1,0 +1,182 @@
+{
+	"label": "One-Shots",
+	"mapping": {
+        "name": {
+            "path": "name",
+            "converter": "actorNameConverter"
+        },
+        "items": {
+            "path": "items",
+            "converter": "actorItemCollectionConverter"
+        },
+        "description": "system.details.publicNotes",
+        "img": "img",
+        "tokenName": "prototypeToken.name",
+		"ring": "prototypeToken.ring",
+        "tokenImg": "prototypeToken.texture.src",
+        "tokenvision": "prototypeToken.sight.enabled",
+        "tokendisplayBars": "prototypeToken.displayBars",
+        "tokendisplayName": "prototypeToken.displayName",
+        "randomImg": "prototypeToken.randomImg",
+        "hstealth": "system.attributes.stealth.details",
+        "hdisable": "system.details.disable",
+        "hdescription": "system.details.description",
+        "hreset": "system.details.reset",
+        "hroutine": "system.details.routine",
+        "prependAdjective": "prototypeToken.prependAdjective",
+        "appendNumber": "prototypeToken.appendNumber",
+        "actorLink": "prototypeToken.actorLink",
+        "scaleX": "prototypeToken.texture.scaleX",
+        "scaleY": "prototypeToken.texture.scaleY"
+    },
+	"entries": {
+		"Darius": {
+			"name": "Дариус",
+            "tokenName": "Дариус",
+			"img": "modules/pf2e-ts-adv/one-shot/a-fistful-of-flowers/actors/darius.webp",
+            "tokenImg": "modules/pf2e-ts-adv/one-shot/a-fistful-of-flowers/actors/darius.webp",
+            "description": "",
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "zud8SIUSP9JFpUK6",
+                    "name": "Ключ от Кладовой",
+                    "description": "Ключ от Кладовой"
+                },
+                {
+                    "id": "gAWcBmqlxvNk6biL",
+                    "name": "Одежда в Воске",
+                    "description": "<p>Обычная одежда имеет базовый пошив, такой как одежда для крестьян, монашеская одежда или рабочая одежда.</p>"
+                },
+                {
+                    "id": "awiTMgWCM0KexLLD",
+                    "name": "Распылитель Воска"
+                },
+                {
+                    "id": "L0XHKXE9uSNSy90h",
+                    "name": "Размешиватель Воска"
+                },
+                {
+                    "id": "xaLR3kxqklsAogya",
+                    "name": "Метаболизация Мутагена",
+                    "description": "<p>Дариус впитывает силу активного мутагена, чтобы исцелить себе [[/r 2d6[healing]]]{2d6 ОЗ}, после чего действие активного мутагена заканчивается.</p>"
+                },
+                {
+                    "id": "2KlbsyUe3x0xTxPs",
+                    "name": "Распыление Воска",
+                    "description": "<p>Дариус распыляет горячий воск из Распылителя Воска в @Template[type:cone|distance:15] со @Check[type:reflex|dc:20|showDC:gm]. Восковые Гомункулы, вместо урона и спаса, исцеляют [[/r (2d6)[healing]]]{2d6 ОЗ}</p><hr><p><strong>Крит.Успех:</strong> Существо невредимо</p><p><strong>Успех:</strong> Существо получает @Damage[(2d6)[fire]]</p><p><strong>Провал:</strong> Существо получает @Damage[(3d6)[fire],(1d6)[persistent,fire]]</p><p><strong>Крит.Провал:</strong> Существо получает @Damage[(5d6)[fire],(2d6)[persistent,fire]]</p><hr><p>После использования Распылителя Воска Дариус не может использовать его вновь пока на потратит 2 действия на @Compendium[pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Взаимодействовать}, находясь рядом с котлом с горячим воском, чтобы перезарядить Распылителя Воска.</p>"
+                },
+                {
+                    "id": "1AYgyqie1Elv3mKg",
+                    "name": "Кристаллические Когти и Челюсти",
+                    "description": "<p>Когда Дариус выпивает свой @Compendium[pf2e.equipment-srd.VISk5uLPVIvNWovB], его Когти и Челюсти отрастают с острыми кристаллическими краями, что увеличивает их кость урона .</p><blockquote><p>Для активации эффекта правильно, просто поставьте галочку в режиме сверху</p></blockquote>"
+                }
+            ]
+		},
+
+
+
+
+
+		"creature": {
+			"name": "",
+            "tokenName": "",
+			"img": "",
+            "tokenImg": "",
+            "description": "",
+            "prependAdjective": true,
+			"actorLink": true,
+            "tokenvision": true,
+			"ring": {
+				"enabled": true,
+				"colors": {
+				  "ring": null,
+				  "background": null
+				},
+				"effects": 1,
+				"subject": {
+				  "scale": 1.28,
+				  "texture": null
+				}
+			},
+            "scaleX": 1.2,
+            "scaleY": 1.2,
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "112",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "113",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "114",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "115",
+                    "name": "111",
+                    "description": "111"
+                }
+            ]
+		},
+		"hazard": {
+			"name": "",
+            "tokenName": "",
+            "img": "",
+            "tokenImg": "",
+            "tokendisplayBars": 40,
+            "tokendisplayName": 20,
+            "hstealth": "",
+            "hdescription": "",
+            "hdisable": "",
+            "hroutine": "",
+            "hreset": "",
+            "items": [
+                {
+                    "id": "111",
+                    "name": "111",
+                    "description": "111"
+                },
+                {
+                    "id": "222",
+                    "name": "222",
+                    "description": "222"
+                },
+                {
+                    "id": "333",
+                    "name": "333",
+                    "description": "333"
+                }
+            ]
+		}
+	}
+}
