@@ -1,3 +1,8 @@
-2025/03/02-10:22:09.560 2030 Recovering log #3177
-2025/03/02-10:22:09.650 2030 Delete type=0 #3177
-2025/03/02-10:22:09.651 2030 Delete type=3 #3175
+2025/03/24-11:47:00.889 7d8 Recovering log #3238
+2025/03/24-11:47:01.057 7d8 Delete type=0 #3238
+2025/03/24-11:47:01.057 7d8 Delete type=3 #3237
+2025/03/24-15:17:16.549 2efc Level-0 table #3242: started
+2025/03/24-15:17:16.549 2efc Level-0 table #3242: 0 bytes OK
+2025/03/24-15:17:16.567 2efc Delete type=0 #3240
+2025/03/24-15:17:16.658 2efc Manual compaction at level-0 from '!scenes!0k7aFMBJRDzX3HJN' @ 72057594037927935 : 1 .. '!scenes.walls!yBdjoYzxXENPUQqH.zWWEUZrqJzsgBMHP' @ 0 : 0; will stop at (end)
+2025/03/24-15:17:16.658 2efc Manual compaction at level-1 from '!scenes!0k7aFMBJRDzX3HJN' @ 72057594037927935 : 1 .. '!scenes.walls!yBdjoYzxXENPUQqH.zWWEUZrqJzsgBMHP' @ 0 : 0; will stop at (end)

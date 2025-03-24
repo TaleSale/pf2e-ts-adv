@@ -741,6 +741,12 @@ class TSButton {
         { pattern: /The creature takes full damage/gi, replacement: 'Существо получает полный урон' },
         { pattern: /The creature takes double damage/gi, replacement: 'Существо получает двойной урон' },
         { pattern: /The creature takes/gi, replacement: 'Существо получает' },
+        { pattern: /The target takes no damage/gi, replacement: 'Цель не получает урона' },
+        { pattern: /The target takes half damage./gi, replacement: 'Цель получает половину урона' },
+        { pattern: /The target takes full damage/gi, replacement: 'Цель получает полный урон' },
+        { pattern: /The target takes double damage/gi, replacement: 'Цель получает двойной урон' },
+        { pattern: /The target takes/gi, replacement: 'Цель получает' },
+
         { pattern: /once per day/gi, replacement: '1/День' },
         { pattern: /, plus overcharge/gi, replacement: ', плюс Перегрузка' },
         { pattern: /The creature is unaffected/gi, replacement: 'Существо невредимо' },
