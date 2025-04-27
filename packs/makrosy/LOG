@@ -1,8 +1,3 @@
-2025/03/24-11:47:01.437 2500 Recovering log #469
-2025/03/24-11:47:01.873 2500 Delete type=0 #469
-2025/03/24-11:47:01.873 2500 Delete type=3 #468
-2025/03/24-15:17:16.733 2efc Level-0 table #473: started
-2025/03/24-15:17:16.753 2efc Level-0 table #473: 9407 bytes OK
-2025/03/24-15:17:16.782 2efc Delete type=0 #471
-2025/03/24-15:17:17.041 2efc Manual compaction at level-0 from '!macros!5p68ZGDBJLGJNqRJ' @ 72057594037927935 : 1 .. '!macros!udaLdY4HCRM7wFZw' @ 0 : 0; will stop at (end)
-2025/03/24-15:17:17.373 2efc Manual compaction at level-1 from '!macros!5p68ZGDBJLGJNqRJ' @ 72057594037927935 : 1 .. '!macros!udaLdY4HCRM7wFZw' @ 0 : 0; will stop at (end)
+2025/04/22-07:06:09.054 3104 Recovering log #603
+2025/04/22-07:06:09.149 3104 Delete type=0 #603
+2025/04/22-07:06:09.149 3104 Delete type=3 #602

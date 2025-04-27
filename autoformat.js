@@ -746,6 +746,7 @@ class TSButton {
         { pattern: /The target takes full damage/gi, replacement: 'Цель получает полный урон' },
         { pattern: /The target takes double damage/gi, replacement: 'Цель получает двойной урон' },
         { pattern: /The target takes/gi, replacement: 'Цель получает' },
+        { pattern: /until the end of their next turn/gi, replacement: 'до конца своего следующего хода' },
 
         { pattern: /once per day/gi, replacement: '1/День' },
         { pattern: /, plus overcharge/gi, replacement: ', плюс Перегрузка' },
